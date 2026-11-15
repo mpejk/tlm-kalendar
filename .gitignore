@@ -1,0 +1,8 @@
+node_modules
+node_modules.nosync
+tools.nosync
+.DS_Store
+run.log
+test-results
+playwright-report
+.cache
