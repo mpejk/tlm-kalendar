@@ -90,6 +90,13 @@ export function buildRites(dist: string, corpus: Corpus, fix?: { edit(hr: string
     if (!mid.hr) riteGaps.push({ key, section: it.la, la: mid.la });
     it.rows.splice(ri, 1, { ...r, la: r.la.slice(0, a).trim(), hr: r.hr.slice(0, h) + '.' }, mid, { ...r, la: r.la.slice(b).trim(), hr: 'P' + r.hr.slice(h + 3) });
   }
+  // Latin misprints inside the rites (old-site pages and Divinum Officium), found with scripts/verify/latin-words.py and
+  // corrected against the Missal 1962; listed in TYPOS.md
+  const LATIN_FIXES: [string, string][] = [['Opéruit cselos', 'Opéruit cælos'], ['hearéticis', 'hæréticis'], ['incólumen custódiat', 'incólumem custódiat'], ['orbe terrarium', 'orbe terrárum'], ['ministéris et potestátibus', 'ministériis et potestátibus'], ['suffícere posit', 'suffícere possit'], ['désuper context per', 'désuper contéxta per'],
+    ['conctis vetustátis', 'cunctis vetustátis'], ['facit super earn', 'facit super eam'], ['ministranttiun', 'ministrantium'], ['nómine santæ Trinitátis', 'nómine sanctæ Trinitátis'], ['semetípsis seméntum', 'semetípsis seméntem']];
+  const used = new Set<string>();
+  for (const doc of Object.values<any>(out)) for (const it of doc.items) for (const r of it.rows ?? []) if (typeof r.la === 'string') for (const [x, y] of LATIN_FIXES) if (r.la.includes(x)) { r.la = r.la.split(x).join(y); used.add(x); }
+  for (const [x] of LATIN_FIXES) if (!used.has(x)) throw new Error('rites: Latin correction matched nothing: ' + x);
   // the Pope's name in place of the placeholder (Good Friday, Exsultet); the bishop's stays "N."
   if (pope) for (const doc of Object.values<any>(out)) for (const it of doc.items) for (const r of it.rows ?? []) {
     if (typeof r.la === 'string' && pope.la?.abl) r.la = r.la.replace(/(Papa nostro) N\./g, `$1 ${pope.la.abl}`);

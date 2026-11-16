@@ -10,7 +10,7 @@ const all = fs.readFileSync(src, 'utf8').split('\n').map(l => l.replace(/\s+$/, 
 const from = all.findIndex(l => /^!!\s*Gloria/.test(l)); if (from < 0) throw new Error('no Gloria heading');
 const L = all.slice(from);
 // accents and capitals the source file leaves out, as printed in the Missale Romanum 1962, p. 212 (PDF 293)
-const FIX: [string, string][] = [['noctem gloria domínicæ', 'noctem glória domínicæ'], ['Lectio Epistolæ beati Pauli apostoli ad Colossenses.', 'Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.'], ['Fratres: si consurrexístis', 'Fratres: Si consurrexístis'], ['Laudáte Dominum omnes gentes', 'Laudáte Dóminum, omnes gentes'], ['Paschálibus satiásti tua fácias', 'paschálibus satiásti, tua fácias']];
+const FIX: [string, string][] = [['noctem gloria domínicæ', 'noctem glória domínicæ'], ['Lectio Epistolæ beati Pauli apostoli ad Colossenses.', 'Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.'], ['Fratres: si consurrexístis', 'Fratres: Si consurrexístis'], ['Laudáte Dominum omnes gentes', 'Laudáte Dóminum, omnes gentes'], ['Paschálibus satiásti tua fácias', 'paschálibus satiásti, tua fácias'], ['et factu sunt velut', 'et facti sunt velut']];
 const fixed = (s: string) => FIX.reduce((t, [a, b]) => t.split(a).join(b), s);
 const clean = (s: string) => fixed(s.normalize('NFC')).replace(/^[vVrRSMC]\.\s*/, '').replace(/\s*\+\+\s*/g, ' ✠ ').replace(/\s\+\s/g, ' ✠ ').replace(/~\(\d+:\d+\)\s*/, '').replace(/\s+/g, ' ').trim();
 /** the first line that starts with the given words (after the speaker mark), whole */

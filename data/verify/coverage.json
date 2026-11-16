@@ -2,14 +2,14 @@
  "coverage": {
   "masses": 4335,
   "blocks": 49301,
-  "site": 48987,
+  "site": 48998,
   "siteVariant": 1554,
   "kniewald": 292,
-  "missing": 22,
+  "missing": 11,
   "unique": 6241,
-  "uniqueSite": 6191,
+  "uniqueSite": 6193,
   "uniqueKniewald": 45,
-  "uniqueMissing": 5
+  "uniqueMissing": 3
  },
  "rites": [
   {
@@ -32,15 +32,6 @@
  "gaps": [
   {
    "n": 1,
-   "where": "sv. Soter i sv. Kajo, pape, mučenici",
-   "la": "Gregem tuum, Pastor ætérne, placátus inténde: et per beátos Sotérem et Cajum Mártyres tuos atque Summos Pontífices perpétua protectióne custódi; quos totíus Ecclésiæ præstitísti esse pastóres.",
-   "sec": "Sancti/04-22|Oratio",
-   "first": "2026-04-22",
-   "cal": "opci",
-   "core": "gregem tum pastor eterne placatus intende et per beatos soterem et caium martires tuos atque sumos pontifices perpetua protectione custodi quos totius eclesie prestitisti ese pastores"
-  },
-  {
-   "n": 1,
    "where": "sv. Toma iz Villanove, biskup, priznavalac",
    "la": "Annue, quǽsumus, omnípotens Deus: ut sanctórum Martyrum tuórum Maurítii et Sociórum ejus nos lætíficet festíva sollémnitas; ut, quorum suffrágiis nítimur, eórum natalítiis gloriémur.",
    "sec": "Sancti/09-22o|Oratio",
@@ -56,15 +47,6 @@
    "first": "2026-09-22",
    "cal": "opci",
    "core": "respice quesumus domine munera que in sanctorum martirum tuorum mauriti et sotiorum eius comemoratione deferimus et presta ut quorum honore sunt grata eorum nobis fiant intercesione perpetua"
-  },
-  {
-   "n": 1,
-   "where": "sv. Grgur VII., papa, priznavalac",
-   "la": "Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum Urbánum Mártyrem tuum atque Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.",
-   "sec": "Sancti/05-25o|Oratio",
-   "first": "2027-05-25",
-   "cal": "opci",
-   "core": "gregem tum pastor eterne placatus intende et per beatum urbanum martirem tum atque sumum pontificem perpetua protectione custodi quem totius eclesie prestitisti ese pastorem"
   },
   {
    "n": 1,

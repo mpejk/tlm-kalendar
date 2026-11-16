@@ -40,3 +40,29 @@
 - { id: T13-08, formulary: Tempora/Quad6-3, section: LectioL1, find: "Isa 63:1-7", replace: "Isa 62:11; 63:1-7", source: "MR 1962 (PDF 228): Isai. 62, 11; 63, 1-7" }
 - { id: T13-14, formulary: "*", section: Evangelium, find: "Joannes 21:15-10", replace: "Joannes 21:15-19", source: "MR 1962 (PDF 647): Io. 21, 15-19" }
 - { id: T13-x2, formulary: "*", section: "*", find: "Deut 26:1-3; 7-11", replace: "Deut 26:1-11", source: "MR 1962 (PDF 448), Ember Saturday of Pentecost: Deut. 26, 1-11 (same kind of error, beyond the list)" }
+
+# --- misprints of the source data found by comparing every Latin word of the site with the vocabulary of the Missal
+#     (scripts/verify/latin-words.py); the same kind of error as T06. "MR 1962" pages are those where the right reading was found.
+- { id: L01, formulary: "*", section: "*", find: "Acépta tibi sint", replace: "Accépta tibi sint", source: "MR 1962 (PDF 484)" }
+- { id: L02, formulary: "*", section: "*", find: "æstimála est", replace: "æstimáta est", source: "MR 1962, Sap 3, 2 (PDF 634, 818)" }
+- { id: L03, formulary: "*", section: "*", find: "urna áuea", replace: "urna áurea", source: "MR 1962, Hebr 9, 4 (PDF 487)" }
+- { id: L04, formulary: "*", section: "*", find: "deI córem", replace: "decórem", source: "MR 1962, Ps 20, 6 (PDF 643, 746)" }
+- { id: L05, formulary: "*", section: "*", find: "defriménta", replace: "detriménta", source: "MR 1962, Phil 3, 7 (PDF 524)" }
+- { id: L06, formulary: "*", section: "*", find: "Exáudi nos, Deux,", replace: "Exáudi nos, Deus,", source: "obvious misprint" }
+- { id: L07, formulary: "*", section: "*", find: "Difúsa est grátia", replace: "Diffúsa est grátia", source: "Ps 44, 3; obvious misprint (old-site Latin)" }
+- { id: L08, formulary: "*", section: "*", find: "dispósuii mihi", replace: "dispósuit mihi", source: "MR 1962, Lc 22, 29 (PDF 680)" }
+- { id: L09, formulary: "*", section: "*", find: "etevertérunt", replace: "et evertérunt", source: "Dan 13, 9; words run together" }
+- { id: L10, formulary: "*", section: "*", find: "Evangéliim", replace: "Evangélii", source: "obvious misprint" }
+- { id: L11, formulary: "*", section: "*", find: "exprobréverint", replace: "exprobráverint", source: "MR 1962, Lc 6, 22 (PDF 530)" }
+- { id: L12, formulary: "*", section: "*", find: "sancto Gamíllo", replace: "sancto Camíllo", source: "MR 1962, 18 July (sancto Camillo)" }
+- { id: L13, formulary: "*", section: "*", find: "per heec mystéria", replace: "per hæc mystéria", source: "obvious misprint" }
+- { id: L14, formulary: "*", section: "*", find: "ilustrári", replace: "illustrári", source: "MR 1962 (PDF 618)" }
+- { id: L15, formulary: "*", section: "*", find: "beáti Joánni Apóstoli", replace: "beáti Joánnis Apóstoli", source: "title of the Epistle" }
+- { id: L16, formulary: "*", section: "*", find: "1 Joannnes 4:8-21", replace: "1 Joannes 4:8-21", source: "obvious misprint" }
+- { id: L17, formulary: "*", section: "*", find: "cuius præscibus nos", replace: "cuius précibus nos", source: "MR 1962, 31 May (PDF 622)" }
+- { id: L18, formulary: "*", section: "*", find: "quóies vólui", replace: "quóties vólui", source: "Mt 23, 37" }
+- { id: L19, formulary: "*", section: "*", find: "repæséntas", replace: "repræséntas", source: "MR 1962 (PDF 847)" }
+- { id: L20, formulary: "*", section: "*", find: "sanetórum", replace: "sanctórum", source: "obvious misprint" }
+- { id: L21, formulary: "*", section: "*", find: "santificávi", replace: "sanctificávi", source: "Ier 1, 5" }
+- { id: L22, formulary: "*", section: "*", find: "vobisfacio", replace: "vobis fácio", source: "1 Cor 12, 3" }
+- { id: L23, formulary: "*", section: "*", find: "muniémur et précibus", replace: "muniámur et précibus", source: "MR 1962, 27 Dec. (PDF 107)" }

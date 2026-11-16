@@ -80,3 +80,38 @@
   where: "Tempora/Quad6-5r"
   source: "Kniewald, Rimski misal, 1942, str. 263 (pročitano na slici stranice)"
   why: "Veliki petak, molitva za pogane: »non mortem peccatorum, sed vitam« bilo je prevedeno »smrt grijeha«. Uzeta je Kniewaldova rečenica iste molitve, koja ima pravi smisao (smrti grješnika)."
+
+# --- T11: two of the five missing texts are the collect of holy Popes (Gregem tuum), which the old site prints for other
+#     Popes in the singular and in the plural; only the names are put in (mechanical). The other three stay in ZA-PRIJEVOD.md.
+- id: T11-urban
+  la: "Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum Urbánum Mártyrem tuum atque Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem."
+  hr: |-
+    <i>Pomolimo se</i>.
+    Vječni Pastiru, milosno pazi svoje stado i čuvaj vječnom zaštitom po zagovoru blaženoga Urbana, tvoga mučenika i pape koga si postavio za pastira čitave Crkve.
+    <i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>.
+  source: "tradicionalnamisa.com, ista molitva za druge pape mučenike (npr. /kalendar/2017/propers/26052017_0.html, sv. Eleuterije); umetnuto ime"
+  why: "Sv. Urban I. (25. svibnja): molitva je ista kao za ostale pape mučenike, stara stranica je nije imala s ovim imenom."
+- id: T11-soter
+  la: "Gregem tuum, Pastor ætérne, placátus inténde: et per beátos Sotérem et Cajum Mártyres tuos atque Summos Pontífices perpétua protectióne custódi; quos totíus Ecclésiæ præstitísti esse pastóres."
+  hr: |-
+    <i>Pomolimo se</i>.
+    Vječni Pastiru, milosno pazi svoje stado i čuvaj vječnom zaštitom po zagovoru blaženih Sotera i Kaja, tvojih mučenika i papa koje si postavio za pastire čitave Crkve.
+    <i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>.
+  source: "tradicionalnamisa.com, ista molitva u množini za sv. Kleta i Marcelina (/kalendar/2017/propers/26042017_0.html); umetnuta imena"
+  why: "Sv. Soter i Kajo (22. travnja): molitva je ista kao za sv. Kleta i Marcelina, stara stranica je nije imala s ovim imenima."
+
+- id: T12-anicet
+  find: "blaženoga Higina"
+  replace: "blaženoga Aniceta"
+  ifLatin: "Anicétum"
+  why: "Sv. Anicet (17. travnja): stara stranica (2018) uz molitvu s imenom Anicetum tiska hrvatski s imenom sv. Higina. Ispravljeno ime (ista vrsta pogreške kao T12, izvan popisa)."
+
+# --- obvious typos of the old site's Croatian (the same cause as T14), found in the list of suspects in TYPOS.md
+- { id: TY-01, find: "kraIjuje", replace: "kraljuje", why: "veliko I umjesto l" }
+- { id: TY-02, find: "»ospodine, nisam", replace: "»Gospodine, nisam", why: "ispalo početno G" }
+- { id: TY-03, find: "svagdje zavaljujemo tebi", replace: "svagdje zahvaljujemo tebi", why: "predslovlje: zahvaljujemo" }
+- { id: TY-04, find: "pravo i spasnosno", replace: "pravo i spasonosno", why: "predslovlje mise posvete ulja" }
+- { id: TY-05, find: "slavnim na na nebu", replace: "slavnim na nebu", why: "ponovljena riječ" }
+- { id: TY-07, find: "Ocem svojini na prijestolju", replace: "Ocem svojim na prijestolju", why: "svojini umjesto svojim" }
+- { id: TY-08, find: "neka nas. molimo, Gospodine, čuva", replace: "neka nas, molimo, Gospodine, čuva", why: "točka umjesto zareza (molitva za papu)" }
+- { id: TY-09, find: "brani zajedrio s", replace: "brani zajedno s", why: "zajedrio umjesto zajedno (molitva za papu)" }
