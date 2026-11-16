@@ -31,6 +31,17 @@ export function typoOnly(a: string, b: string): boolean {
 }
 let NAMES = new Set<string>();
 const typoPair = (w: string, v: string) => { const d = lev(w, v); const n = Math.max(w.length, v.length); if (NAMES.has(w) || NAMES.has(v)) return d <= 1 && n >= 5; return d <= (n >= 4 ? 2 : 1); };
+/** Looks a normalised Latin block up in a table keyed by such blocks: exactly, else by a key that differs only as a typo does
+ *  (so that a correction of the Latin corpus does not detach the Croatian stored for the uncorrected text). */
+export function nearKey<T>(table: Record<string, T>, core: string): string | undefined {
+  if (table[core] !== undefined) return core;
+  for (const k of Object.keys(table)) if (Math.abs(k.length - core.length) <= 24 && k.slice(0, 12) === core.slice(0, 12) && typoOnly(k, core)) return k;
+  for (const k of Object.keys(table)) if (Math.abs(k.length - core.length) <= 24 && k.slice(-12) === core.slice(-12) && typoOnly(k, core)) return k;
+  // the same text with an Alleluia more or less
+  const noAl = (x: string) => x.replace(/\baleluia\b/g, ' ').replace(/\s+/g, ' ').trim(); const c0 = noAl(core);
+  for (const k of Object.keys(table)) if (Math.abs(k.length - core.length) <= 40 && noAl(k) === c0) return k;
+  return undefined;
+}
 export interface Hit { hr: string; src: 'site' | 'kniewald'; via: 'exact' | 'typo' | 'variant' | 'manual'; page: string; sim?: number; diff?: string; /** key of the block-memory entry that matched */ key?: string }
 
 const BOOKS = new Set('isai esdr iv i ii iii vel neh tren ps sap cant et eccli prov iob dan ier os ioel mal mat marc luc ioan act rom cor gal efes fil col tes tim hebr iac petr apoc ex gen lev num deut reg par tob iudit ester mac postcomunio v p'.split(' '));
@@ -97,7 +108,8 @@ export function makeResolver(file = 'data/tm/blocks.json') {
     if (cache.has(core)) return cache.get(core)!;
     let hit: Hit | null = null;
     const e = tm[core];
-    if (manual[core]) hit = { hr: manual[core].hr, src: 'site', via: 'manual', page: manual[core].page, diff: manual[core].why };
+    const mk = nearKey(manual, core);
+    if (mk) hit = { hr: manual[mk].hr, src: 'site', via: 'manual', page: manual[mk].page, diff: manual[mk].why };
     else if (e) hit = { hr: e.hr, src: 'site', via: 'exact', page: e.src, key: core };
     else {
       const w = core.split(' ');

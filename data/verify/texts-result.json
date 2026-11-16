@@ -1,10 +1,10 @@
 {
  "pages": 791,
- "pagesIdentical": 754,
+ "pagesIdentical": 752,
  "sections": 8205,
- "sectionsExact": 7003,
- "sectionsSpellingOnly": 1173,
- "sectionsExcepted": 29,
+ "sectionsExact": 7028,
+ "sectionsSpellingOnly": 1145,
+ "sectionsExcepted": 32,
  "exceptions": [
   {
    "cause": "St Stephen: the old site says the Creed is not said; it is said on every day of the Christmas octave (Code of Rubrics n. 475d). The calendar follows the rubric.",
@@ -116,6 +116,19 @@
    "pages": [
     "2017-04-13_1",
     "2018-03-29_1"
+   ]
+  },
+  {
+   "cause": "Assumption: the old site prints the gradual in a third Latin version (quia concupivit rex speciem tuam / Omnis gloria eius), although its Croatian translates the text of the 1962 Missal. The calendar has the Missal's text (p. 628): concupiscet Rex pulchritudinem tuam / Tota decora ingreditur filia Regis (review finding T03).",
+   "pages": [
+    "2017-08-15_0",
+    "2018-08-15_0"
+   ]
+  },
+  {
+   "cause": "Saturday Mass of Our Lady in Paschaltide: the old site prints the communion antiphon without Alleluia; in Paschaltide Alleluia is added (Code of Rubrics n. 504; review finding T09).",
+   "pages": [
+    "2017-05-06_0"
    ]
   }
  ]

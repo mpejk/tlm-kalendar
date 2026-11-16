@@ -86,7 +86,7 @@ function diff(an: string, bn: string, max: number) {
     }
   }
   console.log(`views touched: ${touched.size} (added ${added}, removed ${removed}); change groups: ${groups.size}`);
-  const cut = (s: string) => (s.length > 260 ? s.slice(0, 130) + ' […] ' + s.slice(-120) : s);
+  const cut = (s: string) => (s.length > 200 ? s.slice(0, 100) + ' […] ' + s.slice(-90) : s);
   const firstDiff = (x: string, y: string) => { let i = 0; while (i < x.length && x[i] === y[i]) i++; let j = 0; while (j < x.length - i && j < y.length - i && x[x.length - 1 - j] === y[y.length - 1 - j]) j++; const s = Math.max(0, i - 40); return [`…${x.slice(s, x.length - j + 40)}`, `…${y.slice(s, y.length - j + 40)}`].map(cut); };
   let n = 0;
   for (const g of [...groups.values()].sort((p, q) => q.keys.length - p.keys.length)) {
@@ -100,7 +100,7 @@ function diff(an: string, bn: string, max: number) {
 if (process.argv[1]?.endsWith('snapshot.ts')) {
   const [cmd, a, b, c] = process.argv.slice(2);
   if (cmd === 'save') save(a, b ?? 'dist');
-  else if (cmd === 'diff') diff(a, b, Number(c ?? 40));
+  else if (cmd === 'diff') diff(a, b, Number(c ?? 12));
   else if (cmd === 'show') { const s = load(a); const v = s.views[b]; if (!v) console.log('no such view'); else for (const r of v.rows) if (!c || r[0].startsWith(c)) console.log(`## ${r[0]}\n${s.texts[r[1]]}\n--\n${s.texts[r[2]]}\n`); }
   else console.log('usage: save <name> [dist] | diff <a> <b> [maxGroups] | show <name> <cal|date|i> [section]');
 }

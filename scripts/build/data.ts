@@ -14,12 +14,15 @@ import { assembleMass, formulariesFor, LABELS, PREFACES, NOTE } from '../../src/
 import { loadCorpus } from '../../src/assembler/corpus-node';
 import { blockCore, hashKey } from '../../src/assembler/norm';
 import { Block, Formulary, Section, Unit } from '../../src/assembler/types';
-import { makeResolver, resolveLines, Hit } from '../croatian/resolve';
+import { makeResolver, resolveLines, nearKey, Hit } from '../croatian/resolve';
 import { buildRites } from './rites';
+import { makeCorrections } from '../croatian/corrections';
+import { reconcileAlleluia, reconcileGradual } from '../croatian/alleluia';
 
 export const YEARS = { from: 2026, to: 2036 };
 export const POPE = { name: 'Lav XIV.', date: '05-18' };
 const PRAYER = new Set(['Oratio', 'Secreta', 'Postcommunio', 'SuperPopulum']);
+const ANTIPHON = new Set(['Introitus', 'Offertorium', 'Communio']);
 export const fileOf = (id: string) => id.replace(/[^A-Za-z0-9]+/g, '_');
 
 export function calendars(): Record<string, CalendarConfig> {
@@ -36,8 +39,9 @@ export function calendars(): Record<string, CalendarConfig> {
 const clean = (o: any): any => JSON.parse(JSON.stringify(o));
 
 export function buildData(dist: string) {
-  const corpus = loadCorpus(); const resolve = makeResolver(); const cals = calendars();
+  const corpus = loadCorpus(); const resolve = makeResolver(); const cals = calendars(); const fix = makeCorrections();
   const hr: Record<string, Record<string, any>> = {}; const used = new Set<string>();
+  const alleluiaLog: { fid: string; sec: string; date: string; hr: string }[] = [];
   const stats = { masses: 0, blocks: 0, site: 0, siteVariant: 0, kniewald: 0, missing: 0 };
   const uniq = new Map<string, string>(); const gaps = new Map<string, { n: number; where: string; la: string; sec: string; first: string; cal: string; core?: string }>();
   fs.mkdirSync(path.join(dist, 'data/cal'), { recursive: true }); fs.mkdirSync(path.join(dist, 'data/f'), { recursive: true });
@@ -61,11 +65,14 @@ export function buildData(dist: string) {
           stats.blocks++;
           const table = (hr[fid] ??= {}); if (table[key] !== undefined) { tally(table[key]); continue; }
           const h: Hit | null = PRAYER.has(it.key) ? resolve(core) : resolveLines(resolve, u.lines, blockCore);
-          const k = kn[core];
+          const kk = nearKey(kn, core); const k = kk ? kn[kk] : undefined;
           let val: any = null;
           if (h) val = h.via === 'exact' || h.via === 'typo' ? { t: h.hr } : { t: h.hr, v: h.diff || h.via };
+          const cor = fix.whole(core); if (cor) val = { t: cor.hr!, c: cor.id };
           if (k) val = val ? { ...val, kn: k.hr, knRef: k.ref } : { kn: k.hr, knRef: k.ref };
           else if (val && h?.key && alt[h.key] && (alt[h.key].status ?? 'ok') === 'ok') val = { ...val, kn: alt[h.key].kn, knRef: alt[h.key].ref + ' (OCR)' };
+          if (val?.t) val.t = fix.edit(val.t, fid, it.key); if (val?.kn) val.kn = fix.edit(val.kn, fid, it.key);
+          if (ANTIPHON.has(it.key) || it.key === 'Graduale') for (const f of ['t', 'kn']) if (val?.[f]) { const r = it.key === 'Graduale' ? reconcileGradual(u.lines, val[f]) : reconcileAlleluia(u.lines, val[f]); if (r.changed) { val[f] = r.hr; if (f === 't') alleluiaLog.push({ fid, sec: it.key, date: day.date, hr: r.hr.split('\n').pop()!.slice(-60) }); } }
           table[key] = val; tally(val); uniq.set(fid + key, val ? (val.t ? 'site' : 'kniewald') : 'missing');
           if (!val) { const g = gaps.get(fid + key) ?? { n: 0, where: day.title, la: u.lines.filter(l => l.k === 'text').map(l => l.la).join(' '), sec: `${u.src}`, first: day.date, cal, core } as any; g.n++; gaps.set(fid + key, g); }
         }
@@ -93,7 +100,8 @@ export function buildData(dist: string) {
     const js = `TLM.f(${JSON.stringify(id)},${JSON.stringify(out)});\n`; bytes += js.length;
     fs.writeFileSync(path.join(dist, `data/f/${fileOf(id)}.js`), js);
   }
-  const rites = buildRites(dist, corpus);
+  const rites = buildRites(dist, corpus, fix);
+  fix.check();
   // base: fixed texts
   const g = JSON.parse(fs.readFileSync('data/golden/masses/2017/propers_20161225_2.json', 'utf8'));
   const hidden: Record<string, { la: string; hr: string }> = {};
@@ -103,6 +111,7 @@ export function buildData(dist: string) {
   const base = { years: YEARS, pope: POPE, ordo: ordoInline, gloria: hidden.tableGloria, credo: hidden.tableCredo, built: new Date().toISOString().slice(0, 10), coverage, croatianPrimary: siteConfig.croatianPrimary === 'kniewald' ? 'kniewald' : 'site', hasZagreb: cals.zagreb !== cals.opci };
   fs.writeFileSync(path.join(dist, 'data/base.js'), `TLM.base(${JSON.stringify(base)});\n`);
   fs.mkdirSync('data/verify', { recursive: true });
+  fs.writeFileSync('data/verify/alleluia-croatian.json', JSON.stringify(alleluiaLog, null, 1));
   fs.writeFileSync('data/verify/coverage.json', JSON.stringify({ coverage, rites, missingFormularies, gaps: [...gaps.values()].sort((a, b) => b.n - a.n) }, null, 1));
   return { coverage, formularies: used.size, formularyBytes: bytes, missingFormularies };
 }

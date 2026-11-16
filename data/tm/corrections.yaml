@@ -1,0 +1,59 @@
+# Corrections of the Croatian texts shown on the site, applied by the build (scripts/croatian/corrections.ts) on top of the
+# translation memory. Nothing here is a new translation: every entry is either a text that the old site or Kniewald prints
+# elsewhere, wording supplied by a named person, or a mechanical correction (typo, Scripture reference, trimming to the Latin).
+#
+# Two kinds of entry:
+#   - { id, la, hr, source, why }          the Croatian beside the Latin block `la` becomes `hr`
+#                                          (`la` is matched without accents, case and punctuation; give the whole block)
+#   - { id, find, replace, where, why }    in every Croatian cell containing `find` it becomes `replace`;
+#                                          `where` (optional) limits it to formularies whose id starts with that text
+# An entry that matches nothing stops the build. Every corrected typo is also listed in TYPOS.md with the original reading.
+
+- id: T01
+  la: "Accépta tibi sit, Dómine, sacrátæ plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium."
+  hr: |-
+    Neka ti bude, Gospodine, drag ovaj prinos što ga tvoj sveti narod prikazuje, u čast tvojih svetih priznavajući da je po njihovim zaslugama primio pomoć u nevolji.
+    <i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>.
+  source: "tradicionalnamisa.com, npr. /kalendar/2017/propers/13122016_0.html (12 stranica)"
+  why: "Stara stranica uz ovu prikaznu molitvu na 18 stranica tiska prijevod druge molitve (Hostias, Domine, tuae plebis intende: »Pogledaj, Gospodine, na darove svoga naroda…«), a na 12 stranica pravi prijevod. Pravilo »najčešći prijevod« izabralo je pogrešan."
+
+- id: T02
+  find: "pripravio sebi ugodno prebivalište, blago očisti"
+  replace: "pripravio sebi ugodno prebivalište, njezinim zaslugama i zagovorom blago očisti"
+  where: "Sancti/11-16"
+  why: "Sv. Gertruda, molitva: hrvatski je ispuštao »ipsius meritis et intercessione« (Missale Romanum 1962, str. 719). Riječi je dao recenzent."
+
+- id: T14a
+  find: "Korinćamima"
+  replace: "Korinćanima"
+  why: "Tipfeler stare stranice (sv. Gertruda i druge mise s istim čitanjem)."
+
+- id: T14b
+  find: "Božjom ravnošću"
+  replace: "Božjom revnošću"
+  why: "Tipfeler stare stranice: Dei aemulatione = Božjom revnošću (2 Kor 11, 2)."
+
+- id: T09-modicum
+  find: "Još malo i više me nećete vidjeti i opet malo"
+  replace: "Još malo i više me nećete vidjeti, <i>aleluja</i>, i opet malo"
+  section: Communio
+  why: "Pričesna pjesma 3. nedjelje po Uskrsu: latinski ima Aleluja i nakon prvoga dijela (Modicum, et non videbitis me, alleluia). Mehanički dodano."
+
+- id: T03-typo
+  find: "kralj će zavoljeli tvoju ljepotu"
+  replace: "kralj će zavoljeti tvoju ljepotu"
+  why: "Tipfeler stare stranice u gradualu Velike Gospe."
+
+- id: T09-exaudivit
+  find: "Uslišao je iz svoga svetoga hrama glas moj. I vapaj"
+  replace: "Uslišao je iz svoga svetoga hrama glas moj, <i>aleluja</i>. I vapaj"
+  section: Introitus
+  why: "Ulazna pjesma prosne mise: latinski ima Aleluja i nakon prvoga dijela (vocem meam, alleluia). Mehanički dodano."
+
+- id: T07
+  la: "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam: et portæ ínferi non prævalébunt advérsus eam: et tibi dabo claves regni cœlórum."
+  hr: |-
+    Mt 16, 18-19
+    Ti si Petar-Stijena, i na toj stijeni sazidat ću Crkvu svoju. I vrata paklena neće je nadvladati. A tebi ću dati ključeve kraljevstva nebeskoga.
+  source: "tradicionalnamisa.com, /kalendar/2017/propers/22022017_0.html, skraćeno na opseg latinskoga"
+  why: "Katedra sv. Petra, prikazna pjesma: stara stranica nastavlja rečenicama o vezanju i razrješivanju, kojih u antifoni nema (Missale Romanum 1962, str. 478)."

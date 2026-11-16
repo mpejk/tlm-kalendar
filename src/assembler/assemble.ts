@@ -111,6 +111,16 @@ function graduale(corpus: Corpus, f: Formulary, ctx: Ctx, suffix = ''): Section 
     const ai = ls.findIndex(l => l.k === 'text' && /^Allel[úu][ij]a,\s*allel[úu][ij]a\.?$/i.test(l.la));
     if (ai > 0 && ls.slice(ai + 1).filter(l => l.k === 'text').length >= 2) ls = ls.slice(ai);
   }
+  // Paschaltide, the Alleluia with two verses: "Alleluia, alleluia. V. ... Alleluia. V. ... Alleluia." (Missal, e.g. Common of
+  // a Confessor not a Bishop). Some source files lack the Alleluia that closes a verse; the one after the second verse is
+  // left alone when a sequence follows.
+  if (ctx.paschal && !ctx.easterWeek) {
+    const tx = ls.filter(l => l.k === 'text');
+    if (tx.length === 3 && /^Allel[úu][ij]a,\s*allel[úu][ij]a\.?$/i.test(tx[0].la)) {
+      const close = (l: Line) => { if (!/allel[úu][ij]a[.,]?\s*(\([^)]*\))?$/i.test(l.la)) l.la = l.la.replace(/[.:;,]?\s*$/, '. Allelúja.'); };
+      close(tx[1]); if (!f.sections.Sequentia) close(tx[2]);
+    }
+  }
   // classify the chant: gradual, alleluia, tract
   const texts = ls.filter(l => l.k === 'text');
   const firstText = ls.findIndex(l => l.k === 'text');
@@ -132,6 +142,18 @@ function section(corpus: Corpus, key: string, label: [string, string], units: Un
   if (!units || !units.length) return null;
   const src = `${ctx.fid}|${srcName ?? key}`;
   return { kind: 'section', key, la: label[0], hr: label[1], src, blocks: [{ src, lines: lines(corpus, units, ctx) }] };
+}
+
+/** Alleluia at the end of the offertory and communion antiphons (Code of Rubrics nn. 478 and 504): added in Paschaltide unless
+ *  it is already there; the Alleluia some antiphons carry is kept outside Paschaltide, except from Septuagesima to Easter. */
+function antiphonAlleluia(sec: Section | null, ctx: Ctx): void {
+  if (!sec) return;
+  const ts = sec.blocks[0].lines.filter(l => l.k === 'text'); if (!ts.length) return;
+  if (ctx.septuagesima) {
+    for (const l of ts) if (/allel[úu][ij]a/i.test(l.la)) { l.la = l.la.replace(/[,;:.]?\s*allel[úu][ij]a(?![\p{L}])/giu, '').trim(); if (!/[.!?]$/.test(l.la)) l.la = l.la.replace(/[,;:]$/, '') + '.'; }
+  } else if (ctx.paschal && !ts.some(l => /allel[úu][ij]a/i.test(l.la))) {
+    const last = ts[ts.length - 1]; last.la = last.la.replace(/[.:;,]?\s*$/, ', allelúja.');
+  }
 }
 
 function lectioLabel(corpus: Corpus, units: Unit[] | undefined): [string, string] {
@@ -292,7 +314,7 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
   add(section(corpus, 'Sequentia', LABELS.Sequentia, f.sections.Sequentia, ctx));
   add(section(corpus, 'Evangelium', LABELS.Evangelium, f.sections.Evangelium, ctx));
   items.push({ kind: 'note', key: 'credo', text: credo ? NOTE.credo : NOTE.noCredo });
-  add(section(corpus, 'Offertorium', LABELS.Offertorium, f.sections.Offertorium, ctx));
+  antiphonAlleluia(add(section(corpus, 'Offertorium', LABELS.Offertorium, f.sections.Offertorium, ctx)), ctx);
   const secreta = add(section(corpus, 'Secreta', LABELS.Secreta, f.sections.Secreta, ctx));
   if (secreta) { secreta.blocks.push(...commBlocks(corpus, day, massIndex, 'Secreta', ctx, f)); splitWith(secreta); }
   const pu = f.sections.Prefatio ?? corpus.ordo.prefaces[pref] ?? corpus.ordo.prefaces.Communis;
@@ -306,7 +328,7 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
     if (pref === 'Pasch' && /^Pasc0-/.test(tid)) l.la = l.la.replace('in hoc potíssimum', 'in hac potíssimum die');
     if (pref === 'Spiritu') l.la = l.la.replace(/\s*\* \*\s*/, /^Pasc(6-6|7-)/.test(tid) ? ' (hodiérna die) ' : ' ');
   }
-  add(section(corpus, 'Communio', LABELS.Communio, f.sections.Communio, ctx));
+  antiphonAlleluia(add(section(corpus, 'Communio', LABELS.Communio, f.sections.Communio, ctx)), ctx);
   const post = add(section(corpus, 'Postcommunio', LABELS.Postcommunio, f.sections.Postcommunio, ctx));
   if (post) { post.blocks.push(...commBlocks(corpus, day, massIndex, 'Postcommunio', ctx, f)); splitWith(post); }
   if (f.sections['Super populum'] && day.celebration.kind === 'feria') {

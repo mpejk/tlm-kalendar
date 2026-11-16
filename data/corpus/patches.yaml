@@ -1,0 +1,36 @@
+# Corrections of the Latin corpus (data/corpus/la, imported from Divinum Officium), applied every time the corpus is loaded
+# (src/assembler/corpus-node.ts). No import run and no copy of Divinum Officium is needed: edit this file and rebuild.
+#   formulary: id of the Mass formulary, or "*" for every formulary that holds the text (texts of a Common are copied into many)
+#   section:   section name (Oratio, Lectio, Graduale, Tractus, Evangelium, Offertorium, Secreta, Communio, Postcommunio ...) or "*"
+#   find / replace: exact text as it stands in the corpus (with its accents) and what it becomes
+#   source:    where the correct reading was checked. "MR 1962" = Missale Romanum, editio typica 1962 (scan of the Church Music
+#              Association of America, missale62.pdf); printed page, then page of the PDF.
+# A patch that matches nothing stops the build.
+
+# --- T03 Assumption: the gradual of the Mass Signum magnum (1950) in the new Latin psalter
+- { id: T03a, formulary: Sancti/08-15, section: Graduale, find: "et concupíscit rex decórem tuum.", replace: "et concupíscet Rex pulchritúdinem tuam.", source: "MR 1962, p. 628 (PDF 709)" }
+- { id: T03b, formulary: Sancti/08-15, section: Graduale, find: "Omnis glória ejus fíliæ Regis ab intus, in fímbriis áureis circumamícta varietátibus.", replace: "Tota decóra ingréditur fília Regis, textúræ áureæ sunt amíctus ejus.", source: "MR 1962, p. 628 (PDF 709)" }
+- { id: T03c, formulary: Sancti/08-15, section: Graduale, find: "Assumpta est María in cœlum", replace: "Assúmpta est María in cælum", source: "MR 1962, p. 628 (PDF 709)" }
+
+# --- T04 All Souls: tract of the three Masses
+- { id: T04, formulary: "*", section: Graduale, find: "Absólve, Dómine, ánimas ómnium fidélium ab omni vínculo delictórum.", replace: "Absólve, Dómine, ánimas ómnium fidélium defunctórum ab omni vínculo delictórum.", source: "MR 1962, pp. 706, 708 (PDF 787, 789)" }
+
+# --- T05 and the same cause elsewhere: a saint's name put into a prayer of the Common in the wrong case
+- { id: T05a, formulary: Sancti/01-17, section: Secreta, find: "sanctus Antónii Abbas", replace: "sanctus Antónius Abbas", source: "MR 1962, p. 446 (PDF 527)" }
+- { id: T05b, formulary: Sancti/01-17, section: Postcommunio, find: "beátus Antónii Abbas", replace: "beátus Antónius Abbas", source: "MR 1962, p. 446 (PDF 527)" }
+- { id: T05c, formulary: Sancti/02-09o, section: Postcommunio, find: "beáta Appollóniæ", replace: "beáta Apollónia", source: "MR 1962, p. 473 (PDF 554)" }
+- { id: T05d, formulary: Sancti/12-02, section: Postcommunio, find: "beáta Bibiánæ", replace: "beáta Bibiána", source: "MR 1962, p. 430 (PDF 511)" }
+- { id: T05e, formulary: Sancti/02-06o, section: Postcommunio, find: "beáta Dorótheæ", replace: "beáta Doróthea", source: "MR 1962, p. 471 (PDF 552)" }
+- { id: T05f, formulary: Sancti/01-23o, section: Postcommunio, find: "beáta Emerentiánæ", replace: "beáta Emerentiána", source: "MR 1962, p. 452 (PDF 533)" }
+- { id: T05g, formulary: Sancti/07-20o, section: Postcommunio, find: "beáta Margarítæ", replace: "beáta Margaríta", source: "ablative required by «intercedente beata N. Virgine et Martyre tua» (Commune Virginum)" }
+- { id: T05h, formulary: Sancti/07-24r, section: Secreta, find: "beátæ Christína", replace: "beátæ Christínæ", source: "genitive required by «in beatae N. Virginis et Martyris tuae solemnitate» (Commune Virginum)" }
+
+# --- T06 misprints of the data files
+- { id: T06a, formulary: "*", section: Lectio, find: "pax sin per illos", replace: "pax super illos", source: "MR 1962, Gal 6, 16 (PDF 741, 756)" }
+- { id: T06b, formulary: "*", section: Evangelium, find: "habéntem niitti in ignem", replace: "habéntem mitti in ignem", source: "MR 1962, Mt 18, 8 (29 Sept., 2 Oct.)" }
+- { id: T06c, formulary: "*", section: "*", find: "operátus est ei mihi inter gentes", replace: "operátus est et mihi inter gentes", source: "MR 1962, Gal 2, 8 (25 Jan.)" }
+- { id: T05i, formulary: Sancti/02-09o, section: "*", find: "Appollóni", replace: "Apollóni", source: "MR 1962, p. 473 (PDF 554): spelling of the name" }
+
+# --- found with T08-T10 (Alleluias): the same kind of error in the source data
+- { id: A01, formulary: Tempora/Pasc0-0, section: Graduale, whole: true, find: "Allelúja, allelúja.", replace: "", source: "MR 1962, p. 329 (PDF 410): the gradual of Easter Sunday begins «Haec dies»; the Alleluia stands only before «Pascha nostrum»" }
+- { id: A02, formulary: Sancti/06-05, section: GradualeP, whole: true, find: "Allelúja.", replace: "Allelúja, allelúja.", source: "MR 1962, p. 545 (PDF 626), St Boniface in Paschaltide" }

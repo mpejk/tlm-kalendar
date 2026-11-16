@@ -10,7 +10,7 @@ import { fileOf } from './data';
 const golden = (f: string) => JSON.parse(fs.readFileSync(`data/golden/masses/${f}.json`, 'utf8'));
 const fromGolden = (items: any[]) => items.filter(it => !it.hidden).map(it => (it.kind === 'note' ? { kind: 'note', text: it.text } : { kind: 'section', la: it.la, hr: it.hr, rows: it.rows.map((r: any) => (r.la === undefined ? { text: r.text ?? '' } : { la: r.la, hr: r.hr, ...(r.head ? { head: true } : {}) })) }));
 
-export function buildRites(dist: string, corpus: Corpus): { id: string; rows: number; withCroatian: number }[] {
+export function buildRites(dist: string, corpus: Corpus, fix?: { edit(hr: string, fid: string, section?: string): string }): { id: string; rows: number; withCroatian: number }[] {
   const out: Record<string, any> = {}; const report: { id: string; rows: number; withCroatian: number }[] = [];
   const palms = golden('2018/actions_20180325_0'), friday = golden('2018/actions_20180330_0'), thursday = golden('2018/propers_20180329_1');
   out['Tempora/Quad6-0r:palms'] = { rite: true, source: 'tradicionalnamisa.com', title: 'Blagoslov grančica i procesija', items: fromGolden(palms.items) };
@@ -58,6 +58,8 @@ export function buildRites(dist: string, corpus: Corpus): { id: string; rows: nu
   const riteGaps: any[] = [];
   for (const [id, doc] of Object.entries<any>(out)) { if (doc.source !== 'Divinum Officium') continue; doc.items.forEach((it: any, si: number) => (it.rows ?? []).forEach((r: any, ri: number) => { if (r.la === undefined || r.hr) return; const key = `${id}#${si}.${ri}`; if (kn[key]) { r.hr = kn[key].hr.split('\n').filter((l: string) => !/^_`?$/.test(l.trim())).join('\n'); r.src = kn[key].ref; } else riteGaps.push({ key, section: it.la, la: r.la }); })); }
   fs.writeFileSync('data/tm/rite-gaps.json', JSON.stringify(riteGaps, null, 1));
+  // corrections of the Croatian (data/tm/corrections.yaml)
+  if (fix) for (const [id, doc] of Object.entries<any>(out)) for (const it of doc.items) for (const r of it.rows ?? []) if (typeof r.hr === 'string' && r.hr.trim()) r.hr = fix.edit(r.hr, id);
   for (const [id, doc] of Object.entries(out)) fs.writeFileSync(path.join(dist, `data/f/${fileOf(id)}.js`), `TLM.f(${JSON.stringify(id)},${JSON.stringify(doc)});\n`);
   return report;
 }
