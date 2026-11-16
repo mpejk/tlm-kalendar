@@ -65,6 +65,7 @@ export function processConditionalLines(lines, ctx) {
   let stack = [[AFF, SCOPE_NEST]];
   const offsets = [-1];
   for (let line of lines) {
+    line = line.replace(/^[vV]\.\s+(?=\((?:sed|deinde|vero|atque|si|rubrica)\b)/, '');
     const m = line.match(COND_RE);
     // Only treat as a conditional when the parenthesis holds a recognisable condition (a stopword, a subject or a scope).
     if (m && isCondition(m)) {

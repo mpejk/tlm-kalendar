@@ -285,7 +285,9 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
   const prefSec = add(section(corpus, 'Prefatio', plab, pu.filter(u => u.k !== 'rubric'), ctx));
   // variable words of the prefaces: the mystery named in the preface of Our Lady, "die" in the Easter octave, "hodierna die" at Pentecost
   if (prefSec) for (const l of prefSec.blocks[0].lines) {
-    if (pref === 'Maria') { const mv = [...(f.rule ?? []), ...(f.ruleInherited ?? [])].map(r => r.match(/^Prefatio=Maria=([^;]+)/)).find(Boolean)?.[1]; l.la = l.la.replace(/\*Festivitáte\*/, mv ? mv.trim().replace(/^./, ch => ch.toUpperCase()) : 'Festivitáte'); }
+    if (pref === 'Maria') { let mv = [...(f.rule ?? []), ...(f.ruleInherited ?? [])].map(r => r.match(/^Prefatio=Maria=([^;]+)/)).find(Boolean)?.[1]; if (mass.id === 'Sancti/02-11') mv = 'Conceptióne immaculáta'; /* Lourdes: as on the old site */ l.la = l.la.replace(/\*Festivitáte\*/, mv ? mv.trim().replace(/^./, ch => ch.toUpperCase()) : 'Festivitáte'); }
+    // St Joseph: Festivitate on 19 March, Solemnitate on 1 May, Veneratione otherwise (as on the old site)
+    if (pref === 'Joseph') l.la = l.la.replace(/\*Veneratióne\*/, mass.id.startsWith('Sancti/03-19') ? 'Festivitáte' : mass.id.startsWith('Sancti/05-01') ? 'Solemnitáte' : 'Veneratióne');
     if (pref === 'Pasch' && /^Pasc0-/.test(tid)) l.la = l.la.replace('in hoc potíssimum', 'in hac potíssimum die');
     if (pref === 'Spiritu') l.la = l.la.replace(/\s*\* \*\s*/, /^Pasc(6-6|7-)/.test(tid) ? ' (hodiérna die) ' : ' ');
   }

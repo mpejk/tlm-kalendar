@@ -99,6 +99,7 @@ Tempora/Quad4-3 Evangelium (old site propers_20170329_0): ∅ → et
 Tempora/Quad4-3 Introitus (old site propers_20170329_0): aleluia aleluia → ∅; aleluia aleluia → ∅
 Tempora/Quad4-4 Graduale (old site propers_20170330_0): et → ∅
 Tempora/Quad4-6 Introitus (old site propers_20170401_0): isai → ∅
+Tempora/Quad6-3 Evangelium (old site propers_20170412_0): ∅ → i
 Tempora/Quad6-3 Introitus (old site propers_20170412_0): 
 Tempora/Quadp3-2 Evangelium (old site propers_20170226_0): naslov evanđelja
 Tempora/Quadp3-3 Introitus (old site propers_20170301_0): sap et → ∅
