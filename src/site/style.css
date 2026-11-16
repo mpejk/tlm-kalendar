@@ -1,11 +1,11 @@
-@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/eb-garamond-latin-ext-400-normal.woff2) format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/eb-garamond-latin-400-normal.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/eb-garamond-latin-ext-400-italic.woff2) format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
-@font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/eb-garamond-latin-400-italic.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
-@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 600; font-display: swap; src: url(fonts/eb-garamond-latin-ext-600-normal.woff2) format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+2113; }
-@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 600; font-display: swap; src: url(fonts/eb-garamond-latin-600-normal.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+2215; }
-/* ℟ and ℣ come from the full font file, fetched only for these two characters */
-@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 400 800; font-display: swap; src: url(fonts/EBGaramond.ttf) format("truetype"); unicode-range: U+211F, U+2123; }
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/ebg-latin-ext-400-normal.woff2) format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/ebg-latin-400-normal.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/ebg-latin-ext-400-italic.woff2) format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/ebg-latin-400-italic.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 600; font-display: swap; src: url(fonts/ebg-latin-ext-600-normal.woff2) format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+2113; }
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 600; font-display: swap; src: url(fonts/ebg-latin-600-normal.woff2) format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+2215; }
+/* ℟ and ℣ come from a file that holds only these two signs */
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 400 800; font-display: swap; src: url(fonts/ebg-vr.ttf) format("truetype"); unicode-range: U+211F, U+2123; }
 
 /* fallback with the proportions of EB Garamond, so that text does not reflow when the font arrives */
 @font-face { font-family: "EBG Fallback"; src: local("Times New Roman"), local("Times"), local("Liberation Serif"), local("Noto Serif"); size-adjust: 96%; ascent-override: 92%; descent-override: 28%; line-gap-override: 0%; }
@@ -17,7 +17,9 @@
 * { box-sizing: border-box; }
 html { font-size: var(--fs); -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: "EB Garamond", "EBG Fallback", "Times New Roman", serif; font-size: 1.19rem; line-height: 1.45; font-variant-numeric: oldstyle-nums; }
-/* EB Garamond would turn u into v for text marked as Latin (its locl feature): the missal spelling keeps u */
+/* EB Garamond as published draws u as v in text marked as Latin (its locl feature); the missal spells with u. The font files
+   in fonts/ have that rule removed (scripts/fonts/make-fonts.py), because iOS Safari ignores the switch below. The switch stays
+   only for a copy of the original typeface installed on the reader's device. */
 [lang="la"] { font-feature-settings: "locl" 0; }
 a { color: var(--link); text-underline-offset: .15em; }
 .vh, .skip:not(:focus) { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
@@ -82,8 +84,8 @@ details.fixed { margin: -.3rem 0 1rem; } details.fixed summary { cursor: pointer
 table.year { border-collapse: collapse; width: 100%; font-size: 1rem; }
 table.year th { text-align: left; font-weight: 400; font-variant-caps: all-small-caps; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--ink); padding: .2rem .5rem; }
 table.year td { border-bottom: 1px solid var(--rule); padding: .22rem .5rem; vertical-align: top; } table.year td:first-child, table.year td:nth-child(2) { white-space: nowrap; }
-table.year tr.sun td { background: color-mix(in srgb, var(--red) 6%, transparent); } .cm { font-style: italic; color: var(--muted); font-size: .92rem; }
-.search { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; justify-content: center; margin: 1rem 0; } .search input { min-width: 14rem; cursor: text; }
+table.year tr.sun { background: color-mix(in srgb, var(--red) 6%, transparent); } table.year td:last-child { overflow-wrap: anywhere; } .cm { font-style: italic; color: var(--muted); font-size: .92rem; }
+.search { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; justify-content: center; margin: 1rem 0; } .search input { flex: 0 1 14rem; width: 14rem; min-width: 0; max-width: 100%; cursor: text; } .search label { max-width: 100%; }
 .hits { list-style: none; padding: 0; columns: 22rem; } .hits li { padding: .15rem 0; break-inside: avoid; }
 .info { max-width: 42rem; margin: 0 auto; }
 .foot { border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; text-align: center; padding: .8rem 1rem 2rem; }
@@ -96,6 +98,22 @@ table.year tr.sun td { background: color-mix(in srgb, var(--red) 6%, transparent
   :root[data-lang="oba"] .row.head .hr { display: none; }
   .cell { min-height: 3.6rem; font-size: .68rem; padding: .1rem .15rem; } .cell .t { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; } .cell .tag { display: none; }
   table.year { font-size: .92rem; } table.year td, table.year th { padding: .2rem .25rem; }
+  h1, .when, .comms, .hits li { overflow-wrap: anywhere; }
+  /* previous / next: the buttons keep a finger-sized 44 px but do not grow with the type size, so the date fits between them */
+  /* month grid: seven columns leave about 40 px a day, so the titles stay small whatever the type size, and long words break
+     instead of being cut off (the full title is on the day itself) */
+  .wd { font-size: min(.9rem, 13px); letter-spacing: .04em; } .cell { font-size: min(.68rem, 11.5px); } .cell .n { font-size: min(1.05rem, 17px); } .cell .t { overflow-wrap: anywhere; -webkit-hyphens: auto; hyphens: auto; -webkit-line-clamp: 4; }
+  .daynav { gap: .4rem; } .daynav .btn { min-width: 44px; min-height: 44px; padding: 0 .3rem; flex: none; } .daynav .when { min-width: 0; }
+}
+/* Year list on a narrow screen: each day is two lines (date, weekday, class, colour; then the title), so that it fits any
+   type size. The cells carry ARIA roles, so the list is still read as a table. */
+@media (max-width: 40rem) {
+  table.year, table.year tbody { display: block; width: 100%; }
+  table.year thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  table.year tr { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 .6rem; border-bottom: 1px solid var(--rule); padding: .25rem .25rem .3rem; }
+  table.year td { display: block; border: 0; padding: 0; min-width: 0; }
+  table.year td:nth-child(-n+3) { color: var(--muted); font-variant-caps: all-small-caps; letter-spacing: .04em; }
+  table.year td:last-child { flex: 0 0 100%; }
   [data-act="print"], [data-act="paper"] { display: none; }
 }
 @page { size: A4; margin: 14mm 13mm; }

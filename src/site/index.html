@@ -6,12 +6,12 @@
 <title>Kalendar tradicionalne latinske mise · Zagreb</title>
 <meta name="description" content="Liturgijski kalendar i dnevni misal za tradicionalnu latinsku misu u Zagrebu (Rimski misal 1962.), latinski i hrvatski usporedno.">
 <meta name="theme-color" content="#7a1f1f">
-<link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 <script>/* start fetching the calendar of the year shown while the application loads */
 (function () { try { var m = /[?#&]d=(\d{4})-/.exec(location.search + location.hash); var y = m ? m[1] : new Date().getFullYear(); var l = document.createElement('link'); l.rel = 'preload'; l.as = 'script'; l.href = 'data/cal/' + y + '.js'; document.head.appendChild(l);
-  if (/^https?:$/.test(location.protocol)) { var f = document.createElement('link'); f.rel = 'preload'; f.as = 'font'; f.type = 'font/woff2'; f.crossOrigin = 'anonymous'; f.href = 'fonts/eb-garamond-latin-400-normal.woff2'; document.head.appendChild(f); } } catch (e) {} })();</script>
+  /* the web-app manifest is linked only when the page is served (from disk Safari reports it as a blocked request) */
+  if (/^https?:$/.test(location.protocol)) { var w = document.createElement('link'); w.rel = 'manifest'; w.href = 'manifest.webmanifest'; document.head.appendChild(w); var f = document.createElement('link'); f.rel = 'preload'; f.as = 'font'; f.type = 'font/woff2'; f.crossOrigin = 'anonymous'; f.href = 'fonts/ebg-latin-400-normal.woff2'; document.head.appendChild(f); } } catch (e) {} })();</script>
 </head>
 <body>
 <a class="skip" href="#main">Preskoči na sadržaj</a>

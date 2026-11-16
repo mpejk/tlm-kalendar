@@ -8,17 +8,20 @@
     "test": "vitest run",
     "build": "tsx scripts/build/build.ts",
     "deploy": "npm run build && git add -A && (git diff --cached --quiet || git commit -m \"Update site\") && git push origin main",
-    "import": "tsx scripts/import/import-do.ts"
+    "import": "tsx scripts/import/import-do.ts",
+    "verify:site": "tsx scripts/verify/font-shape.ts && tsx scripts/verify/site-url.ts && tsx scripts/verify/site-keys.ts && tsx scripts/verify/site-layout.ts && tsx scripts/verify/font-render.ts"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.10.0",
+    "@fontsource/eb-garamond": "^5.1.0",
     "esbuild": "^0.25.0",
+    "harfbuzzjs": "^1.6.4",
     "lighthouse": "^12.0.0",
     "playwright": "^1.50.0",
     "tsx": "^4.19.0",
     "typescript": "^5.6.0",
     "vitest": "^3.0.0",
-    "yaml": "^2.6.0",
-    "@fontsource/eb-garamond": "^5.1.0"
+    "wawoff2": "^2.0.1",
+    "yaml": "^2.6.0"
   }
 }
