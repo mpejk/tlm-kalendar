@@ -36,7 +36,7 @@ export function buildRites(dist: string, corpus: Corpus): { id: string; rows: nu
         if (u.k === 'ref') { la.push(u.la!); continue; }
         if (u.k === 'macro') { const m = u.name === 'Gloria' ? '<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen</i>.' : /Dominus ?Vobiscum/i.test(u.name ?? '') ? '℣. Dóminus vobíscum. ℟. Et cum spíritu tuo.' : ''; if (m) la.push(m); continue; }
         if (u.k !== 'text') continue;
-        const t = text(u); la.push((u.mark === 'V' ? '℣. ' : u.mark === 'R' ? '℟. ' : '') + t); texts++;
+        const t = text(u); if (/^_`?$/.test(t.trim())) continue; /* DO separator mark */ la.push((u.mark === 'V' ? '℣. ' : u.mark === 'R' ? '℟. ' : '') + t); texts++;
         const e = tm[normLa(t)]; if (e) { hr.push(e.hr.replace(/<[^>]+>/g, '')); found++; }
       }
       if (la.length) { if (!sec) { sec = { kind: 'section', la: title, hr: '', rows: [] }; items.push(sec); }
@@ -56,7 +56,7 @@ export function buildRites(dist: string, corpus: Corpus): { id: string; rows: nu
   prelude('Tempora/Quad6-6r', 'Vazmeno bdijenje');
   const kn = fs.existsSync('data/tm/kniewald-rites.json') ? JSON.parse(fs.readFileSync('data/tm/kniewald-rites.json', 'utf8')) as Record<string, { hr: string; ref: string }> : {};
   const riteGaps: any[] = [];
-  for (const [id, doc] of Object.entries<any>(out)) { if (doc.source !== 'Divinum Officium') continue; doc.items.forEach((it: any, si: number) => (it.rows ?? []).forEach((r: any, ri: number) => { if (r.la === undefined || r.hr) return; const key = `${id}#${si}.${ri}`; if (kn[key]) { r.hr = kn[key].hr; r.src = kn[key].ref; } else riteGaps.push({ key, section: it.la, la: r.la }); })); }
+  for (const [id, doc] of Object.entries<any>(out)) { if (doc.source !== 'Divinum Officium') continue; doc.items.forEach((it: any, si: number) => (it.rows ?? []).forEach((r: any, ri: number) => { if (r.la === undefined || r.hr) return; const key = `${id}#${si}.${ri}`; if (kn[key]) { r.hr = kn[key].hr.split('\n').filter((l: string) => !/^_`?$/.test(l.trim())).join('\n'); r.src = kn[key].ref; } else riteGaps.push({ key, section: it.la, la: r.la }); })); }
   fs.writeFileSync('data/tm/rite-gaps.json', JSON.stringify(riteGaps, null, 1));
   for (const [id, doc] of Object.entries(out)) fs.writeFileSync(path.join(dist, `data/f/${fileOf(id)}.js`), `TLM.f(${JSON.stringify(id)},${JSON.stringify(doc)});\n`);
   return report;
