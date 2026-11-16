@@ -14,3 +14,12 @@ data/raw/kniewald
 
 # scan crops used while reading Kniewald
 scripts/kniewald/out/*.jpg
+
+# working files of the review task
+TASK.md
+TASK-PLAN.md
+TASK-DONE
+STOP
+run-task.sh
+.handover-test
+data/raw/missale62
