@@ -1,11 +1,12 @@
 # PLAN
 
 Tick items as they finish. Each run: read this and RUNLOG.md, continue at the first unticked item.
-Environment: Node/npm live in `tools.nosync/bin` — run `export PATH="$PWD/tools.nosync/bin:$PATH"` first.
+Environment: Node/npm live in `tools.nosync/bin` — run `export PATH="$PWD/tools.nosync/bin:$PATH" NODE_OPTIONS=--use-system-ca` first (Node needs the system CA store for TLS here).
+DO data: sparse clone in data/raw/do/repo (git-ignored; re-clone with the command in DECISIONS.md). Missale Meum source for reading: data/raw/mm/repo (git-ignored).
 
 ## 0. Setup
 - [x] Node 24 + npm installed locally from the npm registry (tools.nosync/)
-- [ ] git init, .gitignore, package.json (TypeScript, Vitest, Playwright)
+- [x] git init, .gitignore, package.json (TypeScript, Vitest, Playwright)
 
 ## 1. Harvest
 - [ ] Fetch year pages 2017, 2018, 2019 to data/raw/

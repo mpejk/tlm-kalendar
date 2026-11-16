@@ -6,3 +6,5 @@ run.log
 test-results
 playwright-report
 .cache
+data/raw/do/repo
+data/raw/mm/repo

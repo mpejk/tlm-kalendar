@@ -1,0 +1,22 @@
+{
+  "name": "tlm-kalendar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Zagreb Traditional Latin Mass calendar and daily missal, 2026-2036 (1962 Missal)",
+  "scripts": {
+    "test": "vitest run",
+    "build": "node scripts/build/build.mjs",
+    "deploy": "npm run build && git add -A && git commit -m \"Update\" --allow-empty && git push origin main"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "esbuild": "^0.25.0",
+    "lighthouse": "^12.0.0",
+    "playwright": "^1.50.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0",
+    "yaml": "^2.6.0"
+  }
+}
