@@ -104,7 +104,7 @@ function hrFor(lines: Line[], src: string | undefined): string {
   const prim = BASE.croatianPrimary === 'kniewald' ? (v?.kn ?? v?.t) : (v?.t ?? v?.kn);
   if (!prim) return h('span', { class: 'missing' }, 'hrvatski prijevod nedostaje');
   const fromKn = prim === v?.kn;
-  return hrCell(prim) + (fromKn ? h('span', { class: 'srcnote' }, `Kniewald${v?.knRef ? ', ' + esc(v.knRef) : ''}`) : '');
+  return hrCell(prim) + (fromKn ? h('span', { class: 'srcnote' }, esc(v?.knRef ?? 'Kniewald')) : '');
 }
 const PRAYER = new Set(['Oratio', 'Secreta', 'Postcommunio', 'SuperPopulum']);
 function sectionHtml(s: Section): string {
@@ -150,7 +150,7 @@ async function viewDay(): Promise<string> {
   const nav = h('nav', { class: 'daynav' }, link({ d: addDays(st.d, -1) }, '‹', 'btn', 'Prethodni dan'), h('span', { class: 'when' }, `${WD[dateOf(st.d).getUTCDay()]}, ${fmtDate(st.d)}`), link({ d: addDays(st.d, 1) }, '›', 'btn', 'Sljedeći dan'));
   if (!d) return nav + h('p', { class: 'empty' }, `Kalendar obuhvaća godine ${BASE.years.from}.–${BASE.years.to}.`);
   const gen = st.k === 'zagreb' ? await dayOf(st.d, 'opci') : null;
-  const changed = !!gen && gen !== d;
+  const changed = !!gen && !!d.flags.local;
   const cols = d.colours ?? [d.colour];
   let head = h('h1', { class: 'c-text-' + d.colour }, esc(d.title));
   head += h('p', { class: 'meta' }, cols.map(chip).join(''), `<span>${cols.map(c => COLOUR[c]).join(' / ')}</span><span>·</span><span>${ROMAN[d.cls]}. razred</span><span>·</span><span>${SEASON[d.season] ?? ''}</span>`,
@@ -161,7 +161,7 @@ async function viewDay(): Promise<string> {
   const firstMass = Math.max(0, d.masses.findIndex(x => !x.extra));
   const idx = st.m >= 0 && (st.m > 0 || new URLSearchParams(location.search.slice(1) || location.hash.slice(1)).has('m')) ? Math.min(st.m, d.masses.length - 1) : firstMass; const m = d.masses[idx];
   let tabs = '';
-  if (d.masses.length > 1) tabs = h('div', { class: 'tabs', role: 'tablist' }, d.masses.map((x, i) => `<a role="tab" aria-selected="${i === idx}" href="${esc(urlFor({ m: i }))}" data-nav='${JSON.stringify({ m: i })}' class="tab${i === idx ? ' on' : ''}">${esc(x.label ?? `Misa ${i + 1}`)}</a>`).join(''));
+  if (d.masses.length > 1) tabs = h('div', { class: 'tabs', role: 'tablist' }, d.masses.map((x, i) => `<a role="tab" aria-selected="${i === idx}" href="${esc(urlFor({ m: i }))}" data-nav='${JSON.stringify({ m: i })}' class="tab${i === idx ? ' on' : ''}">${esc(x.label ?? (d.flags.rogation && x.kind === 'mass' ? 'Misa dana' : `Misa ${i + 1}`))}</a>`).join(''));
   let body = '';
   if (m.kind === 'mass') {
     await needF(formulariesFor(d, idx));
@@ -190,7 +190,7 @@ async function viewYear(): Promise<string> {
   if (!c) return nav + h('p', { class: 'empty' }, `Kalendar obuhvaća godine ${BASE.years.from}.–${BASE.years.to}.`);
   const rows = c.opci.map(g => { const d = (st.k === 'zagreb' && c.zagreb[g.date.slice(5)]) || g;
     const comm = d.commemorations.map(x => `<br><span class="cm">${COMM[x.type]}: ${esc(x.title)}</span>`).join('');
-    return `<tr class="${d.weekday === 0 ? 'sun' : ''}"><td>${oldDate(d.date)}</td><td>${WD3[d.weekday]}</td><td>${ROMAN[d.cls]}</td><td>${chip(d.colour)}</td><td>${link({ d: d.date, v: 'dan' }, esc(d.title))}${d !== g ? ' <span class="tag">mjesni kalendar</span>' : ''}${comm}</td></tr>`; }).join('');
+    return `<tr class="${d.weekday === 0 ? 'sun' : ''}"><td>${oldDate(d.date)}</td><td>${WD3[d.weekday]}</td><td>${ROMAN[d.cls]}</td><td>${chip(d.colour)}</td><td>${link({ d: d.date, v: 'dan' }, esc(d.title))}${d.flags.local ? ' <span class="tag">mjesni kalendar</span>' : ''}${comm}</td></tr>`; }).join('');
   const ics = `<p class="small">Kalendar za ${y}. u formatu .ics: <a href="${here}ics/tlm-${y}-${st.k}.ics" download>preuzmi</a></p>`;
   return nav + ics + `<table class="year"><thead><tr><th>Datum</th><th>Dan</th><th>Razred</th><th></th><th>Naslov i spomeni</th></tr></thead><tbody>${rows}</tbody></table>`;
 }

@@ -1,0 +1,10 @@
+# Local Mass formularies composed from the Commons of the 1962 Missal: a base formulary with single sections taken from another.
+# Source of the compositions: Kniewald, Rimski misal (1942), who gives for each Croatian feast the Common and what differs.
+Local/zg-05-04:      # St Florian: "Misa »Štiti me« (Protexisti) ... osim: Čitanje poslanice bl. Petra apostola (I. 1, 3-7)" (Kniewald 1942, p. 566)
+  base: Commune/C2p
+  officium: S. Floriani Martyris
+  sections: { Lectio: Commune/C3pp }
+Local/zg-06-04p:     # St Quirinus in Paschaltide: "Misa »Štiti me«, ali poslanica Jak. 1, 12-18 iz mise »Gospodin je sklopio«" (Kniewald 1942, p. 588)
+  base: Commune/C2p
+  officium: S. Quirini Episcopi et Martyris
+  sections: { Lectio: Commune/C2c }

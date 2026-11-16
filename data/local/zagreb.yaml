@@ -5,23 +5,23 @@
 # Ranks: Code of Rubrics n. 43 where it fixes the rank (principal patron and dedication of the cathedral I class, secondary patron
 # II class); otherwise svetkovina -> I, blagdan -> II, spomendan -> III class. Neobvezatni spomendan -> note only.
 # No pre-conciliar Zagreb proper was found online (searched 16 Nov 2026), so the Masses are from the Commons of the 1962 Missal,
-# except St Florian (prayers from the proper of Polish dioceses in the Divinum Officium data).
+# chosen as Kniewald's Rimski misal (1942) indicates for each feast where he has it (see data/local/formularies.yaml).
 # To change a rank or a Mass, edit the entry and run `npm run build`.
 replace:            # entries of the general calendar that the local layer replaces (date|id)
   - "07-07|07-07"
 feasts:
   - { date: "02-10", id: "zg-02-10", class: 3, colour: r, title: "bl. Alojzije Stepinac, biskup i mučenik", mass: "Commune/C2c", source: "HBK: Hrvatska i Zagreb, spomendan -> III. razred; misa: Commune unius Martyris Pontificis (Statuit)" }
-  - { date: "05-04", id: "zg-05-04", class: 2, colour: r, title: "sv. Florijan, mučenik, drugi zaštitnik Nadbiskupije", mass: "Sancti/05-04pl", source: "HBK: Zagreb, spomendan; drugi zaštitnik biskupije -> II. razred (Kodeks rubrika n. 43c); misa: vlastite molitve (proprij poljskih biskupija, Divinum Officium 05-04pl) i Commune unius Martyris tempore paschali" }
+  - { date: "05-04", id: "zg-05-04", class: 2, colour: r, title: "sv. Florijan, mučenik, drugi zaštitnik Nadbiskupije", mass: "Local/zg-05-04", source: "Kniewald 1942, str. 566: misa Protexisti (mučenik u vazmeno vrijeme) s poslanicom 1 Pt 1, 3-7; HBK: Zagreb, spomendan; drugi zaštitnik biskupije -> II. razred (Kodeks rubrika n. 43c)" }
   - { date: "05-12", id: "zg-05-12", class: 3, colour: w, title: "sv. Leopold Mandić, prezbiter, priznavalac", mass: "Commune/C5", source: "HBK: Hrvatska, spomendan -> III. razred; misa: Commune Confessoris non Pontificis (Os justi)" }
-  - { date: "06-04", id: "zg-06-04", class: 3, colour: r, title: "sv. Kvirin Sisački, biskup i mučenik", mass: "Commune/C2c", source: "HBK: Zagreb, spomendan -> III. razred; misa: Commune unius Martyris Pontificis (Statuit)" }
+  - { date: "06-04", id: "zg-06-04", class: 3, colour: r, title: "sv. Kvirin Sisački, biskup i mučenik", mass: "Commune/C2c", massPaschal: "Local/zg-06-04p", source: "Kniewald 1942, str. 588: misa Protexisti s poslanicom Jak 1, 12-18 (izvan vazmenog vremena Statuit); HBK: Zagreb, spomendan -> III. razred; misa: Commune unius Martyris Pontificis (Statuit)" }
   - { date: "06-27", id: "zg-06-27", class: 1, colour: w, title: "SV. LADISLAV, KRALJ, ZAŠTITNIK NADBISKUPIJE", mass: "Commune/C5", source: "HBK: Zagreb, blagdan; glavni zaštitnik biskupije -> I. razred (Kodeks rubrika n. 43a); misa: Commune Confessoris non Pontificis (Os justi)" }
   - { date: "07-07", id: "07-07", class: 2, colour: w, title: "sv. Ćiril i sv. Metod, biskupi, priznavaoci", mass: "Sancti/07-07", source: "HBK: Hrvatska, blagdan (5. srpnja) -> II. razred; datum Misala iz 1962. (7. srpnja) ostaje" }
   - { date: "07-13", id: "zg-07-13", class: 2, colour: w, bvm: true, title: "Majka Božja Bistrička", mass: "Commune/C10", source: "HBK: Zagreb, blagdan -> II. razred; misa: Commune festorum B. Mariae Virginis (Salve sancta parens)" }
   - { date: "08-25", id: "zg-08-25", class: 1, colour: w, lord: true, title: "OBLJETNICA POSVETE PRVOSTOLNE CRKVE", mass: "Commune/C8", source: "HBK: Zagreb, u katedrali svetkovina, drugdje blagdan; obljetnica posvete katedrale -> I. razred u cijeloj biskupiji (Kodeks rubrika n. 43b); misa: Commune Dedicationis Ecclesiae (Terribilis)" }
-  - { date: "09-07", id: "zg-09-07", class: 3, colour: r, title: "sv. Marko Križevčanin, prezbiter i mučenik", mass: "Commune/C2", source: "HBK: Hrvatska, spomendan -> III. razred; misa: Commune unius Martyris non Pontificis (In virtute)" }
-  - { date: "10-08", id: "zg-10-08", class: 3, colour: r, title: "sv. Demetrije i drugovi, mučenici", mass: "Commune/C3", source: "HBK: Zagreb, spomendan -> III. razred; misa: Commune plurimorum Martyrum (Intret)" }
+  - { date: "09-07", id: "zg-09-07", class: 3, colour: r, title: "sv. Marko Križevčanin, prezbiter i mučenik", mass: "Commune/C2a", source: "Kniewald 1942, str. 699: misa Laetabitur; HBK: Hrvatska, spomendan -> III. razred" }
+  - { date: "10-08", id: "zg-10-08", class: 3, colour: r, title: "sv. Demetrije i drugovi, mučenici", mass: "Commune/C3b", source: "HBK: Zagreb, spomendan -> III. razred; misa: Commune plurimorum Martyrum non Pontificum (Salus autem) - the Mass Intret has the collect of martyr bishops" }
   - { date: "11-05", id: "zg-11-05", class: 3, colour: r, title: "Spomen mučenika i svetaca čije su relikvije u crkvama Nadbiskupije", mass: "Commune/C3a", source: "HBK: Zagreb, spomendan -> III. razred; misa: Commune plurimorum Martyrum (Sapientiam Sanctorum)" }
-  - { date: "11-14", id: "zg-11-14", class: 3, colour: r, title: "sv. Nikola Tavelić, prezbiter i mučenik", mass: "Commune/C2", source: "HBK: Hrvatska, spomendan -> III. razred; misa: Commune unius Martyris non Pontificis (In virtute)" }
+  - { date: "11-14", id: "zg-11-14", class: 3, colour: r, title: "sv. Nikola Tavelić, prezbiter i mučenik", mass: "Commune/C2a", source: "Kniewald 1942, str. 779: misa Laetabitur; HBK: Hrvatska, spomendan -> III. razred" }
 notes:              # neobvezatni spomendan: the Mass of the day is unchanged, the day carries a note
   - { date: "04-27", title: "bl. Ozana Kotorska, djevica (neobvezatni spomendan)" }
   - { date: "05-10", title: "bl. Ivan Merz (neobvezatni spomendan)" }

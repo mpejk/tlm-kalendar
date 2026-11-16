@@ -12,7 +12,7 @@ export const DAYS: [string, string][] = [
   ['2027-03-21&m=0', 'Palm Sunday: blessing of palms'], ['2027-03-21&m=1', 'Palm Sunday: Mass with the Passion'], ['2027-03-25&m=1', 'Holy Thursday evening Mass'], ['2027-03-26', 'Good Friday'], ['2027-03-27', 'Easter Vigil'],
   ['2027-03-28', 'Easter Sunday'], ['2027-04-05', 'Annunciation transferred'], ['2027-04-25&m=1', 'Greater Litanies: Rogation Mass'], ['2027-05-06', 'Ascension'], ['2027-05-16', 'Pentecost'],
   ['2027-05-22&m=1', 'Ember Saturday of Pentecost, shorter form'], ['2027-05-27', 'Corpus Christi'], ['2027-06-04', 'Sacred Heart'], ['2027-06-29', 'Sts Peter and Paul'], ['2027-07-25', 'Sunday after Pentecost with commemoration'],
-  ['2027-08-15', 'Assumption on a Sunday'], ['2027-09-18', 'Ember Saturday of September'], ['2027-10-31', 'Christ the King'], ['2027-11-02&m=1', 'All Souls, second Mass'], ['2027-11-16', 'IV class feria'],
+  ['2027-08-15', 'Assumption on a Sunday'], ['2027-09-25&m=0', 'Ember Saturday of September (n. 51: after the third Sunday of September)'], ['2027-10-31', 'Christ the King'], ['2027-11-02&m=1', 'All Souls, second Mass'], ['2027-11-16', 'IV class feria'],
   ['2026-02-10', 'Zagreb: Bl. Alojzije Stepinac'], ['2027-06-27', 'Zagreb: St Ladislaus on a Sunday'], ['2026-08-25', 'Zagreb: dedication of the cathedral'], ['2026-07-13', 'Zagreb: Our Lady of Bistrica'], ['2026-08-25&k=opci', 'general calendar on a local feast day'],
 ];
 const PDF_DAYS = ['2027-03-28', '2026-12-25&m=0', '2027-02-24', '2027-06-27', '2027-03-26'];

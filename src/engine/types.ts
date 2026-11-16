@@ -17,11 +17,13 @@ export interface SanctoralEntry {
   local?: boolean;         // from the local layer
   ord?: number;            // explicit place in the table of precedence (n. 91)
   mass?: string;           // formulary id when it differs from the id
+  massPaschal?: string;    // formulary id used in Paschaltide (Common of martyrs in Paschaltide)
   note?: string;
   source?: string;
 }
 
 export interface Observance {
+  idPaschal?: string;      // formulary used instead of id in Paschaltide
   key: string;             // 'T:Adv1-0', 'S:12-04'
   id: string;              // formulary id: 'Tempora/Adv1-0', 'Sancti/12-04', 'Commune/C10b'
   title: string;

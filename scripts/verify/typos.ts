@@ -91,6 +91,7 @@ const D: string[] = [];
 for (const [k, e] of distinct) { const m = k.match(/[^\s\p{L}\p{N}.,;:!?()«»„”“"'’‘\-–—…\/\[\]*+℣℟✠†<>=&%°§|]/u) ?? k.match(/[æðèþÆÐÈÞ]/); if (m) { const i = k.indexOf(m[0]); D.push(`- ${e.page}: character «${m[0]}» in «… ${k.slice(Math.max(0, i - 30), i + 30)} …»`); } }
 md.push(`## D. Unexpected characters (possible encoding damage left in the Croatian) (${D.length})`, '', ...(D.length ? D : ['None.']), '');
 
+if (fs.existsSync('data/tm/kniewald-misprints.md')) md.push(fs.readFileSync('data/tm/kniewald-misprints.md', 'utf8').trim(), '');
 md.push('## Latin typos on the old site', '', 'These were corrected against Divinum Officium (the site shows the Divinum Officium text). The individual cases with their pages are in `DIFFS.md` under "Mass texts, Latin" and in `data/verify/text-exceptions.yaml`; the count of sections that differ from the old site only in spelling or by such a typo is given there as well.', '');
 fs.writeFileSync('TYPOS.md', md.join('\n'));
 console.log({ cells: cells.length, distinct: distinct.size, A: A.length, B: B.length, C: C.length, D: D.length });

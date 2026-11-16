@@ -32,5 +32,16 @@ describe('Zagreb local layer', () => {
   it('neobvezatni spomendan is a note only: the Mass of the day is that of the general calendar', () => {
     const d = z('2026-04-27'), o = g('2026-04-27'); expect(d.notes.join()).toMatch(/Ozana/); expect(d.title).toBe(o.title); expect(d.masses).toEqual(o.masses);
   });
+  it('Masses follow Kniewald 1942 where he has the feast: St Florian Protexisti, Bl. Marko and Bl. Nikola Laetabitur, St Demetrius a Common of martyrs who were not bishops', () => {
+    expect(z('2026-05-04').celebration.id).toBe('Local/zg-05-04'); expect(z('2026-09-07').celebration.id).toBe('Commune/C2a');
+    expect(z('2026-11-14').celebration.id).toBe('Commune/C2a'); expect(z('2026-10-08').celebration.id).toBe('Commune/C3b');
+  });
+  it('St Quirinus, 4 June: the Paschaltide Common (Protexisti) up to the Saturday after Pentecost, Statuit after it', () => {
+    expect(z('2030-06-04').celebration.id).toBe('Local/zg-06-04p'); // Easter 21 April 2030, Pentecost 9 June
+    expect(z('2029-06-04').celebration.id).toBe('Commune/C2c');     // Easter 1 April 2029, Pentecost 20 May
+  });
+  it('a local III class feast that is impeded leaves the day exactly as in the general calendar (no local flag): Ash Wednesday 2027, Sacred Heart 2027', () => {
+    for (const x of ['2027-02-10', '2027-06-04']) { expect(z(x).flags.local).toBeFalsy(); expect(z(x).title).toBe(g(x).title); }
+  });
   it('the general calendar is untouched by the local layer', () => { for (const x of ['2026-02-10', '2026-06-27', '2026-08-25', '2026-07-13', '2026-11-05']) expect(g(x).flags.local).toBeFalsy(); });
 });

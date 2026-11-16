@@ -25,7 +25,7 @@ function ordOf(e: SanctoralEntry): number {
 function toObs(e: SanctoralEntry, transferredFrom?: string): Observance {
   return {
     key: (e.local ? 'L:' : 'S:') + e.id, id: e.mass ?? (e.local ? e.id : 'Sancti/' + e.id), title: e.title, cls: e.class, ord: ordOf(e),
-    kind: e.vigil ? 'vigil' : 'feast', colour: e.colour, lord: e.lord, bvm: e.bvm, local: e.local, with: e.with, transferredFrom,
+    kind: e.vigil ? 'vigil' : 'feast', colour: e.colour, lord: e.lord, bvm: e.bvm, local: e.local, with: e.with, transferredFrom, idPaschal: e.massPaschal,
     commAs: 'ordinary',
   };
 }
@@ -187,6 +187,8 @@ export function getDay(n: number, config: CalendarConfig): Day {
   for (const c of allowed.slice(limit)) omitted.push({ key: c.key, title: c.title, reason: 'prekoračen broj spomena (n. 114)' });
   allowed = allowed.slice(0, limit);
 
+  // Paschaltide: martyrs take the Mass of the Common for Paschaltide where the entry names one
+  if (t.season === 'easter') { if (win.idPaschal) win = { ...win, id: win.idPaschal }; allowed = allowed.map(c => (c.idPaschal ? { ...c, id: c.idPaschal } : c)); }
   const commemorations: Commemoration[] = [];
   // added orations under one conclusion with the prayer of the day
   if (win.with) commemorations.push({ key: win.key + '+with', id: win.id, title: win.with, type: 'same', cls: win.cls, kind: 'feast' });

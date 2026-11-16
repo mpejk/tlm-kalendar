@@ -1,0 +1,39 @@
+[
+ {
+  "id": "G060",
+  "hr": "Čitanje poslanice blaženoga Petra apostola (I. 1, 3-7).\nPredragi! Blagoslovljen Bog i Otac Gospodina našega Isusa Krista, koji nas po velikom svojem milosrđu preporodi za živu nadu uskrsnućem Isusa Krista od mrtvih, za baštinu neraspadljivu i neokaljanu i neuvelu, sačuvanu na nebesima za vas, koje čuva po vjeri sila Božja za spasenje da se objavi u posljednje vrijeme. Tada ćete klikovati, iako ste sad malo, ako je potrebno, rastuženi različitim kušnjama, da se prava vaša vjera, mnogo dragocjenija od zlata raspadljivoga, koje se kuša ognjem, nađe na hvalu i slavu i čast u dan objavljenja Isusa Krista, Gospodina našega.",
+  "ref": "Kniewald 1942, str. 566-567",
+  "checked": "image",
+  "note": "4. V. Sv. Florijan, mučenik (Misa »Štiti me«, osim poslanice). Same pericope boundaries as the Latin (1 Petr 1, 3-7, ending 'Gospodina našega' = 'Domini nostri'). Kniewald opens with 'Predragi!', which the Latin unit does not have."
+ },
+ {
+  "id": "G061",
+  "hr": "(Ps. 63, 11). Raduje se pravednik u Gospodinu i uzda se u njega i vesele se svi, koji su pravedna srca. (Ps. 63, 1) Usliši, Bože, moju molitvu, jer ja se tebi molim, spasi me od straha neprijateljskoga.",
+  "ref": "Kniewald 1942, str. 795",
+  "checked": "image",
+  "note": "Misa »Raduje se pravednik« za mučenika, koji nije biskup (Commune): Ulaz. Kniewald follows with the cue 'Slava Ocu . . . Raduje se . . .' (antiphon repeat not printed out); the cue is not included in hr. He cites the psalm verse as Ps. 63, 1 (Vulgate 63, 2)."
+ },
+ {
+  "id": "G062",
+  "hr": "Podaj, molimo, svemogući Bože, da zagovor blaženoga I., Tvoga mučenika, oslobodi naše tijelo od svih protivština, a dušu da očisti od svih zlih misli.",
+  "concl": "Po G. n.",
+  "ref": "Kniewald 1942, str. 795",
+  "checked": "image",
+  "note": "Misa »Raduje se pravednik« za mučenika, koji nije biskup (Commune): Molitva."
+ },
+ {
+  "id": "G063",
+  "hr": "(Ps. 36, 24). Da i posrne pravednik, ne će mu nauditi, jer ga Gospodin drži svojom rukom. (Ps. 36, 26) Milosrdan je bio uvijek i darežljiv; zato je potomstvo njegovo blagoslovljeno. Aleluja, aleluja! (Iv. 8, 12). Tko ide za mnom, ne će hodati u tami, nego će imati svijetlo života vječnoga. Aleluja.",
+  "ref": "Kniewald 1942, str. 796",
+  "checked": "image",
+  "note": "Misa »Raduje se pravednik« za mučenika, koji nije biskup (Commune): Na stepenicama + Aleluja. Same extent as the Latin."
+ },
+ {
+  "id": "G064",
+  "hr": "Okrijepljeni svetim darovima molimo Te, Gospodine, Bože naš, da zagovorom blaženoga I., mučenika Tvoga, osjetimo djelovanje svetih tajna, koje izvršujemo.",
+  "concl": "Po G. n.",
+  "ref": "Kniewald 1942, str. 797",
+  "checked": "image",
+  "note": "Misa »Raduje se pravednik« za mučenika, koji nije biskup (Commune): Popričesna."
+ }
+]

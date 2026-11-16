@@ -10,7 +10,7 @@ let nb = 0, nr = 0;
 for (const f of found) {
   if (!f.hr || !f.hr.trim()) continue;
   const g = gaps.find(x => x.id === f.id);
-  const val = { hr: f.hr.trim(), ref: f.ref + (f.checked === 'ocr' ? ' (OCR, nije provjereno na slici)' : ''), checked: f.checked ?? 'ocr', note: f.note };
+  const val = { hr: f.hr.trim() + ((f as any).concl && g ? `\n<i>${(f as any).concl}</i>` : ''), ref: f.ref + (f.checked === 'ocr' ? ' (OCR, nije provjereno na slici)' : ''), checked: f.checked ?? 'ocr', note: f.note };
   if (g) { blocks[g.core] = val; nb++; } else if (/#\d+\.\d+$/.test(f.id)) { rites[f.id] = val; nr++; }
 }
 fs.writeFileSync('data/tm/kniewald.json', JSON.stringify(blocks, null, 1)); fs.writeFileSync('data/tm/kniewald-rites.json', JSON.stringify(rites, null, 1));

@@ -2,14 +2,14 @@
  "coverage": {
   "masses": 4337,
   "blocks": 49330,
-  "site": 49063,
-  "siteVariant": 1565,
-  "kniewald": 206,
-  "missing": 61,
-  "unique": 6229,
-  "uniqueSite": 6192,
-  "uniqueKniewald": 29,
-  "uniqueMissing": 8
+  "site": 48990,
+  "siteVariant": 1601,
+  "kniewald": 318,
+  "missing": 22,
+  "unique": 6232,
+  "uniqueSite": 6186,
+  "uniqueKniewald": 41,
+  "uniqueMissing": 5
  },
  "rites": [
   {
@@ -38,33 +38,6 @@
    "first": "2026-04-22",
    "cal": "opci",
    "core": "gregem tum pastor eterne placatus intende et per beatos soterem et caium martires tuos atque sumos pontifices perpetua protectione custodi quos totius eclesie prestitisti ese pastores"
-  },
-  {
-   "n": 1,
-   "where": "sv. Florijan, mučenik, drugi zaštitnik Nadbiskupije",
-   "la": "Deus, qui nos beáti Floriáni Mártyris solemnitáte lætíficas: concéde propítius; ut, cuius gloriósum triúmphum venerámur in terris, societátis eius lætítiam adipísci mereámur in cælis.",
-   "sec": "Sancti/05-04pl|Oratio",
-   "first": "2026-05-04",
-   "cal": "zagreb",
-   "core": "deus qui nos beati floriani martiris solemnitate letificas concede propitius ut cuius gloriosum triumfum veneramur in teris sotietatis eius letitiam adipisci mereamur in celis"
-  },
-  {
-   "n": 1,
-   "where": "sv. Florijan, mučenik, drugi zaštitnik Nadbiskupije",
-   "la": "Hanc oblatiónis hóstiam, quǽsumus, omnípotens Deus, beáti Floriáni Mártyris tui digna comméndet orátio: qui sancto caritátis tuæ devíctus amóre, própriam sui córporis hóstiam in odórem suavitátis tibi óbtulit vivam.",
-   "sec": "Sancti/05-04pl|Secreta",
-   "first": "2026-05-04",
-   "cal": "zagreb",
-   "core": "hanc oblationis hostiam quesumus omnipotens deus beati floriani martiris tui digna comendet oratio qui sancto caritatis tue devictus amore propriam sui corporis hostiam in odorem suavitatis tibi obtulit vivam"
-  },
-  {
-   "n": 1,
-   "where": "sv. Florijan, mučenik, drugi zaštitnik Nadbiskupije",
-   "la": "Sancta nos, quǽsumus, Dómine, sacraménti cæléstis participátio: et ab hóstium cállido tueátur incúrsu; et sancto Floriáno intercedénte, nobis remédia salútis cónferat sempitérna.",
-   "sec": "Sancti/05-04pl|Postcommunio",
-   "first": "2026-05-04",
-   "cal": "zagreb",
-   "core": "sancta nos quesumus domine sacramenti celestis participatio et ab hostium calido tueatur incursu et sancto floriano intercedente nobis remedia salutis conferat sempiterna"
   },
   {
    "n": 1,

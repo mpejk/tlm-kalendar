@@ -568,5 +568,75 @@
   "occurrences": 1,
   "la": "Allelúja. Lætámini cum Jerúsalem, et exsultáte in ea, omnes, qui dilígitis Dóminum. Allelúja. Vidébitis, et gaudébit cor vestrum: cognoscétur manus Dómini servis ejus. Allelúja.",
   "core": "aleluia letamini cum ierusalem et exsultate in ea omnes qui diligitis dominum aleluia videbitis et gaudebit cor vestrum cognoscetur manus domini servis eius aleluia"
+ },
+ {
+  "id": "G058",
+  "section": "Commune/C3b|Oratio",
+  "day": "sv. Demetrije i drugovi, mučenici",
+  "firstDate": "2026-10-08",
+  "calendar": "zagreb",
+  "occurrences": 1,
+  "la": "Deus, qui nos ánnua sanctórum Mártyrum tuorum N. et N. sollemnitáte lætíficas: concéde propítius; ut, quorum gaudémus méritis, accendámur exémplis.",
+  "core": "deus qui nos anua sanctorum martirum tuorum n et n solemnitate letificas concede propitius ut quorum gaudemus meritis acendamur exemplis"
+ },
+ {
+  "id": "G059",
+  "section": "Commune/C3b|Postcommunio",
+  "day": "sv. Demetrije i drugovi, mučenici",
+  "firstDate": "2026-10-08",
+  "calendar": "zagreb",
+  "occurrences": 1,
+  "la": "Hæc nos commúnio, Dómine, purget a crímine: et, intercedéntibus sanctis Martýribus tuis N. et N., coeléstis remédii fáciat esse consórtes.",
+  "core": "hec nos comunio domine purget a crimine et intercedentibus sanctis martiribus tuis n et n celestis remedi fatiat ese consortes"
+ },
+ {
+  "id": "G060",
+  "section": "Local/zg-05-04|Lectio",
+  "day": "sv. Florijan, mučenik, drugi zaštitnik Nadbiskupije",
+  "firstDate": "2026-05-04",
+  "calendar": "zagreb",
+  "occurrences": 1,
+  "la": "Léctio Epístolæ beáti Petri Apóstoli Benedíctus Deus et Pater Dómini nostri Jesu Christi, qui secúndum misericórdiam suam magnam regenerávit nos in spem vivam, per resurrectiónem Jesu Christi ex mórtuis, in hereditátem incorruptíbilem et incontaminátam et immarcescíbilem, conservátam in cœlis in vobis, qui in virtúte Dei custodímini per fidem in salútem, parátam revelári in témpore novíssimo. In quo exsultábitis, módicum nunc si opórtet contristári in váriis tentatiónibus: ut probátio vestræ fídei multo pretiósior auro [quod per ignem probátur] inveniátur in laudem et glóriam et honórem, in revelatióne Jesu Christi, Dómini nostri.",
+  "core": "lectio epistole beati petri apostoli benedictus deus et pater domini nostri iesu cristi qui secundum misericordiam suam magnam regeneravit nos in spem vivam per resurectionem iesu cristi ex mortuis in hereditatem incoruptibilem et incontaminatam et imarcescibilem conservatam in celis in vobis qui in virtute dei custodimini per fidem in salutem paratam revelari in tempore novisimo in quo exsultabitis modicum nunc si oportet contristari in varis tentationibus ut probatio vestre fidei multo pretiosior auro inveniatur in laudem et gloriam et honorem in revelatione iesu cristi domini nostri"
+ },
+ {
+  "id": "G061",
+  "section": "Commune/C2a|Introitus",
+  "day": "sv. Marko Križevčanin, prezbiter i mučenik",
+  "firstDate": "2026-09-07",
+  "calendar": "zagreb",
+  "occurrences": 1,
+  "la": "Lætábitur justus in Dómino, et sperábit in eo: et laudabúntur omnes recti corde. Exáudi, Deus, oratiónem meam cum déprecor: a timóre inimíci éripe ánimam meam. Lætábitur justus in Dómino, et sperábit in eo: et laudabúntur omnes recti corde.",
+  "core": "letabitur iustus in domino et sperabit in eo et laudabuntur omnes recti corde exaudi deus orationem meam cum deprecor a timore inimici eripe animam meam letabitur iustus in domino et sperabit in eo et laudabuntur omnes recti corde"
+ },
+ {
+  "id": "G062",
+  "section": "Commune/C2a|Oratio",
+  "day": "sv. Marko Križevčanin, prezbiter i mučenik",
+  "firstDate": "2026-09-07",
+  "calendar": "zagreb",
+  "occurrences": 1,
+  "la": "Præsta, quǽsumus, omnípotens Deus: ut, intercedénte beáto N. Mártyre tuo, et a cunctis adversitátibus liberémur in córpore, et a pravis cogitatiónibus mundémur in mente.",
+  "core": "presta quesumus omnipotens deus ut intercedente beato n martire tuo et a cunctis adversitatibus liberemur in corpore et a pravis cogitationibus mundemur in mente"
+ },
+ {
+  "id": "G063",
+  "section": "Commune/C2a|Graduale",
+  "day": "sv. Marko Križevčanin, prezbiter i mučenik",
+  "firstDate": "2026-09-07",
+  "calendar": "zagreb",
+  "occurrences": 1,
+  "la": "Justus cum cecíderit, non collidétur: quia Dóminus suppónit manum suam. Tota die miserétur, et cómmodat: et semen ejus in benedictióne erit. Allelúja, allelúja Qui séquitur me, non ámbulat in ténebris: sed habébit lumen vitæ ætérnæ. Allelúja.",
+  "core": "iustus cum ceciderit non colidetur quia dominus suponit manum suam tota die miseretur et comodat et semen eius in benedictione erit aleluia aleluia qui sequitur me non ambulat in tenebris sed habebit lumen vite eterne aleluia"
+ },
+ {
+  "id": "G064",
+  "section": "Commune/C2a|Postcommunio",
+  "day": "sv. Marko Križevčanin, prezbiter i mučenik",
+  "firstDate": "2026-09-07",
+  "calendar": "zagreb",
+  "occurrences": 1,
+  "la": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo, sentiámus efféctum.",
+  "core": "refecti participatione muneris sacri quesumus domine deus noster ut cuius exsequimur cultum intercedente beato n martire tuo sentiamus efectum"
  }
 ]

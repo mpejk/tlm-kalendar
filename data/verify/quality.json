@@ -4,8 +4,8 @@
   "list": []
  },
  "offline": {
-  "cachedFiles": 710,
-  "formularyFiles": 685,
+  "cachedFiles": 711,
+  "formularyFiles": 686,
   "views": [
    {
     "view": "?d=2027-03-28",
@@ -56,7 +56,7 @@
    "performance": 96,
    "accessibility": 100,
    "bestPractices": 100,
-   "lcp": "2.3 s",
+   "lcp": "2.4 s",
    "tbt": "0 ms",
    "failingAccessibility": []
   },
