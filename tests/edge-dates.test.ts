@@ -107,9 +107,9 @@ describe('Feasts on Sundays', () => {
 });
 
 describe('Other rubrics', () => {
-  it('Greater Litanies stay on 25 April in the Easter octave of 2030 (n. 80) as a privileged commemoration at Mass (n. 109f); St Mark is omitted (n. 111a)', () => {
+  it('Greater Litanies stay on 25 April in the Easter octave of 2030 (n. 80) as a privileged commemoration at Mass (n. 109f); St Mark is omitted (n. 111a); no Rogation Mass on a I class day (n. 341)', () => {
     const d = day('2030-04-25');
-    expect(d).toMatchObject({ key: 'T:Pasc0-4', cls: 1, comm: ['P:X:LitMaj'], masses: 2 });
+    expect(d).toMatchObject({ key: 'T:Pasc0-4', cls: 1, comm: ['P:X:LitMaj'], masses: 1 });
     expect(d.omitted).toContain('S:04-25');
   });
   it('Greater Litanies move to Tuesday when 25 April is Easter Sunday or Monday (n. 80): 2038, Easter on 25 April', () => {

@@ -23,3 +23,4 @@ STOP
 run-task.sh
 .handover-test
 data/raw/missale62
+.claude/

@@ -1,13 +1,13 @@
 {
  "coverage": {
-  "masses": 4337,
-  "blocks": 49330,
-  "site": 48990,
-  "siteVariant": 1601,
+  "masses": 4335,
+  "blocks": 49301,
+  "site": 48961,
+  "siteVariant": 1598,
   "kniewald": 318,
   "missing": 22,
-  "unique": 6232,
-  "uniqueSite": 6186,
+  "unique": 6231,
+  "uniqueSite": 6185,
   "uniqueKniewald": 41,
   "uniqueMissing": 5
  },

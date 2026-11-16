@@ -1282,8 +1282,7 @@ DTSTAMP:20340101T000000Z
 DTSTART;VALUE=DATE:20340518
 DTEND;VALUE=DATE:20340519
 SUMMARY:UZAŠAŠĆE GOSPODINA NAŠEGA ISUSA KRISTA (SPASOVO)
-DESCRIPTION:I. razred\nspomen pod istim završetkom na svim misama: Spome
- n sv. Oca (godišnjica uvođenja u papinsku službu)
+DESCRIPTION:I. razred
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1292,8 +1291,9 @@ DTSTAMP:20340101T000000Z
 DTSTART;VALUE=DATE:20340519
 DTEND;VALUE=DATE:20340520
 SUMMARY:sv. Petar Celestin (Celestin V.)\, papa\, priznavalac
-DESCRIPTION:III. razred\nspomen na tihim misama: sv. Pudencijana\, djevic
- a\, mučenica
+DESCRIPTION:III. razred\nspomen pod istim završetkom na svim misama: Spo
+ men sv. Oca (godišnjica uvođenja u papinsku službu)\nspomen na tihim 
+ misama: sv. Pudencijana\, djevica\, mučenica
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

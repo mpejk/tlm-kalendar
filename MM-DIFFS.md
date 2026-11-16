@@ -161,6 +161,12 @@ Missale Meum gives the Saturday Mass of Our Lady; in the table of precedence (n.
 - 2036-08-09 bdijenje uoči dana sv. Lovre, mučenika: colour w / v
 - 2036-08-09 bdijenje uoči dana sv. Lovre, mučenika: celebration «V Mass of the B. V. M. – Salve, Sancta Parens» / «bdijenje uoči dana sv. Lovre, mučenika»
 
+## Our Lady of Mount Carmel on a Saturday of Our Lady (1)
+
+Missale Meum adds the commemoration to the Saturday Mass of Our Lady; n. 112d excludes a second prayer in which the intercession of Our Lady is sought.
+
+- 2033-07-16 Subotnja služba Gospina: commemorations MM [Our Lady of Mt. Carmel] / engine []
+
 ## Vigil of St John the Baptist, 23 June 2033 (3)
 
 The feast is transferred to 25 June because 24 June is the Sacred Heart; n. 33 then omits the vigil entirely. Missale Meum keeps it.

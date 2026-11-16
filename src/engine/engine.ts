@@ -30,7 +30,7 @@ function toObs(e: SanctoralEntry, transferredFrom?: string): Observance {
   };
 }
 
-interface YearCtx { y: number; byDate: Map<string, SanctoralEntry[]>; transfersIn: Map<number, Observance[]>; transferredOut: Set<string>; days: Map<number, Day> }
+interface YearCtx { y: number; byDate: Map<string, SanctoralEntry[]>; transfersIn: Map<number, Observance[]>; transferredOut: Set<string>; days: Map<number, Day>; popeDay?: number | null }
 
 function sanctoralKey(y: number, m: number, d: number): string | null {
   // In leap years the bissextile day is inserted after 23 February: the feasts of 24–28 February are kept a day later.
@@ -117,16 +117,38 @@ function commType(o: Observance): 'privileged' | 'ordinary' | null {
   return 'ordinary';
 }
 
+/** The liturgical day that holds day n, before commemorations: the temporal day or a fixed or transferred feast. */
+function occurrence(n: number, ctx: YearCtx) {
+  const { t, fixed: fixed0 } = candidates(n, ctx);
+  // n. 33: a II or III class vigil is omitted entirely when the feast it precedes is transferred
+  const feastMoved = [...ctx.transferredOut].some(k => k.endsWith('@' + (n + 1)));
+  const fixed = fixed0.filter(f => !ctx.transferredOut.has(f.key + '@' + n) && !(f.kind === 'vigil' && f.cls > 1 && feastMoved)).concat(ctx.transfersIn.get(n) ?? []);
+  return { t, fixed0, fixed, feastMoved, win: winnerOf(t, fixed, weekday(n)) };
+}
+
+/** Day number on which the prayer for the Pope is added in this year (n. 449–450), or null.
+ *  n. 449: on the anniversary, in all Masses except those of the dead, unless a day listed under nn. 1, 2, 3 or 8 of the table of
+ *  precedence occurs. n. 450 with nn. 364 and 363b: when so impeded it is transferred, like the votive Mass of the anniversary,
+ *  to the first day that is not of I class. */
+function popeDay(ctx: YearCtx, config: CalendarConfig): number | null {
+  if (ctx.popeDay !== undefined) return ctx.popeDay;
+  const pope = config.pope; let res: number | null = null;
+  if (pope) {
+    const [pm, pd] = pope.date.split('-').map(Number);
+    let n = dayNumber(ctx.y, pm, pd);
+    if ([1, 2, 3, 8].includes(occurrence(n, ctx).win.ord)) { n++; while (occurrence(n, ctx).win.cls === 1 && n < dayNumber(ctx.y, 12, 31)) n++; }
+    res = n;
+  }
+  return (ctx.popeDay = res);
+}
+
 export function getDay(n: number, config: CalendarConfig): Day {
   const { y, m, d } = fromDayNumber(n);
   const ctx = yearCtx(y, config);
   const cached = ctx.days.get(n); if (cached) return cached;
   const wd = weekday(n);
-  const { t, fixed: fixed0 } = candidates(n, ctx);
+  const { t, fixed0, fixed, feastMoved } = occurrence(n, ctx);
   const omitted: Day['omitted'] = [];
-  // n. 33: a II or III class vigil is omitted entirely when the feast it precedes is transferred
-  const feastMoved = [...ctx.transferredOut].some(k => k.endsWith('@' + (n + 1)));
-  const fixed = fixed0.filter(f => !ctx.transferredOut.has(f.key + '@' + n) && !(f.kind === 'vigil' && f.cls > 1 && feastMoved)).concat(ctx.transfersIn.get(n) ?? []);
   for (const f of fixed0) if (f.kind === 'vigil' && f.cls > 1 && feastMoved) omitted.push({ key: f.key, title: f.title, reason: 'bdijenje se izostavlja jer je blagdan prenesen (n. 33)' });
   for (const f of fixed0) if (ctx.transferredOut.has(f.key + '@' + n)) omitted.push({ key: f.key, title: f.title, reason: 'prenesen (n. 95)' });
   const E = easter(y);
@@ -176,6 +198,8 @@ export function getDay(n: number, config: CalendarConfig): Day {
     let reason = '';
     if (win.lord && c.lord) reason = 'isti naslov (n. 112a)';
     else if (win.bvm && c.bvm) reason = 'isti naslov (n. 112d)';
+    else if (c.lord && allowed.some(x => x.lord)) reason = 'isti naslov (n. 112a)';
+    else if (c.bvm && allowed.some(x => x.bvm)) reason = 'isti naslov (n. 112d)';
     else if (win.cls === 1 && c.type !== 'privileged') reason = 'na dan I. razreda samo povlašteni spomen (n. 111a)';
     else if (isSunday && win.cls === 2 && c.type !== 'privileged' && c.cls !== 2) reason = 'u nedjelju II. razreda samo spomen blagdana II. razreda (n. 111b)';
     else if (isSunday && win.cls === 1 && c.type !== 'privileged') reason = 'n. 111a';
@@ -192,8 +216,7 @@ export function getDay(n: number, config: CalendarConfig): Day {
   const commemorations: Commemoration[] = [];
   // added orations under one conclusion with the prayer of the day
   if (win.with) commemorations.push({ key: win.key + '+with', id: win.id, title: win.with, type: 'same', cls: win.cls, kind: 'feast' });
-  const pope = config.pope;
-  if (pope && `${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}` === pope.date && !(t.tid.startsWith('Quad6-') && weekday(n) >= 4))
+  if (n === popeDay(ctx, config))
     commemorations.push({ key: 'X:Papa', id: 'Commune/Coronatio', title: 'Spomen sv. Oca (godišnjica uvođenja u papinsku službu)', type: 'same', cls: 4, kind: 'oration' });
   const ck = christTheKing(y);
   if (n === ck - 7) commemorations.push({ key: 'X:Missio', id: 'Commune/Propaganda', title: 'Misijska nedjelja (molitva za širenje vjere)', type: 'same', cls: 4, kind: 'oration' });
@@ -220,7 +243,13 @@ export function getDay(n: number, config: CalendarConfig): Day {
   if (win.key === 'S:02-02') masses.unshift({ id: 'Sancti/02-02:Prelude', label: 'Blagoslov svijeća', kind: 'rite', extra: true });
   if (win === t && tid === 'Quadp3-3') masses.unshift({ id: 'Tempora/Quadp3-3:Prelude', label: 'Blagoslov pepela', kind: 'rite', extra: true });
   if (masses.some(m => m.extra) && !masses.find(m => m.kind === 'mass')!.label) masses.find(m => m.kind === 'mass')!.label = 'Misa';
-  if (rogation || greaterLitanies) { masses.push({ id: 'Tempora/Pasc5-1', label: 'Prosna misa', kind: 'mass', variant: 'rogation' }); flags.rogation = true; if (greaterLitanies) flags.greaterLitanies = true; }
+  const rubricNotes: string[] = [];
+  if (rogation || greaterLitanies) {
+    flags.rogation = true; if (greaterLitanies) flags.greaterLitanies = true;
+    // The Rogation Mass is a votive Mass of II class (n. 346), allowed on days of II, III and IV class only (n. 341).
+    if (win.cls > 1) masses.push({ id: 'Tempora/Pasc5-1', label: 'Prosna misa', kind: 'mass', variant: 'rogation' });
+    else rubricNotes.push('Prosna misa danas se ne služi jer je dan I. razreda (Kodeks rubrika n. 341). Gdje se održava procesija, molitva prosne mise dodaje se molitvi dana pod istim završetkom (n. 343c).');
+  }
   if (t.ember) flags.ember = true;
   if (win.local || commemorations.some(c => c.local)) flags.local = true;
 
@@ -235,6 +264,7 @@ export function getDay(n: number, config: CalendarConfig): Day {
     date: iso(n), weekday: wd, season: t.season, temporalId: tid, celebration: win, cls: win.cls as Cls,
     colour: bvmSat ? 'w' : win.colour, colours, title, commemorations, masses, flags, notes, omitted,
   };
+  if (rubricNotes.length) day.rubricNotes = rubricNotes;
   ctx.days.set(n, day);
   return day;
 }

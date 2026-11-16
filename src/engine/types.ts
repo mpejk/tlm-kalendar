@@ -58,6 +58,7 @@ export interface Day {
   masses: MassRef[];
   flags: { rogation?: boolean; greaterLitanies?: boolean; ember?: boolean; local?: boolean; noMass?: boolean };
   notes: string[];         // e.g. neobvezatni spomendan of the local layer
+  rubricNotes?: string[];  // remarks on the rubrics of the day (shown without the local-calendar tag)
   omitted: { key: string; title: string; reason: string }[];
 }
 

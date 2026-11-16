@@ -159,7 +159,9 @@ export function hasGloria(day: Day, mass: MassRef, f: Formulary): boolean {
 /** Creed (Code of Rubrics n. 475–476). */
 export function hasCredo(day: Day, mass: MassRef, f: Formulary): boolean {
   const c = day.celebration;
-  if (mass.variant === 'rogation') return false;
+  // The Rogation Mass is a votive Mass of II class (n. 346): no Creed, unless it is said by reason of a Sunday (n. 343a, n. 475a).
+  // (It is not said on the I class days of an octave at all, n. 341.)
+  if (mass.variant === 'rogation') return day.weekday === 0;
   if (c.key === 'S:11-02') return false;
   if (day.weekday === 0) return true;
   if (c.kind === 'sunday') return true;
