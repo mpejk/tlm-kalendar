@@ -71,10 +71,10 @@
   },
   {
    "name": "month view, mobile",
-   "performance": 97,
+   "performance": 96,
    "accessibility": 100,
    "bestPractices": 96,
-   "lcp": "2.3 s",
+   "lcp": "2.4 s",
    "tbt": "0 ms",
    "failingAccessibility": []
   }

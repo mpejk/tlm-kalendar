@@ -12,7 +12,7 @@ type FData = Formulary & { hr: Record<string, HrVal>; rite?: boolean; title?: st
 const W = window as any;
 const F: Record<string, FData> = {}; const CAL: Record<number, CalYear> = {}; let BASE: Base;
 const waiting: Record<string, ((ok: boolean) => void)[]> = {};
-W.TLM = { base: (b: Base) => { BASE = b; }, cal: (y: number, d: CalYear) => { CAL[y] = d; }, f: (id: string, d: FData) => { F[id] = d; } };
+W.TLM = { base: (b: Base) => { BASE = b; tryStart(); }, cal: (y: number, d: CalYear) => { CAL[y] = d; }, f: (id: string, d: FData) => { F[id] = d; } };
 const here = (document.currentScript as HTMLScriptElement | null)?.src.replace(/app\.js.*$/, '') ?? '';
 function load(src: string): Promise<boolean> {
   return new Promise(res => {
@@ -262,6 +262,9 @@ function init() {
   if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register(here + 'sw.js').catch(() => { /* offline use unavailable */ });
 }
 W.TLM.start = init;
-if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => init()); else setTimeout(init, 0);
+// Start once the document is parsed AND data/base.js has run (the two deferred scripts may execute in separate tasks).
+let started = false;
+function tryStart() { if (started || !BASE || document.readyState === 'loading') return; started = true; init(); }
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', tryStart); else setTimeout(tryStart, 0);
 /** used by the verification crawl: show a day and resolve when it is rendered */
 W.TLM.nav = async (o: Partial<State>) => { Object.assign(st, o); const u = urlFor({}); try { history.replaceState(null, '', u); } catch { /* file:// */ } await render(); };
