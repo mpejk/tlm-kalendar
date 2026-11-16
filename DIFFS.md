@@ -4,17 +4,21 @@
 
 Days compared: 1130 (27 Nov 2016 – 31 Dec 2019). Fields: weekday, class, colour(s), title, commemorations (type and order), number of Masses.
 
-No differences.
+No unexplained differences.
+
+Listed exceptions (1), where the calendar follows the Code of Rubrics against the old site:
+
+- 2019-04-25 masses: old site «2», engine «1». Thursday of Easter week is a day of I class; the Rogation Mass is a votive Mass of II class (Code of Rubrics n. 346), allowed only on days of II, III and IV class (n. 341). The Greater Litanies remain as the privileged commemoration (n. 109f), as on the old site
 
 ## Mass texts, Latin
 
 Mass pages compared: 791 (every harvested Mass page of the 2017 and 2018 year pages; the December pages that appear twice are counted once). Sections compared: 8205.
 
-- identical after normalising accents, case, punctuation, spacing and spelling (æ/ae, j/i …): **7003**
-- differing only in spelling or by an old-site typo (the Divinum Officium spelling is shown): **1173**
-- listed exceptions: **29** sections on 37 pages
+- identical after normalising accents, case, punctuation, spacing and spelling (æ/ae, j/i …): **7045**
+- differing only in spelling or by an old-site typo (the Divinum Officium spelling is shown): **1128**
+- listed exceptions: **32** sections on 39 pages
 
-Pages identical in every section: 754 of 791.
+Pages identical in every section: 752 of 791.
 
 ### Exceptions and their causes
 
@@ -33,6 +37,8 @@ Pages identical in every section: 754 of 791.
 - St Francis Caracciolo: old site 'sicut cedrus Libani', Missal 'sicut cedrus, quae in Libano est' (Divinum Officium). — pages: 2018-06-04_0
 - Saturday Mass of Our Lady in Paschaltide: the old site prints the antiphon three times. — pages: 2017-05-06_0
 - Holy Thursday evening Mass: the old site inserts the washing of the feet (antiphons) after the Gospel; the calendar shows the Mandatum with the rites of Holy Week. — pages: 2017-04-13_1, 2018-03-29_1
+- Assumption: the old site prints the gradual in a third Latin version (quia concupivit rex speciem tuam / Omnis gloria eius), although its Croatian translates the text of the 1962 Missal. The calendar has the Missal's text (p. 628): concupiscet Rex pulchritudinem tuam / Tota decora ingreditur filia Regis (review finding T03). — pages: 2017-08-15_0, 2018-08-15_0
+- Saturday Mass of Our Lady in Paschaltide: the old site prints the communion antiphon without Alleluia; in Paschaltide Alleluia is added (Code of Rubrics n. 504; review finding T09). — pages: 2017-05-06_0
 
 Latin taken from the old site instead of Divinum Officium (where the old site has the text of the 1962 Missal): see `data/corpus/la/OVERRIDES.md`.
 
@@ -40,8 +46,8 @@ Latin taken from the old site instead of Divinum Officium (where the old site ha
 
 Text units compared (prayers block by block, other sections as a whole): 8974.
 
-- identical to the page: **8616**
-- the old site renders the same Latin in more than one way; the most frequent rendering is shown (see TM-CONFLICTS.md): **351**
+- identical to the page: **8620**
+- the old site renders the same Latin in more than one way; the most frequent rendering is shown (see TM-CONFLICTS.md): **347**
 - on pages with a Latin exception listed above: **7**
 - no Croatian shown although the page has one: **0**
 - different text: **0**

@@ -3,53 +3,56 @@
 **The calendar is live at https://mpejk.github.io/tlm-kalendar/** (example of a date link: https://mpejk.github.io/tlm-kalendar/?d=2027-03-28).
 It also works straight from disk: double-click `dist/index.html`. To publish a later change: `npm run deploy`.
 
-Source code: https://github.com/mpejk/tlm-kalendar (public). Before any command: `export PATH="$PWD/tools.nosync/bin:$PATH" NODE_OPTIONS=--use-system-ca PLAYWRIGHT_BROWSERS_PATH="$PWD/tools.nosync/pw"`.
+Source code: https://github.com/mpejk/tlm-kalendar (public). `README.md` (Croatian) explains how to maintain it; `ODGOVOR-NA-PROVJERU.md` answers the review of November 2026 finding by finding.
+
+Setup on any computer: install Node.js 20 or newer and git, then in the project folder `npm install` and `npx playwright install chromium webkit`. (On the Mac where this was built, Node sits inside the project: `export PATH="$PWD/tools.nosync/bin:$PATH" NODE_OPTIONS=--use-system-ca PLAYWRIGHT_BROWSERS_PATH="$PWD/tools.nosync/pw"` first.)
+
+## The review of November 2026
+
+All 26 findings were checked against the 1962 Missal (page images) and the Code of Rubrics and found right; all are corrected except where a Croatian text would have to be newly translated. In short:
+
+- **Calendar:** the Mass of the Easter Vigil is complete; the Rogation Mass on a Sunday has the Creed and is not offered on days of I class; the prayer for the Pope follows nn. 449–450 (19 May in 2034); a second commemoration of Our Lady is omitted.
+- **Texts:** 45 corrections of the Latin of the Masses against the Missal and 12 in the rites, 33 of the Croatian (wrong translation beside a prayer, typos, Scripture references), Alleluias by the rubrics in both languages, saints' and the Pope's names in place of "N." / "I.".
+- **Site:** fonts that cannot draw u as v on iPhones, keyboard use of the tabs, narrow screens with large type, malformed links.
+- **Still needs a person:** 15 texts without Croatian (`ZA-PRIJEVOD.md` says exactly where to type each), a look at the inserted names (list in `ODGOVOR-NA-PROVJERU.md`), a check on a real iPhone.
 
 ## Verification results
 
 | Check | Result |
 | --- | --- |
-| Calendar against the old site, 27 Nov 2016 – 31 Dec 2019 | 1130 of 1130 days agree (title, class, colour, commemorations, number of Masses) |
-| Latin texts against the old site | 791 Mass pages, 8205 sections: 7003 identical, 1173 differ only in spelling or by an old-site typo, 29 listed exceptions (on 37 pages); 754 pages identical in every section. Causes in `DIFFS.md` |
-| Croatian texts against the old site | 8974 units: 8616 identical, 351 where the old site itself has several renderings of the same Latin (the most frequent is shown), 7 on pages with a Latin exception, 0 different, 0 missing |
-| Calendar against Missale Meum, 2026–2036 | 4018 days; the celebration differs on a handful of days and commemorations on more, 114 differences in 12 groups, each with its rubric in `MM-DIFFS.md`; 0 unexplained |
-| Edge dates | 41 named tests, each citing its rubric; an independent derivation from the rubrics text agreed except on two points, both reconciled (`EDGE-DERIVATION.md`, `DECISIONS.md`) |
-| Zagreb layer | 11 named tests |
-| Latin coverage, 2026–2036, both calendars | 4337 Masses, every required section present |
-| Whole-site crawl, both calendars, from `file://` and over http under a sub-path | 16,808 views, 174,384 sections: 0 console errors, 0 empty sections, 0 broken links, 0 mojibake |
-| Start-up order (new) | 15 cases with one file delayed: all render |
-| Screenshots | 160 (40 days × 390/1280 px × light/dark) on 8 contact sheets, all reviewed, plus month, year, search and header views; 5 days printed to PDF |
-| Lighthouse, day view | mobile: performance 96, accessibility 100; desktop: 100 / 100 |
-| axe | 0 serious or critical violations |
-| Offline | works after one visit (711 files cached) |
-| Live site | start page, three date links and the month view render (checked three times after the last deployment) |
-| Size of `dist` | 15 MB |
+| Unit and data tests (`npm test`) | 131 tests pass, among them 71 written for the review |
+| Calendar against the old site, 27 Nov 2016 – 31 Dec 2019 | 1130 days: 1129 agree; 1 listed exception (25 April 2019, Rogation Mass on a I class day, Code of Rubrics n. 341) |
+| Latin texts against the old site | 791 Mass pages, 8205 sections: 7045 identical, 1128 differ only in spelling or by an old-site typo, 32 listed exceptions (17 causes, in `DIFFS.md`); 752 pages identical in every section |
+| Croatian against the old site (before the corrections listed in `TYPOS.md`) | 8974 units: 8620 identical, 347 where the old site has several renderings of the same Latin, 7 on pages with a Latin exception, 0 different, 0 missing |
+| Calendar against Missale Meum, 2026–2036 | 4018 days; every difference explained with its rubric in `MM-DIFFS.md`; 0 unexplained |
+| Edge dates | 41 named tests, each citing its rubric |
+| Whole-site crawl, both calendars, from `file://` and over http under a sub-path | 16,808 views, 173,952 sections: 0 console errors, 0 empty sections, 0 broken links, 0 mojibake |
+| Start-up order | 15 cases with one file delayed: all render |
+| Browser checks (`npm run verify:site`), Chromium and WebKit | links 22 cases, keyboard 30 checks, layout 140 cases at 340 px and 100/130/160 % type, fonts shaped and rendered: 0 failures. Firefox does not start on this Mac (`BLOCKED.md`) |
+| Live site | start page and 8 deep links show the corrected state (`scripts/verify/live-review.ts`) |
+| Size of `dist` | 14 MB, 736 files |
 
-How the crawl works, so you know its limits: every date is rendered inside a real headless browser by the site's own code, but by in-page navigation, not by a fresh page load per date. Fresh page loads are covered by the screenshots, the start-up test, the offline test and the live check.
-
-## Found and fixed in the last run
-
-- **The page could stay empty on a slow connection.** The application could start before its base data file had arrived. It showed up on the live site in 4 of 5 loads. Fixed, with a test that fails on the old code.
-- The "mjesni kalendar" tag appeared on days the local layer did not change (Ash Wednesday 2027, Sacred Heart 2027).
-- St Demetrius had the collect for martyr bishops.
-- Stray `_` marks from the source data were visible in the Easter Vigil; one verse (Gen 1, 25) of its first lesson was damaged in the source and is restored from the other Divinum Officium file.
+Lighthouse, axe, offline and print were measured before the review (performance 96, accessibility 100; 0 serious axe violations; offline after one visit); axe and offline were rerun after the site changes with the same result.
 
 ## Croatian coverage by source
 
-Distinct text blocks of the Masses of 2026–2036 (both calendars): **6232**. From the old site **6186**; from Kniewald **41**; missing **5**.
-Counting every occurrence: 49,330 blocks; old site 48,990; Kniewald 318; missing 22.
+Distinct text blocks of the Masses of 2026–2036 (both calendars): **6241**. From the old site **6193**; from Kniewald **45**; missing **3**.
+Counting every occurrence: 49,301 blocks; old site 48,998; Kniewald 292; missing 11.
 
-Rites: palms, Good Friday and the washing of the feet are the old site's pages. Candlemas (10 rows) and Ash Wednesday (9 rows) are from Kniewald 1930, the Easter Vigil (38 of 47 rows) from Kniewald 1942, all read against the page scans.
+Rites: palms, Good Friday and the washing of the feet are the old site's pages. Candlemas and Ash Wednesday are from Kniewald 1930, the Easter Vigil with its Mass from Kniewald 1942, all read against the page scans. 12 rows of the Vigil (new in 1955) have no Croatian.
 
-## `GAPS.md` (Latin alone, "hrvatski prijevod nedostaje")
+## `ZA-PRIJEVOD.md` and `GAPS.md` (Latin alone, "hrvatski prijevod nedostaje")
 
-- Five Mass texts that neither source has: the collect *Gregem tuum* for Sts Soter and Caius (22 April) and for St Urban (25 May), the collect and secret of St Maurice (22 September, a commemoration), the gradual of the Queenship of Our Lady (31 May).
-- Nine rows of the Easter Vigil that are new in the 1955 rite (preparing the candle, the deacon's blessing, the renewal of baptismal promises, the blessing of incense).
+- Three Mass texts: the collect and secret of St Maurice (22 September, a commemoration) and the gradual of the Queenship of Our Lady outside Paschaltide (31 May).
+- Twelve rows of the Easter Vigil: preparing the candle (3), the deacon's blessing, the last paragraph of the Exsultet, the renewal of baptismal promises (4), the blessing of incense, Psalm 150 and the Benedictus at Lauds.
+
+Both files are written by the build, so they are always current.
 
 ## `BLOCKED.md`
 
-- Kniewald 1942 prints, in Croatian only, proper prayers for St Ladislaus, St Demetrius, Bl. Marko Križevčanin, Bl. Nikola Tavelić, Bl. Augustin Kažotić, Bl. Ozana, Bl. Gracija and a whole Mass of the Holy Relics. I could not find their Latin online, so these feasts use the prayers of the Common. If you have a Zagreb *Proprium* or a 1962 Missal with the *Missae pro aliquibus locis*, the file says where to put the texts.
+- Kniewald 1942 prints, in Croatian only, proper prayers for several Zagreb feasts and a whole Mass of the Holy Relics; their Latin was not found online, so these feasts use the prayers of the Common.
 - No pre-conciliar Zagreb *Proprium* or *Directorium* was found online.
+- Firefox could not be run here; nothing was tested on a physical iPhone.
 
 ## Decisions you may want to reverse
 
@@ -62,23 +65,24 @@ All are in `DECISIONS.md`. To change a local rank or Mass, edit the entry in `da
 | Masses of the local feasts are Commons, chosen as Kniewald 1942 indicates: St Florian *Protexisti* with the Epistle 1 Pet 1, 3-7; St Quirinus *Protexisti* in Paschaltide, *Statuit* after it; Bl. Marko and Bl. Nikola *Laetabitur*; St Ladislaus *Os justi*; Bl. Alojzije Stepinac *Statuit*; St Leopold *Os justi*; Our Lady of Bistrica *Salve sancta parens*; the cathedral *Terribilis* | `mass` (and `massPaschal`) in `zagreb.yaml`; compositions in `data/local/formularies.yaml` |
 | St Demetrius "and companions" (the HBK title): Mass *Salus autem* of several martyrs. Kniewald has him as a single martyr with the Mass *In virtute* | `mass: "Commune/C2"` and the title |
 | Holy Relics (5 November): Mass *Sapientiam* of several martyrs | `mass` |
-| Prayers of a Common keep "N." (Croatian "I."); no name is inserted | would need the Croatian with the name from a printed source |
+| Names are put in place of "N." / "I." in prayers of a Common (review, Nov 2026) | `data/calendar/names.yaml`: remove or change an entry |
 | The Creed is said on 26 December (n. 475d), although the old site says not | `src/assembler/assemble.ts` |
 | 2035: Annunciation on Monday 2 April, St Joseph on Tuesday 3 April (Missale Meum has the reverse) | `src/engine/engine.ts`, transfers |
 | When the Transfiguration or the Lateran dedication replaces a Sunday, the saint of the day is not commemorated (as the old site did on 6 August 2017) | engine, commemorations |
-| Pope's anniversary oration on 18 May (Leo XIV) on every class of day outside the Triduum | `POPE` in `scripts/build/data.ts` |
+| Prayer for the Pope on 18 May (Leo XIV); impeded and transferred by Code of Rubrics nn. 449–450 (2034: 19 May) | `POPE` in `scripts/build/data.ts`, name forms in `data/calendar/names.yaml` |
 | Displayed Croatian is the old site's; Kniewald's version is stored beside it for 2508 blocks, but as uncorrected OCR | `croatianPrimary` in `data/site-config.json`; correct the OCR first |
 | Latin source is the Divinum Officium state of February 2025, because the current one has broken Mass Commons | `DECISIONS.md` gives the commands |
 
-Also worth a look: `KNIEWALD-CHECK.md` (2721 old-site blocks compared with Kniewald: 2396 agree in content, 16 flagged, 92 uncertain, 213 not found in Kniewald; the flagged ones are mostly readings whose extent changed after 1942) and `TYPOS.md` (suspected typos in the old site's Croatian and misprints in Kniewald; nothing was corrected).
+Also worth a look: `KNIEWALD-CHECK.md` (2721 old-site blocks compared with Kniewald: 2396 agree in content, 16 flagged, 92 uncertain, 213 not found in Kniewald; the flagged ones are mostly readings whose extent changed after 1942) and `TYPOS.md` (suspected typos in the old site's Croatian and misprints in Kniewald; the obvious ones are corrected and listed there with the original reading).
 
 ## Adding years or correcting a text
 
+`README.md` has these as step-by-step recipes in Croatian. In short:
+
 - **More years:** change `YEARS` in `scripts/build/data.ts` (the engine is valid for 1961–2100), then `npm run deploy`.
-- **Correct a Croatian text:** put the corrected cell in `data/tm/manual.json` (keyed like the entries there), or for a Kniewald text edit it in `data/tm/kniewald-found.json` and run `npx tsx scripts/croatian/apply-kniewald.ts`; then `npm run deploy`.
-- **Correct a Latin text:** add an entry to `data/corpus/overrides.yaml`, run `npm run import`, then `npm run deploy`.
-- **Fill a gap:** the last lines of `GAPS.md` say how.
-- **Check before publishing:** `npm test`, `npx tsx scripts/verify/crawl.ts file 2026 2036`, `npx tsx scripts/verify/startup.ts`.
+- **Correct a Croatian text:** add an entry to `data/tm/corrections.yaml`; **a Latin text:** `data/corpus/patches.yaml`; **a row of a rite:** `data/tm/rites-hr.yaml`; then `npm run deploy`.
+- **Supply a missing translation:** `ZA-PRIJEVOD.md` gives the file and the key for each.
+- **Check before publishing:** `npm test`, `npx tsx scripts/verify/crawl.ts file 2026 2036`, `npx tsx scripts/verify/startup.ts`, `npm run verify:site`.
 
 ## Final audit against the brief
 
