@@ -1,0 +1,1135 @@
+{
+ "prayers": {
+  "Pater noster": [
+   {
+    "k": "text",
+    "x": "b1cbc84c83"
+   }
+  ],
+  "Ave Maria": [
+   {
+    "k": "text",
+    "x": "9dfe577e0a"
+   }
+  ],
+  "Credo": [
+   {
+    "k": "text",
+    "x": "014e8a0c52"
+   },
+   {
+    "k": "text",
+    "x": "71cd19e843"
+   },
+   {
+    "k": "text",
+    "x": "dc355ce99c"
+   }
+  ],
+  "Gloria": [
+   {
+    "k": "text",
+    "x": "65429d04f7",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "8d3517104f",
+    "mark": "R"
+   }
+  ],
+  "Gloria1": [
+   {
+    "k": "text",
+    "x": "64e621618b",
+    "mark": "V"
+   }
+  ],
+  "Requiem": [
+   {
+    "k": "text",
+    "x": "a14e9e365b",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "8906fb4250",
+    "mark": "R"
+   }
+  ],
+  "Alleluia": [
+   {
+    "k": "text",
+    "x": "3434b56f4c"
+   },
+   {
+    "k": "text",
+    "x": "b5f2b4fd44"
+   }
+  ],
+  "Dominus": [
+   {
+    "k": "text",
+    "x": "da1479a384",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "bfe973d4ce",
+    "mark": "R"
+   },
+   {
+    "k": "text",
+    "x": "45163a56b7",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "3b5b6c08d4",
+    "mark": "R"
+   },
+   {
+    "k": "rubric",
+    "la": "omittitur secunda Domine, exaudi"
+   }
+  ],
+  "Flectamus": [
+   {
+    "k": "text",
+    "x": "92de144b3a",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "51bbf55efc",
+    "mark": "R"
+   }
+  ],
+  "Dominus vobiscum": [
+   {
+    "k": "text",
+    "x": "da1479a384",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "bfe973d4ce",
+    "mark": "R"
+   }
+  ],
+  "IteMissa": [
+   {
+    "k": "text",
+    "x": "87d31ad970",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "8de72fdd73",
+    "mark": "R"
+   },
+   {
+    "k": "text",
+    "x": "f82ab6280d",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "7f4821a793",
+    "mark": "R"
+   },
+   {
+    "k": "text",
+    "x": "e4bcbb1172",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "8de72fdd73",
+    "mark": "R"
+   },
+   {
+    "k": "text",
+    "x": "174b7e8b0d",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "251ae9e67f",
+    "mark": "R"
+   }
+  ],
+  "Confiteor": [
+   {
+    "k": "text",
+    "x": "6901e676ef"
+   }
+  ],
+  "Misereatur": [
+   {
+    "k": "text",
+    "x": "12ebfc5bac"
+   }
+  ],
+  "Indulgentiam": [
+   {
+    "k": "text",
+    "x": "0b0f0510b5"
+   }
+  ],
+  "Domine labia": [
+   {
+    "k": "text",
+    "x": "d0c061df3b",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "bdad4fc1b7",
+    "mark": "R"
+   }
+  ],
+  "Deus in adjutorium": [
+   {
+    "k": "text",
+    "x": "a12594a16d",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "5f21337e8d",
+    "mark": "R"
+   }
+  ],
+  "Tu autem": [
+   {
+    "k": "text",
+    "x": "7f939b7fdf",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "8de72fdd73",
+    "mark": "R"
+   }
+  ],
+  "Benedicamus Domino": [
+   {
+    "k": "text",
+    "x": "e4bcbb1172",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "8de72fdd73",
+    "mark": "R"
+   }
+  ],
+  "Benedicamus Domino1": [
+   {
+    "k": "text",
+    "x": "106c74c69d",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "7f4821a793",
+    "mark": "R"
+   }
+  ],
+  "Deo gratias": [
+   {
+    "k": "text",
+    "x": "8de72fdd73",
+    "mark": "R"
+   }
+  ],
+  "Gloria tibi": [
+   {
+    "k": "text",
+    "x": "98c132029e",
+    "mark": "R"
+   }
+  ],
+  "Laus tibi": [
+   {
+    "k": "text",
+    "x": "771a60573d",
+    "mark": "R"
+   },
+   {
+    "k": "text",
+    "x": "914f684a22",
+    "mark": "S"
+   }
+  ],
+  "Fidelium animae": [
+   {
+    "k": "text",
+    "x": "e2e768adc8",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "251ae9e67f",
+    "mark": "R"
+   }
+  ],
+  "Per Dominum": [
+   {
+    "k": "text",
+    "x": "4fc02c29a4"
+   },
+   {
+    "k": "text",
+    "x": "251ae9e67f",
+    "mark": "R"
+   }
+  ],
+  "Per Dominum eiusdem": [
+   {
+    "k": "text",
+    "x": "502b6d94da"
+   },
+   {
+    "k": "text",
+    "x": "251ae9e67f",
+    "mark": "R"
+   }
+  ],
+  "Qui cum Patre": [
+   {
+    "k": "text",
+    "x": "cb6e15ec51"
+   },
+   {
+    "k": "text",
+    "x": "251ae9e67f",
+    "mark": "R"
+   }
+  ],
+  "Per eumdem": [
+   {
+    "k": "text",
+    "x": "d6251242bf"
+   },
+   {
+    "k": "text",
+    "x": "251ae9e67f",
+    "mark": "R"
+   }
+  ],
+  "Per eundem": [
+   {
+    "k": "text",
+    "x": "d6251242bf"
+   },
+   {
+    "k": "text",
+    "x": "251ae9e67f",
+    "mark": "R"
+   }
+  ],
+  "Qui vivis": [
+   {
+    "k": "text",
+    "x": "5e62146858"
+   },
+   {
+    "k": "text",
+    "x": "251ae9e67f",
+    "mark": "R"
+   }
+  ],
+  "Qui tecum": [
+   {
+    "k": "text",
+    "x": "81b113ac8f"
+   },
+   {
+    "k": "text",
+    "x": "251ae9e67f",
+    "mark": "R"
+   }
+  ],
+  "Qui tecum eiusdem": [
+   {
+    "k": "text",
+    "x": "aeac72d085"
+   },
+   {
+    "k": "text",
+    "x": "251ae9e67f",
+    "mark": "R"
+   }
+  ],
+  "Te Deum": [
+   {
+    "k": "text",
+    "x": "5e33c6eb67"
+   },
+   {
+    "k": "text",
+    "x": "ea6f3a7402"
+   },
+   {
+    "k": "text",
+    "x": "ea29cd4004"
+   },
+   {
+    "k": "text",
+    "x": "c3ca4093bd"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "text",
+    "x": "84093d7b61"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "text",
+    "x": "e0614ef3bb"
+   },
+   {
+    "k": "text",
+    "x": "cf2bb41d0f"
+   },
+   {
+    "k": "text",
+    "x": "ffb83a6a05"
+   },
+   {
+    "k": "text",
+    "x": "6c71be6bb3"
+   },
+   {
+    "k": "text",
+    "x": "425a2c9156"
+   },
+   {
+    "k": "text",
+    "x": "0bec40289e"
+   },
+   {
+    "k": "text",
+    "x": "65119ccefe"
+   },
+   {
+    "k": "text",
+    "x": "65dc761eb5"
+   },
+   {
+    "k": "text",
+    "x": "e52c8e5d92"
+   },
+   {
+    "k": "text",
+    "x": "46ad2156c5"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "rubric",
+    "la": "Fit reverentia"
+   },
+   {
+    "k": "text",
+    "x": "a4dcab39d6"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "text",
+    "x": "afc4acc37f"
+   },
+   {
+    "k": "text",
+    "x": "95dc86dee0"
+   },
+   {
+    "k": "text",
+    "x": "eb1864ab3f"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "rubric",
+    "la": "Sequens versus dicitur flexis genibus"
+   },
+   {
+    "k": "text",
+    "x": "0798d9dfce"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "text",
+    "x": "125a8a8ceb"
+   },
+   {
+    "k": "text",
+    "x": "7a40b563c0"
+   },
+   {
+    "k": "text",
+    "x": "921f6103cc"
+   },
+   {
+    "k": "text",
+    "x": "08fc67260b"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "rubric",
+    "la": "Fit reverentia, secundum consuetudinem"
+   },
+   {
+    "k": "text",
+    "x": "d487c48368"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "text",
+    "x": "e832ea21fb"
+   },
+   {
+    "k": "text",
+    "x": "39d7069898"
+   },
+   {
+    "k": "text",
+    "x": "10840acf09"
+   },
+   {
+    "k": "text",
+    "x": "66269c85fa"
+   }
+  ],
+  "Ante": [
+   {
+    "k": "text",
+    "x": "0dd8ba7e39"
+   },
+   {
+    "k": "text",
+    "x": "2a3c50995b"
+   },
+   {
+    "k": "text",
+    "x": "251ae9e67f",
+    "mark": "R"
+   },
+   {
+    "k": "text",
+    "x": "3fc4a8ddc2"
+   }
+  ],
+  "Post": [
+   {
+    "k": "text",
+    "x": "5df99d8f05"
+   },
+   {
+    "k": "text",
+    "x": "251ae9e67f",
+    "mark": "R"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "text",
+    "x": "9f014e079e",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "81f95fb82c",
+    "mark": "R"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "text",
+    "x": "1637aec3b4"
+   },
+   {
+    "k": "text",
+    "x": "1dc0419f2b"
+   }
+  ],
+  "Conclmart": [
+   {
+    "k": "text",
+    "x": "3d0e9aad57",
+    "mark": "V"
+   },
+   {
+    "k": "macro",
+    "name": "Deo gratias"
+   }
+  ],
+  "DefunctV": [
+   {
+    "k": "macro",
+    "name": "Dominus_vobiscum"
+   },
+   {
+    "k": "macro",
+    "name": "Benedicamus_Domino"
+   },
+   {
+    "k": "rubric",
+    "la": "%Vespera defunctorum% recitata est, omittuntur Pater, Ave"
+   },
+   {
+    "k": "macro",
+    "name": "Fidelium animae"
+   },
+   {
+    "k": "macro",
+    "name": "Pater noster"
+   }
+  ],
+  "DefunctM": [
+   {
+    "k": "rubric",
+    "la": "%Officium defunctorum% recitatum est"
+   }
+  ],
+  "Oremus": [
+   {
+    "k": "text",
+    "x": "0c660f5efd"
+   }
+  ],
+  "Papa": [
+   {
+    "k": "rubric",
+    "la": "Pro Papa"
+   }
+  ],
+  "Te decet": [
+   {
+    "k": "text",
+    "x": "bae9ac765e"
+   }
+  ],
+  "MLitany": [
+   {
+    "k": "text",
+    "x": "ccf5c2a713"
+   },
+   {
+    "k": "macro",
+    "name": "pater_noster"
+   }
+  ],
+  "Vidi aquam": [
+   {
+    "k": "head",
+    "la": "Vidi aquam"
+   },
+   {
+    "k": "text",
+    "x": "7e5b21a138"
+   },
+   {
+    "k": "text",
+    "x": "5f03a43982"
+   },
+   {
+    "k": "macro",
+    "name": "Gloria"
+   },
+   {
+    "k": "text",
+    "x": "7e5b21a138"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "text",
+    "x": "61ce7cf7b7",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "7a78a0ac7f",
+    "mark": "R"
+   },
+   {
+    "k": "text",
+    "x": "45163a56b7",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "3b5b6c08d4",
+    "mark": "R"
+   },
+   {
+    "k": "text",
+    "x": "da1479a384",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "bfe973d4ce",
+    "mark": "R"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "text",
+    "x": "0c660f5efd"
+   },
+   {
+    "k": "text",
+    "x": "ebd885638e"
+   }
+  ],
+  "Asperges me": [
+   {
+    "k": "head",
+    "la": "Asperges me"
+   },
+   {
+    "k": "text",
+    "x": "39a898d557"
+   },
+   {
+    "k": "text",
+    "x": "a21538c9d9"
+   },
+   {
+    "k": "macro",
+    "name": "Gloria"
+   },
+   {
+    "k": "text",
+    "x": "39a898d557"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "text",
+    "x": "30072ad080",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "94177c4954",
+    "mark": "R"
+   },
+   {
+    "k": "text",
+    "x": "45163a56b7",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "3b5b6c08d4",
+    "mark": "R"
+   },
+   {
+    "k": "text",
+    "x": "da1479a384",
+    "mark": "V"
+   },
+   {
+    "k": "text",
+    "x": "bfe973d4ce",
+    "mark": "R"
+   },
+   {
+    "k": "sep"
+   },
+   {
+    "k": "text",
+    "x": "0c660f5efd"
+   },
+   {
+    "k": "text",
+    "x": "d4856a2a4d"
+   }
+  ],
+  "Ultima Evangelium": [
+   {
+    "k": "text",
+    "x": "9f9e42fc4a",
+    "mark": "V"
+   },
+   {
+    "k": "ref",
+    "la": "Joann. 1, 1-14"
+   },
+   {
+    "k": "rubric",
+    "la": "Junctis manibus prosequitur:"
+   },
+   {
+    "k": "text",
+    "x": "220adc8c3b"
+   },
+   {
+    "k": "text",
+    "x": "1c12e1aa34"
+   },
+   {
+    "k": "text",
+    "x": "97bf9f2771"
+   }
+  ]
+ },
+ "prefaces": {
+  "Adv": [
+   {
+    "k": "rubric",
+    "la": "de Adventu"
+   },
+   {
+    "k": "text",
+    "x": "6898acb8cd"
+   }
+  ],
+  "Nat": [
+   {
+    "k": "rubric",
+    "la": "de Nativitate Domini"
+   },
+   {
+    "k": "text",
+    "x": "f2d601536f"
+   }
+  ],
+  "Epi": [
+   {
+    "k": "rubric",
+    "la": "de Epiphania Domini"
+   },
+   {
+    "k": "text",
+    "x": "6804b88604"
+   }
+  ],
+  "Quad": [
+   {
+    "k": "rubric",
+    "la": "de Quadragesima"
+   },
+   {
+    "k": "text",
+    "x": "84be8c4def"
+   }
+  ],
+  "Sacramento": [
+   {
+    "k": "rubric",
+    "la": "de Sanctissimo Sacramento"
+   },
+   {
+    "k": "text",
+    "x": "8596055905"
+   }
+  ],
+  "Quad5": [
+   {
+    "k": "rubric",
+    "la": "de Sancta Cruce"
+   },
+   {
+    "k": "text",
+    "x": "b321e5b071"
+   }
+  ],
+  "Pasch": [
+   {
+    "k": "rubric",
+    "la": "Paschalis"
+   },
+   {
+    "k": "text",
+    "x": "551b224d1c"
+   }
+  ],
+  "Asc": [
+   {
+    "k": "rubric",
+    "la": "de Ascensione Domini"
+   },
+   {
+    "k": "text",
+    "x": "91c36cf577"
+   }
+  ],
+  "Cord": [
+   {
+    "k": "rubric",
+    "la": "de sacratissimo Cordis Jesu"
+   },
+   {
+    "k": "text",
+    "x": "8ceedef52f"
+   }
+  ],
+  "Regis": [
+   {
+    "k": "rubric",
+    "la": "de D.N. Jesu Christi Rege"
+   },
+   {
+    "k": "text",
+    "x": "d5d09eae24"
+   }
+  ],
+  "Spiritu": [
+   {
+    "k": "rubric",
+    "la": "de Spiritu Sancto"
+   },
+   {
+    "k": "text",
+    "x": "6b25a74e3d"
+   }
+  ],
+  "Trinitate": [
+   {
+    "k": "rubric",
+    "la": "de sanctissima Trinitate"
+   },
+   {
+    "k": "text",
+    "x": "421cf2e1ee"
+   }
+  ],
+  "Maria": [
+   {
+    "k": "rubric",
+    "la": "de Beata Maria Virgine"
+   },
+   {
+    "k": "text",
+    "x": "69bbbe25e9"
+   }
+  ],
+  "Joseph": [
+   {
+    "k": "rubric",
+    "la": "de S. Joseph"
+   },
+   {
+    "k": "text",
+    "x": "2907372729"
+   }
+  ],
+  "Apostolis": [
+   {
+    "k": "rubric",
+    "la": "de Apostolis"
+   },
+   {
+    "k": "text",
+    "x": "f18922b01f"
+   }
+  ],
+  "Communis": [
+   {
+    "k": "rubric",
+    "la": "Communis"
+   },
+   {
+    "k": "text",
+    "x": "f44ff1fc46"
+   }
+  ],
+  "Defunctorum": [
+   {
+    "k": "rubric",
+    "la": "Defunctorum"
+   },
+   {
+    "k": "text",
+    "x": "02d06fc935"
+   }
+  ],
+  "Sanctis": [
+   {
+    "k": "rubric",
+    "la": "de Omnibus Sanctis et Ss. Patronis"
+   },
+   {
+    "k": "text",
+    "x": "f727b97a38"
+   }
+  ],
+  "Dedicatio": [
+   {
+    "k": "rubric",
+    "la": "in Dedicatione Ecclesiae"
+   },
+   {
+    "k": "text",
+    "x": "1c1943b37d"
+   }
+  ],
+  "Baptista": [
+   {
+    "k": "rubric",
+    "la": "de S. Joannis Baptistæ"
+   },
+   {
+    "k": "text",
+    "x": "fc6ee3fb71"
+   }
+  ],
+  "Chrismatis": [
+   {
+    "k": "rubric",
+    "la": "de Missa Chrismatis"
+   },
+   {
+    "k": "text",
+    "x": "ff8e294e2c"
+   }
+  ],
+  "C-common": [
+   {
+    "k": "text",
+    "x": "0c2d188274"
+   }
+  ],
+  "C-Nat": [
+   {
+    "k": "rubric",
+    "la": "In Nativitate Domini et per Octavam dicitur:"
+   },
+   {
+    "k": "text",
+    "x": "840a526b10"
+   }
+  ],
+  "C-Epi": [
+   {
+    "k": "rubric",
+    "la": "In Epiphania Domini et per Octavam dicitur:"
+   },
+   {
+    "k": "text",
+    "x": "164e1e1035"
+   }
+  ],
+  "C-Pasc": [
+   {
+    "k": "rubric",
+    "la": "A Sabbato sancto usque ad Sábbatum in Albis dicitur:"
+   },
+   {
+    "k": "text",
+    "x": "2941d8690f"
+   }
+  ],
+  "C-Asc": [
+   {
+    "k": "rubric",
+    "la": "In Ascensione Domini et per Octavam dicitur:"
+   },
+   {
+    "k": "text",
+    "x": "f6cded92df"
+   }
+  ],
+  "C-Pent": [
+   {
+    "k": "rubric",
+    "la": "A Vigilia Pentecostes usque ad sequens Sábbatum inclusive dicitur:"
+   },
+   {
+    "k": "text",
+    "x": "5868455fdf"
+   }
+  ],
+  "H-Pent": [
+   {
+    "k": "rubric",
+    "la": "A Sabbato sancto usque ad Sabbatum in Albis incl. et a Vigilia Pentecostes usque ad sequens Sabbatum incl. additur:"
+   },
+   {
+    "k": "text",
+    "x": "73bff33fe7"
+   }
+  ],
+  "C-common1962": [
+   {
+    "k": "text",
+    "x": "ef1266a9d7"
+   }
+  ],
+  "C-Nat1962": [
+   {
+    "k": "rubric",
+    "la": "In Nativitate Domini et per Octavam dicitur:"
+   },
+   {
+    "k": "text",
+    "x": "df155e1b6f"
+   }
+  ],
+  "C-Epi1962": [
+   {
+    "k": "rubric",
+    "la": "In Epiphania Domini dicitur:"
+   },
+   {
+    "k": "text",
+    "x": "f1ab1145d9"
+   }
+  ],
+  "C-Pasc1962": [
+   {
+    "k": "rubric",
+    "la": "A Sabbato sancto usque ad Sábbatum in Albis dicitur:"
+   },
+   {
+    "k": "text",
+    "x": "9ca13a8353"
+   }
+  ],
+  "C-Asc1962": [
+   {
+    "k": "rubric",
+    "la": "In Ascensione Domini dicitur:"
+   },
+   {
+    "k": "text",
+    "x": "5e8ed69db2"
+   }
+  ],
+  "C-Pent1962": [
+   {
+    "k": "rubric",
+    "la": "A Vigilia Pentecostes usque ad sequens Sábbatum inclusive dicitur:"
+   },
+   {
+    "k": "text",
+    "x": "c0afbff5aa"
+   }
+  ]
+ }
+}

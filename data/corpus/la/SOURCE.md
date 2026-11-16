@@ -1,0 +1,1 @@
+Imported from Divinum Officium (github.com/DivinumOfficium/divinum-officium, MIT), commit d6c806624c9dcff6c715ef2d4abc3c9dee25d412, files under web/www/missa/Latin and web/www/horas/Latin/Commune, evaluated for "Rubrics 1960 - 1960". Import script: scripts/import/import-do.ts.

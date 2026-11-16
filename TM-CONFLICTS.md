@@ -1,6 +1,6 @@
 # Translation-memory conflicts
 
-Latin units with more than one Croatian rendering on the old site: **228** of 5813 units. The most frequent rendering is kept (first listed); the others are stored as alternatives in `data/tm/tm.json`.
+Latin units with more than one Croatian rendering on the old site: **238** of 5802 units. The most frequent rendering is kept (first listed); the others are stored as alternatives in `data/tm/tm.json`.
 
 - **Antiphona**
   - (14×, e.g. actions_20170409_0.json) Antifona
@@ -93,6 +93,10 @@ Latin units with more than one Croatian rendering on the old site: **228** of 58
   - (2705×, e.g. actions_20170414_0.json) Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
   - (12×, e.g. propers_20161211_0.json) Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova
   - (2×, e.g. propers_20171102_1.json) Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum.
+- **Antiphona I**
+  - (2×, e.g. actions_20170414_0.json) Antifona I
+  - (2×, e.g. actions_20170414_0.json) Antifona II
+  - (2×, e.g. actions_20170414_0.json) Antifona III
 - **Allelúia, allelúia.**
   - (567×, e.g. propers_20161127_0.json) Aleluja, aleluja.
   - (14×, e.g. propers_20170128_0.json) aleluja, aleluja.
@@ -226,6 +230,12 @@ Latin units with more than one Croatian rendering on the old site: **228** of 58
 - **Dómine, probásti me, et cognovísti me: tu cognovísti sessiónem meam, et resurrectiónem meam.**
   - (22×, e.g. propers_20161130_0.json) Gospodine, ti si me kušao i spoznao, tebi je poznat moj počinak i moje uskrsnuće.
   - (2×, e.g. propers_20170629_0.json) Gospodine, ti si me kušao i spoznao, tebi je poznat moj počinak i moje ustajanje.
+- **Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in aetérnum, et in saéculum saéculi.**
+  - (11×, e.g. propers_20161202_0.json) Razlita je milina na tvojim usnama, zbog toga te Bog blagoslovi u vijeke, i u vijeke vjekova.
+  - (2×, e.g. propers_20170726_0.json) Milina je razlita na usnama tvojim. Zbog toga te Bog blagoslovio u vijeke, i u vijeke vjekova.
+- **Ps 44, 3 Diffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in aetérnum, et in saéculum saéculi.**
+  - (11×, e.g. propers_20161202_0.json) Ps 44, 3 Razlita je milina na tvojim usnama, zbog toga te Bog blagoslovi u vijeke, i u vijeke vjekova.
+  - (2×, e.g. propers_20170726_0.json) Ps Ps 44, 3 Milina je razlita na usnama tvojim. Zbog toga te Bog blagoslovio u vijeke, i u vijeke vjekova.
 - **Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitae. Allelúia.**
   - (33×, e.g. propers_20161203_0.json) Blago čovjeku koji nadvlada napast, jer kad bude prokušan, primit će krunu života. Aleluja.
   - (5×, e.g. propers_20170515_0.json) Blago čovjeku koji nadvlada napast, jer kad bude prokušan, primit će krunu života, aleluja.
@@ -250,6 +260,12 @@ Latin units with more than one Croatian rendering on the old site: **228** of 58
 - **Ps 44, 8 Dilexísti iustítiam, et odísti iniquitátem. Proptérea unxit te Deus, Deus tuus, óleo laetítiae.**
   - (8×, e.g. propers_20161213_0.json) Ps 44, 8 Ljubiš pravdu a mrziš nepravdu. Zato te je pomazao Bog, Bog tvoj, uljem radosti.
   - (1×, e.g. propers_20170722_0.json) Ps 44, 8 Ljubiš pravdu, a mrziš nepravdu. Zato te je pomazao Bog, Bog tvoj, uljem radosti.
+- **Difúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in aetérnum. Allelúia.**
+  - (5×, e.g. propers_20161213_0.json) Razlita je milina na usnama tvojim. Zbog toga te je Bog blagoslovio u vijeke. Aleluja.
+  - (1×, e.g. propers_20170722_0.json) Milina se razlila na tvojim usnama, stoga te je Bog blagoslovio u vijeke. Aleluja.
+- **Ps 44, 3 Allelúia, allelúia. Difúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in aetérnum. Allelúia.**
+  - (5×, e.g. propers_20161213_0.json) Ps 44, 3 Aleluja, aleluja. Razlita je milina na usnama tvojim. Zbog toga te je Bog blagoslovio u vijeke. Aleluja.
+  - (1×, e.g. propers_20170722_0.json) Ps 44, 3 Aleluja, aleluja. Milina se razlila na tvojim usnama, stoga te je Bog blagoslovio u vijeke. Aleluja.
 - **Accépta tibi sit, Dómine, sacrátae plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.**
   - (18×, e.g. propers_20170210_0.json) Pogledaj, Gospodine, na darove svoga naroda, i daj mu osjetiti da mu koristi za spasenje ova žrtvena svečanost koju obavlja s pobožnom odanošću na čast tvojih svetih.
   - (12×, e.g. propers_20161213_0.json) Neka ti bude, Gospodine, drag ovaj prinos što ga tvoj sveti narod prikazuje, u čast tvojih svetih priznavajući da je po njihovim zaslugama primio pomoć u nevolji.
@@ -319,6 +335,18 @@ Latin units with more than one Croatian rendering on the old site: **228** of 58
 - **Ps 92, 1-2 Deus firmávit orbem terrae, qui non commovébitur: párata sedes tua, Deus, ex tunc, a saéculo tu es.**
   - (3×, e.g. propers_20161225_1.json) Ps 92, 1-2 Bog je učvrstio zemaljski krug. koji se neće pokolebati. Otada je pripravno prijestolje tvoje. Bože, Ti si od vijeka.
   - (2×, e.g. propers_20171231_0.json) Ps 92, 1-2 Bog je učvrstio zemaljski krug koji se neće pokolebati. Od tada je pripravno prijestolje tvoje. Bože, ti si od vijeka.
+- **spomen i na tihim i na pjevanim misama: II. dan božićne osmine**
+  - (9×, e.g. propers_20161226_0.json) spomen i na tihim i na pjevanim misama: II. dan božićne osmine
+  - (9×, e.g. propers_20161227_0.json) spomen i na tihim i na pjevanim misama: III. dan božićne osmine
+- **spomen i na tihim i na pjevanim misama: II. dan božićne osmine Orémus. Concéde, quaésumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líber…**
+  - (3×, e.g. propers_20161226_0.json) spomen i na tihim i na pjevanim misama: II. dan božićne osmine Pomolimo se. Podaj, molimo, svemogući Bože, da novo tjelesno rođenje tvoga jedinorođenog Sina oslobodi nas, koje staro sužanjstvo tišti jarmom grijeha. Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u je…
+  - (3×, e.g. propers_20161227_0.json) spomen i na tihim i na pjevanim misama: III. dan božićne osmine Pomolimo se. Podaj, molimo, svemogući Bože, da novo tjelesno rođenje tvoga jedinorođenog Sina oslobodi nas, koje staro sužanjstvo tišti jarmom grijeha. Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u j…
+- **spomen i na tihim i na pjevanim misama: II. dan božićne osmine Obláta Dómine, múnera, nova Unigéniti tui Nativitéte sanctífica: nosque a peccatórum nostrórum má…**
+  - (3×, e.g. propers_20161226_0.json) spomen i na tihim i na pjevanim misama: II. dan božićne osmine Prinesene darove, Gospodine, posveti novim rođenjem svoga Jedinorođenca, a nas od ljaga naših grijeha očisti. Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke v…
+  - (3×, e.g. propers_20161227_0.json) spomen i na tihim i na pjevanim misama: III. dan božićne osmine Prinesene darove, Gospodine, posveti novim rođenjem svoga Jedinorođenca, a nas od ljaga naših grijeha očisti. Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke …
+- **spomen i na tihim i na pjevanim misama: II. dan božićne osmine Orémus. Praesta, quaésumus, omnípotens Deus: ut natus hódie Salvátor mundi, sicut divínae nobis g…**
+  - (3×, e.g. propers_20161226_0.json) spomen i na tihim i na pjevanim misama: II. dan božićne osmine Pomolimo se. Podaj, molimo, svemogući Bože, kao što je danas rođeni Spasitelj svijeta začetnik našega božanskoga rođenja, tako da bude i darovatelj besmrtnosti. Koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vj…
+  - (3×, e.g. propers_20161227_0.json) spomen i na tihim i na pjevanim misama: III. dan božićne osmine Pomolimo se. Podaj, molimo, svemogući Bože, kao što je danas rođeni Spasitelj svijeta začetnik našega božanskoga rođenja, tako da bude i darovatelj besmrtnosti. Koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke v…
 - **Súscipe, Dómine, múnera, quae in eius tibi solemnitáte deférimus, cuius nos confídimus patrocínio liberári.**
   - (3×, e.g. propers_20161227_0.json) Primi, Gospodine, darove što ti ih prinosimo na blagdan onoga po čijem se zagovoru nadamo osloboditi.
   - (2×, e.g. propers_20170818_0.json) Primi, Gospodine, darove koje ti prikazujemo o svetkovini onoga kojega se zaštitom nadamo osloboditi.
@@ -757,3 +785,6 @@ Latin units with more than one Croatian rendering on the old site: **228** of 58
 - **Philipp 3, 17-21; 4, 1-3 Léctio Epístolae beáti Pauli Apóstoli ad Philippénses. Fratres: Imitatóres mei estóte, et observáte eos qui ita ámbulant, sicut habétis…**
   - (4×, e.g. propers_20171112_0.json) Fil 3, 17-21; 4, 1-3 Čitanje Poslanice bl. Pavla apostola Filipljanima. Braćo: Ugledajte se u mene i vladajte se prema onima koji žive po primjeru koji vam mi dajemo. Mnogi, o kojima sam vam često govorio, a sada plačući ponavljam, žive kao neprijatelji Kristova križa. Njihov će svršetak biti propas…
   - (2×, e.g. propers_20171123_0.json) Fil 3, 17-21; 4, 1-3 Čitanje Poslanice bl. Pavla apostola Filipljanima. Braćo: Ugledajte se u mene i vladajte se prema onima koji žive po primjeru koji vam mi dajemo. Mnogi, o kojima sam vam često govorio, a sada plačući ponavljam, žive kao neprijatelji Kristova križa. Njihov će svršetak biti propas…
+- **Haec hóstia, quaésumus, Dómine, quam sanctórum Mártyrum tuórum natalícia recenséntes offérimus: et víncula nostrae pravitátis absólvat, et tuae nobis misericórd…**
+  - (1×, e.g. propers_20180414_0.json) Ovaj dar, molimo, Gospodine, koji prikazujemo, slaveći nebeski rođendan svetih tvojih mučenika, neka nas odriješi od veza naše zloće i neka nam isprosi darove tvoga milosrđa.
+  - (1×, e.g. propers_20180730_0.json) Ovaj dar, koji ti prikazujemo slaveći rođendan tvojih svetih mučenika, neka odriješi veze naših opačina i isprosi nam darove tvoga milosrđa.

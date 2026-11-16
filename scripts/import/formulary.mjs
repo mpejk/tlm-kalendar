@@ -81,9 +81,11 @@ export function importFormulary(file, ctx = {}) {
   const f = parseFile(file, ctx);
   if (!f) return null;
   const out = { id: file, officium: firstLine(getSection(file, 'Officium', ctx)), rank: firstLine(getSection(file, 'Rank', ctx)), rule: [], fallback: fallbackOf(file, ctx), sections: {}, from: {} };
-  const rule = sectionWithFallback(file, 'Rule', ctx);
   out.rule = (getSection(file, 'Rule', ctx) || []).map(l => l.trim()).filter(Boolean);
-  out.ruleInherited = rule && rule.from !== file ? rule.lines.map(l => l.trim()).filter(Boolean) : undefined;
+  // rules of the files this one falls back on (a Common, the Sunday of the week)
+  const inh = []; let fb = out.fallback; const seenFb = new Set([file]);
+  while (fb && !seenFb.has(fb)) { seenFb.add(fb); inh.push(...(getSection(fb, 'Rule', ctx) || []).map(l => l.trim()).filter(Boolean)); fb = fallbackOf(fb, ctx); }
+  out.ruleInherited = inh.length ? inh : undefined;
   const nm = names(file, ctx);
   const wanted = new Set(MASS_SECTIONS);
   for (const n of sectionNames(file, ctx)) if (!OFFICE_ONLY.test(n) && !['Officium', 'Rank', 'Rule', 'Name', 'Comment'].includes(n)) wanted.add(n);
@@ -92,7 +94,7 @@ export function importFormulary(file, ctx = {}) {
     const r = sectionWithFallback(file, n, ctx);
     if (!r) continue;
     let lines = r.lines;
-    if (r.from !== file && nm.default !== null) { const v = nm[n] ?? nm.default; lines = lines.map(l => l.replace(/\bN\.(?=\s|,|:|;|$)/g, v)); }
+    if (nm.default !== null) { const v = nm[n] ?? nm.default; lines = lines.map(l => l.replace(/\bN\.(?=\s|,|:|;|$)/g, v)); }
     out.sections[n] = toUnits(lines);
     if (r.from !== file) out.from[n] = r.from;
   }

@@ -192,9 +192,9 @@ export function getDay(n: number, config: CalendarConfig): Day {
   if (win.with) commemorations.push({ key: win.key + '+with', id: win.id, title: win.with, type: 'same', cls: win.cls, kind: 'feast' });
   const pope = config.pope;
   if (pope && `${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}` === pope.date && !(t.tid.startsWith('Quad6-') && weekday(n) >= 4))
-    commemorations.push({ key: 'X:Papa', id: 'Votive/Papa', title: 'Spomen sv. Oca (godišnjica uvođenja u papinsku službu)', type: 'same', cls: 4, kind: 'oration' });
+    commemorations.push({ key: 'X:Papa', id: 'Commune/Coronatio', title: 'Spomen sv. Oca (godišnjica uvođenja u papinsku službu)', type: 'same', cls: 4, kind: 'oration' });
   const ck = christTheKing(y);
-  if (n === ck - 7) commemorations.push({ key: 'X:Missio', id: 'Votive/Propaganda', title: 'Misijska nedjelja (molitva za širenje vjere)', type: 'same', cls: 4, kind: 'oration' });
+  if (n === ck - 7) commemorations.push({ key: 'X:Missio', id: 'Commune/Propaganda', title: 'Misijska nedjelja (molitva za širenje vjere)', type: 'same', cls: 4, kind: 'oration' });
   for (const c of allowed) {
     commemorations.push({ key: c.key, id: c.id, title: c.title, type: c.type, cls: c.cls, kind: c.kind, local: c.local, colour: c.colour });
     if (c.with) commemorations.push({ key: c.key + '+with', id: c.id, title: c.with, type: 'same', cls: c.cls, kind: 'feast' });

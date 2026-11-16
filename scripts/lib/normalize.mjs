@@ -1,11 +1,15 @@
 // Normalisation of Latin for matching: accents, case, punctuation, spacing, æ/ae, œ/oe, j/i and y/i are folded.
 export function normLa(s) {
   return s.replace(/<[^>]+>/g, ' ')
-    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .replace(/æ/g, 'ae').replace(/œ/g, 'oe')
     .replace(/ae|oe/g, 'e')
     .replace(/j/g, 'i').replace(/y/g, 'i')
+    // spelling variants between editions: doubled letters, ch/th/ph, -ci-/-ti- before a vowel
+    .replace(/ch/g, 'c').replace(/th/g, 't').replace(/ph/g, 'f')
+    .replace(/([a-z])\1+/g, '$1')
+    .replace(/ci(?=[aeiou])/g, 'ti')
     .replace(/[^a-z]+/g, ' ').trim();
 }
 // Normalisation of displayed text for comparisons "after normalising whitespace and typography".

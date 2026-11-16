@@ -183,6 +183,8 @@ export function getSection(rel, name, ctx = {}, depth = 0, seen = []) {
       let r = getSection(file, sec, ctx, depth + 1, [...seen, rel + ':' + name]);
       if (!r) { out.push(`[missing ${id}]`); continue; }
       if (m[3]) r = applySubs(r, m[3]);
+      // A chant borrowed from a Paschaltide Mass by a Mass outside Paschaltide: its alleluias are said in Paschaltide only.
+      else if (/^Tempora\/Pasc/.test(file) && !/^Tempora\/Pasc/.test(rel)) r = r.map(l => /^[!$&@]/.test(l) ? l : l.replace(/([,;:]?\s*allel[úu][ij]a)+(?=[\s.,;:]|$)/gi, x => '(' + x + ')'));
       out.push(...r);
     } else out.push(line);
   }

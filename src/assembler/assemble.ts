@@ -1,0 +1,243 @@
+// Assembler: liturgical day + corpus -> the ordered Mass (sections, commemoration prayers in place, preface, Gloria and Credo lines).
+import { Commemoration, Day, MassRef } from '../engine/types';
+import { Block, Corpus, Formulary, Item, Line, MassView, Section, Unit } from './types';
+
+export const LABELS: Record<string, [string, string]> = {
+  Introitus: ['Antíphona ad intróitum', 'Ulazna pjesma'], Oratio: ['Orátio', 'Molitva'], Epistola: ['Epístola', 'Poslanica'], Lectio: ['Léctio', 'Čitanje'],
+  G: ['Graduále', 'Gradual'], GA: ['Graduále + Allelúia', 'Gradual + Aleluja'], GT: ['Graduále + Tractus', 'Gradual + Zavlaka'], A: ['Allelúia', 'Aleluja'], T: ['Tractus', 'Zavlaka'], AT: ['Allelúia + Tractus', 'Aleluja + Zavlaka'],
+  Sequentia: ['Sequéntia', 'Posljednica'], Evangelium: ['Evangélium', 'Evanđelje'], Offertorium: ['Antíphona ad offertórium', 'Prikazna pjesma'], Secreta: ['Secréta', 'Prikazna molitva'],
+  Communio: ['Antíphona ad communiónem', 'Pričesna pjesma'], Postcommunio: ['Postcommúnio', 'Popričesna'], SuperPopulum: ['Orátio super pópulum', 'Molitva nad narodom'],
+};
+export const PREFACES: Record<string, [string, string]> = {
+  Communis: ['Praefátio commúnis', 'Predslovlje obično'], Trinitate: ['Praefátio de sanctíssima Trinitáte', 'Predslovlje Presvetog Trojstva'], Apostolis: ['Praefátio de Apóstolis', 'Predslovlje apostola'],
+  Maria: ['Praefátio de beáta María Vírgine', 'Predslovlje blažene Djevice Marije'], Nat: ['Praefátio de Nativitáte Dómini', 'Predslovlje Rođenja Gospodnjeg (božićno)'], Epi: ['Praefátio de Epiphánia Dómini', 'Predslovlje Bogojavljenja'],
+  Quad: ['Praefátio de Quadragésima', 'Predslovlje korizmeno'], Joseph: ['Praefátio de sancto Joseph, sponso beátae Maríae Vírginis', 'Predslovlje svetog Josipa, zaručnika blažene Djevice Marije'],
+  Quad5: ['Praefátio de Sancta Cruce', 'Predslovlje Svetog Križa'], Chrismatis: ['Praefátio ad Missam chrismátis', 'Predslovlje na misi posvete ulja'], Pasch: ['Praefátio paschális', 'Predslovlje uskrsno'],
+  Asc: ['Praefátio de Ascensióne Dómini', 'Predslovlje Uzašašća Gospodnjeg'], Spiritu: ['Praefátio de Spíritu Sancto', 'Predslovlje Duha Svetoga'], Cord: ['Praefátio de Sacratíssimo Corde Iesu', 'Predslovlje Presvetog Srca Isusovog'],
+  Regis: ['Praefátio de Dómino nostro Iesu Christo Rege', 'Predslovlje Gospodina našega Isusa Krista Kralja'], Defunctorum: ['Praefátio defunctórum', 'Predslovlje pokojnika'],
+};
+export const NOTE = {
+  gloria: 'Na ovoj misi govori se Gloria', noGloria: 'Na ovoj misi NE govori se Gloria',
+  credo: 'Na ovoj misi govori se Nicejsko-carigradsko vjerovanje', noCredo: 'Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje',
+  superPopulum: 'Na misama ferija u vremenu korizme i muke molitva nad narodom:',
+};
+const COMM_LABEL: Record<string, string> = { privileged: 'spomen i na tihim i na pjevanim misama', ordinary: 'spomen na tihim misama', same: 'spomen pod istim završetkom na svim misama' };
+
+interface Ctx { paschal: boolean; septuagesima: boolean; easterWeek: boolean; tid: string; feria: boolean }
+
+function formulary(corpus: Corpus, id: string, variant?: string): Formulary | null {
+  const f = corpus.formularies[id];
+  if (!f) return null;
+  const v = variant && f.variants?.[variant];
+  if (!v) return f;
+  const sections = { ...f.sections };
+  for (const [k, u] of Object.entries(v)) { if (u === null) delete sections[k]; else sections[k] = u; }
+  return { ...f, sections };
+}
+
+function macroLine(corpus: Corpus, name: string): Line | null {
+  const key = name.replace(/\.$/, '');
+  if (key === 'Gloria') return { k: 'gloriaPatri', la: 'Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.' };
+  if (key === 'Oremus') return { k: 'oremus', la: 'Orémus.' };
+  const u = corpus.ordo.prayers[key];
+  if (!u) return { k: 'rubric', la: key };
+  const la = u.filter(x => x.k === 'text' && x.mark !== 'R').map(x => corpus.texts[x.x!]).join(' ');
+  return { k: /^(Per|Qui)/.test(key) ? 'conclusion' : 'text', la };
+}
+
+function paschalText(la: string, ctx: Ctx): string {
+  // "(Allelúja, allelúja.)" or "(, allelúja)": said in Paschaltide only
+  return la.replace(/\s*\(([,;:]?\s*Allel[úu][ij]a[^)]*)\)/gi, (_, a) => (ctx.paschal ? (/^[,;:]/.test(a) ? '' : ' ') + a : '')).trim();
+}
+
+function lines(corpus: Corpus, units: Unit[] | undefined, ctx: Ctx): Line[] {
+  const out: Line[] = [];
+  for (const u of units ?? []) {
+    if (u.k === 'text') { const la = paschalText(corpus.texts[u.x!] ?? '', ctx); if (la) out.push({ k: 'text', la, x: u.x, mark: u.mark }); }
+    else if (u.k === 'ref') out.push({ k: 'ref', la: u.la! });
+    else if (u.k === 'rubric' || u.k === 'head') out.push({ k: u.k === 'head' ? 'head' : 'rubric', la: u.la! });
+    else if (u.k === 'macro') { const m = macroLine(corpus, u.name!); if (m) out.push(m); }
+  }
+  return out;
+}
+
+/** Splits a section body at paragraph separators. */
+function chunks(units: Unit[] | undefined): Unit[][] {
+  const out: Unit[][] = [[]];
+  for (const u of units ?? []) { if (u.k === 'sep') out.push([]); else out[out.length - 1].push(u); }
+  return out.filter(c => c.length);
+}
+
+const isAlleluiaStart = (s: string) => /^Allel[úu][ij]a,\s*allel[úu][ij]a/i.test(s);
+
+function graduale(corpus: Corpus, f: Formulary, ctx: Ctx, suffix = ''): Section | null {
+  let units: Unit[] | undefined;
+  // ferias that repeat the Sunday Mass in Advent and after Septuagesima: gradual only, without the Alleluia or the tract
+  if (ctx.feria && !suffix && f.sections.GradualeF && f.from?.Graduale) units = f.sections.GradualeF;
+  else if (ctx.paschal && !ctx.easterWeek && f.sections['GradualeP' + suffix]) units = f.sections['GradualeP' + suffix];
+  else if (ctx.septuagesima && f.sections['Tractus' + suffix]) units = f.sections['Tractus' + suffix];
+  else units = f.sections['Graduale' + suffix];
+  if (!units || !units.length) return null;
+  const ls = lines(corpus, units, ctx);
+  // classify the chant: gradual, alleluia, tract
+  let hasG = false, hasA = false, hasT = false, seenBody = false;
+  for (const l of ls) {
+    if (l.k === 'rubric' && /tract/i.test(l.la)) { hasT = true; continue; }
+    if (l.k !== 'text') continue;
+    if (isAlleluiaStart(l.la)) { hasA = true; }
+    else if (!hasA && !hasT) { if (!seenBody) hasG = true; }
+    if (/Allel[úu][ij]a,\s*allel[úu][ij]a[.,]?$/i.test(l.la) && !isAlleluiaStart(l.la)) hasA = true;
+    seenBody = true;
+  }
+  if (ctx.septuagesima && f.sections['Tractus' + suffix] && units === f.sections['Tractus' + suffix]) { hasT = true; }
+  const key = (hasG ? 'G' : '') + (hasA ? 'A' : '') + (hasT ? 'T' : '') || 'G';
+  const lab = LABELS[key] ?? LABELS.G;
+  return { kind: 'section', key: 'Graduale', la: lab[0], hr: lab[1], blocks: [{ lines: ls.filter(l => !(l.k === 'rubric' && /^tractus/i.test(l.la))) }] };
+}
+
+function section(corpus: Corpus, key: string, label: [string, string], units: Unit[] | undefined, ctx: Ctx): Section | null {
+  if (!units || !units.length) return null;
+  return { kind: 'section', key, la: label[0], hr: label[1], blocks: [{ lines: lines(corpus, units, ctx) }] };
+}
+
+function lectioLabel(corpus: Corpus, units: Unit[] | undefined): [string, string] {
+  const first = (units ?? []).find(u => u.k === 'text');
+  const t = first ? corpus.texts[first.x!] : '';
+  return /Ep[íi]stol/i.test(t) ? LABELS.Epistola : LABELS.Lectio;
+}
+
+/** Gloria in excelsis (Code of Rubrics n. 431–432). */
+export function hasGloria(day: Day, mass: MassRef, f: Formulary): boolean {
+  const c = day.celebration; const tid = day.temporalId;
+  if (mass.variant === 'rogation') return false;
+  if (c.key === 'S:11-02') return false;
+  const rule = [...(f.rule ?? []), ...(f.ruleInherited ?? [])].join('\n');
+  if (c.kind === 'feast' || c.kind === 'bvmsat' || c.kind === 'octave') return true;
+  if (c.kind === 'vigil') return c.key === 'T:Pasc5-3' || c.key === 'T:Pasc6-6';
+  if (c.kind === 'sunday') return !(day.season === 'advent' || day.season === 'septuagesima' || day.season === 'lent' || day.season === 'passion');
+  // ferias
+  if (tid === 'Quad6-4') return true;
+  if (day.season === 'christmas' || day.season === 'epiphany') return true;
+  if (day.season === 'easter') return true;
+  return /^Gloria$/m.test(rule) && false;
+}
+
+/** Creed (Code of Rubrics n. 475–476). */
+export function hasCredo(day: Day, mass: MassRef, f: Formulary): boolean {
+  const c = day.celebration;
+  if (mass.variant === 'rogation') return false;
+  if (c.key === 'S:11-02') return false;
+  if (day.weekday === 0) return true;
+  if (c.kind === 'sunday') return true;
+  if (c.cls === 1 && c.kind === 'feast') return true;
+  if (c.kind === 'octave') return true;                        // octaves of Christmas, Easter and Pentecost
+  if (c.cls === 2 && c.kind === 'feast' && (c.lord || c.bvm)) return true;
+  const rule = (f.rule ?? []).join('\n');
+  if (c.kind === 'feast' && c.cls <= 2 && /^Credo$/m.test(rule)) return true;
+  if (day.temporalId === 'Quad6-4' && mass.id.endsWith('Quad6-4r') ) return false;
+  return false;
+}
+
+/** Preface: proper (from the formulary's rule), else of the season, else of the Trinity on Sundays, else common. */
+export function prefaceOf(day: Day, mass: MassRef, f: Formulary): string {
+  const rule = [...(f.rule ?? []), ...(f.ruleInherited ?? [])];
+  const m = rule.map(r => r.match(/^Prefatio=([A-Za-z0-9]+)/)).find(Boolean);
+  const c = day.celebration; const tid = day.temporalId; const s = day.season;
+  if (c.key === 'S:11-02') return 'Defunctorum';
+  let seasonal = '';
+  if (s === 'christmas') seasonal = 'Nat';
+  else if (s === 'epiphany') seasonal = 'Epi';
+  else if (s === 'lent') seasonal = 'Quad';
+  else if (s === 'passion') seasonal = 'Quad5';
+  else if (s === 'easter') {
+    const [w, d] = tid.replace('Pasc', '').split('-').map(Number);
+    seasonal = w === 7 || (w === 6 && d === 6) ? 'Spiritu' : (w === 5 && d >= 4) || w === 6 ? 'Asc' : 'Pasch';
+  }
+  // a proper preface belongs to feasts, vigils and votive formularies; Sundays and ferias follow the season
+  const proper = m && PREFACES[m[1]] && (c.kind === 'feast' || c.kind === 'vigil' || c.kind === 'bvmsat' || c.kind === 'octave' || mass.id.startsWith('Sancti/')) ? m[1] : '';
+  if (proper) return proper;
+  if (seasonal) return seasonal;
+  if (day.weekday === 0 && (c.kind === 'sunday' || c.cls >= 2)) return 'Trinitate';
+  return 'Communis';
+}
+
+function commBlocks(corpus: Corpus, day: Day, massIndex: number, sec: 'Oratio' | 'Secreta' | 'Postcommunio', ctx: Ctx, main: Formulary): Block[] {
+  const out: Block[] = [];
+  for (const c of day.commemorations) {
+    if (c.onlyMass !== undefined && c.onlyMass !== massIndex) continue;
+    let units: Unit[] | undefined;
+    if (c.key.endsWith('+with')) units = main.sections['Commemoratio ' + sec];
+    else {
+      const f = corpus.formularies[c.id];
+      units = f?.sections[sec];
+      if (c.key === 'S:12-25m2c') units = f?.sections['Commemoratio ' + sec];
+    }
+    const ls = lines(corpus, units, ctx).filter(l => l.k !== 'rubric');
+    out.push({ label: `${COMM_LABEL[c.type]}: ${c.title}`, commType: c.type, lines: ls });
+  }
+  return out;
+}
+
+const RANK_WORD: Record<string, string> = { sunday: 'Nedjelja', feria: 'Feria', feast: 'Blagdan', vigil: 'Bdijenje', octave: 'Dan u osmini', bvmsat: 'Feria' };
+const ROMAN = ['', 'I', 'II', 'III', 'IV'];
+
+export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassView | null {
+  const mass = day.masses[massIndex];
+  if (!mass || mass.kind !== 'mass') return null;
+  const f = formulary(corpus, mass.id, mass.variant === 'brevior' ? 'brevior' : undefined);
+  if (!f) return null;
+  const tid = day.temporalId;
+  const ctx: Ctx = {
+    tid, feria: day.celebration.kind === 'feria', paschal: day.season === 'easter', easterWeek: /^Pasc0-[0-5]$/.test(tid),
+    septuagesima: day.season === 'septuagesima' || day.season === 'lent' || day.season === 'passion',
+  };
+  const items: Item[] = [];
+  const add = (s: Section | null) => { if (s) items.push(s); return s; };
+  const gloria = hasGloria(day, mass, f), credo = hasCredo(day, mass, f);
+  const pref = prefaceOf(day, mass, f);
+
+  add(section(corpus, 'Introitus', LABELS.Introitus, f.sections.Introitus, ctx));
+  // Ember days and some ferias: a first prayer, then lessons each followed by a chant and a prayer; the last prayer is the
+  // collect, said after the Gloria note and followed by the commemorations.
+  let nExtra = 0; while (f.sections['LectioL' + (nExtra + 1)]) nExtra++;
+  const gloriaNote: Item = { kind: 'note', key: 'gloria', text: gloria ? NOTE.gloria : NOTE.noGloria };
+  let oratio: Section | null;
+  if (nExtra) {
+    const shown = mass.variant === 'brevior' ? 1 : nExtra;
+    add(section(corpus, 'Oratio', LABELS.Oratio, f.sections.Oratio, ctx));
+    for (let i = 1; i <= shown; i++) {
+      // a canticle printed after the lesson (Benedictus es on Ember Saturdays) stands as the chant
+      const lu = f.sections['LectioL' + i]; const cut = lu.findIndex((u, k) => u.k === 'sep' && lu[k + 1]?.k === 'rubric' && /hymnus/i.test(lu[k + 1].la ?? ''));
+      add(section(corpus, 'Lectio', lectioLabel(corpus, lu), cut >= 0 ? lu.slice(0, cut) : lu, ctx));
+      if (cut >= 0) add(section(corpus, 'Graduale', LABELS.G, lu.slice(cut + 2), ctx)); else add(graduale(corpus, f, ctx, 'L' + i));
+      if (i < shown) add(section(corpus, 'Oratio', LABELS.Oratio, f.sections['OratioL' + i], ctx));
+    }
+    items.push(gloriaNote);
+    oratio = add(section(corpus, 'Oratio', LABELS.Oratio, f.sections['OratioL' + nExtra], ctx));
+  } else {
+    items.push(gloriaNote);
+    oratio = add(section(corpus, 'Oratio', LABELS.Oratio, f.sections.Oratio, ctx));
+  }
+  if (oratio) oratio.blocks.push(...commBlocks(corpus, day, massIndex, 'Oratio', ctx, f));
+  add(section(corpus, 'Lectio', nExtra ? lectioLabel(corpus, f.sections.Lectio) : LABELS.Epistola, f.sections.Lectio, ctx));
+  add(graduale(corpus, f, ctx));
+  add(section(corpus, 'Sequentia', LABELS.Sequentia, f.sections.Sequentia, ctx));
+  add(section(corpus, 'Evangelium', LABELS.Evangelium, f.sections.Evangelium, ctx));
+  items.push({ kind: 'note', key: 'credo', text: credo ? NOTE.credo : NOTE.noCredo });
+  add(section(corpus, 'Offertorium', LABELS.Offertorium, f.sections.Offertorium, ctx));
+  const secreta = add(section(corpus, 'Secreta', LABELS.Secreta, f.sections.Secreta, ctx));
+  if (secreta) secreta.blocks.push(...commBlocks(corpus, day, massIndex, 'Secreta', ctx, f));
+  const pu = f.sections.Prefatio ?? corpus.ordo.prefaces[pref] ?? corpus.ordo.prefaces.Communis;
+  const plab = PREFACES[pref] ?? PREFACES.Communis;
+  add(section(corpus, 'Prefatio', plab, pu, ctx));
+  add(section(corpus, 'Communio', LABELS.Communio, f.sections.Communio, ctx));
+  const post = add(section(corpus, 'Postcommunio', LABELS.Postcommunio, f.sections.Postcommunio, ctx));
+  if (post) post.blocks.push(...commBlocks(corpus, day, massIndex, 'Postcommunio', ctx, f));
+  if (f.sections['Super populum'] && day.celebration.kind === 'feria') {
+    items.push({ kind: 'note', key: 'superPopulum', text: NOTE.superPopulum });
+    add(section(corpus, 'SuperPopulum', LABELS.SuperPopulum, f.sections['Super populum'], ctx));
+  }
+  const c = day.celebration;
+  const rankLine = `${RANK_WORD[c.kind] ?? 'Dan'} ${ROMAN[day.cls]}. razreda`;
+  return { id: `${day.date}_${massIndex}`, formulary: mass.id, label: mass.label, title: c.title, rankLine, colour: day.colour, subnotes: [], items, gloria, credo, preface: pref };
+}

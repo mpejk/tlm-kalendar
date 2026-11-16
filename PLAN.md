@@ -22,7 +22,7 @@ DO data: sparse clone in data/raw/do/repo (git-ignored; re-clone with the comman
 - [x] Engine: temporal cycle, sanctoral, precedence (n. 91), commemorations (nn. 106-114), transfers, vigils, octaves, ember/rogation, added orations
 - [x] Test: reproduces every old-site row 27 Nov 2016 - 31 Dec 2019 (DIFFS.md for exceptions)
 - [x] Fetch Missale Meum calendar 2026-2036; test agreement (differences explained)
-- [ ] Named edge-date tests with rubric citations
+- [x] Named edge-date tests with rubric citations (+ fresh-subagent derivation reconciled, EDGE-DERIVATION.md)
 
 ## 3. Latin corpus and assembler
 - [ ] Import script DO -> data/corpus/la (each text once)
