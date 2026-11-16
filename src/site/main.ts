@@ -45,26 +45,33 @@ const isoOf = (d: Date) => `${d.getUTCFullYear()}-${pad(d.getUTCMonth() + 1)}-${
 const dateOf = (iso: string) => new Date(iso + 'T00:00:00Z');
 const addDays = (iso: string, n: number) => isoOf(new Date(dateOf(iso).getTime() + n * 86400000));
 function today(): string { try { return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date()); } catch { return isoOf(new Date()); } }
-interface State { d: string; k: 'opci' | 'zagreb'; v: 'dan' | 'mjesec' | 'godina' | 'trazi' | 'info'; m: number; q: string }
-const st: State = { d: today(), k: 'zagreb', v: 'dan', m: 0, q: '' };
+/** m: index of the chosen Mass or rite of the day (tab); null = the day's default, the Mass rather than a rite before it */
+interface State { d: string; k: 'opci' | 'zagreb'; v: 'dan' | 'mjesec' | 'godina' | 'trazi' | 'info'; m: number | null; q: string }
+const st: State = { d: today(), k: 'zagreb', v: 'dan', m: null, q: '' };
+/** A calendar date that exists (not 2027-02-30), else null. */
+const validDate = (d: string | null | undefined): string | null => (d && /^\d{4}-\d\d-\d\d$/.test(d) && !isNaN(dateOf(d).getTime()) && isoOf(dateOf(d)) === d ? d : null);
+/** The Mass index of a link: a whole number only ("0.5", "-1", "abc" and "" mean no choice). */
+const validIndex = (m: string | null): number | null => (m !== null && /^\d{1,3}$/.test(m) ? +m : null);
 function readUrl() {
   const p = new URLSearchParams(location.search.slice(1) || location.hash.slice(1));
-  const d = p.get('d'); st.d = d && /^\d{4}-\d\d-\d\d$/.test(d) ? d : today();
+  st.d = validDate(p.get('d')) ?? today();
   const k = p.get('k') ?? store.get('k'); st.k = k === 'opci' || !BASE.hasZagreb ? 'opci' : 'zagreb';
   const v = p.get('v'); st.v = v === 'mjesec' || v === 'godina' || v === 'trazi' || v === 'info' ? v : 'dan';
-  st.m = +(p.get('m') ?? 0) || 0; st.q = p.get('q') ?? '';
+  st.m = validIndex(p.get('m')); st.q = p.get('q') ?? '';
 }
 function urlFor(o: Partial<State>): string {
   const s = { ...st, ...o }; const p: string[] = [`d=${s.d}`];
-  if (s.k === 'opci' && BASE.hasZagreb) p.push('k=opci'); if (s.v !== 'dan') p.push('v=' + s.v); if (s.m && s.v === 'dan') p.push('m=' + s.m); if (s.q && s.v === 'trazi') p.push('q=' + encodeURIComponent(s.q));
+  if (s.k === 'opci' && BASE.hasZagreb) p.push('k=opci'); if (s.v !== 'dan') p.push('v=' + s.v); if (s.m !== null && s.v === 'dan') p.push('m=' + s.m); if (s.q && s.v === 'trazi') p.push('q=' + encodeURIComponent(s.q));
   return '?' + p.join('&');
 }
-function go(o: Partial<State>, replace = false) {
-  if (o.d && o.m === undefined) o.m = 0;
+function go(o: Partial<State>, replace = false, keepScroll = false): Promise<void> {
+  if ((o.d || o.k || o.v) && o.m === undefined) o.m = null;
+  if (o.d !== undefined) o.d = validDate(o.d) ?? st.d;
   Object.assign(st, o); if (o.k) store.set('k', o.k);
   const u = urlFor({});
   try { replace ? history.replaceState(null, '', u) : history.pushState(null, '', u); } catch { location.hash = u.slice(1); }
-  render(); window.scrollTo(0, 0);
+  if (!keepScroll) window.scrollTo(0, 0);
+  return render();
 }
 async function dayOf(iso: string, k = st.k): Promise<Day | null> {
   const y = +iso.slice(0, 4); const c = await needYear(y); if (!c) return null;
@@ -159,9 +166,9 @@ async function viewDay(): Promise<string> {
   if (d.notes?.length) head += h('ul', { class: 'comms notes' }, d.notes.map(n => h('li', null, esc(n) + ' <span class="tag">mjesni kalendar</span>')).join(''));
   // open on the Mass, not on a rite that precedes it, unless a tab was chosen
   const firstMass = Math.max(0, d.masses.findIndex(x => !x.extra));
-  const idx = st.m >= 0 && (st.m > 0 || new URLSearchParams(location.search.slice(1) || location.hash.slice(1)).has('m')) ? Math.min(st.m, d.masses.length - 1) : firstMass; const m = d.masses[idx];
+  const idx = massIndex(st.m, d.masses.length, firstMass); const m = d.masses[idx];
   let tabs = '';
-  if (d.masses.length > 1) tabs = h('div', { class: 'tabs', role: 'tablist' }, d.masses.map((x, i) => `<a role="tab" aria-selected="${i === idx}" href="${esc(urlFor({ m: i }))}" data-nav='${JSON.stringify({ m: i })}' class="tab${i === idx ? ' on' : ''}">${esc(x.label ?? (d.flags.rogation && x.kind === 'mass' ? 'Misa dana' : `Misa ${i + 1}`))}</a>`).join(''));
+  if (d.masses.length > 1) tabs = h('div', { class: 'tabs', role: 'tablist', 'aria-label': 'Mise i obredi dana' }, d.masses.map((x, i) => `<a role="tab" id="tab-${i}" aria-controls="panel" aria-selected="${i === idx}" tabindex="${i === idx ? 0 : -1}" href="${esc(urlFor({ m: i }))}" data-nav='${JSON.stringify({ m: i })}' data-tab="${i}" class="tab${i === idx ? ' on' : ''}">${esc(x.label ?? (d.flags.rogation && x.kind === 'mass' ? 'Misa dana' : `Misa ${i + 1}`))}</a>`).join(''));
   let body = '';
   if (m.kind === 'mass') {
     await needF(formulariesFor(d, idx));
@@ -172,8 +179,10 @@ async function viewDay(): Promise<string> {
     await needF([m.id]); const f = F[m.id];
     body = f?.items ? riteHtml(f) : h('p', { class: 'empty' }, 'Tekst obreda nije dostupan.');
   }
-  return nav + h('header', { class: 'dayhead' }, head) + tabs + h('article', { class: 'mass' }, body);
+  return nav + h('header', { class: 'dayhead' }, head) + tabs + h('article', tabs ? { class: 'mass', id: 'panel', role: 'tabpanel', 'aria-labelledby': 'tab-' + idx } : { class: 'mass' }, body);
 }
+/** Which of the day's Masses to show: the one asked for if it exists, else the default. */
+function massIndex(m: number | null, count: number, first: number): number { return m !== null && Number.isInteger(m) && m >= 0 && m < count ? m : first; }
 async function viewMonth(): Promise<string> {
   const y = +st.d.slice(0, 4), mo = +st.d.slice(5, 7); const first = `${y}-${pad(mo)}-01`;
   const prev = isoOf(new Date(Date.UTC(y, mo - 2, 1))), next = isoOf(new Date(Date.UTC(y, mo, 1)));
@@ -190,9 +199,9 @@ async function viewYear(): Promise<string> {
   if (!c) return nav + h('p', { class: 'empty' }, `Kalendar obuhvaća godine ${BASE.years.from}.–${BASE.years.to}.`);
   const rows = c.opci.map(g => { const d = (st.k === 'zagreb' && c.zagreb[g.date.slice(5)]) || g;
     const comm = d.commemorations.map(x => `<br><span class="cm">${COMM[x.type]}: ${esc(x.title)}</span>`).join('');
-    return `<tr class="${d.weekday === 0 ? 'sun' : ''}"><td>${oldDate(d.date)}</td><td>${WD3[d.weekday]}</td><td>${ROMAN[d.cls]}</td><td>${chip(d.colour)}</td><td>${link({ d: d.date, v: 'dan' }, esc(d.title))}${d.flags.local ? ' <span class="tag">mjesni kalendar</span>' : ''}${comm}</td></tr>`; }).join('');
+    return `<tr role="row" class="${d.weekday === 0 ? 'sun' : ''}"><td role="cell">${oldDate(d.date)}</td><td role="cell">${WD3[d.weekday]}</td><td role="cell"><span class="vh">razred </span>${ROMAN[d.cls]}</td><td role="cell">${chip(d.colour)}</td><td role="cell">${link({ d: d.date, v: 'dan' }, esc(d.title))}${d.flags.local ? ' <span class="tag">mjesni kalendar</span>' : ''}${comm}</td></tr>`; }).join('');
   const ics = `<p class="small">Kalendar za ${y}. u formatu .ics: <a href="${here}ics/tlm-${y}-${st.k}.ics" download>preuzmi</a></p>`;
-  return nav + ics + `<table class="year"><thead><tr><th>Datum</th><th>Dan</th><th>Razred</th><th></th><th>Naslov i spomeni</th></tr></thead><tbody>${rows}</tbody></table>`;
+  return nav + ics + `<table class="year" role="table"><thead role="rowgroup"><tr role="row"><th role="columnheader">Datum</th><th role="columnheader">Dan</th><th role="columnheader">Razred</th><th role="columnheader"><span class="vh">Boja</span></th><th role="columnheader">Naslov i spomeni</th></tr></thead><tbody role="rowgroup">${rows}</tbody></table>`;
 }
 async function viewSearch(): Promise<string> {
   const q = st.q.trim().toLocaleLowerCase('hr'); let out = `<form class="search" data-search><label for="q">Traži blagdan ili sveca</label><input id="q" name="q" type="search" value="${esc(st.q)}" autocomplete="off"><button class="btn">Traži</button></form>`;
@@ -222,9 +231,11 @@ async function render() {
   (document.getElementById('date') as HTMLInputElement).value = st.d;
   document.querySelectorAll('[data-view]').forEach(a => a.setAttribute('href', urlFor({ v: (a as HTMLElement).dataset.view as State['v'] })));
   const my = ++seq;
-  const html = st.v === 'mjesec' ? await viewMonth() : st.v === 'godina' ? await viewYear() : st.v === 'trazi' ? await viewSearch() : st.v === 'info' ? viewInfo() : await viewDay();
+  let html: string; let failed = false;
+  try { html = st.v === 'mjesec' ? await viewMonth() : st.v === 'godina' ? await viewYear() : st.v === 'trazi' ? await viewSearch() : st.v === 'info' ? viewInfo() : await viewDay(); }
+  catch (err) { failed = true; html = h('p', { class: 'empty' }, 'Ovaj se prikaz nije mogao sastaviti. ' + link({ d: today(), v: 'dan' }, 'Otvori današnji dan')); try { console.error(err); } catch { /* no console */ } }
   if (my !== seq) return;
-  main.innerHTML = html; main.dataset.ready = st.d + '|' + st.v + '|' + st.k + '|' + st.m;
+  main.innerHTML = html; main.dataset.ready = st.d + '|' + st.v + '|' + st.k + '|' + (st.m ?? ''); if (failed) main.dataset.failed = '1'; else delete main.dataset.failed;
   const t = main.querySelector('h1'); document.title = (st.v === 'dan' && t ? `${t.textContent} — ${fmtDate(st.d)}` : 'Kalendar tradicionalne latinske mise') + ' · Zagreb';
 }
 let seq = 0;
@@ -241,7 +252,7 @@ function init() {
   readUrl(); applyPrefs();
   document.addEventListener('click', e => {
     const a = (e.target as HTMLElement).closest('a[data-nav]') as HTMLAnchorElement | null;
-    if (a && !e.metaKey && !e.ctrlKey && !e.shiftKey) { e.preventDefault(); go(JSON.parse(a.dataset.nav!)); return; }
+    if (a && !e.metaKey && !e.ctrlKey && !e.shiftKey) { e.preventDefault(); const isTab = a.hasAttribute('data-tab'); go(JSON.parse(a.dataset.nav!), false, isTab).then(() => { if (isTab) focusTab(); }); return; }
     const b = (e.target as HTMLElement).closest('[data-act]') as HTMLElement | null; if (!b) return;
     const act = b.dataset.act!;
     if (act === 'today') go({ d: today(), v: 'dan' });
@@ -256,15 +267,30 @@ function init() {
   document.addEventListener('submit', e => { const f = e.target as HTMLFormElement; if (f.matches('[data-search]')) { e.preventDefault(); go({ v: 'trazi', q: (f.elements.namedItem('q') as HTMLInputElement).value }); } });
   const date = document.getElementById('date') as HTMLInputElement; date.min = `${BASE.years.from}-01-01`; date.max = `${BASE.years.to}-12-31`;
   date.addEventListener('change', () => { if (date.value) go({ d: date.value, v: st.v === 'mjesec' || st.v === 'godina' ? st.v : 'dan' }); });
-  document.addEventListener('keydown', e => { if ((e.target as HTMLElement).matches('input,textarea,select') || e.metaKey || e.ctrlKey || e.altKey || st.v !== 'dan') return; if (e.key === 'ArrowLeft') go({ d: addDays(st.d, -1) }); if (e.key === 'ArrowRight') go({ d: addDays(st.d, 1) }); });
+  document.addEventListener('keydown', e => {
+    if (e.defaultPrevented || e.metaKey || e.ctrlKey || e.altKey || e.shiftKey) return;
+    const t = e.target as HTMLElement | null; if (!t || !t.closest) return;
+    // Tabs of the day (W3C APG Tabs pattern): the arrow keys, Home and End move between the tabs of the same day; Space opens
+    const tab = t.closest('[role="tab"]') as HTMLElement | null;
+    if (tab) {
+      const tabs = [...tab.parentElement!.querySelectorAll('[role="tab"]')] as HTMLElement[]; const i = tabs.indexOf(tab);
+      const to = e.key === 'ArrowRight' ? (i + 1) % tabs.length : e.key === 'ArrowLeft' ? (i - 1 + tabs.length) % tabs.length : e.key === 'Home' ? 0 : e.key === 'End' ? tabs.length - 1 : e.key === ' ' || e.key === 'Spacebar' ? i : -1;
+      if (to < 0) return;
+      e.preventDefault(); go({ m: +tabs[to].dataset.tab! }, false, true).then(focusTab); return;
+    }
+    // previous / next day with the arrow keys: only in the day view and never while a control that uses the arrows has the focus
+    if (st.v !== 'dan' || t.closest('input,textarea,select,[contenteditable],[role="tablist"],[role="group"],[role="toolbar"],[role="radiogroup"],[role="listbox"],[role="menu"],[role="slider"]')) return;
+    if (e.key === 'ArrowLeft') { e.preventDefault(); go({ d: addDays(st.d, -1) }); } else if (e.key === 'ArrowRight') { e.preventDefault(); go({ d: addDays(st.d, 1) }); }
+  });
   window.addEventListener('popstate', () => { readUrl(); render(); }); window.addEventListener('hashchange', () => { readUrl(); render(); });
   render();
   if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register(here + 'sw.js').catch(() => { /* offline use unavailable */ });
 }
+function focusTab() { (document.querySelector('#main [role="tab"][aria-selected="true"]') as HTMLElement | null)?.focus(); }
 W.TLM.start = init;
 // Start once the document is parsed AND data/base.js has run (the two deferred scripts may execute in separate tasks).
 let started = false;
 function tryStart() { if (started || !BASE || document.readyState === 'loading') return; started = true; init(); }
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', tryStart); else setTimeout(tryStart, 0);
 /** used by the verification crawl: show a day and resolve when it is rendered */
-W.TLM.nav = async (o: Partial<State>) => { Object.assign(st, o); const u = urlFor({}); try { history.replaceState(null, '', u); } catch { /* file:// */ } await render(); };
+W.TLM.nav = async (o: Partial<State>) => { if (o.m !== undefined && o.m !== null && o.m < 0) o.m = null; Object.assign(st, o); const u = urlFor({}); try { history.replaceState(null, '', u); } catch { /* file:// */ } await render(); };
