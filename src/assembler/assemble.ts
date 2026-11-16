@@ -23,7 +23,7 @@ export const NOTE = {
 };
 const COMM_LABEL: Record<string, string> = { privileged: 'spomen i na tihim i na pjevanim misama', ordinary: 'spomen na tihim misama', same: 'spomen pod istim završetkom na svim misama' };
 
-interface Ctx { emberSat?: boolean; paschal: boolean; septuagesima: boolean; easterWeek: boolean; tid: string; feria: boolean }
+interface Ctx { fid?: string; emberSat?: boolean; paschal: boolean; septuagesima: boolean; easterWeek: boolean; tid: string; feria: boolean }
 
 function formulary(corpus: Corpus, id: string, variant?: string): Formulary | null {
   const f = corpus.formularies[id];
@@ -115,9 +115,10 @@ function graduale(corpus: Corpus, f: Formulary, ctx: Ctx, suffix = ''): Section 
   return { kind: 'section', key: 'Graduale', la: lab[0], hr: lab[1], blocks: [{ lines: ls.filter(l => !(l.k === 'rubric' && /^tractus/i.test(l.la))) }] };
 }
 
-function section(corpus: Corpus, key: string, label: [string, string], units: Unit[] | undefined, ctx: Ctx): Section | null {
+function section(corpus: Corpus, key: string, label: [string, string], units: Unit[] | undefined, ctx: Ctx, srcName?: string): Section | null {
   if (!units || !units.length) return null;
-  return { kind: 'section', key, la: label[0], hr: label[1], blocks: [{ lines: lines(corpus, units, ctx) }] };
+  const src = `${ctx.fid}|${srcName ?? key}`;
+  return { kind: 'section', key, la: label[0], hr: label[1], src, blocks: [{ src, lines: lines(corpus, units, ctx) }] };
 }
 
 function lectioLabel(corpus: Corpus, units: Unit[] | undefined): [string, string] {
@@ -197,19 +198,19 @@ function commBlocks(corpus: Corpus, day: Day, massIndex: number, sec: 'Oratio' |
     const w = day.celebration;
     if (w.kind === 'feria' && w.cls === 4) return out;
     const ls = lines(corpus, formulary(corpus, w.id, day.season === 'easter' ? '+paschal' : '')?.sections[sec], ctx).filter(l => l.k !== 'rubric');
-    return [{ label: `spomen: ${w.title}`, commType: 'rogation', lines: ls }];
+    return [{ label: `spomen: ${w.title}`, commType: 'rogation', lines: ls, src: `${w.id}|${sec}` }];
   }
   for (const c of day.commemorations) {
     if (c.onlyMass !== undefined && c.onlyMass !== massIndex) continue;
-    let units: Unit[] | undefined;
-    if (c.key.endsWith('+with')) units = main.sections['Commemoratio ' + sec];
+    let units: Unit[] | undefined; let src = `${COMM_FORMULARY[c.key] ?? c.id}|${sec}`;
+    if (c.key.endsWith('+with')) { units = main.sections['Commemoratio ' + sec]; src = `${ctx.fid}|Commemoratio ${sec}`; }
     else {
       const f = corpus.formularies[COMM_FORMULARY[c.key] ?? c.id];
       units = f?.sections[sec];
-      if (c.key === 'S:12-25m2c') units = f?.sections['Commemoratio ' + sec];
+      if (c.key === 'S:12-25m2c') { units = f?.sections['Commemoratio ' + sec]; src = `${c.id}|Commemoratio ${sec}`; }
     }
     const ls = lines(corpus, units, ctx).filter(l => l.k !== 'rubric');
-    out.push({ label: `${COMM_LABEL[c.type]}: ${c.title}`, commType: c.type, lines: ls });
+    out.push({ label: `${COMM_LABEL[c.type]}: ${c.title}`, commType: c.type, lines: ls, src });
   }
   return out;
 }
@@ -226,7 +227,7 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
   if (!f) return null;
   const tid = day.temporalId;
   const ctx: Ctx = {
-    tid, feria: day.celebration.kind === 'feria', emberSat: !!day.flags.ember && day.weekday === 6 && day.celebration.key.startsWith('T:') && (day.season !== 'easter' || mass.variant !== 'brevior'), paschal: day.season === 'easter', easterWeek: /^Pasc0-[0-5]$/.test(tid),
+    fid: mass.id, tid, feria: day.celebration.kind === 'feria', emberSat: !!day.flags.ember && day.weekday === 6 && day.celebration.key.startsWith('T:') && (day.season !== 'easter' || mass.variant !== 'brevior'), paschal: day.season === 'easter', easterWeek: /^Pasc0-[0-5]$/.test(tid),
     septuagesima: day.season === 'septuagesima' || day.season === 'lent' || day.season === 'passion',
   };
   const items: Item[] = [];
@@ -252,15 +253,25 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
       const lu = f.sections['LectioL' + i]; const cut = lu.findIndex((u, k) => u.k === 'sep' && lu[k + 1]?.k === 'rubric' && /hymnus/i.test(lu[k + 1].la ?? ''));
       add(section(corpus, 'Lectio', lectioLabel(corpus, lu), cut >= 0 ? lu.slice(0, cut) : lu, ctx));
       if (cut >= 0) add(section(corpus, 'Graduale', LABELS.G, lu.slice(cut + 2), ctx)); else add(graduale(corpus, f, ctx, 'L' + i));
-      if (i < shown) add(section(corpus, 'Oratio', LABELS.Oratio, f.sections['OratioL' + i], ctx));
+      if (i < shown) add(section(corpus, 'Oratio', LABELS.Oratio, f.sections['OratioL' + i], ctx, 'OratioL' + i));
     }
     items.push(gloriaNote);
-    oratio = add(section(corpus, 'Oratio', LABELS.Oratio, f.sections['OratioL' + shown], ctx));   // n. 468: in the shorter form, the second prayer
+    oratio = add(section(corpus, 'Oratio', LABELS.Oratio, f.sections['OratioL' + shown], ctx, 'OratioL' + shown));   // n. 468: in the shorter form, the second prayer
   } else {
     items.push(gloriaNote);
     oratio = add(section(corpus, 'Oratio', LABELS.Oratio, f.sections.Oratio, ctx));
   }
-  if (oratio) oratio.blocks.push(...commBlocks(corpus, day, massIndex, 'Oratio', ctx, f));
+  // A second prayer printed inside the section under one conclusion ("Pro S. Petro"): it belongs to the inseparable commemoration.
+  const splitWith = (sec: Section | null) => {
+    if (!sec) return;
+    const b0 = sec.blocks[0]; const at = b0.lines.findIndex((l, i) => i > 0 && l.k === 'rubric' && /^(Pro |Commemoratio)/i.test(l.la));
+    const w = sec.blocks.find(b => b.commType === 'same' && !b.lines.length);
+    if (at < 0) return;
+    const rest = b0.lines.slice(at + 1); b0.lines = b0.lines.slice(0, at);
+    while (b0.lines.length && b0.lines[b0.lines.length - 1].k === 'oremus') b0.lines.pop();
+    if (w) { w.lines = rest; w.src = b0.src + '#2'; } else sec.blocks.splice(1, 0, { label: undefined, commType: 'same', lines: rest, src: b0.src + '#2' });
+  };
+  if (oratio) { oratio.blocks.push(...commBlocks(corpus, day, massIndex, 'Oratio', ctx, f)); splitWith(oratio); }
   add(section(corpus, 'Lectio', nExtra || day.flags.ember ? lectioLabel(corpus, f.sections.Lectio) : LABELS.Epistola, f.sections.Lectio, ctx));
   add(graduale(corpus, f, ctx));
   add(section(corpus, 'Sequentia', LABELS.Sequentia, f.sections.Sequentia, ctx));
@@ -268,7 +279,7 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
   items.push({ kind: 'note', key: 'credo', text: credo ? NOTE.credo : NOTE.noCredo });
   add(section(corpus, 'Offertorium', LABELS.Offertorium, f.sections.Offertorium, ctx));
   const secreta = add(section(corpus, 'Secreta', LABELS.Secreta, f.sections.Secreta, ctx));
-  if (secreta) secreta.blocks.push(...commBlocks(corpus, day, massIndex, 'Secreta', ctx, f));
+  if (secreta) { secreta.blocks.push(...commBlocks(corpus, day, massIndex, 'Secreta', ctx, f)); splitWith(secreta); }
   const pu = f.sections.Prefatio ?? corpus.ordo.prefaces[pref] ?? corpus.ordo.prefaces.Communis;
   const plab = PREFACES[pref] ?? PREFACES.Communis;
   const prefSec = add(section(corpus, 'Prefatio', plab, pu.filter(u => u.k !== 'rubric'), ctx));
@@ -280,10 +291,10 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
   }
   add(section(corpus, 'Communio', LABELS.Communio, f.sections.Communio, ctx));
   const post = add(section(corpus, 'Postcommunio', LABELS.Postcommunio, f.sections.Postcommunio, ctx));
-  if (post) post.blocks.push(...commBlocks(corpus, day, massIndex, 'Postcommunio', ctx, f));
+  if (post) { post.blocks.push(...commBlocks(corpus, day, massIndex, 'Postcommunio', ctx, f)); splitWith(post); }
   if (f.sections['Super populum'] && day.celebration.kind === 'feria') {
     items.push({ kind: 'note', key: 'superPopulum', text: NOTE.superPopulum });
-    add(section(corpus, 'SuperPopulum', LABELS.SuperPopulum, f.sections['Super populum'], ctx));
+    add(section(corpus, 'SuperPopulum', LABELS.SuperPopulum, f.sections['Super populum'], ctx, 'Super populum'));
   }
   const c = day.celebration;
   const rankWord = c.key === 'S:11-02' ? 'Dan' : c.key === 'T:Pasc0-0' || c.key === 'T:Pasc7-0' ? 'Blagdan' : RANK_WORD[c.kind] ?? 'Dan';

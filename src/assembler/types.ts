@@ -12,8 +12,8 @@ export interface Corpus {
 }
 export type LineKind = 'ref' | 'text' | 'rubric' | 'gloriaPatri' | 'conclusion' | 'oremus' | 'head';
 export interface Line { k: LineKind; la: string; x?: string; mark?: string; hr?: string; hrSrc?: string; kn?: string }
-export interface Block { label?: string; commType?: string; lines: Line[] }
-export interface Section { kind: 'section'; key: string; la: string; hr: string; blocks: Block[]; hidden?: boolean }
+export interface Block { label?: string; commType?: string; lines: Line[]; /** where the block's text comes from: formulary id | section name */ src?: string; hr?: string; hrSrc?: string }
+export interface Section { kind: 'section'; key: string; la: string; hr: string; blocks: Block[]; hidden?: boolean; src?: string }
 export interface Note { kind: 'note'; key: string; text: string }
 export type Item = Section | Note;
 export interface MassView { id: string; formulary: string; label?: string; title: string; rankLine: string; colour: string; subnotes: string[]; items: Item[]; gloria: boolean; credo: boolean; preface: string }

@@ -46,7 +46,7 @@ export function applyOverrides(out: Record<string, any>, pack: (u: any[]) => any
     const g = JSON.parse(fs.readFileSync(`data/golden/masses/${o.page}.json`, 'utf8'));
     const secs = g.items.filter((it: any) => it.kind === 'section' && !it.hidden && keyOfHead(it.la) === o.key);
     const sec = o.nth === -1 ? secs[secs.length - 1] : secs[o.nth ?? 0]; const f = out[o.formulary];
-    if (!sec || !f) { log.push(`override not applied: ${o.formulary} ${o.section}`); continue; }
+    if (!sec || !f || /#/.test(o.section)) { log.push(`override not applied: ${o.formulary} ${o.section}`); continue; }
     const rows = sec.rows.filter((r: any) => r.la !== undefined && !r.head);
     const prayer = ['Oratio', 'Secreta', 'Postcommunio'].includes(o.key);
     const chosen = prayer ? [rows[o.row ?? 0]] : rows;

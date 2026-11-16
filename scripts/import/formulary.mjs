@@ -95,7 +95,7 @@ export function toUnits(lines) {
   if (gi >= 0) units.length = gi;
   while (units.length && units[units.length - 1].k === 'sep') units.pop();
   // tidy DO markup inside text: "++" (sign of the cross in Gospel titles), "+" marks, double spaces
-  for (const u of units) if (u.la) u.la = u.la.replace(/\s*Non dicitur Gl[óo]ria in exc[ée]lsis\.?$/, '').replace(/\s*\+\+\s*/g, ' ✠ ').replace(/\s+/g, ' ').trim();
+  for (const u of units) if (u.la) u.la = u.la.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/\s*Non dicitur Gl[óo]ria in exc[ée]lsis\.?$/, '').replace(/\s*\+\+\s*/g, ' ✠ ').replace(/\s+/g, ' ').trim();
   return units;
 }
 

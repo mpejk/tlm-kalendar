@@ -6,6 +6,7 @@ import { parseIso } from '../../src/engine/dates';
 import { assembleMass } from '../../src/assembler/assemble';
 import { loadCorpus } from '../../src/assembler/corpus-node';
 import { Item, Section } from '../../src/assembler/types';
+import { coreLa } from '../../src/assembler/norm';
 // @ts-ignore
 import { normLa, INLINE_REF } from '../lib/normalize.mjs';
 
@@ -13,21 +14,7 @@ const HEAD_KEY: [RegExp, string][] = [[/^Antíphona ad intróitum/, 'Introitus']
   [/^Evangélium/, 'Evangelium'], [/^Antíphona ad offertórium/, 'Offertorium'], [/^Secréta/, 'Secreta'], [/^Praefátio/, 'Prefatio'], [/^Antíphona ad communiónem/, 'Communio'], [/^Postcommúnio/, 'Postcommunio']];
 export const keyOfHead = (la: string) => (HEAD_KEY.find(([r]) => r.test(la)) ?? [null, 'Other:' + la])[1];
 
-const FORMULAS = [
-  /gloria patri et filio et spiritui sancto sicut erat in principio et nunc et semper et in secula seculorum amen/g,
-  /per (dominum nostrum|eumdem dominum nostrum|eundem dominum nostrum) iesum cristum filium tum qui tecum vivit et regnat in unitate (eiusdem )?spiritus sancti deus per omnia secula seculorum( amen)?/g,
-  /qui tecum vivit et regnat in unitate (eiusdem )?spiritus sancti deus per omnia secula seculorum( amen)?/g,
-  /qui vivis et regnas cum deo patre in unitate (eiusdem )?spiritus sancti deus per omnia secula seculorum( amen)?/g,
-  /qui vivis et regnas (cum deo patre )?in secula seculorum( amen)?/g, /qui vivit et regnat in secula seculorum( amen)?/g,
-  /per cristum dominum nostrum( amen)?$/g, /per eumdem cristum dominum nostrum( amen)?$/g,
-  /qui cum eodem deo patre et spiritu sancto vivis et regnas deus per omnia secula seculorum/g, /\bsedulius\b/g,
-  /\boremus\b/g, /flectamus genua( levate)?/g, /humiliate capita vestra deo/g,
-];
-export function core(s: string): string {
-  let t = normLa(s.replace(/<b>[\s\S]*?<\/b>/g, ' ').replace(/\(Hic genuflectitur\)/gi, ' ').replace(/\(hodi[ée]rna die\)/gi, 'hodierna die').replace(INLINE_REF, ' ').replace(/\[[^\]]*\]/g, ' '));
-  for (const f of FORMULAS) t = t.replace(f, ' ');
-  return t.replace(/\s+/g, ' ').trim();
-}
+export const core = coreLa;
 const isRefLine = (x: string) => { const t = x.replace(/<[^>]+>/g, '').trim(); if (t.replace(INLINE_REF, '').trim() !== t && t.replace(INLINE_REF, '').trim().length > 3) return false; return t.length < 70 && /\d/.test(t) && /^[\p{L}\d .,;:\-–()]+$/u.test(t) && !/\p{Ll}{9,}/u.test(t); };
 const PRAYER = new Set(['Oratio', 'Secreta', 'Postcommunio', 'SuperPopulum']);
 /** In the prayers the old site prints Oremus and the conclusion as whole italic lines: they are formulas, not part of the proper text. */
