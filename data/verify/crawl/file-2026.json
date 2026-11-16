@@ -7,7 +7,7 @@
  "missingHr": 28,
  "problems": [],
  "ics": [
-  "file:///Users/markopejkovic/tlm-kalendar/dist/ics/tlm-2026-zagreb.ics"
+  "file://dist/ics/tlm-2026-zagreb.ics"
  ],
  "consoleErrors": []
 }

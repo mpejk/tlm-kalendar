@@ -61,7 +61,7 @@ try {
     }, y);
     for (const u of res.ics) { const f = mode === 'http' ? null : decodeURIComponent(u.replace('file://', '')); if (f && !fs.existsSync(f)) res.problems.push(`${y}: missing ${u}`); if (!f) { const r = await page.request.get(u); if (!r.ok()) res.problems.push(`${y}: ${u} -> ${r.status()}`); } }
     const result = { mode, year: y, ...res, consoleErrors: [...new Set(errors)] };
-    fs.writeFileSync(`data/verify/crawl/${mode}-${y}.json`, JSON.stringify(result, null, 1));
+    fs.writeFileSync(`data/verify/crawl/${mode}-${y}.json`, JSON.stringify(result, null, 1).split(dist).join('dist'));   // no machine paths in the saved result
     console.log(mode, y, JSON.stringify({ days: res.days, views: res.views, sections: res.sections, missingHr: res.missingHr, problems: res.problems.length, consoleErrors: result.consoleErrors.length }), res.problems.slice(0, 4).join(' | ').slice(0, 400), result.consoleErrors.slice(0, 2).join(' | '));
     await page.close();
   }

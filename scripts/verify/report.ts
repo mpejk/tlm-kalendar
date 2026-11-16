@@ -1,4 +1,4 @@
-// Collects the verification results into DIFFS.md and GAPS.md.   npx tsx scripts/verify/report.ts   (after the tests and the build)
+// Collects the verification results into DIFFS.md.   npx tsx scripts/verify/report.ts   (after the tests and the build)
 import fs from 'node:fs';
 const read = (f: string, d: any = null) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : d);
 const cal = fs.existsSync('data/verify/diffs-calendar.md') ? fs.readFileSync('data/verify/diffs-calendar.md', 'utf8').trim() : '# Calendar differences from the old site\n\n(run the tests)';
@@ -27,6 +27,6 @@ if (cov) {
   const by: Record<string, number> = {}; for (const r of rg) { const k = r.key.split('#')[0]; by[k] = (by[k] || 0) + 1; }
   for (const [k, n] of Object.entries(by)) g.push(`- ${k}: ${n} rows (Latin from Divinum Officium; the old site has no page for this rite)`);
   g.push('', 'To fill a gap: add the Croatian to `data/tm/kniewald-found.json` (ids in `data/tm/gaps-for-kniewald.json` and `data/tm/rite-gaps.json`), run `npx tsx scripts/croatian/apply-kniewald.ts`, then `npm run build`.', '');
-  fs.writeFileSync('GAPS.md', g.join('\n'));
+  // GAPS.md is written by the build (scripts/build/za-prijevod.ts)
 }
-console.log('DIFFS.md, GAPS.md written');
+console.log('DIFFS.md written');

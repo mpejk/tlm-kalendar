@@ -27,13 +27,23 @@ const CATEGORIES: { name: string; why: string; test: (x: Ctx) => boolean }[] = [
 ];
 interface Ctx { date: string; md: string; weekday: number; cls: number; kind: string; tid: string; rogation: boolean; theirs: string[]; mine: string[] }
 
-describe.skipIf(!haveSource)('calendar against Missale Meum 2026–2036 (general calendar)', () => {
+// The table "English title -> Missale Meum ids" is derived from two files of the Missale Meum source (its constants and English
+// titles). Where a clone of that repository is present (data/raw/mm/repo, git-ignored) the table is derived afresh and saved;
+// elsewhere the saved copy data/raw/mm/title-ids.json is used, so the comparison runs from a fresh clone of this project.
+const IDS = 'data/raw/mm/title-ids.json';
+function loadTitleIds(): Record<string, string[]> {
+  if (!haveSource) return JSON.parse(fs.readFileSync(IDS, 'utf8'));
   const consts: Record<string, string> = {};
   for (const m of fs.readFileSync(MM + 'common.py', 'utf8').matchAll(/^([A-Z0-9_]+) = '([a-z]+:[^']+)'/gm)) consts[m[1]] = m[2];
   const titleToIds: Record<string, string[]> = {};
   for (const m of fs.readFileSync(MM + 'en/translation.py', 'utf8').matchAll(/constants\.([A-Z0-9_]+):\s*(?:'((?:[^'\\]|\\.)*)'|"((?:[^"\\]|\\.)*)")/g)) {
     const id = consts[m[1]]; const t = (m[2] ?? m[3]).replace(/\\'/g, "'"); if (id) (titleToIds[t] ??= []).push(id);
   }
+  fs.writeFileSync(IDS, JSON.stringify(titleToIds, null, 0).replace(/\],"/g, '],\n"'));
+  return titleToIds;
+}
+describe.skipIf(!haveSource && !fs.existsSync(IDS))('calendar against Missale Meum 2026–2036 (general calendar)', () => {
+  const titleToIds = loadTitleIds();
   const cfg = generalConfig({ name: '', date: '99-99' });
   const normT = (x: string) => x.replace(/^PentEpi/, 'Epi').replace(/Feria$/, '').replace(/(\d)[a-z]+\d?$/, '$1').replace(/^Nat(29|30|31)$/, 'Nat1-1');
   const normS = (x: string) => x.replace(/^(\d\d-\d\d)[a-z]+\d?$/, '$1');
