@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1770332683</mtime>
+    <size>13869</size>
+    <md5>1790cd00a4ea81c70368d7053959ea2d</md5>
+    <crc32>9142a9dc</crc32>
+    <sha1>8476fb9688d0e98b8efd77a7f2b116f087935acb</sha1>
+    <format>Item Tile</format>
+    <rotation>0</rotation>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald.epub" source="derivative">
+    <hocr_epub_module_version>0.0.1</hocr_epub_module_version>
+    <hocr_epub_hocr_version>1.1.66</hocr_epub_hocr_version>
+    <format>EPUB</format>
+    <original>rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_hocr.html</original>
+    <mtime>1783855738</mtime>
+    <size>54318343</size>
+    <md5>6e45d43012c44e49ef587dab2b6d9afe</md5>
+    <crc32>099cb097</crc32>
+    <sha1>4d1c87c6912ee73fd5a7e0f64610e6bd3ae21be6</sha1>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald.pdf" source="original">
+    <mtime>1606513220</mtime>
+    <size>189523928</size>
+    <md5>998b61801489c99c6cc1b9dea68cfa0d</md5>
+    <crc32>bbedc632</crc32>
+    <sha1>da83d4e6302d3fc5a8161d223a1c9230ad599a9c</sha1>
+    <format>Text PDF</format>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_abbyy.gz" source="derivative">
+    <format>Abbyy GZ</format>
+    <original>rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_jp2.zip</original>
+    <mtime>1606519193</mtime>
+    <size>23080462</size>
+    <md5>396f28b0e3e7b4c25314528dda4fa50a</md5>
+    <crc32>08fb1485</crc32>
+    <sha1>50152f88973097e5341385fedb0d6c46ee58f1ba</sha1>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_archive.torrent" source="metadata">
+    <btih>d9ee8acb6f1d18c8b7349a708276319a53f3a224</btih>
+    <mtime>1783856238</mtime>
+    <size>26958</size>
+    <md5>611b4265c916ddbcc1da5d49e7cd0f78</md5>
+    <crc32>0cb1512c</crc32>
+    <sha1>dbd47380f2a269fabaa8dd215f4b6baf9ac3233e</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_chocr.html.gz" source="derivative">
+    <ocr_module_version>0.0.21</ocr_module_version>
+    <ocr_converted>abbyy-to-hocr 1.1.37</ocr_converted>
+    <format>chOCR</format>
+    <original>rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_abbyy.gz</original>
+    <mtime>1783854543</mtime>
+    <size>18869683</size>
+    <md5>481aac076e1b6cf3819176c1215ecfd8</md5>
+    <crc32>b1e5502f</crc32>
+    <sha1>7832abe613dcfc87f565d6310f08900ba6b23668</sha1>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_djvu.txt" source="derivative">
+    <format>DjVuTXT</format>
+    <original>rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_djvu.xml</original>
+    <mtime>1783855764</mtime>
+    <size>1674148</size>
+    <md5>de241e0403dfe208a6324af9605ad962</md5>
+    <crc32>1ca5bc60</crc32>
+    <sha1>52cbf14405d4e1b68be911dca4120abf5e67cdae</sha1>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_djvu.xml" source="derivative">
+    <format>Djvu XML</format>
+    <original>rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_hocr.html</original>
+    <mtime>1783855075</mtime>
+    <size>19127107</size>
+    <md5>87384c7f3a4b50971ae24c857bc2f2be</md5>
+    <crc32>c93359dd</crc32>
+    <sha1>3274453680959a76aedad0aca2b55e71d3fc6b37</sha1>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>a9ab2d036dd92bad2ea0aafd62c70c8e</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_hocr.html" source="derivative">
+    <hocr_char_to_word_module_version>1.3.0</hocr_char_to_word_module_version>
+    <hocr_char_to_word_hocr_version>1.1.56</hocr_char_to_word_hocr_version>
+    <ocr_module_version>0.0.21</ocr_module_version>
+    <ocr_converted>abbyy-to-hocr 1.1.37</ocr_converted>
+    <format>hOCR</format>
+    <original>rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_chocr.html.gz</original>
+    <mtime>1783854613</mtime>
+    <size>38706652</size>
+    <md5>e1fc4338b7bb0351625ced3680d3969c</md5>
+    <crc32>0244694e</crc32>
+    <sha1>d7c53ebaee672e1564d24884b0db99bd46e8f353</sha1>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_hocr_pageindex.json.gz" source="derivative">
+    <hocr_pageindex_module_version>1.1.0</hocr_pageindex_module_version>
+    <hocr_pageindex_hocr_version>1.1.56</hocr_pageindex_hocr_version>
+    <format>OCR Page Index</format>
+    <original>rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_hocr.html</original>
+    <mtime>1783855117</mtime>
+    <size>6022</size>
+    <md5>b1c0c22ac2b348a87b93ef6387047cce</md5>
+    <crc32>0ed55a32</crc32>
+    <sha1>c45a2d1e259f273698561abef82eb6b5f289da2f</sha1>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_hocr_searchtext.txt.gz" source="derivative">
+    <hocr_fts_text_module_version>1.2.0</hocr_fts_text_module_version>
+    <hocr_fts_text_hocr_version>1.1.56</hocr_fts_text_hocr_version>
+    <word_conf_0_10>6389</word_conf_0_10>
+    <word_conf_11_20>10052</word_conf_11_20>
+    <word_conf_21_30>19851</word_conf_21_30>
+    <word_conf_31_40>29157</word_conf_31_40>
+    <word_conf_41_50>39710</word_conf_41_50>
+    <word_conf_51_60>42246</word_conf_51_60>
+    <word_conf_61_70>39434</word_conf_61_70>
+    <word_conf_71_80>24260</word_conf_71_80>
+    <word_conf_81_90>12395</word_conf_81_90>
+    <word_conf_91_100>16236</word_conf_91_100>
+    <format>OCR Search Text</format>
+    <original>rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_hocr.html</original>
+    <mtime>1783855416</mtime>
+    <size>551869</size>
+    <md5>91793ebecdd9124a50b65a1d55dd7308</md5>
+    <crc32>352e741e</crc32>
+    <sha1>e48948d05daa66c2da2e9cd5d882346f6676cc15</sha1>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_jp2.zip" source="derivative">
+    <format>Single Page Processed JP2 ZIP</format>
+    <original>rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald.pdf</original>
+    <mtime>1606513831</mtime>
+    <size>236415822</size>
+    <md5>6262bc61bf77ce15b4c427ee1e86b8ab</md5>
+    <crc32>d99e0ae5</crc32>
+    <sha1>aeb71fd23df33dc9d179fad0568eab28bc8480d6</sha1>
+    <filecount>484</filecount>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_meta.sqlite" source="original">
+    <mtime>1606513311</mtime>
+    <size>12288</size>
+    <md5>8416669bcbf5c0c7efb7b8d506cd56ba</md5>
+    <crc32>19c0da03</crc32>
+    <sha1>eeea6b365ccd14c00dc1196e5851c8f5102db5be</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_meta.xml" source="original">
+    <mtime>1783856231</mtime>
+    <size>1739</size>
+    <md5>524ad07ff43fc8ade24ac3c1efcd15e4</md5>
+    <crc32>c49361a4</crc32>
+    <sha1>a1f5ec89c52f008007fa6712fc493bbb53c76887</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_page_numbers.json" source="derivative">
+    <hocr_pagenumber_module_version>1.0.5</hocr_pagenumber_module_version>
+    <hocr_pagenumber_hocr_version>1.1.54</hocr_pagenumber_hocr_version>
+    <hocr_pagenumber_confidence>14</hocr_pagenumber_confidence>
+    <format>Page Numbers JSON</format>
+    <original>rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_hocr.html</original>
+    <mtime>1783856161</mtime>
+    <size>81813</size>
+    <md5>0c8b90b36c49789cb80f0e6f3f273ac8</md5>
+    <crc32>278c1081</crc32>
+    <sha1>a0793722cef8145fb4fc50fc764aa014a29b30db</sha1>
+  </file>
+  <file name="rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_scandata.xml" source="derivative">
+    <format>Scandata</format>
+    <original>rimski_misal_za_privatnu_upotrebu_1942-dragutin_kniewald_djvu.xml</original>
+    <mtime>1783856161</mtime>
+    <size>155927</size>
+    <md5>5cabb1aa9e17d61b1263e8e5c4746f53</md5>
+    <crc32>d9918c00</crc32>
+    <sha1>d18632a1588f03dc87b4aa6d047e73cdcfd5acfc</sha1>
+  </file>
+</files>

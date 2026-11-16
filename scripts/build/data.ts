@@ -39,7 +39,7 @@ export function buildData(dist: string) {
   const corpus = loadCorpus(); const resolve = makeResolver(); const cals = calendars();
   const hr: Record<string, Record<string, any>> = {}; const used = new Set<string>();
   const stats = { masses: 0, blocks: 0, site: 0, siteVariant: 0, kniewald: 0, missing: 0 };
-  const uniq = new Map<string, string>(); const gaps = new Map<string, { n: number; where: string; la: string; sec: string; first: string; cal: string }>();
+  const uniq = new Map<string, string>(); const gaps = new Map<string, { n: number; where: string; la: string; sec: string; first: string; cal: string; core?: string }>();
   fs.mkdirSync(path.join(dist, 'data/cal'), { recursive: true }); fs.mkdirSync(path.join(dist, 'data/f'), { recursive: true });
   const kn = fs.existsSync('data/tm/kniewald.json') ? JSON.parse(fs.readFileSync('data/tm/kniewald.json', 'utf8')) as Record<string, { hr: string; ref: string }> : {};
 
@@ -62,7 +62,7 @@ export function buildData(dist: string) {
           if (h) val = h.via === 'exact' || h.via === 'typo' ? { t: h.hr } : { t: h.hr, v: h.diff || h.via };
           if (k) val = val ? { ...val, kn: k.hr, knRef: k.ref } : { kn: k.hr, knRef: k.ref };
           table[key] = val; tally(val); uniq.set(fid + key, val ? (val.t ? 'site' : 'kniewald') : 'missing');
-          if (!val) { const g = gaps.get(fid + key) ?? { n: 0, where: day.title, la: u.lines.filter(l => l.k === 'text').map(l => l.la).join(' ').slice(0, 160), sec: `${u.src}`, first: day.date, cal }; g.n++; gaps.set(fid + key, g); }
+          if (!val) { const g = gaps.get(fid + key) ?? { n: 0, where: day.title, la: u.lines.filter(l => l.k === 'text').map(l => l.la).join(' '), sec: `${u.src}`, first: day.date, cal, core } as any; g.n++; gaps.set(fid + key, g); }
         }
       }
     });

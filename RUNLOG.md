@@ -5,3 +5,4 @@
 2026-11-16 05:44 run 3 progress — stage 3 done except rites (palms, Mandatum, Good Friday, Vigil). Next: rites, then stage 4 Croatian.
 2026-11-16 05:51 run 3 progress — block TM + resolver + coverage script done (62 unique blocks without Croatian in general calendar). Next: resolve remaining misses (manual map, Kniewald), rites, then build pipeline/site.
 2026-11-16 06:02 run 3 progress — site builds and renders from file:// (dist/, 11 MB). Next: review screenshots, rites, manual Croatian map + Kniewald, Zagreb layer, verification suite, publish.
+2026-11-16 06:07 run 3 progress — Zagreb layer done and built into the site (both calendars). Next: Croatian manual map + Kniewald (57 unique blocks missing + rites), KNIEWALD-CHECK/TYPOS/GAPS, Zagreb tests, verification suite (crawl, screenshots, Lighthouse, axe, offline), publish, REPORT.

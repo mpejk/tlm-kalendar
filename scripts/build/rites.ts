@@ -49,6 +49,10 @@ export function buildRites(dist: string, corpus: Corpus): { id: string; rows: nu
   prelude('Sancti/02-02', 'Blagoslov svijeća i procesija');
   prelude('Tempora/Quadp3-3', 'Blagoslov i dijeljenje pepela');
   prelude('Tempora/Quad6-6r', 'Vazmeno bdijenje');
+  const kn = fs.existsSync('data/tm/kniewald-rites.json') ? JSON.parse(fs.readFileSync('data/tm/kniewald-rites.json', 'utf8')) as Record<string, { hr: string; ref: string }> : {};
+  const riteGaps: any[] = [];
+  for (const [id, doc] of Object.entries<any>(out)) { if (doc.source !== 'Divinum Officium') continue; doc.items.forEach((it: any, si: number) => (it.rows ?? []).forEach((r: any, ri: number) => { if (r.la === undefined || r.hr) return; const key = `${id}#${si}.${ri}`; if (kn[key]) { r.hr = kn[key].hr; r.src = 'Kniewald, ' + kn[key].ref; } else riteGaps.push({ key, section: it.la, la: r.la }); })); }
+  fs.writeFileSync('data/tm/rite-gaps.json', JSON.stringify(riteGaps, null, 1));
   for (const [id, doc] of Object.entries(out)) fs.writeFileSync(path.join(dist, `data/f/${fileOf(id)}.js`), `TLM.f(${JSON.stringify(id)},${JSON.stringify(doc)});\n`);
   return report;
 }
