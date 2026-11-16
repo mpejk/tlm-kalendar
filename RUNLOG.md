@@ -1,2 +1,3 @@
 2026-11-16 00:58 run 1 START — first run; installed Node locally; wrote PLAN.md. Next: setup, harvest.
 2026-11-16 01:04 run 2 START — git already initialised; harvest script exists, 13 Mass pages fetched. Next: finish setup, harvest.
+2026-11-16 01:33 run 2 progress — harvest, TM, rubrics OCR, engine (1130/1130 old site; MM 2026-36 all explained) done. Next: named edge-date tests, then stage 3 (Latin import, assembler).
