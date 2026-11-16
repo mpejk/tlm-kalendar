@@ -14,14 +14,14 @@ DO data: sparse clone in data/raw/do/repo (git-ignored; re-clone with the comman
 - [x] Parse year pages -> data/golden/calendar.json (encoding repaired)
 - [x] Parse Mass/rite pages -> data/golden/masses/*.json (ordered sections, both languages)
 - [x] Overlap check Dec 2017 / Dec 2018
-- [ ] Translation memory data/tm/tm.json + conflicts report (TM-CONFLICTS.md)
+- [x] Translation memory data/tm/tm.json + conflicts report (TM-CONFLICTS.md)
 
 ## 2. Calendar engine (general)
-- [ ] Fetch + OCR the 1962 rubrics PDF to data/rubrics/
-- [ ] Fetch Divinum Officium data files (missa Latin, Kalendaria, Tabulae) to data/raw/do/
-- [ ] Engine: temporal cycle, sanctoral, precedence (n. 91), commemorations (nn. 106-114), transfers, vigils, octaves, ember/rogation, added orations
-- [ ] Test: reproduces every old-site row 27 Nov 2016 - 31 Dec 2019 (DIFFS.md for exceptions)
-- [ ] Fetch Missale Meum calendar 2026-2036; test agreement (differences explained)
+- [x] Fetch + OCR the 1962 rubrics PDF to data/rubrics/
+- [x] Fetch Divinum Officium data files (missa Latin, Kalendaria, Tabulae) to data/raw/do/
+- [x] Engine: temporal cycle, sanctoral, precedence (n. 91), commemorations (nn. 106-114), transfers, vigils, octaves, ember/rogation, added orations
+- [x] Test: reproduces every old-site row 27 Nov 2016 - 31 Dec 2019 (DIFFS.md for exceptions)
+- [x] Fetch Missale Meum calendar 2026-2036; test agreement (differences explained)
 - [ ] Named edge-date tests with rubric citations
 
 ## 3. Latin corpus and assembler

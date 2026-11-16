@@ -79,18 +79,26 @@ function buildYear(y: number, config: CalendarConfig): YearCtx {
     for (const x of ctx.transfersIn.get(n) ?? []) cls = Math.min(cls, x.cls);
     return cls;
   };
-  for (let n = first; n <= lastDay; n++) {
+  const E = easter(y);
+  const place = (f: Observance, from: number, target: number) => {
+    ctx.transferredOut.add(f.key + '@' + from);
+    const arr = ctx.transfersIn.get(target) ?? [];
+    arr.push({ ...f, transferredFrom: iso(from) });
+    ctx.transfersIn.set(target, arr);
+  };
+  // Feasts with a proper place first (n. 96a, 96b), so that other transferred feasts go round them.
+  for (const pass of [0, 1]) for (let n = first; n <= lastDay; n++) {
     const { t, fixed } = candidates(n, ctx);
     const wd = weekday(n);
     const w = winnerOf(t, fixed, wd);
-    const firsts = fixed.filter(f => f.cls === 1 && f !== w).sort((a, b) => a.ord - b.ord);
+    const firsts = fixed.filter(f => f.cls === 1 && f !== w && !ctx.transferredOut.has(f.key + '@' + n)).sort((a, b) => a.ord - b.ord);
     for (const f of firsts) {
-      ctx.transferredOut.add(f.key + '@' + n);
+      const annunciationAfterEaster = f.key === 'S:03-25' && n >= E - 7;   // n. 96a: Monday after Low Sunday
+      const allSouls = f.key === 'S:11-02';                                // n. 96b: the Monday following
+      if (pass === 0) { if (annunciationAfterEaster) place(f, n, E + 8); else if (allSouls) place(f, n, n + 1); continue; }
       let target = n + 1;
-      if (f.key !== 'S:11-02') while (baseClass(target) <= 2) target++;
-      const arr = ctx.transfersIn.get(target) ?? [];
-      arr.push({ ...f, transferredFrom: iso(n) });
-      ctx.transfersIn.set(target, arr);
+      while (baseClass(target) <= 2) target++;                             // n. 96: nearest following day not of I or II class
+      place(f, n, target);
     }
   }
   return ctx;
