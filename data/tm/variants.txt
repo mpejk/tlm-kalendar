@@ -5,8 +5,6 @@ Sancti/01-17 Oratio (old site propers_20170117_0): N. → antoni
 Sancti/01-17 Postcommunio (old site propers_20170117_0): N. → antoni
 Sancti/01-17 Secreta (old site propers_20170117_0): N. → antoni
 Sancti/01-21 Graduale (old site propers_20170121_0): ps → ∅
-Sancti/01-25r Graduale (old site propers_20170125_0): et → ei
-Sancti/01-25r Lectio (old site propers_20170125_0): et → ei
 Sancti/01-25r Oratio (old site propers_20170125_0): ∅ → per
 Sancti/01-31 Graduale (old site propers_20170131_0): eum → eo
 Sancti/01-31 Graduale (old site propers_20180131_0): eum → eo
@@ -15,9 +13,8 @@ Sancti/02-02 Graduale (old site propers_20180202_0): ∅ → v; ∅ → v
 Sancti/02-12 Graduale (old site propers_20180212_0): gaudio → exsultatione
 Sancti/03-19 Communio (old site propers_20170320_0): ∅ → aleluia
 Sancti/03-19 Introitus (old site propers_20170128_0): ∅ → aleluia aleluia; ∅ → aleluia aleluia
-Sancti/04-14 Lectio (old site propers_20180414_0): et → ei
+Sancti/04-14 Evangelium (old site propers_20180414_0): ∅ → est; est → ∅
 Sancti/04-28 Lectio (old site propers_20170428_0): ∅ → enim
-Sancti/05-02 Secreta (old site propers_20170502_0): et → ei
 Sancti/05-07 Oratio (old site propers_20180507_0): eclesia → honore
 Sancti/05-11r Introitus (old site propers_20170511_0): i esdr vel neh → ∅; i esdr vel neh → ∅
 Sancti/05-19 Offertorium (old site propers_20170426_0): hodie → ∅
@@ -26,23 +23,22 @@ Sancti/05-26 Graduale (old site propers_20170526_0): tren ps → ∅
 Sancti/05-26 Introitus (old site propers_20170526_0): aleluia aleluia → ∅; aleluia aleluia → ∅
 Sancti/05-26 Offertorium (old site propers_20170526_0): aleluia → ∅
 Sancti/05-27 Graduale (old site propers_20170427_0): aleluia → ∅
+Sancti/05-28 Graduale (old site propers_20161207_0+propers_20170114_0): sastavljeno iz dva dijela
 Sancti/05-28 Introitus (old site propers_20170622_0): ∅ → aleluia aleluia; ∅ → aleluia aleluia
 Sancti/05-31 Communio (old site propers_20170531_0): aleluia → ∅
 Sancti/05-31 Introitus (old site propers_20170531_0): aleluia aleluia → ∅; aleluia aleluia → ∅
 Sancti/05-31 Offertorium (old site propers_20170531_0): aleluia → ∅
 Sancti/05-31 Oratio (old site propers_20170531_0): de → ∅
 Sancti/06-04 Communio (old site propers_20180604_0): ∅ → aleluia
+Sancti/06-04 Graduale (old site propers_20170621_0+propers_20170720_0): sastavljeno iz dva dijela
 Sancti/06-04 Introitus (old site propers_20180604_0): ∅ → aleluia aleluia; ∅ → aleluia aleluia
 Sancti/06-05 Communio (old site propers_20180605_0): aleluia → ∅
 Sancti/06-05 Introitus (old site propers_20180605_0): ∅ → aleluia aleluia; ∅ → aleluia aleluia
 Sancti/06-05 Offertorium (old site propers_20170313_0): ∅ → aleluia
-Sancti/06-14 Secreta (old site propers_20170614_0): et → ei
 Sancti/06-24 Introitus (old site propers_20170624_0): ∅ → in; ∅ → in
 Sancti/06-28r Introitus (old site propers_20170628_0): deum → ∅; deum → ∅
 Sancti/07-07 Oratio (old site propers_20170707_0): ∅ → comemoratione
 Sancti/07-07 Secreta (old site propers_20170707_0): ∅ → comemoratione
-Sancti/07-10 Introitus (old site propers_20170710_0): et → ei
-Sancti/07-14 Secreta (old site propers_20170714_0): et → ei
 Sancti/07-20 Introitus (old site propers_20170720_0): tren ps → ∅; tren → ∅
 Sancti/08-06 Evangelium (old site propers_20170311_0): et → ∅
 Sancti/08-09 Postcommunio (old site propers_20170808_0): ∅ → tuis
@@ -53,14 +49,13 @@ Sancti/08-22 Postcommunio (old site propers_20170822_0): memoriam → ∅
 Sancti/09-03 Communio (old site propers_20180903_0): ∅ → enim
 Sancti/09-08 Graduale (old site propers_20170908_0): ∅ → aleluia aleluia; ∅ → aleluia
 Sancti/09-08 Offertorium (old site propers_20170506_0): aleluia → ∅
+Sancti/09-18 Graduale (old site propers_20170918_0): ∅ → et in seculum
 Sancti/09-19 Communio (old site propers_20170502_0): aleluia → ∅
-Sancti/09-22 Secreta (old site propers_20170922_0): et → ei
 Sancti/09-29 Communio (old site propers_20170929_0): ∅ → aleluia
 Sancti/10-11 Graduale (old site propers_20171011_0): ∅ → aleluia aleluia; ∅ → aleluia
 Sancti/10-15 Oratio (old site propers_20181015_0): et → ita
 Sancti/10-17 Introitus (old site propers_20171017_0): cant → ∅
-Sancti/10-23r Evangelium (old site propers_20171023_0): sequentia → lectio; ∅ → ergo
-Sancti/10-23r Secreta (old site propers_20171023_0): et → ei
+Sancti/10-28 Graduale (old site propers_20161130_0+propers_20161130_0): sastavljeno iz dva dijela
 Sancti/11-02m3 Introitus (old site propers_20171102_0): iv esdr et → ∅; iv esdr et → ∅
 Sancti/11-09 Oratio (old site propers_20171109_0): ∅ → tui
 Sancti/11-25 Oratio (old site propers_20171125_0): ∅ → in
@@ -69,44 +64,41 @@ Sancti/12-24 Lectio (old site propers_20161224_0): fratres → ∅
 Sancti/12-25m2 Graduale (old site propers_20161225_1): ∅ → a
 Sancti/12-31r Introitus (old site propers_20161225_2): ∅ → filius; ∅ → filius
 Tempora/093-3 Communio (old site propers_20170920_0): et → ∅
-Tempora/Adv1-5 Postcommunio (old site propers_20161205_0): ∅ → abas
-Tempora/Adv1-5 Secreta (old site propers_20161205_0): ∅ → abas
-Tempora/Adv3-6 Lectio (old site propers_20161217_0): et → ei
+Tempora/093-5 Introitus (old site propers_20170330_0): ∅ → gloria
+Tempora/Adv1-5 Postcommunio (old site propers_20170117_0): N. → sabas
+Tempora/Adv1-5 Secreta (old site propers_20170117_0): N. → sabas
 Tempora/Adv4-2 Introitus (old site propers_20161214_0): isai → ∅; isai → ∅
 Tempora/Epi4-0 Evangelium (old site propers_20170129_0): et → ∅
 Tempora/Pasc0-0 Graduale (old site propers_20170416_0): ∅ → aleluia aleluia
+Tempora/Pasc0-2 Introitus (old site propers_20170418_0): ∅ → et; ∅ → et
+Tempora/Pasc4-3 Lectio (old site propers_20170514_0): ∅ → et
 Tempora/Pasc4-3 Postcommunio (old site propers_20170514_0): postcomunio → ∅
 Tempora/Pasc5-0 Oratio (old site propers_20170319_0): ∅ → p
 Tempora/Pasc5-0 Postcommunio (old site propers_20170319_0): ∅ → p
 Tempora/Pasc5-0 Secreta (old site propers_20170319_0): ∅ → p
 Tempora/Pasc5-1 Introitus (old site propers_20170425_1): ∅ → aleluia; ∅ → aleluia
 Tempora/Pasc7-2 Introitus (old site propers_20170606_0): iv esdr et → ∅; iv esdr et → ∅
-Tempora/Pasc7-6 Lectio (old site propers_20170610_0): et → ei
 Tempora/Pasc7-6 Sequentia (old site propers_20170604_0): aleluia → ∅
 Tempora/Pent01-4 Graduale (old site propers_20170615_0): ∅ → aleluia
-Tempora/Pent02-5 Lectio (old site propers_20170623_0): et → ei
 Tempora/Pent12-0 Oratio (old site propers_20170824_0): comemoratione → ∅
 Tempora/Pent12-0 Secreta (old site propers_20170824_0): memoriam → ∅
 Tempora/Pent13-4 Evangelium (old site propers_20170903_0): et → ∅
-Tempora/Pent13-4 Lectio (old site propers_20170903_0): et → ex
-Tempora/Pent16-0 Postcommunio (old site propers_20170921_0): quas → que
 Tempora/Pent20-2 Oratio (old site propers_20171021_0): eius → ∅
 Tempora/Pent20-2 Secreta (old site propers_20171021_0): eius → ∅
 Tempora/Pent20-3 Graduale (old site propers_20171022_0): ∅ → v
 Tempora/Pent22-5 Lectio (old site propers_20171105_0): ∅ → in
 Tempora/Quad1-0 Graduale (old site propers_20170305_0): ∅ → deus
 Tempora/Quad2-1 Offertorium (old site propers_20170313_0): deum → dominum
-Tempora/Quad2-1 Secreta (old site propers_20170119_0): tuas → tue
 Tempora/Quad2-4 Offertorium (old site propers_20170316_0): factus → ∅
 Tempora/Quad3-5 Evangelium (old site propers_20170324_0): qui dicitur cristus → ∅
 Tempora/Quad4-0 Evangelium (old site propers_20170326_0): naslov evanđelja
 Tempora/Quad4-1 Evangelium (old site propers_20170327_0): me → ile
 Tempora/Quad4-1 Oratio (old site propers_20170324_0): ∅ → comemorationem
 Tempora/Quad4-2 Lectio (old site propers_20170328_0): ∅ → ad
+Tempora/Quad4-3 Evangelium (old site propers_20170329_0): ∅ → et
 Tempora/Quad4-3 Introitus (old site propers_20170329_0): aleluia aleluia → ∅; aleluia aleluia → ∅
 Tempora/Quad4-4 Graduale (old site propers_20170330_0): et → ∅
 Tempora/Quad4-6 Introitus (old site propers_20170401_0): isai → ∅
-Tempora/Quad6-2 Communio (old site propers_20170411_0): tuas → tue
 Tempora/Quad6-3 Introitus (old site propers_20170412_0): 
 Tempora/Quadp3-2 Evangelium (old site propers_20170226_0): naslov evanđelja
 Tempora/Quadp3-3 Introitus (old site propers_20170301_0): sap et → ∅

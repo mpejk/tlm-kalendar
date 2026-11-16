@@ -7,7 +7,7 @@ import { dayNumber } from '../../src/engine/dates';
 import { assembleMass } from '../../src/assembler/assemble';
 import { loadCorpus } from '../../src/assembler/corpus-node';
 import { blockCore } from '../../src/assembler/norm';
-import { makeResolver } from './resolve';
+import { makeResolver, resolveLines } from './resolve';
 
 const PRAYER = new Set(['Oratio', 'Secreta', 'Postcommunio', 'SuperPopulum']);
 const cfg = generalConfig({ name: 'Leo XIV.', date: '05-18' }); const corpus = loadCorpus(); const resolve = makeResolver();
@@ -24,7 +24,7 @@ for (let n = dayNumber(2026, 1, 1); n <= dayNumber(2036, 12, 31); n++) {
       units.forEach((ls, bi) => {
         const core = blockCore(ls); if (!core) return;
         uniqAll.add(core);
-        const h = resolve(core);
+        const h = PRAYER.has(it.key) ? resolve(core) : resolveLines(resolve, ls, blockCore);
         if (h) { stat[h.via]++; uniqHit.add(core); if (h.via === 'variant') variants.set(core, `${v.formulary} ${it.key} (old site ${h.page}): ${h.diff}`); return; }
         stat.missing++;
         const comm = PRAYER.has(it.key) && bi > 0 ? it.blocks[bi].label ?? '' : '';

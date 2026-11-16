@@ -3,3 +3,4 @@
 2026-11-16 01:33 run 2 progress — harvest, TM, rubrics OCR, engine (1130/1130 old site; MM 2026-36 all explained) done. Next: named edge-date tests, then stage 3 (Latin import, assembler).
 2026-11-16 05:17 run 3 START — stage 3 in progress (uncommitted importer/assembler work found). Next: finish Latin import, assembler, text test.
 2026-11-16 05:44 run 3 progress — stage 3 done except rites (palms, Mandatum, Good Friday, Vigil). Next: rites, then stage 4 Croatian.
+2026-11-16 05:51 run 3 progress — block TM + resolver + coverage script done (62 unique blocks without Croatian in general calendar). Next: resolve remaining misses (manual map, Kniewald), rites, then build pipeline/site.

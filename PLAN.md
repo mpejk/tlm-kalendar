@@ -31,7 +31,8 @@ DO data: sparse clone in data/raw/do/repo (git-ignored; re-clone with the comman
 - [ ] Rites: blessing of palms, Mandatum, Good Friday, Easter Vigil, Candlemas, Ash Wednesday (import + compare with the 4 harvested rite pages)
 
 ## 4. Croatian
-- [ ] TM lookup for every Latin unit; coverage report
+- [x] Block memory (data/tm/blocks.json, `npx tsx scripts/croatian/build-blocks.ts`) + resolver (scripts/croatian/resolve.ts: exact / typo / variant / manual) + coverage (`npx tsx scripts/croatian/coverage.ts` -> data/tm/missing.json, data/tm/variants.txt). 16 Nov: 2432 of 2474 distinct blocks of 2026-2036 (general calendar) have the old site's Croatian; 42 missing.
+- [ ] Manual map data/tm/manual.json { core: { hr, page, why } } for misses whose Croatian is on the old site under different Latin (see scripts/tmp/miss2.ts output: St Joseph the Worker postcommunion, Assumption gradual, prefaces of Our Lady with another mystery word, Passion Gospels, etc.)
 - [ ] Kniewald 1942 (then 1930) for misses, corrected against page images; record source
 - [ ] GAPS.md for the rest
 - [ ] KNIEWALD-CHECK.md; `croatianPrimary` setting
@@ -59,3 +60,10 @@ DO data: sparse clone in data/raw/do/repo (git-ignored; re-clone with the comman
 ## 8. Publish and report
 - [ ] GitHub repo tlm-kalendar, Pages via Actions (dist only), live URL + deep link verified, `npm run deploy`
 - [ ] REPORT.md with final audit; DONE
+
+## Notes for the next run (design decisions already taken — keep them)
+- Env: `export PATH="$PWD/tools.nosync/bin:$PATH" NODE_OPTIONS=--use-system-ca`; tests `npx vitest run`; zsh does not word-split and `$O:w` is a modifier, quote git revs.
+- Latin: DO snapshot 326bc4a in data/raw/do/repo (detached HEAD). Re-import: `npx tsx scripts/import/import-do.ts` (applies data/corpus/overrides.yaml). Helpers: scripts/tmp/view.ts <date> [n] [section], scripts/tmp/wdiff.ts, scripts/verify/latin-vs-site.ts.
+- Assembler (src/assembler/assemble.ts) returns MassView: items = notes + sections; each section has blocks; block.src = "formulary|section". Prayers are matched to Croatian per block, other sections as a whole (or composed of 2-3 parts): key = blockCore(lines) from src/assembler/norm.ts (shared with the browser).
+- Plan for the site data: the build enumerates every day of 2026-2036 in both calendars, assembles each Mass, resolves Croatian per block and writes per-formulary files `dist/data/f/<id>.js` = { sections (Latin units with inline texts), variants, hr: { hash(blockCore): text }, kn: {…} } plus `dist/data/cal-<year>.js`; the browser runs the same engine + assembler (esbuild IIFE) and looks Croatian up by hashKey(blockCore(lines)) in the formulary the block came from (block.src). Rites from the old site (palms, Good Friday, Mandatum) go in as ready bilingual documents built from data/golden/masses/*/actions_*.json; Candlemas, ashes and Easter Vigil from the DO [Prelude] sections.
+- Pope for 2026+: Leo XIV, 18 May (config value in generalConfig(pope)); confirm online before publishing.

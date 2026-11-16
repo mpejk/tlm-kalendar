@@ -24,6 +24,7 @@ for (const y of ['2017', '2018']) for (const f of fs.readdirSync('data/golden/ma
     const key = keyOfHead(it.la);
     const rows = it.rows.filter((r: any) => r.la !== undefined && !r.head && r.hr !== undefined);
     if (PRAYER.has(key) || key.startsWith('Other:') || f.startsWith('actions_')) for (const r of rows) add(goldenCore(r, key), cleanHr(r.hr), src, key);
+    if (!PRAYER.has(key) && rows.length > 1) for (const r of rows) add(goldenCore(r, key), cleanHr(r.hr), src, key);
     if (!PRAYER.has(key) && rows.length) add(rows.map((r: any) => goldenCore(r, key)).join(' ').replace(/\s+/g, ' ').trim(), rows.map((r: any) => cleanHr(r.hr)).join('\n\n'), src, key);
   }
 }

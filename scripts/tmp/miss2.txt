@@ -1,90 +1,27 @@
-near 0.99 82x Evangelium Sancti/06-10 [sv. Margareta Škotska,] [earn→eam] [consumation→consumatione]
-MISS 44x Graduale Tempora/Pasc5-1 [sv. Marko, evanđelist (prosn] aleluia confitemini domino quoniam bonus quoniam in seculum misericordia eius
 near 0.96 33x Graduale Sancti/11-02m1 [SPOMEN SVIH VJERNIH MR] [iv esdr et→] [defunctorum→]
-near 0.85 24x Secreta Tempora/Pent19-0 [19. nedjelja po Duhovi] [qual→que] [oferimum→oferimus]
 near 0.99 22x Prefatio Sancti/03-19 [SV. JOSIP, ZARUČNIK BD] [festivitate→veneratione]
-near 0.99 22x Lectio Tempora/Pasc4-0 [4. nedjelja po Uskrsu] [→et]
 near 0.99 21x Evangelium Sancti/09-29 [SV. MIHAEL ARKANĐEO] [miti→niti] [→uno]
-near 0.95 20x Oratio Tempora/Adv3-6 [Subota adventskih kvat] [ex→et]
-near 0.99 17x Evangelium Sancti/08-09t [bdijenje uoči dana sv.] [earn→eam]
 MISS 12x Postcommunio Sancti/05-01r [SV. JOSIP RADNIK, SUPRUG BDM] hec sancta que sumpsimus domine per intercesionem beati iosef et operationem nostram compl
-near 0.98 11x Secreta Tempora/Epi1-0 [Sveta Obitelj Isusa, M] [deprecantes→]
-near 1.00 11x Evangelium Tempora/Quad4-3 [Srijeda u 4. tjednu ko] [caucus→cecus] [→et]
 near 0.99 11x Evangelium Tempora/Quad6-0r [CVJETNA NEDJELJA (2. N] [→v] [in ilo tempore→tunc] [discipulis suis→ilis] [quotidie→cotidie] [expuerunt→exspuerunt] [sunt→sum] [expuentes→exspuentes] [salvunt→salvum] [eum co
-near 0.97 11x Introitus Tempora/Quad6-1 [VELIKI PONEDJELJAK] [tuego→tua ego]
 near 0.97 11x Evangelium Tempora/Quad6-2 [VELIKI UTORAK] [in ilo tempore iesus→] [discipuli eius→] [osculates→osculatus] [adulescens→adolescens] [dicetem→dicentem] [→munda cor meum ac labia mea omnipotens de
 near 0.97 11x Evangelium Tempora/Quad6-3 [VELIKA SRIJEDA] [→i] [quamdam→quandam] [quemdam→quendam] [genuarunt→genuerunt] [principles→principes] [→munda cor meum ac labia mea omnipotens deus qui labia isaie pr
-near 0.98 11x Introitus Tempora/Pasc0-2 [USKRSNI UTORAK] [→et] [→et]
 near 0.89 11x Graduale Sancti/08-15 [UZNESENJE BDM (VELIKA ] [quia concupivit→et concupiscit] [spetiem tuam→decorem tum]
-near 0.98 11x Oratio Tempora/Pent12-0 [comm: spomen na tihim ] [memoriam→]
-near 0.98 11x Oratio Sancti/08-22 [Bezgrešno Srce BDM] [comemorationem→]
-near 0.98 11x Postcommunio Sancti/08-22 [Bezgrešno Srce BDM] [memoriam→]
-near 0.98 11x Oratio Sancti/08-24 [sv. Bartol, apostol] [comemoratione→]
-near 0.98 11x Secreta Sancti/08-24 [sv. Bartol, apostol] [memoriam→]
-near 0.96 11x Postcommunio Sancti/10-07 [BDM od Krunice (Ružari] [sanctisime→sacratisime]
-near 0.87 11x Secreta Sancti/11-02m3 [SPOMEN SVIH VJERNIH MR] [omnium fidelium defunctorum→fratrum propinquorum et benefactorum nostrorum]
-near 0.88 11x Postcommunio Sancti/11-02m3 [SPOMEN SVIH VJERNIH MR] [famulorum famularumque tuarum→fratrum propinquorum et benefactorum nostrorum]
-near 0.96 11x Oratio Sancti/12-26 [sv. Stjepan, prvomučen] [natalitia→inventionem]
-near 0.95 10x Postcommunio Sancti/01-24 [sv. Timotej, biskup i ] [atque pontifice→]
-near 0.96 10x Secreta Sancti/01-29 [sv. Franjo Saleški, bi] [hilari→francisci]
-near 0.94 10x Postcommunio Sancti/02-05 [sv. Agata, djevica i m] [martina→agata]
-near 0.91 10x Secreta Sancti/06-19 [comm: spomen na tihim ] [→gervasi et protasi]
-near 0.97 10x Graduale Sancti/06-26 [sv. Ivan i Pavao iz Ri] [hac→hec]
-MISS 10x Oratio Sancti/06-30 [Spomen sv. Pavla, apostola] deus qui multitudinem gentium beati pauli apostoli predicatione docuisti da nobis quesumus
-MISS 10x Secreta Sancti/06-30 [Spomen sv. Pavla, apostola] apostoli tui pauli precibus domine plebis tue dona sanctifica ut que tibi tuo grata sunt i
-MISS 10x Postcommunio Sancti/06-30 [Spomen sv. Pavla, apostola] perceptis domine sacramentis beato paulo apostolo tuo interveniente deprecamur ut que pro 
-near 0.95 10x Oratio Sancti/07-07 [sv. Ćiril i sv. Metod,] [confesores→confesoris] [→comemoratione]
-near 0.98 10x Secreta Sancti/07-07 [sv. Ćiril i sv. Metod,] [→comemoratione]
-near 0.96 10x Oratio Sancti/07-14 [sv. Bonaventura, bisku] [ambrosium→bonaventure]
-near 0.94 10x Postcommunio Sancti/07-21r [sv. Lovro Brindizijski] [tomas→laurenti]
-near 0.95 10x Oratio Sancti/08-14 [comm: spomen na tihim ] [alexi→eusebi]
-near 0.89 10x Secreta Tempora/Pent14-2 [comm: spomen na tihim ] [honore→comemoratione] [→nobis] [nobis→]
-near 0.88 10x Oratio Tempora/093-6 [comm: spomen na tihim ] [sanctorum→beatorum] [tuorum→] [presidia→pesidia]
-near 0.97 10x Graduale Tempora/Adv3-6 [Subota adventskih kvat] [at→ut]
+near 0.98 10x Evangelium Sancti/10-23r [sv. Antun Marija Clare] [sequentia→lectio] [→ergo]
 near 0.99 10x Evangelium Sancti/07-05 [sv. Antun Marija Zacca] [eos→parvulos]
 near 0.98 10x Lectio Sancti/10-04 [sv. Franjo Asiški, pri] [super→sin per]
 near 0.95 10x Graduale Sancti/11-22 [sv. Cecilija, djevica,] [→v ps] [→aleluia aleluia] [→aleluia]
-near 0.99 10x Lectio Sancti/12-06 [sv. Nikola iz Mire, bi] [quat→que]
-near 0.95 10x Oratio Sancti/12-13r [sv. Lucija, djevica, m] [et martiris→]
-near 0.96 9x Oratio Sancti/01-14 [sv. Hilarij iz Poitier] [ambrosium→hilari]
-near 0.96 9x Oratio Tempora/Quad2-5 [comm: spomen na tihim ] [→virginum et]
-near 0.97 9x Secreta Tempora/Quad2-5 [comm: spomen na tihim ] [→virginum et]
 near 1.00 9x Lectio Tempora/Quad2-6 [Subota u 2. tjednu kor] [tarn→tam] [maledixerit→male dixerit]
-near 0.96 9x Oratio Sancti/05-09 [sv. Grgur Nazijanski, ] [ambrosium→gregori]
-near 0.94 9x Postcommunio Sancti/05-09 [sv. Grgur Nazijanski, ] [hilarius→gregori]
 near 0.97 9x Graduale Sancti/05-11r [sv. Filip i sv. Jakov ] [note→me]
-near 0.96 9x Oratio Sancti/07-02 [comm: spomen na tihim ] [ex→et]
-near 0.84 9x Oratio Sancti/07-23 [comm: spomen na tihim ] [confesoris→apostoli] [atque pontificis→quam prevenimus]
-near 0.96 9x Oratio Sancti/08-20 [sv. Bernard iz Clairva] [ambrosium→bernardi]
-near 0.97 9x Oratio Sancti/08-29 [comm: spomen na tihim ] [apolonie→sabine]
 near 0.98 9x Lectio Sancti/09-03 [sv. Pio X., papa, priz] [epistole beati→prima sancti]
-near 0.97 9x Graduale Sancti/09-18 [sv. Josip Kupertinski,] [→et in seculum]
-near 0.99 9x Introitus Tempora/093-5 [Petak rujanskih kvatri] [→gloria]
-near 0.92 9x Postcommunio Tempora/Pent21-3 [comm: spomen na tihim ] [→virginibus et] [eius→]
-MISS 9x Graduale Sancti/10-28 [sv. Šimun i Juda Tadej, apos] constitues eos principes super omnem teram memores erunt nominis tui domine pro patribus t
 MISS 9x Evangelium Sancti/10-28 [sv. Šimun i Juda Tadej, apos] sequentia sancti evangeli secundum ioanem in ilo tempore dixit iesus discipulis suis hec m
-near 0.91 9x Secreta Sancti/11-04 [comm: spomen na tihim ] [→vitale et agricola]
 near 0.88 9x Offertorium Sancti/11-14 [sv. Jozafat Kuncevič, ] [hac dilectionem→caritatem]
-near 0.95 9x Postcommunio Sancti/11-26 [comm: spomen na tihim ] [atque pontifice→]
-near 0.96 9x Oratio Sancti/12-07 [sv. Ambrozije, biskup,] [ambrosium→ambrosi]
-near 0.95 9x Postcommunio Sancti/02-01 [sv. Ignacije Antiohijs] [atque pontifice→]
-near 0.96 8x Oratio Sancti/04-21 [sv. Anzelmo Kenterberi] [ambrosium→anselmi]
-near 0.99 8x Evangelium Sancti/05-02 [sv. Atanazije, biskup,] [ne→nec]
-near 0.95 8x Postcommunio Tempora/Quad1-4 [comm: spomen na tihim ] [atque pontifice→]
-MISS 8x Oratio Sancti/02-22 [Katedra sv. Petra] deus qui beato petro apostolo tuo colatis clavibus regni celestis ligandi atque solvendi p
 near 0.98 8x Lectio Sancti/02-22 [Katedra sv. Petra] [quod per ignem probatur→]
 MISS 8x Offertorium Sancti/02-22 [Katedra sv. Petra] tu es petrus et super hanc petram edificabo eclesiam meam et porte inferi non prevalebunt 
-MISS 8x Secreta Sancti/02-22 [Katedra sv. Petra] eclesie tue quesumus domine preces et hostias beati petri apostoli comendet oratio ut quod
-MISS 8x Postcommunio Sancti/02-22 [Katedra sv. Petra] letificet nos domine munus oblatum ut sicut in apostolo tuo petro te mirabilem predicamus 
 near 0.99 7x Prefatio Sancti/02-11 [Ukazanje BDM bezgrešno] [veneratione→aparitione]
-near 0.98 7x Oratio Tempora/Quad5-2 [comm: spomen na tihim ] [→comemorationem]
-near 0.95 7x Postcommunio Tempora/Pasc6-5 [comm: spomen na tihim ] [atque pontifice→]
 near 0.92 6x Oratio Sancti/04-22 [sv. Soter i sv. Kajo, ] [cletum→soterem] [marcelinum→caium]
 MISS 6x Oratio Sancti/06-10 [sv. Margareta Škotska, kralj] deus qui beatam margaritam reginam eximia in pauperes caritate mirabilem efecisti da ut ei
 MISS 6x Oratio Sancti/05-25 [sv. Grgur VII., papa, prizna] deus in te sperantium fortitudo qui beatum gregorium confesorem tum atque pontificem pro t
-near 0.96 6x Oratio Tempora/Quad5-2 [comm: spomen na tihim ] [ambrosium→isidori]
 near 0.98 5x Graduale Sancti/02-10 [sv. Skolastika, djevic] [aducentur→aferentur]
-near 0.98 5x Evangelium Sancti/04-14 [sv. Justin, mučenik] [→est] [est→] [ociderit→ocident]
 near 0.96 5x Oratio Sancti/05-25 [comm: spomen na tihim ] [meltiadem→urbanum]
 near 0.96 5x Oratio Sancti/09-23 [comm: spomen na tihim ] [prisce→tecle]
 near 0.94 5x Secreta Sancti/09-23 [comm: spomen na tihim ] [martine→tecle]
@@ -97,14 +34,9 @@ near 0.93 4x Postcommunio Sancti/09-22 [comm: spomen na tihim ] [→rogamus] [de
 MISS 4x Oratio Tempora/Quad4-2 [comm: spomen na tihim misama] deus humilium celsitudo qui beatum franciscum confesorem sanctorum tuorum gloria sublimast
 MISS 4x Secreta Tempora/Quad4-2 [comm: spomen na tihim misama] hec dona devote plebis domine quibus tua cumulamus altaria beati francisci meritis tibi gr
 MISS 4x Postcommunio Tempora/Quad4-2 [comm: spomen na tihim misama] sumpta domine sacramenta celestia beato francisco confesore tuo intercedente precamur ut e
-MISS 4x Graduale Sancti/05-28 [sv. Augustin Kenterberijski,] aleluia aleluia iuravit dominus et non penitebit eum tu es sacerdos in eternum secundum or
-MISS 3x Graduale Sancti/01-26 [sv. Polikarp, biskup i mučen] gloria et honore coronasti eum et constituisti eum super opera manum tuarum domine beatus 
 MISS 3x Graduale Sancti/05-26 [sv. Filip Neri, priznavalac] venite fili audite me timorem domini docebo vos acedite ad eum et iluminamini et faties ve
 MISS 3x Graduale Sancti/05-31 [BDM Kraljica] ipse habet in vestimento et in femore suo scriptum rex regum et dominus dominantium regina
 MISS 3x Graduale Sancti/02-12 [sedam osnivača Reda slugu BD] electi mei non laborabunt frustra neque germinabunt in conturbatione quia semen benedictor
 MISS 2x Graduale Sancti/01-25r [Obraćenje sv. Pavla] qui operatus est petro in apostolatum operatus est ei mihi inter gentes et cognoverunt gra
 MISS 1x Graduale Commune/C10c [Subotnja služba Gospina] benedicta et venerabilis es virgo maria que sine tactu pudoris inventa es mater salvatoris
-MISS 1x Graduale Sancti/06-04 [sv. Franjo Caracciolo, prizn] aleluia aleluia beatus quem elegisti et asumpsisti inhabitabit in atris tuis aleluia dispe
 MISS 1x Graduale Sancti/06-05 [sv. Bonifacije (apostol Njem] aleluia letamini cum ierusalem et exsultate in ea omnes qui diligitis dominum aleluia vide
-MISS 1x Graduale Sancti/01-22 [sv. Vinko i sv. Anastazije, ] gloriosus deus in sanctis suis mirabilis in maiestate fatiens prodigia dextera tua domine 
-MISS 1x Graduale Sancti/01-24 [sv. Timotej, biskup i mučeni] inveni david servum meum oleo sancto meo unxi eum manus enim mea auxiliabitur ei et bratiu

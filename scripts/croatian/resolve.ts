@@ -20,7 +20,7 @@ export function typoOnly(a: string, b: string): boolean {
     if (!da.length && !db.length) return true;
     diffs++;
     const x = da.join(''), y = db.join('');
-    const ok = x === y || (da.length === db.length && da.every((w, k) => typoPair(w, db[k]))) || (da.length && db.length && lev(x, y) <= 1 && x.length > 5);
+    const ok = x === y || (da.length === db.length && da.every((w, k) => typoPair(w, db[k]))) || (da.length && db.length && lev(x, y) <= 1 && x.length >= 5);
     da = []; db = []; return !!ok;
   };
   while (i < A.length || j < B.length) {
@@ -30,7 +30,7 @@ export function typoOnly(a: string, b: string): boolean {
   return flush() && diffs <= Math.max(3, Math.round(A.length / 60));
 }
 let NAMES = new Set<string>();
-const typoPair = (w: string, v: string) => { const d = lev(w, v); const long = Math.max(w.length, v.length) >= 5; if (NAMES.has(w) || NAMES.has(v)) return d <= 1 && long; return d <= (long ? 2 : 1); };
+const typoPair = (w: string, v: string) => { const d = lev(w, v); const n = Math.max(w.length, v.length); if (NAMES.has(w) || NAMES.has(v)) return d <= 1 && n >= 5; return d <= (n >= 4 ? 2 : 1); };
 export interface Hit { hr: string; src: 'site' | 'kniewald'; via: 'exact' | 'typo' | 'variant' | 'manual'; page: string; sim?: number; diff?: string }
 
 const BOOKS = new Set('isai esdr iv i ii iii vel neh tren ps sap cant et eccli prov iob dan ier os ioel mal mat marc luc ioan act rom cor gal efes fil col tes tim hebr iac petr apoc ex gen lev num deut reg par tob iudit ester mac postcomunio v p'.split(' '));
@@ -42,7 +42,10 @@ export function makeResolver(file = 'data/tm/blocks.json') {
   const freq = new Map<string, number>(); const names = new Set<string>();
   for (const k of Object.keys(tm)) for (const w of k.split(' ')) freq.set(w, (freq.get(w) ?? 0) + 1);
   const units = JSON.parse(fs.readFileSync('data/tm/tm.json', 'utf8')) as Record<string, { la: string }>;
-  for (const u of Object.values(units)) for (const m of u.la.matchAll(/[\p{Ll},] (\p{Lu}[\p{L}]+)/gu)) { const w = normLaLocal(m[1]); if (!DIVINE.has(w)) names.add(w); }
+  // a name: a word the old site writes with a capital nearly every time it occurs
+  const cap = new Map<string, number>(), all = new Map<string, number>();
+  for (const u of Object.values(units)) for (const m of u.la.replace(/<[^>]+>/g, ' ').matchAll(/[\p{L}]+/gu)) { const w = normLaLocal(m[0]); all.set(w, (all.get(w) ?? 0) + 1); if (/^\p{Lu}/u.test(m[0])) cap.set(w, (cap.get(w) ?? 0) + 1); }
+  for (const [w, n] of cap) if (n >= 0.8 * (all.get(w) ?? 0) && !DIVINE.has(w) && w.length > 2) names.add(w);
   NAMES = names;
   const VARWORDS = new Set('memoriam comemorationem comemoratione festivitate festivitatem festum solemnia solemnitate natalitia'.split(' '));
   const common = (w: string) => VARWORDS.has(w) || (freq.get(w) ?? 0) >= 15 && !names.has(w);
@@ -59,7 +62,7 @@ export function makeResolver(file = 'data/tm/blocks.json') {
     const flush = () => {
       if (!da.length && !db.length) return;
       const x = da.join(''), y = db.join('');
-      const typo = x === y || (da.length === db.length && da.every((w, k) => typoPair(w, db[k]))) || (!!da.length && !!db.length && lev(x, y) <= 1 && x.length > 5);
+      const typo = x === y || (da.length === db.length && da.every((w, k) => typoPair(w, db[k]))) || (!!da.length && !!db.length && lev(x, y) <= 1 && x.length >= 5);
       if (!typo) {
         const xa = da.join(' '), xb = db.join(' ');
         if (/^sequentia sancti evangeli secundum \w+( in ilo tempore)?$/.test(xa) && !xb) { notes.push('naslov evanđelja'); da = []; db = []; return; }
@@ -84,7 +87,8 @@ export function makeResolver(file = 'data/tm/blocks.json') {
   const byHead = new Map<string, string[]>(); const byTail = new Map<string, string[]>();
   const head = (c: string) => c.split(' ').slice(0, 3).join(' '), tail = (c: string) => c.split(' ').slice(-3).join(' ');
   const push = (m: Map<string, string[]>, k: string, v: string) => { const a = m.get(k); if (a) a.push(v); else m.set(k, [v]); };
-  for (const k of Object.keys(tm)) { push(byHead, head(k), k); push(byTail, tail(k), k); const w = k.split(' '); if (w.length > 6) { push(byHead, w.slice(1, 4).join(' '), k); push(byHead, w.slice(3, 6).join(' '), k); } }
+  const grams = (c: string) => { const w = c.split(' '); const g = [w.slice(0, 3).join(' ')]; for (const at of [3, 6, 9, 12, 16, 20]) if (w.length >= at + 3) g.push(w.slice(at, at + 3).join(' ')); return g; };
+  for (const k of Object.keys(tm)) { for (const g of grams(k)) push(byHead, g, k); push(byTail, tail(k), k); }
   const cache = new Map<string, Hit | null>();
   resolve.variantOnly = variantOnly;
   return resolve;
@@ -97,7 +101,8 @@ export function makeResolver(file = 'data/tm/blocks.json') {
     else if (e) hit = { hr: e.hr, src: 'site', via: 'exact', page: e.src };
     else {
       const w = core.split(' ');
-      const cands = new Set([...(byHead.get(head(core)) ?? []), ...(byTail.get(tail(core)) ?? []), ...(byHead.get(w.slice(1, 4).join(' ')) ?? []), ...(byHead.get(w.slice(3, 6).join(' ')) ?? [])]);
+      const cands = new Set<string>(byTail.get(tail(core)) ?? []);
+      for (let at = 0; at + 3 <= Math.min(w.length, 26); at++) for (const k of byHead.get(w.slice(at, at + 3).join(' ')) ?? []) cands.add(k);
       let best: Hit | null = null;
       for (const k of cands) {
         if (Math.abs(k.length - core.length) > 0.2 * core.length + 12) continue;
@@ -111,3 +116,18 @@ export function makeResolver(file = 'data/tm/blocks.json') {
   }
 }
 function normLaLocal(s: string): string { return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/æ/g, 'ae').replace(/œ/g, 'oe').replace(/ae|oe/g, 'e').replace(/j/g, 'i').replace(/y/g, 'i').replace(/ch/g, 'c').replace(/th/g, 't').replace(/ph/g, 'f').replace(/([a-z])\1+/g, '$1').replace(/ci(?=[aeiou])/g, 'ti').replace(/[^a-z]+/g, ''); }
+
+/** Croatian for a list of lines: as one block, or composed from two or three consecutive parts (gradual + Alleluia/tract). */
+export function resolveLines(resolve: (core: string) => Hit | null, lines: { k: string; la: string }[], coreOf: (l: { k: string; la: string }[]) => string): Hit | null {
+  const whole = resolve(coreOf(lines)); if (whole) return whole;
+  const idx = lines.map((l, i) => (l.k === 'text' ? i : -1)).filter(i => i >= 0);
+  if (idx.length < 2 || idx.length > 40) return null;
+  const part = (a: number, b: number) => resolve(coreOf(lines.slice(a, b)));
+  for (let x = 1; x < idx.length; x++) {
+    const A = part(0, idx[x]); if (!A) continue;
+    const B = part(idx[x], lines.length);
+    if (B) return { hr: A.hr + '\n\n' + B.hr, src: 'site', via: A.via === 'exact' && B.via === 'exact' ? 'exact' : 'variant', page: A.page + '+' + B.page, diff: 'sastavljeno iz dva dijela' };
+    for (let y = x + 1; y < idx.length; y++) { const B1 = part(idx[x], idx[y]); if (!B1) continue; const C = part(idx[y], lines.length); if (C) return { hr: [A.hr, B1.hr, C.hr].join('\n\n'), src: 'site', via: 'variant', page: [A.page, B1.page, C.page].join('+'), diff: 'sastavljeno iz tri dijela' }; }
+  }
+  return null;
+}
