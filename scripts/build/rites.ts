@@ -73,7 +73,8 @@ export function buildRites(dist: string, corpus: Corpus, fix?: { edit(hr: string
         if (r.concl) la += '\n<i>' + concl(r.concl).replace(/\.$/, '') + '</i>.';
         rows.push(r.key ? { la, hr: '', key: r.key } : { la, hr: ' ' });
       }
-      vigil.items.push({ kind: 'section', la: sec.la, hr: sec.hr, rows });
+      // a group that holds only a rubric and a note (the Gloria) joins the section before it
+      if (!rows.some(r => r.key)) vigil.items[vigil.items.length - 1].rows.push(...rows); else vigil.items.push({ kind: 'section', la: sec.la, hr: sec.hr, rows });
     }
   }
   // ---- Exsultet: its last paragraph (1955) has no Croatian in Kniewald 1942, whose text ends with the older wording; the

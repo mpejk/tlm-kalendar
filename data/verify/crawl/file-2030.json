@@ -2,9 +2,9 @@
  "mode": "file",
  "year": 2030,
  "days": 730,
- "views": 760,
- "sections": 7824,
- "missingHr": 20,
+ "views": 758,
+ "sections": 7788,
+ "missingHr": 24,
  "problems": [],
  "ics": [
   "file:///Users/markopejkovic/tlm-kalendar/dist/ics/tlm-2030-zagreb.ics"

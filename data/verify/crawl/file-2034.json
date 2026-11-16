@@ -3,8 +3,8 @@
  "year": 2034,
  "days": 730,
  "views": 764,
- "sections": 7936,
- "missingHr": 22,
+ "sections": 7920,
+ "missingHr": 24,
  "problems": [],
  "ics": [
   "file:///Users/markopejkovic/tlm-kalendar/dist/ics/tlm-2034-zagreb.ics"

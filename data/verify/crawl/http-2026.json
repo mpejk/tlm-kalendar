@@ -3,11 +3,11 @@
  "year": 2026,
  "days": 730,
  "views": 764,
- "sections": 7936,
- "missingHr": 24,
+ "sections": 7920,
+ "missingHr": 28,
  "problems": [],
  "ics": [
-  "http://127.0.0.1:51337/sub/path/ics/tlm-2026-zagreb.ics"
+  "http://127.0.0.1:50043/sub/path/ics/tlm-2026-zagreb.ics"
  ],
  "consoleErrors": []
 }
