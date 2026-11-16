@@ -20,10 +20,11 @@ const FORMULAS = [
   /qui vivis et regnas cum deo patre in unitate (eiusdem )?spiritus sancti deus per omnia secula seculorum( amen)?/g,
   /qui vivis et regnas (cum deo patre )?in secula seculorum( amen)?/g, /qui vivit et regnat in secula seculorum( amen)?/g,
   /per cristum dominum nostrum( amen)?$/g, /per eumdem cristum dominum nostrum( amen)?$/g,
+  /qui cum eodem deo patre et spiritu sancto vivis et regnas deus per omnia secula seculorum/g, /\bsedulius\b/g,
   /\boremus\b/g, /flectamus genua( levate)?/g, /humiliate capita vestra deo/g,
 ];
 export function core(s: string): string {
-  let t = normLa(s.replace(/<b>[\s\S]*?<\/b>/g, ' ').replace(/\(Hic genuflectitur\)/gi, ' ').replace(INLINE_REF, ' ').replace(/\[[^\]]*\]/g, ' '));
+  let t = normLa(s.replace(/<b>[\s\S]*?<\/b>/g, ' ').replace(/\(Hic genuflectitur\)/gi, ' ').replace(/\(hodi[ée]rna die\)/gi, 'hodierna die').replace(INLINE_REF, ' ').replace(/\[[^\]]*\]/g, ' '));
   for (const f of FORMULAS) t = t.replace(f, ' ');
   return t.replace(/\s+/g, ' ').trim();
 }

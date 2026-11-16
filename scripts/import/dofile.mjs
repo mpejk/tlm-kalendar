@@ -113,8 +113,6 @@ export function parseFile(rel, ctx = {}, root = DO_ROOT) {
   const key = rel + '|' + JSON.stringify(ctx) + '|' + root;
   if (cache.has(key)) return cache.get(key);
   let full = path.join(root, rel + '.txt');
-  // Commons are shared with the Office and live under horas/ in the current DO layout.
-  if (!fs.existsSync(full)) full = path.join(root.replace('/missa/', '/horas/'), rel + '.txt');
   if (!fs.existsSync(full)) { cache.set(key, null); return null; }
   const lines = fs.readFileSync(full, 'utf8').replace(/^﻿/, '').split(/\r?\n/);
   const sections = {}; const order = []; const conditional = new Set();

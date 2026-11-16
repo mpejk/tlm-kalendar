@@ -27,7 +27,7 @@ for (let n = dayNumber(1961, 1, 1); n <= dayNumber(2100, 12, 31); n++) {
 }
 for (const x of ['Commune/C10', 'Commune/C10a', 'Commune/C10b', 'Commune/C10c', 'Commune/C10Pasc', 'Commune/Coronatio', 'Commune/Propaganda']) ids.add(x);
 // Commons, for the local layer
-for (const f of fs.readdirSync('data/raw/do/repo/web/www/horas/Latin/Commune')) if (/^C\d/.test(f)) ids.add('Commune/' + f.replace('.txt', ''));
+for (const f of fs.readdirSync('data/raw/do/repo/web/www/missa/Latin/Commune')) if (/^C\d/.test(f)) ids.add('Commune/' + f.replace('.txt', ''));
 
 const texts: Record<string, string> = {};
 const tid = (la: string) => { const k = crypto.createHash('sha1').update(la).digest('hex').slice(0, 10); texts[k] = la; return k; };
@@ -48,7 +48,7 @@ for (const id of [...ids].sort()) {
   }
   if (any) entry.variants = { brevior: diff };
   // Paschaltide: sections that come from the Paschal form of the Common
-  if (/^Commune\/C[123]/.test(f.fallback ?? '')) {
+  if (/^Commune\/C\d/.test(f.fallback ?? '')) {
     const p = importFormulary(id, { paschal: true });
     const pd: Record<string, any> = {}; let anyP = false;
     for (const n of new Set([...Object.keys(f.sections), ...Object.keys(p.sections)])) {
@@ -68,5 +68,5 @@ fs.mkdirSync('data/corpus/la', { recursive: true });
 fs.writeFileSync('data/corpus/la/formularies.json', JSON.stringify(out, null, 0).replace(/\},"(Sancti|Tempora|Commune|Votive)\//g, '},\n"$1/'));
 fs.writeFileSync('data/corpus/la/texts.json', JSON.stringify(texts, null, 0).replace(/","/g, '",\n"'));
 fs.writeFileSync('data/corpus/la/ordo.json', JSON.stringify(ordo, null, 1));
-fs.writeFileSync('data/corpus/la/SOURCE.md', `Imported from Divinum Officium (github.com/DivinumOfficium/divinum-officium, MIT), commit d6c806624c9dcff6c715ef2d4abc3c9dee25d412, files under web/www/missa/Latin and web/www/horas/Latin/Commune, evaluated for "Rubrics 1960 - 1960". Import script: scripts/import/import-do.ts.\n`);
+fs.writeFileSync('data/corpus/la/SOURCE.md', `Imported from Divinum Officium (github.com/DivinumOfficium/divinum-officium, MIT), commit 326bc4afd27afb9e9275d2eeef9558d3907738d3 (27 Feb 2025, the last state before the Mass Commons were merged into the Office files), files under web/www/missa/Latin, evaluated for "Rubrics 1960 - 1960". Import script: scripts/import/import-do.ts.\n`);
 console.log({ formularies: Object.keys(out).length, texts: Object.keys(texts).length, missing });

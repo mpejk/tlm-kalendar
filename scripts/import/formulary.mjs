@@ -23,32 +23,23 @@ export function fallbackOf(file, ctx = {}) {
   const f = parseFile(file, ctx); if (!f) return null;
   const fs0 = feriaSunday(file, ctx); if (fs0) return fs0;
   const cands = [];
-  // The Office file of the same saint often names the Common more precisely than the Mass file (C5 -> C5b for abbots): prefer it
-  // when it only narrows the same Common.
-  const precise = (t) => {
-    if (!/^Sancti\//.test(file) || !/^Commune\/C\d+$/.test(t)) return t;
-    const h = parseFile(file.replace(/r$/, ''), ctx, DO_ROOT.replace('/missa/', '/horas/'));
-    if (!h) return t;
-    for (const c of [firstLine(h.sections.Rank).split(';;')[3] || '', ...(h.sections.Rule || [])]) {
-      const m = c.trim().match(/^(?:ex|vide)\s+(C\d+[a-z](?:-\d)?)\b/);
-      if (m && ('Commune/' + m[1]).startsWith(t) && parseFile('Commune/' + m[1], ctx)) return 'Commune/' + m[1];
-    }
-    return t;
-  };
   const rank = firstLine(getSection(file, 'Rank', ctx)).split(';;')[3];
   if (rank) cands.push(rank);
   for (const l of getSection(file, 'Rule', ctx) || []) cands.push(l);
+  const communes = cands.map(c => c.trim().match(/^(?:ex|vide)\s+(C\d+[a-z]?(?:-\d)?)\b/)?.[1]).filter(Boolean);
   for (const c of cands) {
     const m = c.trim().match(/^(?:ex|vide)\s+([A-Za-z0-9\/-]+)/);
     if (!m) continue;
     let t = m[1];
+    if (/^C\d+$/.test(t)) { const narrower = communes.find(x => x !== t && x.startsWith(t)); if (narrower) t = narrower; }
     if (!t.includes('/')) t = (/^C\d/.test(t) ? 'Commune/' : file.split('/')[0] + '/') + t;
-    t = precise(t);
     // in Paschaltide the Commons of Apostles and Martyrs are replaced by their Paschal forms (C1p, C2p, C3p …)
-    if (ctx.paschal && /^Commune\/C[123]/.test(t) && !t.endsWith('p') && parseFile(t + 'p', ctx)) return t + 'p';
+    if (ctx.paschal && /^Commune\/C\d/.test(t) && !t.endsWith('p') && parseFile(t + 'p', ctx)) return t + 'p';
     if (parseFile(t, ctx)) return t;
     if (parseFile('Tempora/' + m[1], ctx)) return 'Tempora/' + m[1];
   }
+  // the Paschal form of a Common holds only what differs from the Common itself
+  if (/^Commune\/C\d.*p$/.test(file) && parseFile(file.slice(0, -1), ctx)) return file.slice(0, -1);
   // a feria of the temporal cycle without texts of its own takes the Mass of the preceding Sunday
   const m = file.match(/^Tempora\/(.+)-([1-6])(Feria|r)?$/);
   if (m) { for (const s of [m[1] + '-0r', m[1] + '-0']) if (parseFile('Tempora/' + s, ctx) && SUNDAY_OK(m[1], s)) return 'Tempora/' + s; }
@@ -60,7 +51,7 @@ const SUNDAY_OK = (stem, s) => true;
 export function sectionWithFallback(file, name, ctx = {}, depth = 0, trail = []) {
   if (depth > 6) return null;
   const viaSunday = feriaSunday(file, ctx);
-  const own = viaSunday && !(parseFile(file, ctx).sections[name] || []).some(l => l.trim()) ? null : getSection(file, name, ctx);
+  const own = viaSunday ? null : getSection(file, name, ctx);
   if (own && own.some(l => l.trim())) return { lines: own, from: file, trail };
   const fb = fallbackOf(file, ctx);
   if (!fb || trail.includes(fb)) return null;
@@ -89,6 +80,7 @@ export function toUnits(lines) {
     cont = joinNext;
     if (t === '' || t === '_') { if (units.length && units[units.length - 1].k !== 'sep') units.push({ k: 'sep' }); continue; }
     if (t === '!') continue;
+    if (/^Non dicitur /.test(t)) { units.push({ k: 'rubric', la: t }); continue; }
     if (t.startsWith('!!')) { units.push({ k: 'head', la: t.slice(2).trim() }); continue; }
     if (t.startsWith('!')) { const x = t.slice(1).trim(); units.push(REF_LINE.test(x) && x.length < 80 && !/^(Pro|Commemoratio|Deinde|Post|In |Si |Et |Hic |Ad )/.test(x) ? { k: 'ref', la: x.replace(/\.$/, '') } : { k: 'rubric', la: x }); continue; }
     if (t.startsWith('#')) { units.push({ k: 'head', la: t.replace(/^#+\s*/, '') }); continue; }
@@ -111,7 +103,7 @@ export function toUnits(lines) {
 export function importFormulary(file, ctx = {}) {
   const f = parseFile(file, ctx);
   if (!f) return null;
-  const out = { id: file, officium: firstLine(getSection(file, 'Officium', ctx)), rank: firstLine(getSection(file, 'Rank', ctx)), rule: [], fallback: fallbackOf(file, ctx), sections: {}, from: {} };
+  const out = { id: file, officium: firstLine(getSection(file, 'Officium', ctx)) || firstLine(getSection(file, 'Rank', ctx)).split(';;')[0], rank: firstLine(getSection(file, 'Rank', ctx)), rule: [], fallback: fallbackOf(file, ctx), sections: {}, from: {} };
   out.rule = (getSection(file, 'Rule', ctx) || []).map(l => l.trim()).filter(Boolean);
   // rules of the files this one falls back on (a Common, the Sunday of the week)
   const inh = []; let fb = out.fallback; const seenFb = new Set([file]);

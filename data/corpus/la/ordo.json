@@ -701,7 +701,7 @@
    },
    {
     "k": "text",
-    "x": "ebd885638e"
+    "x": "d4856a2a4d"
    }
   ],
   "Asperges me": [
@@ -773,8 +773,7 @@
   "Ultima Evangelium": [
    {
     "k": "text",
-    "x": "9f9e42fc4a",
-    "mark": "V"
+    "x": "6dda71b6b2"
    },
    {
     "k": "ref",
@@ -886,7 +885,7 @@
    },
    {
     "k": "text",
-    "x": "8ceedef52f"
+    "x": "12d08d2323"
    }
   ],
   "Regis": [
@@ -1002,7 +1001,7 @@
   "Chrismatis": [
    {
     "k": "rubric",
-    "la": "de Missa Chrismatis"
+    "la": "special"
    },
    {
     "k": "text",

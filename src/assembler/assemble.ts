@@ -73,19 +73,27 @@ const isAlleluiaStart = (s: string) => /^Allel[úu][ij]a,\s*allel[úu][ij]a/i.te
 
 function graduale(corpus: Corpus, f: Formulary, ctx: Ctx, suffix = ''): Section | null {
   let units: Unit[] | undefined;
+  const startsAlleluia = (u?: Unit[]) => { const t = (u ?? []).find(x => x.k === 'text'); return !!t && /^Allel[úu][ij]a/i.test(corpus.texts[t.x!] ?? ''); };
   // ferias that repeat the Sunday Mass in Advent and after Septuagesima: gradual only, without the Alleluia or the tract
   if (ctx.feria && !suffix && f.sections.GradualeF && f.from?.Graduale) units = f.sections.GradualeF;
-  else if (ctx.paschal && !ctx.easterWeek && f.sections['GradualeP' + suffix]) units = f.sections['GradualeP' + suffix];
+  // Paschaltide: the formulary's own chant if it is already an Alleluia, else the Paschal form
+  else if (ctx.paschal && !ctx.easterWeek && f.sections['GradualeP' + suffix] && !startsAlleluia(f.sections['Graduale' + suffix])) units = f.sections['GradualeP' + suffix];
   else if (ctx.septuagesima && f.sections['Tractus' + suffix]) units = f.sections['Tractus' + suffix];
   else units = f.sections['Graduale' + suffix];
   if (!units || !units.length) return null;
-  const ls = lines(corpus, units, ctx);
+  let ls = lines(corpus, units, ctx);
+  // Paschaltide, own chant printed as gradual + Alleluia with two verses: the gradual part is dropped
+  if (ctx.paschal && !ctx.easterWeek && units === f.sections['Graduale' + suffix]) {
+    const ai = ls.findIndex(l => l.k === 'text' && /^Allel[úu][ij]a,\s*allel[úu][ij]a\.?$/i.test(l.la));
+    if (ai > 0 && ls.slice(ai + 1).filter(l => l.k === 'text').length >= 2) ls = ls.slice(ai);
+  }
   // classify the chant: gradual, alleluia, tract
   const texts = ls.filter(l => l.k === 'text');
   const firstText = ls.findIndex(l => l.k === 'text');
   const laterRef = ls.some((l, i) => i > firstText && firstText >= 0 && (l.k === 'ref' || (l.k === 'rubric' && /tract/i.test(l.la))));
   let key: string;
-  if (texts.length && /^Allel[úu][ij]a/i.test(texts[0].la)) key = texts.length > 3 && !ctx.paschal ? 'AT' : texts.length > 3 && ctx.tid === 'Pasc6-6' ? 'AT' : 'A';
+  if (ctx.easterWeek && texts.length > 2 && texts.slice(1).some(l => /Allel[úu][ij]a,\s*allel[úu][ij]a\.?$/i.test(l.la))) key = 'GA';
+  else if (texts.length && /^Allel[úu][ij]a/i.test(texts[0].la)) key = texts.length > 3 && !ctx.paschal ? 'AT' : texts.length > 3 && ctx.tid === 'Pasc6-6' ? 'AT' : 'A';
   else if (texts.some(l => /Allel[úu][ij]a,\s*allel[úu][ij]a/i.test(l.la))) key = 'GA';
   else if (ctx.emberSat && !suffix) key = 'T';
   else if (units === f.sections['Tractus' + suffix] && texts.length > 2) key = 'GT';
@@ -143,9 +151,12 @@ export function prefaceOf(day: Day, mass: MassRef, f: Formulary): string {
   // A preface named by the formulary's own rule; from a Common only those of Our Lady and of the Apostles (Common C1).
   // The Common of Supreme Pontiffs does not bring the preface of the Apostles (as on the old site; DECISIONS.md).
   const pick = (rules: string[] | undefined) => (rules ?? []).map(r => r.match(/^Prefatio=([A-Za-z0-9]+)/)).find(Boolean)?.[1];
-  const own = pick(f.rule);
-  let inherited = /Commune\/C(2|3|4)/.test(f.fallback ?? '') ? undefined : pick(f.ruleInherited);
-  if (!own && !inherited && /Commune\/C1[a-z]?$/.test(f.fallback ?? '')) inherited = 'Apostolis';
+  const allRules = [...(f.rule ?? []), ...(f.ruleInherited ?? [])].join('\n');
+  const popeCommon = /C4b|summorum pontificum|^[OC]Pap/im.test(allRules) || /Commune\/C4b/.test(f.fallback ?? '');
+  let own = pick(f.rule);
+  if (own === 'Apostolis' && popeCommon) own = undefined;
+  let inherited = popeCommon ? undefined : pick(f.ruleInherited);
+  if (!own && !inherited && /Apostol|Evangelist/i.test(f.officium) && !/Vigilia|Cathedr|Conversion|Commemoratio/i.test(f.officium)) inherited = 'Apostolis';
   const c = day.celebration; const tid = day.temporalId; const s = day.season;
   if (c.key === 'S:11-02') return 'Defunctorum';
   let seasonal = '';
@@ -228,7 +239,7 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
       if (i < shown) add(section(corpus, 'Oratio', LABELS.Oratio, f.sections['OratioL' + i], ctx));
     }
     items.push(gloriaNote);
-    oratio = add(section(corpus, 'Oratio', LABELS.Oratio, f.sections['OratioL' + nExtra], ctx));
+    oratio = add(section(corpus, 'Oratio', LABELS.Oratio, f.sections['OratioL' + shown], ctx));   // n. 468: in the shorter form, the second prayer
   } else {
     items.push(gloriaNote);
     oratio = add(section(corpus, 'Oratio', LABELS.Oratio, f.sections.Oratio, ctx));
@@ -244,7 +255,13 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
   if (secreta) secreta.blocks.push(...commBlocks(corpus, day, massIndex, 'Secreta', ctx, f));
   const pu = f.sections.Prefatio ?? corpus.ordo.prefaces[pref] ?? corpus.ordo.prefaces.Communis;
   const plab = PREFACES[pref] ?? PREFACES.Communis;
-  add(section(corpus, 'Prefatio', plab, pu.filter(u => u.k !== 'rubric'), ctx));
+  const prefSec = add(section(corpus, 'Prefatio', plab, pu.filter(u => u.k !== 'rubric'), ctx));
+  // variable words of the prefaces: the mystery named in the preface of Our Lady, "die" in the Easter octave, "hodierna die" at Pentecost
+  if (prefSec) for (const l of prefSec.blocks[0].lines) {
+    if (pref === 'Maria') { const mv = [...(f.rule ?? []), ...(f.ruleInherited ?? [])].map(r => r.match(/^Prefatio=Maria=([^;]+)/)).find(Boolean)?.[1]; l.la = l.la.replace(/\*Festivitáte\*/, mv ? mv.trim().replace(/^./, ch => ch.toUpperCase()) : 'Festivitáte'); }
+    if (pref === 'Pasch' && /^Pasc0-/.test(tid)) l.la = l.la.replace('in hoc potíssimum', 'in hac potíssimum die');
+    if (pref === 'Spiritu') l.la = l.la.replace(/\s*\* \*\s*/, /^Pasc(6-6|7-)/.test(tid) ? ' (hodiérna die) ' : ' ');
+  }
   add(section(corpus, 'Communio', LABELS.Communio, f.sections.Communio, ctx));
   const post = add(section(corpus, 'Postcommunio', LABELS.Postcommunio, f.sections.Postcommunio, ctx));
   if (post) post.blocks.push(...commBlocks(corpus, day, massIndex, 'Postcommunio', ctx, f));

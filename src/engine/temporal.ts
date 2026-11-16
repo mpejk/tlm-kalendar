@@ -18,14 +18,14 @@ const ROMAN = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII'];
 
 // Divinum Officium file names that differ from the plain day id under the 1960 rubrics (Tabulae/Tempora/Generale.txt).
 const DO_1960: Record<string, string> = {
-  'Quad5-5': 'Quad5-5Feria', 'Quad6-0': 'Quad6-0r', 'Quad6-4': 'Quad6-4r', 'Quad6-5': 'Quad6-5r', 'Quad6-6': 'Quad6-6r',
+  'Nat29': '../Sancti/12-29r', 'Nat31': '../Sancti/12-31r', 'Quad5-5': 'Quad5-5Feria', 'Quad6-0': 'Quad6-0r', 'Quad6-4': 'Quad6-4r', 'Quad6-5': 'Quad6-5r', 'Quad6-6': 'Quad6-6r',
   'Pasc2-3': 'Pasc2-3Feria', 'Pasc2-4': 'Pasc2-4Feria', 'Pasc2-5': 'Pasc2-5Feria', 'Pasc2-6': 'Pasc2-6Feria', 'Pasc3-0': 'Pasc3-0r',
-  'Pasc3-1': 'Pasc3-1Feria', 'Pasc3-2': 'Pasc3-2Feria', 'Pasc3-3': 'Pasc3-3Feria', 'Pasc5-1': 'Pasc5-1r', 'Pasc6-4': 'Pasc6-4r', 'Pasc6-6': 'Pasc6-6r',
+  'Pasc3-1': 'Pasc3-1Feria', 'Pasc3-2': 'Pasc3-2Feria', 'Pasc3-3': 'Pasc3-3Feria', 'Pasc5-1': 'Pasc5-1r', 'Pasc6-4': 'Pasc6-4r',
   'Pent01-0': 'Pent01-0r', 'Pent02-0': 'Pent02-0r', 'Pent02-6': 'Pent02-6Feria', 'Pent03-0': 'Pent03-0r', 'Pent03-1': 'Pent03-1Feria',
   'Pent03-2': 'Pent03-2Feria', 'Pent03-3': 'Pent03-3Feria', 'Pent03-4': 'Pent03-4Feria', 'Pent03-5': 'Pent03-5Feria',
 };
 function mk(tid: string, title: string, cls: Cls, ord: number, kind: Kind, colour: Colour, season: string, extra: Partial<Temporal> = {}): Temporal {
-  return { key: 'T:' + tid, id: 'Tempora/' + (DO_1960[tid] ?? tid), tid, title, cls, ord, kind, colour, season, ...extra };
+  return { key: 'T:' + tid, id: ('Tempora/' + (DO_1960[tid] ?? tid)).replace('Tempora/../', ''), tid, title, cls, ord, kind, colour, season, ...extra };
 }
 const feria = (tid: string, weekGen: string, colour: Colour, season: string, extra: Partial<Temporal> = {}) =>
   mk(tid, `Feria (u tjednu ${weekGen})`, 4, 28, 'feria', colour, season, { commAs: null, weekGen, ...extra });
