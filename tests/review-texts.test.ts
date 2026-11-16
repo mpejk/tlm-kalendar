@@ -80,3 +80,17 @@ describe('T08–T10 Alleluia (Code of Rubrics nn. 429, 478, 504)', () => {
   });
   it('Easter Sunday: the gradual begins Haec dies (Missal 1962, p. 329)', () => { expect(sec('opci|2027-03-28|0', 'Graduale')[0]).toMatch(/^Ps\. 117:24; 117:1\nHæc dies/); });
 });
+
+describe('T13 Scripture reference labels (labels of the Missal 1962)', () => {
+  const label = (key: string, name: string, n = 0) => { const [la, hr] = sec(key, name, n); return [la.split('\n').find(l => /\d+[:,]\s?\d/.test(l) && l.length < 40) ?? '', hr.split('\n')[0].trim()]; };
+  const cases: [string, string, string, 'LA' | 'HR', string][] = [
+    ['Peter Nolasco', 'opci|2027-01-28|0', 'Lectio', 'HR', '1 Kor 4, 9-14'], ['Ash Wednesday', 'opci|2026-02-18|1', 'Evangelium', 'HR', 'Mt 6, 16-21'], ['Thursday after Ash Wednesday', 'opci|2026-02-19|0', 'Evangelium', 'HR', 'Mt 8, 5-13'],
+    ['Saturday of the 2nd week of Lent', 'opci|2026-03-07|0', 'Lectio', 'LA', 'Gen 27:6-39'], ['Tuesday of the 3rd week of Lent', 'opci|2026-03-10|0', 'Lectio', 'HR', '2* Kr 4, 1-7'], ['Tuesday of Passion week', 'opci|2026-03-24|0', 'Evangelium', 'HR', 'Iv 7, 1-13'],
+    ['Friday of Passion week', 'opci|2026-03-27|0', 'Lectio', 'HR', 'Jr 17, 13-18'], ['Wednesday of Holy Week, first reading', 'opci|2026-04-01|0', 'Lectio', 'LA', 'Isa 62:11; 63:1-7'], ['Easter Friday', 'opci|2026-04-10|0', 'Lectio', 'HR', '1 Pt 3, 18-22'],
+    ['Vigil of Pentecost', 'opci|2026-05-23|0', 'Lectio', 'HR', 'Dj 19, 1-8'], ['Whit Monday', 'opci|2026-05-25|0', 'Lectio', 'HR', 'Dj 10, 34 i 42-48'], ['19th Sunday after Pentecost', 'opci|2026-10-04|0', 'Lectio', 'HR', 'Ef 4, 23-28'],
+    ['Aloysius Gonzaga', 'opci|2027-06-21|0', 'Evangelium', 'HR', 'Mt 22, 29-40'], ['Vigil of Sts Peter and Paul', 'opci|2027-06-28|0', 'Evangelium', 'LA', 'Joannes 21:15-19'], ['7th Sunday after Pentecost (beyond the list)', 'opci|2026-07-12|0', 'Lectio', 'HR', 'Rim 6, 19-23'],
+  ];
+  for (const [name, key, s, col, want] of cases) it(`${name}: ${col} ${want}`, () => { expect(label(key, s)[col === 'LA' ? 0 : 1]).toBe(want); });
+  it('Common Mass Statuit (Kniewald): Jak 1, 12-18', () => { expect(sec('zagreb|2026-02-10|0', 'Lectio')[1]).toMatch(/\(1, 12-18\)/); });
+  it('the 3rd Sunday after Epiphany and Monday of Passion week keep their own (correct) labels', () => { expect(label('opci|2028-01-23|0', 'Evangelium')[1]).toBe('Mt 8, 1-13'); expect(label('opci|2026-03-23|0', 'Evangelium')[1]).toBe('Iv 7, 32-39'); });
+});

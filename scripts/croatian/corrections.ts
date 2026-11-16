@@ -8,7 +8,7 @@ import fs from 'node:fs';
 import YAML from 'yaml';
 import { coreLa } from '../../src/assembler/norm';
 
-export interface Correction { id: string; la?: string; hr?: string; find?: string; replace?: string; where?: string | string[]; section?: string; source?: string; why?: string }
+export interface Correction { id: string; la?: string; hr?: string; find?: string; replace?: string; where?: string | string[]; section?: string; /** only where the Latin beside it contains this text */ ifLatin?: string; source?: string; why?: string }
 
 export function makeCorrections(file = 'data/tm/corrections.yaml') {
   const list = (fs.existsSync(file) ? YAML.parse(fs.readFileSync(file, 'utf8')) ?? [] : []) as Correction[];
@@ -24,8 +24,8 @@ export function makeCorrections(file = 'data/tm/corrections.yaml') {
     /** Croatian that replaces whatever the memory gives for this Latin block, or undefined. */
     whole(core: string): Correction | undefined { const c = whole.get(core); if (c) hits.set(c, hits.get(c)! + 1); return c; },
     /** Applies the find/replace entries to one Croatian cell of formulary `fid`. */
-    edit(hr: string, fid: string, section?: string): string {
-      for (const c of edits) if (hr.includes(c.find!) && inScope(c, fid) && (!c.section || c.section === section)) { hr = hr.split(c.find!).join(c.replace!); hits.set(c, hits.get(c)! + 1); }
+    edit(hr: string, fid: string, section?: string, latin?: string): string {
+      for (const c of edits) if (hr.includes(c.find!) && inScope(c, fid) && (!c.section || c.section === section) && (!c.ifLatin || (latin ?? '').includes(c.ifLatin))) { hr = hr.split(c.find!).join(c.replace!); hits.set(c, hits.get(c)! + 1); }
       return hr;
     },
     /** Fails if an entry was never used. */

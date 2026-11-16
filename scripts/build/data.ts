@@ -71,7 +71,8 @@ export function buildData(dist: string) {
           const cor = fix.whole(core); if (cor) val = { t: cor.hr!, c: cor.id };
           if (k) val = val ? { ...val, kn: k.hr, knRef: k.ref } : { kn: k.hr, knRef: k.ref };
           else if (val && h?.key && alt[h.key] && (alt[h.key].status ?? 'ok') === 'ok') val = { ...val, kn: alt[h.key].kn, knRef: alt[h.key].ref + ' (OCR)' };
-          if (val?.t) val.t = fix.edit(val.t, fid, it.key); if (val?.kn) val.kn = fix.edit(val.kn, fid, it.key);
+          const laText = u.lines.map(l => l.la).join('\n');
+          if (val?.t) val.t = fix.edit(val.t, fid, it.key, laText); if (val?.kn) val.kn = fix.edit(val.kn, fid, it.key, laText);
           if (ANTIPHON.has(it.key) || it.key === 'Graduale') for (const f of ['t', 'kn']) if (val?.[f]) { const r = it.key === 'Graduale' ? reconcileGradual(u.lines, val[f]) : reconcileAlleluia(u.lines, val[f]); if (r.changed) { val[f] = r.hr; if (f === 't') alleluiaLog.push({ fid, sec: it.key, date: day.date, hr: r.hr.split('\n').pop()!.slice(-60) }); } }
           table[key] = val; tally(val); uniq.set(fid + key, val ? (val.t ? 'site' : 'kniewald') : 'missing');
           if (!val) { const g = gaps.get(fid + key) ?? { n: 0, where: day.title, la: u.lines.filter(l => l.k === 'text').map(l => l.la).join(' '), sec: `${u.src}`, first: day.date, cal, core } as any; g.n++; gaps.set(fid + key, g); }

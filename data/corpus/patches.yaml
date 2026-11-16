@@ -34,3 +34,9 @@
 # --- found with T08-T10 (Alleluias): the same kind of error in the source data
 - { id: A01, formulary: Tempora/Pasc0-0, section: Graduale, whole: true, find: "Allelúja, allelúja.", replace: "", source: "MR 1962, p. 329 (PDF 410): the gradual of Easter Sunday begins «Haec dies»; the Alleluia stands only before «Pascha nostrum»" }
 - { id: A02, formulary: Sancti/06-05, section: GradualeP, whole: true, find: "Allelúja.", replace: "Allelúja, allelúja.", source: "MR 1962, p. 545 (PDF 626), St Boniface in Paschaltide" }
+
+# --- T13 Scripture reference labels of the Latin column (the texts themselves are right)
+- { id: T13-04, formulary: Tempora/Quad2-6, section: Lectio, find: "Gen 27:6-40", replace: "Gen 27:6-39", source: "MR 1962 (PDF 169): Gen. 27, 6-39" }
+- { id: T13-08, formulary: Tempora/Quad6-3, section: LectioL1, find: "Isa 63:1-7", replace: "Isa 62:11; 63:1-7", source: "MR 1962 (PDF 228): Isai. 62, 11; 63, 1-7" }
+- { id: T13-14, formulary: "*", section: Evangelium, find: "Joannes 21:15-10", replace: "Joannes 21:15-19", source: "MR 1962 (PDF 647): Io. 21, 15-19" }
+- { id: T13-x2, formulary: "*", section: "*", find: "Deut 26:1-3; 7-11", replace: "Deut 26:1-11", source: "MR 1962 (PDF 448), Ember Saturday of Pentecost: Deut. 26, 1-11 (same kind of error, beyond the list)" }

@@ -57,3 +57,19 @@
     Ti si Petar-Stijena, i na toj stijeni sazidat ću Crkvu svoju. I vrata paklena neće je nadvladati. A tebi ću dati ključeve kraljevstva nebeskoga.
   source: "tradicionalnamisa.com, /kalendar/2017/propers/22022017_0.html, skraćeno na opseg latinskoga"
   why: "Katedra sv. Petra, prikazna pjesma: stara stranica nastavlja rečenicama o vezanju i razrješivanju, kojih u antifoni nema (Missale Romanum 1962, str. 478)."
+
+# --- T13 Scripture reference labels (the texts are right; only the label is changed). Each checked against the label
+#     printed in the Missale Romanum 1962 (PDF page in brackets) and against the Latin column.
+- { id: T13-01, find: "1 Kor 4, 9-15", replace: "1 Kor 4, 9-14", section: Lectio, ifLatin: "1 Cor 4:9-14", why: "Misa Justus ut palma (sv. Petar Nolasco i dr.): 1 Cor 4, 9-14 [PDF 673, 833]" }
+- { id: T13-02, find: "Mt 2, 16-21", replace: "Mt 6, 16-21", where: "Tempora/Quadp3-3", why: "Pepelnica: Mt 6, 16-21" }
+- { id: T13-03, find: "Mt 8, 1-13", replace: "Mt 8, 5-13", section: Evangelium, ifLatin: "Matt 8:5-13", why: "Četvrtak po Pepelnici: Mt 8, 5-13 [PDF 140]" }
+- { id: T13-05, find: "2* Kr 4, 1-4", replace: "2* Kr 4, 1-7", where: "Tempora/Quad3-2", why: "Utorak u 3. tjednu korizme: 4 Reg 4, 1-7 [PDF 176]" }
+- { id: T13-06, find: "Iv 7, 32-39", replace: "Iv 7, 1-13", section: Evangelium, ifLatin: "Joann 7:1-13", why: "Utorak u 1. tjednu Muke: Io 7, 1-13" }
+- { id: T13-07, find: "Jr 7, 13-18", replace: "Jr 17, 13-18", ifLatin: "Jer 17:13-18", why: "Petak u 1. tjednu Muke: Ier 17, 13-18 [PDF 207]" }
+- { id: T13-09, find: "1 Pt 18-22", replace: "1 Pt 3, 18-22", where: "Tempora/Pasc0-5", why: "Uskrsni petak: 1 Petri 3, 18-22 [PDF 419]" }
+- { id: T13-10, find: "Dj 19, 1-9", replace: "Dj 19, 1-8", ifLatin: "Acts 19:1-8", why: "Bdijenje uoči Duhova: Act 19, 1-8 [PDF 435]" }
+- { id: T13-11, find: "Dj 2, 10, 34 i 42-48", replace: "Dj 10, 34 i 42-48", where: "Tempora/Pasc7-1", why: "Duhovski ponedjeljak: Act 10, 34 et 42-48 [PDF 439]" }
+- { id: T13-12, find: "Ef 13, 11-14", replace: "Ef 4, 23-28", ifLatin: "Ephes 4:23-28", why: "19. nedjelja po Duhovima: Eph 4, 23-28" }
+- { id: T13-13, find: "Lk 2, 1-14", replace: "Mt 22, 29-40", where: "Sancti/06-21", section: Evangelium, why: "Sv. Alojzije Gonzaga: Mt 22, 29-40 [PDF 640]" }
+- { id: T13-15, find: "(1, 12-13)", replace: "(1, 12-18)", ifLatin: "Jac 1:12-18", why: "Misa Statuit, poslanica Iac 1, 12-18 (Kniewaldov tekst donosi cijelo čitanje do 18. retka)" }
+- { id: T13-x1, find: "Rim 6, 19, 23", replace: "Rim 6, 19-23", ifLatin: "Rom 6:19-23", why: "7. nedjelja po Duhovima: Rom 6, 19-23 (ista vrsta pogreške, izvan popisa)" }
