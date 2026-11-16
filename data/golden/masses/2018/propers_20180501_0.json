@@ -1,0 +1,159 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-05-01",
+ "n": 0,
+ "heading": "UTORAK, 1.V.2018.",
+ "title": "sv. Josip Radnik, suprug BDM, priznavalac",
+ "rank": "Blagdan I. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Sap 10, 17, Ps 126, 1\n(Sap 10, 17) Sapiéntia réddidit iustis mercédem labórum suórum, et dedúxit illos in via mirábili, et fuit illis in velaménto diéi et in luce stellárum per noctem. <i>Allelúia</i>, <i>allelúia</i>.\n(Ps 126, 1) Nisi Dóminus aedificáverit domum, in vanum labórant qui aedíficant eam.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Sap 10, 17) Sapiéntia réddidit iustis mercédem labórum suórum, et dedúxit illos in via mirábili, et fuit illis in velaménto diéi et in luce stellárum per noctem. <i>Allelúia</i>, <i>allelúia</i>.",
+     "hr": "Mudr 10, 17, Ps 126, 1\n(Mudr 10, 17) Mudrost je dala pravednima plaću za njihov trud i vodila ih je čudesnim putem; danju im je bila zaklon, a noću zvjezdana svjetlost, <i>aleluja</i>, <i>aleluja</i>.\n(Ps 126, 1) Ako Gospodin ne zida kuće, uzalud se trudi koji je zida.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Mudr 10, 17) Mudrost je dala pravednima plaću za njihov trud i vodila ih je čudesnim putem; danju im je bila zaklon, a noću zvjezdana svjetlost, <i>aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nRerum cónditor Deus, qui legem labóris humáno géneri statuísti: concéde propítius; ut, sancti Ioseph exémplo et patrocínio, ópera perficiámus quae praécipis, et praémia consequámur quae promíttis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nStvoritelju svih stvari, Bože, koji si ljudskome rodu odredio zakon rada, podaj milostivo, da po primjeru i zagovoru svetog Josipa obavljamo djela koja nalažeš te postignemo nagradu koju obećavaš.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Col 3, 14-15 et 17 et 23-24\nLéctio Epístolae beáti Pauli Apóstoli ad Colossénses. Fratres: Caritátem habéte, quod est vínculum perfectiónis, et pax Christi exsúltet in córdibus vestris, in qua et vocáti estis in uno córpore, et grati estóte. Omne quodcúmque fácitis in verbo aut in ópere, ómnia in nómine Dómini Iesu Christi, grátias agéntes Deo et Patri per ipsum. Quodcúmque fácitis, ex ánimo operámini sicut Dómino, et non homínibus, sciéntes quod a Dómino accipiétis retributiónem hereditátis. Dómino Christo servíte.",
+     "hr": "Kol 3, 14-15 i 17 i 23-24\nČitanje Poslanice bl. Pavla apostola Kološanima. Braćo, gajite ljubav koja je veza savršenstva, da u vašim srcima vlada Kristov mir, na koji ste i pozvani u jednome tijelu. Budite zahvalni, pa sve što god govorite ili činite, neka bude u ime našega Gospodina Isusa Krista, da po njem zahvaljujete Bogu i Ocu. Sto god činite, činite sa svom dušom kao Gospodinu, a ne ljudima, svjesni da ćete od Gospodina baštiniti nagradu. Služite Kristu Gospodinu!"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Allelúia",
+   "hr": "Aleluja",
+   "rows": [
+    {
+     "la": "<i>Allelúia</i>, <i>allelúia</i>.\nDe quacúmque tribulatióne clamáverint ad me, exáudiam eos, et ero protéctor eórum semper. <i>Allelúia</i>.\nFac nos innócuam, Ioseph, decúrrere vitam: sitque tuo semper tuta patrocínio. <i>Allelúia</i>.",
+     "hr": "<i>Aleluja</i>, <i>aleluja</i>.\nIz koje me god nevolje zazovu, uslišit ću ih i bit ću uvijek njihov zaštitnik, <i>aleluja</i>.\nDaj nam, Josipe, da provodimo neškodljiv život, neka uvijek bude tvojom zaštitom siguran, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 13, 54-58\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Véniens Iesus in pátriam suam, docébat eos in synagógis eórum, ita ut miraréntur et dícerent: Unde huic sapiéntia haec et virtútes? Nonne hic est fabri fílius? Nonne mater eius dícitur María, et fratres eius Iacóbus et Ioseph et Simon et Iudas? Et soróres eius nonne omnes apud nos sunt ? Unde ergo huic ómnia ista? Et scandalizabántur in eo. Iesus autem dixit eis: Non est prophéta sine honóre nisi in pátria sua et in domo sua. Et non fecit ibi virtútes multas propter incredulitátem illórum.",
+     "hr": "Mt 13, 54-58\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme: U ono vrijeme dođe Isus u svoj zavičaj, gdje je poučavao u zbornici da su ljudi začuđeni ispitivali: Otkuda ovome tolika mudrost i moć? Zar nije on tesarov sin? Zar mu se majka ne zove Marija, a njegova braća Jakov, Josip, Šimun i Juda, a njegove sestre nisu li sve kod nas? Otkuda dakle njemu sve to? Tako on postade kamen spoticaja za njih. Ali im Isus reče: Prorok je štovan svagdje osim u svojem kraju i u svojem domu. I zbog njihove nevjere ondje nije učinio mnogo čudesa."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "id": "tableCredo",
+   "hidden": true,
+   "la": "Credo (Symbolum Niceno-Constantinopolitanum)",
+   "hr": "Vjerovanje (nicejsko-carigradsko)",
+   "rows": [
+    {
+     "la": "Credo in unum Deum. Patrem omnipoténtem, factórem caeli et terrae, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saécula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de caelis. (Hic genuflecitur) Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in caelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostolicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam ventúri saéculi. Amen.",
+     "hr": "Vjerujem u jednoga Boga, Oca svemogućega, stvoritelja neba i zemlje, svega vidljivoga i nevidljivoga.I u jednoga Gospodina Isusa Krista, jedinorođenoga Sina Božjega. Rođenog od Oca prije svih vjekova. Boga od Boga, svjetlo od svjetla, pravoga Boga od pravoga Boga. Rođena, ne stvorena, istobitna s Ocem, po kome je sve stvoreno. Koji je radi nas ljudi i radi našega spasenja sišao s nebesa. (ovdje se poklekne) I utjelovio se po Duhu Svetom od Marije Djevice: i postao čovjekom. Raspet također za nas: pod Poncijem Pilatom mučen i pokopan. I uskrsnuo treći dan, po Svetom Pismu. I uzašao na nebo: sjedi s desne Ocu. I opet će doći u slavi suditi žive i mrtve, i njegovu kraljevstvu neće biti kraja. I u Duha Svetoga, Gospodina i životvorca; koji izlazi od Oca i Sina. Koji se s Ocem i Sinom skupa časti i zajedno slavi; koji je govorio po prorocima. I u jednu svetu katoličku i apostolsku Crkvu. Ispovijedam jedno krštenje za oproštenje grijeha. I iščekujem uskrsnuće mrtvih. I život budućega vijeka. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 89, 17\nBónitas Dómini Dei nostri sit super nos, et opus mánuum nostrárum secúnda nobis, et opus mánuum nostrárum secúnda. <i>Allelúia</i>.",
+     "hr": "Ps 89, 17\nDobrota Gospodina Boga našega neka bude nad nama, i učini da nam djela ruku naših budu sretna, i neka djela ruku naših budu uspješna. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Quas tibi, Dómine, de opéribus mánuum nostrárum offérimus hóstias, sancti Ioseph interpósito suffrágio, pignus fácias nobis unitátis et pacis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Žrtvene darove, Gospodine, koje ti prinosimo od djela naših ruku, učini nam na zagovor blaženoga Josipa zalogom jedinstva i mira.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de sancto Joseph, sponso beátae Maríae Vírginis",
+   "hr": "Predslovlje svetog Josipa, zaručnika blažene Djevice Marije",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: Et te <i>in solemnitáte</i> beáti Ioseph débitis magnificáre praecóniis, benedícere et praedicáre. Qui et vir iustus, a te Deíparae Vírgini Sponsus est datus, et fidélis servus ac prudens, super Famíliam tuam est constitútus: ut Unigénitum tuum, Sancti Spíritus obumbratióne concéptum, patérna vice custodíret, Iesum Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zavaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože: – i da te <i>o svečanosti</i> blaženoga Josipa doličnim pohvalama veličamo, blagoslivljamo i slavimo. On je onaj pravednik koga si dao za zaručnika Bogorodici Djevici; i onaj vjerni i mudri sluga koga si postavio nad svojom obitelji da umjesto oca čuva tvoga Jedinorođenca, začeta po Duhu Svetom, Isusa Krista, Gospodina našega. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 13, 54 et 55\nUnde huic sapiéntia haec et virtútes? Nonne hic est fabri fílius? Nonne mater eius dícitur María? <i>Allelúia</i>.",
+     "hr": "Mt 13, 54 et 55\nOtkuda ovome tolika mudrost i moć? Zar nije ovo tesarov sin? Zar mu se majka ne zove Marija? <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nOvi sveti darovi koje primismo, Gospodine, neka po zagovoru blaženoga Josipa usavrše naše djelovanje i osiguraju nam obećanu nagradu.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nHaec sancta quae súmpsimus, Dómine: per intercessiónem beáti Ioseph; et operatiónem nostram cómpleant, et praémia confírment.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

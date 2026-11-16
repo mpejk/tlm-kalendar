@@ -1,0 +1,177 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2017-12-27",
+ "n": 0,
+ "heading": "SRIJEDA, 27.XII.2017.",
+ "title": "sv. Ivan, apostol i evanđelist",
+ "rank": "Blagdan II. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen i na pjevanim i na tihim misama: III. dan božićne osmine"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Eccli 15, 5, Ps 91, 2\n(Eccli 15, 5) In médio Ecclésiae apéruit os eius: et implévit eum Dóminus spíritu sapiéntiae et Intelléctus: stolam glóriae índuit eum. (Ps. 91, 2) Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Eccli 15, 5) In médio Ecclésiae apéruit os eius: et implévit eum Dóminus spíritu sapiéntiae et Intelléctus: stolam glóriae índuit eum.",
+     "hr": "Sir 15, 5, Ps 91, 2\n(Sir 15, 5) Usred Crkve otvorio je Gospodin usta njegova i napunio ga duhom mudrosti i razuma, ogrnuo ga odjećom slave. (Ps. 91, 2) Dobro je slaviti Gospodina i pjevati imenu tvojem, Višnji!\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Sir 15, 5) Usred Crkve otvorio je Gospodin usta njegova i napunio ga duhom mudrosti i razuma, ogrnuo ga odjećom slave."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nEcclésiam tuam, Dómine, benígnus illústra: ut, beáti Ioánnis Apóstoli tui et Evangelístae illumináta doctrínis, ad dona pervéniat sempitérna.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nCrkvu svoju, Gospodine, dobrostivo rasvijetli, da prosvijetljena učenjem blaženoga Ivana tvoga apostola i evanđeliste dopre do vječnih darova.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: III. dan božićne osmine</i></b>\n<i>Orémus</i>.\nConcéde, quaésumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti iugo vetústa sérvitus tenet.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: III. dan božićne osmine</i></b>\n<i>Pomolimo se</i>.\nPodaj, molimo, svemogući Bože, da novo tjelesno rođenje tvoga jedinorođenog Sina oslobodi nas, koje staro sužanjstvo tišti jarmom grijeha.\n<i>Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Eccli 15, 1-6\nLéctio Libri Sapiéntiae. Qui timet Deum, fáciet bona: et qui cóntinens est iustítiae, apprehéndet illam, et obviábit illi quasi mater honorificáta. Cibábit illum pane vitae et intelléctus, et aqua sapiéntiae salutáris potábit illum: et firmábitur in illo, et non flectétur: et continébit illum, et non confundétur: et exaltábit illum apud próximos suos, et in médio ecclésiae apériet os eius, et adimplébit illum spíritu sapiéntiae et intelléctus, et stola glóriae véstiet illum. Iucunditátem, et exsultatiónem thesaurizábit super illum, et nómine aetérno hereditábit illum, Dóminus Deus noster.",
+     "hr": "Sir 15, 1-6\nČitanje knjige Mudrosti. Tko se boji Boga, činit će dobro. A tko se drži pravde, postići će je i kao časna majka izaći će ona pred njega. Hranit će ga kruhom života i razuma i napajati vodom spasonosne mudrosti. U njemu će se utvrditi i neće kolebati i uzdržat će ga da se ne smete. Uzvisit će ga kod njegovih bližnjih i usred zbora otvorit će mu se usta i napunit će ga duhom mudrosti i razuma i odjenut će ga haljinom slave. Gospodin Bog naš obogatit će ga milinom i radošću i učinit će da mu ime ostane u trajnoj uspomeni."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Io 21, 23 et 22\nExiit sermo inter fratres, quod discípulus ille non móritur: et non dixit Iesus: Non móritur. Sed: Sic eum volo manére, donec véniam: tu me séquere.",
+     "hr": "Iv 21, 23 i 22\nPronio se glas među braćom da onaj učenik neće umrijeti. A Isus mu nije rekao: »Neće umrijeti«, nego: Hoću da on ostane tako dok ne dođem. Ti me slijedi."
+    },
+    {
+     "la": "Io 21, 24\n<i>Allelúia</i>, <i>allelúia</i>.\nHic est discípulus ille, qui testimónium pérhibet de his: et scimus, quia verum est testimónium eius. <i>Allelúia</i>.",
+     "hr": "Iv 21, 24\n<i>Aleluja</i>, <i>aleluja</i>.\nOvo je onaj učenik koji svjedoči za ovo, i znamo da je istinito svjedočanstvo njegovo. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Io 21, 19-24\nSequéntia sancti Evangélii secúndum Ioánnem. In illo témpore: Dixit Iesus Petro: Séquere me. Convérsus Petrus vidit illum discípulum, quem diligébat Iesus, equéntem, qui et recúbuit in cena super pectus eius, et dixit: Dómine, quis est qui tradet te ? Hunc ergo cum vidísset Petrus, dixit Iesu: Dómine, hic autem quid? Dicit ei Iesus: Sic eum volo manére, donec véniam, quid ad te? Tu me séquere. Exiit ergo sermo iste inter fratres, quia discípulus ille non móritur. Etnon dixit ei Iesus: Non móritur; sed: Sic eum volo manére, donec véniam: quid ad te? Hic est discípulus ille, qui testimónium pérhibet de his, et scripsit haec: et scimus, quia verum est testimónium eius.",
+     "hr": "Iv 21, 19-24\nSlijedi sveto Evanđelje po Ivanu. U ono vrijeme: reče Isus Petru: »Idi za mnom!« Petar se obazre i ugleda da za njim ide onaj učenik kojega je Isus ljubio i koji je na večeri počinuo na njegovim prsima i upitao: »Gospodine, tko je taj, koji će te izdati?« Kada, dakle, Petar ovoga vidje, upita Isusa: »Gospodine, što će biti s ovim?« Isus mu odgovori : »Hoću da on ostane tako dok ne dođem, što je tebi do toga? Ti idi za mnom!« Pronio se s toga među braćom taj glas da onaj učenik neće umrijeti. A Isus mu nije rekao: »Ne će umrijeti«, nego: »Hoću da on ostane tako, dok ne dođem, što je tebi do toga?« To je onaj učenik, koji svjedoči za ovo što je napisao. I znamo da je istinito svjedočanstvo njegovo."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "id": "tableCredo",
+   "hidden": true,
+   "la": "Credo (Symbolum Niceno-Constantinopolitanum)",
+   "hr": "Vjerovanje (nicejsko-carigradsko)",
+   "rows": [
+    {
+     "la": "Credo in unum Deum. Patrem omnipoténtem, factórem caeli et terrae, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saécula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de caelis. (Hic genuflecitur) Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in caelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostolicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam ventúri saéculi. Amen.",
+     "hr": "Vjerujem u jednoga Boga, Oca svemogućega, stvoritelja neba i zemlje, svega vidljivoga i nevidljivoga.I u jednoga Gospodina Isusa Krista, jedinorođenoga Sina Božjega. Rođenog od Oca prije svih vjekova. Boga od Boga, svjetlo od svjetla, pravoga Boga od pravoga Boga. Rođena, ne stvorena, istobitna s Ocem, po kome je sve stvoreno. Koji je radi nas ljudi i radi našega spasenja sišao s nebesa. (ovdje se poklekne) I utjelovio se po Duhu Svetom od Marije Djevice: i postao čovjekom. Raspet također za nas: pod Poncijem Pilatom mučen i pokopan. I uskrsnuo treći dan, po Svetom Pismu. I uzašao na nebo: sjedi s desne Ocu. I opet će doći u slavi suditi žive i mrtve, i njegovu kraljevstvu neće biti kraja. I u Duha Svetoga, Gospodina i životvorca; koji izlazi od Oca i Sina. Koji se s Ocem i Sinom skupa časti i zajedno slavi; koji je govorio po prorocima. I u jednu svetu katoličku i apostolsku Crkvu. Ispovijedam jedno krštenje za oproštenje grijeha. I iščekujem uskrsnuće mrtvih. I život budućega vijeka. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 91, 13\nIustus ut palma florébit: sicut cedrus, quae in Líbano est, multiplicábitur.",
+     "hr": "Ps 91, 13\nPravednik će cvasti kao palma, rast će kao cedar libanski."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Súscipe, Dómine, múnera, quae in eius tibi solemnitáte deférimus, cuius nos confídimus patrocínio liberári.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Primi, Gospodine, darove što ti ih prinosimo na blagdan onoga po čijem se zagovoru nadamo osloboditi.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: III. dan božićne osmine</i></b>\nObláta Dómine, múnera, nova Unigéniti tui Nativitéte sanctífica: nosque a peccatórum nostrórum máculis emúnda.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: III. dan božićne osmine</i></b>\nPrinesene darove, Gospodine, posveti novim rođenjem svoga Jedinorođenca, a nas od ljaga naših grijeha očisti.\n<i>Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de Nativitáte Dómini",
+   "hr": "Predslovlje Rođenja Gospodnjeg (božićno)",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: Quia per incarnáti Verbi mystérium nova mentis nostrae óculis lux tuae claritátis infúlsit: ut, dum visibíliter Deum cognóscimus, per hunc in invisibílium amórem rapiámur. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine sveti Oče, svemogući i vječni Bože: jer je po tajni utjelovljene Riječi očima naše duše sinula nova svjetlost tvoga sjaja. Te dok tjelesnim očima spoznajemo Boga, on nas zanosi ljubavlju prema nevidljivim dobrima. I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Io 21, 23\nExiit sermo inter fratres, quod discípulus ille non móritur: et non dixit Iesus: Non móritur; sed: Sic eum volo manére, donec véniam.",
+     "hr": "Iv 21, 23\nPronio se glas među braćom da onaj učenik neće umrijeti. A Isus mu nije rekao: Neće umrijeti, nego: Hoću da on ostane tako dok ne dođem."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nRefécti cibo potúque caelésti, Deus noster, te súpplices deprecámur: ut, in cuius haec commemoratióne percépimus, eius muniémur et précibus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nOkrijepljeni nebeskom hranom i pićem ponizno te molimo, Bože naš, da nas zaštite molitve onoga u čiji spomen blagovasmo tvoje tajne.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: III. dan božićne osmine</i></b>\n<i>Orémus</i>.\nPraesta, quaésumus, omnípotens Deus: ut natus hódie Salvátor mundi, sicut divínae nobis generatiónis est auctor; ita et immortalitátis sit ipse largítor:\n<i>qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: III. dan božićne osmine</i></b>\n<i>Pomolimo se</i>.\nPodaj, molimo, svemogući Bože, kao što je danas rođeni Spasitelj svijeta začetnik našega božanskoga rođenja, tako da bude i darovatelj besmrtnosti.\n<i>Koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

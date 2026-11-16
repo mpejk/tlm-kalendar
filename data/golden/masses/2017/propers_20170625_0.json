@@ -1,0 +1,163 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-06-25",
+ "n": 0,
+ "heading": "NEDJELJA, 25.VI.2017.",
+ "title": "3. nedjelja po Duhovima",
+ "rank": "Nedjelja II. razreda",
+ "colour": "Green",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 24, 16 et 18, Ps 24, 1-2\n(Ps 24, 16 et 18) Réspice in me, et miserére mei, Dómine: quóniam únicus et pauper sum ego: vide humilitátem meam, et labórem meum: et dimítte ómnia peccáta mea, Deus meus. (Ps 24, 1-2) Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 24, 16 et 18) Réspice in me, et miserére mei, Dómine: quóniam únicus et pauper sum ego: vide humilitátem meam, et labórem meum: et dimítte ómnia peccáta mea, Deus meus.",
+     "hr": "Ps 24, 16 i 18, Ps 24, 1-2\n(Ps 24, 16 i 18) Pogledaj na me i smiluj mi se, Gospodne, jer sam osamljen i bijedan. Pogledaj moju bijedu muku i oprosti svoje moje prestupke, Bože moj. (Ps 24, 1-2) K tebi, Gospodine, uzdižem svoju dušu. Bože moj, u tebe se uzdam, ne daj da se postidim.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 24, 16 i 18) Pogledaj na me i smiluj mi se, Gospodne, jer sam osamljen i bijedan. Pogledaj moju bijedu muku i oprosti svoje moje prestupke, Bože moj."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nProtéctor in te sperántium, Deus, sine quo nihil est válidum, nihil sanctum: multíplica super nos misericórdiam tuam ; ut, te rectóre, te duce, sic transeámus per bona temporália, ut non amittámus aetérna.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, zaštitniče onih koji se u te ufaju i bez kojega ništa nije jako, ništa sveto, obaspi nas svojim milosrđem, da pod tvojim vodstvom i ravnanjem tako upotrebljavamo vremenita dobra da ne izgubimo vječna.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "I Petri 5, 6-11\nLéctio Epístolae beáti Petri Apóstoli. Caríssimi: Humiliámini sub poténti manu Dei, ut vos exáltet in témpore visitatiónis: omnem sollicitúdinem vestram proiciéntes in eum, quóniam ipsi cura est de vobis. Sóbrii estóte, et vigiláte: quia adversárius vester diábolus tamquam leo rúgiens círcuit, quaerens quem dévoret: cui resístite fortes in fide: sciéntes eámdem passiónem ei, quae in mundo est, vestrae fraternitáti fíeri. Deus autem omnis grátiae, qui vocávit nos in aetérnam suam glóriam in Christo Iesu, módicum passos ipse perfíciet, confirmábit, solidabítque. Ipsi glória et impérium in saécula saeculórum. Amen.",
+     "hr": "1 Pt 5, 6-11\nČitanje Poslanice bl. Petra apostola. Predragi, ponizite se pod jakom Božjom rukom, da vas uzdigne u vrijeme pohođenja. Svu svoju brigu prepustite njemu, jer se on brine za vas. Budite trijezni i bdijte, jer vaš protivnik đavao obilazi kao ričući lav i traži koga da proždre. Oduprite se jaki u vjeri znajući da i vaša braća u svijetu podnose iste patnje. A Bog svake milosti, koji nas je pozvao u svoju vječnu slavu u Kristu Isusu, poslije kratka trpljenja usavršit će nas, ojačati i utvrditi. Njemu slava i vlast u vijeke vjekova. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 54, 23, 17 et 19\nIacta cogitátum tuum in Dómino: et ipse te enútriet. Dum clamárem ad Dóminum, exaudívit vocem meam ab his, qui appropínquant mihi.",
+     "hr": "Ps 54, 23, 17 i 19\nPrebaci na Gospodina svoju brigu i on će te braniti. Kad sam zazivao Gospodina, uslišio je moj glas protiv onih koji mi se neprijateljski približuju."
+    },
+    {
+     "la": "Ps 7, 12\n<i>Allelúia</i>, <i>allelúia</i>.\nDeus iudex iustus, fortis et pátiens, numquid iráscitur per síngulos dies? <i>Allelúia</i>.",
+     "hr": "Ps 7, 12\n<i>Aleluja</i>, <i>aleluja</i>.\nBog je pravedan sudac, jak i ustrpljiv. Zar će se gnjeviti u sve dane? <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 15, 1-10\nSequéntia sancti Evangélii secúndum Lucam. In illo témpore: Erant appropinquántes ad Iesum publicáni et peccatóres, ut audírent illum. Et murmurábant pharisaéi et scribae, dicéntes: Quia hic peccatóres récipit, et mandúcat cum illis. Et ait ad illos parábolam istam, dicens: Quis ex vobis homo, qui habet centum oves: et si perdíderit unam ex illis, nonne dimíttit nonagintanóvem in desérto, et vadit ad illam, quae períerat, donec invéniat eam ? Et cum invénerit eam, impónit in húmeros suos gaudens: et véniens domum, cónvocat amícos et vicínos, dicens illis: Congratulámini mihi, quia invéni ovem meam, quae períerat ? Dico vobis, quod ita gáudium erit in caelo super uno peccatóre paeniténtiam agénte, quam super nonagintanóvem iustis, qui non índigent paeniténtia. Aut quae múlier habens drachmas decem, si perdíderit drachmam unam, nonne accéndit lucérnam, et evérrit domum, et quaerit diligénter, donec invéniat ? Et cum invénerit, cónvocat amícas et vicínas, dicens: Congratulámini mihi, quia invéni drachmam, quam perdíderam ? Ita dico vobis: gáudium erit coram Angelis Dei super uno peccatóre paeniténtiam agénte.",
+     "hr": "Lk 15, 1-10\nSlijedi sveto Evanđelje po Luki. U ono vrijeme približe se Isusu carnici i grješnici da ga čuju. A farizeji su i književnici mrmljali i govorili: Ovaj prima grješnike i jede s njima. Zato im Isus reče ovu poredbu: Tko od vas, ako ima sto ovaca, pa izgubi jednu od njih, ne ostavi devedeset i devet u pustinji i ne ide tražiti izgubljenu, dok je ne nađe? A kad je nađe, radujući se digne je na svoja ramena. Kada pak dođe kući, pozove svoje prijatelje i susjede te im reče: Radujte se sa mnom, jer sam našao svoju ovcu koja se bila izgubila. Kažem vam, da će tako biti na nebu veća radost zbog obraćenja jednoga grješnika, nego zbog devedeset i devet pravednika kojima obraćenja ne treba. – Ili koja žena, ako ima deset drahma pa izgubi jednu, ne užeže svjetiljku, ne pomete kuću i ne traži pomnjivo, dok je ne nađe? A kad je nađe, pozove prijateljice i susjede i reče im: Radujte se sa mnom, jer sam našla izgubljenu drahmu. Kažem vam, da će takva radost biti pred Božjim anđelima zbog jednoga grješnika koji se obrati."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "id": "tableCredo",
+   "hidden": true,
+   "la": "Credo (Symbolum Niceno-Constantinopolitanum)",
+   "hr": "Vjerovanje (nicejsko-carigradsko)",
+   "rows": [
+    {
+     "la": "Credo in unum Deum. Patrem omnipoténtem, factórem caeli et terrae, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saécula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de caelis. (Hic genuflecitur) Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in caelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostolicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam ventúri saéculi. Amen.",
+     "hr": "Vjerujem u jednoga Boga, Oca svemogućega, stvoritelja neba i zemlje, svega vidljivoga i nevidljivoga.I u jednoga Gospodina Isusa Krista, jedinorođenoga Sina Božjega. Rođenog od Oca prije svih vjekova. Boga od Boga, svjetlo od svjetla, pravoga Boga od pravoga Boga. Rođena, ne stvorena, istobitna s Ocem, po kome je sve stvoreno. Koji je radi nas ljudi i radi našega spasenja sišao s nebesa. (ovdje se poklekne) I utjelovio se po Duhu Svetom od Marije Djevice: i postao čovjekom. Raspet također za nas: pod Poncijem Pilatom mučen i pokopan. I uskrsnuo treći dan, po Svetom Pismu. I uzašao na nebo: sjedi s desne Ocu. I opet će doći u slavi suditi žive i mrtve, i njegovu kraljevstvu neće biti kraja. I u Duha Svetoga, Gospodina i životvorca; koji izlazi od Oca i Sina. Koji se s Ocem i Sinom skupa časti i zajedno slavi; koji je govorio po prorocima. I u jednu svetu katoličku i apostolsku Crkvu. Ispovijedam jedno krštenje za oproštenje grijeha. I iščekujem uskrsnuće mrtvih. I život budućega vijeka. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 9, 11-12 et 13\nSperent in te omnes, qui novérunt nomen tuum, Dómine: quóniam non derelínquis quaeréntes te: psállite Dómino, qui hábitat in Sion: quóniam non est oblítus oratiónem páuperum.",
+     "hr": "Ps 9, 11-12 i 13\nNek se ufaju u tebe svi koji poznaju ime tvoje, Gospodine, jer ne ostavljaš one koji te traže. Pjevajte Gospodinu na Sionu, jer nije zaboravio vapaj siromaha."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Réspice, Dómine, múnera supplicántis Ecclésiae: et salúti credéntium perpétua sanctificatióne suménda concéde.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Pogledaj, Gospodine, na darove Crkve koja se moli i podaj da ih vjernici primaju na trajno posvećenje i spasenje.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de sanctíssima Trinitáte",
+   "hr": "Predslovlje Presvetog Trojstva",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: Qui cum unigénito Fílio tuo, et Spíritu Sancto, unus es Deus, unus es Dóminus: non in uníus singularitáte persónae, sed in uníus Trinitáte substántiae. Quod enim de tua glória, revelánte te, crédimus, hoc de Fílio tuo, hoc de Spíritu Sancto, sine differéntia discretiónis sentímus. Ut in confessióne verse sempiternaéque Deitátis, et in persónis propríetas, et in esséntia únitas, et in maiestáte adorétur aequálitas. Quam laudant Angeli atque Archángeli, Chérubim quoque ac Séraphim: qui non cessant clamáre cotídie, una voce dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi. Gospodine, sveti Oče, svemogući vječni Bože. – Ti si s jedinorođenim Sinom tvojim i s Duhom Svetim jedan Bog, jedan Gospodin, ne u jedinstvu jedne osobe, već u Trojstvu jedine biti. Što naime po tvojoj objavi vjerujemo o tvojoj slavi, to isto bez razlike i razlučivanja vjerujemo i o tvome Sinu i o Duhu Svetome. Tako se u ispovijedanju istinitog i vjekovječnog božanstva klanjamo i vlastitosti osoba i jedinstvu biti i jednakosti veličanstva. – Koje hvale anđeli i arkanđeli, kerubini i serafini koji ne prestaju svaki dan klicati govoreći složnim glasom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Luc 15, 10\nDico vobis: gáudium est Angelis Dei super uno peccatóre paeniténtiam agénte.",
+     "hr": "Lk 15, 10\nKažem vam: Anđeli se Božji raduju nad jednim grješnikom koji se obrati."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nSancta tua nos, Dómine, sumpta vivíficent: et misericórdiae sempitérnae praéparent expiátos.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nTvoja nam sveta otajstva koja prinosimo, Gospodine, dala život i očišćene pripravila na neprestano milosrđe.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

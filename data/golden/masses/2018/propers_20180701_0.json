@@ -1,0 +1,163 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-07-01",
+ "n": 0,
+ "heading": "NEDJELJA, 1.VII.2018.",
+ "title": "Predragocjena Krv Gospodina našega Isusa Krista",
+ "rank": "Blagdan I. razreda",
+ "colour": "Red",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Apoc 5, 9-10, Ps 88, 2\n(Apoc 5, 9-10) Redemísti nos, Dómine, in Sánguine tuo, ex omni tribu, et lingua, et pópulo, et natióne: et fecísti nos Deo nostro regnum. (Ps 88, 2) Misericórdias Dómini in aetérnum cantábo: in generatiónem et generatiónem annuntiábo veritátem tuam in ore meo.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Apoc 5, 9-10) Redemísti nos, Dómine, in Sánguine tuo, ex omni tribu, et lingua, et pópulo, et natióne: et fecísti nos Deo nostro regnum.",
+     "hr": "Otk 5, 9-10, Ps 88, 2\n(Otk 5, 9-10) Otkupio si nas, Gospodine, svojom krvi od svakog plemena i jezika, od svakog puka i naroda, i učinio si nas kraljevstvom za Boga našega. (Ps 88, 2) Milosrdna ću djela Gospodnja pjevati u vijeke; svojim ću ustima navješćivati tvoju vjernost kroz sve naraštaje.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Otk 5, 9-10) Otkupio si nas, Gospodine, svojom krvi od svakog plemena i jezika, od svakog puka i naroda, i učinio si nas kraljevstvom za Boga našega."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nOmnípotens sempitérne Deus, qui unigénitum Fílium tuum mundi Redemptórem constituísti, ac eius Sánguine placári voluísti: concéde, quaésumus, salútis nostrae prétium solémni cultu ita venerári, atque a praeséntis vitae malis eius virtúte deféndi in terris; ut fructu perpétuo laetémur in caelis.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nSvemogući vječni Bože, koji si jedinorođenoga Sina svoga postavio za Spasitelja svijeta i odredio da ti njegova Krv bude na pomirbu, podaj, molimo, da cijenu našega spasenja svečanom službom tako štujemo i da nas njezina moć tako štiti od zla u ovom životu, da joj vječni plod uživamo na nebu.\n<i>Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Hebr 9, 11-15\nLéctio Epístolae beáti Pauli Apóstoli ad Hebraéos. Fratres: Christus assístens póntifex futurórum bonórum, per ámplius et perféctius tabernáculum non manufáctum, id est, non huius creatiónis: neque per sánguinem hircórum aut vitulórum, sed per próprium sánguinem introívit semel in Sancta, aetérna redemptióne invénta. Si enim sanguis hircórum et taurórum, et cinis vítulae aspérsus, inquinátos sanctíficat ad emundatiónem carnis ; quanto magis sanguis Christi, qui per Spíritum Sanctum semetípsum óbtulit immaculátum Deo, emundábit consciéntiam nostram ab opéribus mórtuis, ad serviéndum Deo vivénti ? Et ídeo novi testaménti mediátor est: ut morte intercedénte, in redemptiónem eárum praevaricatiónum, quae erant sub prióri testaménto, repromissiónem accípiant, qui vocáti sunt, aetérnae haereditátis, in Christo Iesu Dómino nostro.",
+     "hr": "Heb 9, 11-15\nČitanje Poslanice bl. Pavla apostola Hebrejima. Braćo: Krist veliki svećenik budućih dobara, nakon što je prešao kroz veći i savršeniji šator, koji nije učinjen rukama, to jest ne pripada ovom svijetu, ušao je, jednom zauvijek, u vječno svetište, ne krvlju jaraca ili junaca, nego vlastitom krvlju, pošto nam je stekao vječni otkup. Ako krv jaraca i volova i posipanje pepelom junice posvećuje okaljane dajući njihovu tijelu zakonsku čistoću, koliko će više krv Krista, koji samoga sebe neokaljana Bogu prinese po Svetom Duhu, očistiti našu savjest od mrtvih djela, da služimo živome Bogu? On je zato posrednik novoga zavjeta, da po smrti, koju je podnio za otkup počinjenih prestupaka u prvom zavjetu, svi izabranici prime obećanu vječnu baštinu u našem Gospodinu Isusu Kristu."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "I Io 5, 6 et 7-8\nHic est qui venit per aquam et sánguinem, Iesus Christus: non in aqua solum, sed in aqua et sánguine. Tres sunt, qui testimónium dant in caelo: Pater, Verbum, et Spíritus Sanctus: et hi tres unum sunt. Et tres sunt, qui testimoóium dant in terra: Spíritus, aqua, et sanguis: et hi tres unum sunt.",
+     "hr": "1 Iv 5, 6 i 7-8\nOvaj je došao u vodi i u krvi, ne samo u vođi nego u vodi i u krvi. Trojica svjedoče na nebu: Otac i Riječ i Duh Sveti, i ova trojica su jedno. I troje svjedoči na zemlji: Duh i voda i krv, i ovo je troje jedno."
+    },
+    {
+     "la": "I Io 5, 9\n<i>Allelúia</i>, <i>allelúia</i>.\nSi testimónium hóminum accípimus, testimónium Dei maius est. <i>Allelúia</i>.",
+     "hr": "1 Iv 5, 9\n<i>Aleluja</i>, <i>aleluja</i>.\nAko prihvaćamo svjedočanstvo ljudi, Božje je svjedočanstvo veće. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Io 19, 30-35\nSequéntia sancti Evangélii secúndum Ioánnem. In illo témpore: Cum accepísset Iesus acétum, dixit: Consummátum est. Et inclinator cápite trádidit spíritum. Iudaéi ergo, quóniam Parascéve erat, ut non remanérent in cruce corpora sábbato, erat enim magnus dies ille sábbati, rogavérunt Pilátum, ut frangeréntur eórum crura, et tolleréntur. Venérunt ergo mílites: et primi quidem fregérunt crura, et altérius, qui crucifíxus est cum eo. Ad Iesum autem cum veníssent, ut vidérunt eum iam mórtuum, non fregérunt eius crura: sed unus mílitum láncea latus eius apéruit, et contínuo exívit sanguis et aqua. Et qui vidit, testimónium perhíbuit: et verum est testimónium eius.",
+     "hr": "Iv 19, 30-35\nSlijedi sveto Evanđelje po Ivanu. U ono vrijeme, kad je Isus okusio ocat, reče: Svršeno je! I nakloni glavu i predade duh. Budući da je bio dan priprave i da tjelesa ne bi ostala na križu u subotu (jer je one subote bio veliki blagdan), Židovi zamole Pilata da im se prebiju noge pa da se skinu. Vojnici dođu i prebiju noge obojici raspetih s Isusom. Ali, kad su došli do Isusa i vidjeli da je već umro. ne prebiju mu noge, nego jedan vojnik kopljem otvori njegova rebra, i odmah poteče krv i voda. Onaj koji je to vidio svjedoči, i njegovo je svjedočanstvo istinito."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "id": "tableCredo",
+   "hidden": true,
+   "la": "Credo (Symbolum Niceno-Constantinopolitanum)",
+   "hr": "Vjerovanje (nicejsko-carigradsko)",
+   "rows": [
+    {
+     "la": "Credo in unum Deum. Patrem omnipoténtem, factórem caeli et terrae, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saécula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de caelis. (Hic genuflecitur) Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in caelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostolicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam ventúri saéculi. Amen.",
+     "hr": "Vjerujem u jednoga Boga, Oca svemogućega, stvoritelja neba i zemlje, svega vidljivoga i nevidljivoga.I u jednoga Gospodina Isusa Krista, jedinorođenoga Sina Božjega. Rođenog od Oca prije svih vjekova. Boga od Boga, svjetlo od svjetla, pravoga Boga od pravoga Boga. Rođena, ne stvorena, istobitna s Ocem, po kome je sve stvoreno. Koji je radi nas ljudi i radi našega spasenja sišao s nebesa. (ovdje se poklekne) I utjelovio se po Duhu Svetom od Marije Djevice: i postao čovjekom. Raspet također za nas: pod Poncijem Pilatom mučen i pokopan. I uskrsnuo treći dan, po Svetom Pismu. I uzašao na nebo: sjedi s desne Ocu. I opet će doći u slavi suditi žive i mrtve, i njegovu kraljevstvu neće biti kraja. I u Duha Svetoga, Gospodina i životvorca; koji izlazi od Oca i Sina. Koji se s Ocem i Sinom skupa časti i zajedno slavi; koji je govorio po prorocima. I u jednu svetu katoličku i apostolsku Crkvu. Ispovijedam jedno krštenje za oproštenje grijeha. I iščekujem uskrsnuće mrtvih. I život budućega vijeka. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "I Cor 10, 16\nCalix benedictiónis, cui benedícimus, nonne communicátio Sánguinis Christi est? Et panis, quem frángimus, nonne participátio córporis Dómini est?",
+     "hr": "1 Kor 10, 16\nZar nije blagoslovljeni kalež, koji blagoslivljamo, zajednica krvi Kristove? Zar nije kruh, koji lomimo, zajednica tijela Kristova?"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Per haec divína mystéria, ad novi, quaésumus, testaménti mediatórem Iesum accedámus: et super altária tua, Dómine virtútum, aspersiónem Sánguinis mélius loquéntem, quam Abel, innovémus.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Po ovim božanskim otajstvima, molimo, da pristupimo k Isusu, posredniku novoga Zavjeta, i da na tvojim oltarima, Bože svake moći, ponovno poteče krv koja zaziva rječitije nego Abelova.\n<i>Koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de Sancta Cruce",
+   "hr": "Predslovlje Svetog Križa",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: Qui salútem humáni genéris in ligno Crucis constituísti: ut, unde mors oriebátur, inde vita resúrgeret: et, qui in ligno vincébat, in ligno quoque vincerétur: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi Gospodine, sveti Oče, svemogući vječni Bože: – ti si odredio spasenje ljudskog roda po drvu Križa, da se opet rodi život ondje gdje je nikla smrt, i onaj koji je na drvu pobijedio, bude pobijeđen na drvu po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glas primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Hebr 9, 28\nChristus semel oblátus est ad multórum exhauriénda peccáta: secúndo sine peccáto apparébit exspectántibus se in salútem.",
+     "hr": "Heb 9, 28\nKrist se žrtvovao jedanput, da uzme grijehe mnogih; drugi će se put pokazati bez grijeha onima koji ga iščekuju za spasenje."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nAd sacram, Dómine, mensam admíssi, háusimus aquas in gáudio de fóntibus Salvatóris: Sanguis eius fiat nobis, quaésumus, fons aquae in vitam aetérnam saliéntis:\n<i>qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nPripušteni k svetom stolu, Gospodine, u radosti smo crpili vodu iz vrela Spasiteljeva; njegova krv neka nam bude, molimo, vrelo vode koje ključa u vječni život:\n<i>koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

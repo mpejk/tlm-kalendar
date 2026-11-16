@@ -1,0 +1,164 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-02-06",
+ "n": 0,
+ "heading": "PONEDJELJAK, 6.II.2017.",
+ "title": "sv. Tito, biskup, priznavalac",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen na tihim misama: sv. Doroteja iz Cezareje, djevica, mučenica"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Eccli 45, 30, Ps 131, 1\n(Eccli 45, 30) Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in aetérnum. (Ps 131, 1) Meménto, Dómine, David: et omnis mansuetúdinis eius.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Eccli 45, 30) Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in aetérnum.",
+     "hr": "Sir 45, 30, Ps 131, 1\n(Sir 45, 30) Sklopio je Gospodin s njime savez mira učinio ga knezom da zauvijek bude u svećeničkom dostojanstvu. (Ps 131, 1) Spomeni se, Gospodine, Davida i sve njegove krotkosti.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Sir 45, 30) Sklopio je Gospodin s njime savez mira učinio ga knezom da zauvijek bude u svećeničkom dostojanstvu."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui beátum Titum Confessórem tuum atque Pontíficem apostólicis virtútibus decorásti: eius méritis et intercessióne concéde; ut, iuste et pie vivéntes in hoc saéculo, ad caeléstem pátriam perveníre mereámur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si blaženoga Tita priznavaoca i biskupa ukrasio apostolskim krepostima, daj da živeći pravedno i pobožno na ovom svijetu zavrijedimo po njegovim zaslugama i zagovoru stići u nebesku domovinu.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Doroteja iz Cezareje, djevica, mučenica</i></b>\n<i>Orémus</i>.\nIndulgéntiam nobis, quaésumus, Dómine, beáta Doróthea Virgo et Martyr implóret: quae tibi grata semper éxstitit, et mérito castitátis, et tuae professióne virtútis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Doroteja iz Cezareje, djevica, mučenica</i></b>\n<i>Pomolimo se</i>.\nNeka nam isprosi oproštenje, molimo, Gospodine, blažena Doroteja djevica i mučenica koja ti je uvijek bila mila i zaslugom čistoće i očitovanjem tvoje jakosti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Eccli 44, 16-27; 45, 3-20\nLéctio libri Sapiéntiae. Ecce sácerdos magnus, qui in diébus suis plácuit Deo, et invéntus est iustus: et in témpore iracúndiae factus est reconciliátio. Non est invéntus símilis illi, qui conservávit legem Excélsi. Ideo iureiurándo fecit illum Dóminus créscere in plebem suam. Benedictiónem ómnium géntium dedit illi, et testaméntum suum confirmávit super caput eius. Agnóvit eum in benedictiónibus suis: conservávit illi misericórdiam suam: et invénit grátiam coram óculis Dómini. Magnificávit eum in conspéctu regum: et dedit illi corónam glóriae. Státuit illi testaméntum aetérnum, et dedit illi sacerdótium magnum: et beatificávit illum in glória. Fungi sacerdótio, et habére laudem in nómine ipsíus, et offérre illi incénsum dignum in odórem suavitátis.",
+     "hr": "Sir 44, 16-27; 45, 3-20\nČitanje knjige Mudrosti. Evo velikog svećenika,koji se za svoga života svidio Bogu i bio je pravedan, te je postao pomirnikom u vrijeme srdžbe. Nitko se ne nađe tko bi kao on izvršavao zakon Svevišnjega. I jer mu se Gospodin zavjeri, učini da uzraste kao njegov narod. Izlio je na njega blagoslov svih naroda i nad njim je potvrdio svoj zavjet. Odlikovao ga je svojim blagoslovima, očuvao mu svoje milosrđe te je stekao milost pred Gospodinom. Proslavio ga je pred kraljevima i udijelio mu vijenac slave. Sklopio je s njim vječni zavjet i predao mu veliko svećenstvo. Usrećio ga je slavom da vrši svećeničku službu i blagoslivlja u njegovo ime i prinosi mu dostojan miomirisni kad."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Eccli 44, 16, Eccli 44, 20\n(Eccli 44, 16) Ecce sácerdos magnus, qui in diébus suis plácuit Deo. (Eccli 44, 20) Non est invéntus símilis illi, qui conserváret legem Excélsi.",
+     "hr": "Sir 44, 16, Sir 44, 20\n(Sir 44, 16) Evo velikog svećenika koje se za svoga života svidio Bogu. (Sir 44, 20) Nitko mu nije bio ravan u izvršavanju zakona Svevišnjega."
+    },
+    {
+     "la": "Ps 109, 4\n<i>Allelúia</i>, <i>allelúia</i>.\nTu es sacérdos in aetérnum, secúndum órdinem Melchísedech. <i>Allelúia</i>.",
+     "hr": "Ps 109, 4\n<i>Aleluja</i>, <i>aleluja</i>.\nTi si svećenik dovijeka po redu Melkisedekovu. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 10, 1-9\nSequéntia sancti Evangélii secúndum Lucam. In illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. Et dicébat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum, neque peram, neque calceaménta, et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte edéntes et bibéntes quae apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quae apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei.",
+     "hr": "Lk 10, 1-9\nSlijedi sveto Evanđelje po Luki. U ono vrijeme odredi Gospodin i drugu sedamdeset i dvojicu i posla ih dva po dva pred sobom u svaki grad i mjesto kamo je sam kanio doći. I govorio im je: Žetva je velika, a radnika je malo. Zato molite gospodara žetve da pošalje radnike u svoju žetvu. Idite: Evo, ja vas šaljem kao janjce među vukove. Ne nosite ni kese ni torbe ni obuće i nikoga ne pozdravljajte na putu. U kojugod kuću uđete, kažite najprije: Mir ovoj kući! I ako tko ondje bude dostojan mira, ostat će na njemu vaš mir, ako ne bude, vratit će se k vama. Ostanite u onoj kući, jedite i pijte što imaju jer radnik zaslužuje svoju plaću. Ne prelazite iz kuće u kuću. I u kojigod grad uđete i prime vas, jedite, što postave pred vas. I liječite bolesne koji su u njemu, i kažite im: Približilo vam se kraljevstvo Božje!"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 88, 21-22\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et brácchium meum confortábit eum.",
+     "hr": "Ps 88, 21-22\nNašao sam Davida, slugu svojega, pomazao sam ga svojim svetim uljem. S njim će biti ruka moja i krijepit će ga desnica moja."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Sancti tui, quaésumus, Dómine, nos ubíque laetíficent: ut, dum eórum mérita recólimus, patrocínia sentiámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Neka nas, molimo, Gospodine, tvoji sveti posvuda razveseljuju, da osjetimo njihovu zaštitu dok štujemo njihove zasluge.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Doroteja iz Cezareje, djevica, mučenica</i></b>\nHóstias tibi, Dómine, beátae Dorótheae Vírginis et Mártyris tuae dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Doroteja iz Cezareje, djevica, mučenica</i></b>\nDobrostivo primi, Gospodine, žrtvene darove koje ti posvećujemo po zaslugama blažene Doroteje djevice tvoje i mučenice, i daj da nam budu na neprestanu pomoć.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Luc 12, 42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram.",
+     "hr": "Lk 12, 42\nEvo vjernog i razboritog sluge koga je postavio Gospodin nad svojom obitelji, da im na vrijeme daje za hranu pšenicu koja im pripada."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nPraesta, quaésumus, omnípotens Deus: ut, de percéptis munéribus grátias exhibéntes, intercedénte beáto Tito Confessóre tuo atque Pontífice, benefícia potióra sumámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nPodaj, molimo, svemogući Bože, da, dok ti na primljenim darovima zahvaljujemo, zagovorom tvoga blaženoga priznavaoca i biskupa Tita još u obilnijoj mjeri primimo tvoja dobročinstva.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Doroteja iz Cezareje, djevica, mučenica</i></b>\n<i>Orémus</i>.\nDivíni múneris largitáte satiáti, quaésumus, Dómine Deus noster: ut, intercedénte beáta Doróthea Vírgine et Mártyre tua, in eius semper participatióne vivámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Doroteja iz Cezareje, djevica, mučenica</i></b>\n<i>Pomolimo se</i>.\nNasićeni obilnim Božjim darovima, molimo, Gospodine Bože naš, da po zagovoru blažene Doroteje tvoje djevice i mučenice, uvijek živimo sudjelujući u njima.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

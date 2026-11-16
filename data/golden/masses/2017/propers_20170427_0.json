@@ -1,0 +1,146 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-04-27",
+ "n": 0,
+ "heading": "ČETVRTAK, 27.IV.2017.",
+ "title": "sv. Petar Kanizij, priznavalac, naučitelj",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Eccli 15, 5, Ps 91, 2\n(Eccli 15, 5) In médio Ecclésiae apéruit os eius: et implévit eum Dóminus spíritu sapiéntiae et Intelléctus: stolam glóriae índuit eum. <i>Allelúia</i>, <i>allelúia</i>.\n(Ps. 91, 2) Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Eccli 15, 5) In médio Ecclésiae apéruit os eius: et implévit eum Dóminus spíritu sapiéntiae et Intelléctus: stolam glóriae índuit eum. <i>Allelúia</i>, <i>allelúia</i>.",
+     "hr": "Sir 15, 5, Ps 91, 2\n(Sir 15, 5) Usred Crkve otvorio je Gospodin usta njegova i napunio ga duhom mudrosti i razuma, ogrnuo ga odjećom slave. <i>Aleluja</i>, <i>aleluja</i>.\n(Ps. 91, 2) Dobro je slaviti Gospodina i pjevati imenu tvojem, Višnji!\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Sir 15, 5) Usred Crkve otvorio je Gospodin usta njegova i napunio ga duhom mudrosti i razuma, ogrnuo ga odjećom slave. <i>Aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui ad tuéndam cathólicam fidem beátum Petrum Confessórem tuum virtúte et doctrína roborásti: concéde propítius; ut, eius exémplis et mónitis, errántes ad salútem resipíscant, et fidéles in veritátis confessióne persevérent.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si blaženog Petra priznavaoca svoga ojačao krepošću i naukom za obranu katoličke vjere, daj milostivo, da se po njegovu primjeru i opomenama zalutali povrate k spasenju, a vjerni ustraju u priznavanju istine.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "II Tim 4, 1-8\nLéctio Epístolae beáti Pauli Apóstoli ad Timótheum. Caríssime: Testíficor coram Deo, et Iesu Christo, qui iudicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum eius: praédica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria coacervábunt sibi magístros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac evangelístae, ministérium tuum imple. Sóbrius esto. Ego enim iam delíbor, et tempus resolutiónis mes instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna iustítiae, quam reddet mihi Dóminus in illa die, iustus iudex: non solum autem mihi, sed et iis qui díligunt advéntum eius.",
+     "hr": "2 Tim 4, 1-8\nČitanje Poslanice bl. Pavla apostola Timoteju. Predragi, zaklinjem te pred Bogom i Isusom Kristom koji će suditi žive i mrtve njegovim dolaskom i njegovim kraljevstvom, propovijedaj riječ, revnuj u zgodno i nezgodno vrijeme, karaj, moli, opominji sa svom strpljivošću i naukom. Jer će doći vrijeme kad neće primati zdrave nauke, nego će oko sebe skupiti naučitelje po svojim požudama koji će im ugađati ušima. Odvraćat će uši od istine, a obraćat će ih k bajkama. Ali ti bdij, budi u svemu strpljiv, izvršuj djelo evanđeliste, ispunjavaj svoju službu. Budi trijezan! Ja sam već žrtvovan i vrlo je blizu vrijeme moje smrti. Dobar sam boj bio, tijek svršio, vjeru održao. Na kraju mi je pripravljen vijenac pravde koji će mi u onaj dan dati Gospodin, pravedni sudac, ali ne samo meni, nego i onima koji ljube njegov dolazak."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Allelúia",
+   "hr": "Aleluja",
+   "rows": [
+    {
+     "la": "Eccli 45, 9, Osee 14, 6\n<i>Allelúia</i>, <i>allelúia</i>.\n(Eccli 45,9) Amávit eum Dóminus, et ornávit eum: stolam glóriae índuit eum. <i>Allelúia</i>.\n(Osee 14, 6) Iustus germinábit sicut lílium: et florébit in aetérnum ante Dóminum. <i>Allelúia</i>.",
+     "hr": "Sir 45, 9, Hoš 14, 6\n<i>Aleluja</i>, <i>aleluja</i>.\n(Sir 45,9) Gospodin ga je ljubio i ukrasio, zaodjenuo ga je haljinom slave. <i>Aleluja</i>.\n(Hoš 14, 6) Pravednik raste kao ljiljan i vječno cvate pred Gospodinom. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 5, 13-19\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Dixit Iesus discípulis suis: Vos estis sal terrae. Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra, nisi ut mittátur foras, et conculcétur ab homínibus. Vos estis lux mundi. Non potest cívitas abscóndi supra montem pósita. Neque accéndunt lucérnam, et ponunt eam sub módio, sed super candelábrum, ut lúceat ómnibus qui in domo sunt. Sic lúceat lux vestra coram homínibus,ut vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in caelis est. Nolíte putáre, quóniam veni sólvere legem aut prophétas: non veni sólvere, sed adimplére. Amen quippe dico vobis, donec tránseat caelum et terra, iota unum aut unus apex non praeteríbit a lege, donec ómnia fiant. Qui ergo sólverit unum de mandátis istis mínimis, et docúerit sic hómines, mínimus vocábitur in regno caelórum: qui autem fécerit et docúerit, hic magnus vocábitur in regno caelórum.",
+     "hr": "Mt 5, 13-19\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme reče Isus svojim učenicima: Vi ste sol zemlje. Ako sol izvjetri, čim će se soliti? Za ništa više ne vrijedi, nego da se izbaci i da je ljudi pogaze. Vi ste svjetlo svijeta. Ne može se sakriti grad sazidan na gori. Niti se upaljuje svijeća i postavlja pod varićak, nego na svijećnjak da svijetli svima koji su u kući. Tako neka svijetli vaše svjetlo pred ljudima da vide vaša dobra djela i slave vašega nebeskog Oca. Nemojte misliti da sam došao ukinuti zakon ili proroke! Nisam došao ukinuti nego dopuniti. Zaista vam kažem, dok stoji nebo i zemlja, neće od zakona nestati ni jednog slova, niti jednog znaka, dok se sve ne ispuni. Tko, dakle, dokine jednu od ovih najmanjih zapovijedi i tako nauči ljude, bit će najmanji u kraljevstvu nebeskom. A tko bude vršio i naučavao, taj će biti velik u kraljevstvu nebeskom."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 91, 13\nIustus ut palma florébit: sicut cedrus, quae in Líbano est, multiplicábitur. <i>Allelúia</i>.",
+     "hr": "Ps 91, 13\nPravednik cvate kao palma i raste kao libanski cedar. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Sancti Petri Confessóris tui atque Doctóris nobis, Dómine, pia non desit orátio: quae et múnera nostra concíliet; et tuam nobis indulgéntiam semper obtíneat.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Neka nam, Gospodine, pomogne pobožna molitva svetoga Petra tvoga priznavaoca i naučitelja, i neka njegova molitva učini da ti naši darovi budu prijatni i isprosi nam oproštenje.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio paschális",
+   "hr": "Predslovlje uskrsno",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre: Te quidem, Dómine, omni témpore, sed <i>in hoc potíssimum</i> gloriósius praedicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno da tebe, Gospodine, u svako doba, a osobito <i>u ovo</i> svečanije slavimo, kad je Krist žrtvovan, naše vazmeno Janje. On je naime pravo janje koje oduze grijehe svijeta. Svojom smrću on je uništio našu smrt i svojim uskrsnućem obnovio naš život. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Luc 12, 42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram. <i>Allelúia</i>.",
+     "hr": "Lk 12, 42\nEvo vjernog i razboritog sluge koga je postavio Gospodin nad svojom obitelji, da im na vrijeme daje za hranu pšenicu koja im pripada. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nUt nobis, Dómine, tua sacrifícia dent salútem: beátus Petrus Conféssor tuus et Doctor egrégius, quaésumus, precátor accédat.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nNeka se zauzme za nas, molimo, Gospodine, blaženi Petar tvoj priznavalac i naučitelj, da nam tvoje žrtve donesu spasenje.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

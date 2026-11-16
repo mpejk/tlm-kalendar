@@ -1,0 +1,150 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-06-04",
+ "n": 0,
+ "heading": "PONEDJELJAK, 4.VI.2018.",
+ "title": "sv. Franjo Caracciolo, priznavalac",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 21, 15, Ps 68, 10, Ps 72, 1\n(Ps 21, 15, Ps 68, 10) Factum est cor meum tamquam cera liquéscens in médio ventris mei: quóniam zelus domus tuae comédit me. (Ps 72, 1) Quam bonus Israel Deus: his qui recto sunt corde!\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 21, 15, Ps 68, 10) Factum est cor meum tamquam cera liquéscens in médio ventris mei: quóniam zelus domus tuae comédit me.",
+     "hr": "Ps 21, 15, Ps 68, 10, Ps 72, 1\n(Ps 21, 15, Ps 68, 10) Srce mi je postalo kao vosak, rastopilo se u meni, jer me izjeda revnost za domom tvojim. (Ps 72, 1) Kako je dobar Bog za Izraela, za sve one koji su pravedna srca!\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 21, 15, Ps 68, 10) Srce mi je postalo kao vosak, rastopilo se u meni, jer me izjeda revnost za domom tvojim."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui beátum Francíscum, novi Ordinis institutórem, orándi stúdio et paeniténtiae amóre decorásti: da fámulis tuis in eius imitatióne ita profícere; ut, semper orántes et corpus in servitútem redigéntes, ad caeléstem glóriam perveníre mereántur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si blaženog Franju, osnivača novoga reda. ukrasio revnošću u molitvi i ljubavlju prema pokori, daj svojim slugama tako napredovati u njegovu nasljedovanju da se uvijek mole i duhu podvrgavaju tijelo pa da zavrijede doći u nebesku slavu.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Sap 4, 7-14\nLéctio libri Sapiéntiae. Iustus, si morte praeoccupátus fúerit, in refrigério erit. Senéctus enim venerábilis est non diutúrna, neque annórum número computáta: cani autem sunt sensus hóminis, et aetas senectútis vita immaculáta. Placens Deo factus est diléctus, et vivens inter peccatóres translátus est. Raptus est, ne malítia mutáret intelléctum eius, aut ne fíctio decíperet ánimam illíus. Fascinátio enim nugacitátis obscúrat bona, et inconstántia concupiscéntiae transvértit sensum sine malítia. Consummátus in brevi explévit témpora multa, plácita enim erat Deo ánima illíus: propter hoc properávit edúcere illum de médio iniquitátum.",
+     "hr": "Mudr 4, 7-14\nČitanje knjige Mudrosti. Pravednik će uživati mir, i ako ga zateče rana smrti. Časna starost nije u dugom životu ni u broju godina, nego bijela kosa je čovječja mudrost, a staračko doba neokaljan život. Bog ga je zavolio, jer mu je ugodio, prenio ga, jer ga je udaljio od grješnika. Bio je uzet, da ne bi zloba promijenila njegova razuma, ili da ne bi varka zamamila njegove duše, jer čar ispraznosti zasjenjuje dobro, i nestalnost požude prevrće bezazlen duh. Dozreo je u kratko vrijeme i ispunio dugi život. Bogu se svidjela njegova duša, i zato se požurio, da ga izvede iz opačina."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 41, 2, Ps 41, 3\n(Ps 41, 2) Quemádmodum desíderat cervus ad fontes aquárum: ita desíderat ánima mea ad te, Deus. (Ps 41, 3) Sitívit ánima mea ad Deum fortem vivum.",
+     "hr": "Ps 41, 2, Ps 41, 3\n(Ps 41, 2) Kao što čezne jelen za izvorima vođe, tako čezne duša moja za tobom, Bože. (Ps 41, 3) Žeđa duša moja Boga jakoga i živoga."
+    },
+    {
+     "la": "Ps 72, 26\n<i>Allelúia</i>, <i>allelúia</i>.\nDefécit caro mea et cor meum: Deus cordis mei, et pars mea Deus in aetérnum. <i>Allelúia</i>.",
+     "hr": "Ps 72, 26\n<i>Aleluja</i>, <i>aleluja</i>.\nSve da nestane tijela moga i srca moga, ti ćeš ipak ostati Bog srca moga i moja vječna baština. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 12, 35-40\nSequéntia sancti Evangélii secúndum Lucam. In illo témpore: Dixit Iesus discípulis suis: Sint lumbi vestri praecíncti, et lucérnae ardéntes in mánibus vestris, et vos símiles homínibus exspectántibus dóminum suum, quando revertátur a núptiis: ut, cum vénerit et pulsáverit, conféstim apériant ei. Beáti servi illi, quos, cum vénerit dóminus, invénerit vigilántes: amen dico vobis, quod praecínget se, et fáciet illos discúmbere, et tránsiens ministrábit illis. Et si vénerit in secúnda vigília, et si in tértia vigília vénerit, et ita invénerit, beáti sunt servi illi. Hoc autem scitóte, quóniam, si sciret paterfamílias, qua hora fur veníret, vigiláret útique, et non síneret perfódi domum suam. Et vos estóte paráti: quia, qua hora non putátis, Fílius hóminis véniet.",
+     "hr": "Lk 12, 35-40\nSlijedi sveto Evanđelje po Luki. U ono vrijeme Isus reče svojim učenicima: Neka budu opasani vaši bokovi i upaljene svjetiljke u vašim rukama, a vi budite slični slugama koji očekuju svojega gospodara, kada se vraća sa svadbe, da mu smjesta otvore vrata, čim dođe i pokuca. Blago onim slugama koje gospodar kada dođe nađe budne! Uvjeravam vas, da će se sam pripasati, narediti im da sjednu za stol i poslužiti ih. Blago tim slugama, ako ih nađe tako došao on bilo o drugoj, ili o trećoj straži. Pazite: Kada bi domaćin znao u koji čas dolazi tat, ne bi dopustio potkopati svoje kuće. Zato budite pripravni i vi, jer će Čovječji Sin doći u čas, kada vi i ne slutite."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 91, 13\nIustus ut palma florébit: sicut cedrus Líbani multiplicábitur.",
+     "hr": "Ps 91, 13\nKao palma cvjeta i kao libanski cedar raste pravednik."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Da nobis, clementíssime Iesu: ut praeclára beáti Francísci mérita recoléntes, eódem nos, ac ille, caritátis igne succénsi, digne in circúitu sacrae huius mensae tuae esse valeámus:\n<i>qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "Daj nam, preblagi Isuse, da slaveći divne zasluge blaženog Franje raspaljeni kao i on istim ognjem ljubavi, uzmognemo dostojno sudjelovati kod ovoga tvog svetog stola:\n<i>koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Ps 30, 20\nQuam magna multitúdo dulcédinis tuae, Dómine, quam abscondísti timéntibus te!",
+     "hr": "Ps 30, 20\nKako je veliko obilje miline tvoje, Gospodine, što je čuvaš za one koji te se boje!"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nSacrosáncti sacrifícii, quaésumus, Dómine, quod hódie in solemnitáte beáti Francísci tuae obtúlimus maiestáti, grata semper in méntibus nostris memória persevéret, et fructus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nMolimo, Gospodine, da u našim dušama uvijek traje draga uspomena i plod presvete žrtve, koju smo danas o svetkovini blaženog Franje prikazali tvome veličanstvu.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

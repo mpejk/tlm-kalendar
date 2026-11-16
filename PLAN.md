@@ -9,11 +9,11 @@ DO data: sparse clone in data/raw/do/repo (git-ignored; re-clone with the comman
 - [x] git init, .gitignore, package.json (TypeScript, Vitest, Playwright)
 
 ## 1. Harvest
-- [ ] Fetch year pages 2017, 2018, 2019 to data/raw/
-- [ ] Fetch all Mass pages (propers) and rite pages (actions) for 2017, 2018; probe 2019
-- [ ] Parse year pages -> data/golden/calendar.json (encoding repaired)
-- [ ] Parse Mass/rite pages -> data/golden/masses/*.json (ordered sections, both languages)
-- [ ] Overlap check Dec 2017 / Dec 2018
+- [x] Fetch year pages 2017, 2018, 2019 to data/raw/
+- [x] Fetch all Mass pages (propers) and rite pages (actions) for 2017, 2018; probe 2019
+- [x] Parse year pages -> data/golden/calendar.json (encoding repaired)
+- [x] Parse Mass/rite pages -> data/golden/masses/*.json (ordered sections, both languages)
+- [x] Overlap check Dec 2017 / Dec 2018
 - [ ] Translation memory data/tm/tm.json + conflicts report (TM-CONFLICTS.md)
 
 ## 2. Calendar engine (general)

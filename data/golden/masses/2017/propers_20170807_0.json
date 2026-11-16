@@ -1,0 +1,164 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-08-07",
+ "n": 0,
+ "heading": "PONEDJELJAK, 7.VIII.2017.",
+ "title": "sv. Kajetan iz Vincenze, priznavalac",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen na tihim misama: sv. Donat iz Arezza, biskup, mučenik"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 36, 30-31, Ps 36, 1\n(Ps 36, 30-31) Os iusti meditábitur sapiéntiam, et lingua eius loquétur iudícium: lex Dei eius in corde ipsíus. (Ps 36, 1) Noli aemulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 36, 30-31) Os iusti meditábitur sapiéntiam, et lingua eius loquétur iudícium: lex Dei eius in corde ipsíus.",
+     "hr": "Ps 36, 30-31, Ps 36, 1\n(Ps 36, 30-31) Pravednikova usta govore mudrost i jezik njegov kazuje pravdu. Zakon je Božji u srcu njegovu. (Ps 36, 1) Ne zaviđaj sreći grešnika i ne žesti se radi zlotvora.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 36, 30-31) Pravednikova usta govore mudrost i jezik njegov kazuje pravdu. Zakon je Božji u srcu njegovu."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui beáto Caietáno Confessóri tuo apostólicam vivéndi formam imitári tribuísti: da nobis, eius intercessióne et exémplo, in te semper confídere, et sola caeléstia desideráre.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si blaženom Kajetanu priznavaocu svome dao da nasljeduje apostolski oblik života, daj da se po njegovu zagovoru i primjeru uvijek uzdamo u tebe i želimo samo ono što je nebesko.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Donat iz Arezza, biskup, mučenik</i></b>\n<i>Orémus</i>.\nDeus, tuórum glória sacerdótum: praesta, quaésumus; ut sancti Mártyris tui et Epíscopi Donáti, cuius festa gérimus, sentiámus auxílium.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Donat iz Arezza, biskup, mučenik</i></b>\n<i>Pomolimo se</i>.\nBože, slavo svojih svećenika, podaj, molimo, da osjećamo pomoć svetoga tvoga mučenika i biskupa Donata kojega svetkovinu slavimo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Eccli 31, 8-11\nLéctio libri Sapiéntiae. Beatus vir, qui invéntus est sine mácula: et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? Fecit enim mirabília in vita sua. Qui probates est in illo, et perféctus est, erit illi glória aetérna: qui pótuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabílita sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+     "hr": "Sir 31, 8-11\nČitanje knjige Mudrosti. Blago čovjeku koji se nađe bez ljage i ne teži za zlatom, niti se uzda u novac i blago. Tko je taj, da ga pohvalimo? U svojem je životu učinio divna djela. Tko je u tome prokušan i savršen bit će uvijek slavan. Mogao je sagriješiti, ali nije sagriješio, učiniti zlo, ali nije počinio. Zato priznaje njegova djela Gospodin, a njegovih će se milostinja sjećati sve skupine svetih."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 91, 13-14, Ps 91, 3\n(Ps 91, 13-14) Iustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini. (Ps 91, 3) Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.",
+     "hr": "Ps 91, 13-14, Ps 91, 3\n(Ps 91, 13-14) Kao palma cvjeta i kao libanski cedar raste pravednik u domu Gospodnjem. (Ps 91, 3) Jutrom naviješta milosrđe tvoje i noću tvoju vjernost."
+    },
+    {
+     "la": "Iac 1, 12\n<i>Allelúia</i>, <i>allelúia</i>.\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitae. <i>Allelúia</i>.",
+     "hr": "Jak 1, 12\n<i>Aleluja</i>, <i>aleluja</i>.\nBlago čovjeku koji nadvlada napast, jer kad bude prokušan, primit će krunu života. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 6, 24-33\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Dixit Iesus discípulis suis: Nemo potest duóbus dóminis servíre: aut enim unum ódio habébit, et álterum díliget: aut unum sustinébit, et álterum contémnet. Non potéstis Deo servíre, et mammónae. Ideo dico vobis, ne sollíciti sitis ánimae vestrae quid manducétis, neque córpori vestro quid induámini. Nonne ánima plus est quam esca: et corpus plus quam vestiméntum? Respícite volatília caeli, quóniam non serunt, neque metunt, neque cóngregant in hórrea: et Pater vester caeléstis pascit illa. Nonne vos magis pluris estis illis? Quis autem vestrum cógitans potest adjícere ad statúram suam cúbitum unum? Et de vestiménto quid sollíciti estis? Consideráte lília agri quómodo crescunt: non labórant, neque nent. Dico autem vobis, quóniam nec Sálomon in omni glória sua coopértus est sicut unum ex istis. Si autem fenum agri, quod hódie est, et cras in clíbanum míttitur, Deus sic vestit: quanto magis vos módicae fídei? Nolíte ergo sollíciti esse, dicéntes: Quid manducábimus, aut quid bibémus, aut quo operiémur? Haec enim ómnia gentes inquírunt. Scit enim Pater vester, quia his ómnibus indigétis. Quaérite ergo primum regnum Dei, et iustítiam eius: et haec ómnia adiiciéntur vobis.",
+     "hr": "Mt 6, 24-33\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme reče Isus svojim učenicima: Nitko ne može služiti dvama gospodarima, jer ili će jednoga mrziti, a drugoga ljubiti, ili će pristajati uz jednoga, a prezirati drugoga. Ne možete služiti Bogu i bogatstvu! Zato vam kažem: Ne brinite se toliko za svoj život što ćete jesti, ni za svoje tijelo što ćete obući. Zar život ne vrijedi više nego jelo, i tijelo više nego odijelo? Pogledajte ptice: niti siju, niti žanju, niti sabiru u žitnice, a hrani ih vaš nebeski Otac. Niste li vi daleko vrjedniji od njih? A tko od vas može svojom brigom dodati svojem rastu i jedan lakat? I za odijelo što vas toliko mori briga? Gledajte kako rastu ljiljani u polju: niti se trude, niti predu, a kažem vam da se ni Salamon u svojem punom sjaju nije odijevao kao jedan od njih. Pa ako Bog tako odijeva poljsku travu koja danas jest, a već se sutra baca u peć, koliko će više vas, malovjerni? Ne brinite se dakle toliko i ne govorite: što ćemo jesti ili u što ćemo se obući? Sve to traže nevjernici. Vaš nebeski Otac zna da vam sve to treba. Tražite prije svega Božje kraljevstvo i njegovu pravdu, a sve će vam se ostalo dati."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 88, 25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu eius.",
+     "hr": "Ps 88, 25\nMoja će vjernost i moje milosrđe biti s njime, i svojim ću imenom uzdići njegovu moć."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Praesta nobis, quaésumus, omnípotens Deus: ut nostrae humilitátis oblátio, et pro tuórum tibi grata sit honóre Sanctórum, et nos córpore páriter et mente puríficet.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Daj nam, molimo, svemogući Bože, da naš ponizni prinos bude tebi drag zbog časti tvojih svetih,i neka očisti naše tijelo i dušu.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Donat iz Arezza, biskup, mučenik</i></b>\nPraesta, quaésumus, Dómine: ut sancti Mártyris tui et Epíscopi Donáti intercessióne, quem ad laudem nóminis tui dicátis munéribus honorámus, piae nobis fructus devotiónis accréscat.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Donat iz Arezza, biskup, mučenik</i></b>\nDaj, molimo. Gospodine, da nam po zagovoru svetog mučenika i biskupa Donata, kojega častimo darovima prikazanim na slavu tvoga imena, poraste plod pobožne odanosti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 24, 46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen dico vobis, super ómnia bona sua constítuet eum.",
+     "hr": "Mt 24, 46-47\nBlago slugi koga gospodar nađe budna, kad dođe. Zaista vam kažem: Postavit će ga nad svim imanjem svojim."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nQuaésumus, omnípotens Deus: ut, qui caeléstia aliménta percépimus, intercedénte beáto Caietáno Confessóre tuo, per haec contra ómnia advérsa muniámur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nMolimo, svemogući Bože, da nas nebeska hrana koju smo primili zagovorom blaženoga Kajetana, tvoga priznavaoca zaštiti od svih protivnosti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Donat iz Arezza, biskup, mučenik</i></b>\n<i>Orémus</i>.\nOmnípotens et miséricors Deus, qui nos sacramentórum tuórum et partícipes éfficis et minístros: praesta, quaésumus; ut, intercedénte beáto Donáto Mártyre tuo atque Pontífice, eiúsdem proficiámus et fídei consórtio et digno servítio.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Donat iz Arezza, biskup, mučenik</i></b>\n<i>Pomolimo se</i>.\nSvemogući i milosrdni Bože, koji nas činiš i sudionicima i službenicima svojih otajstava, podaj, molimo, do po zagovoru blaženog Donata tvoga mučenika i biskupa napredujemo po sjedinjenju s njim u vjeri i služimo ti dostojno poput, njega.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

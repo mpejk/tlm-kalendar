@@ -1,0 +1,146 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-05-04",
+ "n": 0,
+ "heading": "PETAK, 4.V.2018.",
+ "title": "sv. Monika, udovica",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 118, 75 et 120, Ps 118, 1\n(Ps 118, 75 et 120) Cognóvi, Dómine, quia aéquitas iudícia tua, et in veritáte tua humiliásti me: confíge timóre tuo carnes meas, a mandátis tuis tímui. <i>Allelúia</i>, <i>allelúia</i>.\n(Ps 118, 1) Beáti immaculáti in via: qui ámbulant in lege Dómini.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 118, 75 et 120) Cognóvi, Dómine, quia aéquitas iudícia tua, et in veritáte tua humiliásti me: confíge timóre tuo carnes meas, a mandátis tuis tímui. <i>Allelúia</i>, <i>allelúia</i>.",
+     "hr": "Ps 118, 75 i 120, Ps 118, 1\n(Ps 118, 75 i 120) Znam, Gospodine, da je pravedan sud tvoj i da si me pravedno ponizio. Prožmi svojim strahom moje tijelo da se bojim tvoga suda. <i>Aleluja</i>, <i>aleluja</i>.\n(Ps 118, 1) Blago onima koji idu neokaljanim putem, koji žive po zakonu Gospodnjemu.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 118, 75 i 120) Znam, Gospodine, da je pravedan sud tvoj i da si me pravedno ponizio. Prožmi svojim strahom moje tijelo da se bojim tvoga suda. <i>Aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, maeréntium consolátor et in te sperántium salus, qui beátae Mónicae pias lácrimas in conversióne fílii sui Augustíni misericórditer suscepísti: da nobis utriúsque intervéntu; peccáta nostra deploráre, et grátiae tuae indulgéntiam inveníre.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, tješitelju žalosnih i spasenje onih što se u te uzdaju. koji si milosrdno primio pobožne suze blažene Monike za obraćenje njezina sina Augusti na, daj nam po njihovu zagovoru da oplakujemo svoje grijehe i nađemo oproštenje po tvojoj milosti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "I Tim 5, 3-10\nLéctio Epístolae beáti Pauli Apóstoli ad Timótheum. Caríssime: Víduas honóra, quae vere víduae sunt. Si qua autem vídua fílios aut nepótes habet: discat primum domum suam régere, et mútuam vicem réddere paréntibus: hoc enim accéptum est coram Deo. Quae autem vere vídua est et desoláta, speret in Deum, et instet obsecratiónibus et oratiónibus nocte ac die. Nam quae in delíciis est, vivens mórtua est. Et hoc praécipe ut irreprehensíbiles sint. Si quis autem suórum, et máxime domesticórum curam non habet, fidem negávit, et est infidéli detérior. Vídua eligátur non minus sexagínta annórum, quae fúerit uníus viri uxor, in opéribus bonis testimónium habens, si fílios educávit, si hospítio recépit, si sanctórum pedes lavit, si tribulatiónem patiéntibus subministrávit, si omne opus bonum subsecúta est.",
+     "hr": "1 Tim 5, 3-10\nČitanje Poslanice bl. Pavla apostola Timoteju. Predragi, poštuj udovice koje su prave udovice. Koja udovica ima djece ili unučadi, neka najprije nauči upravljati svojim domom i dobro uzvraćati roditeljima, jer je to Bogu milo. Koja je prava udovica i osamljena, neka se pouzda u Boga i ustraje u prošnjama i molitvama noć i dan. A ona koja je odana užitcima živa je umrla. I naglasi im da budu besprijekorne. Koji se ne brine za svoje, navlastito za ukućane, taj je zanijekao vjeru, gori je od nevjernika. Među izabrane udovice neka se uvrsti ne mlađa od šezdeset godina, koja se udala samo jedanput, koju preporučuju dobra djela: ako je djecu čestito odgojila, bila gostoljubiva, prala noge svetima, pomagala patnicima i vršila dobročinstva svake vrsti."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Allelúia",
+   "hr": "Aleluja",
+   "rows": [
+    {
+     "la": "Ps 44, 5\n<i>Allelúia</i>, <i>allelúia</i>.\nSpécie tua, et pulchritúdine tua inténde, próspere procéde, et regna. <i>Allelúia</i>.\nPropter veritátem, et mansuetúdinem, et iustítiam: et dedúcet te mirabíliter déxtera tua. <i>Allelúia</i>.",
+     "hr": "Ps 44, 5\n<i>Aleluja</i>, <i>aleluja</i>.\nU svojoj veličanstvenoj ljepoti sretno pođi, napreduj i kraljuj. <i>Aleluja</i>.\nZbog vjernosti, blagosti i pravednosti divno će te voditi tvoja desnica. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 7, 11-16\nSequéntia sancti Evangélii secúndum Lucam. In illo témpore: Ibat Iesus in civitátem, quae vocátur Naim: et ibant cum eo discípuli eius, et turba copiósa. Cum autem appropinquáret portae civitátis, ecce defúnctus efferebátur fílius únicus matris suae: et haec vídua erat: et turba civitátis multa cum illa. Quam cum vidísset Dóminus, misericórdia motus super eam, dixit illi: Noli flere. Et accéssit, et tétigit lóculum. (Hi autem, qui portábant, stetérunt). Et ait: Adoléscens, tibi dico, surge. Et resédit qui erat mórtuus, et coepit loqui. Et dedit illum matri suae. Accépit autem omnes timor: et magnificábant Deum, dicéntes: Quia prophéta magnus surréxit in nobis: et quia Deus visitávit plebem suam.",
+     "hr": "Lk 7, 11-16\nSlijedi sveto Evanđelje po Luki. U ono vrijeme išao je Isus u grad Naim. A za njim su išli njegovi učenici i mnogo naroda. Kad se približio vratima grada, gle, iznosili su mrtva jedinca majke udovice, i s njom je iz grada izlazilo mnoštvo svijeta. Kad je Isus vidi, sažali mu se te joj reče: Nemoj plakati! I nosioci stanu, a on pristupi bliže, dotakne se nosila i reče: Mladiću, tebi govorim, ustani! Tada mrtvi mladić sjedne i stade govoriti. I dade ga Isus njegovoj majci. Strah obuze sve prisutne te su slavili Boga govoreći: Velik je prorok ustao među nama, i Bog je pohodio svoj narod!"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 44, 3\nDiffúsa est grátia in lábiis tuis: proptérea benedíxit te Deus in aetérnum, et in saéculum saéculi. <i>Allelúia</i>.",
+     "hr": "Ps 44, 3\nRazlita je milina na tvojim usnama, zbog toga te Bog blagoslovi u vijeke, i u vijeke vjekova. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Accépta tibi sit, Dómine, sacrátae plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Neka ti bude, Gospodine, drag ovaj prinos što ga tvoj sveti narod prikazuje, u čast tvojih svetih priznavajući da je po njihovim zaslugama primio pomoć u nevolji.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio paschális",
+   "hr": "Predslovlje uskrsno",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre: Te quidem, Dómine, omni témpore, sed <i>in hoc potíssimum</i> gloriósius praedicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno da tebe, Gospodine, u svako doba, a osobito <i>u ovo</i> svečanije slavimo, kad je Krist žrtvovan, naše vazmeno Janje. On je naime pravo janje koje oduze grijehe svijeta. Svojom smrću on je uništio našu smrt i svojim uskrsnućem obnovio naš život. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Ps 44, 8\nDíligis iustítiam et odísti iniquitátem; proptérea unxit te Deus, Deus tuus, óleo laetítiae prae consórtibus tuis. <i>Allelúia</i>.",
+     "hr": "Ps 44, 8\nTi ljubiš pravdu a mrziš nepravdu. Radi toga te je pomazao Bog, Bog tvoj, uljem radosti više nego drugarice tvoje. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nSatiásti, Dómine, famíliam tuam munéribus sacris: eius, quaésumus, semper interventióne nos réfove, cuius solémnia celebrámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nPošto si, Gospodine, nahranio svoju obitelj svetim darovima, molimo te, da nas uvijek krijepiš po zagovoru one koje svetkovinu slavimo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

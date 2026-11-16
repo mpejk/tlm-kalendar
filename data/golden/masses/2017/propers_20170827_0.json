@@ -1,0 +1,163 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-08-27",
+ "n": 0,
+ "heading": "NEDJELJA, 27.VIII.2017.",
+ "title": "12. nedjelja po Duhovima",
+ "rank": "Nedjelja II. razreda",
+ "colour": "Green",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 69, 2-3, Ps 69, 4\n(Ps 69, 2-3) Deus, in adiutórium meum inténde: Dómine, ad adiuvándum me festína: confundántur et revereántur inimíci mei, qui quaerunt ánimam meam. (Ps 69, 4) Avertántur retrórsum, et erubéscant: qui cógitant mihi mala.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 69, 2-3) Deus, in adiutórium meum inténde: Dómine, ad adiuvándum me festína: confundántur et revereántur inimíci mei, qui quaerunt ánimam meam.",
+     "hr": "Ps 69, 2-3, Ps 69, 4\n(Ps 69, 2-3) Bože, u pomoć mi priteci! Gospodine, pohiti da mi pomogneš. Neka se smetu i postide koji traže moju dušu. (Ps 69, 4) Još jednom neka odstupe i zasrame se koji mi hoće zlo.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 69, 2-3) Bože, u pomoć mi priteci! Gospodine, pohiti da mi pomogneš. Neka se smetu i postide koji traže moju dušu."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nOmnípotens et miséricors Deus, de cuius múnere venit, ut tibi a fidélibus tuis digne et laudabíliter serviátur: tríbue, quaésumus, nobis ; ut ad promissiónes tuas sine offensióne currámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nSvemogući i milosrdni Bože, po čijem daru dolazi da vjernici tebi dostojno i pohvalno služe, podaj nam, molimo, da bez spoticanja hrlimo k tvojim obećanjima.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "II Cor 3, 4-9\nLéctio Epístolae beáti Pauli Apóstoli ad Corínthios. Fratres: Fidúciam talem habémus per Christum ad Deum: non quod sufficiéntes simus cogitáre áliquid a nobis, quasi ex nobis: sed sufficiéntia nostra ex Deo est: qui et idóneos nos fecit minístros novi testaménti: non líttera, sed spíritu: líttera enim occídit, spíritus autem vivíficat. Quod si ministrátio mortis, lítteris deformáta in lapídibus, fuit in glória ; ita ut non possent inténdere fílii Israël in fáciem Móysi, propter glóriam vultus eius, quae evacuátur: quómodo non magis ministrátio Spíritus erit in glória? Nam si ministrátio damnatiónis glória est: multo magis abúndat ministérium iustítiae in glória.",
+     "hr": "2 Kor 3, 4-9\nČitanje Poslanice bl. Pavla apostola Korinćanima. Braćo, takvo pouzdanje imamo po Kristu u Boga. Ali to ne znači kao da bismo mogli što misliti sami po sebi, nego je naša sposobnost od Boga, koji nas učini sposobnim slugama Novoga zavjeta, ne po slovu nego po Duhu, jer slovo ubija, a Duh daje život. Kad je služba smrti, slovima urezana u kamenu, bila tako sjajna, da Izraelovi sinovi nisu mogli gledati Mojsijeva lica zbog prolaznog odsjeva njegova obličja, kako da ne bude slavnija služba Duha? Kad je slavna služba osude, neuporedivo je slavnija služba pravde."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 33, 2-3\nBenedícam Dóminum in omni témpore: semper laus eius in ore meo. In Dómino laudábitur ánima mea: áudiant mansuéti, et laeténtur.",
+     "hr": "Ps 33, 2-3\nBlagoslivljat ću Gospodina u svako doba. Njegova je hvala uvijek na mojim ustima. U Gospodinu neka se hvali moja duša, neka čuju ponizni i razvesele se."
+    },
+    {
+     "la": "Ps 87, 2\n<i>Allelúia</i>, <i>allelúia</i>.\nDómine Deus salútis meae, in die clamávi et nocte coram te. <i>Allelúia</i>.",
+     "hr": "Ps 87, 2\n<i>Aleluja</i>, <i>aleluja</i>.\nGospodine, Bože spasenja mojega, danju i noću vapijem pred tobom. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 10, 23-37\nSequéntia sancti Evangélii secúndum Lucam. In illo témpore: Dixit Iesus discípulis suis: Beáti óculi, qui vident quae vos vidétis. Dico enim vobis, quod multi prophétae et reges voluérunt vidére quae vos vidétis, et non vidérunt: et audíre quae audítis, et non audiérunt. Et ecce quidam legisperítus surréxit, tentans illum, et dicens: Magíster, quid faciéndo vitam aetérnam possidébo? At ille dixit ad eum: In lege quid scriptum est? quómodo legis? Ille respóndens, dixit: Díliges Dóminum Deum tuum ex toto corde tuo, et ex tota ánima tua, et ex ómnibus víribus tuis, et ex omni mente tua: et próximum tuum sicut teípsum. Dixítque illi: Recte respondísti: hoc fac, et vives. Ille autem volens iustificáre seípsum, dixit ad Iesum: Et quis est meus próximus? Suscípiens autem Iesus, dixit: Homo quidam descendébat ab Ierúsalem in Iéricho, et íncidit in latrónes, qui étiam despoliavérunt eum: et plagis impósitis abiérunt, semivívo relícto. Accidit autem, ut sacérdos quidam descénderet eádem via: et viso illo praeterívit. Simíliter et levíta, cum esset secus locum, et vidéret eum, pertránsiit. Samaritánus autem quidam iter fáciens, venit secus eum: et videns eum, misericórdia motus est. Et apprópians alligávit vúlnera eius, infúndens óleum et vinum: et impónens illum in iuméntum suum, duxit in stábulum, et curam eius egit. Et áltera die prótulit duos denários, et dedit stabulário, et ait: Curam illíus habe: et quodcúmque supererogáveris, ego cum redíero, reddam tibi. Quis horum trium vidétur tibi próximus fuísse illi, qui íncidit in latrónes? At ille dixit: Qui fecit misericórdiam in illum. Et ait illi Iesus: Vade, et tu fac simíliter.",
+     "hr": "Lk 10, 23-37\nSlijedi sveto Evanđelje po Luki. U ono vrijeme reče Isus svojim učenicima: Blago očima, koje vide što vi vidite, jer, kažem vam, mnogi su proroci i kraljevi željeli vidjeti što vi vidite, i nisu vidjeli, i čuti što vi čujete, i nisu čuli. Tada pristupi neki učitelj Zakona, pa ga upita s nakanom da ga kuša: Učitelju, što treba da činim, da zaslužim vječni život? Isus upita njega: Što je pisano u Zakonu? Kako čitaš? Onaj odgovori: Ljubi Gospodina svojega Boga svim svojim srcem, svom svojom dušom, svom svojom snagom i svim svojim umom, a svojega bližnjega kao samoga sebe. I reče mu: Pravo si odgovorio, čini to i živjet ćeš! Ali on hoteći se opravdati upita Isusa: A tko je moj bližnji? Tada Isus reče: Neki je čovjek putovao iz Jeruzalema u Jerihon i upadne u ruke razbojnika. Oni ga svuku, izrane, ostave napola mrtva pa otiđu. Dogodi se, da je onim putem prolazio svećenik. On ga opazi i prođe dalje. Isto tako i levit kad je bio kraj toga mjesta, opazi ga i prođe. A neki Samaritanac putujući dođe do njega. Kad ga vidje, sažali mu se, i pristupi k njemu, opere mu rane uljem i vinom pa ih zavije. Onda ga posadi na svoje živinče, dovede ga u gostionicu i pobrinu se za njega. Sutradan izvadi dva dinara, dade ih gostioničaru i reče: Brini se za njega. I što potrošiš više, kada se vratim, ja ću ti platiti. Što ti se čini: Koji je od ove trojice bio bližnji onome, koji je upao među razbojnike? Zakonoznanac odgovori: Onaj koji mu iskaza milosrđe. Isus mu reče: Idi i čini i ti tako!"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "id": "tableCredo",
+   "hidden": true,
+   "la": "Credo (Symbolum Niceno-Constantinopolitanum)",
+   "hr": "Vjerovanje (nicejsko-carigradsko)",
+   "rows": [
+    {
+     "la": "Credo in unum Deum. Patrem omnipoténtem, factórem caeli et terrae, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saécula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de caelis. (Hic genuflecitur) Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in caelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostolicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam ventúri saéculi. Amen.",
+     "hr": "Vjerujem u jednoga Boga, Oca svemogućega, stvoritelja neba i zemlje, svega vidljivoga i nevidljivoga.I u jednoga Gospodina Isusa Krista, jedinorođenoga Sina Božjega. Rođenog od Oca prije svih vjekova. Boga od Boga, svjetlo od svjetla, pravoga Boga od pravoga Boga. Rođena, ne stvorena, istobitna s Ocem, po kome je sve stvoreno. Koji je radi nas ljudi i radi našega spasenja sišao s nebesa. (ovdje se poklekne) I utjelovio se po Duhu Svetom od Marije Djevice: i postao čovjekom. Raspet također za nas: pod Poncijem Pilatom mučen i pokopan. I uskrsnuo treći dan, po Svetom Pismu. I uzašao na nebo: sjedi s desne Ocu. I opet će doći u slavi suditi žive i mrtve, i njegovu kraljevstvu neće biti kraja. I u Duha Svetoga, Gospodina i životvorca; koji izlazi od Oca i Sina. Koji se s Ocem i Sinom skupa časti i zajedno slavi; koji je govorio po prorocima. I u jednu svetu katoličku i apostolsku Crkvu. Ispovijedam jedno krštenje za oproštenje grijeha. I iščekujem uskrsnuće mrtvih. I život budućega vijeka. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ex 32, 11 et 13 et 14\nPrecátus est Móyses in conspéctu Dómini Dei sui, et dixit: Quare, Dómine, irásceris in pópulo tuo? Parce irae ánimae tuae: meménto Abraham, Isaac, et Iacob, quibus iurásti dare terram fluéntem lac et mel. Et placátus factus est Dóminus de malignitáte, quam dixit fácere pópulo suo.",
+     "hr": "Izl 32, 11 i 13 i 14\nMolio se Mojsije pred licem svoga Boga i rekao: Zašto se, Gospodine, srdiš na svoj narod? Odvrati se od svoga gnjeva. Sjeti se Abrahama, Izaka i Jakova kojima si se zakleo da ćeš im dati zemlju u kojoj teče mlijeko i med. I sažali se Gospodinu te ne učini zlo koje je smislio učiniti svome narodu."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Hóstias, quaésumus, Dómine, propítius inténde, quas sacris altáribus exhibémus: ut nobis indulgéntiam largiéndo, tuo nómini dent honórem.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Žrtvene darove što ti ih na svetim oltarima prinosimo, molimo, Gospodine, primi dobrostivo, da djelujući nama na oproštenje iskažu čast tvojem imenu.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de sanctíssima Trinitáte",
+   "hr": "Predslovlje Presvetog Trojstva",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: Qui cum unigénito Fílio tuo, et Spíritu Sancto, unus es Deus, unus es Dóminus: non in uníus singularitáte persónae, sed in uníus Trinitáte substántiae. Quod enim de tua glória, revelánte te, crédimus, hoc de Fílio tuo, hoc de Spíritu Sancto, sine differéntia discretiónis sentímus. Ut in confessióne verse sempiternaéque Deitátis, et in persónis propríetas, et in esséntia únitas, et in maiestáte adorétur aequálitas. Quam laudant Angeli atque Archángeli, Chérubim quoque ac Séraphim: qui non cessant clamáre cotídie, una voce dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi. Gospodine, sveti Oče, svemogući vječni Bože. – Ti si s jedinorođenim Sinom tvojim i s Duhom Svetim jedan Bog, jedan Gospodin, ne u jedinstvu jedne osobe, već u Trojstvu jedine biti. Što naime po tvojoj objavi vjerujemo o tvojoj slavi, to isto bez razlike i razlučivanja vjerujemo i o tvome Sinu i o Duhu Svetome. Tako se u ispovijedanju istinitog i vjekovječnog božanstva klanjamo i vlastitosti osoba i jedinstvu biti i jednakosti veličanstva. – Koje hvale anđeli i arkanđeli, kerubini i serafini koji ne prestaju svaki dan klicati govoreći složnim glasom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Ps 103, 13 et 14-15\nDe fructu óperum tuórum, Dómine, satiábitur terra: ut edúcas panem de terra, et vinum laetíficet cor hóminis: ut exhiláret fáciem in óleo, et panis cor hóminis confírmet.",
+     "hr": "Ps 103, 13 i 14-15\nPlodom se tvojih djela, Gospodine, siti zemlja. Izvodiš kruh iz zemlje i vino da razveseli srce čovjeku. Od ulja se svijetli lice, a kruh krijepi srce čovjeku."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nVivíficet nos, quaésumus, Dómine, huius participátio sancta mystérii: et páriter nobis expiatiónem tríbuat, et munímen.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nNeka nam, molimo, Gospodine, sudjelovanje u ovome svetom otajstvu dade život i neka nam bude na pomirbu i zaštitu.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

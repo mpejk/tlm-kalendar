@@ -1,0 +1,173 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-05-31",
+ "n": 0,
+ "heading": "SRIJEDA, 31.V.2017.",
+ "title": "BDM Kraljica",
+ "rank": "Blagdan II. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen na tihim misama: sv. Petronila, djevica, mučenica"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 44, 2\nGaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátae Maríae Vírginis Regínae: de cuius solemnitáte gaudent Angeli, et colláudant Fílium Dei. <i>Allelúia</i>, <i>allelúia</i>.\n(Ps 44, 2) Effúndit cor meum verbum bonum: dico ego carmen meum Regi.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\nGaudeámus omnes in Dómino, diem festum celebrántes sub honóre beátae Maríae Vírginis Regínae: de cuius solemnitáte gaudent Angeli, et colláudant Fílium Dei. <i>Allelúia</i>, <i>allelúia</i>.",
+     "hr": "Ps 44, 2\nRadujmo se svi u Gospodinu slaveći blagdan na čast blažene Djevice Marije Kraljice, čijoj se svetkovini raduju anđeli i hvale Sina Božjega, <i>aleluja</i>, <i>aleluja</i>.\n(Ps 44, 2) Iz srca mi navire radosna riječ, pripovjedam pjesmu svoju Kralju.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\nRadujmo se svi u Gospodinu slaveći blagdan na čast blažene Djevice Marije Kraljice, čijoj se svetkovini raduju anđeli i hvale Sina Božjega, <i>aleluja</i>, <i>aleluja</i>.\n[Napomena M.B. ovdje je, za razliku npr. od Bezgrešnog Srca Marijinog na 22. dan kolovoza, za Ps 44,2 korišten tzv. Pijev psaltir, izdan u vrijeme Pija XII., a ne Jeronimov \"galikanski\" iz Vulgate. Razlika je u riječima \"eructavit(Vg)-effundit(P) te opera(Vg)-carmen(P), pri čemu se eructavit-effundit u oba slučaja hrvatski može prevesti kao \"navrijeti\".]"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nConcéde nobis, quaésumus, Dómine: ut, qui solemnitátem [commemoratiónem] beátae Maríae Vírginis Regínae nostrae celebrámus; eius muníti presídio, pacem in praesénti et glóriam in futúro cónsequi mereámur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nPodaj nam, molimo, Gospodine, da mi koji slavimo svetkovinu [spomen] blažene Marije Djevice naše kraljice, osigurani njezinom zaštitom zavrijedimo postići mir u sadašnjosti i slavu u budućnosti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Petronila, djevica, mučenica</i></b>\n<i>Orémus</i>.\nExáudi nos, Deus, salutáris noster; ut, sicut de beátae Petroníllae Vírginis tuae festivitáte gaudémus; ita piae devotiónis erudiámur afféctu.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Petronila, djevica, mučenica</i></b>\n<i>Pomolimo se</i>.\nUsliši nas, Bože Spasitelju naš, da kao što se radujemo svetkovini blažene Petronile, djevice tvoje, tako uznapredujemo u osjećaju odane pobožnosti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Eccli 24, 5 et 7, 9-11, 30-31\nLéctio libri Sapiéntiae. Ego ex ore Altíssimi prodívi, primogénita ante omnem creatúram; ego in altíssimis habitávi, et thronus meus in colúmna nubis. In omni terra steti; et in omni pópulo, et in omni gente primátum hábui, et ómnium excelléntium et humílium corda virtúte calcávi. Qui audit me, non confundétur, et qui operántur in me, non peccábunt; qui elúcidant me, vitam aetérnam habébunt.",
+     "hr": "Sir 24, 5 i 7, 9-11, 30-31\nČitanje knjige Mudrosti. Izašla sam iz usta Svevišnjega prije svakoga stvora, postavila sam stan u visinama, a prijestolje u stupu oblaka. Zaustavila sam se u svakom kraju i kod svakoga plemena, preuzela sam vodstvo svakog naroda i dobrotom sam osvojila srca sviju, velikih i malenih. Koji mene sluša, neće se postidjeti, koji mene nasljeduje neće griješiti, a koji me slave, postići će vječni život."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Allelúia",
+   "hr": "Aleluja",
+   "rows": [
+    {
+     "la": "<i>Allelúia</i>, <i>allelúia</i>.\nBeáta es, Virgo María, quae sub Cruce Dómini sustinuísti. <i>Allelúia</i>.\nNunc cum eo regnas in aetérnum. <i>Allelúia</i>.",
+     "hr": "<i>Aleluja</i>, <i>aleluja</i>.\nBlažena si, Djevo Marijo, koja si trpjela pod križem Gospodnjim, <i>aleluja</i>.\nSada s njim zajedno kraljuješ zauvijek, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 1, 26-33\nSequéntia sancti Evangélii secúndum Lucam. In illo témpore: Missus est Angelus Gabriel a Deo in civitatem Galilaéae, cui nomen Názareth, ad Vírginem desponsátam viro, cui nomen erat Ioseph, de domo David, et nomen Vírginis María. Et ingréssus Angelus ad eam, dixit: Ave, grátia plena: Dóminus tecum: benedícta tu in muliéribus. Quae cum audísset, turbáta est in sermóne eius, et cogitábat qualis esset ista salutátio. Et ait Angelus ei: Ne tímeas, María, invenísti enim grátiam apud Deum: ecce concípies in útero, et páries filium, et vocábis nomen eius Iesum. Hic erit magnus, et Fílius Altíssimi vocábitur, et dabit illi Dóminus Deus sedem David patris eius: et regnábit in domo Iacob in aetérnum, et regni eius non erit finis.",
+     "hr": "Lk 1, 26-33\nSlijedi sveto Evanđelje po Luki. U ono vrijeme posla Bog anđela Gabrijela u galilejski grad Nazaret k djevici Mariji, koja je bila zaručena s Davidovim potomkom Josipom. Anđeo uđe k njoj i reče: Zdravo, milosti puna, Gospodin s tobom, blagoslovljena ti među ženama! Kad je ona to čula, uplaši se, i razmišljala je što taj pozdrav znači. Anđeo joj reče: Nemoj se bojati, Marijo, jer si našla milost u Boga: Evo, začet ćeš i roditi sina i dat ćeš mu ime Isus. On će biti velik i zvat će se Sin Svevišnjega. Gospodin će mu dati prijestolje njegova oca Davida, i vladat će Jakovljevom kućom dovijeka, i njegovu kraljevstvu neće biti svršetka."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "id": "tableCredo",
+   "hidden": true,
+   "la": "Credo (Symbolum Niceno-Constantinopolitanum)",
+   "hr": "Vjerovanje (nicejsko-carigradsko)",
+   "rows": [
+    {
+     "la": "Credo in unum Deum. Patrem omnipoténtem, factórem caeli et terrae, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saécula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de caelis. (Hic genuflecitur) Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in caelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostolicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam ventúri saéculi. Amen.",
+     "hr": "Vjerujem u jednoga Boga, Oca svemogućega, stvoritelja neba i zemlje, svega vidljivoga i nevidljivoga.I u jednoga Gospodina Isusa Krista, jedinorođenoga Sina Božjega. Rođenog od Oca prije svih vjekova. Boga od Boga, svjetlo od svjetla, pravoga Boga od pravoga Boga. Rođena, ne stvorena, istobitna s Ocem, po kome je sve stvoreno. Koji je radi nas ljudi i radi našega spasenja sišao s nebesa. (ovdje se poklekne) I utjelovio se po Duhu Svetom od Marije Djevice: i postao čovjekom. Raspet također za nas: pod Poncijem Pilatom mučen i pokopan. I uskrsnuo treći dan, po Svetom Pismu. I uzašao na nebo: sjedi s desne Ocu. I opet će doći u slavi suditi žive i mrtve, i njegovu kraljevstvu neće biti kraja. I u Duha Svetoga, Gospodina i životvorca; koji izlazi od Oca i Sina. Koji se s Ocem i Sinom skupa časti i zajedno slavi; koji je govorio po prorocima. I u jednu svetu katoličku i apostolsku Crkvu. Ispovijedam jedno krštenje za oproštenje grijeha. I iščekujem uskrsnuće mrtvih. I život budućega vijeka. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Regáli ex progénie María exórta refúlget; cuius précibus nos adiuvári, mente et spíritu devotíssime póscimus. <i>Allelúia</i>.",
+     "hr": "Rođena od kraljevske loze blista Marija, Srcem i umom pobožno molimo da nas pomogne njezin zagovor, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Accipe, quaésumus, Dómine, múnera laetántis Ecclésiae, et, beátae Vírginis Maríae Regínae suffragántibus méritis, ad nostrae salútis auxílium proveníre concéde.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Primi, molimo, Gospodine, darove radosne Crkve, i daj da posredovanjem zasluga blažene Djevice Marije Kraljice budu na pomoć našeg spasenja.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Petronila, djevica, mučenica</i></b>\nAccipe, quaésumus, Dómine, múnera laetántis Ecclésiae, et, beátae Vírginis Maríae Regínae suffragántibus méritis, ad nostrae salútis auxílium proveníre concéde.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Petronila, djevica, mučenica</i></b>\nNeka ti bude, Gospodine, drag ovaj prinos što ga tvoj sveti narod prikazuje u čast tvojih svetih priznajući da je po njihovim zaslugama primio pomoć u nevolji.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de beáta María Vírgine",
+   "hr": "Predslovlje blažene Djevice Marije",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: Et te <i>in festivitáte</i> beátae Mariae semper Vírginis collaudáre, benedícere et praedicáre. Quae et Unigénitum tuum Sancti Spíritus obumbratióne concépit: et, virginitátis glória permanénte, lumen aetérnum mundo effúdit, Iesum Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože: i da te <i>o svetkovini</i> blažene Marije vazda Djevice hvalimo, blagoslivljamo i slavimo. Ona je osjenjena Duhom Svetim začela jedinorođenoga Sina tvoga i sačuvavši slavu djevičanstva prosula svijetom vječno svjetlo Isusa Krista Gospodina našega. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Regína mundi digníssima, MaríaVirgo perpétua, intercéde pro nostra pace et salúte, quae genuísti Christum Dóminum, Salvatórem ómnium. <i>Allelúia</i>.",
+     "hr": "Predostojna Kraljice svijeta, Marijo, vazda Djevice, koja si porodila Krista Gospodina, Spasitelja cijelog svijeta, zauzmi se za nas da postignemo mir i spasenje, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nCelebrátis solémniis, Dómine, quae pro sanctae Maríae Regínae nostrae festivitáte (memória) perégimus: eius, quaésumus, nobis intercessióne fiant salutária; in cuius honóre sunt exsultánter impléta.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nPošto smo. Gospodine, izvršili svečanosti, koje smo obavili radi svetkovine svete Marije, naše Kraljice, molimo, da nam budu spasonosne po zagovoru one, kojoj su u čast radosno obavljene.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Petronila, djevica, mučenica</i></b>\nSatiásti, Dómine, famíliam tuam munéribus sacris: eius, quaésumus, semper interventióne nos réfove, cuius solémnia celebrámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Petronila, djevica, mučenica</i></b>\nPošto si, Gospodine, nahranio svoju obitelj svetim darovima, molimo te da nas uvijek krijepiš po zagovoru one koje svetkovinu slavimo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-01-30",
+ "n": 0,
+ "heading": "PONEDJELJAK, 30.I.2017.",
+ "title": "sv. Martina, djevica i mučenica",
+ "rank": "Blagdan III. razreda",
+ "colour": "Red",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 118, 46-47, Ps 118, 1\n(Ps 118, 46-47) Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quae diléxi nimis. (Ps 118, 1) Beáti immaculáti in via: qui ámbulant in lege Dómini.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 118, 46-47) Loquébar de testimóniis tuis in conspéctu regum, et non confundébar: et meditábar in mandátis tuis, quae diléxi nimis.",
+     "hr": "Ps 118, 46-47, Ps 118, 1\n(Ps 118, 46-47) Govorio sam pred kraljevima o tvojim odredbama i nisam se smeo, i razmišljao sam o tvojim zapovijedima koje veoma ljubim. (Ps 118, 1) Blago onima koji idu neokaljanim putem, koji žive po zakonu Gospodnjemu.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 118, 46-47) Govorio sam pred kraljevima o tvojim odredbama i nisam se smeo, i razmišljao sam o tvojim zapovijedima koje veoma ljubim."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui inter cétera poténtiae tuae mirácula étiam in sexu fragile victóriam martýrii contulísti: concéde propítius; ut, qui beátae Martínae Vírginis et Mártyris tuae natalícia cólimus, per eius ad te exémpla gradiámur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koje si između ostalih čudesa svoje moći dao i slabom spolu mučeničku pobjedu, dopusti blagostivo da mi koji slavimo rođendan za nebo blažene Martine tvoje djevice i mučenice, idemo k tebi po njezinu primjeru.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Eccli 51, 1-8 et 12\nLéctio libri Sapiéntiae. Confitébor tibi, Dómine Rex, et collaudábo te Deum salvatórem meum. Confitébor nómini tuo: quóniam adiútor et protéctor factus es mihi, et liberásti corpus meum a perditióne, a láqueo linguae iníquae, et a lábiis operántium mendácium, et in conspéctu astántium factus es mihi adiútor. Et liberásti me secúndum multitúdinem misericórdiae nóminis tui a rugiéntibus, praeparátis ad escam, de mánibus quaeréntium ánimam meam, et de portis tribulatiónum, quae circumdedérunt me: a pressúra flammae, quae circúmdedit me, et in médio ignis non sum aestuátus: de altitúdine ventris ínferi, et a lingua coinquináta, et a verbo mendácii, a rege iníquo, et a lingua iniústa: laudábit usque ad mortem ánima mea Dóminum: quóniam éruis sustinéntes te, et líberas eos de mánibus géntium, Dómine Deus noster.",
+     "hr": "Sir 51, 1-8 i 12\nČitanje knjige Mudrosti. Slavim te, Gospodine Kralju, i hvalim te, Bože, Spasitelju moj. Slavim ime tvoje, jer si postao mojim pomoćnikom i zaštitnikom, spasio si me od propasti od zamke opaka jezika i od usta koja govore laži, i stao si uza me protiv mojih neprijatelja. Po svojem velikom milosrđu oslobodio si me od progonitelja, koji riču i spremni su da me prožderu. iz ruku onih koji vrebaju na me, iz muka koje me okružuju, od sile plamena koji me opkolio i nisam izgorio u ognju, iz dubine ponora, od opakog jezika i lažnih riječi, od pakosnoga poglavice i nepravednih usta. Hvalit ću te Gospodine, sve do smrti, jer ti spašavaš one koji se uzdaju u tebe, i oslobađaš ih iz bezbožničkih ruku, Gospodine naš."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 44, 8\nDilexísti iustítiam, et odísti iniquitátem. Proptérea unxit te Deus, Deus tuus, óleo laetítiae.",
+     "hr": "Ps 44, 8\nLjubiš pravdu a mrziš nepravdu. Zato te je pomazao Bog, Bog tvoj, uljem radosti."
+    },
+    {
+     "la": "Ps 44, 15-16\n<i>Allelúia</i>, <i>allelúia</i>.\nAdducéntur Regi vírgines post eam: próximae eius afferéntur tibi in laetítia. <i>Allelúia</i>.",
+     "hr": "Ps 44, 15-16\n<i>Aleluja</i>, <i>aleluja</i>.\nZa njom će poći pred Kralja djevice, drugarice će njezine poći k tebi u radosti. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 25, 1-13\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Dixit Iesus discípulis suis parábolam hanc: Símile erit regnum caelórum decem virgínibus: quae accipiéntes lámpades suas, exiérunt óbviam sponso et sponsae. Quinque autem ex eis erant fátuae, et quinque prudéntes: sed quinque fátuae, accéptis lampádibus, non sumpsérunt óleum secum: prudéntes vero accepérunt óleum in vasis suis cum lampádibus. Moram autem faciénte sponso, dormitavérunt omnes et dormiérunt. Média autem nocte clamor factus est: Ecce sponsus venit, exíte óbviam ei. Tunc surrexérunt omnes vírgines illae, et ornavérunt lámpades suas. Fátuae autem sapiéntibus dixérunt: Date nobis de óleo vestro: quia lámpades nostrae exstinguúntur. Respondérunt prudéntes, dicéntes: Ne forte non suffíciat nobis et vobis, ite pótius ad vendéntes, et émite vobis. Dum autem irent émere, venit sponsus: et quae parátae erant, intravérunt cum eo ad núptias, et clausa est iánua. Novíssime vero véniunt et réliquae vírgines, dicéntes: Dómine, Dómine, áperi nobis. At ille respóndens, ait: Amen dico vobis, néscio vos. Vigiláte ítaque, quia nescítis diem, neque horam.",
+     "hr": "Mt 25, 1-13\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme reče Isus svojim učenicima: Kraljevstvo je nebesko kao deset djevica, koje uzeše svoje svjetiljke i iziđoše u susret zaručniku i zaručnici. Pet ih je bilo ludih, a pet mudrih. Pet ludih uzeše svjetiljke, a ne uzeše sa sobom ulja, a mudre sa svjetiljkama uzeše ulja u svojim posudama. Ali jer se zaručnik zabavio, sve zadrijemaše i zaspaše. A o ponoći nasta vika: Evo, ide zaručnik, iziđite mu u susret! Tada ustaše sve djevice i zapališe svoje svjetiljke. Lude tada reknu mudrima: Dajte nam od svoga ulja, jer se gase naše svjetiljke. Mudre odgovore: Da ne bi ponestalo nama i vama, idite radije do prodavača i kupite. Dok su išle kupovati, dođe zaručnik, i koje su bile spremne, uđu s njim na svadbu i zatvore se vrata. Napokon dođu i ostale djevice i reknu: Gospodine, Gospodine, otvori nam! On im odgovori: Zaista vam kažem: Ne poznam vas. Bdijte dakle, jer ne znate ni dana ni časa."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 44, 15-16\nAfferéntur Regi vírgines post eam: próximae eius afferéntur tibi in laetítia et exsultatióne: adducéntur in templum Regi Dómino.",
+     "hr": "Ps 44, 15-16\nZa njom će poći pred Kralja djevice. Drugarice će njezine poći k tebi u radosti, poći će u hram Kralja Gospodina."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Súscipe, Dómine, múnera, quae in beátae Martínae Vírginis et Mártyris tuae solemnitáte deférimus, cuius nos confídimus patrocínio liberári.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Primi, Gospodine, darove što ti ih prinosimo na blagdan blažene Martine djevice i mučenice tvoje, po čijem se zagovoru nadamo osloboditi.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Ps 118, 78 et 80\nConfundántur supérbi, quia iniúste iniquitátem fecérunt in me: ego autem in mandátis tuis exercébor, in tuis iustificatiónibus, ut non confúndar.",
+     "hr": "Ps 118, 78 i 80\nNeka se postide oholi, jer me zlostavljaju bez razloga. A ja ispunjam zapovijedi tvoje i naloge tvoje da ne moram nečasno propasti."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nAuxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta Martína Vírgine et Mártyre tua, sempitérna fáciant protectióne gaudére.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nTajne koje smo primili neka nas pomažu, Gospodine, i neka po zagovoru blažene Martine, tvoje djevice i mučenice, učine da se radujemo vječnoj zaštiti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

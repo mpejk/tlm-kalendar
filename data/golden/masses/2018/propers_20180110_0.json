@@ -1,0 +1,150 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-01-10",
+ "n": 0,
+ "heading": "SRIJEDA, 10.I.2018.",
+ "title": "Feria (u tjednu 1. nedjelje po Bogojavljenju)",
+ "rank": "Feria IV. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 99, 1\nIn excélso throno vidi sédere virum, quem adórat multitúdo Angelórum, psalléntes in unum: ecce cuius impérii nomen est in aetérnum. (Ps 99, 1) Iubiláte Deo, omnis terra: servite Dómino in laetítia.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\nIn excélso throno vidi sédere virum, quem adórat multitúdo Angelórum, psalléntes in unum: ecce cuius impérii nomen est in aetérnum.",
+     "hr": "Ps 99, 1\nNa uzvišenom prijestolju vidjeh kako sjedi čovjek. Njemu se klanja mnoštvo anđela koji složno pjevaju: Evo onoga koji vlada vječnim kraljevstvom! (Ps 99, 1) Poklikni Bogu, sva zemljo! Služite Gospodinu veselo.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\nNa uzvišenom prijestolju vidjeh kako sjedi čovjek. Njemu se klanja mnoštvo anđela koji složno pjevaju: Evo onoga koji vlada vječnim kraljevstvom!"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nVota, quaésumus, Dómine, supplicántis pópuli caelésti pietáte proséquere: ut et, quae agénda sunt, vídeant, et ad implénda, quae víderint, convaléscant.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nMolimo, Gospodine, prati nebeskom milošću prošnje naroda koji te zaziva, da vidi što treba činiti i da stekne snagu te može vršiti ono što vidi.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Rom 12, 1-5\nLéctio Epístolae beáti Pauli Apóstoli ad Romános. Fratres: Obsecro vos per misericórdiam Dei, ut exhibeátis córpora vestra hostiam vivéntem, sanctam, Deo placéntem, rationábile obséquium vestrum. Et nolíte conformári huic saéculo, sed reformámini in novitáte sensusvestri: ut probétis, quae sit volúntas Deibona, et benéplacens, et pérfecta. Dico enim per grátiam, quae data est mihi, ómnibus qui sunt inter vos: Non plus sápere, quam opórtet sápere, sed sápere ad sobrietátem: et unicuíque sicut Deus divísit mensúram fidei. Sicut enim in uno córpore multa membra habémus, ómnia autem membra non eúndem actum habent: ita multi unum corpus sumus in Christo, sínguli autem alter altérius membra: in Christo Iesu, Dómino nostro.",
+     "hr": "Rim 12, 1-5\nČitanje Poslanice bl. Pavla apostola Rimljanima. Braćo: zaklinjem vas milosrđem Božjim da prikažete svoje tijelo kao žrtvu živu, svetu i ugodnu Bogu, da vaše bogoštovlje bude duhovno. Nemojte se izjednačiti s ovim svijetom. Naprotiv, obnovite svoje mišljenje da možete uočiti što je Božja volja, što je dobro, ugodno i savršeno. Po milosti koja mi je dana kažem svakom od vas, da ne cijeni sebe više nego se smije cijeniti, već trijezno prema mjeri vjere koju je Bog kome udijelio. Kao što u jednom tijelu imamo mnogo udova, a svi udovi nemaju istu službu, tako smo mnogi jedno tijelo u Kristu, a svi mi pojedini smo udovi jedan drugome u Kristu Gospodinu našemu."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 71, 18 et 3\nBenedíctus Dóminus Deus Israel, qui facit mirabília magna solus a saéculo. Suscípiant montes pacem pópulo tuo, et colles iustítiam.",
+     "hr": "Ps 71, 18 i 3\nBlagoslovljen Gospodin Bog Izraelov koji jedini čini divna i velika djela od vijeka. Neka planine osjete mir i bregovi pravdu koju daješ narodu svome."
+    },
+    {
+     "la": "Ps 99, 1\n<i>Allelúia</i>, <i>allelúia</i>.\nIubiláte Deo, omnis terra: servíte Dómino in laetítia. <i>Allelúia</i>.",
+     "hr": "Ps 99, 1\n<i>Aleluja</i>, <i>aleluja</i>.\nPoklikni Bogu, sva zemljo! Služite Gospodinu veselo! <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 2, 42-52\nSequéntia sancti Evangélii secúndum Lucam. Cum factus esset Iesus annórum duódecim, ascendéntibus illis Ierosólymam secúndum consuetúdinem diéi festi, consummatísque diébus, cum redírent, remánsit puer Iesus in Ierúsalem, et non cognovérunt paréntes eius. Existimántes autem illum esse in comitátu, venérunt iter diéi, et requirébant eum inter cognátos et notos. Et non inveniéntes, regréssi sunt in Ierúsalem, requiréntes eum. Et factum est, post tríduum invenérunt illum in templo sedéntem in médio doctórum, audiéntem illos, et interrogántem eos. Stupébant autem omnes, qui eum audiébant, super prudéntia, et respónsis eius. Et vidéntes admiráti sunt. Et dixit mater eius ad illum: Fili, quid fecísti nobis sic ? ecce pater tuus et ego doléntes quaerebámus te. Et ait ad illos: Quid est quod me quaerebátis ? nesciebátis quia in his quae Patris mei sunt, opórtet me esse ? Et ipsi non intellexérunt verbum quod locútus est ad eos. Et descéndit cum eis, et venit Názareth: et erat súbditus illis. Et mater eius conservábat ómnia verba haec in corde suo. Et Iesus proficiébat sapiéntia, et aetáte, et grátia apud Deum et hómines.",
+     "hr": "Lk 2, 42-52\nSlijedi sveto Evanđelje po Luki. Kad je Isusu bilo dvanaest godina, njegovi roditelji pođu po blagdanskom običaju u Jeruzalem. Kad su prošli blagdani i oni se vraćali, dječak Isus ostade u Jeruzalemu, a da njegovi roditelji nisu znali. Misleći da je među suputnicima, išli su dan hoda, a onda ga stanu tražiti među rođacima i znancima. Ali, kako ga ne nađu, vrate se u Jeruzalem da ga traže. – Poslije tri dana nađu ga u hramu gdje sjedi među učiteljima, kako ih sluša i postavlja pitanja. Svi koji su ga slušali, divili su se njegovoj mudrosti i odgovorima. Kad ga opaze, vrlo se začude. A majka mu reče: »Sine, zašto si nam to učinio? Tvoj otac i ja žalosni smo te tražili.« On im odgovori: »Zašto ste me tražili? Zar niste znali da ja moram biti u onome što pripada mom Ocu?« A oni nisu shvatili njegovih riječi. – On tada pođe s njima i dođe u Nazaret i bio im je poslušan. Njegova je Majka sve ovo čuvala u svom srcu. A Isus je napredovao u mudrosti, dobi i milosti pred Bogom i ljudima."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 99, 1-2\nIubiláte Deo, omnis terra, servíte Dómino in laetítia: intráte in conspéctu eius in exsultatióne: quia Dóminus ipse est Deus.",
+     "hr": "Ps 99, 1-2\nPoklikni Bogu, sva zemljo! Služite Gospodinu veselo! Stupite preda nj veselo kličući, jer je samo Bog Gospodin."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Oblátum tibi, Dómine, sacrifícium vivíficet nos semper et múniat.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Neka nas vazda oživljuje i brani, Gospodine, žrtva koju ti prinosimo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de Epiphánia Dómini",
+   "hr": "Predslovlje Bogojavljenja",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: Quia, cum Unigénitus tuus in substántia nostrae mortalitátis appáruit, nova nos immortalitátis suae luce reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi. Gospodine, sveti Oče, svemogući vječni Bože: – jer kad se tvoj Jedinorođenac pojavio u našem smrtnom tijelu, on nas je novim svjetlom svoje besmrtnosti obnovio. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Luc 2, 48-49\nFili, quid fecísti nobis sic? Ego et pater tuus doléntes quaerebámus te. Et quid est, quod me quaerebátis? Nesciebátis, quia in his, quae Patris mei sunt, opórtet me esse?",
+     "hr": "Lk 2, 48-49\nSine, zašto si nam to učinio? Tvoj otac i ja žalosni smo te tražili. Zašto ste me tražili? Zar niste znali da ja moram biti u onome što pripada mom Ocu."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nSúpplices te rogámus, omnípotens Deus: ut, quos tuis réficis sacraméntis, tibi étiam plácitis móribus dignánter deservíre concédas.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nPonizno te molimo, svemogući Bože, udijeli da ti služe i ugode dostojnijim vladanjem oni koje krijepiš svojim otajstvima.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

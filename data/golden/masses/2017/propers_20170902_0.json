@@ -1,0 +1,150 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-09-02",
+ "n": 0,
+ "heading": "SUBOTA, 2.IX.2017.",
+ "title": "sv. Stjepan I. Ugarski, kralj, priznavalac",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 36, 30-31, Ps 36, 1\n(Ps 36, 30-31) Os iusti meditábitur sapiéntiam, et lingua eius loquétur iudícium: lex Dei eius in corde ipsíus. (Ps 36, 1) Noli aemulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 36, 30-31) Os iusti meditábitur sapiéntiam, et lingua eius loquétur iudícium: lex Dei eius in corde ipsíus.",
+     "hr": "Ps 36, 30-31, Ps 36, 1\n(Ps 36, 30-31) Pravednikova usta govore mudrost i jezik njegov kazuje pravdu. Zakon je Božji u srcu njegovu. (Ps 36, 1) Ne zaviđaj sreći grešnika i ne žesti se radi zlotvora.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 36, 30-31) Pravednikova usta govore mudrost i jezik njegov kazuje pravdu. Zakon je Božji u srcu njegovu."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nConcéde, quaésumus, Ecclésiae tuae, omnípotens Deus: ut beátum Stéphanum Confessórem tuum, quem regnántem in terris propagatórem hábuit, propugnatórem habére mereátur gloriósum in caelis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nDaj svojoj Crkvi, molimo, svemogući Bože, da blaženoga Stjepana priznavaoca tvoga zavrijedi imati kao slavnog branitelja na nebu, kao što ga je imala za promicatelja dok je vladao na zemlji.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Eccli 31, 8-11\nLéctio libri Sapiéntiae. Beatus vir, qui invéntus est sine mácula: et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? Fecit enim mirabília in vita sua. Qui probates est in illo, et perféctus est, erit illi glória aetérna: qui pótuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabílita sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+     "hr": "Sir 31, 8-11\nČitanje knjige Mudrosti. Blago čovjeku koji se nađe bez ljage i ne teži za zlatom, niti se uzda u novac i blago. Tko je taj, da ga pohvalimo? U svojem je životu učinio divna djela. Tko je u tome prokušan i savršen bit će uvijek slavan. Mogao je sagriješiti, ali nije sagriješio, učiniti zlo, ali nije počinio. Zato priznaje njegova djela Gospodin, a njegovih će se milostinja sjećati sve skupine svetih."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 91, 13-14, Ps 91, 3\n(Ps 91, 13-14) Iustus ut palma florébit: sicut cedrus Líbani multiplicábitur in domo Dómini. (Ps 91, 3) Ad annuntiándum mane misericórdiam tuam, et veritátem tuam per noctem.",
+     "hr": "Ps 91, 13-14, Ps 91, 3\n(Ps 91, 13-14) Kao palma cvjeta i kao libanski cedar raste pravednik u domu Gospodnjem. (Ps 91, 3) Jutrom naviješta milosrđe tvoje i noću tvoju vjernost."
+    },
+    {
+     "la": "Iac 1, 12\n<i>Allelúia</i>, <i>allelúia</i>.\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitae. <i>Allelúia</i>.",
+     "hr": "Jak 1, 12\n<i>Aleluja</i>, <i>aleluja</i>.\nBlago čovjeku koji nadvlada napast, jer kad bude prokušan, primit će krunu života. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 19, 12-26\nSequéntia sancti Evangélii secúndum Lucam. In illo témpore: Dixit Iesus discípulis suis parábolam hanc: Homo quidam nóbilis ábiit in regiónem longínquam accípere sibi regnum, et revérti. Vocátis autem decem servis suis, dedit eis decem mnas, et ait ad illos: Negotiámini, dum vénio. Cives autem eius óderant eum: et misérunt legatiónem post illum, dicéntes: Nólumus hunc regnáre super nos. Et factum est ut redíret, accépto regno: et iussit vocári servos, quibus dedit pecúniam, ut sciret quantum quisque negotiátus esset. Venit autem primus, dicens: Dómine, mna tua decem mnas acquisívit. Et ait illi: Euge, bone serve, quia in módico fuísti fidélis, eris potestátem habens super decem civitátes. Et alter venit, dicens: Dómine, mna tua fecit quinque mnas. Et huic ait: Et tu esto super quinque civitátes. Et alter venit, dicens: Dómine, ecce mna tua, quam hábui repósitam in sudário: tímui enim te, quia homo austérus es: tollis quod non posuísti, et metis quod non seminásti. Dicit ei: De ore tuo te iúdico, serve nequam. Sciébas quod ego homo austérus sum, tollens quod non pósui, et metens quod non seminávi: et quare non dedísti pecúniam meam ad mensam, ut ego véniens, cum usúris útique exegíssem illam? Et astántibus dixit: Auférte ab illo mnam, et date illi qui decem mnas habet. Et dixérunt ei: Dómine, habet decem mnas. Dico autem vobis: Quia omni habénti dábitur, et abundábit: ab eo autem qui non habet, et quod habet auferétur ab eo.",
+     "hr": "Lk 19, 12-26\nSlijedi sveto Evanđelje po Luki. U ono vrijeme reče Isus svojim učenicima ovu usporedbu: Neki čovjek ugledna roda pođe u daleku zemlju da primi kraljevstvo i da se povrati poslije toga. Pozove svojih deset slugu, dade im deset mina i reče im: Trgujte dok se ja ne vratim. Njegovi su ga građani mrzili, pa su za njim poslali vjesnike da mu kažu: Nećemo da ovaj vlada nad nama! Kada je preuzeo kraljevstvo, vrati se, dozove sluge kojima je predao novac, da zna koliko je koji stekao. Dođe prvi i reče: Gospodaru, tvoja mina donijela je deset mina. On mu odgovori: Dobro, slugo, dobri, jer si u malom bio vjeran, ti ćeš vladati nad deset gradova. A dođe i drugi i reče: Gospodaru, tvoja je mina donijela pet mina. I ovom reče: I ti budi nad pet gradova. A dođe i treći, koji reče: Gospodaru, evo tvoje mine, koju sam čuvao u rupcu. Ja sam se tebe bojao, jer si oštar čovjek i uzimaš što nisi ostavio i žanješ što nisi sijao. Odgovori mu: Zli slugo, sudim te po tvojim riječima. Znao si da sam oštar čovjek, da uzimam što nisam ostavio i žanjem što nisam sijao. Zašto nisi moj novac dao u promet, da kada dođem, primim ga s kamatama. I naredi prisutnima: Oduzmite mu minu i dajte onome koji ih ima deset. Oni mu kažu: Gospodaru, on ima deset mina. A ja vam kažem da će se dati onome koji već ima, i on će uživati obilno, a od onoga, koji nema, oduzet će se i ono, što ima."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 88, 25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu eius.",
+     "hr": "Ps 88, 25\nMoja će vjernost i moje milosrđe biti s njime, i svojim ću imenom uzdići njegovu moć."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Réspice, quas offérimus, hóstias, omnípotens Deus: et praesta; ut, qui passiónis domínicae mystéria celebrámus, imitémur quod ágimus.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Pogledaj, svemogući Bože, na darove koje prikazujemo i daj, da mi koji obavljamo tajne muke Gospodnje nasljedujemo što radimo.\n<i>Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 24, 46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen dico vobis, super ómnia bona sua constítuet eum.",
+     "hr": "Mt 24, 46-47\nBlago slugi koga gospodar nađe budna, kad dođe. Zaista vam kažem: Postavit će ga nad svim imanjem svojim."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nPraesta, quaésumus, omnípotens Deus: ut beáti Stéphani Confessóris tui fidem cóngrua devotióne sectémur; qui, pro eiúsdem fídei dilatatióne, de terréno regno ad caeléstis regni glóriam méruit perveníre.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nDaj, molimo, svemogući Bože, da prikladnom odanošću nasljedujemo vjeru blaženoga Stjepana priznavaoca tvoga, koji je zavrijedio da zbog širenja iste vjere prispije iz zemaljskog kraljevstva u slavu nebeskog.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-09-15",
+ "n": 0,
+ "heading": "PETAK, 15.IX.2017.",
+ "title": "Sedam žalosti BDM",
+ "rank": "Blagdan II. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen na tihim misama: sv. Nikomed, mučenik"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Io 19, 25, Io 19, 26-27\n(Io 19, 25) Stabant iuxta Crucem Iesu mater eius, et soror matris eius María Cléophae, et Salóme, et María Magdaléne. (Io 19, 26-27) Múlier, ecce fílius tuus: dixit Iesus; ad discípulum autem: Ecce mater tua.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Io 19, 25) Stabant iuxta Crucem Iesu mater eius, et soror matris eius María Cléophae, et Salóme, et María Magdaléne.",
+     "hr": "Iv 19, 25, Iv 19, 26-27\n(Iv 19, 25) Uz Križ je Isusov stajala njegova Majka i sestra njegove Majke Marija Kleofina i Saloma i Marija Magdalena. (Io 19, 26-27) Isus reče: Ženo evo ti sina; zatim reče učeniku: Evo ti majke.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Iv 19, 25) Uz Križ je Isusov stajala njegova Majka i sestra njegove Majke Marija Kleofina i Saloma i Marija Magdalena."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, in cuius passióne, secúndum Simeónis prophetíam, dulcíssimam ánimam gloriósae Vírginis et Matris Maríae dolóris gládius pertransívit: concéde propítius; ut, qui dolóres eius venerándo recólimus, passiónis tuae efféctum felícem consequámur:\n<i>qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, za vrijeme tvoje muke mač je boli prostrijelio po Šimunovu proročanstvu presvetu dušu slavne Djevice i majke Marije: daj milostivo, da mi koji s poštovanjem slavimo njezine žalosti postignemo sretni učinak tvoje muke:\n<i>koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Nikomed, mučenik</i></b>\n<i>Orémus</i>.\nAdésto, Dómine, pópulo tuo: ut, beáti Nicomédis Mártyris tui mérita praeclára suscípiens, ad impetrándam misericórdiam tuam semper eius patrocíniis adiuvétur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Nikomed, mučenik</i></b>\n<i>Pomolimo se</i>.\nUsliši, Gospodine, svoj narod, da mu, po preslavnim zaslugama blaženog Nikomeda tvoga mučenika, u postizanju tvoje milosti zauvijek pomaže njegova zaštita.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Iudith 13, 22 et 23-25\nLéctio libri Iudith. Benedíxit te Dóminus in virtúte sua, quia per te ad níhilum redégit inimícos nostros. Benedícta es tu, fília, a Dómino Deo excélso, prae ómnibus muliéribus super terram. Benedíctus Dóminus, qui creávit caelum et terram: quia hódie nomen tuum ita magnificávit, ut non recédat laus tua de ore hóminum, qui mémores fúerint virtútis Dómini in aetérnum, pro quibus non pepercísti ánimae tuae propter angústias et tribulatiónem géneris tui, sed subvenísti ruínae ante conspéctum Dei nostri.",
+     "hr": "Jud 13, 22 i 23-25\nČitanje knjige Judite. Gospodin te obdario svojom snagom, i po tebi je uništio naše neprijatelje. Ti si, kćeri, blagoslovljena od Gospodina, Svevišnjega Boga, više nego sve druge žene na zemlji. Blagoslovljen Gospodin, koji je stvorio nebo i zemlju: on je danas tako uzveličao tvoje ime, da ti pohvale neće prestati pjevati ljudi, koji će se vjekovima sjećati Božje moći. Za njih. zbog tjeskobe i nevolje svojega naroda, ti nisi štedjela sebe nego si spriječila propast pred našim Bogom."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Dolorósa et lacrimábilis es, Virgo María, stans iuxta Crucem Dómini Iesu, Fílii tui, Redemptóris. Virgo Dei Génetrix, quem totus non capit orbis, hoc crucis fert supplícium, auctor vitae factus homo.",
+     "hr": "Bila si puna boli i suza. Djevo Marijo, dok si stala uz Križ Otkupitelja, Gospodina Isusa, Sina svoga. O Djevo Bogorodice, smrtnu kaznu na Križu podnosi onaj koga cijeli svijet ne može obuhvatiti, početnik života koji je postao čovjek."
+    },
+    {
+     "la": "<i>Allelúia</i>, <i>allelúia</i>.\nStabat sancta María, caeli Regína et mundi Dómina, iuxta Crucem Dómini nostri Iesu Christi dolorósa.",
+     "hr": "<i>Aleluja</i>, <i>aleluja</i>.\nStala je sveta Marija, Kraljica neba i Gospodarica svijeta, puna boli uz Križ Gospodina našega Isusa Krista."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Sequéntia",
+   "hr": "Posljednica",
+   "rows": [
+    {
+     "la": "Stabat Mater dolorósa/Iuxta Crucem lacrimósa,/Dum pendébat Fílius. <i>\n</i>\nCuius ánimam geméntem,/Contristátam et doléntem,/Pertransívit gládius. <i>\n</i>\nO quam tristis et afflícta/Fuit ilia benedícta/Mater Unigéniti! <i>\n</i>\nQuae maerébat, et dolébat,/Pia Mater, dum vidébat/Nati poenas íncliti. <i>\n</i>\nQuis est homo, qui non fleret,/Matrem Christi si vidéret/In tanto supplício? <i>\n</i>\nQuis non posset contristári,/Christi Matrem contemplári/Doléntem cum Fílio? <i>\n</i>\nPro peccátis suae gentis/Vidit Iesum in torméntis,/Et flagéllis súbditum. <i>\n</i>\nVidit suum dulcem Natum/Moriéndo desolátum,/Dum emísit spíritum. <i>\n</i>\nEia, Mater, fons amóris,/Me sentíre vim dolóris/Fac, ut tecum lúgeam. <i>\n</i>\nFac, ut árdeat cor meum/In amándo Christum Deum,/Ut sibi compláceam. <i>\n</i>\nSancta Mater, istud agas,/Crucifíxi fige plagas/Cordi meo válide. <i>\n</i>\nTui Nati vulneráti,/Tam dignáti pro me pati,/Poenas mecum dívide. <i>\n</i>\nFac me tecum pie flere,/Crucifíxo condolére,/Donec ego víxero. <i>\n</i>\nIuxta Crucem tecum stare,/Et me tibi sociáre/In planctu desídero. <i>\n</i>\nVirgo vírginum praeclára,/Mihi iam non sis amára:/Fac me tecum plángere. <i>\n</i>\nFac, ut portem Christi mortem,/Passiónis fac consórtem,/Et plagas recólere. <i>\n</i>\nFac me plagis vulnerári,/Fac me Cruce inebriári,/Et cruóre Fílii. <i>\n</i>\nFlammis ne urar succénsus,/Per te, Virgo, sim defénsus/In die iudícii. <i>\n</i>\nChriste, cum sit hinc exíre,/Da per Matrem me veníre/Ad palmam victóriae. <i>\n</i>\nQuando corpus moriétur,/Fac, ut ánimae donétur/Paradísi glória. <i>\n</i>\n<i>amen</i>.\n<i>Allelúia</i>.",
+     "hr": "Stala plačuć' tužna mati,/Gledala je kako pati/Sin joj na križ uzdignut. <i>\n</i>\nDušom njenom razboljenom,/Rastuženom, ražaljenom,/Prolazio mač je ljut. <i>\n</i>\nO koliko ucviljena/Bješe ona uzvišena/Majka Sina jedinog! <i>\n</i>\nBol bolova sve to ljući/Blaga Mati gledajući/Muke slavnog Čeda svog. <i>\n</i>\nKoji čovjek ne bi plak'o/Majku Božju videć' tako/U tjeskobi tolikoj! <i>\n</i>\nTko protužit' neće s Čistom,/Kada vidi gdje za Kristom/Razdire se srce njoj ? <i>\n</i>\nZarad grijeha svoga puka/Gleda njega usred muka/I gdje bičem bijen bi. <i>\n</i>\nGleda svoga milog Sina,/Ostavljenog sred gorčina,/Gdje se s dušom podijeli. <i>\n</i>\nVrelo milja, slatka Mati,/Bol mi gorku osjećati/Daj, da s tobom procvilim. <i>\n</i>\nNeka ljubav srca moga/Gori sveđ za Krista Boga,/Da mu u svem omilim. <i>\n</i>\nRane drage, Majko sveta/Spasa za me razapeta/Tisni usred srca mog! <i>\n</i>\nNeka dođu i na mene/Patnje za me podnesene/Sina tvoga ranjenog. <i>\n</i>\nDaj mi s tobom suze livat',/Raspetoga oplakivat',/Dok na svijetu budem ja. <i>\n</i>\nU tom društvu uz križ stati,/S tobom jade jadovati/Želja mi je jedna. <i>\n</i>\nKruno djeva, Djevo divna,/Budi meni milostivna,/Daj mi s tobom dijelit plač. <i>\n</i>\nDaj mi nosit' po sve dane/Isusovu smrt i rane/Osjećati muka mač; <i>\n</i>\nNeka rane izrane me,/Neka svega opoje me/Sina tvoga križ i krv. <i>\n</i>\nTi na sudu za me zbori,/Djevo sveta, da ne mori/Pakleni me vječni crv. <i>\n</i>\nKada dođu smrtni časi,/Kriste Bože, nek me spasi/Majke tvoje zagovor. <i>\n</i>\nKad mi zemlja tijelo primi,/Dušu onda uzmi ti mi,/U nebeskim blažen dvor. <i>\n</i>\n<i>amen</i>.\n<i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Io 19, 25-27\nSequéntia sancti Evangélii secúndum Ioánnem. In illo témpore: Stabant iuxta crucem Iesu, mater eius, et soror matris eius María Cléophae, et María Magdaléne. Cum vidísset ergo Iesus matrem, et discípulum stantem, quem diligébat, dicit matri suae: Múlier, ecce fílius tuus. Deínde dicit discípulo: Ecce mater tua. Et ex illa hora accépit eam discípulus in sua.",
+     "hr": "Iv 19, 25-27\nSlijedi sveto Evanđelje po Luki. U ono vrijeme: Stajale su kod križa Isusova njegova Majka i sestra Majke njegove Marija Kleofina i Marija Magdalena. Kada dakle vidje Isus Majku i učenika, koga ljubljaše gdje stoji, reče svojoj Majci: Ženo, evo ti sina. Zatim reče učeniku: Evo ti majke. I od onoga časa uze je učenik k sebi."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "id": "tableCredo",
+   "hidden": true,
+   "la": "Credo (Symbolum Niceno-Constantinopolitanum)",
+   "hr": "Vjerovanje (nicejsko-carigradsko)",
+   "rows": [
+    {
+     "la": "Credo in unum Deum. Patrem omnipoténtem, factórem caeli et terrae, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saécula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de caelis. (Hic genuflecitur) Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in caelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostolicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam ventúri saéculi. Amen.",
+     "hr": "Vjerujem u jednoga Boga, Oca svemogućega, stvoritelja neba i zemlje, svega vidljivoga i nevidljivoga.I u jednoga Gospodina Isusa Krista, jedinorođenoga Sina Božjega. Rođenog od Oca prije svih vjekova. Boga od Boga, svjetlo od svjetla, pravoga Boga od pravoga Boga. Rođena, ne stvorena, istobitna s Ocem, po kome je sve stvoreno. Koji je radi nas ljudi i radi našega spasenja sišao s nebesa. (ovdje se poklekne) I utjelovio se po Duhu Svetom od Marije Djevice: i postao čovjekom. Raspet također za nas: pod Poncijem Pilatom mučen i pokopan. I uskrsnuo treći dan, po Svetom Pismu. I uzašao na nebo: sjedi s desne Ocu. I opet će doći u slavi suditi žive i mrtve, i njegovu kraljevstvu neće biti kraja. I u Duha Svetoga, Gospodina i životvorca; koji izlazi od Oca i Sina. Koji se s Ocem i Sinom skupa časti i zajedno slavi; koji je govorio po prorocima. I u jednu svetu katoličku i apostolsku Crkvu. Ispovijedam jedno krštenje za oproštenje grijeha. I iščekujem uskrsnuće mrtvih. I život budućega vijeka. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ierem 18, 20\nRecordáre, Virgo Mater Dei, dum stéteris in conspéctu Dómini, ut loquáris pro nobis bona, et ut avértat indignatiónem suam a nobis.",
+     "hr": "Jr 18, 20\nSpomeni se, Djevice, Majko Božja dok stojiš pred licem Gospodnjim da nas zagovaraš, neka otkloni srdžbu svoju od nas."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Offérimus tibi preces et hóstias, Dómine Iesu Christe, humíliter supplicántes: ut, qui Transfixiónem dulcíssimi spíritus beátae Maríae Matris tuae précibus recensémus; suo suorúmque sub Cruce Sanctórum consórtium multiplicáto piíssimo intervéntu, méritis mortis tuae, méritum cum beátis habeámus:\n<i>qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "Prinosimo ti molitve i darove, Gospodine Isuse Kriste, ponizno moleći, da mi koji u molitvama razmišljamo o žalostima presvete duše blažene Marije Majke tvoje po milom zagovoru njezinu i njezinih svetih pratilaca pod križem zavrijedimo sudjelovati u nagradi svetih po zaslugama tvoje smrti:\n<i>koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Nikomed, mučenik</i></b>\nSúscipe, Dómine, múnera propítius obláta: quae maiestáti tuae beáti Nicomédis Mártyris comméndet orátio.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Nikomed, mučenik</i></b>\nMilostivo primi, Gospodine, prikazane darove, koje tvojem veličanstvu preporuča molitva tvoga blaženog mučenika Nikomeda.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de beáta María Vírgine",
+   "hr": "Predslovlje blažene Djevice Marije",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: Et te <i>in Transfixióne</i> beátae Mariae semper Vírginis collaudáre, benedícere et praedicáre. Quae et Unigénitum tuum Sancti Spíritus obumbratióne concépit: et, virginitátis glória permanénte, lumen aetérnum mundo effúdit, Iesum Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože: i da te <i>o žalostima</i> blažene Marije vazda Djevice hvalimo, blagoslivljamo i slavimo. Ona je osjenjena Duhom Svetim začela jedinorođenoga Sina tvoga i sačuvavši slavu djevičanstva prosula svijetom vječno svjetlo Isusa Krista Gospodina našega. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Felíces sensus beátae Maríae Vírginis, qui sine morte meruérunt martýrii palmam sub Cruce Dómini.",
+     "hr": "O sretnih li osjetila blažene Djevice Marije, što su bez smrti zaslužila mučeničku palmu pod Križem Gospodnjim."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nSacrifícia, quae súmpsimus, Dómine Iesu Christe, Transfixiónem Matris tuae et Vírginis devóte celebrántes: nobis ímpetrent apud cleméntiam tuam omnis boni salutáris efféctum:\n<i>qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nŽrtve koje smo primili, Gospodine Isuse Kriste, slaveći pobožno žalosti tvoje Majke i Djevice, neka nam izmole kod tvoje dobrote svako spasonosno dobro:\n<i>koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Nikomed, mučenik</i></b>\n<i>Orémus</i>.\nPuríficent nos, Dómine, sacraménta quae súmpsimus; et, intercedénte beáto Nicoméde Mártyre tuo, a cunctis effíciant vítiis absolútos.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Nikomed, mučenik</i></b>\n<i>Pomolimo se</i>.\nNeka nas očiste; Gospodine, otajstva koja smo primili, a po zagovoru blaženog Nikomeda mučenika tvoga neka budemo odriješeni svih grijeha.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

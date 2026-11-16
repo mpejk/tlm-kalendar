@@ -1,0 +1,163 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-01-13",
+ "n": 0,
+ "heading": "SUBOTA, 13.I.2018.",
+ "title": "Krštenje Gospodina našega Isusa Krista",
+ "rank": "Blagdan II. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Mal 3, 1, 1 Par 29, 12, Ps 71, 1\n(Mal 3, 1, 1 Par 29, 12) Ecce advénit dominátor Dóminus: et regnum in manu eius, et potéstas, et impérium. (Ps 71, 1) Deus, iudícium tuum Regi da: et iustítiam tuam Fílio Regis.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Mal 3, 1, 1 Par 29, 12) Ecce advénit dominátor Dóminus: et regnum in manu eius, et potéstas, et impérium.",
+     "hr": "Mal 3, 1, 1 Ljet 29, 12, Ps 71, 1\n(Mal 3, 1, 1 Ljet 29, 12) Evo, došao je vladar Gospodin. U njegovoj je ruci kraljevstvo i moć i vlast. (Ps 71, 1) Bože, daj Kralju svoju sudačku vlast i svoju pravdu Kraljevu Sinu.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Mal 3, 1, 1 Ljet 29, 12) Evo, došao je vladar Gospodin. U njegovoj je ruci kraljevstvo i moć i vlast."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, cuius Unigénitus in substántia nostrae carnis appáruit: praesta, quaésumus; ut per eum, quem símilem nobis foris agnóvimus, intus reformári mereámur:\n<i>qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, budući da se tvoj Jedinorođenac pojavio u našem tijelu, podaj, molimo, da se u duhu obnovimo po njemu koga smo spoznali da nam je sličan u tijelu:\n<i>koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Isai 60, 1-6\nLéctio Isaíae Prophétae: Surge, illumináre, Ierúsalem: quia venit lumen tuum, et glória Dómini super te orta est. Quia ecce ténebrae opérient terram, et calígo pópulos: super te autem oriétur Dóminus, et glória eius in te vidébitur. Et ambulábunt gentes in lúmine tuo, et reges in splendóre ortus tui. Leva in circúitu óculos tuos et vide: omnes isti congregáti sunt, venérunt tibi: fílii tui de longe vénient, et fíliae tuae de látere surgent. Tunc vidébis et áfflues, mirábitur et dilatábitur cor tuum, quando convérsa fúerit ad te multitúdo maris, fortitúdo géntium venérit tibi. Inundátio camelórum opériet te, dromedárii Mádian et Epha: omnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes.",
+     "hr": "Iz 60, 1-6\nČitanje Izaije Proroka: Ustani, rasvijetli se, Jeruzaleme, jer je došlo tvoje svjetlo i obasjala te Gospodnja slava. Gle, zemlju će pokriti tama i narode će obaviti mrak, a nad tobom će zasjati Gospodin i na tebi će se vidjeti njegova slava. Narodi će hodati u tvojem svjetlu i kraljevi u sjaju tvoga dolaska. – Podigni svoje oči i gledaj: Svi su se ovi skupili, dolaze k tebi. Tvoji će sinovi doći izdaleka i tvoje kćeri ustat će sa svih strana. Ti ćeš to vidjeti i napunit ćeš se miline, divit će se i širiti tvoje srce, kad se mnoštvo s mora obrati prema tebi i kad silan narod dođe k tebi. Pokrit će te mnoštvo deva, dromedari iz Madijana i Efe. Svi će iz Sabe doći noseći zlato i tamjan i navješćujući Gospodnju slavu."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Isai 60, 6 et 1\nOmnes de Saba vénient, aurum et thus deferéntes, et laudem Dómino annuntiántes. Surge, et illumináre, Ierúsalem: quia glória Dómini super te orta est.",
+     "hr": "Iz 60, 6 i 1\nSvi će iz Sabe doći noseći zlato i tamjan i navješćujući Gospodnju slavu. Ustani, rasvijetli se, Jeruzaleme, jer te obasjala Gospodnja slava."
+    },
+    {
+     "la": "Mt 2, 2\n<i>Allelúia</i>, <i>allelúia</i>.\nVídimus stellam eius in Oriénte, et vénimus cum munéribus adoráre Dóminum. <i>Allelúia</i>.",
+     "hr": "Mt 2, 2\n<i>Aleluja</i>, <i>aleluja</i>.\nVidjeli smo njegovu zvijezdu na istoku i dođosmo s darovima da se poklonimo Gospodinu. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Io 1, 29-34\nSequéntia sancti Evangélii secúndum Ioánnem. In illo témpore: Vidit Ioánnes Iesum veniéntem ad se, et ait: Ecce Agnus Dei, ecce qui tollit peccátum mundi. Hic est, de quo dixi: Post me venit vir, qui ante me factus est: quia prior me erat. Et ego nesciébam eum, sed ut manifestétur in Israel, proptérea veni ego in aqua baptízans. Et testimónium perhíbuit Ioánnes, dicens: Quia vidi Spíritum descendéntem quasi colúmbam de caelo, et mansit super eum. Et ego nesciébam eum: sed qui misit me baptizáre in aqua, ille mihi dixit: Super quem víderis Spíritum descendéntem, et manéntem super eum, hic est, qui baptízat in Spíritu Sancto. Et ego vidi: et testimónium perhíbui, quia hic est Fílius Dei.",
+     "hr": "Iv 1, 29-34\nSlijedi sveto Evanđelje po Ivanu. U ono vrijeme: vidje Ivan da Isus dolazi k njemu i reče: Evo, Jaganjac Božji, evo koji uzima grijehe svijeta! Ovo je onaj za koga sam vam kazao: Poslije mene dolazi čovjek koji je bio prije mene i koji je veći od mene. Ja ga nisam poznavao, nego sam zato došao krstiti vodom da Izrael njega prizna. A Ivan je svjedočio: Vidio sam Duha, kako kao golub silazi s neba i stade na njemu. Ja ga nisam poznavao, nego onaj, koji me posla krstiti vodom, reče mi: Na koga vidiš da silazi Duh i da ostaje na njemu, taj je koji krsti Duhom Svetim. Vidio sam i svjedočim da je to Sin Božji."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "id": "tableCredo",
+   "hidden": true,
+   "la": "Credo (Symbolum Niceno-Constantinopolitanum)",
+   "hr": "Vjerovanje (nicejsko-carigradsko)",
+   "rows": [
+    {
+     "la": "Credo in unum Deum. Patrem omnipoténtem, factórem caeli et terrae, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saécula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de caelis. (Hic genuflecitur) Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in caelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostolicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam ventúri saéculi. Amen.",
+     "hr": "Vjerujem u jednoga Boga, Oca svemogućega, stvoritelja neba i zemlje, svega vidljivoga i nevidljivoga.I u jednoga Gospodina Isusa Krista, jedinorođenoga Sina Božjega. Rođenog od Oca prije svih vjekova. Boga od Boga, svjetlo od svjetla, pravoga Boga od pravoga Boga. Rođena, ne stvorena, istobitna s Ocem, po kome je sve stvoreno. Koji je radi nas ljudi i radi našega spasenja sišao s nebesa. (ovdje se poklekne) I utjelovio se po Duhu Svetom od Marije Djevice: i postao čovjekom. Raspet također za nas: pod Poncijem Pilatom mučen i pokopan. I uskrsnuo treći dan, po Svetom Pismu. I uzašao na nebo: sjedi s desne Ocu. I opet će doći u slavi suditi žive i mrtve, i njegovu kraljevstvu neće biti kraja. I u Duha Svetoga, Gospodina i životvorca; koji izlazi od Oca i Sina. Koji se s Ocem i Sinom skupa časti i zajedno slavi; koji je govorio po prorocima. I u jednu svetu katoličku i apostolsku Crkvu. Ispovijedam jedno krštenje za oproštenje grijeha. I iščekujem uskrsnuće mrtvih. I život budućega vijeka. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 71, 10-11\nReges Tharsis et ínsulae múnera ófferent: reges Arabum et Saba dona addúcent: et adorábunt eum omnes reges terrae, omnes gentes sérvient ei.",
+     "hr": "Ps 71, 10-11\nKraljevi Tarzisa i otoka prinijet će poklone. Kraljevi Arabije i Sabe donijet će darove. Poklonit će mu se svi zemaljski kraljevi, služit će mu svi narodi."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Hóstias tibi, Dómine, pro nati Fílii tui apparitióne deférimus, supplíciter exorántes: ut, sicut ipse nostrórum auctor est múnerum, ita sit ipse miséricors et suscéptor, Iesus Christus Dóminus noster:\n<i>qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "Prikazujemo ti, Gospodine, žrtve na spomen objavljenja tvoga rođenoga Sina i ponizno molimo da milosrdno primi naše darove onaj koji je njihov početnik Isus Krist, Gospodin naš.\n<i>Koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de Epiphánia Dómini",
+   "hr": "Predslovlje Bogojavljenja",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: Quia, cum Unigénitus tuus in substántia nostrae mortalitátis appáruit, nova nos immortalitátis suae luce reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi. Gospodine, sveti Oče, svemogući vječni Bože: – jer kad se tvoj Jedinorođenac pojavio u našem smrtnom tijelu, on nas je novim svjetlom svoje besmrtnosti obnovio. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 2, 2\nVídimus stellam eius in Oriénte, et vénimus cum munéribus adoráre Dóminum.",
+     "hr": "Mt 2, 2\nVidjeli smo njegovu zvijezdu na istoku i dođosmo s darovima da se poklonimo Gospodinu."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nCaelésti lúmine, quaésumus, Dómine, semper et ubíque nos praéveni: ut mystérium, cuius nos partícipes esse voluísti, et puro cernámus intúitu, et digno percipiámus afféctu.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>.",
+     "hr": "<i>Pomolimo se</i>.\nMolimo, Gospodine, da bude uvijek i svagdje pred nama nebesko svjetlo, te čistim pogledom promatramo i dostojnom ljubavlju primamo otajstvo u kojem hoćeš da sudjelujemo.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>."
+    }
+   ]
+  }
+ ]
+}

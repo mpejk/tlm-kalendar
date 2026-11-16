@@ -1,0 +1,146 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-05-15",
+ "n": 0,
+ "heading": "PONEDJELJAK, 15.V.2017.",
+ "title": "sv. Ivan de la Salle, priznavalac",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 36, 30-31, Ps 36, 1\n(Ps 36, 30-31) Os iusti meditábitur sapiéntiam, et lingua eius loquétur iudícium: lex Dei eius in corde ipsíus. <i>Allelúia</i>, <i>allelúia</i>.\n(Ps 36, 1) Noli aemulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 36, 30-31) Os iusti meditábitur sapiéntiam, et lingua eius loquétur iudícium: lex Dei eius in corde ipsíus. <i>Allelúia</i>, <i>allelúia</i>.",
+     "hr": "Ps 36, 30-31, Ps 36, 1\n(Ps 36, 30-31) Pravednikova usta govore mudrost i jezik njegov kazuje pravdu. Zakon je Božji u srcu njegovu. <i>Aleluja</i>, <i>aleluja</i>.\n(Ps 36, 1) Ne zaviđaj sreći grešnika i ne žesti se radi zlotvora.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 36, 30-31) Pravednikova usta govore mudrost i jezik njegov kazuje pravdu. Zakon je Božji u srcu njegovu. <i>Aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui, ad christiánam páuperum eruditiónem et ad iuvéntam in via veritátis firmándam, sanctum Ioánnem Baptístam Confessórem excitásti, et novam per eum in Ecclésia famíliam collegísti: concéde propítius; ut eius intercessióne et exémplo, stúdio glóriae tuae in animárum salúte fervéntes, eius in caelis corónae partícipes fíeri valeámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si podigao svetoga Ivana Krstitelja priznavaoca da poučava siromahe u kršćanskoj vjeri i utvrđuje mladež na putu istine, i sabrao po njemu novu obitelj u Crkvi, daj milostiv, da po njegovu zagovoru i primjeru u gorljivom nastojanju oko tvoje slave na spasenje duša uzmognemo postati dionici njegove krune na nebu.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Eccli 31, 8-11\nLéctio libri Sapiéntiae. Beatus vir, qui invéntus est sine mácula: et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? Fecit enim mirabília in vita sua. Qui probates est in illo, et perféctus est, erit illi glória aetérna: qui pótuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabílita sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+     "hr": "Sir 31, 8-11\nČitanje knjige Mudrosti. Blago čovjeku koji se nađe bez ljage i ne teži za zlatom, niti se uzda u novac i blago. Tko je taj, da ga pohvalimo? U svojem je životu učinio divna djela. Tko je u tome prokušan i savršen bit će uvijek slavan. Mogao je sagriješiti, ali nije sagriješio, učiniti zlo, ali nije počinio. Zato priznaje njegova djela Gospodin, a njegovih će se milostinja sjećati sve skupine svetih."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Allelúia",
+   "hr": "Aleluja",
+   "rows": [
+    {
+     "la": "Iac 1, 12, Eccli 45, 9\n<i>Allelúia</i>, <i>allelúia</i>.\nBeátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitae. <i>Allelúia</i>.\nAmávit eum Dóminus, et ornávit eum: stolam glóriae índuit eum. <i>Allelúia</i>.",
+     "hr": "Jak 1, 12, Eccli 45, 9\n<i>Aleluja</i>, <i>aleluja</i>.\nBlago čovjeku koji nadvlada napast, jer kad bude prokušan, primit će krunu života, <i>aleluja</i>.\nGospodin ga je ljubio i ukrasio, zaodjenuo ga je haljinom slave. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 18, 1-5\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Accessérunt discípuli ad Iesum, dicéntes: Quis, putas, maior est in regno caelórum? Et ádvocans Iesus párvulum, státuit eum in médio eórum, et dixit: Amen dico vobis, nisi convérsi fuéritis, et efficiámini sicut párvuli, non intrábitis in regnum caelórum. Quicúmque ergo humiliáverit se sicut párvulus iste, hic est maior in regno caelórum. Et qui suscéperit unum párvulum talem in nomine meo, me súscipit.",
+     "hr": "Mt 18, 1-5\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme, pristupe učenici k Isusu i upitaju ga: Što misliš, tko je najveći u nebeskom kraljevstvu? Isus nato pozva jedno malo dijete, postavi ga pred njih i reče: Zaista vam kažem: ako se ne obratite i ne postanete kao djeca, nećete ući u nebesko kraljevstvo. Dakle, tko se ponizi kao ovo dijete, taj je najveći u nebeskom kraljevstvu. I još vam kažem: tko radi mene primi jedno dijete kao što je ovo, mene prima."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 88, 25\nVéritas mea et misericórdia mea cum ipso: et in nómine meo exaltábitur cornu eius. <i>Allelúia</i>.",
+     "hr": "Ps 88, 25\nMoja će vjernost i moje milosrđe biti s njime, i svojim ću imenom uzdići njegovu moć. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Laudis tibi, Dómine, hóstias immolámus in tuórum commemoratióne Sanctórum: quibus nos et praeséntibus éxui malis confídimus, et futúris.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Posvećujemo ti, Gospodine, žrtve hvale na spomen tvojih svetih i uzdamo se da ćeš nas po njima izbaviti od sadašnjih i od budućih zala.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio paschális",
+   "hr": "Predslovlje uskrsno",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre: Te quidem, Dómine, omni témpore, sed <i>in hoc potíssimum</i> gloriósius praedicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno da tebe, Gospodine, u svako doba, a osobito <i>u ovo</i> svečanije slavimo, kad je Krist žrtvovan, naše vazmeno Janje. On je naime pravo janje koje oduze grijehe svijeta. Svojom smrću on je uništio našu smrt i svojim uskrsnućem obnovio naš život. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 24, 46-47\nBeátus servus, quem, cum vénerit dóminus, invénerit vigilántem: amen dico vobis, super ómnia bona sua constítuet eum. <i>Allelúia</i>.",
+     "hr": "Mt 24, 46-47\nBlago slugi koga gospodar nađe budna, kad dođe. Zaista vam kažem: Postavit će ga nad svim imanjem svojim. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nRefécti cibo potúque caélesti, Deus noster, te súpplices exorámus: ut, in cuius haec commemoratióne percépimus, eius muniámur et précibus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nOkrijepljeni nebeskim jelom i pićem ponizno te molimo, Bože naš, da budemo zaštićeni molitvama onoga na čiji smo to spomen primili.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+01-00
+   DO: 01-00[2] Sanctissimi Nominis Jesu
+   HR: 
+01-06
+   DO: 01-06[1] Epiphaniae Domini
+   HR: 
+01-07
+   DO: 01-07[4] Secunda die infra Octavam Epiphaniae
+   HR: Sveta Obitelj Isusa, Marije i Josipa {T:IINED C: White}
+01-08
+   DO: 01-08[4] Tertia die infra Octavam Epiphaniae
+   HR: Sveta Obitelj Isusa, Marije i Josipa {T:IINED C: White}
+01-09
+   DO: 01-09[4] Quarta die infra Octavam Epiphaniae
+   HR: 
+01-10
+   DO: 01-10[4] Quinta die infra Octavam Epiphaniae
+   HR: 
+01-11
+   DO: 01-11[4] Sexta die infra Octavam Epiphaniae ~ 01-11cc[4] S. Hygini Papæ et Martyris
+   HR: sv. Higin, papa i mučenik {T: C:low,low,low }
+01-12
+   DO: 01-12[4] Septima die infra Octavam Epiphaniae
+   HR: 
+01-13
+   DO: 01-13[2] Die Octava Epiphaniae
+   HR: Krštenje Gospodina našega Isusa Krista {T:IIPET,IISUB C: White} ~ Sveta Obitelj Isusa, Marije i Josipa {T:IINED C: White}
+01-25
+   DO: 01-25r[3] In Conversione S. Pauli Apostoli
+   HR: Obraćenje sv. Pavla {T:IIISRI,IIIČET,IIIPET C: White} ~ sv. Petar, apostol {T: C:SAME,SAME,SAME }
+01-28
+   DO: 01-28[3] S. Petri Nolasci Confessoris ~ 01-28t[4] S. Agnetis Virginis et Martyris secundo
+   HR: sv. Petar Nolasco, priznavalac {T:IIISUB,IIIPON C: White} ~ Sedamdesetnica (Septuagesima) {T:IINED C: Violet} ~ sv. Agneza (Janja, Ines), djevica, mučenica [na osminu njenog blagdana] {T: C:low,low }
+02-04
+   DO: 02-04[3] S. Andreæ Corsini Episcopi et Confessoris
+   HR: sv. Andrija Corsini, biskup, priznavalac {T:IIISUB,IIIPON C: White} ~ Šezdesetnica (Sexagesima) {T:IINED C: Violet}
+02-11
+   DO: 02-11[3] In apparitione Beatae Mariae Virginis
+   HR: Ukazanje BDM bezgrešno začete u Lourdesu (Gospa Lurdska) {T:IIISUB,IIIPON C: White} ~ Pedesetnica (Quinquagesima) {T:IINED C: Violet}
+02-12
+   DO: 02-12[3] Ss. Septem Fundatorum Ordinis Servorum B. M. V.
+   HR: Sedamdesetnica (Septuagesima) {T:IINED C: Violet} ~ sedam osnivača Reda slugu BDM (Ordo Servorum Beatae Mariae Virginis), priznavaoci {T:IIIPON,IIIUTO C: White}
+02-17
+   DO: 
+   HR: Sedamdesetnica (Septuagesima) {T:IINED C: Violet}
+02-19
+   DO: 
+   HR: Šezdesetnica (Sexagesima) {T:IINED C: Violet}
+02-22
+   DO: 02-22[2] In Cathedra S. Petri Apostoli
+   HR: Katedra sv. Petra {T:IISRI,IIČET,IIPET C: White} ~ sv. Pavao, apostol {T: C:SAME,SAME,SAME }
+02-24
+   DO: 02-24[2] S. Matthiæ Apostoli
+   HR: sv. Matija, apostol {T:IIPET,IISUB C:low Red} ~ Šezdesetnica (Sexagesima) {T:IINED C: Violet}
+02-26
+   DO: 
+   HR: Pedesetnica (Quinquagesima) {T:IINED C: Violet}
+03-03
+   DO: 
+   HR: Pedesetnica (Quinquagesima) {T:IINED C: Violet}
+03-20
+   DO: 
+   HR: SV. JOSIP, ZARUČNIK BDM, PRIZNAVALAC, ZAŠTITNIK SVEOPĆE CRKVE {T:IPON C: White}
+03-23
+   DO: 
+   HR: Sedam žalosti BDM {T: C:low }
+04-07
+   DO: 
+   HR: Sedam žalosti BDM {T: C:low }
+04-09
+   DO: 
+   HR: BLAGOVIJEST {T:IPON C: White}
+04-12
+   DO: 
+   HR: Sedam žalosti BDM {T: C:low }
+04-22
+   DO: 04-22[3] SS. Soteris et Caji Summorum Pontificum et Martyrum
+   HR: 
+06-10
+   DO: 06-10[3] S. Margaritæ Reginæ Viduæ
+   HR: 
+06-30
+   DO: 06-30[3] In Commemoratione S. Pauli Apostoli
+   HR: Spomen sv. Pavla, apostola {T:IIIPET,IIISUB C: Red} ~ sv. Petar, apostol {T: C:SAME,SAME }
+09-22
+   DO: 09-22[3] S. Thomæ de Villanova Episcopi et Confessoris ~ 09-22o[4] Ss. Mauritii et Sociorum Martyrum
+   HR: sv. Toma iz Villanove, biskup, priznavalac {T: C:low,low }
+12-25
+   DO: 12-25[1] In Nativitate Domini
+   HR: BOŽIĆ (ROĐENJE GOSPODINA NAŠEGA ISUSA KRISTA) {T:INED,IPON,IUTO,ISRI C: White} ~ spomen i na tihim i na pjevanim misama: sv. Anastazija, mučenica {T: C:samo zornica,samo zornica,samo zornica,samo zornica }
+12-26
+   DO: 12-26[2] S. Stephani Protomartyris
+   HR: sv. Stjepan, prvomučenik {T:IIPON,IIUTO,IISRI,IIČET C: Red} ~ II. dan božićne osmine {T: C:ALL,ALL,ALL,ALL }
+12-27
+   DO: 12-27[2] S. Joannis Apostoli et Evangelistæ
+   HR: sv. Ivan, apostol i evanđelist {T:IIUTO,IISRI,IIČET,IIPET C: White} ~ III. dan božićne osmine {T: C:ALL,ALL,ALL,ALL }
+12-28
+   DO: 12-28r[2] Ss. Innocentium
+   HR: Nevina dječica {T:IISRI,IIČET,IIPET,IISUB C: Red} ~ IV. dan božićne osmine {T: C:ALL,ALL,ALL,ALL }
+12-29
+   DO: 12-29r[4] S. Thomæ Cantuariensis Episcopi et Martyris
+   HR: V. dan božićne osmine {T:IIČET,IIPET,IISUB C: White} ~ Nedjelja u božićnoj osmini {T:IINED C: White} ~ sv. Toma Becket, biskup, mučenik {T: C:low,low,low }
+12-30
+   DO: 
+   HR: VI. dan božićne osmine {T:IIPET,IISUB,IIPON C: White} ~ Nedjelja u božićnoj osmini {T:IINED C: White}
+12-31
+   DO: 12-31r[4] S. Silvestri Papæ et Confessoris
+   HR: VII. dan božićne osmine {T:IISUB,IIPON,IIUTO C: White} ~ Nedjelja u božićnoj osmini {T:IINED C: White} ~ sv. Silvestar I., papa, priznavalac {T: C:low,low,low }

@@ -1,0 +1,177 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-02-24",
+ "n": 0,
+ "heading": "SUBOTA, 24.II.2018.",
+ "title": "sv. Matija, apostol",
+ "rank": "Blagdan II. razreda",
+ "colour": "Red",
+ "commemorations": [
+  "spomen i na pjevanim i na tihim misama: Subota korizmenih kvatri"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 138, 17, Ps 138, 1-2\n(Ps 138, 17) Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum. (Ps 138, 1-2) Dómine, probásti me, et cognovísti me: tu cognovísti sessiónem meam, et resurrectiónem meam.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 138, 17) Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
+     "hr": "Ps 138, 17, Ps 138, 1-2\n(Ps 138, 17) Nadasve častim tvoje prijatelje, Bože, jer je velika uloga vlasti njihove. (Ps 138, 1-2) Gospodine, ti si me kušao i spoznao, tebi je poznat moj počinak i moje uskrsnuće.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 138, 17) Nadasve častim tvoje prijatelje, Bože, jer je velika uloga vlasti njihove."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui beátum Matthíam Apostolórum tuórum collégio sociásti: tríbue, quaésumus; ut, eius interventióne, tuae circa nos pietátis semper viscera sentiámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si blaženoga Matiju pridružio zboru svojih apostola, daj, molimo, da po njegovu zagovoru uvijek osjećamo na sebi tvoju ljubav, punu smilovanja.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: Subota korizmenih kvatri</i></b>\n<i>Orémus</i>.\nPópulum tuum, quaésumus, Dómine, propítius réspice: atque ab eo flagélla tuae iracúndiae cleménter avérte.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: Subota korizmenih kvatri</i></b>\n<i>Pomolimo se</i>.\nMilostivo pogledaj, Gospodine, svoj narod, i blagostivo odvrati od njega bičeve svoje srdžbe.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Act 1, 15-26\nLéctio Actuum Apóstolorum. In diébus illis exsúrgens Petrus in médio fratrum, dixit (erat autem turba hóminum simul, fere centum vigínti): Viri fratres, opórtet impléri Scriptúram, quam praedíxit Spíritus Sanctus per os David de Iuda, qui fuit dux eórum qui comprehendérunt Iesum: qui connumerátus erat in nobis, et sortítus est sortem ministérii huius. Et hic quidem possédit agrum de mercéde iniquitátis, et suspénsus crépuit médius: et diffúsa sunt ómnia viscera eius. Et notum factum est ómnibus habitántibus Ierúsalem, ita ut appellarétur ager ille, lingua eórum, Hacéldama, hoc est, ager sánguinis. Scriptum est enim in libro Psalmórum: Fiat commorátio eórum desérta, et non sit qui inhabited in ea: et episcopátum eius accípiat alter. Opórtet ergo ex his viris, qui nobíscum sunt congregáti in omni témpore, quo intrávit et exívit inter nos Dóminus Iesus, incípiens a baptísmate Ioánnis usque in diem qua assúmptus est a nobis, testem resurrectiónis eius nobíscum fíeri unum ex istis. Et statuérunt duos, Ioseph qui vocabátur Bársabas, qui cognominátus est Iustus, et Matthíam. Et orántes dixérunt: Tu, Dómine, qui corda nosti ómnium, osténde quem elégeris ex his duóbus unum, accípere locum ministérii huius et apostolátus, de quo praevaricátus est Iudas, ut abíret in locum suum. Et dedeérunt sortes eis, et cécidit sors super Matthíam, et annumerátus est cum úndecim Apóstolis.",
+     "hr": "Dj 1, 15-26\nČitanje Djela apostolskih. U one dane ustade Petar među braćom (a bilo ih je na okupu oko sto dvadeset ljudi) i reče: »Treba, ljudi braćo, da se ispuni Pismo kako po Davidu proreče Duh Sveti Judi, vođi onih koji su uhvatili Isusa. On je bio u našem broju i zapade ga dio ove službe, a njivu steče kao plaću za zločin. Objesi se, puče po sredini i prosu mu se sva utroba. I saznali su za to svi stanovnici Jeruzalema tako da se ta njiva naziva njihovim jezikom Hakeldama, to jest njiva krvi. Pisano je u knjizi Psa–lama: Pust bio njihov stan i ne našao se nitko, koji bi u njemu stanovao, a njegovu službu neka uzme drugi! Zato treba da jedan od ovih ljudi koji su bili s nama sve vrijeme što je Gospodin Isus boravio među nama, od kada je od Ivanova krsta počeo, sve do dana kada se uzeo nad nas, bude s nama svjedokom njegova uskrsnuća;« I postaviše dvojicu: Josipa, koji se zvao Barsaba, s prezimenom Justo, i Matiju. I molili su: »Ti Gospodine, koji poznaješ srca svih, pokaži kojega si izabrao od ove dvojice da preuzme mjesto ove službe i apostolstva, o koje se ogriješio Juda, da otiđe na svoje mjesto.« I birali su ih kockama, i pade kocka na Matiju koji je bio pribrojen jedanaestorici apostola."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Tractus",
+   "hr": "Gradual + Zavlaka",
+   "rows": [
+    {
+     "la": "Ps 138, 17-18\nNimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum. Dinumerábo eos, et super arénam multiplicabúntur.",
+     "hr": "Ps 138, 17-18\nNada sve častim tvoje prijatelje, Bože, jer je velika uloga vlasti njihove. Da ih brojim, ima ih više nego pijeska."
+    },
+    {
+     "la": "Ps 20, 3-4\nDesidérium ánimae eius tribuísti ei: et voluntáte labiórum eius non fraudásti eum. Quóniam praevenísti eum in benedictiónibus dulcédinis. Posuísti in cápite eius corónam de lápide pretióso.",
+     "hr": "Ps 20, 3-4\nTi si mu ispunio želju njegova srca i nisi mu uskratio molbe njegovih usana. Pretekao si ga slatkim blagoslovom. Postavio si mu na glavu vijenac od dragog kamenja."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 11, 25-30\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Respóndens Iesus, dixit: Confíteor tibi, Pater, Dómine caeli et terrae quia abscondísti haec a sapiéntibus et prudéntibus, et revelásti ea párvulis. Ita, Pater: quóniam sic fuit plácitum ante te. Omnia mihi trádita sunt a Patre meo. Et nemo novit Fílium, nisi Pater: neque Patrem quis novit, nisi Fílius, et cui volúerit Fílius reveláre. Veníte ad me, omnes qui laborátis et oneráti estis, et ego refíciam vos. Tóllite iugum meum super vos, et díscite a me, quia mitis sum et húmilis corde: et inveniétis réquiem animábus vestris. Iugum enim meum suáve est, et onus meum leve.",
+     "hr": "Mt 11, 25-30\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme: Zahvaljujem ti, Oče, Gospodaru neba i zemlje jer si ovo sakrio mudrima i razumnima, a objavio malenima. Da, Oče, jer ti se svidjelo tako! Moj je Otac predao meni sve, i nitko ne pozna Sina nego Otac, niti tko pozna Oca nego Sin i komu Sin hoće da objavi. Dođite k meni svi koji ste umorni i opterećeni i ja ću vas okrijepiti. Uzmite na sebe moj jaram i učite se od mene jer sam ja krotka i ponizna srca i naći ćete pokoj svojim dušama. Jer je moj jaram sladak i moje breme lako."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "id": "tableCredo",
+   "hidden": true,
+   "la": "Credo (Symbolum Niceno-Constantinopolitanum)",
+   "hr": "Vjerovanje (nicejsko-carigradsko)",
+   "rows": [
+    {
+     "la": "Credo in unum Deum. Patrem omnipoténtem, factórem caeli et terrae, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saécula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de caelis. (Hic genuflecitur) Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in caelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostolicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam ventúri saéculi. Amen.",
+     "hr": "Vjerujem u jednoga Boga, Oca svemogućega, stvoritelja neba i zemlje, svega vidljivoga i nevidljivoga.I u jednoga Gospodina Isusa Krista, jedinorođenoga Sina Božjega. Rođenog od Oca prije svih vjekova. Boga od Boga, svjetlo od svjetla, pravoga Boga od pravoga Boga. Rođena, ne stvorena, istobitna s Ocem, po kome je sve stvoreno. Koji je radi nas ljudi i radi našega spasenja sišao s nebesa. (ovdje se poklekne) I utjelovio se po Duhu Svetom od Marije Djevice: i postao čovjekom. Raspet također za nas: pod Poncijem Pilatom mučen i pokopan. I uskrsnuo treći dan, po Svetom Pismu. I uzašao na nebo: sjedi s desne Ocu. I opet će doći u slavi suditi žive i mrtve, i njegovu kraljevstvu neće biti kraja. I u Duha Svetoga, Gospodina i životvorca; koji izlazi od Oca i Sina. Koji se s Ocem i Sinom skupa časti i zajedno slavi; koji je govorio po prorocima. I u jednu svetu katoličku i apostolsku Crkvu. Ispovijedam jedno krštenje za oproštenje grijeha. I iščekujem uskrsnuće mrtvih. I život budućega vijeka. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 44, 17-18\nConstítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine, in omni progénie et generatióne.",
+     "hr": "Ps 44, 17-18\nPostavit ćeš ih za knezove nad svom zemljom. Spominjat će tvoje ime, Gospodine, u svakom pokoljenju i naraštaju."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Hóstias tibi, Dómine, quas nómini tuo sacrándas offérimus, sancti Matthíae Apóstoli tui prosequátur orátio: per quam nos expiári fácias, et deféndi.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Pratila, Gospodine, molitva svetog Matije, apostola tvoga, žrtve, koje ti prinosimo, te učini da se po njima oslobodimo i obranimo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: Subota korizmenih kvatri</i></b>\nPraeséntibus sacrifíciis, quaésumus, Dómine, ieiúnia nostra sanctífica: ut, quod observántia nostra profitétur extrínsecus, intérius operétur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: Subota korizmenih kvatri</i></b>\nPosveti, Gospodine, naše postove po ovim žrtvama da ono što naše odricanje izvana očituje iznutra proizvede.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de Apóstolis",
+   "hr": "Predslovlje apostola",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre. Te, Dómine, supplíciter exoráre, ut gregem tuum, Pastor aetérne, non déseras: sed per beátos Apóstolos tuos contínua protection custódias: Ut iísdem rectóribus gubernétur, quos óperis tui vicários eídem contulísti praeésse pastóres. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno, i pravedno, pravo i spasonosno tebe, Gospodine, vječni Pastiru, smjerno moliti da stado svoje ne ostaviš, nego da ga po svojim blaženim apostolima neprestano štitiš i čuvaš, da njime ravnaju isti poglavari, koje si mu postavio na čelo kao pastire i namjesnike svoga djela. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 19, 28\nVos, qui secúti estis me, sedébitis super sedes, iudicántes duódecim tribus Israel.",
+     "hr": "Mt 19, 28\nVi koji ste pošli za mnom sjedit ćete na prijestoljima i suditi dvanaest plemena Izraelovih."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nPraesta, quaésumus, omnípotens Deus: ut per haec sancta, quae súmpsimus, interveniénte beáto Matthía Apóstolo tuo, véniam consequámur et pacem.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nDaj, molimo, svemogući Bože, da zagovorom tvoga svetog apostola Matije po primljenim svetim otajstvima zadobijemo oproštenje i mir.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: Subota korizmenih kvatri</i></b>\n<i>Orémus</i>.\nSanctificatiónibus tuis, omnípotens Deus, et vítia nostra curéntur, et remédia nobis aetérna provéniant.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: Subota korizmenih kvatri</i></b>\n<i>Pomolimo se</i>.\nTvoja otajstva, svemogući Bože, neka izliječe naše mane i donesu nam vječnu pomoć.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

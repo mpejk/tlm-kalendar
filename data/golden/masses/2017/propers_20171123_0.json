@@ -1,0 +1,164 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-11-23",
+ "n": 0,
+ "heading": "ČETVRTAK, 23.XI.2017.",
+ "title": "sv. Klement I., papa, mučenik",
+ "rank": "Blagdan III. razreda",
+ "colour": "Red",
+ "commemorations": [
+  "spomen na tihim misama: sv. Felicita, mučenica"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Isai 59, 21; 56, 7, Ps 111, 1\n(Isai 59, 21; 56, 7) Dicit Dóminus: Sermónes mei, quos dedi in os tuum, non defícient de ore tuo: et múnera tua accépta erunt super altáre meum. (Ps 111, 1) Beátus vir, qui timet Dóminum: in mandátis eius cupit nimis.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Isai 59, 21; 56, 7) Dicit Dóminus: Sermónes mei, quos dedi in os tuum, non defícient de ore tuo: et múnera tua accépta erunt super altáre meum.",
+     "hr": "Iz 59, 21; 56, 7, Ps 111, 1\n(Iz 59, 21; 56, 7) Reče Gospodin: Moje riječi koje sam stavio na usta tvoja neće ponestati s usta tvojih. Darovi tvoji bit će mi ugodni na žrtveniku mome. (Ps 111, 1). Blago Čovjeku koji se boji Gospodina, koji se veoma raduje njegovim zapovijedima.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Iz 59, 21; 56, 7) Reče Gospodin: Moje riječi koje sam stavio na usta tvoja neće ponestati s usta tvojih. Darovi tvoji bit će mi ugodni na žrtveniku mome."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nGregem tuum, Pastor aetérne, placátus inténde: et per beátum Cleméntem, Mártyrem tuum atque Summum Pontíficem perpétua protectióne custódi; quem totíus Ecclésiae praestitísti esse pastórem.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nVječni Pastiru, milosno pazi svoje stado i čuvaj vječnom zaštitom po zagovoru blaženoga Klementa, tvoga mučenika i pape koga si postavio za pastira čitave Crkve.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Felicita, mučenica</i></b>\n<i>Orémus</i>.\nPraesta, quaésumus, omnípotens Deus: ut, beátae Felicitátis Mártyris tuae solémnia recenséntes, méritis ipsíus protegámur et précibus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Felicita, mučenica</i></b>\n<i>Pomolimo se</i>.\nDaj, molimo, svemogući Bože, da slaveći svetkovinu blažene Felicite mučenice tvoje budemo zaštićeni njezinim zaslugama i molitvama.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Philipp 3, 17-21; 4, 1-3\nLéctio Epístolae beáti Pauli Apóstoli ad Philippénses. Fratres: Imitatóres mei estóte, et observáte eos qui ita ámbulant, sicut habétis formam nostram. Multi enim ámbulant, quos saepe dicébam vobis (nunc autem et flens dico) inimícos crucis Christi: quorum finis intéritus: quorum Deus venter est: et glória in confusióne ipsórum, qui terréna sápiunt. Nostra autem conversátio in caelis est: unde étiam Salvatórem exspectámus Dóminum nostrum Iesum Christum, qui reformábit corpus humilitátis nostrae, configurátum córpori claritátis suae, secúndum operatiónem, qua étiam possit subícere sibi ómnia. Itaque, fratres mei caríssimi, et desideratíssimi, gáudium meum, et coróna mea: sic state in Dómino, caríssimi. Evódiam rogo, et Sýntychen déprecor idípsum sápere in Dómino. Etiam rogo et te, germáne compar, ádiuva illas, quae mecum laboravérunt in Evangélio cum Cleménte, et céteris adiutóribus meis, quorum nómina sunt in libro vitae.",
+     "hr": "Fil 3, 17-21; 4, 1-3\nČitanje Poslanice bl. Pavla apostola Filipljanima. Braćo: Ugledajte se u mene i vladajte se prema onima koji žive po primjeru koji vam mi dajemo. Mnogi, o kojima sam vam često govorio, a sada plačući ponavljam, žive kao neprijatelji Kristova križa. Njihov će svršetak biti propast, jer im je bog trbuh i ponose se svojom sramotom. Oni teže samo za zemaljskim stvarima. Naša je, međutim, domovina na nebu, odakle i očekujemo Spasitelja, Gospodina Isusa Krista, koji će silom, kojom može sve podložiti sebi, preobraziti naše bijedno tijelo i učiniti ga jednakim svome slavnom tijelu. Zato, moja draga i željena braćo, radosti moja i kruno moja, ustrajte, predragi, u Gospodinu! Žarko molim Evodiju i Sintihu, da isto misle u Gospodinu. A molim i tebe, vjerni druže, da im pomogneš, jer su mi one pomogale u širenju Evanđelja zajedno s Klementom i s drugim mojim suradnicima, kojih su imena upisana u knjizi života."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 106, 32 et 31\nExáltent eum in ecclésia plebis: et in cáthedra seniórum laudent eum. Confiteántur Dómino misericórdiae eius, et mirabília eius fíliis hóminum.",
+     "hr": "Ps 106, 32 i 31\nNeka ga uzvisuju u narodnom zboru, neka ga hvale u vijeću staraca. Neka hvale Gospodina za dobrotu njegovu, za čudesa njegova sinovima ljudskim."
+    },
+    {
+     "la": "Mt 16, 18\n<i>Allelúia</i>, <i>allelúia</i>.\nTu es Petrus, et super hanc petram aedificábo Ecclésiam meam. <i>Allelúia</i>.",
+     "hr": "Mt 16, 18\n<i>Aleluja</i>, <i>aleluja</i>.\nTi si Petar–stijena, i na toj stijeni sazidat ću svoju Crkvu. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 16, 13-19\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Venit Iesus in partes Caesaréae Philíppi, et interrogábat discípulos suos, dicens: Quem dicunt hómines esse Fílium hóminis ? At illi dixérunt: Alii Ioánnem Baptístam, álii autem Elíam, álii vero Ieremíam, aut unum ex prophétis. Dicit illis Iesus: Vos autem quem me esse dícitis? Respóndens Simon Petrus, dixit: Tu es Christus Fílius Dei vivi. Respóndens autem Iesus, dixit ei: Beátus es, Simon Bar Iona: quia caro et sanguis non revelávit tibi, sed Pater meus, qui in caelis est. Et ego dico tibi, quia tu es Petrus, et super hanc petram aedificábo Ecclésiam meam, et portae ínferi non praevalébunt advérsus eam. Et tibi dabo claves regni caelórum. Et quodcúmque ligáveris super terram, erit ligátum et in caelis: et quodcúmque sólveris super terram, erit solútum et in caelis.",
+     "hr": "Mt 16, 13-19\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme: Kad Isus dođe u krajeve Cezareje Filipove, upita učenike: Što govore ljudi, tko je Sin Čovječji? Oni rekoše: Jedni da je Ivan Krstitelj; drugi da je Ilija; treći opet da je Jeremija ili koji od proroka. Kaže im Isus: A vi, što vi kažete, tko sam ja? Šimun Petar prihvati i reče: Ti si Krist-Pomazanik, Sin Boga živoga. Nato Isus reče njemu: Blago tebi, Šimune, sine Jonin, jer ti to ne objavi tijelo i krv, nego Otac moj, koji je na nebesima. A ja tebi kažem: Ti si Petar-Stijena, i na toj stijeni sazidat ću Crkvu svoju. I vrata paklena neće je nadvladati. A tebi ću dati ključeve kraljevstva nebeskoga. Što god svežeš na zemlji bit će svezano i na nebu. A što god razriješiš na zemlji bit će razriješeno i na nebu."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ierem 1, 9-10\nEcce dedi verba mea in ore tuo: ecce constítui te hódie super gentes et super regna, ut evéllas, et déstruas, et aedífices, et plantes.",
+     "hr": "Jr 1, 9-10\nEvo sam stavio svoje riječi na tvoja usta. Evo sam te danas postavio nad narodima i nad kraljevstvima, da trijebiš i obaraš, gradiš i sadiš."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Oblátis munéribus, quaésumus, Dómine, Ecclésiam tuam benígnus illúmina: ut et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Po prikaznim darovima, molimo, Gospodine, dobrostivo rasvijetli svoju Crkvu da i stado tvoje sve više i više napreduje i da ti ugode pastiri koje si postavio.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Felicita, mučenica</i></b>\nVota pópuli tui, Dómine, propitiátus inténde: et, cuius nos tríbuis solémnia celebráre, fac gaudére suffrágiis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Felicita, mučenica</i></b>\nUmilostivljen pogledaj, Gospodine, darove svoga naroda i daj da se radujemo pomoći onih kojih nam svetkovinu dopuštaš slaviti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 16, 18\nTu es Petrus, et super hanc petram aedificábo Ecclésiam meam.",
+     "hr": "Mt 16, 18\nTi si Petar–stijena, i na toj stijeni sazidat ću svoju Crkvu."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nRefectióne sancta enutrítam gubérna, quaésumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et incrément a libertátis accípiat et in religiónis integritáte persístat.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nVladaj, molimo, Gospodine, svojom Crkvom koja je nahranjena, na svetoj gozbi, da po tvome snažnom ravnanju zadobije porast slobode i ustraje u savršenom bogoštovlju.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Felicita, mučenica</i></b>\n<i>Orémus</i>.\nSúpplices te rogámus, omnípotens Deus: ut, intercedéntibus Sanctis tuis, et tua in nobis dona multíplices, et témpora nostra dispónas.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Felicita, mučenica</i></b>\n<i>Pomolimo se</i>.\nPonizno te molimo, svemogući Bože, da po zagovoru tvojih svetih umnožiš u nama svoje darove i bdiješ nad našim životom.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

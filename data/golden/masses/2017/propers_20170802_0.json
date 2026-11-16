@@ -1,0 +1,164 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-08-02",
+ "n": 0,
+ "heading": "SRIJEDA, 2.VIII.2017.",
+ "title": "sv. Alfons Marija Liguori, biskup, priznavalac, naučitelj",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen na tihim misama: sv. Stjepan I, papa, mučenik"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Luc 4, 18, Ps 77, 1\n(Luc 4, 18) Spíritus Dómini super me: propter quod unxit me: evangelizáre paupéribus misit me, sanáre contrítos corde. (Ps 77, 1) Atténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Luc 4, 18) Spíritus Dómini super me: propter quod unxit me: evangelizáre paupéribus misit me, sanáre contrítos corde.",
+     "hr": "Lk 4, 18, Ps 77, 1\n(Lk 4, 18) Duh je Gospodnji na meni. Zato me pomaza. Posla me da naviještam evanđelje siromasima, da liječim klonula srca. (Ps 77, 1) Čuj, puče moj, zakon moj, prigni uho svoje k riječima usta mojih.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Lk 4, 18) Duh je Gospodnji na meni. Zato me pomaza. Posla me da naviještam evanđelje siromasima, da liječim klonula srca."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui per beátum Alfónsum Maríam Confessórem tuum atque Pontíficem, animárum zelo succénsum, Ecclésiam tuam nova prole fecundásti: quaésumus; ut, eius salutáribus mónitis edócti et exémplis roboráti, ad te perveníre felíciter valeámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si po blaženom Alfonsu Mariji priznavaocu i biskupu raspaljenom revnošću za duše obogatio svoju Crkvu novim potomstvom, molimo, da poučeni njegovim spasonosnim opomenama i ojačani primjerom uzmognemo sretno doći k tebe.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Stjepan I, papa, mučenik</i></b>\n<i>Orémus</i>.\nGregem tuum, Pastor aetérne, placátus inténde: et per beátum Stéphanum, Mártyrem tuum atque Summum Pontíficem perpétua protectióne custódi; quem totíus Ecclésiae praestitísti esse pastórem.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Stjepan I, papa, mučenik</i></b>\n<i>Pomolimo se</i>.\nVječni Pastiru, milosno pazi svoje stado i čuvaj vječnom zaštitom po zagovoru blaženoga Stjepana, tvoga mučenika i pape koga si postavio za pastira čitave Crkve.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "II Tim 2, 1-7\nLéctio Epístolae beáti Pauli Apóstoli ad Timótheum. Caríssime: Confortáre in grátia, quae est in Christo Iesu: et quae audísti a me per multos testes, haec comménda fidélibus homínibus, qui idónei erunt et álios docére. Labóra sicut bonus miles Christi Iesu. Nemo mílitans Deo ímplicat se negótiis saeculáribus: ut ei pláceat, cui se probávit. Nam et qui certat in agóne, non coronátur, nisi legítime certáverit. Laborántem agrícolam opórtet primum de frúctibus percípere. Intéllege quae dico: dabit enim tibi Dóminus in ómnibus intelléctum.",
+     "hr": "2 Tim 2, 1-7\nČitanje Poslanice bl. Pavla apostola Timoteju. Predragi, jačaj se u milosti Isusa Krista! A što si čuo od mene u prisutnosti mnogih svjedoka, predaj vjernim ljudima da se i sami osposobe poučiti i druge. Radi kao dobar vojnik Isusa Krista. Koji služi Bogu ne upliće se u svjetovne poslove da ugodi onome kome se predao. Tako i koji se bori, neće primiti vijenca, ako se ne bori propisno. Kao što treba, poljodjelac koji se trudi najprije će primiti od plodova. Shvati, što govorim! Gospodin će dati da razumiješ sve."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 118, 52-53, Ps 39, 11\n(Ps 118, 52-53) Memor fui iudiciórum tuórum a saéculo, Dómine, et consolátus sum: deféctio ténuit me pro peccatóribus derelinquéntibus legem tuam. (Ps 39, 11) Iustítiam tuam non abscóndi in corde meo: veritátem tuam et salutáre tuum dixi.",
+     "hr": "Ps 118, 52-53, Ps 39, 11\n(Ps 118, 52-53) Spominjem se tvojih davnih odredaba, Gospodine, i to me tješi. Obuzima me srdžba radi grješnika koji ostavljaju zakon tvoj. (Ps 39, 11) Ne krijem tvoje odredbe u svom srcu, već naviještam tvoju istinu i spasenje tvoje."
+    },
+    {
+     "la": "Eccli 49, 3-4\n<i>Allelúia</i>, <i>allelúia</i>.\nIpse est diréctus divínitus in paeniténtiam gentis, et tulit abominatiónes impietátis: et gubernávit ad Dóminum cor ipsíus: et in diébus peccatórum corroborávit pietátem. <i>Allelúia</i>.",
+     "hr": "Sir 49, 3-4\n<i>Aleluja</i>, <i>aleluja</i>.\nBog ga je poslao da propovijeda narodu pokoru. On je odstranio zloću bezboštva. Njegovo je srce bilo usmjereno prema Gospodinu. U danima kad su grješnici vladali unaprijedio je bogoljubnost. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 10, 1-9\nSequéntia sancti Evangélii secúndum Lucam. In illo témpore: Designávit Dóminus et álios septuagínta duos: et misit illos binos ante fáciem suam in omnem civitátem et locum, quo erat ipse ventúrus. Et dicébat illis: Messis quidem multa, operárii autem pauci. Rogáte ergo Dóminum messis, ut mittat operários in messem suam. Ite: ecce ego mitto vos sicut agnos inter lupos. Nolíte portáre sácculum, neque peram, neque calceaménta, et néminem per viam salutavéritis. In quamcúmque domum intravéritis, primum dícite: Pax huic dómui: et si ibi fúerit fílius pacis, requiéscet super illum pax vestra: sin autem, ad vos revertétur. In eádem autem domo manéte edéntes et bibéntes quae apud illos sunt: dignus est enim operárius mercéde sua. Nolíte transíre de domo in domum. Et in quamcúmque civitátem intravéritis, et suscéperint vos, manducáte quae apponúntur vobis: et curáte infírmos, qui in illa sunt, et dícite illis: Appropinquávit in vos regnum Dei.",
+     "hr": "Lk 10, 1-9\nSlijedi sveto Evanđelje po Luki. U ono vrijeme odredi Gospodin i drugu sedamdeset i dvojicu i posla ih dva po dva pred sobom u svaki grad i mjesto kamo je sam kanio doći. I govorio im je: Žetva je velika, a radnika je malo. Zato molite gospodara žetve da pošalje radnike u svoju žetvu. Idite: Evo, ja vas šaljem kao janjce među vukove. Ne nosite ni kese ni torbe ni obuće i nikoga ne pozdravljajte na putu. U kojugod kuću uđete, kažite najprije: Mir ovoj kući! I ako tko ondje bude dostojan mira, ostat će na njemu vaš mir, ako ne bude, vratit će se k vama. Ostanite u onoj kući, jedite i pijte što imaju jer radnik zaslužuje svoju plaću. Ne prelazite iz kuće u kuću. I u kojigod grad uđete i prime vas, jedite, što postave pred vas. I liječite bolesne koji su u njemu, i kažite im: Približilo vam se kraljevstvo Božje!"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Prov 3, 9 et 27\nHonóra Dóminum de tua substántia, et de primítiis ómnium frugum tuárum da ei. Noli prohibére benefácere eum qui potest: si vales, et ipse bénefac.",
+     "hr": "Izr 3, 9 i 27\nDaj čast Gospodinu od svoga posjeda i prvine svojih plodova. Nemoj priječiti da čini dobro onaj tko može, a i sam čini dobro, ako možeš."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Caelésti, Dómine Iesu Christe, sacrifícii igne corda nostra in odórem suavitátis exúre: qui beáto Alfónso Maríae tribuísti et haec mystéria celebráre, et per éadem hóstiam tibi sanctam seípsum exhibére:\n<i>qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "Zapali žrtvenim ognjem naša srca na ugodni miris, Gospodine Isuse Kriste, koji si udijelio blaženom Alfonsu Mariji da slavi ove tajne i da po njima prikaže samoga sebe kao svetu žrtvu:\n<i>koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Stjepan I, papa, mučenik</i></b>\nOblátis munéribus, quaésumus, Dómine, Ecclésiam tuam benígnus illúmina: ut et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Stjepan I, papa, mučenik</i></b>\nPo prikaznim darovima, molimo, Gospodine, dobrostivo rasvijetli svoju Crkvu da i stado tvoje sve više i više napreduje i da ti ugode pastiri koje si postavio.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Eccli 50, 1 et 9\nSacérdos magnus, qui in vita sua suffúlsit domum, et in diébus suis corroborávit templum, quasi ignis effúlgens et thus ardens in igne.",
+     "hr": "Sir 50, 1 i 9\nEvo velikog svećenika koji je za života svoga podupro kuću i u svoje dane učvrstio hram. Bio je kao žarki oganj i kao tamjan što izgara na ognju."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui beátum Alfónsum Maríam Confessórem tuum atque Pontíficem fidélem divíni mystérii dispensatórem et praecónem effecísti: eius méritis precibúsque concéde; ut fidéles tui et frequénter percípiant, et percipiéndo sine fine colláudent.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si blaženog Alfonsa Mariju priznavaoca i biskupa učinio vjernim djeliteljem i glasnikom Božje tajne, daj po njegovu zagovoru i molitvama da je tvoji vjerni često primaju i primajući neprestano slave.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Stjepan I, papa, mučenik</i></b>\n<i>Orémus</i>.\nRefectióne sancta enutrítam gubérna, quaésumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et incrémenta libertátis accípiat et in religiónis integritáte persístat.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Stjepan I, papa, mučenik</i></b>\n<i>Pomolimo se</i>.\nVladaj, molimo, Gospodine, svojom Crkvom koja je nahranjena, na svetoj gozbi, da po tvome snažnom ravnanju zadobije porast slobode i ustraje u savršenom bogoštovlju.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

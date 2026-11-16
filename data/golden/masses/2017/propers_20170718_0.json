@@ -1,0 +1,164 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-07-18",
+ "n": 0,
+ "heading": "UTORAK, 18.VII.2017.",
+ "title": "sv. Kamilo de Lellis, priznavalac",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen na tihim misama: sv. Simforoza i njenih sedam sinova, mučenici"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Io 15, 13, Ps 40, 2\n(Io 15, 13) Maiórem hac dilectiónem nemo habet, ut ánimam suam ponat quis pro amícis suis. (Ps 40, 2) Beátus qui intéllegit super egénum et páuperem: in die mala liberábit eum Dóminus.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Io 15, 13) Maiórem hac dilectiónem nemo habet, ut ánimam suam ponat quis pro amícis suis.",
+     "hr": "Iv 15, 13, Ps 40, 2\n(Iv 15, 13) Od ove ljubavi nitko veće nema da dade život svoj za prijatelje svoje. (Ps 40, 2) Blago onom koji razumije siromaha i ubogog, u zao dan izbavit će ga Gospodin.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Iv 15, 13) Od ove ljubavi nitko veće nema da dade život svoj za prijatelje svoje."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui sanctum Camíllum, ad animárum in extrémo agóne luctántium subsídium, singulári caritátis praerogatíva decorásti: eius, quaésumus, méritis, spíritum nobis tuae dilectiónis infúnde; ut in hora éxitus nostri hostem víncere, et ad caeléstem mereámur corónam perveníre.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si svetog Kamila ukrasio posebnim darom ljubavi da pomaže dušama koje se bore u smrtnoj borbi, ulij nam, molimo, po njegovim zaslugama duh svoje ljubavi da zavrijedimo u času svoje smrti pobijediti neprijatelja i doći do vječne krune.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Simforoza i njenih sedam sinova, mučenici</i></b>\n<i>Orémus</i>.\nDeus, qui nos concédis sanctórum Mártyrum tuórum Symphorósae et filiórum eius natalícia cólere: da nobis in aetérna beatitúdine de eórum societáte gaudére.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Simforoza i njenih sedam sinova, mučenici</i></b>\n<i>Pomolimo se</i>.\nBože koji dopuštaš da slavimo rođendan tvojih svetih mučenika Simforoze i njenih sinova, daj nam da se njihovu društvu radujemo u vječnom blaženstvu.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "I Io 3, 13-18\nLéctio Epístolae beáti Ioánnis Apóstoli. Caríssimi: Nolíte mirári, si odit vos mundus. Nos scimus, quóniam transláti sumus de morte ad vitam, quóniam dilígimus fratres. Qui non díligit, manet in morte: omnis qui odit fratrem suum, homicída est. Et scitis quóniam omnis homicída non habet vitam aetérnam in semetípso manéntem. In hoc cognóvimus caritátem Dei, quóniam ille ánimam suam pro nobis pósuit: et nos debémus pro frátribus ánimas pónere. Qui habúerit substántiam huius mundi, et víderit fratrem suum necessitátem habére, et cláuserit víscera sua ab eo: quómodo cáritas Dei manet in eo ? Filíoli mei, non diligámus verbo neque lingua, sed ópere, et veritáte.",
+     "hr": "1 Iv 3, 13-18\nČitanje Poslanice bl. Ivana apostola. Predragi, nemojte se čuditi, ako vas svijet mrzi. Mi znamo da smo iz smrti prešli u život, jer ljubimo braću. Tko ne ljubi, ostaje u smrti. Tko mrzi svojega brata, ubojica je. A znate da nijedan ubojica nema u sebi vječnoga života. Ljubav smo Božju upoznali po tome što je Bog dao svoj život za nas. Tako smo i mi dužni dati svoj život za braću. Ako netko ima dobara ovoga svijeta i vidi svoga brata u nevolji, pa mu zatvori svoje srce, kako da u njemu ostane Božja ljubav? Dječice moja, ne ljubimo riječju i jezikom, nego djelom i istinom."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 36, 30-31\nOs iusti meditábitur sapiéntiam, et lingua eius loquétur iudícium: lex Dei eius in corde ipsíus: et non supplantabúntur gressus eius.",
+     "hr": "Ps 36, 30-31\nPravednikova usta raspravljaju o mudrosti i njegov jezik govori o pravdi. Zakon mu je Božji u srcu, i noge mu neće posrnuti."
+    },
+    {
+     "la": "Ps 111, 1\n<i>Allelúia</i>, <i>allelúia</i>.\nBeátus vir, qui timet Dóminum: in mandátis eius cupit nimis. <i>Allelúia</i>.",
+     "hr": "Ps 111, 1\n<i>Aleluja</i>, <i>aleluja</i>.\nBlago čovjeku koji se boji Gospodina i koji uživa u njegovim zapovijedima. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Io 15, 12-16\nSequéntia sancti Evangélii secúndum Ioánnem. In illo témpore: Dixit Iesus discípulis suis: Hoc est praecéptum meum, ut diligátis ínvicem, sicut diléxi vos. Maiórem hac dilectiónem nemo habet, ut ánimam suam ponat quis pro amícis suis. Vos amíci mei estis, si fecéritis quae ego praecípio vobis. Iam non dicam vos servos: quia servus nescit quid fáciat dóminus eius. Vos autem dixi amícos: quia ómnia quaecúmque audívi a Patre meo, nota feci vobis. Non vos me elegístis: sed ego elégi vos, et pósui vos, ut eátis, et fructum afferátis: et fructus vester máneat: ut quodcúmque petiéritis Patrem in nómine meo, det vobis.",
+     "hr": "Iv 15, 12-16\nSlijedi sveto Evanđelje po Ivanu. U ono vrijeme reče Isus svojim učenicima: Ovo je zapovijed moja da se ljubite među sobom kao što sam ja vas ljubio. Nitko nema veće ljubavi od ove da položi život svoj za prijatelje svoje. Vi ste moji prijatelji, ako izvršavate što vam ja zapovijedam. Više vas ne zovem slugama, jer sluga ne zna što radi njegov gospodar; nego vas zovem prijateljima, jer sam vam kazao sve što sam čuo od svoga Oca. Niste vi odabrali mene, nego sam ja odabrao vas i postavio vas da idete i donesete plod i plod vaš da ostane. I što god zapitate od Oca u moje ime dat će vam."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 20, 2-3\nIn virtúte tua, Dómine, laetábitur Iustus, et super salutáre tuum exsultábit veheménter: desidérium ánimae eius tribuísti ei.",
+     "hr": "Ps 20, 2-3\nU jakosti tvojoj, Gospodine, raduje se pravednik i kliče radi tvoga spasenja, jer si mu ispunio želju srca njegova."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Hóstia immaculáta, qua illud Dómini nostri Iesu Christi imménsae caritátis opus renovámus, sit, Deus Pater omnípotens, sancto Camíllo intercedénte, contra omnes córporis et ánimae infirmitátes salutáre remédium, et in extrémo agóne solácium et tutéla.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Bože, Oče svemogući, neka neokaljana žrtva, kojom obnavljamo djelo neizmjerne ljubavi Gospodina našega Isusa Krista, bude po zagovoru svetoga Kamila, spasonosni lijek protiv svih slabosti tijela i duše te utjeha i obrana u smrtnoj borbi.\n<i>Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Simforoza i njenih sedam sinova, mučenici</i></b>\nMúnera tibi, Dómine, nostrae devotiónis offérimus: quae et pro tuórum tibi grata sint honóre iustórum, et nobis salutária, te miseránte, reddántur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Simforoza i njenih sedam sinova, mučenici</i></b>\nPrikazujemo ti, Gospodine, darove svoje odanosti, da ti budu mili zbog časti tvojih pravednika, a nama postanu spasonosni po tvom milosrđu.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 25, 36 et 40\nInfírmus fui, et visitástis me. Amen, amen dico vobis: Quámdiu fecístis uni ex his frátribus meis mínimis, mihi fecístis.",
+     "hr": "Mt 25, 36 i 40\nBio sam bolestan i posjetili ste me. Zaista, zaista vam kažem: Što god ste učinili jednomu od ove moje najmanje braće, meni ste učinili."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nPer haec caeléstia aliménta, quae, sancti Camílli Confessóris tui solémnia celebrántes, pia devotióne suscépimus: da, quaésumus, Dómine; ut, in hora mortis nostrae sacraméntis refécti et culpis ómnibus expiáti, in sinum misericórdiae tuae laeti súscipi mereámur:\n<i>qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nPo ovoj nebeskoj hrani, koju smo s pobožnom odanošću primili slaveći svetkovinu svetoga Kamila priznavaoca tvoga daj, molimo, Gospodine, da zavrijedimo na času naše smrti okrijepljeni sakramentima i očišćeni od svake krivnje biti radosno primljeni u krilo tvoga milosrđa:\n<i>koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Simforoza i njenih sedam sinova, mučenici</i></b>\n<i>Orémus</i>.\nPraesta nobis, quaésumus, Dómine: intercedéntibus sanctis Martýribus tuis Symphorósa et fíliis eius; ut, quod ore contíngimus, pura mente capiámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Simforoza i njenih sedam sinova, mučenici</i></b>\n<i>Pomolimo se</i>.\nDaj nam, molimo, Gospodine, po zagovoru svojih svetih mučenika Simforoze i njenih sinova, da čistom dušom prihvatimo što smo ustima primili.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

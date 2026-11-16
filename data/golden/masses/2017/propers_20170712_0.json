@@ -1,0 +1,164 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-07-12",
+ "n": 0,
+ "heading": "SRIJEDA, 12.VII.2017.",
+ "title": "sv. Ivan Gualbert, opat",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen na tihim misama: sv. Nabor i sv. Feliks, mučenici"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 36, 30-31, Ps 36, 1\n(Ps 36, 30-31) Os iusti meditábitur sapiéntiam, et lingua eius loquétur iudícium: lex Dei eius in corde ipsíus. (Ps 36, 1) Noli aemulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 36, 30-31) Os iusti meditábitur sapiéntiam, et lingua eius loquétur iudícium: lex Dei eius in corde ipsíus.",
+     "hr": "Ps 36, 30-31, Ps 36, 1\n(Ps 36, 30-31) Pravednikova usta govore mudrost i jezik njegov kazuje pravdu. Zakon je Božji u srcu njegovu. (Ps 36, 1) Ne zaviđaj sreći grešnika i ne žesti se radi zlotvora.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 36, 30-31) Pravednikova usta govore mudrost i jezik njegov kazuje pravdu. Zakon je Božji u srcu njegovu."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nIntercéssio nos, quaésumus, Dómine, beáti Ioánnis Abbátis comméndet: ut, quod nostris méritis non valémus, eius patrocínio assequámur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nMolimo, Gospodine, da nas zagovor blaženoga Ivana opata tebi preporuči, te njegovim zagovorom zadobijemo ono što nismo zavrijedili našim zaslugama.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Nabor i sv. Feliks, mučenici</i></b>\n<i>Orémus</i>.\nPraesta, quaésumus, Dómine: ut, sicut nos sanctórum Mártyrum tuórum Náboris et Felícis natalícia celebránda non déserunt; ita iúgiter suffrágiis comiténtur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Nabor i sv. Feliks, mučenici</i></b>\n<i>Pomolimo se</i>.\nPodaj, molimo, Gospodine, kao što slavimo sveti rođendan za nebo blaženih mučenika tvojih Nabora i Feliksa, tako neka nas stalno prati njihov zagovor.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Eccli 45, 1-6\nLéctio libri Sapiéntiae: Diléctus Deo et homínibus, cuius memória in benedictióne est. Símilem illum fecit in glória sanctórum, et magnificávit eum in timóre inimicórum, et in verbis suis monstra placávit. Glorificávit illum in conspectus regum, et iussit illi coram pópulo suo, et osténdit illi glóriam suam. In fide et lenitáte ipsíus sanctum fecit illum, et elégit eum ex omni carne. Audívit enim eum et vocem ipsíus, et indúxit illum in nubem. Et dedit illi coram praecépta, et legem vitas et disciplínae.",
+     "hr": "Sir 45, 1-6\nČitanje knjige Mudrosti: Bogu je i ljudima drag, njegova je uspomena blagoslovljena. Gospodin mu je udijelio slavu kao svetima, i dao mu moć, da ga se boje neprijatelji. Na njegovu riječ prestaju strahote. Proslavio ga je pred vladarima, dao mu je zapovijedi pred narodom i pokazao mu svoju slavu. Posvetio ga je poradi njegove vjernosti i krotkosti, izabrao ga između svih ljudi. Čuo je njegov glas i uveo ga u oblak. On mu je sam dao zapovijedi, zakon života i mudrosti."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 20, 4-5\nDómine, praevenísti eum in benedictiónibus dulcédinis: posuísti in cápite eius corónam de lápide pretióso. Vitam pétiit a te, et tribuísti ei longitúdinem diérum in saéculum saéculi.",
+     "hr": "Ps 20, 4-5\nGospodine, pretekao si ga obilnim blagoslovima, na glavu si mu stavio krunu od dragog kamenja. U tebe je tražio život, i ti si mu dao dug život u vijeke vjekova."
+    },
+    {
+     "la": "Ps 91, 13\n<i>Allelúia</i>, <i>allelúia</i>.\nIustus ut palma florébit: sicut cedrus Líbani multiplicábitur. <i>Allelúia</i>.",
+     "hr": "Ps 91, 13\n<i>Aleluja</i>, <i>aleluja</i>.\nKao palma cvjeta i kao libanski cedar raste pravednik. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 5, 43-48\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Dixit Iesus discípulis suis: Audístis quia dictum est: Díliges próximum tuum, et ódio habébis inimícum tuum. Ego autem dico vobis: Dilígite inimícos vestros, benefácite his, qui odérunt vos: et oráte pro persequéntibus et calumniántibus vos: ut sitis fílii Patris vestri, qui in caelis est: qui solem suum oríri facit super bonos et malos: et pluit super iustos et iniústos. Si enim dilígitis eos, qui vos díligunt, quam mercédem habébitis? Nonne et publicáni hoc fáciunt? Et si salutavéritis fratres vestros tantum, quid ámplius fácitis? Nonne et éthnici hoc fáciunt? Estóte ergo vos perfécti, sicut et Pater vester caeléstis perféctus est.",
+     "hr": "Mt 5, 43-48\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme Isus reče svojim učenicima: Čuli ste da je rečeno: Ljubi svoga bližnjega, a ne ljubi svoga neprijatelja. A ja vam kažem: Ljubite svoje neprijatelje, činite dobro onima koji vas mrze i molite se za one koji vas progone i kleveću, da budete prava djeca svoga nebeskog Oca koji daje da njegovo sunce izlazi nad zlima i dobrima i pada kiša pravednima i nepravednima. Ako ljubite one koji vas ljube, kakvu ćete imati plaću? Zar to ne čine tako i carinici? Ako pozdravljate samo svoju braću, što posebno činite? Ne rade li to i nevjernici? Budite, dakle, savršeni kao što je savršen vaš nebeski Otac."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 20, 3 et 4\nDesidérium ánimae eius tribuísti ei, Dómine, et voluntáte labiórum eius non fraudásti eum: posuísti in cápite eius corónam de lápide pretióso.",
+     "hr": "Ps 20, 3 i 4\nTi si mu ispunio želju njegova srca i nisi mu uskratio molbe njegovih usana. Postavio si mu na glavu vijenac od dragog kamenja."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Sacris altáribus, Dómine, hóstias superpósitas sanctus Ioánnes Abbas, quaésumus, in salútem nobis proveníre depóscat.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Molimo, Gospodine, da nam zagovorom svetoga Ivana opata ove žrtve koje su na svetom oltaru donesu spasenje.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Nabor i sv. Feliks, mučenici</i></b>\nMúnera plebis tuae, quaésumus, Dómine, sanctórum Mártyrum tuórum Náboris et Felícis fiant grata suffrágiis: et, quorum triúmphis tuo nómini offerúntur, ipsórum digna perficiántur et méritis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Nabor i sv. Feliks, mučenici</i></b>\nDarovi tvoga naroda, molimo, Gospodine, bili ti mili po zagovoru svetih mučenika tvojih Nabora i Feliksa, i zbog čijih se pobjeda prikazuju tvome imenu, po njihovim zaslugama neka budu i dostojni.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Luc 12, 42\nFidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram.",
+     "hr": "Luc 12, 42\nEvo vjernog i razboritog sluge koga je postavio Gospodin nad svojom obitelji, da im na vrijeme daje za hranu pšenicu koja im pripada."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nPrótegat nos, Dómine, cum tui perceptióne sacraménti beátus Ioánnes Abbas, pro nobis intercedéndo: ut et conversatiónis eius experiámur insígnia, et intercessiónis percipiámus suffrágia.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nŠtitilo nas, Gospodine, primanje tvoje tajne zajedno sa zagovorom blaženog Ivana opata, da se i okoristimo divnim njegovim životom i osjetimo učinke njegova zagovora.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Nabor i sv. Feliks, mučenici</i></b>\n<i>Orémus</i>.\nNatalíciis Sanctórum tuórum, quaésumus, Dómine: ut, sacraménti múnere vegetáti, bonis, quibus per tuam grátiam nunc fovémur, perfruámur aetérnis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Nabor i sv. Feliks, mučenici</i></b>\n<i>Pomolimo se</i>.\nO rođendanu tvojih svetih, molimo, Gospodine, da ojačani darom otajstva uživamo u vječnosti dobra, kojima smo se sada po tvojoj milosti okrijepili.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-12-04",
+ "n": 0,
+ "heading": "UTORAK, 4.XII.2018.",
+ "title": "sv. Petar Krizolog, biskup, priznavalac, naučitelj",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen i na pjevanim i na tihim misama: Feria (u tjednu 1. nedjelje došašća)",
+  "spomen na tihim misama: sv. Barbara, djevica, mučenica"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Eccli 15, 5, Ps 91, 2\n(Eccli 15, 5) In médio Ecclésiae apéruit os eius: et implévit eum Dóminus spíritu sapiéntiae et Intelléctus: stolam glóriae índuit eum. (Ps. 91, 2) Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Eccli 15, 5) In médio Ecclésiae apéruit os eius: et implévit eum Dóminus spíritu sapiéntiae et Intelléctus: stolam glóriae índuit eum.",
+     "hr": "Sir 15, 5, Ps 91, 2\n(Sir 15, 5) Usred Crkve otvorio je Gospodin usta njegova i napunio ga duhom mudrosti i razuma, ogrnuo ga odjećom slave. (Ps. 91, 2) Dobro je slaviti Gospodina i pjevati imenu tvojem, Višnji!\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Sir 15, 5) Usred Crkve otvorio je Gospodin usta njegova i napunio ga duhom mudrosti i razuma, ogrnuo ga odjećom slave."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui beátum: Petrum Chrysólogum Doctórem egrégium, divínitus praemonstrátum, ad regéndam et instruéndam Ecclésiam tuam éligi voluísti: praesta, quaésumus; ut, quem Doctórem vitae habúimus in terris, intercessórem habére mereámur in caelis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si htio čudesnim znakom izabrati blaženoga Petra Krizologa odličnog naučitelja da upravlja i poučava tvoju Crkvu, podaj, molimo, da zavrijedimo imati zagovornikom na nebu njega koga imamo naučiteljem života na zemlji.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: Feria (u tjednu 1. nedjelje došašća)</i></b>\n<i>Orémus</i>.\nExcita, quaésumus, Dómine, poténtiam tuam, et veni: ut ab imminéntibus peccatórum nostrórum perículis, te mereámur protegénte éripi, te liberánte sálvari:\n<i>qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: Feria (u tjednu 1. nedjelje došašća)</i></b>\n<i>Pomolimo se</i>.\nPokreni, molimo, Gospodine, svoju silu i dođi, da nas od pogibli naših grijeha, što nam prijete, tvoja zaštita izbavi, tvoje oslobođenje spasi:\n<i>koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Barbara, djevica, mučenica</i></b>\n<i>Orémus</i>.\nDeus, qui inter cétera poténtiae tuae mirácula étiam in sexu frágili victóriam martýrii contulísti: concéde propítius; ut, qui beátae Bárbarae Vírginis et Mártyris tuae natalícia cólimus, per eius ad te exémpla gradiámur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Barbara, djevica, mučenica</i></b>\n<i>Pomolimo se</i>.\nBože, koje si između ostalih čudesa svoje moći dao i slabom spolu mučeničku pobjedu, dopusti blagostivo da mi koji slavimo rođendan za nebo blažene Barbare, tvoje djevice i mučenice, idemo k tebi po njezinu primjeru.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "II Tim 4, 1-8\nLéctio Epístolae beáti Pauli Apóstoli ad Timótheum. Caríssime: Testíficor coram Deo, et Iesu Christo, qui iudicatúrus est vivos et mórtuos, per advéntum ipsíus et regnum eius: praédica verbum, insta opportúne, importúne: árgue, óbsecra, íncrepa in omni patiéntia, et doctrína. Erit enim tempus, cum sanam doctrínam non sustinébunt, sed ad sua desidéria coacervábunt sibi magístros, pruriéntes áuribus, et a veritáte quidem audítum avértent, ad fábulas autem converténtur. Tu vero vígila, in ómnibus labóra, opus fac evangelístae, ministérium tuum imple. Sóbrius esto. Ego enim iam delíbor, et tempus resolutiónis mes instat. Bonum certámen certávi, cursum consummávi, fidem servávi. In réliquo repósita est mihi coróna iustítiae, quam reddet mihi Dóminus in illa die, iustus iudex: non solum autem mihi, sed et iis qui díligunt advéntum eius.",
+     "hr": "2 Tim 4, 1-8\nČitanje Poslanice bl. Pavla apostola Timoteju. Predragi, zaklinjem te pred Bogom i Isusom Kristom koji će suditi žive i mrtve njegovim dolaskom i njegovim kraljevstvom, propovijedaj riječ, revnuj u zgodno i nezgodno vrijeme, karaj, moli, opominji sa svom strpljivošću i naukom. Jer će doći vrijeme kad neće primati zdrave nauke, nego će oko sebe skupiti naučitelje po svojim požudama koji će im ugađati ušima. Odvraćat će uši od istine, a obraćat će ih k bajkama. Ali ti bdij, budi u svemu strpljiv, izvršuj djelo evanđeliste, ispunjavaj svoju službu. Budi trijezan! Ja sam već žrtvovan i vrlo je blizu vrijeme moje smrti. Dobar sam boj bio, tijek svršio, vjeru održao. Na kraju mi je pripravljen vijenac pravde koji će mi u onaj dan dati Gospodin, pravedni sudac, ali ne samo meni, nego i onima koji ljube njegov dolazak."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Eccli 44, 16, Eccli 44, 20\n(Eccli 44, 16) Ecce sácerdos magnus, qui in diébus suis plácuit Deo. (Eccli 44, 20) Non est invéntus símilis illi, qui conserváret legem Excélsi.",
+     "hr": "Sir 44, 16, Sir 44, 20\n(Sir 44, 16) Evo velikog svećenika koje se za svoga života svidio Bogu. (Sir 44, 20) Nitko mu nije bio ravan u izvršavanju zakona Svevišnjega."
+    },
+    {
+     "la": "Ps 109, 4\n<i>Allelúia</i>, <i>allelúia</i>.\nTu es sacérdos in aetérnum, secúndum órdinem Melchísedech. <i>Allelúia</i>.",
+     "hr": "Ps 109, 4\n<i>Aleluja</i>, <i>aleluja</i>.\nTi si svećenik dovijeka po redu Melkisedekovu. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 5, 13-19\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Dixit Iesus discípulis suis: Vos estis sal terrae. Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra, nisi ut mittátur foras, et conculcétur ab homínibus. Vos estis lux mundi. Non potest cívitas abscóndi supra montem pósita. Neque accéndunt lucérnam, et ponunt eam sub módio, sed super candelábrum, ut lúceat ómnibus qui in domo sunt. Sic lúceat lux vestra coram homínibus,ut vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in caelis est. Nolíte putáre, quóniam veni sólvere legem aut prophétas: non veni sólvere, sed adimplére. Amen quippe dico vobis, donec tránseat caelum et terra, iota unum aut unus apex non praeteríbit a lege, donec ómnia fiant. Qui ergo sólverit unum de mandátis istis mínimis, et docúerit sic hómines, mínimus vocábitur in regno caelórum: qui autem fécerit et docúerit, hic magnus vocábitur in regno caelórum.",
+     "hr": "Mt 5, 13-19\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme reče Isus svojim učenicima: Vi ste sol zemlje. Ako sol izvjetri, čim će se soliti? Za ništa više ne vrijedi, nego da se izbaci i da je ljudi pogaze. Vi ste svjetlo svijeta. Ne može se sakriti grad sazidan na gori. Niti se upaljuje svijeća i postavlja pod varićak, nego na svijećnjak da svijetli svima koji su u kući. Tako neka svijetli vaše svjetlo pred ljudima da vide vaša dobra djela i slave vašega nebeskog Oca. Nemojte misliti da sam došao ukinuti zakon ili proroke! Nisam došao ukinuti nego dopuniti. Zaista vam kažem, dok stoji nebo i zemlja, neće od zakona nestati ni jednog slova, niti jednog znaka, dok se sve ne ispuni. Tko, dakle, dokine jednu od ovih najmanjih zapovijedi i tako nauči ljude, bit će najmanji u kraljevstvu nebeskom. A tko bude vršio i naučavao, taj će biti velik u kraljevstvu nebeskom."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 91, 13\nIustus ut palma florébit: sicut cedrus, quae in Líbano est, multiplicábitur.",
+     "hr": "Ps 91, 13\nPravednik cvate kao palma i raste kao libanski cedar."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Sancti Petri Chrysólogi Pontíficis tui atque Doctóris nobis, Dómine, pia non desit orátio: quae et múnera nostra concíliet; et tuam nobis indulgéntiam semper obtíneat.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Neka nam, Gospodine, pomogne pobožna molitva svetoga Petra Krizologa tvoga biskupa i naučitelja, i neka njegova molitva učini da ti naši darovi budu prijatni i isprosi nam oproštenje.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: Feria (u tjednu 1. nedjelje došašća)</i></b>\nHaec sacra nos, Dómine, poténti virtúte mundátos, ad suum fáciant purióres veníre princípium.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: Feria (u tjednu 1. nedjelje došašća)</i></b>\nOvi sveti darovi neka nas, Gospodine, očiste svojom silnom moću, da nas čiste dovedu k svojemu Stvoritelju.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Barbara, djevica, mučenica</i></b>\nSúscipe, Dómine, múnera, quae in beátae Bárbarae Vírginis et Mártyris tuae solemnitáte deférimus: cuius nos confídimus patrocínio liberári.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Barbara, djevica, mučenica</i></b>\nPrimi, Gospodine, darove koje ti o svetkovini blažene Barbare tvoje djevice i mučenice, prinosimo s pouzdanjem da ćemo se osloboditi po njezinoj zaštiti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 25, 20 et 21\nDómine, quinque talénta tradidísti mihi: ecce ália quinque superlucrátus sum. Euge, serve bone et fidélis, quia in pauca fuísti fidélis, supra multa te constítuam, intra in gáudium Dómini tui.",
+     "hr": "Mt 25, 20 i 21\nGospodaru, predao si mi pet talenata. S njima sam stekao još drugih pet. Dobro, slugo dobri i vjerni, budući da si bio u malom vjeran, postavit ću te nad mnogim. Uđi u veselje gospodara svoga."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nUt nobis, Dómine, tua sacrifícia dent salútem: beátus Petrus Chrysólogus Póntifex tuus et Doctor egrégius, quaésumus, precátor accédat.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nNeka se zauzme za nas, molimo, Gospodine, blaženi Petar Krizolog tvoj biskup i naučitelj, da nam tvoje žrtve donesu spasenje.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: Feria (u tjednu 1. nedjelje došašća)</i></b>\n<i>Orémus</i>.\nSuscipiámus, Dómine, misericórdiam tuam in médio templi tui: ut reparatiónis nostrae ventúra solémnia cóngruis honóribus praecedámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: Feria (u tjednu 1. nedjelje došašća)</i></b>\n<i>Pomolimo se</i>.\nDaj, Gospodine, da primimo milosrđe u tvojemu hramu, da našim dostojnim štovanjem idemo ususret skorim blagdanima našeg otkupljenja.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Barbara, djevica, mučenica</i></b>\n<i>Orémus</i>.\nAuxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta Bárbara Vírgine et Mártyre tua, sempitérna fáciant protectióne gaudére.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Barbara, djevica, mučenica</i></b>\n<i>Pomolimo se</i>.\nTajne koje smo primili neka nas pomažu, Gospodine, i neka po zagovoru blažene Barbare, tvoje djevice i mučenice, učine da se radujemo vječnoj zaštiti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

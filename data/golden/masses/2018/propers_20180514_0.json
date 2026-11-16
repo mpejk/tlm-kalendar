@@ -1,0 +1,160 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-05-14",
+ "n": 0,
+ "heading": "PONEDJELJAK, 14.V.2018.",
+ "title": "Feria (u tjednu nedjelje po Uzašašću)",
+ "rank": "Feria IV. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen na tihim misama: sv. Bonifacije iz Tarza, mučenik"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 26, 7, 8 et 9, Ps 26, 1\n(Ps 26, 7, 8 et 9) Exáudi, Dómine, vocem meam, qua clamávi ad te, <i>allelúia</i>:\ntibi dixit cor meum, quaesívi vultum tuum, vultum tuum, Dómine, requíram: ne avértas fáciem tuam a me, <i>allelúia</i>, <i>allelúia</i>.\n(Ps 26, 1) Dóminus illuminátio mea, et salus mea: quem timébo?\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 26, 7, 8 et 9) Exáudi, Dómine, vocem meam, qua clamávi ad te, <i>allelúia</i>:\ntibi dixit cor meum, quaesívi vultum tuum, vultum tuum, Dómine, requíram: ne avértas fáciem tuam a me, <i>allelúia</i>, <i>allelúia</i>.",
+     "hr": "Ps 26, 7, 8 i 9, Ps 26, 1\n(Ps 26, 7, 8 i 9) Usliši, Gospodine, moj glas kojim vapijem k tebi, <i>aleluja</i>.\nTebi govori moje srce; tražim lice tvoje, Gospodine, tvoje lice tražim. Ne skrivaj lica svojega od mene, <i>aleluja</i>, <i>aleluja</i>.\n(Ps 26, 1) Gospodin mi je svjetlo i spas. Koga da se bojim?\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 26, 7, 8 i 9) Usliši, Gospodine, moj glas kojim vapijem k tebi, <i>aleluja</i>.\nTebi govori moje srce; tražim lice tvoje, Gospodine, tvoje lice tražim. Ne skrivaj lica svojega od mene, <i>aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nOmnípotens sempitérne Deus: fac nos tibi semper et devótam gérere voluntátem; et maiestáti tuae sincéro corde servíre.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nSvemogući vječni Bože, daj da ti uvijek budemo odani voljom i tvojemu veličanstvu služimo iskrena srca.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Bonifacije iz Tarza, mučenik</i></b>\n<i>Orémus</i>.\nDa, quaésumus, omnípotens Deus: ut, qui beáti Bonifátii Mártyris tui solémnia cólimus, eius apud te intercessiónibus adiuvémur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Bonifacije iz Tarza, mučenik</i></b>\n<i>Pomolimo se</i>.\nDaj, molimo, svemogući Bože, da nas. koji slavimo svetkovinu blaženog Bonifacija mučenika tvoga, pomaže njegov zagovor kod tebe.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "I Petri 4, 7-11\nLéctio Epístolae beáti Petri Apóstoli. Caríssimi: Estóte prudéntes, et vigiláte in oratiónibus. Ante ómnia autem, mútuam in vobismetípsis caritátem contínuam habéntes: quia cáritas óperit multitúdinem peccatórum. Hospitáles ínvicem sine murmuratióne: unusquísque, sicut accépit grátiam, in altérutrum illam administrántes, sicut boni dispensatóres multifórmis grátiae Dei. Si quis lóquitur, quasi sermónes Dei: si quis minístrat, tamquam ex virtúte, quam adminístrat Deus: ut in ómnibus honorificétur Deus per Iesum Christum Dóminum nostrum.",
+     "hr": "1 Pt 4, 7-11\nČitanje Poslanice bl. Petra apostola. Predragi, budite mudri i budni u molitvama. Prije svega pak trajno se ljubite međusobno, jer ljubav oprašta mnoge grijehe. Bez prigovora budite gostoljubivi jedan prema drugome. Kao dobri djelitelji mnogovrsne Božje milosti dajte jedan drugome ono što je tko primio na dar. Ako je tko primio dar govora, neka ga predaje kao riječ Božju. Ako je tko pozvan da poslužuje, neka to radi onom moću koju daje Bog, da se u svemu slavi Bog po našem Gospodinu Isusu Kristu."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Allelúia",
+   "hr": "Aleluja",
+   "rows": [
+    {
+     "la": "Ps 46, 9, Io 14, 18\n<i>Allelúia</i>, <i>allelúia</i>.\n(Ps 46, 9) Regnávit Dóminus super omnes gentes: Deus sedet super sedem sanctam suam. <i>Allelúia</i>.\n(Io 14, 18) Non vos relínquam órphanos: vado, et vénio ad vos, et gaudébit cor vestrum. <i>Allelúia</i>.",
+     "hr": "Ps 46, 9, Io 14, 18\n<i>Aleluja</i>, <i>aleluja</i>.\n(Ps 46, 9) Gospodin je zavladao svim narodima. Bog sjedi na svome svetom prijestolju, <i>aleluja</i>.\n(Iv 14, 18) Neću vas ostaviti kao sirote. Idem, ali ću opet doći k vama, i radovat će se vaše srce, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Io 15, 26-27 et 16, 1-4\nSequéntia sancti Evangélii secúndum Ioánnem. In illo témpore: Dixit Iesus discípulis suis: Cum vénerit Paráclitus, quem ego mittam vobis a Patre, Spíritum veritátis, qui a Patre procédit, ille testimónium perhibébit de me: et vos testimónium perhibébitis, quia ab inítio mecum estis. Haec locútus sum vobis, ut non scandalizémini. Absque synagógis fácient vos: sed venit hora, ut omnis, qui intérficit vos, arbitrétur obséquium se praestáre Deo. Et haec fácient vobis, quia non novérunt Patrem, neque me. Sed haec locútus sum vobis: ut, cum vénerit hora eórum, reminiscámini, quia ego dixi vobis.",
+     "hr": "Iv 15, 26-27 i 16, 1-4\nSlijedi sveto Evanđelje po Ivanu. U ono vrijeme reče Isus svojim učenicima: Kad dođe Utješitelj, koga ću vam ja poslati od Oca, Duh istine, koji izlazi od Oca, on će svjedočiti o meni. I vi ćete svjedočiti, jer ste od početka sa mnom. Ovo sam vam rekao da se ne smutite. Tjerat će vas iz zbornica. Dapače dolazi vrijeme kad će svaki koji vas ubije misliti da služi Bogu. To će vam činiti, jer ne poznaju ni Oca ni mene. Ovo sam vam iznio zato da se, kad dođe to vrijeme, sjetite da sam vam rekao."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 46, 6\nAscéndit Deus in iubilatióne, et Dóminus in voce tubae, <i>allelúia</i>.",
+     "hr": "Ps 46, 6\nUzlazi Bog uz klicanje i Gospodin uz glas trublje, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Sacrifícia nos, Dómine, immaculáta puríficent: et méntibus nostris supérnae grátiae dent vigórem.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Neokaljane žrtve, Gospodine, neka nas očiste i dadu našim dušama snagu višnje milosti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Bonifacije iz Tarza, mučenik</i></b>\nMunéribus nostris, quaésumus, Dómine, precibúsque suscéptis: et caeléstibus nos munda mystériis, et cleménter exáudi.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Bonifacije iz Tarza, mučenik</i></b>\nPrimi, molimo, Gospodine, naše darove i molitve te nas nebeskim otajstvima očisti i milostivo usliši.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de Ascensióne Dómini",
+   "hr": "Predslovlje Uzašašća Gospodnjeg",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Qui post resurrectiónem suam ómnibus discípulis suis maniféstus appáruit, et ipsis cernéntibus est elevátus in caelum, ut nos divinitátis suae tribúeret esse partícipes. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – On se poslije svojeg uskrsnuća svim svojim učenicima javno ukazao i pred njihovim se očima uzdigao na nebo, da nas učini dionicima svoga božanstva. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Io 17, 12-13 et 15\nPater, cum essem cum eis, ego servábam eos, quos dedísti mihi, <i>allelúia</i>:\nnunc autem ad te vénio: non rogo, ut tollas eos de mundo, sed ut serves eos a malo, <i>allelúia</i>, <i>allelúia</i>.",
+     "hr": "Iv 17, 12-13 et 15\nOče, dok sam bio s njima, ja sam čuvao one koje si mi dao, <i>aleluja</i>.\nSada dolazim k tebi. Ne molim te da ih uzmeš sa svijeta, nego da ih čuvaš od zla, <i>aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nRepléti, Dómine, munéribus sacris: da, quaésumus; ut in gratiárum semper actióne maneámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nPodaj, molimo, Gospodine, da ti uvijek budemo zahvalni mi koji se nasitismo svetih darova.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Bonifacije iz Tarza, mučenik</i></b>\n<i>Orémus</i>.\nRefécti participatióne múneris sacri, quaésumus, Dómine Deus noster: ut, cuius exséquimur cultum, intercedénte beáto Bonifátio Mártyre tuo atque Pontífice, sentiámus efféctum.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Bonifacije iz Tarza, mučenik</i></b>\n<i>Pomolimo se</i>.\nOkrijepljeni sudjelovanjem u svetom daru, molimo, Gospodine Bože, naš, da po zagovoru blaženog Bonifacija tvoga mučenika osjetimo učinak tajne, koju slavimo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

@@ -2,7 +2,7 @@
 const dec = new TextDecoder('windows-1250');
 const NAMED = { amp: '&', lt: '<', gt: '>', quot: '"', nbsp: ' ', apos: "'" };
 export function decodeEntities(s) {
-  return s.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+  return s.replace(/&?#(\d{3,4});/g, (_, n) => String.fromCodePoint(+n)).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
     .replace(/&(\w+);/g, (m, n) => NAMED[n] ?? m);
 }
 export function decodeHtml(buf) { return dec.decode(buf); }

@@ -1,0 +1,150 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-09-19",
+ "n": 0,
+ "heading": "UTORAK, 19.IX.2017.",
+ "title": "sv. Januarije, biskup i drugovi, mučenici",
+ "rank": "Blagdan III. razreda",
+ "colour": "Red",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 36, 39, Ps 36, 1\n(Ps 36, 39) Salus autem iustórum a Dómino: et protéctor eórum est in témpore tribulatiónis. (Ps 36, 1) Noli aemulári in malignántibus: neque zeláveris faciéntes iniquitátem.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 36, 39) Salus autem iustórum a Dómino: et protéctor eórum est in témpore tribulatiónis.",
+     "hr": "Ps 36, 39, Ps 36, 1\n(Ps 36, 39) Spasenje pravednika dolazi od Gospodina. On je njihovo utočište u vrijeme nevolje. (Ps 36, 1) Nemoj zaviđati sreći zlotvora, niti se uznemiravati radi zadovoljstva grešnika.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 36, 39) Spasenje pravednika dolazi od Gospodina. On je njihovo utočište u vrijeme nevolje."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui nos ánnua sanctórum Mártyrum tuórum Ianuárii et Sociórum eius solemnitáte laetíficas: concéde propítius; ut, quorum gaudémus méritis, accendámur exémplis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji nas razveseljuješ godišnjom svetkovinom svojih svetih mučenika Januarija i njegovih drugova, daj milostivo da nas oduševe primjeri onih kojih se zaslugama radujemo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Hebr 10, 32-38\nLéctio Epístolae beáti Pauli Apóstoli ad Hebraéos. Fratres: Rememorámini prístinos dies, in quibus illumináti magnum certámen sustinuístis passiónum: et in áltero quidem oppróbriis et tribulatiónibus spectáculum facti: in áltero autem sócii táliter conversántium effécti. Nam et vinctis compássi estis, et rapínam bonórum vestrórum cum gáudio suscepístis, cognoscéntes vos habére meliórem et manéntem substántiam. Nolíte ítaque amíttere confidéntiam vestram, quae magnam habet remuneratiónem. Patiéntia enim vobis necessária est: ut, voluntátem Dei faciéntes, reportétis promissiónem. Adhuc enim módicum aliquántulum, qui ventúrus est, véniet, et non tardábit. Iustus autem meus ex fide vivit.",
+     "hr": "Heb 10, 32-38\nČitanje Poslanice bl. Pavla apostola Hebrejima. Braćo, sjetite se onih prvih dana, kada ste prosvijetljeni podnijeli teške borbe i patnje. Sad ste bili izloženi pogrdama i nevoljama, sad opet postali dionicima onih, koji su već doživjeli isto. Vi ste bili milosrdni prema zatočenicima i vedro gledajući podnijeli ste kada su vam otimali vaša dobra, jer ste znali da imate bolji i trajni imutak. Stoga ne gubite pouzdanje, za koje ćete primiti obilnu nagradu. Treba vam strpljivosti, da vršeći Božju volju postignete obećanje. Da, još vrlo malo i doći će onaj koji ima doći i neće zakasniti. A moj pravednik živi od vjere."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 33, 18-19\nClamavérunt iusti, et Dóminus exaudívit eos: et ex ómnibus tribulatiónibus eórum liberávit eos. Iuxta est Dóminus his qui tribuláto sunt corde: et húmiles spíritu salvábit.",
+     "hr": "Ps 33, 18-19\nZavapiše pravednici i Gospodin ih usliša, i izbavi ih iz svih nevolja njihovih. Gospodin je blizu onima koji su skrušena srca. On spašava ponizne duhom."
+    },
+    {
+     "la": "<i>Allelúia</i>, <i>allelúia</i>.\nTe Mártyrum candidátus laudat exércitus, Dómine. <i>Allelúia</i>.",
+     "hr": "<i>Aleluja</i>, <i>aleluja</i>.\nTebe, Gospodine, hvali svjetla vojska mučenika. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 24, 3-13\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Sedénte Iesu super montem Olivéti, accessérunt ad eum discípuli secréto, dicéntes: Dic nobis, quando haec erunt? Et quod signum advéntus tui et consummatiónis saéculi? Et respóndens Iesus, dixit eis: Vidéte, ne quis vos sedúcat. Multi enim vénient in nomine meo, dicéntes: Ego sum Christus: et multos sedúcent. Auditúri enim estis proélia et opiniónes proeliórum. Vidéte, ne turbémini. Opórtet enim haec fíeri, sed nondum est finis. Consúrget enim gens in gentem, et regnum in regnum, et erunt pestiléntiae, et fames, et terraemótus per loca. Haec autem ómnia inítia sunt dolórum. Tunc tradent vos in tribulatiónem, et Occídent vos: et éritis ódio ómnibus géntibus propter nomen meum. Et tunc scandalizabúntur multi, et ínvicem tradent, et ódio habébunt ínvicem. Et multi pseudoprophétae surgent, et sedúcent multos. Et quóniam abundávit iníquitas, refrigéscet cáritas multórum. Qui autem perseveráverit usque in finem, hic salvus erit.",
+     "hr": "Mt 24, 3-13\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme kad je Isus sjedio ma Maslinskoj gori, pristupiše k njemu samo njegovi učenici i rekoše: Reci nam kad će to biti? Koji je znak:tvoga dolaska i svršetka svijeta? Isus im odgovori: Gledajte da vas tko ne zavede, jer će mnogi doći u moje ime i govoriti: Ja sam Krist. I mnoge će zavesti. Čut ćete za radove i glasove o njima. Pazite da se ne zbunite, jer sve to mora biti, ali još nije svršetak. Tada će ustati narod na narod i kraljevstvo na kraljevstvo, i bit će kuga i glad i potresi. A to je sve početak nevolja. Tada će vas predati na muke i ubijat će vas. Svi će narodi zamrziti na vas radi moga imena. Tada će mnogi zalutati u vjeri i jedan će drugoga zamrziti. I ustat će mnogi krivi proroci i zavest će mnoge. Ljubav će kod mnogih ohladnjeti, jer će bezbožnost preuzeti mah. A tko ustraje do kraja spasit će se."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Sap 3, 1 et 2 et 3\nIustórum ánimae in manu Dei sunt, et non tanget illos torméntum malítiae: visi sunt óculis insipiéntium mori: illi autem sunt in pace, <i>allelúia</i>.",
+     "hr": "Mudr 3, 1 i 2 i 3\nDuše su pravednika u Božjoj ruci, i neće ih se dotaći muka zlobnika; očima se luđaka činilo da umiru, a oni su u miru, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Oblátis, quaésumus, Dómine, placáre munéribus: et, intercedéntibus sanctis Martýribus tuis Ianuário et Sóciis eius, a cunctis nos defénde perículis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Ublaži se, molimo, Gospodine, prikaznim darovima i po zagovoru tvojih svetih mučenika Januarija i njegovih drugova brani nas od svih pogibelji.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 10, 27\nQuod dico vobis in ténebris, dícite in lúmine, dicit Dóminus: et quod in aure audítis, praedicáte super tecta. <i>Allelúia</i>.",
+     "hr": "Mt 10, 27\nŠto vam kažem u tami, razglasujte na svjetlu, kaže Gospodin, i ono što vam na uho šapćem, propovijedajte s krovova. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nHaec nos commúnio, Dómine, purget a crímine: et, intercedéntibus sanctis Martýribus tuis Ianuário et Sóciis eius, caeléstis remédii fáciat esse consórtes.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nNeka nas, Gospodine, ova Pričest očisti od opačina i po zagovoru svetih tvojih mučenika Januarija i njegovih drugova, učini dionicima nebeske pomoći.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

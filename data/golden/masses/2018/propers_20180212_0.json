@@ -1,0 +1,150 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-02-12",
+ "n": 0,
+ "heading": "PONEDJELJAK, 12.II.2018.",
+ "title": "sedam osnivača Reda slugu BDM (Ordo Servorum Beatae Mariae Virginis), priznavaoci",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Sap 10, 20-21, Ps 8, 2\n(Sap 10, 20-21) Iusti decantavérunt, Dómine, nomen sanctum tuum, et victrícem manum tuam laudavérunt páriter: quóniam sapiéntia apéruit os mutum, et linguas infántium fecit disértas. (Ps 8, 2) Dómine, Dóminus noster, quam admirábile est nomen tuum in univérsa terra!\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Sap 10, 20-21) Iusti decantavérunt, Dómine, nomen sanctum tuum, et victrícem manum tuam laudavérunt páriter: quóniam sapiéntia apéruit os mutum, et linguas infántium fecit disértas.",
+     "hr": "Mudr 10, 20-21, Ps 8, 2\n(Mudr 10, 20-21) Pravednici su opjevali tvoje sveto ime. Gospodine, i pobjednicu ruku tvoju skupno su hvalili, jer je mudrost otvorila nijema usta i učinila da govore i dječja usta. (Ps 8, 2) Gospodine, Gospodine naš, kako li je divno ime tov je po svoj zemlji!\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Mudr 10, 20-21) Pravednici su opjevali tvoje sveto ime. Gospodine, i pobjednicu ruku tvoju skupno su hvalili, jer je mudrost otvorila nijema usta i učinila da govore i dječja usta."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDómine Iesu Christe, qui, ad recoléndam memóriam dolórum sanctíssimae Genetrícis tuae, per septem beátos Patres nova Servórum eius família Ecclésiam tuam fecundásti: concéde propítius; ita nos eórum consociári flétibus, ut perfruámur et gáudiis:\n<i>qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nGospodine Isuse Kriste, koji si posredstvom sedam svetih otaca za štovanje uspomene na boli presvete Majke svoje obogatio Crkvu novom obitelju njezinih Slugu, daj milostivo da se tako združimo s njihovim plačem te uživamo i u njihovim radostima:\n<i>koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Eccli 44, 1-15\nLéctio libri Sapiéntiae. Laudémus viros gloriósos, et paréntes nostros in generatióne sua. Multam glóriam fecit Dóminus magnificéntia sua a saéculo. Dominántes in potestátibus suis, hómines magni virtúte, et prudéntia sua praéditi, nuntiántes in prophétis dignitátem prophetárum, et imperántes in praesénti pópulo, et virtúte prudéntiae pópulis sanctíssima verba. In perítia sua requiréntes modos músicos, et narrántes cármina scripturárum. Hómines dívites in virtúte, pulchritúdinis stúdium habéntes: pacificántes in dómibus suis. Omnes isti in generatiónibus gentis suae glóriam adépti sunt, et in diébus suis habéntur in láudibus. Qui de illis nati sunt, reliquérunt nomen narrándi laudes eórum. Et sunt quorum non est memória: periérunt quasi qui non fúerint: et nati sunt, quasi non nati, et fílii ipsórum cum ipsis. Sed illi viri misericórdiae sunt, quorum pietátes non defuérunt: cum sémine eórum pérmanent bona, heréditas sancta nepótes eórum, et in testaméntis stetit semen eórum: et fílii eórum propter illos usque in aetérnum manent: semen eórum et glória eórum non derelinquétur. Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem. Sapiéntiam ipsórum narrent pópuli, et laudem eórum núntiet ecclésia.",
+     "hr": "Sir 44, 1-15\nČitanje knjige Mudrosti. Hvalimo slavne muževe, naše pretke, jer pripadamo njihovu rodu. Gospodin im je svojom moći od vijeka pribavio Veliku slavu. Vladali su u svojim kraljevstvima, bili su velikani obdareni razboritošću, nastupali su proročkim dostojanstvom, vodili su narod svojega vremena, posebnom su mudrošću predali narodima nauku Svetosti. Bili su vješti izumitelji skladnih popijevaka i ispjevali nadahnute pjesme. Bogati krepostima, uživala su u ljepoti i čuvali mir u: svojim kućama. Prestigli su slavom svoje suvremenike i bit će čašćeni od budućih naraštaja, jer su svojim potomcima ostavili časno ime, da mogu propovijedati njihovu slavu. A ima ljudi kojima nema spomena. Nestalo ih je kao da se nisu ni rodili, ni oni, ni njihova djeca. Oni prvi su ljudi ljubitelji braće i djela njihova milosrđa neće nestati. Dobra im djela ostaju potomstvu. I radi njih će vječno ostati njihova djeca. I neće nestati ni njihova roda, ni njihove slave! Tjelesa su im sahranjena u miru, a njihovo će ime živjeti od koljena do koljena. Neka narodi govore o njihovoj mudrosti, a crkva neka razglašuje njihovu hvalu!"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Tractus",
+   "hr": "Gradual + Zavlaka",
+   "rows": [
+    {
+     "la": "Isai 65, 23, Eccli 44, 14\n(Isai 65, 23) Elécti mei non laborábunt frustra, neque germinábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis. (Eccli 44, 14) Córpora ipsórum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem.",
+     "hr": "Iz 65, 23, Sir 44, 14\n(Iz 65, 23) Odabranici moji neće se truditi uzalud, niti će njihovo nastojanje biti bez ploda, jer su oni i njihovi potomci rod blagoslovljen od Gospodina. (Sir 44, 14) Tjelesa su njihova pokopana u miru, a ime njihovo živi od pokoljenja do pokoljenja."
+    },
+    {
+     "la": "Ps 125, 5-6\nQui séminant in lácrimis, in gáudio metent. Eúntes ibant et flebant, mitténtes sémina sua. Veniéntes autem vénient cum exsultatióne, portántes manípulos suos.",
+     "hr": "Ps 125, 5-6\nKoji siju u suzama u radosti će žeti. Tužno koračaju i plaču noseći sjeme za sjetvu. Ali će doći, doći će s klicanjem noseći snopove svoje."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 19, 27-29\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Dixit Petrus ad Iesum: Ecce nos relíquimus ómnia, et secúti sumus te:quid ergo erit nobis? Iesus autem dixit illis: Amen dico vobis, quod vos, qui secúti estis me, in regeneratióne, cum séderit Fílius hóminis in sede maiestátis suae, sedébitis et vos super sedes duódecim, iudicántes duódecim tribus Israel. Et omnis, qui relíquerit domum, vel fratres, aut soróres, aut patrem, aut matrem, aut uxórem, aut fílios, aut agros propter nomen meum, céntuplum accípiet, et vitam aetérnam possidébit.",
+     "hr": "Mt 19, 27-29\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme reče Petar Isusu: Evo, mi smo ostavili sve i pošli za tobom. Što će, dakle, biti s nama? Isus im odgovori: Zaista vam kažem kad u vrijeme preporoda bude Sin čovječji sjedio na prijestolju svoga veličanstva, i vi koji ste pošli za mnom sjedit ćete na dvanaest prijestolja i suditi dvanaest Izraelskih plemena. A svaki koji radi mene ostavi kuću, ili braću, ili sestre, ili oca, ili majku, ili ženu, ili djecu ili polja, primit će stoput više i imat će vječni život."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Isai 56, 7\nAddúcam eos in montem sanctum meum, et laetificábo eos in domo oratiónis mex: holocáusta eórum, et víctimae eórum placébunt mihi super altáre meum.",
+     "hr": "Iz 56, 7\nDovest ću ih na goru svetu svoju i razveselit ću ih u svome domu molitve. Paljenice njihove i žrtve njihove bit će mi ugodne na žrtveniku mome."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Accipe, quaésumus, Dómine, hóstias quas tibi offérimus: et praesta; ut, intercedéntibus Sanctis tuis, líbera tibi mente serviámus, et perdoléntis Vírginis Genetrícis Fílii tui amóre inflammémur.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Primi, Gospodine, darove koje ti prikazujemo i daj da ti po zagovoru tvojih svetih služimo slobodnim duhom i da se raspalimo ljubavlju prema prežalosnoj Djevici Majci Sina tvoga.\n<i>Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Io 15, 16\nEgo vos elégi de mundo, ut eátis, et fructum afferátis: et fructus vester máneat.",
+     "hr": "Iv 15, 16\nJa sam vas izabrao ođ svijeta da idete i plod donesete i plod vaš da ostane."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nCaeléstibus refécti mystériis te, Dómine, deprecámur: ut, quorum festa percólimus imitántes exémpla; iuxta Crucem Iesu cum María Matre eius fidéliter adstémus, et eiúsdem redemptiónis fructum percípere mereámur.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nNebeskim tajnama okrijepljeni molimo te, Gospodine, daj da nasljedujući primjere svetih kojih blagdan slavimo vjerno stojimo uz križ Isusov s Marijom Majkom njegovom i zavrijedimo primiti plod njegova otkupljenja.\n<i>Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-11-02",
+ "n": 2,
+ "heading": "ČETVRTAK, 2.XI.2017.",
+ "title": "Spomen svih vjernih mrtvih (Dušni dan)",
+ "rank": "Dan I. razreda",
+ "colour": "Black",
+ "commemorations": [
+  "treća misa koju svećenik služi na Dušni dan [Poslanica i Evanđelje odgovaraju običnoj svakodnevnoj misi za pokojnike]"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "IV Esdr 2, 34 et 35, Ps 64, 2-3\n(IV Esdr 2, 34 et 35) Réquiem aetérnam dona eis, Dómine: et lux perpétua lúceat eis. (Ps 64, 2-3) Te decet hymnus, Deus, in Sion, et tibi reddétur votum in Ierúsalem: exáudi oratiónem meam, ad te omnis caro véniet. (IV Esdr 2, 34 et 35) Réquiem aetérnam dona eis, Dómine: et lux perpétua lúceat eis. [Gloria Patri omittitur]",
+     "hr": "4 Ezr 2, 34 i 35, Ps 64, 2-3\n(4 Ezr 2, 34 i 35) Pokoj vječni daruj im Gospodine, i svjetlost vječna svijetlila njima. (Ps 64, 2-3) Tebi Bože, pripada pjesma na Sionu, i tebi se izvršuje zavjet u Jeruzalemu; usliši moju molitvu, k tebi dolazi svako tijelo. (4 Ezr 2, 34 i 35) Pokoj vječni daruj im Gospodine, i svjetlost vječna svijetlila njima. [izostavlja se Slava Ocu] [NAPOMENA: 4 Ezr je apokrifna knjiga koja je sastavni dio Jeronimove Vulgate (ne i Septuaginte), a preuzeta je iz starijih latinskih verzija tzv. Vetus Latina. Knjige 1 Ezr i 2 Ezr su kanonske, te se alternativno imenuju i kao Ezr i Neh (Ezra i Nehemija). Misal iz 1962 napravljen je po posttridentskoj inačici Vulgate, tzv. Klementini (po papi Klementu VIII, 1592-1605) u kojoj se 3 Ezr i 4 Ezr te druge apokrifne knjige nalaze na kraju u dodatku. U novoj verziji, tzv. Vulgata Nova (1979, 1986) apokrifne su knjige izostavljene.]"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, véniae largítor et humánae salútis amátor: quaésumus cleméntiam tuam; ut ánimas famulórum famularúmque tuárum, quae ex hoc saéculo transiérunt, beáta María semper Vírgine intercedénte cum ómnibus Sanctis tuis, ad perpétuae beatitúdinis consórtium perveníre concédas.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, djelitelju oproštenja i ljubitelju ljudskog spasenja, molimo blagost tvoju da dušama slugu i službenica tvojih, koje su prešle s ovoga svijeta po zagovoru blažene Marije vazda Djevice i svih svetaca tvojih dopustiš doći u zajednicu vječnoga blaženstva.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Apoc 14, 13\nLéctio libri Apocalýpsis beáti Ioánnis Apóstoli. In diébus illis: Audívi vocem de caelo, dicéntem mihi: Scribe: Beáti mórtui, qui in Dómino moriúntur. Amodo iam dicit Spíritus, ut requiéscant a labóribus suis: ópera enim illórum sequúntur illos.",
+     "hr": "Otk 14, 13\nČitanje knjige Otkrivenja bl. Ivana apostola. U one dane čuo sam glas s neba koji mi je govorio: Napiši: Blago mrtvima koji umiru u Gospodinu! Duh govori: Sad neka počinu od svojih napora jer ih slijede njihova djela."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Tractus",
+   "hr": "Gradual + Zavlaka",
+   "rows": [
+    {
+     "la": "IV Esdr 2, 34 et 35, Ps 111, 7\n(IV Esdr 2, 34 et 35) Réquiem aetérnam dona eis, Dómine: et lux perpétua lúceat eis. (Ps 111, 7) In memória aetérna erit iustus: ab auditióne mala non timébit.",
+     "hr": "4 Ezr 2, 34 i 35, Ps 111, 7\n(4 Ezr 2, 34 i 35) Pokoj vječni daruj im, Gospodine, i svjetlost vječna svijetlila njima. (Ps 111, 7) Pravednik će živjeti u vječnoj uspomeni, i neće se bojati zla glasa."
+    },
+    {
+     "la": "Absólve, Dómine, ánimas ómnium fidélium defunctórum ab omni vínculo delictórum. Et grátia tua illis succurrénte, mereántur evádere iudícium ultiónis. Et lucis aetérnae beatitúdine pérfrui.",
+     "hr": "Odriješi, Gospodine, duše svih vjernih mrtvih od svake veze grijeha. I daj da pomoću tvojega milosrđa zavrijede izmaći sudu osvete i uživati blaženstvo vječnoga svjetla."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Sequéntia",
+   "hr": "Posljednica",
+   "rows": [
+    {
+     "la": "Dies irae, dies illa,/ Solvet saeclum in favílla:/ Teste David cum Sibýlla. <i>\n</i>\nQuantus tremor est futúrus,/ Quando iudex est ventúrus,/ Cuncta stricte discussúrus! <i>\n</i>\nTuba, mirum spargens sonum/ Per sepúlcra regiónum,/ Coget omnes ante thronum. <i>\n</i>\nMors stupébit, et natúra,/ Cum resúrget creatúra,/ Iudicánti responsúra. <i>\n</i>\nLiber scriptus proferétur,/ In quo totum continétur, /Unde mundus iudicétur. <i>\n</i>\nIudex ergo cum sedébit,/ Quidquid latet, apparébit:/ Nil inúltum remanébit. <i>\n</i>\nQuid sum miser tunc dictúrus?/ Quem patrónum rogatúrus,/ Cum vix iustus sit secúrus? <i>\n</i>\nRex treméndae maiestátis,/ Qui salvándos salvas gratis,/ Salva me, fons pietátis. <i>\n</i>\nRecordáre, Iesu pie,/ Quod sum causa tuae viae:/ Ne me perdas illa die. <i>\n</i>\nQuaerens me, sedísti lassus:/ Redemísti Crucem passus:/ Tantus labor non sit cassus. <i>\n</i>\nIuste iudex ultiónis,/ Donum fac remissiónis/ Ante diem ratiónis. <i>\n</i>\nIngemísco, tamquam reus:/ Culpa rubet vultus meus:/ Supplicánti parce, Deus. <i>\n</i>\nQui Maríam absolvísti,/ Et latrónem exaudísti,/ Mihi quoque spem dedísti. <i>\n</i>\nPreces meae non sunt dignae:/ Sed tu bonus fac benígne,/ Ne perénni cremer igne. <i>\n</i>\nInter oves locum praesta,/ Et ab haedis me sequéstra,/ Státuens in parte dextra. <i>\n</i>\nConfutátis maledíctis,/ Flammis ácribus addíctis,/ Voca me cum benedíctis. <i>\n</i>\nOro supplex et acclínis,/ Cor contrítum quasi cinis:/ Gere curam mei finis. <i>\n</i>\nLacrimósa dies illa,/ Qua resúrget ex favílla/ Iudicándus homo reus: <i>\n</i>\nHuic ergo parce, Deus./ Pie Iesu Dómine,/ Dona eis réquiem. <i>\n</i>\n<i>amen</i>.",
+     "hr": "U dan onaj, u dan gnjeva/ Ognjem svijet će sav da sijeva/ Sa Sibilom David pjeva. <i>\n</i>\nKolik strah će na sve pasti/ Kada Sudac s višnjom vlasti/ Dođe pretrest ljudske strasti! <i>\n</i>\nTrublje čudan zvuk romoni,/ U sva groblja budeć roni/ I pred prijesto mrtve goni. <i>\n</i>\nSmrt i narav zadivljene/ Motre ljude oživljene/ Na sud Božji sakupljene. <i>\n</i>\nOtvara se knjiga jada,/ Knjiga ljudskog grješnog rada/ Što će vagnut biti sada. <i>\n</i>\nKada Sudac sudit stane,/ Sve će tajne biti znane,/ Sve grehote pokarane. <i>\n</i>\nŠto ću jadan tada zborit?/ Komu ću se zagovorit?/ Gdje i dobre strah će morit? <i>\n</i>\nKralju strašne veličine,/ Dajuć spas ko' dar s visine,/ Spasi mene, pun miline! <i>\n</i>\nSjeti se o Spase mio,/ Da si za me putnik bio,/ Ne daj mi u paklu dio. <i>\n</i>\nIštući me trudan hoda,/ Spasenje mi križem poda,/ Zar da bude to bez ploda? <i>\n</i>\nVišnji Suče, pravdo stroga,/ Sagrješenja prosti mnoga,/ Prije dana osvetnoga. <i>\n</i>\nUzdišem ko' krivac hudi/ Grijeh mi stidom lice rudi,/ Dršćuć prosim: ne osudi! <i>\n</i>\nMariju si opravdao,/ Raj zločincu obećao/ Pa i meni nadu dao. <i>\n</i>\nMolitva mi nema moći,/ Al' ti blag si, ne daj poći/ U plam vječni mojoj zloći. <i>\n</i>\nK ovcama me svojim kreni,/ Među jarad ne daj meni,/ S desne strane mene djeni. <i>\n</i>\nKad potreseš grješnim svijetom/ Plamenu ga predaš kletom,/ Zovni mene s vojskom svetom. <i>\n</i>\nMolim u svoj sniženosti,/ Srca puna skrušenosti:/ Daj mi umrijet u milosti. <i>\n</i>\nAvaj dana suza, straha,/ Kada griješni stvor iz praha/ Pođe k sudu posljednjemu! <i>\n</i>\nSlatki Spase, prosti njemu!/ Milo duše pogledaj,/ Pokoj vječni njima daj! <i>\n</i>\n<i>amen</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Io 6, 51-55\nSequéntia sancti Evangélii secúndum Ioannem. In illo témpore: Dixit Iesus turbis Iudaeórum: Ego sum panis vivus, qui de caelo descéndi. Si quis manducáverit ex hoc pane, vivet in aetérnum: et panis, quem ego dabo, caro mea est pro mundi vita. Litigábant ergo Iudaéi ad ínvicem, dicéntes: Quómodo potest hic nobis carnem suam dare ad manducándum? Dixit ergo eis Iesus: Amen, amen dico vobis: nisi manducavéritis carnem Fílii hóminis, et bibéritis eius sánguinem, non habébitis vitam in vobis. Qui mandúcat meam carnem et bibit meum sánguinem, habet vitam aetérnam: et ego resuscitábo eum in novíssimo die.",
+     "hr": "Iv 6, 51-55\nSlijedi sveto Evanđelje po Ivanu. U ono vrijeme reče Isus židovskom narodu: Ja sam živi kruh koji sam sišao s neba. Tko bude jeo ovoga kruha živjet će u vijeke. I kruh koji ću ja dati tijelo je moje za život svijeta. Tada su se Židovi među sobom prepirali i govorili: Kako nam može ovaj dati tijelo svoje za hranu? Tada im reče Isus: Zaista, zaista vam kažem: Ako ne budete jeli tijela Sina Čovječjega i pili njegove krvi, nećete u sebi imati života. Tko jede moje tijelo i pije moju krv ima život vječni, a ja ću ga uskrsnuti u najposljednji dan."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Dómine Iesu Christe, Rex glóriae, líbera ánimas ómnium fidélium defunctórum de poenis inférni et de profúndo lacu: líbera eas de ore leónis, ne absórbeat eas tártarus, ne cadant in obscúrum: sed sígnifer sanctus Míchaël repraeséntet eas in lucem sanctam: Quam olim Abrahae promisísti, et sémini eius. – Hóstias et preces tibi, Dómine, laudis offérimus: tu súscipe pro animábus illis, quarum hódie memóriam fácimus: fac eas, Dómine, de morte transíre ad vitam. Quam olim Abrahae promisísti, et sémini eius.",
+     "hr": "Gospodine Isuse Kriste, kralju slave, izbavi duše svih vjernih mrtvih od paklenih kazni i iz dubokoga bezdna; izbavi ih od usta lava da ih ne proždre pakao, da ne upadnu u tamu, nego da ih zastavonoša sveti Mihovil povede u svetu svjetlost koju si nekoć obećao Abrahamu i njegovu potomstvu. – Prinosimo ti, Gospodine, žrtve i molitve hvale; primi ih za one duše kojih se danas spominjemo; učini, Gospodine, da iz smrti prijeđu u život, što si ga nekoć obećao Abrahamu i njegovu potomstvu."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Deus, cuius misericórdiae non est númerus, súscipe propítius preces humilitátis nostrae: et animábus ómnium fidélium defunctórum, quibus tui nóminis dedísti confessiónem, per haec sacraménta salútis nostrae, cunctórum remissiónem tríbue peccatórum.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Bože, čijem milosrđu nema mjere, primi milostivo naše ponizne molitve, i po ovim otajstvima našega spasenja udijeli oproštenje svih grijeha dušama svih vjernih pokojnika koje si odlikovao priznavanjem tvoga imena.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio defunctórum",
+   "hr": "Predslovlje pokojnika",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. In quo nobis spes beátae resurrectiónis effúlsit, ut, quos contrístat certa moriéndi condício, eósdem consolétur future immortalitátis promíssio. Tuis enim fidélibus, Dómine, vita mutátur, non tóllitur, et, dissolúta terréstris huius incolátus dome, aetérna in caelis habitátio comparátur. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – U njemu nam zasja nada blaženog uskrsnuća. Koji tuguju zbog neizbježne smrti, njih neka tješi obećanje buduće besmrtnosti. Jer tvojim se vjernima, Gospodine, život mijenja a ne oduzima, i pošto se raspadne dom ovozemnoga boravka, stječe se vječno prebivalište na nebesima. – stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "IV Esdr 2, 35 et 34\nLux aetérna lúceat eis, Dómine: Cum Sanctis tuis in aetérnum: quia pius es. Réquiem aetérnam dona eis, Dómine: et lux perpétua lúceat eis. Cum Sanctis tuis in aetérnum: quia pius es.",
+     "hr": "4 Ezr 2, 35 i 34\nSvjetlost vječna svijetlila im, Gospodine, s tvojim svetima u vijeke jer ti si milosrdan. Pokoj vječni daruj im, Gospodine, i svjetlost vječna svijetlila njima, s tvojim svetima u vijeke, jer ti si milosrdan."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nPraesta, quaésumus, omnípotens et miséricors Deus: ut ánimae famulórum famularúmque tuárum, pro quibus hoc sacrifícium laudis tuae obtúlimus maiestáti; per huius virtútem sacraménti a peccátis ómnibus expiátae, lucis perpétuae, te miseránte, recípiant beatitúdinem.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nPodaj, molimo, svemogući i milosrdni Bože, da duše slugu i službenica tvojih za koje smo tvome veličanstvu prinijeli ovu žrtvu hvale, očišćene od svih grijeha snagom ovog otajstva, po tvojem milosrđu postignu blaženstvo vječne svjetlosti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ],
+ "odd": [
+  "text: \""
+ ]
+}

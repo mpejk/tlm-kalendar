@@ -1,0 +1,2765 @@
+[
+ {
+  "md": "01-01",
+  "file": "01-01",
+  "cls": 1,
+  "la": "In Circumcisione Domini",
+  "hr": "OSMINA BOŽIĆA",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "01-05",
+  "file": "01-05cc",
+  "cls": 4,
+  "la": "S. Telesphori Papæ et Martyris",
+  "hr": "sv. Telesfor, papa i mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "01-14",
+  "file": "01-14",
+  "cls": 3,
+  "la": "S. Hilarii Episcopi Confessoris Ecclesiæ Doctoris",
+  "hr": "sv. Hilarij iz Poitiersa, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "01-14",
+  "file": "01-14cc",
+  "cls": 4,
+  "la": "S. Felicis Presbyteri et Martyris",
+  "hr": "sv. Feliks iz Nole, svećenik, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "01-15",
+  "file": "01-15",
+  "cls": 3,
+  "la": "S. Pauli Primi Eremitæ et Confessoris",
+  "hr": "sv. Pavao, prvi pustinjak, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "01-15",
+  "file": "01-15cc",
+  "cls": 4,
+  "la": "S. Mauri Abbatis",
+  "hr": "sv. Mavro, opat",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "01-16",
+  "file": "01-16",
+  "cls": 3,
+  "la": "S. Marcelli Papæ et Martyris",
+  "hr": "sv. Marcel I, papa i mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "01-17",
+  "file": "01-17",
+  "cls": 3,
+  "la": "S. Antonii Abbatis",
+  "hr": "sv. Antun, opat",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "01-18",
+  "file": "01-18r",
+  "cls": 4,
+  "la": "S. Priscæ Virginis",
+  "hr": "sv. Priska, djevica, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "01-19",
+  "file": "01-19",
+  "cls": 4,
+  "la": "Ss. Marii, Marthæ, Audifacis, et Abachum Martyrum",
+  "hr": "sv. Marije, sv. Marta, sv. Audifaks i sv. Abak, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "01-19",
+  "file": "01-19o",
+  "cls": 4,
+  "la": "S. Canuti Regis et Martyrum",
+  "hr": "sv. Knut IV. Danski, kralj, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "01-20",
+  "file": "01-20",
+  "cls": 3,
+  "la": "Ss. Fabiani et Sebastiani Martyrum",
+  "hr": "sv. Fabijan, papa, i sv. Sebastijan, mučenici",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "01-21",
+  "file": "01-21",
+  "cls": 3,
+  "la": "S. Agnetis Virginis et Martyris",
+  "hr": "sv. Agneza (Janja, Ines), djevica i mučenica",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "01-22",
+  "file": "01-22",
+  "cls": 3,
+  "la": "Ss. Vincentii et Anastasii Martyrum",
+  "hr": "sv. Vinko i sv. Anastazije, mučenici",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "01-23",
+  "file": "01-23",
+  "cls": 3,
+  "la": "S. Raymundi de Peñafort Confessoris",
+  "hr": "sv. Rajmund Peñafortski, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "01-23",
+  "file": "01-23o",
+  "cls": 4,
+  "la": "S. Emerentianæ Virginis et Martyris",
+  "hr": "sv. Emerencijana, djevica, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "01-24",
+  "file": "01-24",
+  "cls": 3,
+  "la": "S. Timothei Episcopi et Martyris",
+  "hr": "sv. Timotej, biskup i mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "01-26",
+  "file": "01-26",
+  "cls": 3,
+  "la": "S. Polycarpi Episcopi et Martyris",
+  "hr": "sv. Polikarp, biskup i mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "01-27",
+  "file": "01-27",
+  "cls": 3,
+  "la": "S. Joannis Chrysostomi Episcopi Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Ivan Zlatousti, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "01-29",
+  "file": "01-29",
+  "cls": 3,
+  "la": "S. Francisci Salesii Episcopi Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Franjo Saleški, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "01-30",
+  "file": "01-30",
+  "cls": 3,
+  "la": "S. Martinæ Virginis et Martyris",
+  "hr": "sv. Martina, djevica i mučenica",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "01-31",
+  "file": "01-31",
+  "cls": 3,
+  "la": "S. Joannis Bosco Confessoris",
+  "hr": "sv. Ivan Bosco, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "02-01",
+  "file": "02-01",
+  "cls": 3,
+  "la": "S. Ignatii Episcopi et Martyris",
+  "hr": "sv. Ignacije Antiohijski, biskup i mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "02-02",
+  "file": "02-02",
+  "cls": 2,
+  "la": "In Purificatione Beatae Mariae Virginis",
+  "hr": "Očišćenje BDM (Svijećnica, Kandelora) [napomena: blagdan Gospodnji, a ne Marijin]",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "02-03",
+  "file": "02-03",
+  "cls": 4,
+  "la": "S. Blasii Episcopi et Martyris",
+  "hr": "sv. Blaž (Vlaho), biskup, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "02-05",
+  "file": "02-05",
+  "cls": 3,
+  "la": "S. Agathæ Virginis et Martyris",
+  "hr": "sv. Agata, djevica i mučenica",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "02-06",
+  "file": "02-06",
+  "cls": 3,
+  "la": "S. Titi Episcopi et Confessoris",
+  "hr": "sv. Tito, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "02-06",
+  "file": "02-06o",
+  "cls": 4,
+  "la": "S. Dorotheæ Virginis et Martyris",
+  "hr": "sv. Doroteja iz Cezareje, djevica, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "02-07",
+  "file": "02-07",
+  "cls": 3,
+  "la": "S. Romualdi Abbatis",
+  "hr": "sv. Romuald, opat",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "02-08",
+  "file": "02-08",
+  "cls": 3,
+  "la": "S. Joannis de Matha Confessoris",
+  "hr": "sv. Ivan iz Mate, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "02-09",
+  "file": "02-09",
+  "cls": 3,
+  "la": "S. Cyrilli Episc. Alexandrini Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Ćiril Aleksandrijski, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "02-09",
+  "file": "02-09o",
+  "cls": 4,
+  "la": "S. Apolloniæ Virginis et Martyris",
+  "hr": "sv. Apolonija, djevica, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "02-10",
+  "file": "02-10",
+  "cls": 3,
+  "la": "S. Scholasticæ Virginis",
+  "hr": "sv. Skolastika, djevica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "02-14",
+  "file": "02-14",
+  "cls": 4,
+  "la": "S. Valentini Presbyteri et Martyris",
+  "hr": "sv. Valentin, svećenik, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "02-15",
+  "file": "02-15",
+  "cls": 4,
+  "la": "SS. Faustini et Jovitæ",
+  "hr": "sv. Faustin i Jovita, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "02-18",
+  "file": "02-18",
+  "cls": 4,
+  "la": "S. Simeonis Episcopi et Martyris",
+  "hr": "sv. Šimun Jeruzalemski, biskup, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "02-23",
+  "file": "02-23r",
+  "cls": 3,
+  "la": "S. Petri Damiani Episcopi Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Petar Damiani, priznavalac",
+  "colour": "White",
+  "comm": "low"
+ },
+ {
+  "md": "02-27",
+  "file": "02-27",
+  "cls": 3,
+  "la": "S. Gabrielis a Virgine Perdolente Confessoris",
+  "hr": "sv. Gabrijel od Žalosne Gospe, priznavalac",
+  "colour": "White",
+  "comm": "low"
+ },
+ {
+  "md": "03-04",
+  "file": "03-04",
+  "cls": 3,
+  "la": "S. Casimiri Confessoris",
+  "hr": "sv. Kazimir Poljski, priznavalac",
+  "colour": "White",
+  "comm": "low"
+ },
+ {
+  "md": "03-04",
+  "file": "03-04cc",
+  "cls": 4,
+  "la": "S. Lucii I Papæ et Martyris",
+  "hr": "sv. Lucije I., papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "03-06",
+  "file": "03-06",
+  "cls": 3,
+  "la": "Ss. Perpetuæ et Felicitatis Martyrum",
+  "hr": "sv. Perpetua i sv. Felicita, mučenice",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "03-07",
+  "file": "03-07",
+  "cls": 3,
+  "la": "S. Thomæ de Aquino Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Toma Akvinski, priznavalac i naučitelj",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "03-08",
+  "file": "03-08",
+  "cls": 3,
+  "la": "S. Joannis de Deo Confessoris",
+  "hr": "sv. Ivan od Boga, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "03-09",
+  "file": "03-09",
+  "cls": 3,
+  "la": "S. Franciscæ Romanæ Viduæ",
+  "hr": "sv. Franciska Rimska, udovica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "03-10",
+  "file": "03-10",
+  "cls": 3,
+  "la": "Ss. Quadraginta Martyrum",
+  "hr": "svetih 40 mučenika iz Sebaste",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "03-12",
+  "file": "03-12",
+  "cls": 3,
+  "la": "S. Gregorii Papæ Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Grgur I. Veliki, papa, priznavalac i naučitelj",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "03-17",
+  "file": "03-17",
+  "cls": 3,
+  "la": "S. Patricii Episcopi et Confessoris",
+  "hr": "sv. Patrik, biskup, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "03-18",
+  "file": "03-18",
+  "cls": 3,
+  "la": "S. Cyrilli Episcopi Hierosolymitani Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Ćiril Jeruzalemski, biskup, priznavalac, naučitelj",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "03-19",
+  "file": "03-19",
+  "cls": 1,
+  "la": "S. Joseph Sponsi B.M.V. Confessoris",
+  "hr": "SV. JOSIP, ZARUČNIK BDM, PRIZNAVALAC, ZAŠTITNIK SVEOPĆE CRKVE",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "03-21",
+  "file": "03-21",
+  "cls": 3,
+  "la": "S. Benedicti Abbatis",
+  "hr": "sv. Benedikt, opat",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "03-24",
+  "file": "03-24",
+  "cls": 3,
+  "la": "S. Gabrielis Archangeli",
+  "hr": "sv. Gabrijel, arkanđeo",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "03-25",
+  "file": "03-25",
+  "cls": 1,
+  "la": "In Annuntiatione Beate Mariæ Virginis",
+  "hr": "BLAGOVIJEST",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "03-27",
+  "file": "03-27",
+  "cls": 3,
+  "la": "S. Joannis Damasceni Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Ivan Damašćanin, priznavalac, naučitelj",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "03-28",
+  "file": "03-28",
+  "cls": 3,
+  "la": "S. Joannis a Capistrano Confessoris",
+  "hr": "sv. Ivan Kapistran, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "04-02",
+  "file": "04-02",
+  "cls": 3,
+  "la": "S. Francisci de Paula Confessoris",
+  "hr": "sv. Franjo Paulski, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "04-04",
+  "file": "04-04",
+  "cls": 3,
+  "la": "S. Isidori Episcopi Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Izidor Seviljski, biskup, priznavalac, naučitelj",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "04-05",
+  "file": "04-05",
+  "cls": 3,
+  "la": "S. Vincentii Ferrerii Confessoris",
+  "hr": "sv. Vinko Ferrer, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "04-11",
+  "file": "04-11",
+  "cls": 3,
+  "la": "S. Leonis I Papæ Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Lav I. Veliki, papa, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": "low"
+ },
+ {
+  "md": "04-13",
+  "file": "04-13",
+  "cls": 3,
+  "la": "S. Hermenegildi Martyris",
+  "hr": "sv. Hermenegild, mučenik",
+  "colour": "Red",
+  "comm": "low"
+ },
+ {
+  "md": "04-14",
+  "file": "04-14",
+  "cls": 3,
+  "la": "S. Justini Martyris",
+  "hr": "sv. Justin, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "04-14",
+  "file": "04-14t",
+  "cls": 4,
+  "la": "Ss. Tiburtii, Valeriani, et Maximi Martyrum",
+  "hr": "sv. Tiburcij, sv. Valerijan i sv. Maksim, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "04-17",
+  "file": "04-17",
+  "cls": 4,
+  "la": "S. Aniceti Papæ et Martyris",
+  "hr": "sv. Anicet, papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "04-21",
+  "file": "04-21",
+  "cls": 3,
+  "la": "S. Anselmi Episcopi Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Anzelmo Kenterberijski, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "04-23",
+  "file": "04-23",
+  "cls": 4,
+  "la": "S. Georgii Martyris",
+  "hr": "sv. Juraj, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "04-24",
+  "file": "04-24",
+  "cls": 3,
+  "la": "S. Fidelis de Sigmaringa Martyris",
+  "hr": "sv. Fidelije Sigmaringenski, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "04-25",
+  "file": "04-25",
+  "cls": 2,
+  "la": "S. Marci Evangelistæ",
+  "hr": "sv. Marko, evanđelist",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "04-26",
+  "file": "04-26",
+  "cls": 3,
+  "la": "SS. Cleti et Marcellini Summorum Pontificum et Martyrum",
+  "hr": "sv. Kleto, papa i sv. Marcelin, papa, mučenici",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "04-27",
+  "file": "04-27",
+  "cls": 3,
+  "la": "S. Petri Canisii Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Petar Kanizij, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "04-28",
+  "file": "04-28",
+  "cls": 3,
+  "la": "S. Pauli a Cruce Confessoris",
+  "hr": "sv. Pavao od Križa, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "04-29",
+  "file": "04-29",
+  "cls": 3,
+  "la": "S. Petri Martyris",
+  "hr": "sv. Petar Veronski, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "04-30",
+  "file": "04-30",
+  "cls": 3,
+  "la": "S. Catharinæ Senensis Virginis",
+  "hr": "sv. Katarina Sijenska, djevica, naučiteljica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-01",
+  "file": "05-01r",
+  "cls": 1,
+  "la": "S. Joseph Opificis",
+  "hr": "SV. JOSIP RADNIK, SUPRUG BDM, PRIZNAVALAC",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-02",
+  "file": "05-02",
+  "cls": 3,
+  "la": "S. Athanasii Episcopi Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Atanazije, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-03",
+  "file": "05-03r",
+  "cls": 4,
+  "la": "Ss. Alexandri I Papæ, Eventii et Theoduli Mm. ac Juvenalis Ep. et Conf.",
+  "hr": "sv. Aleksandar I., papa, sv. Evencij i sv. Teodul, mučenici, sv. Juvenal, biskup, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "05-04",
+  "file": "05-04",
+  "cls": 3,
+  "la": "S. Monicæ Viduæ",
+  "hr": "sv. Monika, udovica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-05",
+  "file": "05-05",
+  "cls": 3,
+  "la": "S. Pii V Papæ et Confessoris",
+  "hr": "sv. Pio V., papa, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-07",
+  "file": "05-07",
+  "cls": 3,
+  "la": "S. Stanislai Episcopi et Martyris",
+  "hr": "sv. Stanislav, biskup, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "05-09",
+  "file": "05-09",
+  "cls": 3,
+  "la": "S. Gregorii Nazianzeni Episcopi Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Grgur Nazijanski, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": "low"
+ },
+ {
+  "md": "05-10",
+  "file": "05-10",
+  "cls": 3,
+  "la": "S. Antonini Episcopi et Confessoris",
+  "hr": "sv. Antonin Firentinski, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-10",
+  "file": "05-10o",
+  "cls": 4,
+  "la": "Ss. Gordiani et Epimachi Martyrum",
+  "hr": "sv. Gordijan i Epimah, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "05-11",
+  "file": "05-11r",
+  "cls": 2,
+  "la": "Ss. Philippi et Jacobi Apostolorum",
+  "hr": "sv. Filip i sv. Jakov (Mlađi), apostoli",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "05-12",
+  "file": "05-12",
+  "cls": 3,
+  "la": "Ss. Nerei, Achillei et Domitillæ Virg. atque Pancratii Martyrum",
+  "hr": "sv. Nerej, sv. Ahilej, sv. Domitila, djevica, i sv. Pankracije, mučenici",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "05-13",
+  "file": "05-13",
+  "cls": 3,
+  "la": "S. Roberti Bellarmino Episcopi Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Robert Bellarmino, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-14",
+  "file": "05-14",
+  "cls": 4,
+  "la": "S. Bonifatii Martyris",
+  "hr": "sv. Bonifacije iz Tarza, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "05-15",
+  "file": "05-15",
+  "cls": 3,
+  "la": "S. Joannis Baptistæ de la Salle Confessoris",
+  "hr": "sv. Ivan de la Salle, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-16",
+  "file": "05-16",
+  "cls": 3,
+  "la": "S. Ubaldi Episcopi et Confessoris",
+  "hr": "sv. Ubald iz Gubbija, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-17",
+  "file": "05-17",
+  "cls": 3,
+  "la": "S. Paschalis Baylon Confessoris",
+  "hr": "sv. Paskal Baylon, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-18",
+  "file": "05-18",
+  "cls": 3,
+  "la": "S. Venantii Martyris",
+  "hr": "sv. Venancij, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "05-19",
+  "file": "05-19",
+  "cls": 3,
+  "la": "S. Petri Celestini Papæ et Confessoris",
+  "hr": "sv. Petar Celestin (Celestin V.), papa, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-19",
+  "file": "05-19o",
+  "cls": 4,
+  "la": "S. Pudentianæ Virginis",
+  "hr": "sv. Pudencijana, djevica, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "05-20",
+  "file": "05-20",
+  "cls": 3,
+  "la": "S. Bernardini Senensis Confessoris",
+  "hr": "sv. Bernardin Sijenski, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-25",
+  "file": "05-25",
+  "cls": 3,
+  "la": "S. Gregorii VII Papæ et Confessoris",
+  "hr": "sv. Grgur VII., papa, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-25",
+  "file": "05-25o",
+  "cls": 4,
+  "la": "S. Urbanis Papæ et Martyris",
+  "hr": "sv. Urban I., papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "05-26",
+  "file": "05-26",
+  "cls": 3,
+  "la": "S. Philippi Neri Confessoris",
+  "hr": "sv. Filip Neri, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-26",
+  "file": "05-26o",
+  "cls": 4,
+  "la": "S. Eleutherii Papæ et Martyris",
+  "hr": "sv. Eleuterije, papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "05-27",
+  "file": "05-27",
+  "cls": 3,
+  "la": "S. Bedæ Venerabilis Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Beda Časni, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-27",
+  "file": "05-27o",
+  "cls": 4,
+  "la": "S. Joannis Papæ et Martyris",
+  "hr": "sv. Ivan I., papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "05-28",
+  "file": "05-28",
+  "cls": 3,
+  "la": "S. Augustini Episcopi et Confessoris",
+  "hr": "sv. Augustin Kenterberijski, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-29",
+  "file": "05-29",
+  "cls": 3,
+  "la": "S. Mariæ Magdalenæ de Pazzis Virginis",
+  "hr": "sv. Marija Magdalena Pazzi, djevica",
+  "colour": "White",
+  "comm": "low"
+ },
+ {
+  "md": "05-30",
+  "file": "05-30",
+  "cls": 4,
+  "la": "S. Felicis I Papæ et Martyris",
+  "hr": "sv. Feliks I., papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "05-31",
+  "file": "05-31",
+  "cls": 2,
+  "la": "Beatae Mariae Virginis Regina",
+  "hr": "BDM Kraljica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "05-31",
+  "file": "05-31o",
+  "cls": 4,
+  "la": "S. Petronillæ Virginis",
+  "hr": "sv. Petronila, djevica, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "06-01",
+  "file": "06-01",
+  "cls": 3,
+  "la": "S. Angelæ Mericiæ Virginis",
+  "hr": "sv. Anđela Merici, djevica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-02",
+  "file": "06-02",
+  "cls": 4,
+  "la": "Ss. Marcellini, Petri, atque Erasmi, Episcopi, Martyrum",
+  "hr": "sv. Marcelin, svećenik i sv. Petar,egzorcist, mučenici, sv. Erazmo Formijski, biskup, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "06-04",
+  "file": "06-04",
+  "cls": 3,
+  "la": "S. Francisci Caracciolo Confessoris",
+  "hr": "sv. Franjo Caracciolo, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-05",
+  "file": "06-05",
+  "cls": 3,
+  "la": "S. Bonifatii Episcopi et Martyris",
+  "hr": "sv. Bonifacije (apostol Njemačke), biskup, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "06-06",
+  "file": "06-06",
+  "cls": 3,
+  "la": "S. Norberti Episcopi et Confessoris",
+  "hr": "sv. Norbert Ksantenski, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-09",
+  "file": "06-09",
+  "cls": 4,
+  "la": "Ss. Primi et Feliciani Martyrum",
+  "hr": "sv. Primo i sv. Felicijan, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "06-11",
+  "file": "06-11",
+  "cls": 3,
+  "la": "S. Barnabæ Apostoli",
+  "hr": "sv. Barnaba, apostol",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "06-12",
+  "file": "06-12",
+  "cls": 3,
+  "la": "S. Joannis a S. Facundo Confessoris",
+  "hr": "sv. Ivan iz Svetog Fakunda, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-12",
+  "file": "06-12o",
+  "cls": 4,
+  "la": "Ss. Basilidis, Cyrini, Naboris and Nazarii Martyrum",
+  "hr": "sv. Bazilid, sv. Cirin, sv. Nabor i sv. Nazarije, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "06-13",
+  "file": "06-13",
+  "cls": 3,
+  "la": "S. Antonii de Padua Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Antun Padovanski, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-14",
+  "file": "06-14",
+  "cls": 3,
+  "la": "S. Basilii Magni Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Bazilije Veliki, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-15",
+  "file": "06-15",
+  "cls": 4,
+  "la": "Ss. Viti, Modesti atque Crescentiæ Martyrum",
+  "hr": "sv. Vid, sv. Modest i sv. Krescencija, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "06-17",
+  "file": "06-17r",
+  "cls": 3,
+  "la": "S. Gregorii Barbadici Episcopi et Confessoris",
+  "hr": "sv. Grgur Barbarigo, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-18",
+  "file": "06-18",
+  "cls": 3,
+  "la": "S. Ephræm Syri Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Efrem Sirijski, đakon, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-18",
+  "file": "06-18t",
+  "cls": 4,
+  "la": "SS. Marci et Marcelliani Martyrum",
+  "hr": "sv. Marko i sv. Marcelijan, đakoni, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "06-19",
+  "file": "06-19",
+  "cls": 3,
+  "la": "S. Julianæ de Falconeriis Virginis",
+  "hr": "sv. Julijana Falconieri, djevica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-19",
+  "file": "06-19o",
+  "cls": 4,
+  "la": "Ss. Gervasii et Protasii Martyrum",
+  "hr": "sv. Gervazije i sv. Protazije, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "06-20",
+  "file": "06-20",
+  "cls": 4,
+  "la": "S. Silverii Papæ et Martyris",
+  "hr": "sv. Silverije, papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "06-21",
+  "file": "06-21",
+  "cls": 3,
+  "la": "S. Aloisii Gonzagæ Confessoris",
+  "hr": "sv. Alojzije Gonzaga, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-22",
+  "file": "06-22",
+  "cls": 3,
+  "la": "S. Paulini Episcopi et Confessoris",
+  "hr": "sv. Paulin iz Nole, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-23",
+  "file": "06-23",
+  "cls": 2,
+  "la": "In Vigilia S. Joannis Baptistæ",
+  "hr": "bdijenje uoči rođendana sv. Ivana Krstitelja",
+  "colour": "Violet",
+  "comm": ""
+ },
+ {
+  "md": "06-24",
+  "file": "06-24",
+  "cls": 1,
+  "la": "In Nativitate S. Joannis Baptistæ",
+  "hr": "ROĐENJE SV. IVANA KRSTITELJA",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-25",
+  "file": "06-25",
+  "cls": 3,
+  "la": "S. Gulielmi Abbatis",
+  "hr": "sv. Vilim iz Vercellija (Monte Vergine), opat",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "06-26",
+  "file": "06-26",
+  "cls": 3,
+  "la": "Ss. Joannis et Pauli Martyrum",
+  "hr": "sv. Ivan i Pavao iz Rima, mučenici",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "06-28",
+  "file": "06-28r",
+  "cls": 2,
+  "la": "In Vigilia Ss. Petri et Pauli Apostolorum",
+  "hr": "bdijenje uoči dana sv. Petra i sv. Pavla, apostola",
+  "colour": "Violet",
+  "comm": ""
+ },
+ {
+  "md": "06-29",
+  "file": "06-29",
+  "cls": 1,
+  "la": "SS. Apostolorum Petri et Pauli",
+  "hr": "SV. PETAR I SV. PAVAO, APOSTOLI",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "07-01",
+  "file": "07-01",
+  "cls": 1,
+  "la": "Pretiosissimi Sanguinis Domini Nostri Jesu Christi",
+  "hr": "PREDRAGOCJENA KRV GOSPODINA NAŠEGA ISUSA KRISTA",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "07-02",
+  "file": "07-02",
+  "cls": 2,
+  "la": "In Visitatione B Mariae Virginis",
+  "hr": "Pohod BDM",
+  "colour": "White",
+  "comm": "low"
+ },
+ {
+  "md": "07-02",
+  "file": "07-02cc",
+  "cls": 4,
+  "la": "Ss. Processi et Martiniani Martyrum",
+  "hr": "sv. Proceso i sv. Martinijan, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-03",
+  "file": "07-03r",
+  "cls": 3,
+  "la": "S. Irenaei Episcopi et Martyris",
+  "hr": "sv. Irenej (Irinej) Lionski, biskup, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "07-05",
+  "file": "07-05",
+  "cls": 3,
+  "la": "S. Antonii Mariæ Zaccaria Confessoris",
+  "hr": "sv. Antun Marija Zaccaria, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-07",
+  "file": "07-07",
+  "cls": 3,
+  "la": "Ss. Cyrilli et Methodii Pont. et Conf.",
+  "hr": "sv. Ćiril i sv. Metod, biskupi, priznavaoci",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-08",
+  "file": "07-08",
+  "cls": 3,
+  "la": "S. Elisabeth Reg. Portugaliæ Viduæ",
+  "hr": "sv. Elizabeta Aragonska, kraljica, udovica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-10",
+  "file": "07-10",
+  "cls": 3,
+  "la": "Ss. Septem Fratrum Martyrum, ac Rufinæ et Secundæ Virginum et Martyrum",
+  "hr": "svetih 7 rimskih mučenika, sv. Rufina, djevica i mučenica, sv. Sekunda, djevica i mučenica",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "07-11",
+  "file": "07-11",
+  "cls": 4,
+  "la": "S. Pii I Papæ et Martyris",
+  "hr": "sv. Pio I., papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-12",
+  "file": "07-12",
+  "cls": 3,
+  "la": "S. Joannis Gualberti Abbatis",
+  "hr": "sv. Ivan Gualbert, opat",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-12",
+  "file": "07-12o",
+  "cls": 4,
+  "la": "Ss. Naboris et Felicis Martyrum",
+  "hr": "sv. Nabor i sv. Feliks, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-14",
+  "file": "07-14",
+  "cls": 3,
+  "la": "S. Bonaventuræ Episcopi Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Bonaventura, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-15",
+  "file": "07-15",
+  "cls": 3,
+  "la": "S. Henrici Imperatoris Confessoris",
+  "hr": "sv. Henrik II. Njemački, car, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-16",
+  "file": "07-16",
+  "cls": 4,
+  "la": "In Commemoratione Beatae Mariae Virginis de Monte Carmelo",
+  "hr": "Gospa Karmelska",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-17",
+  "file": "07-17",
+  "cls": 4,
+  "la": "S. Alexii Confessoris",
+  "hr": "sv. Aleksije, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-18",
+  "file": "07-18",
+  "cls": 3,
+  "la": "S. Camilli de Lellis Confessoris",
+  "hr": "sv. Kamilo de Lellis, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-18",
+  "file": "07-18o",
+  "cls": 4,
+  "la": "Ss. Symphorosæ et Septem Filiorum Martyrum",
+  "hr": "sv. Simforoza i njenih sedam sinova, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-19",
+  "file": "07-19",
+  "cls": 3,
+  "la": "S. Vincentii a Paulo Confessoris",
+  "hr": "sv. Vinko Paulski, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-20",
+  "file": "07-20",
+  "cls": 3,
+  "la": "S. Hieronymi Æmiliani Confessoris",
+  "hr": "sv. Jeronim Emiliani, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-20",
+  "file": "07-20o",
+  "cls": 4,
+  "la": "S. Margaritæ, Virg. et Mart.",
+  "hr": "sv. Margareta iz Antiohije Pizidijske, djevica, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-21",
+  "file": "07-21r",
+  "cls": 3,
+  "la": "S. Laurentii a Brundusio Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Lovro Brindizijski, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-21",
+  "file": "07-21",
+  "cls": 4,
+  "la": "S. Praxedis Virginis",
+  "hr": "sv. Prakseda, djevica, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-22",
+  "file": "07-22",
+  "cls": 3,
+  "la": "S. Mariæ Magdalenæ Pœnitentis",
+  "hr": "sv. Marija Magdalena, pokajnica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-23",
+  "file": "07-23",
+  "cls": 3,
+  "la": "S. Apollinaris Episcopi et Martyris",
+  "hr": "sv. Apolinar iz Ravenne, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "07-23",
+  "file": "07-23cc",
+  "cls": 4,
+  "la": "S. Liborii Episcopi et Confessoris",
+  "hr": "sv. Liborije iz Le Mansa, biskup, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-24",
+  "file": "07-24r",
+  "cls": 4,
+  "la": "S. Christinæ Virginis et Martyris",
+  "hr": "sv. Kristina Tirska, djevica, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-25",
+  "file": "07-25",
+  "cls": 2,
+  "la": "S. Jacobi Apostoli",
+  "hr": "sv. Jakov (Stariji, Zebedejev), apostol",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "07-25",
+  "file": "07-25cc",
+  "cls": 4,
+  "la": "S. Christophori Martyris",
+  "hr": "sv. Kristofor, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-26",
+  "file": "07-26",
+  "cls": 2,
+  "la": "S. Annæ Matris B.M.V.",
+  "hr": "sv. Ana, majka BDM",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-27",
+  "file": "07-27",
+  "cls": 4,
+  "la": "S. Pantaleonis Martyris",
+  "hr": "sv. Pantaleon, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-28",
+  "file": "07-28",
+  "cls": 3,
+  "la": "Ss. Nazarii et Celsi Martyrum, Victoris I Papæ et Martyris ac Innocentii I Papæ et Confessoris",
+  "hr": "sv. Nazarije i sv. Celzo, mučenici, sv. Viktor I., papa, mučenik, sv. Inocent I., papa, priznavalac",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "07-29",
+  "file": "07-29",
+  "cls": 3,
+  "la": "S. Marthæ Virginis",
+  "hr": "sv. Marta, djevica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "07-29",
+  "file": "07-29cc",
+  "cls": 4,
+  "la": "Ss. Felicis, Simplicii, Faustini et Beatricis Martyrum",
+  "hr": "sv. Feliks, sv. Simplicije, sv. Faustin i sv. Beatrica, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-30",
+  "file": "07-30",
+  "cls": 4,
+  "la": "Ss. Abdon et Sennen Martyrum",
+  "hr": "sv. Abdon i sv. Senen, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "07-31",
+  "file": "07-31",
+  "cls": 3,
+  "la": "S. Ignatii Confessoris",
+  "hr": "sv. Ignacije Lojolski, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-01",
+  "file": "08-01r",
+  "cls": 4,
+  "la": "Ss. Martyrum Machabæorum",
+  "hr": "Makabejski mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-02",
+  "file": "08-02",
+  "cls": 3,
+  "la": "S. Alfonsi Mariæ de Ligorio Episc. Conf. et Eccles. Doct.",
+  "hr": "sv. Alfons Marija Liguori, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-02",
+  "file": "08-02o",
+  "cls": 4,
+  "la": "S. Stephani Papæ Martyris",
+  "hr": "sv. Stjepan I, papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-04",
+  "file": "08-04",
+  "cls": 3,
+  "la": "S. Dominici Confessoris",
+  "hr": "sv. Dominik de Guzmán, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-05",
+  "file": "08-05",
+  "cls": 3,
+  "la": "S. Mariae ad Nives",
+  "hr": "Posveta bazilike sv. Marije od Snijega (Gospa Snježna)",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-06",
+  "file": "08-06",
+  "cls": 2,
+  "la": "Transfiguratio Domini Nostri Jesu Christi",
+  "hr": "Preobraženje Gospodina našega Isusa Krista",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-06",
+  "file": "08-06cc",
+  "cls": 4,
+  "la": "Ss. Xysti II Papæ, Felicissimi et Agapiti Martyrum",
+  "hr": "sv. Siksto II., papa, sv. Felicisimo i Agapit, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-07",
+  "file": "08-07",
+  "cls": 3,
+  "la": "S. Cajetani Confessoris",
+  "hr": "sv. Kajetan iz Vincenze, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-07",
+  "file": "08-07o",
+  "cls": 4,
+  "la": "S. Donati Episcopi et Martyris",
+  "hr": "sv. Donat iz Arezza, biskup, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-08",
+  "file": "08-09",
+  "cls": 3,
+  "la": "S. Joannis Mariæ Vianney Confessoris",
+  "hr": "sv. Ivan Marija Vianney, svećenik, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-08",
+  "file": "08-08",
+  "cls": 4,
+  "la": "Ss. Cyriaci, Largi et Smaragdi Martyrum",
+  "hr": "sv. Cirijak, sv. Largo i sv. Smaragd, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-09",
+  "file": "08-09t",
+  "cls": 3,
+  "la": "In Vigilia S. Laurentii Mart.",
+  "hr": "bdijenje uoči dana sv. Lovre, mučenika",
+  "colour": "Violet",
+  "comm": ""
+ },
+ {
+  "md": "08-09",
+  "file": "08-09cc",
+  "cls": 4,
+  "la": "S. Romani Martyris",
+  "hr": "sv. Roman Ostijarij, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-10",
+  "file": "08-10",
+  "cls": 2,
+  "la": "S. Laurentii Martyris",
+  "hr": "sv. Lovro, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "08-11",
+  "file": "08-11",
+  "cls": 4,
+  "la": "Ss. Tiburtii et Susannæ Virginis, Martyrum",
+  "hr": "sv. Tiburcij i sv. Suzana, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-12",
+  "file": "08-12",
+  "cls": 3,
+  "la": "S. Claræ Virginis",
+  "hr": "sv. Klara Asiška, djevica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-13",
+  "file": "08-13",
+  "cls": 4,
+  "la": "Ss. Hippolyti et Cassiani Martyrum",
+  "hr": "sv. Hipolit Rimski i sv. Kasijan iz Imole, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-14",
+  "file": "08-14",
+  "cls": 2,
+  "la": "Vigilia Assumptionis B.M.V.",
+  "hr": "bdijenje uoči Uznesenja BDM",
+  "colour": "Violet",
+  "comm": ""
+ },
+ {
+  "md": "08-14",
+  "file": "08-14cc",
+  "cls": 4,
+  "la": "S. Eusebii Confessoris",
+  "hr": "sv. Euzebije Rimski, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-15",
+  "file": "08-15",
+  "cls": 1,
+  "la": "Assumptione Beatae Mariae Virginis",
+  "hr": "UZNESENJE BDM (VELIKA GOSPA)",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-16",
+  "file": "08-16",
+  "cls": 2,
+  "la": "S. Joachim Confessoris, Patris B. M. V.",
+  "hr": "sv. Joakim, otac BDM",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-17",
+  "file": "08-17",
+  "cls": 3,
+  "la": "S. Hyacinthi Confessoris",
+  "hr": "sv. Hijacint Krakovski, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-18",
+  "file": "08-18r",
+  "cls": 4,
+  "la": "S. Agapiti Martyris",
+  "hr": "sv. Agapit, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-19",
+  "file": "08-19",
+  "cls": 3,
+  "la": "S. Joannis Eudes Confessoris",
+  "hr": "sv. Ivan Eudes, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-20",
+  "file": "08-20",
+  "cls": 3,
+  "la": "S. Bernardi Abbatis et Ecclesiæ Doctoris",
+  "hr": "sv. Bernard iz Clairvauxa, opat, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-21",
+  "file": "08-21",
+  "cls": 3,
+  "la": "S. Joannæ Franciscæ Frémiot de Chantal Viduæ",
+  "hr": "sv. Ivana Franciska Frémiot de Chantal, udovica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-22",
+  "file": "08-22",
+  "cls": 2,
+  "la": "Festum Immaculati Cordis Beatae Mariae Virginis",
+  "hr": "Bezgrešno Srce BDM",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-22",
+  "file": "08-22cc",
+  "cls": 4,
+  "la": "Ss. Timothei, Hippolyti et Symphoriani Martyres",
+  "hr": "sv. Timotej i drugovi, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-23",
+  "file": "08-23",
+  "cls": 3,
+  "la": "S. Philippi Benitii Confessoris",
+  "hr": "sv. Filip Benizi, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-24",
+  "file": "08-24",
+  "cls": 2,
+  "la": "S. Bartholomæi Apostoli",
+  "hr": "sv. Bartol, apostol",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "08-25",
+  "file": "08-25",
+  "cls": 3,
+  "la": "S. Ludovici Regis Franciæ Confessoris",
+  "hr": "sv. Ljudevit IX. Francuski, kralj, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-26",
+  "file": "08-26",
+  "cls": 4,
+  "la": "S. Zephyrini Papæ et Martyris",
+  "hr": "sv. Zefirin, papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-27",
+  "file": "08-27",
+  "cls": 3,
+  "la": "S. Josephi Calasanctii Confessoris",
+  "hr": "sv. Josip Kalasancij, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-28",
+  "file": "08-28",
+  "cls": 3,
+  "la": "S. Augustini Episcopi et Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Augustin Hiponski, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-28",
+  "file": "08-28cc",
+  "cls": 4,
+  "la": "S. Hermetis Martyris",
+  "hr": "sv. Hermes, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-29",
+  "file": "08-29",
+  "cls": 3,
+  "la": "In Decollatione S. Joannis Baptistæ",
+  "hr": "Glavosijek sv. Ivana Krstitelja",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "08-29",
+  "file": "08-29cc",
+  "cls": 4,
+  "la": "S. Sabinæ Martyris",
+  "hr": "sv. Sabina, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-30",
+  "file": "08-30",
+  "cls": 3,
+  "la": "S. Rosæ a Sancta Maria Limange Virginis",
+  "hr": "sv. Ruža Limska, djevica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "08-30",
+  "file": "08-30o",
+  "cls": 4,
+  "la": "Ss. Felicis et Adaucti Martyrum",
+  "hr": "sv. Feliks i sv. Adaukt, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "08-31",
+  "file": "08-31",
+  "cls": 3,
+  "la": "S. Raymundi Nonnati Confessoris",
+  "hr": "sv. Rajmund Nerođeni, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "09-01",
+  "file": "09-01",
+  "cls": 4,
+  "la": "S. Ægidii Abbatis",
+  "hr": "sv. Egidije (Gilles), opat, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "09-01",
+  "file": "09-01cc",
+  "cls": 4,
+  "la": "Ss. Duodecim Fratrum Mártyrum",
+  "hr": "Dvanaestorica svete braće mučenika",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "09-02",
+  "file": "09-02",
+  "cls": 3,
+  "la": "S. Stephani Hungariæ Regis Confessoris",
+  "hr": "sv. Stjepan I. Ugarski, kralj, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "09-03",
+  "file": "09-03",
+  "cls": 3,
+  "la": "S. Pii X Papæ Confessoris",
+  "hr": "sv. Pio X., papa, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "09-05",
+  "file": "09-05",
+  "cls": 3,
+  "la": "S. Laurentii Justiniani Episcopi et Confessoris",
+  "hr": "sv. Lovro Justiniani, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "09-08",
+  "file": "09-08",
+  "cls": 2,
+  "la": "Nativitate Beatae Mariae Virginis",
+  "hr": "Rođenje BDM (Mala Gospa)",
+  "colour": "White",
+  "comm": "low"
+ },
+ {
+  "md": "09-08",
+  "file": "09-08cc",
+  "cls": 4,
+  "la": "S. Hadriani Martyris",
+  "hr": "sv. Hadrijan, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "09-09",
+  "file": "09-09",
+  "cls": 4,
+  "la": "S. Gorgonii Martyris",
+  "hr": "sv. Gorgonije, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "09-10",
+  "file": "09-10",
+  "cls": 3,
+  "la": "S. Nicolai de Tolentino Confessoris",
+  "hr": "sv. Nikola Tolentinski, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "09-11",
+  "file": "09-11",
+  "cls": 4,
+  "la": "Ss. Proti et Hyacinthi Martyrum",
+  "hr": "sv. Proto i sv. Hijacint, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "09-12",
+  "file": "09-12",
+  "cls": 3,
+  "la": "S. Nominis Beatae Mariae Virginis",
+  "hr": "Presveto Ime Marijino",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "09-14",
+  "file": "09-14",
+  "cls": 2,
+  "la": "In Exaltatione Sanctae crucis",
+  "hr": "Uzvišenje sv. Križa",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "09-15",
+  "file": "09-15",
+  "cls": 2,
+  "la": "Septem Dolorum Beatae Mariae Virginis",
+  "hr": "Sedam žalosti BDM",
+  "colour": "White",
+  "comm": "low"
+ },
+ {
+  "md": "09-15",
+  "file": "09-15cc",
+  "cls": 4,
+  "la": "S. Nicomedis Martyris",
+  "hr": "sv. Nikomed, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "09-16",
+  "file": "09-16",
+  "cls": 3,
+  "la": "Ss. Cornelii Papæ et Cypriani Episcopi, Martyrum",
+  "hr": "sv. Kornelije papa, mučenik, sv. Ciprijan, biskup, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "09-16",
+  "file": "09-16cc",
+  "cls": 4,
+  "la": "Ss. Euphemiæ, Luciæ et Geminiani Martyrum",
+  "hr": "sv. Eufemija, djevica, mučenica, sv. Lucija i sv. Geminijan, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "09-17",
+  "file": "09-17",
+  "cls": 4,
+  "la": "Impressionis Stigmatum S. Francisci",
+  "hr": "rane sv. Franje Asiškog, priznavaoca",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "09-18",
+  "file": "09-18",
+  "cls": 3,
+  "la": "S. Josephi de Cupertino Confessoris",
+  "hr": "sv. Josip Kupertinski, priznavalac",
+  "colour": "White",
+  "comm": "low"
+ },
+ {
+  "md": "09-19",
+  "file": "09-19",
+  "cls": 3,
+  "la": "S. Januarii Episcopi et Sociorum Martyrum",
+  "hr": "sv. Januarije, biskup i drugovi, mučenici",
+  "colour": "Red",
+  "comm": "low"
+ },
+ {
+  "md": "09-20",
+  "file": "09-20",
+  "cls": 4,
+  "la": "Ss. Eustachii et Sociorum Martyrum",
+  "hr": "sv. Eustahije i drugovi, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "09-21",
+  "file": "09-21",
+  "cls": 2,
+  "la": "S. Matthæi Apostoli et Evangelistæ",
+  "hr": "sv. Matej, apostol i evanđelist",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "09-23",
+  "file": "09-23",
+  "cls": 3,
+  "la": "S. Lini Papæ et Martyris",
+  "hr": "sv. Lino, papa, mučenik",
+  "colour": "Red",
+  "comm": "low"
+ },
+ {
+  "md": "09-23",
+  "file": "09-23cc",
+  "cls": 4,
+  "la": "S. Theclæ Virginis et Martyris",
+  "hr": "sv. Tekla, djevica, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "09-24",
+  "file": "09-24",
+  "cls": 4,
+  "la": "Beatae Mariae Virginis de Mercede",
+  "hr": "Gospa od Otkupljenja",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "09-26",
+  "file": "09-26",
+  "cls": 4,
+  "la": "Ss. Cypriani et Justinæ Virginis, Martyrum",
+  "hr": "Sv. Ciprijan, biskup i sv. Justina, djevica, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "09-27",
+  "file": "09-27",
+  "cls": 3,
+  "la": "Ss. Cosmæ et Damiani Martyrum",
+  "hr": "sv. Kuzma i sv. Damjan, mučenici",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "09-28",
+  "file": "09-28",
+  "cls": 3,
+  "la": "S. Wenceslai Ducis et Martyris",
+  "hr": "sv. Vjenceslav I. Češki, knez, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "09-29",
+  "file": "09-29",
+  "cls": 1,
+  "la": "In Dedicatione S. Michaëlis Archangelis",
+  "hr": "SV. MIHAEL ARKANĐEO",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "09-30",
+  "file": "09-30",
+  "cls": 3,
+  "la": "S. Hieronymi Presbyteris Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Jeronim Dalmatinac, svećenik, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-01",
+  "file": "10-01",
+  "cls": 4,
+  "la": "S. Remigii Episcopi et Confessoris",
+  "hr": "sv. Remigije, biskup, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "10-02",
+  "file": "10-02",
+  "cls": 3,
+  "la": "Ss. Angelorum Custodum",
+  "hr": "sv. Anđeli Čuvari",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-03",
+  "file": "10-03",
+  "cls": 3,
+  "la": "S. Theresiæ a Jesu Infante Virginis",
+  "hr": "sv. Terezija od Djeteta Isusa (iz Lisieuxa), djevica, naučiteljica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-04",
+  "file": "10-04",
+  "cls": 3,
+  "la": "S. Francisci Confessoris",
+  "hr": "sv. Franjo Asiški, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-05",
+  "file": "10-05",
+  "cls": 4,
+  "la": "Ss. Placidi et Sociorum Martyrum",
+  "hr": "sv. Placid i drugovi, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "10-06",
+  "file": "10-06",
+  "cls": 3,
+  "la": "S. Brunonis Confessoris",
+  "hr": "sv. Bruno, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-07",
+  "file": "10-07",
+  "cls": 2,
+  "la": "Festum Beatae Mariae Virginis a Rosario",
+  "hr": "BDM od Krunice (Ružarija)",
+  "colour": "White",
+  "comm": "low"
+ },
+ {
+  "md": "10-07",
+  "file": "10-07t",
+  "cls": 4,
+  "la": "S. Marci Papæ Confessoris",
+  "hr": "sv. Marko, papa, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "10-08",
+  "file": "10-08",
+  "cls": 3,
+  "la": "S. Birgittæ Viduæ",
+  "hr": "sv. Brigita Švedska, udovica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-08",
+  "file": "10-07cc",
+  "cls": 4,
+  "la": "Ss. Sergii, Bacchi, Marcelli et Apuleji Martyrum",
+  "hr": "sv. Sergije, sv. Bakho, sv. Marcel i sv. Apulej, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "10-09",
+  "file": "10-09",
+  "cls": 3,
+  "la": "S. Joannis Leonardi Confessoris",
+  "hr": "sv. Ivan Leonardi, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-09",
+  "file": "10-09t",
+  "cls": 4,
+  "la": "S. Dionysii Epíscopi, Rustici et Eleutherii Martyrum",
+  "hr": "sv. Dionizije, biskup, sv. Rustik, svećenik i sv. Eleuterije, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "10-10",
+  "file": "10-10",
+  "cls": 3,
+  "la": "S. Francisci Borgiæ Confessoris",
+  "hr": "sv. Franjo Borgia, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-11",
+  "file": "10-11",
+  "cls": 2,
+  "la": "Maternitatis Beatæ Mariæ Virginis",
+  "hr": "Majčinstvo BDM",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-13",
+  "file": "10-13",
+  "cls": 3,
+  "la": "S. Eduardi Regis Confessoris",
+  "hr": "sv. Eduard Engleski, kralj, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-14",
+  "file": "10-14",
+  "cls": 3,
+  "la": "S. Callisti Papæ et Martyris",
+  "hr": "sv. Kalist I., papa, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "10-15",
+  "file": "10-15",
+  "cls": 3,
+  "la": "S. Teresiæ Virginis",
+  "hr": "sv. Terezija Avilska, djevica, naučiteljica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-16",
+  "file": "10-16",
+  "cls": 3,
+  "la": "S. Hedwigis Viduæ",
+  "hr": "sv. Hedviga Šleska (iz Andechsa), udovica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-17",
+  "file": "10-17",
+  "cls": 3,
+  "la": "S. Margaritæ Mariæ Alaquoque Virginis",
+  "hr": "sv. Margareta Marija Alacoque, djevica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-18",
+  "file": "10-18",
+  "cls": 2,
+  "la": "S. Lucæ Evangelistæ",
+  "hr": "sv. Luka, evanđelist",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "10-19",
+  "file": "10-19",
+  "cls": 3,
+  "la": "S. Petri de Alcantara Confessoris",
+  "hr": "sv. Petar iz Alkantare, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-20",
+  "file": "10-20",
+  "cls": 3,
+  "la": "S. Joannis Cantii Confessoris",
+  "hr": "sv. Ivan Kentijski, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-21",
+  "file": "10-21",
+  "cls": 4,
+  "la": "S. Hilarionis Abbatis",
+  "hr": "sv. Hilarion, opat, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "10-21",
+  "file": "10-21cc",
+  "cls": 4,
+  "la": "Ss. Ursulæ et Sociarum Virg. et Mart.",
+  "hr": "sv. Uršula i drugarice, djevice i mučenice",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "10-23",
+  "file": "10-23r",
+  "cls": 3,
+  "la": "S. Antonii Mariæ Claret Episcopi et Confessoris",
+  "hr": "sv. Antun Marija Claret, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-24",
+  "file": "10-24",
+  "cls": 3,
+  "la": "S. Raphaëlis Archangeli",
+  "hr": "sv. Rafael Arkanđeo",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "10-25",
+  "file": "10-25",
+  "cls": 4,
+  "la": "Ss. Chrysanthi et Dariæ Martyrum",
+  "hr": "sv. Krizant i sv. Darija, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "10-26",
+  "file": "10-26",
+  "cls": 4,
+  "la": "S. Evaristi Papæ et Martyris",
+  "hr": "sv. Evarist, papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "10-28",
+  "file": "10-28",
+  "cls": 2,
+  "la": "Ss. Simonis et Judæ Apostolorum",
+  "hr": "sv. Šimun i Juda Tadej, apostoli",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "11-01",
+  "file": "11-01",
+  "cls": 1,
+  "la": "Omnium Sanctorum",
+  "hr": "SVI SVETI",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-02",
+  "file": "11-02",
+  "cls": 1,
+  "la": "Commemoratio Omnium Fidelium Defunctorum",
+  "hr": "SPOMEN SVIH VJERNIH MRTVIH (DUŠNI DAN)",
+  "colour": "Black",
+  "comm": ""
+ },
+ {
+  "md": "11-04",
+  "file": "11-04",
+  "cls": 3,
+  "la": "S. Caroli Episcopi et Confessoris",
+  "hr": "sv. Karlo Boromejski, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-04",
+  "file": "11-04cc",
+  "cls": 4,
+  "la": "Ss. Mart. Vitalis et Agricolæ",
+  "hr": "sv. Vital i sv. Agrikola, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "11-08",
+  "file": "11-08r",
+  "cls": 4,
+  "la": "Ss. Quatuor Coronatorum Martyrum",
+  "hr": "Četvorica svetih proslavljenih mučenika",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "11-09",
+  "file": "11-09",
+  "cls": 2,
+  "la": "In dedicatione Basilicae Ss. Salvatoris",
+  "hr": "Posveta bazilike Presvetog Spasitelja (Lateranske katedralne bazilike)",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-09",
+  "file": "11-09cc",
+  "cls": 4,
+  "la": "S. Theodori Martyris",
+  "hr": "sv. Teodor, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "11-10",
+  "file": "11-10",
+  "cls": 3,
+  "la": "S. Andreæ Avellini Confessoris",
+  "hr": "sv. Andrija Avellino, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-10",
+  "file": "11-10o",
+  "cls": 4,
+  "la": "Ss. Tryphonis, Respicii, et Nymphæ Virg., Martyrum",
+  "hr": "sv. Trifon (Tripun), sv. Respicij i sv. Nimfa, mučenici",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "11-11",
+  "file": "11-11",
+  "cls": 3,
+  "la": "S. Martini Episcopi et Confessoris",
+  "hr": "sv. Martin iz Toursa, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-11",
+  "file": "11-11cc",
+  "cls": 4,
+  "la": "S. Mennæ Martyris",
+  "hr": "sv. Mena, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "11-12",
+  "file": "11-12",
+  "cls": 3,
+  "la": "S. Martini Papæ et Martyris",
+  "hr": "sv. Martin I., papa, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "11-13",
+  "file": "11-13",
+  "cls": 3,
+  "la": "S. Didaci Confessoris",
+  "hr": "sv. Didak (Diego) Alkalski, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-14",
+  "file": "11-14",
+  "cls": 3,
+  "la": "S. Josaphat Episcopi et Martyris",
+  "hr": "sv. Jozafat Kuncevič, biskup, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "11-15",
+  "file": "11-15",
+  "cls": 3,
+  "la": "S. Alberti Magni Episcopi Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Albert Veliki, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-16",
+  "file": "11-16",
+  "cls": 3,
+  "la": "S. Gertrudis Virginis",
+  "hr": "sv. Gertruda Velika, djevica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-17",
+  "file": "11-17",
+  "cls": 3,
+  "la": "S. Gregorii Thaumaturgi Episcopi et Confessoris",
+  "hr": "sv. Grgur Čudotvorac, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-18",
+  "file": "11-18r",
+  "cls": 3,
+  "la": "In Dedicatione Basilicarum Ss. Apostolorum Petri et Pauli",
+  "hr": "Posvete bazilike sv. Petra i bazilike sv. Pavla",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-19",
+  "file": "11-19",
+  "cls": 3,
+  "la": "S. Elisabeth Viduæ",
+  "hr": "sv. Elizabeta Ugarska, udovica",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-19",
+  "file": "11-19o",
+  "cls": 4,
+  "la": "S. Pontiani Papæ et Martyris",
+  "hr": "sv. Poncijan, papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "11-20",
+  "file": "11-20",
+  "cls": 3,
+  "la": "S. Felicis de Valois Confessoris",
+  "hr": "sv. Feliks Valois, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-21",
+  "file": "11-21",
+  "cls": 3,
+  "la": "In Presentatione of Beatae Mariae Virginis",
+  "hr": "Prikazanje BDM u Hramu",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-22",
+  "file": "11-22",
+  "cls": 3,
+  "la": "S. Cæciliæ Virginis et Martyris",
+  "hr": "sv. Cecilija, djevica, mučenica",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "11-23",
+  "file": "11-23",
+  "cls": 3,
+  "la": "S. Clementis Papæ et Martyris",
+  "hr": "sv. Klement I., papa, mučenik",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "11-23",
+  "file": "11-23cc",
+  "cls": 4,
+  "la": "S. Felicitatis Martyris",
+  "hr": "sv. Felicita, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "11-24",
+  "file": "11-24",
+  "cls": 3,
+  "la": "S. Joannis a Cruce Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Ivan od Križa, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-24",
+  "file": "11-24o",
+  "cls": 4,
+  "la": "S. Chrysogoni Martyris",
+  "hr": "sv. Krizogon (Krševan), mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "11-25",
+  "file": "11-25",
+  "cls": 3,
+  "la": "S. Catharinæ Virginis et Martyris",
+  "hr": "sv. Katarina Aleksandrijska, djevica, mučenica",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "11-26",
+  "file": "11-26",
+  "cls": 3,
+  "la": "S. Silvestri Abbatis",
+  "hr": "sv. Silvestar Gozzolini, opat",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "11-26",
+  "file": "11-26t",
+  "cls": 4,
+  "la": "S. Petri Alexandrini Martyris",
+  "hr": "Petar Aleksandrijski, biskup, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "11-29",
+  "file": "11-29r",
+  "cls": 4,
+  "la": "S. Saturnini Martyris",
+  "hr": "sv. Saturnin, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "11-30",
+  "file": "11-30",
+  "cls": 2,
+  "la": "S. Andreæ Apostoli",
+  "hr": "sv. Andrija, apostol",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "12-02",
+  "file": "12-02",
+  "cls": 3,
+  "la": "S. Bibianæ Virginis et Martyris",
+  "hr": "sv. Bibijana, djevica, mučenica",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "12-03",
+  "file": "12-03",
+  "cls": 3,
+  "la": "S. Francisci Xaverii Confessoris",
+  "hr": "sv. Franjo Ksaverski, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "12-04",
+  "file": "12-04",
+  "cls": 3,
+  "la": "S. Petri Chrysologi Episcopi Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Petar Krizolog, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "12-04",
+  "file": "12-04o",
+  "cls": 4,
+  "la": "S. Barbaræ Virginis et Martyris",
+  "hr": "sv. Barbara, djevica, mučenica",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "12-05",
+  "file": "12-05",
+  "cls": 4,
+  "la": "S. Sabbæ Abbatis",
+  "hr": "sv. Saba, opat, priznavalac",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "12-06",
+  "file": "12-06",
+  "cls": 3,
+  "la": "S. Nicolai Episcopi et Confessoris",
+  "hr": "sv. Nikola iz Mire, biskup, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "12-07",
+  "file": "12-07",
+  "cls": 3,
+  "la": "S. Ambrosii Episcopi Confessoris et Ecclesiæ Doctoris",
+  "hr": "sv. Ambrozije, biskup, priznavalac, naučitelj",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "12-08",
+  "file": "12-08",
+  "cls": 1,
+  "la": "Immaculata Conceptione Beatae Mariae Virginis",
+  "hr": "BEZGREŠNO ZAČEĆE BDM",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "12-10",
+  "file": "12-10o",
+  "cls": 4,
+  "la": "S. Melchiadis Papæ et Martyris",
+  "hr": "sv. Melkijad, papa, mučenik",
+  "colour": "",
+  "comm": "low"
+ },
+ {
+  "md": "12-11",
+  "file": "12-11",
+  "cls": 3,
+  "la": "S. Damasi Papæ et Confessoris",
+  "hr": "sv. Damaz I., papa, priznavalac",
+  "colour": "White",
+  "comm": ""
+ },
+ {
+  "md": "12-13",
+  "file": "12-13r",
+  "cls": 3,
+  "la": "S. Luciæ Virginis et Martyris",
+  "hr": "sv. Lucija, djevica, mučenica",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "12-16",
+  "file": "12-16",
+  "cls": 3,
+  "la": "S. Eusebii Episcopi et Martyris",
+  "hr": "sv. Euzebije iz Vercellija, biskup, mučenik",
+  "colour": "Red",
+  "comm": "low"
+ },
+ {
+  "md": "12-21",
+  "file": "12-21",
+  "cls": 2,
+  "la": "S. Thomæ Apostoli",
+  "hr": "sv. Toma, apostol",
+  "colour": "Red",
+  "comm": ""
+ },
+ {
+  "md": "12-24",
+  "file": "12-24",
+  "cls": 1,
+  "la": "Vigilia Nativitatis Domini",
+  "hr": "BADNJAK (BDIJENJE UOČI DANA ROĐENJA GOSPODINA NAŠEGA ISUSA KRISTA)",
+  "colour": "Violet",
+  "comm": ""
+ }
+]

@@ -1,0 +1,174 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-04-16",
+ "n": 0,
+ "heading": "NEDJELJA, 16.IV.2017.",
+ "title": "Uskrs (nedjelja uskrsnuća Gospodina našega Isusa Krista)",
+ "rank": "Blagdan I. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 138, 18 et 5-6, Ps 138, 1-2\n(Ps 138, 18 et 5-6) Resurréxi, et adhuc tecum sum, <i>allelúia</i>:\nposuísti super me manum tuam, <i>allelúia</i>:\nmirábilis facta est sciéntia tua, <i>allelúia</i>, <i>allelúia</i>.\n(Ps 138, 1-2) Dómine, probásti me, et cognovísti me: tu cognovísti sessiónem meam, et resurrectiónem meam.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 138, 18 et 5-6) Resurréxi, et adhuc tecum sum, <i>allelúia</i>:\nposuísti super me manum tuam, <i>allelúia</i>:\nmirábilis facta est sciéntia tua, <i>allelúia</i>, <i>allelúia</i>.",
+     "hr": "Ps 138, 18 i 5-6, Ps 138, 1-2\n(Ps 138, 18 et 5-6) Uskrsnuh i stalno sam s tobom, <i>aleluja</i>.\nStavio si na me svoju ruku, <i>aleluja</i>.\nDivno se pokazala tvoja mudrost, <i>aleluja</i>, <i>aleluja</i>.\n(Ps 138, 1-2) Gospodine, ti si me kušao i spoznao, tebi je poznat moj počinak i moje uskrsnuće.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 138, 18 et 5-6) Uskrsnuh i stalno sam s tobom, <i>aleluja</i>.\nStavio si na me svoju ruku, <i>aleluja</i>.\nDivno se pokazala tvoja mudrost, <i>aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui hodiérna die per Unigénitum tuum, aeternitátis nobis áditum devícta morte reserásti: vota nostra, quae praeveniéndo aspíras, étiam adiuvándo proséquere.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože koji si na današnji dan po svojemu Jedinorođencu pobijedio smrt i ponovo nam otvorio vrata vječnosti, prati svojom pomoću želje koje nam prethodno nadahnjuješ.\n<i>Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "I Cor 5, 7-8\nLéctio Epístolae beáti Pauli Apóstoli ad Corínthios. Fratres: Expurgáte vetus ferméntum, ut sitis nova conspérsio, sicut estis ázymi. Etenim Pascha nostrum immolátus est Christus. Itaque epulémur: non in ferménto véteri, neque in ferménto malítiae, et nequítiae: sed in ázymis sinceritátis, et veritátis.",
+     "hr": "1 Kor 5, 7-8\nČitanje Poslanice bl. Pavla apostola Korinćanima. Braćo: Očistite stari kvasac da, kad ste već beskvasni, postanete novo tijesto, jer je žrtvovan Krist, naše vazmeno janje. Zato svetkujmo blagdan, ali ne sa starim kvascem, s kvascem zlobe i grijeha, nego s beskvasnim kruhom iskrenosti i istine."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 117, 24 et 1\nHaec dies, quam fecit Dóminus: exsultémus et laetémur in ea. Confitémini Dómino, quóniam bonus: quóniam in saéculum misericórdia eius.",
+     "hr": "Ps 117, 24 et 1\nOvo je dan što ga učini Gospodin! Kličimo i radujmo se danas! – Hvalite Gospodina, jer je dobar, jer je dovijeka njegovo milosrđe."
+    },
+    {
+     "la": "I Cor 5, 7\n<i>Allelúia</i>, <i>allelúia</i>.\nPascha nostrum immolátus est Christus.",
+     "hr": "1 Kor 5, 7\n<i>Aleluja</i>, <i>aleluja</i>.\nŽrtvovan je Krist naše vazmeno janje."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Sequéntia",
+   "hr": "Posljednica",
+   "rows": [
+    {
+     "la": "Víctimae pascháli laudes ímmolent Christiáni.<i>\n</i>\nAgnus redémit oves: Christus ínnocens Patri reconciliávit peccatóres.<i>\n</i>\nMors et vita duéllo conflixére mirándo: dux vitae mórtuus, regnat vivus.<i>\n</i>\nDic nobis, María, quid vidísti in via?<i>\n</i>\nSepúlcrum Christi vivéntis: et glóriam vidi resurgéntis.<i>\n</i>\nAngélicos testes, sudárium et vestes.<i>\n</i>\nSurréxit Christus spes mea: praecédet vos in Galilaéam.<i>\n</i>\nScimus Christum surrexísse a mórtuis vere: tu nobis, victor Rex, miserére.<i>\n</i>\n<i>amen</i>, <i>allelúia</i>.",
+     "hr": "Svetoj Žrtvi uskrsnici dajte slavu krštenici!<i>\n</i>\nJanje ovce oslobodi Krist nas grješne preporodi.<i>\n</i>\nSa životom smrt se sasta i čudesna borba nasta: Vođa živih pade tada i živ živcat opet vlada.<i>\n</i>\nMarijo, o reci što je? Što ti oko vidjelo je?<i>\n</i>\nGrob ja vidjeh Krista Boga, svijetlu slavu uskrsloga.<i>\n</i>\nAnđele i platno bijelo u kom bješe sveto tijelo.<i>\n</i>\nUfanje mi uskrslo je Krist, moj Gospod i sve moje! Pred vama će tamo gdje je cvjetna strana Galileje.<i>\n</i>\nZnamo da si doistine uskrsnuo Božji Sine! Pobjedniče, Kralju divan, budi nama milostivan!<i>\n</i>\n<i>amen</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mc 16, 1-7\nSequéntia sancti Evangélii secúndum Marcum. In illo témpore: María Magdaléne, et María Iacóbi, et Salóme emérunt arómata, ut veniéntes úngerent Iesum. Et valde mane una sabbatórum, véniunt ad monuméntum, orto iam sole. Et dicébant ad ínvicem: Quis revólvet nobis lápidem ab óstio monuménti ? Et respiciéntes vidérunt revolútum lápidem. Erat quippe magnus valde. Et introëúntes in monuméntum vidérunt iúvenem sedéntem in dextris, coopértum stola cándida, et obstupuérunt. Qui dicit illis: Nolíte expavéscere: Iesum quaéritis Nazarénum, crucifíxum: surréxit, non est hic, ecce locus ubi posuérunt eum. Sed ite, dícite discípulis eius, et Petro, quia praecédit vos in Galilaéam: ibi eum vidébitis, sicut dixit vobis.",
+     "hr": "Mk 16, 1-7\nSlijedi sveto Evanđelje po Marku. U ono vrijeme: Marija Magdalena i Marija Jakovljeva majka i Saloma kupe pomasti i pođu da pomažu Isusa. I prvoga dana po suboti, vrlo rano, kad je sunce izlazilo, dođu na grob. Među sobom su govorile: Tko će nam odvaliti kamen s ulaza groba? – Pogledaju i vide da je već odvaljen kamen koji je bio vrlo velik. Uđu u grob, opaze mladića obučena u bijelu haljinu gdje sjedi s desne strane i uplaše se. On im reče: Nemojte se bojati! Vi tražite Isusa Nazarećanina raspetoga. Uskrsnuo je! Nema ga ovdje. Evo mjesta gdje je bio položen. Nego idite, recite njegovim učenicima, posebno Petru, da odlazi pred vama u Galileju. Ondje ćete ga vidjeti, kako vam je rekao."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "id": "tableCredo",
+   "hidden": true,
+   "la": "Credo (Symbolum Niceno-Constantinopolitanum)",
+   "hr": "Vjerovanje (nicejsko-carigradsko)",
+   "rows": [
+    {
+     "la": "Credo in unum Deum. Patrem omnipoténtem, factórem caeli et terrae, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saécula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de caelis. (Hic genuflecitur) Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in caelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostolicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam ventúri saéculi. Amen.",
+     "hr": "Vjerujem u jednoga Boga, Oca svemogućega, stvoritelja neba i zemlje, svega vidljivoga i nevidljivoga.I u jednoga Gospodina Isusa Krista, jedinorođenoga Sina Božjega. Rođenog od Oca prije svih vjekova. Boga od Boga, svjetlo od svjetla, pravoga Boga od pravoga Boga. Rođena, ne stvorena, istobitna s Ocem, po kome je sve stvoreno. Koji je radi nas ljudi i radi našega spasenja sišao s nebesa. (ovdje se poklekne) I utjelovio se po Duhu Svetom od Marije Djevice: i postao čovjekom. Raspet također za nas: pod Poncijem Pilatom mučen i pokopan. I uskrsnuo treći dan, po Svetom Pismu. I uzašao na nebo: sjedi s desne Ocu. I opet će doći u slavi suditi žive i mrtve, i njegovu kraljevstvu neće biti kraja. I u Duha Svetoga, Gospodina i životvorca; koji izlazi od Oca i Sina. Koji se s Ocem i Sinom skupa časti i zajedno slavi; koji je govorio po prorocima. I u jednu svetu katoličku i apostolsku Crkvu. Ispovijedam jedno krštenje za oproštenje grijeha. I iščekujem uskrsnuće mrtvih. I život budućega vijeka. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 75, 9-10\nTerra trémuit, et quiévit, dum resúrgeret in iudício Deus, <i>allelúia</i>.",
+     "hr": "Ps 75, 9-10\nZemlja se potrese i smiri kad ustade Bog da sudi, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Súscipe, quaésumus Dómine, preces pópuli tui cum oblatiónibus hostiárum: ut paschálibus initiáta mystériis, ad aeternitátis nobis medélam, te operánte, profíciant.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Sa žrtvenim prinosima primi, molimo, Gospodine, i molitve svoga puka, da posvećene uskrsnim otajstvima, po tvojem djelovanju budu nama na pomoć za vječnost.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio paschális",
+   "hr": "Predslovlje uskrsno",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre: Te quidem, Dómine, omni témpore, sed <i>in hac potíssimum die</i> gloriósius praedicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno da tebe, Gospodine, u svako doba, a osobito <i>danas</i> svečanije slavimo, kad je Krist žrtvovan, naše vazmeno Janje. On je naime pravo janje koje oduze grijehe svijeta. Svojom smrću on je uništio našu smrt i svojim uskrsnućem obnovio naš život. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Ps 109, 3\nPascha nostrum immolátus est Christus, <i>allelúia</i>:\nítaque epulémur in ázymis sinceritátis et veritátis, <i>allelúia</i>, <i>allelúia</i>, <i>allelúia</i>.",
+     "hr": "Ps 109, 3\nŽrtvovan je Krist, naše vazmeno janje, <i>aleluja</i>.\nZato svetkujmo blagdan s beskvasnim kruhom iskrenosti i istine, <i>aleluja</i>, <i>aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nSpíritum nobis, Dómine, tuae caritátis infúnde: ut, quos sacraméntis paschálibus satiásti, tua fácias pietáte concórdes.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte eiúsdem Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nUlij nam, Gospodine, Duha ljubavi svoje i složi svojom blagošću one koje si nasitio uskrsnim tajnama.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu istog Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

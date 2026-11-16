@@ -1,0 +1,146 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-05-13",
+ "n": 0,
+ "heading": "SUBOTA, 13.V.2017.",
+ "title": "sv. Robert Bellarmino, biskup, priznavalac, naučitelj",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Eccli 15, 5, Ps 91, 2\n(Eccli 15, 5) In médio Ecclésiae apéruit os eius: et implévit eum Dóminus spíritu sapiéntiae et Intelléctus: stolam glóriae índuit eum. <i>Allelúia</i>, <i>allelúia</i>.\n(Ps. 91, 2) Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Eccli 15, 5) In médio Ecclésiae apéruit os eius: et implévit eum Dóminus spíritu sapiéntiae et Intelléctus: stolam glóriae índuit eum. <i>Allelúia</i>, <i>allelúia</i>.",
+     "hr": "Sir 15, 5, Ps 91, 2\n(Sir 15, 5) Usred Crkve otvorio je Gospodin usta njegova i napunio ga duhom mudrosti i razuma, ogrnuo ga odjećom slave. <i>Aleluja</i>, <i>aleluja</i>.\n(Ps. 91, 2) Dobro je slaviti Gospodina i pjevati imenu tvojem, Višnji!\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Sir 15, 5) Usred Crkve otvorio je Gospodin usta njegova i napunio ga duhom mudrosti i razuma, ogrnuo ga odjećom slave. <i>Aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui ad errórum insídias repelléndas et Apostólicae Sedis iura propugnánda beátum Robértum, Pontíficem tuum atque Doctórem, mira eruditióne et virtúte decorásti: eius méritis et intercessióne concéde; ut nos in veritátis amóre crescámus et errántium corda ad Ecclésiae tuae rédeant unitátem.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si blaženoga Roberta biskupa svoga i naučitelja ukrasio divnom učenošću i krepošću da suzbija zasjede zabluda i brani prava Apostolske Stolice, daj da po njegovim zaslugama i zagovoru rastemo u ljubavi prema istini a srcu zalutalih da se vrate k jedinstvu tvoje Crkve.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Sap 7, 7-14\nLéctio libri Sapiéntiae. Optávi, et datus est mihi sensus: et invocávi, et venit in me spíritus sapiéntiae: et praepósui illam regnis et sédibus, et divítias nihil esse duxi in comparatióne illíus: nec comparávi illi lápidem pretiósum: quóniam omne aurum, in comparatióne illíus, aréna est exígua, et tamquam lutum aestimábitur argéntum in conspéctu illíus. Super salútem et spéciem diléxi illam, et propósui pro luce habére illam: quóniam inexstinguíbile est lumen illíus. Venérunt autem mihi ómnia bona páriter cum illa, et innumerábilis honéstas per manus illíus, et laetátus sum in ómnibus: quóniam antecedébat me ista sapiéntia, et ignorábam quóniam horum ómnium mater est. Quam sine fictióne dídici, et sine invídia commúnico, et honestátem illíus non abscóndo. Infinítus enim thesáurus est homínibus: quo qui usi sunt, partícipes facti sunt amicítiae Dei, propter disciplínae dona commendáti.",
+     "hr": "Mudr 7, 7-14\nČitanje knjige Mudrosti. Zaželio sam i dano mi je shvaćanje, molio sam i došao je u mene duh mudrosti koja mi je draža nego kraljevstva i prijestolja, a bogatstvo prema njoj nije ništa. Ne uspoređujem s njom dragi kamen, jer sve zlato prema njoj je kao sitan pijesak, a srebro je pored nje kao blato. Volim je više nego li zdravlje i ljepotu. Uzeo sam je kao svoje svjetlo što se ne može ugasiti. Zajedno s njom imam sva druga dobra, iz njezinih ruku. primam neizmjerno bogatstvo. Radujem se tome svemu, jer ova mudrost je moj vođa, a nisam znao, da je ona izvor sviju dobara. Naučio sam je bez himbe, i predajem je bez zavisti i ne sakrivam njezina blaga. Ona je neiscrpivo blago za sve ljude. Oni koji se njome služe postaju Božji prijatelji, preporučeni darovima nauke."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Allelúia",
+   "hr": "Aleluja",
+   "rows": [
+    {
+     "la": "Dan 12, 3\n<i>Allelúia</i>, <i>allelúia</i>.\nQui docti fúerint, fulgébunt quasi splendor firmaménti. <i>Allelúia</i>.\nQui ad iustítiam erúdiunt multos, quasi stellae in perpétuas aeternitátes. <i>Allelúia</i>.",
+     "hr": "Dn 12, 3\n<i>Aleluja</i>, <i>aleluja</i>.\nUčeni ljudi će blistati kao sjaj nebeskog svoda. <i>Aleluja</i>.\nA oni koji mnoge poučavaju u pravednosti kao zvijezde kroz svu vječnost. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 5, 13-19\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Dixit Iesus discípulis suis: Vos estis sal terrae. Quod si sal evanúerit, in quo saliétur? Ad níhilum valet ultra, nisi ut mittátur foras, et conculcétur ab homínibus. Vos estis lux mundi. Non potest cívitas abscóndi supra montem pósita. Neque accéndunt lucérnam, et ponunt eam sub módio, sed super candelábrum, ut lúceat ómnibus qui in domo sunt. Sic lúceat lux vestra coram homínibus,ut vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in caelis est. Nolíte putáre, quóniam veni sólvere legem aut prophétas: non veni sólvere, sed adimplére. Amen quippe dico vobis, donec tránseat caelum et terra, iota unum aut unus apex non praeteríbit a lege, donec ómnia fiant. Qui ergo sólverit unum de mandátis istis mínimis, et docúerit sic hómines, mínimus vocábitur in regno caelórum: qui autem fécerit et docúerit, hic magnus vocábitur in regno caelórum.",
+     "hr": "Mt 5, 13-19\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme reče Isus svojim učenicima: Vi ste sol zemlje. Ako sol izvjetri, čim će se soliti? Za ništa više ne vrijedi, nego da se izbaci i da je ljudi pogaze. Vi ste svjetlo svijeta. Ne može se sakriti grad sazidan na gori. Niti se upaljuje svijeća i postavlja pod varićak, nego na svijećnjak da svijetli svima koji su u kući. Tako neka svijetli vaše svjetlo pred ljudima da vide vaša dobra djela i slave vašega nebeskog Oca. Nemojte misliti da sam došao ukinuti zakon ili proroke! Nisam došao ukinuti nego dopuniti. Zaista vam kažem, dok stoji nebo i zemlja, neće od zakona nestati ni jednog slova, niti jednog znaka, dok se sve ne ispuni. Tko, dakle, dokine jednu od ovih najmanjih zapovijedi i tako nauči ljude, bit će najmanji u kraljevstvu nebeskom. A tko bude vršio i naučavao, taj će biti velik u kraljevstvu nebeskom."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 72, 28\nMihi autem adhaerére Deo bonum est, pónere in Dómino Deo spem meam: ut annúntiem omnes praedicatiónes tuas in portis fíliae Sion. <i>Allelúia</i>.",
+     "hr": "Ps 72, 28\nDobro mi je da sam uz Boga, da postavim u Gospodina Boga nađu svoju. Tako ću naviještati tvoja divna djela na vratima kćeri sionske. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Hóstias tibi, Dómine, in odórem suavitátis offérimus: et praesta; ut, beáti Robérti mónitis et exémplis edócti, per sémitam mandatórum tuórum dilatáto corde currámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Prikazujemo ti, Gospodine, darove na ugodan miris, a ti nam daj da poučeni opomenama i primjerima blaženog Roberta veselo hitimo po stazi tvojih zapovijedi.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio paschális",
+   "hr": "Predslovlje uskrsno",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre: Te quidem, Dómine, omni témpore, sed <i>in hoc potíssimum</i> gloriósius praedicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno da tebe, Gospodine, u svako doba, a osobito <i>u ovo</i> svečanije slavimo, kad je Krist žrtvovan, naše vazmeno Janje. On je naime pravo janje koje oduze grijehe svijeta. Svojom smrću on je uništio našu smrt i svojim uskrsnućem obnovio naš život. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 5, 14 et 16\nVos estis lux mundi: sic lúceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in caelis est. <i>Allelúia</i>.",
+     "hr": "Mt 5, 14 i 16\nVi ste svjetlo svijeta. Neka tako svijetli vaše svjetlo pred ljudima da vide vaša dobra tijela i slave vašega nebeskog Oca. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nSacraménta, quae súmpsimus, Dómine Deus noster, in nobis fóveant caritátis ardórem: quo beátus Robértus veheménter accénsus, pro Ecclésia tua se iúgiter impendébat.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nOtajstva koja smo primili, Gospodine Bože naš, neka u nama podržavaju žar ljubavi kao što se, njime snažno raspaljen, blaženi Robert neprestano žrtvovao za tvoju Crkvu.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-01-25",
+ "n": 0,
+ "heading": "SRIJEDA, 25.I.2017.",
+ "title": "Obraćenje sv. Pavla",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen pod istim završetkom na svim misama: sv. Petar, apostol"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "II Tim 1, 12, Ps 138, 1-2\n(II Tim 1, 12) Scio cui crédidi, et certus sum quia potens est depósitum meum serváre in illum diem, iustus iudex. (Ps 138, 1-2) Dómine, probásti me, et cognovísti me: tu cognovísti sessiónem meam et resurrectiónem meam.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(II Tim 1, 12) Scio cui crédidi, et certus sum quia potens est depósitum meum serváre in illum diem, iustus iudex.",
+     "hr": "2 Tim 1, 12, Ps 138, 1-2\n(2 Tim 1, 12) Znam komu sam vjerovao i uvjeren sam da on može sačuvati zaklad moj za onaj dan. (Ps 138, 1-2) Gospodine, ti si me kušao i spoznao, tebi je poznat moj počinak i moje uskrsnuće.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(2 Tim 1, 12) Znam komu sam vjerovao i uvjeren sam da on može sačuvati zaklad moj za onaj dan."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui univérsum mundum beáti Pauli Apóstoli praedicatióne docuísti: da nobis, quaésumus; ut, qui eius hódie Conversiónem cólimus, eius ad te exémpla gradiámur.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si čitavi svijet poučio propovijedanjem blaženoga Pavla apostola, daj nam, molimo, da mi koji danas slavimo njegovo obraćenje idemo k tebi po njegovu primjeru."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: sv. Petar, apostol</i></b>\nDeus, qui beáto Petro Apóstolo tuo, collátis clávibus regni caeléstis, ligándi atque solvéndi pontifícium tradidísti: concéde; ut, intercessiónis eius auxílio, a peccatórum nostrórum néxibus liberémur.\n<i>Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: sv. Petar, apostol</i></b>\nBože, koji si blaženom Petru apostolu predao ključeve kraljevstva nebeskoga i time velikosvećeničku vlast vezanja i odrješivanja, daj da se po njegovu zagovoru izbavimo od veza naših grijeha.\n<i>Koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Act 9, 1-22\nLéctio Actuum Apostólorum. In diébus illis: Saulus, adhuc spirans minárum et caedis in discípulos Dómini, accéssit ad príncipem sacerdótum, et pétiit ab eo epístolas in Damáscum ad synagógas: ut si quos invenísset huius viae viros ac mulíeres, vinctos perdúceret in Ierúsalem. Et cum iter fáceret, cóntigit ut appropinquáret Damásco: et súbito circumfúlsit eum lux de caelo. Et cadens in terram, audívit vocem dicéntem sibi: Saule, Saule, quid me perséqueris? Qui dixit: Quis es, Dómine? Et ille: Ego sum Iesus, quem tu perséqueris: durum est tibi contra stímulum calcitráre. Et tremens ac stupens, dixit: Dómine, quid me vis fácere? Et Dóminus ad eum: Surge, et ingrédere civitátem, et ibi dicétur tibi quid te opórteat fácere. Viri autem illi, qui comitabántur cum eo, stabant stupefácti, audiéntes quidem vocem, néminem autem vidéntes. Surréxit autem Saulus de terra, apertísque óculis nihil vidébat. Ad manus autem illum trahéntes, introduxérunt Damáscum. Et erat ibi tribus diébus non videns, et non manducávit neque bibit. Erat autem quidam discípulus Damásci, nomine Ananías: et dixit ad illum in visu Dóminus: Ananía. At ille ait: Ecce ego, Dómine. Et Dóminus ad eum: Surge, et vade in vicum, qui vocátur Rectus: et quaere in domo Iudae Saulum nómine Tarsénsem: ecce enim orat. (Et vidit virum, Ananíam nómine, introeúntem, et imponéntem sibi manus, ut visum recípiat). Respóndit autem Ananías: Dómine, audívi a multis de viro hoc, quanta mala fécerit sanctis tuis in Ierúsalem: et hic habet potestátem a princípibus sacerdótum alligándi omnes, qui invócant nomen tuum. Dixit autem ad eum Dóminus: Vade, quóniam vas electiónis est mihi iste, ut portet nomen meum coram géntibus, et régibus, et fíliis Israel. Ego enim osténdam illi, quanta opórteat eum pro nómine meo pati. Et ábiit Ananías, et introívit in domum: et impónens ei manus, dixit: Saule frater, Dóminus misit me Iesus, qui appáruit tibi in via qua veniébas, ut vídeas, et impleáris Spíritu Sancto. Et conféstim cecidérunt ab óculis eius tamquam squamae, et visum recépit: et surgens baptizátus est. Et cum accepísset cibum, confortátus est. Fuit autem cum discípulis, qui erant Damásci, per dies áliquot. Et continuo in synagógis praedicábat Iesum, quóniam hic est Fílius Dei. Stupébant autem omnes, qui audiébant, et dicébant: Nonne hic est, qui expugnábat in Ierúsalem eos, qui invocábant nomen istud: et huc ad hoc venit, ut vinctos illos dúceret ad príncipes sacerdótum? Saulus autem multo magis convalescébat, et confundébat Iudaéos, qui habitábant Damásci, affírmans quóniam hic est Christus.",
+     "hr": "Dj 9, 1-22\nČitanje Djela apostolskih. U one dane dok je Savao još uvijek bjesnio prijetnjama da će poklati Kristove učenike, pristupi velikom svećeniku i od njega zatraži pisma za zbornice u Damasku, da može dovesti svezane u Jeruzalem muževe i žene, koje nađe da pristaju uz ovu nauku. I na putu blizu Damaska najednom ga obasja svjetlost s neba, pade na zemlju i ču glas koji ga upita: Savle, Savle, zašto me progoniš? On odvrati: Tko si ti, Gospodine? A on će mu: Ja sam Isus kojega ti progoniš. Teško ti je ritati se protiv ostana. Tad dršćući i zapanjen upita: Gospodine, što hoćeš da činim? Gospodin mu odgovori: Ustani, pođi u grad i ondje će ti se kazati što trebaš činiti. A ljudi koji su s njim putovali začudili su se, jer su čuli glas, a nisu vidjeli nikoga. Savao ustane sa zemlje i otvorenih očiju nije vidio ništa. Zato su ga vodili za ruke i uveli u Damask. Ondje je bio tri dana slijep, nije jeo. ni pio. A u Damasku je bio učenik Ananija. Gospodin mu se ukaže i pozove ga: Ananija! A on odvrati: Evo me, Gospodine! A Gospodin njemu: Ustani i pođi u Ravnu ulicu i u kući Jude potraži Savla iz Tarza, jer on moli. (I Savao u viđenju vidje kako Ananija ulazi i polaže na njega ruke da progleda). Ananija odgovori: Gospodine, od mnogih sam čuo o tom čovjeku koliko je zla učinio tvojim svetima u Jeruzalemu. I od svećeničkih poglavara ima vlast da veže ovdje sve koji prizivaju tvoje ime. A Gospodin mu reče: Pođi, jer sam ga ja izabrao da moje ime ponese pred nevjernike, kraljeve i sinove Izraelove. Ja ću mu pokazati, koliko treba trpjeti za moje ime. Ananija pođe i uđe u kuću. I kada je položio na njega ruke Ananija reče: Brate Savle, Gospodin Isus, koji ti se ukazao na putu kojim si išao poslao me da progledaš i napuniš se Duha Svetoga. I spadnu kao ljuske s njegovih očiju i progleda. Ustane i krsti se. A kada je založio, okrijepi se. Ostane nekoliko dana s učenicima koji su bili u Damasku. I odmah je propovijedao u zbornicama da je Isus Božji Sin. Svi koji su ga čuli snebivali su se i pitali: Nije li ovaj u Jeruzalemu progonio sve koji su prizivali Isusa? I ovamo je došao da ih svezane vodi k svećeničkim poglavarima. A Savao je bio sve snažniji i zbunjivao Židove nastanjene u Damasku dokazujući da je Isus Božji Pomazanik. [napomena M.B.: u Radićevom prijevodu umjesto pojma \"ostan\", koji je preuzet od Šarića (1942.) koristi se \"žalac\". Ostan je dugačak štap s metalnim šiljkom koji služi tjeranju životinja. Umjesto glagola \"praćkati\" u oba prijevoda stavio sam \"ritati\". Značenje je identično i opisuje ponašanje domaće životinje.]"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Gal 2, 8 et 9, I Cor 15, 10\n(Gal 2, 8 et 9) Qui operátus est Petro in apostolátum, operátus est et mihi inter gentes: et cognovérunt grátiam Dei, quae data est mihi. (I Cor 15, 10) Grátia Dei in me vácua non fuit: sed grátia eius semper in me manet.",
+     "hr": "Gal 2, 8 i 9, 1 Kor 15, 10\n(Gal 2, 8 i 9) Onaj koji je pomagao Petru u apostolatu pomagao je i meni među narodima, tako da su upoznali milost Božju koja mi je dana. (1 Kor 15, 10) Milost Božja nije u meni bila neplodna, nego njegova milost trajno prebiva u meni."
+    },
+    {
+     "la": "<i>Allelúia</i>, <i>allelúia</i>.\nMagnus sanctus Paulus, vas electiónis, vere digne est glorificándus, qui et méruit thronum duodécimum possidére. <i>Allelúia</i>.",
+     "hr": "<i>Aleluja</i>, <i>aleluja</i>.\nUistinu je dostojno da slavimo velikoga svetog Pavla, izabranu posudu, koji je zavrijedio da sjedne na dvanaesto prijestolje. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 19, 27-29\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Dixit Petrus ad Iesum: Ecce nos relíquimus ómnia, et secúti sumus te:quid ergo erit nobis? Iesus autem dixit illis: Amen dico vobis, quod vos, qui secúti estis me, in regeneratióne, cum séderit Fílius hóminis in sede maiestátis suae, sedébitis et vos super sedes duódecim, iudicántes duódecim tribus Israel. Et omnis, qui relíquerit domum, vel fratres, aut soróres, aut patrem, aut matrem, aut uxórem, aut fílios, aut agros propter nomen meum, céntuplum accípiet, et vitam aetérnam possidébit.",
+     "hr": "Mt 19, 27-29\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme reče Petar Isusu: Evo, mi smo ostavili sve i pošli za tobom. Što će, dakle, biti s nama? Isus im odgovori: Zaista vam kažem kad u vrijeme preporoda bude Sin čovječji sjedio na prijestolju svoga veličanstva, i vi koji ste pošli za mnom sjedit ćete na dvanaest prijestolja i suditi dvanaest Izraelskih plemena. A svaki koji radi mene ostavi kuću, ili braću, ili sestre, ili oca, ili majku, ili ženu, ili djecu ili polja, primit će stoput više i imat će vječni život."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 138, 17\nMihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.",
+     "hr": "Ps 138, 17\nNada sve častim tvoje prijatelje, Bože, jer je velika uloga vlasti njihove."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Apóstoli tui Pauli précibus, Dómine, plebis tuae dona sanctífica: ut, quae tibi tuo grata sunt institúto, gratióra fiant patrocínio supplicántis.",
+     "hr": "Posveti, Gospodine, po molitvama svoga apostola Pavla darove svoga naroda, koji su ti mili jer si ih ustanovio, pa neka ti budu miliji po zagovoru našega zaštitnika."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: sv. Petar, apostol</i></b>\nEcclésiae tuae, quaésumus, Dómine, preces et hóstias beáti Petri Apóstoli comméndet orátio: ut, quod pro illíus glória celebrámus, nobis prosit ad véniam.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: sv. Petar, apostol</i></b>\nMolitva blaženoga Petra apostola neka preporuči, molimo, Gospodine, molitve i darove tvoje Crkve, da nama koristi za oproštenje što njemu na čast svetkujemo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de Apóstolis",
+   "hr": "Predslovlje apostola",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre. Te, Dómine, supplíciter exoráre, ut gregem tuum, Pastor aetérne, non déseras: sed per beátos Apóstolos tuos contínua protection custódias: Ut iísdem rectóribus gubernétur, quos óperis tui vicários eídem contulísti praeésse pastóres. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno, i pravedno, pravo i spasonosno tebe, Gospodine, vječni Pastiru, smjerno moliti da stado svoje ne ostaviš, nego da ga po svojim blaženim apostolima neprestano štitiš i čuvaš, da njime ravnaju isti poglavari, koje si mu postavio na čelo kao pastire i namjesnike svoga djela. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 19, 28 et 29\nAmen dico vobis: quod vos, qui reliquístis ómnia, et secúti estis me, céntuplum accipiétis, et vitam aetérnam possidébitis.",
+     "hr": "Mt 19, 28 i 29\nZaista vam kažem da ćete vi koji ste ostavili sve i pošli za mnom primiti stostruko i baštiniti život vječni."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "Sanctificáti, Dómine, salutári mystério: quaésumus; ut nobis eius non desit orátio, cuius nos donásti patrocínio gubernári.",
+     "hr": "Posvećeni, Gospodine, spasonosnom tajnom molimo, da nam ne bude uskraćena molitva onoga kojega si nam darovao kao zaštitnika i upravitelja."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: sv. Petar, apostol</i></b>\nLaetíficet nos, Dómine, munus oblátum: ut, sicut in Apóstolo tuo Petro te mirábilem praedicámus; sic per illum tuae sumámus indulgéntiae largitátem.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: sv. Petar, apostol</i></b>\nNeka nas, Gospodine, razveseli prikazani dar da po tvome apostolu Petru tako primimo tvoje obilno oproštenje kao što u njemu slavimo tvoja čudesa.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-01-20",
+ "n": 0,
+ "heading": "PETAK, 20.I.2017.",
+ "title": "sv. Fabijan, papa, i sv. Sebastijan, mučenici",
+ "rank": "Blagdan III. razreda",
+ "colour": "Red",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 78, 11 et 12 et 10, Ps 78, 1\n(Ps 78, 11 et 12 et 10) Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum, qui effúsus est. (Ps 78, 1) Deus, venérunt gentes in hereditátem tuam: polluérunt templum sanctum tuum: posuérunt Ierúsalem in pomórum custódiam.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 78, 11 et 12 et 10) Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum, qui effúsus est.",
+     "hr": "Ps 78, 11 i 12 i 10, Ps 78, 1\n(Ps 78, 11 i 12 i 10) Neka uzađu pred lice tvoje, Gospodine, uzdasi sužanjski, sedmerostruko vrati susjedima našim. Osveti prolivenu krv slugu svojih! (Ps 78, 1) Bože, narodi prodiru u nasljedstvo tvoje, skvrne sveti hram tvoj, pretvaraju Jeruzalem u razvaline.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 78, 11 i 12 i 10) Neka uzađu pred lice tvoje, Gospodine, uzdasi sužanjski, sedmerostruko vrati susjedima našim. Osveti prolivenu krv slugu svojih!"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nInfirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriae actiónis gravat, beatórum Mártyrum tuórum Fabiáni et Sebastiáni intercéssio gloriósa nos prótegat.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nObazri se, Gospodine, na našu slabost, pa jer nas pritište težina vlastitog djelovanja, neka nas štiti slavni zagovor blaženih tvojih mučenika Fabijana i Sebastijana.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Hebr 11, 33-39\nLéctio Epístolae beáti Pauli Apóstoli ad Hebraéos. Fratres: Sancti per fidem vicérunt regna, operáti sunt iustítiam, adépti sunt repromissiónes, obturavérunt ora leónum, exstinxérunt impétum ignis, effugérunt áciem gládii, convaluerunt de infirmitáte, fortes facti sunt in bello, castra vertérunt exterórum: accepérunt mulíeres de resurrectióne mórtuos suos: álii autem disténti sunt, non suscipiéntes redemptiónem, ut meliórem invenírent resurrectiónem: álii vero ludíbria et vérbera expérti, ínsuper et víncula et cárceres: lapidáti sunt, secti sunt, tentáti sunt, in occisióne gládii mórtui sunt: circuiérunt in melótis, in péllibus caprínis, egéntes, angustiáti, afflícti: quibus dignus non erat mundus: in solitudínibus errántes, in móntibus et spelúncis, et in cavérnis terrae. Et hi omnes testimónio fídei probáti, invénti sunt in Christo Iesu Domino nostro.",
+     "hr": "Heb 11, 33-39\nČitanje Poslanice bl. Pavla apostola Hebrejima. Braćo, sveti su vjerom osvajali kraljevstva, činili pravdu, postigli obećanje, lavovima zatvarali ždrijela, gasili silu ognja, izbjegavali oštricu mača, ozdravljali od bolesti, bili su hrabri u borbi, rastjerivali neprijateljske vojske. Žene su primale svoje mrtve kao uskrsle. Jedni su stavljani na muke i nisu prihvaćali oslobođenja samo da bi postigli stalnije uskrsnuće. Drugi su podnosili pogrde i udarce, a osim toga okove i tamnice. Neki su opet bili kamenovani, piljeni, iskušavani, umirali su sasječeni mačem, obilazili obučeni u ovčjim ili kozjim kožama, u oskudici, nevolji i sramoti. Oni kojih svijet nije bio dostojan lutah su po pustinjama, gorama, špiljama i rupama zemlje. I svi su se ti prokušani u svjedočanstvu vjere našli u našem Gospodinu Isusu Kristu."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Exodi 15, 11, Exodi 15, 6\n(Exodi 15, 11) Gloriósus Deus in Sanctis suis: mirábilis in maiestáte, fáciens prodígia. (Exodi 15, 6) Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.",
+     "hr": "Izl 15, 11, Izl 15, 6\n(Izl 15, 11) Slavan je Bog u svojim svetima, divan u veličanstvu, čini čudesa. (Izl 15, 6) Snagom se proslavila desnica tvoja, Gospodine, desnica je tvoja uništila neprijatelje."
+    },
+    {
+     "la": "Ps 144, 10-11\n<i>Allelúia</i>, <i>allelúia</i>.\nSancti tui, Dómine, benedícent te: glóriam regni tui dicent. <i>Allelúia</i>.",
+     "hr": "Ps 144, 10-11\n<i>Aleluja</i>, <i>aleluja</i>.\nNeka te Gospodine, blagoslivljaju sveti tvoji i neka propovijedaju o slavi kraljevstva tvojega. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 6, 17-23\nSequéntia sancti Evangélii secúndum Lucam. In illo témpore: Descéndens Iesus de monte, stetit in loco campéstri, et turba discipulórum eius, et multitúdo copiósa plebis ab omni Iudaéa, et Ierúsalem, et marítima, et Tyri, et Sidónis, qui vénerant ut audírent eum, et sanaréntur a languóribus suis. Et qui vexabántur a spirítibus immúndis, curabántur. Et omnis turba quaerébat eum tángere: quia virtus de illo exíbat, et sanábat omnes. Et ipse, elevátis óculis in discípulos suos, dicébat: Beáti páuperes: quia vestrum est regnum Dei. Beáti, qui nunc esurítis: quia saturabímini. Beáti, qui nunc fletis: quia ridébitis. Beáti éritis, cum vos óderint hómines, et cum separáverint vos, et exprobráverint, et eiécerint nomen vestrum tamquam malum propter Fílium hóminis. Gaudéte in illa die, et exsultáte: ecce enim merces vestra multa est in caelo.",
+     "hr": "Lk 6, 17-23\nSlijedi sveto Evanđelje po Luki. U ono vrijeme siđe Isus s gore, zaustavi se na ravnici s mnoštvom svojih učenika i vrlo mnogo ljudi iz čitave Judeje, Jeruzalema, Primorja, Tira i Sidona, koji su došli da ga čuju i da se izliječe od svojih bolesti. I ozdravljali su oni koje su mučili nečisti duhovi. I sav ga se svijet htio dotaknuti, jer je iz njega izlazila moć, i sve je liječio. On podigne oči prema svojim učenicima i reče: Blago vama siromasima, jer je vaše Božje kraljevstvo. Blago vama koji sada gladujete, jer ćete se nasititi. Blago vama kada vas ljudi mrze i odbace, pogrde i prezru kao nečasne radi Sina Čovječjega. Radujte se i veselite u taj dan, jer je velika vaša plaća na nebu!"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 31, 11\nLaetámini in Dómino et exsultáte, iusti: et gloriámini, omnes recti corde.",
+     "hr": "Ps 31, 11\nRadujte se u Gospodinu i kličite, pravednici! Veselite se svi koji ste čestita srca."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Hóstias tibi, Dómine, beatórum Mártyrum tuórum Fabiáni et Sebastiáni dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Dobrostivo primi, Gospodine, prinose koje ti posvećujemo po zaslugama blaženih tvojih mučenika Fabijana i Sebastijana i daj da nam postanu trajna pomoć.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Luc 6, 18 et 19\nMultitúdo languéntium, et qui vexabántur a spirítibus immúndis, veniébant ad eum: quia virtus de illo exíbat, et sanábat omnes.",
+     "hr": "Lk 6, 18 i 19\nMnoštvo bolesnika i onih koje su mučili zli duhovi dolazilo je k njemu, jer je moć izlazila iz njega i sve je ozdravljao."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nRefécti participatióne múneris sacri, quaésumus, Dómine Deus noster: ut, cuius exséquimur cultum, intercedéntibus sanctis Martýribus tuis Fabiáno et Sebastiáno, sentiámus efféctum.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nOkrijepljeni sudjelovanjem u svetom daru, molimo, Gospodine Bože naš, da po zagovoru tvojih svetih mučenika Fabijana i Sebastijana osjetimo učinak tajne, koju slavimo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

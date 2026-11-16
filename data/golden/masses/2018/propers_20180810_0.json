@@ -1,0 +1,150 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-08-10",
+ "n": 0,
+ "heading": "PETAK, 10.VIII.2018.",
+ "title": "sv. Lovro, mučenik",
+ "rank": "Blagdan II. razreda",
+ "colour": "Red",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 95, 6, Ps 95, 1\n(Ps 95, 6) Conféssio et pulchritúdo in conspéctu eius: sánctitas et magnificéntia in sanctificatióne eius. (Ps 95, 1) Cantáte Dómino cánticum novum: cantáte Dómino, omnis terra.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 95, 6) Conféssio et pulchritúdo in conspéctu eius: sánctitas et magnificéntia in sanctificatióne eius.",
+     "hr": "Ps 95, 6, Ps 95, 1\n(Ps 95, 6) Slava je i krasota pred licem njegovim, svetost i veličanstvo u svetinji njegovoj. (Ps 95, 1) Pjevajte Gospodinu pjesmu novu, pjevaj Gospodinu sva zemljo!\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 95, 6) Slava je i krasota pred licem njegovim, svetost i veličanstvo u svetinji njegovoj."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDa nobis, quaésumus, omnípotens Deus: vitiórum nostrórum flammas exstínguere; qui beáto Lauréntio tribuísti tormentórum suórum incéndia superáre.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nDaj nam, molimo, svemogući Bože, da ugasimo vatru naših mana kao što si dao blaženom Lovri da odoli svojim mukama u vatri.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "II Cor 9, 6-10\nLéctio Epístolae beáti Pauli Apóstoli ad Corínthios. Fratres: Qui parce séminat, parce et metet: et qui séminat in benedictiónibus, de benedictiónibus et metet. Unusquísque prout destinávit in corde suo, non ex tristítia, aut ex necessitáte: hílarem enim datórem díligit Deus. Potens est autem Deus omnem grátiam abundáre fácere in vobis, ut in omnibus semper omnem sufficiéntiam habéntes, abundétis in omne opus bonum, sicut scriptum est: Dispérsit, dedit paupéribus: iustítia eius manet in saéculum saéculi. Qui autem adminístrat semen seminánti: et panem ad manducándum praestábit, et multiplicábit semen vestrum, et augébit increménta frugum iustítiae vestrae.",
+     "hr": "2 Kor 9, 6-10\nČitanje Poslanice bl. Pavla apostola Korinćanima. Braćo: Braćo, tko malo sije, malo će i žeti; tko obilno sije, obilno će i žeti. Neka svatko dijeli kao što odluči u svojem srcu, ne žalostan ili primoran, jer Bog ljubi vesela dobrotvoritelja. A Bog vam može dati obilje svojih različitih darova da imate svega uvijek dovoljno i sami obilujete za sva dobra djela, kao što je pisano: Razdijeli i dade siromasima; njegova pravda ostaje za sve vijeke. Tko sijaču daje sjeme, dat će i kruh za jelo, i umnožit će sjeme vaše i povećati plodove pravde vaše."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 16, 3\nProbásti, Dómine, cor meum, et visitásti nocte. Igne me examinásti, et non est invénta in me iníquitas.",
+     "hr": "Ps 16, 3\nIstražio si, Gospodine, srce moje i pohodio si me noću. Iskušao si me u vatri i nisi našao na meni nikakve krivice."
+    },
+    {
+     "la": "<i>Allelúia</i>, <i>allelúia</i>.\nLevíta Lauréntius bonum opus operátus est: qui per signum crucis caecos illuminávit. <i>Allelúia</i>.",
+     "hr": "<i>Aleluja</i>, <i>aleluja</i>.\nĐakon je Lovro dobro djelo činio, jer je znakom križa slijepima vid vraćao. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Io 12, 24-26\nSequéntia sancti Evangélii secúndum Ioánnem. In illo témpore: Dixit Iesus discípulis suis: Amen, amen dico vobis, nisi granum fruménti cadens in terram, mórtuum fúerit, ipsum solum manet: si autem mórtuum fúerit, multum fructum affert. Qui amat ánimam suam, perdet eam: et qui odit ánimam suam in hoc mundo, in vitam aetérnam custódit eam. Si quis mihi minístrat, me sequátur: et ubi sum ego, illic et miníster\nmeus erit. Si quis mihi ministráverit, honorificábit eum Pater meus.",
+     "hr": "Iv 12, 24-26\nSlijedi sveto Evanđelje po Ivanu. U ono vrijeme reče Isus svojim učenicima: Ako pšenično zrno koje padne na zemlju ne istrune, ostaje samo, a ako istrune, daje mnogo ploda. Tko ljubi svoj život izgubit će ga. a tko prezire svoj život na ovome svijetu čuva ga za vječni život. Tko meni služi, neka ide za mnom, i gdje sam ja bit će i moj sluga. Tko meni služi proslavit će ga moj Otac."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 95, 6\nConféssio et pulchritúdo in conspéctu eius: sánctitas et magnificéntia in sanctificatióne eius.",
+     "hr": "Ps 95, 6\nSlava je i krasota pred licem njegovim, svetost i veličanstvo u svetinji njegovoj."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Accipe, quaésumus, Dómine, múnera dignánter obláta: et, beáti Lauréntii suffragántibus méritis, ad nostrae salútis auxílium proveníre concéde.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Primi, Gospodine, darove dostojno prikazane i po zaslugama i zagovoru blaženog Lovre daj da budu na pomoć našemu spasenju.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Io 12, 26\nQui mihi minístrat, me sequátur: et ubi ego sum, illic et miníster meus erit.",
+     "hr": "Iv 12, 26\nTko mene služi neka me slijedi i gdje sam ja ondje će biti i moj sluga."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nSacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod débitae servitútis celebrámus offício, intercedénte beáto Lauréntio Mártyre tuo, salvatiónis tuae sentiámus augméntum.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nNasićeni svetim darom, ponizno te, molimo, Gospodine, da ono što slavimo službom dužne pokornosti osjetimo po zagovoru blaženoga Lovre mučenika tvoga kao povećanje tvoje milosti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

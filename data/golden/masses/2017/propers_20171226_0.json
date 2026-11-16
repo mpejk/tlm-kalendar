@@ -1,0 +1,164 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-12-26",
+ "n": 0,
+ "heading": "UTORAK, 26.XII.2017.",
+ "title": "sv. Stjepan, prvomučenik",
+ "rank": "Blagdan II. razreda",
+ "colour": "Red",
+ "commemorations": [
+  "spomen i na pjevanim i na tihim misama: II. dan božićne osmine"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 118, 23 et 68 et 1\n(Ps 118, 23 et 68) Sedérunt príncipes, et advérsum me loquebántur: et iníqui persecúti sunt me: ádiuva me, Dómine Deus meus, quia servus tuus exercebátur in tuis iustificatiónibus. (Ps 118, 1) Beáti immaculáti in via, qui ámbulant in lege Dómini.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 118, 23 et 68) Sedérunt príncipes, et advérsum me loquebántur: et iníqui persecúti sunt me: ádiuva me, Dómine Deus meus, quia servus tuus exercebátur in tuis iustificatiónibus.",
+     "hr": "Ps 118, 23 i 68 i 1\n(Ps 118, 23 i 68) Prvaci naroda sjede, vijećaju protiv mene i nepravedno me progone. Pomozi mi, Gospodine Bože moj, jer sluga tvoj izvršuje tvoje naloge. (Ps 118, 1) Blago neokaljanima na životnom putu, koji žive po zakonu Gospodnjemu.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDa nobis, quaésumus, Dómine, imitári quod cólimus: ut discámus et inimícos dilígere; quia eius natalícia celebrámus, qui novit étiam pro persecutóribus exoráre Dóminum nostrum Iesum Christum, Fílium tuum:\n<i>qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nDaj nam, molimo, Gospodine, nasljedovati što častimo, da naučimo ljubiti i neprijatelje, jer slavimo dan kad se za nebo rodio onaj koji je znao i za progonitelje moliti Gospodina našega Isusa Krista Sina tvoga:\n<i>koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: II. dan božićne osmine</i></b>\n<i>Orémus</i>.\nConcéde, quaésumus, omnípotens Deus: ut nos Unigéniti tui nova per carnem Natívitas líberet; quos sub peccáti iugo vetústa sérvitus tenet.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: II. dan božićne osmine</i></b>\n<i>Pomolimo se</i>.\nPodaj, molimo, svemogući Bože, da novo tjelesno rođenje tvoga jedinorođenog Sina oslobodi nas, koje staro sužanjstvo tišti jarmom grijeha.\n<i>Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Act 6, 8-10 et 7, 54-59\nLéctio Actuum Apostolórum. In diébus illis: Stéphanus, plenus grátia et fortitúdine, faciébat prodígia et signa magna in pópulo. Surrexérunt autem quidam de synagóga, quae appellátur Libertinórum, et Cyrenénsium, et Alexandrinórum, et eórum qui erant a Cilícia et Asia, disputántes cum Stéphano: et non póterant resístere sapiéntiae et Spirítui, qui loquebátur. Audiéntes autem haec, dissecabántur córdibus suis, et stridébant déntibus in eum. Cum autem esset Stéphanus plenus Spíritu Sancto, inténdens in caelum, vidit glóriam Dei, et Iesum stantem a dextris Dei. Et ait: Ecce vídeo caelos apértos, et Fílium hóminis stantem a dextris Dei. Exclamántes autem voce magna continuérunt aures suas, et ímpetum fecérunt unanímiter in eum. Et eiciéntes eum extra civitátem lapidábant: et testes deposuérunt vestiménta sua secus pedes adulescéntis, qui vocabátur Saulus. Et lapidábant Stéphanum invocántem, et dicéntem: Dómine Iesu, súscipe spíritum meum. Pósitis autem génibus clamávit voce magna, dicens: Dómine, ne státuas illis hoc peccátum. Et cum hoc dixísset, obdormívit in Dómino.",
+     "hr": "Dj 6, 8-10 i 7, 54-59\nČitanje Djela apostolskih. U one dane Stjepan, pun milosti i jakosti, činio je u narodu velika čudesa i znakove. Tada se počnu prepirati sa Stjepanom neki iz zbornice libertin–ske, cirinejske, alelcsandnijske i drugi iz Cilicije i Azije. Ali nisu mogli odoljeti mudrosti i Duhu koji je govorio iz njega. Kad su ga čuli, kipjeli su od srdžbe u svojim srcima i škripali zubima na njega. – Stjepan pun Duha Svetoga, zagleda se u nebo i vidje Božju slavu i Isusa gdje stoji s desne Bogu, pa reče: »–Evo vidim otvoreno nebo i Sina čovječjega s desne Bogu.« A oni strašno vičući začepe uši i svi zajedno navale na njega. Izbace ga iz grada i kamenuju, a svjedoci odlože svoje haljine do nogu mladića Savla. I kamenuju Stjepana dok je molio: »Gospodine Isuse, primi moj duh!« Pade zatim na koljena i snažnim glasom povika: »Gospodine, ne uzmi im ovo za grijeh!« I kad to reče, usnu u Gospodinu."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 118, 23 et 68 et 6\nSedérunt príncipes, et advérsum me loquebántur: et iníqui persecúti sunt me. Adiuva me, Dómine Deus meus: salvum me fac propter misericórdiam tuam.",
+     "hr": "Ps 118, 23 i 68 i 6\nPrvaci naroda sjede, vijećaju protiv mene i nepravedno me progone. Pomozi mi, Gospodine Bože moj, spasi me radi svoga milosrđa."
+    },
+    {
+     "la": "Act 7, 56\n<i>Allelúia</i>, <i>allelúia</i>.\nVídeo caelos apértos, et Iesum stantem a dextris virtútis Dei. <i>Allelúia</i>.",
+     "hr": "Dj 7, 56\n<i>Aleluja</i>, <i>aleluja</i>.\nVidim otvoreno nebo i Isusa gdje stoji s desne silnoga Boga. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 23, 34-39\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: dicébat Iesus scribis et pharisaéis: Ecce ego mitto ad vos prophétas, et sapiéntes, et scribas, et ex illis occidétis et crucifigétis, et ex eis flagellábitis in synagógis vestris, et persequémini de civitáte in civitátem: ut véniat super vos omnis sanguis iustus, qui effúsus est super terram, a sánguine Abel iusti usque ad sánguinem Zacharíae, fílii Barachíae, quem occidístis inter templum et altáre. Amen dico vobis, vénient haec ómnia super generatiónem istam. Ierúsalem, Ierúsalem, quse occídis prophétas, et lápidas eos, qui ad te missi sunt, quóties vólui congregáre fílios tuos, quemádmodum gallína cóngregat pullos suos sub alas, et noluísti? Ecce relinquétur vobis domus vestra desérta. Dico enim vobis, non me vidébitis ámodo, donec dicátis: Benedíctus qui venit in nómine Dómini.",
+     "hr": "Mt 23, 34-39\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme: reče Isus književnicima i farizejima: Evo ja vam šaljem proroke, mudrace i književnike. Vi ćete jedne od njih ubiti i raspeti, druge po svojim zbornicama bičevati i progoniti od grada do grada. Zato će na vas pasti sva pravedna krv prolivena na zemlji, od krvi pravednog Abela do krvi Barakijina sina Zakarije kojega ste ubili između hrama i oltara. Zaista vam kažem, sve će se ovo dogoditi već ovom naraštaju. – Jeruzaleme, koji ubijaš proroke i kamenuješ one koji su ti poslani! Koliko sam puta htio skupiti tvoju djecu, kao što kvočka skuplja svoje piliće pod krila, ali ti nisi htio! Evo, ostat će vam pusta vaša kuća. Jer znajte da me više nećete vidjeti, dok ne rečete: Blagoslovljen koji dolazi u dme Gospodnje!"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Act 6, 5 et 7, 59\nElegérunt Apóstoli Stéphanum Levítam, plenum fide et Spíritu Sancto: quem lapidavérunt Iudaéi orántem, et dicéntem: Dómine Iesu, áccipe spíritum meum, allelúia.",
+     "hr": "Dj 6, 5 et 7, 59\nIzabraše apostoli levitu Stjepana puna vjere i Duha Svetoga. Njega su Židovi kamenovali dok je molio i govorio: »Gospodine Isuse, primi moj duh!« Aleluja."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Súscipe, Dómine, múnera pro tuórum commemoratióne Sanctórum: ut, sicut illos pássio gloriósos effécit; ita nos devótio reddat innócuos.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Primi, Gospodine, darove u spomen tvojih svetaca i daj nam da nas pobožnost učini pravednima kao što je mučeništvo njih učinilo slavnima.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: II. dan božićne osmine</i></b>\nObláta Dómine, múnera, nova Unigéniti tui Nativitéte sanctífica: nosque a peccatórum nostrórum máculis emúnda.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: II. dan božićne osmine</i></b>\nPrinesene darove, Gospodine, posveti novim rođenjem svoga Jedinorođenca, a nas od ljaga naših grijeha očisti.\n<i>Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de Nativitáte Dómini",
+   "hr": "Predslovlje Rođenja Gospodnjeg (božićno)",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: Quia per incarnáti Verbi mystérium nova mentis nostrae óculis lux tuae claritátis infúlsit: ut, dum visibíliter Deum cognóscimus, per hunc in invisibílium amórem rapiámur. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine sveti Oče, svemogući i vječni Bože: jer je po tajni utjelovljene Riječi očima naše duše sinula nova svjetlost tvoga sjaja. Te dok tjelesnim očima spoznajemo Boga, on nas zanosi ljubavlju prema nevidljivim dobrima. I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Act 7, 56 et 59-60\nVídeo caelos apértos, et Iesum stantem a dextris virtútis Dei: Dómine Iesu, áccipe spíritum meum, et ne státuas illis hoc peccátum.",
+     "hr": "Dj 7, 56 i 59-60\nVidim otvoreno nebo i Isusa gdje stoji s desne silnoga Boga. Gospodine Isuse, primi moj duh i ne uzmi im ovo za grijeh!"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nAuxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáto Stéphano Mártyre tuo, sempitérna protectióne confírment.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nPrimljena otajstva, Gospodine, bila nam na pomoći i zagovorom blaženoga Stjepana, tvoga mučenika, neka nas neprestano štite i jačaju.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen i na tihim i na pjevanim misama: II. dan božićne osmine</i></b>\n<i>Orémus</i>.\nPraesta, quaésumus, omnípotens Deus: ut natus hódie Salvátor mundi, sicut divínae nobis generatiónis est auctor; ita et immortalitátis sit ipse largítor:\n<i>qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "<b><i>spomen i na tihim i na pjevanim misama: II. dan božićne osmine</i></b>\n<i>Pomolimo se</i>.\nPodaj, molimo, svemogući Bože, kao što je danas rođeni Spasitelj svijeta začetnik našega božanskoga rođenja, tako da bude i darovatelj besmrtnosti.\n<i>Koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

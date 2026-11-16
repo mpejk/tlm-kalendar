@@ -1,0 +1,150 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-06-21",
+ "n": 0,
+ "heading": "ČETVRTAK, 21.VI.2018.",
+ "title": "sv. Alojzije Gonzaga, priznavalac",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 8, 6, Ps 148, 2\n(Ps 8, 6) Minuísti eum paulo minus ab Angelis: glória et honóre coronásti eum. (Ps 148, 2) Laudáte Dóminum, omnes Angeli eius: laudáte eum, omnes virtútes eius.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 8, 6) Minuísti eum paulo minus ab Angelis: glória et honóre coronásti eum.",
+     "hr": "Ps 8, 6, Ps 148, 2\n(Ps 8, 6) Uzveličao si ga malo manje nego anđele, ovjenčao si ga slavom i čašću. (Ps 148, 2) Hvalite Gospodina, svi anđeli njegovi, hvalite ga, sve vojske njegove.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 8, 6) Uzveličao si ga malo manje nego anđele, ovjenčao si ga slavom i čašću."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nCaeléstium donórum distribútor, Deus, qui in angélico iúvene Aloísio miram vitae innocéntiam pari cum paeniténtia sociásti: eius méritis et précibus concéde; ut, innocéntem non secúti, paeniténtem imitémur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, djelitelju nebeskih dobara, koji si u anđeoskom mladiću Alojziju združio divnu nevinost života s jednakom pokorom, daj da ga, po njegovim zaslugama i zagovoru, slijedimo u pokori, kad ga nismo slijedili u nevinosti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Eccli 31, 8-11\nLéctio libri Sapiéntiae. Beatus vir, qui invéntus est sine mácula: et qui post aurum non ábiit, nec sperávit in pecúnia et thesáuris. Quis est hic, et laudábimus eum? Fecit enim mirabília in vita sua. Qui probates est in illo, et perféctus est, erit illi glória aetérna: qui pótuit tránsgredi, et non est transgréssus: fácere mala, et non fecit: ídeo stabílita sunt bona illíus in Dómino, et eleemósynas illíus enarrábit omnis ecclésia sanctórum.",
+     "hr": "Sir 31, 8-11\nČitanje knjige Mudrosti. Blago čovjeku koji se nađe bez ljage i ne teži za zlatom, niti se uzda u novac i blago. Tko je taj, da ga pohvalimo? U svojem je životu učinio divna djela. Tko je u tome prokušan i savršen bit će uvijek slavan. Mogao je sagriješiti, ali nije sagriješio, učiniti zlo, ali nije počinio. Zato priznaje njegova djela Gospodin, a njegovih će se milostinja sjećati sve skupine svetih."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Ps 70, 5-6, Ps 40, 13\n(Ps 70, 5-6) Dómine, spes mea a iuventúte mea: in te confirmátus sum ex útero: de ventre matris meae tu es protéctor meus. (Ps 40, 13) Me autem propter innocéntiam suscepísti: et confirmásti me in conspéctu tuo in aetérnum.",
+     "hr": "Ps 70, 5-6, Ps 40, 13\n(Ps 70, 5-6) Gospodine, nado moja od mladosti moje! Tebi pripadam još od majčina krila, već od prvih dana mojih ti si mi zaštitnik. (Ps 40, 13) Primio si me radi moje nevinosti, dao si mi da stalno budem uza te."
+    },
+    {
+     "la": "Ps 64, 5\n<i>Allelúia</i>, <i>allelúia</i>.\nBeátus quem elegísti et assumpsísti: inhabitábit in átriis tuis. <i>Allelúia</i>.",
+     "hr": "Ps 64, 5\n<i>Aleluja</i>, <i>aleluja</i>.\nBlago onome koga si ti odabrao i primio da prebiva u dvorima tvojim. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 2, 1-14\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Respóndens Iesus, ait sadducaéis: Errátis, nesciéntes Scriptúras, neque virtútem Dei. In resurrectióne enim neque nubent, neque nubéntur: sed erunt sicut Angeli Dei in caelo. De resurrectióne autem mortuórum non legístis quod dictum est a Deo dicénte vobis: Ego sum Deus Abraham, et Deus Isaac, et Deus Iacob? Non est Deus mortuórum, sed vivéntium. Et audiéntes turbae, mirabántur in doctrína eius. Pharisaéi autem audiéntes quod siléntium imposuísset sadducaéis, convenérunt in unum: et interrogávit eum unus ex eis, legis doctor, tentans eum: Magíster, quod est mandátum magnum in lege? Ait illi Iesus: Díliges Dóminum Deum tuum ex toto corde tuo, et in tota ánima tua, et in tota mente tua. Hoc est máximum et primum mandátum. Secúndum autem símile est huic: Díliges próximum tuum, sicut teípsum. In his duóbus mandátis univérsa lex pendet, et prophétae.",
+     "hr": "Lk 2, 1-14\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme reče Isus saducejima: Varate se, jer ne shvaćate ni pisma ni Božje moći. O uskrsnuću niti će se ženiti niti udavati, nego će biti kao Božji anđeli na nebu. Zar niste čitali, što vam je Bog objavio o uskrsnuću mrtvih: Ja sam Bog Abrahama, Bog Izaka i Bog Jakova? Dakle, nije Bog mrtvih, nego živih. Kad je.narod to čuo, divio se njegovoj nauci. A kad su farizeji dočuli da je ušutkao saduceje, sastanu se i jedan njihov pismoznanac, da ga iskuša, upita ga: Učitelju, koja je najveća zapovijed u zakonu? Isus mu odgovori: Ljubi Gospodina Boga svojega svim srcem svojim, svom dušom svojom, svom mišlju svojom. Ovo je najveća i prva zapovijed. A druga je ovoj jednaka: Ljubi bližnjega svojega kao samoga sebe. O ovim dvjema zapovijedima ovisi sav zakon i proroci."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 23, 3-4\nQuis ascéndet in montem Dómini, aut quis stabit in loco sancto eius? Innocens mánibus et mundo corde.",
+     "hr": "Ps 23, 3-4\nTko će uzaći na goru Gospodnju, tko će stati na svetom mjestu njegovu? Onaj koji je nevinih ruku i čista srca."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Caelésti convívio fac nos, Dómine, nuptiáli veste indútos accúmbere: quam beáti Aloísii pia praeparátio et iuges lácrimae inaestimabílibus ornábant margarítis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Daj nam, Gospodine, da dok sjedimo na nebeskoj gozbi budemo obučeni u nebesko ruho što su ga pobožna priprava i neprestane suze blaženog Alojzija uresili dragocjenim biserima.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Ps 77, 24-25\nPanem caeli dedit eis: panem Angelórum manducávit homo.",
+     "hr": "Ps 77, 24-25\nKruh s neba dao si njima, ljudi blaguju kruh anđeoski."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nAngelórum esca nutrítos, angélicis étiam, Dómine, da móribus vívere: et eius, quem hódie cólimus, exémplo in gratiárum semper actióne manére.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nDaj, Gospodine, nama koji smo nahranjeni anđeoskim jelom i živjeti anđeoskim životom, i ostati u trajnom zahvaljivanju po primjeru onoga kojeg danas štujemo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

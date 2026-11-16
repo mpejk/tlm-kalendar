@@ -1,0 +1,160 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-04-23",
+ "n": 0,
+ "heading": "PONEDJELJAK, 23.IV.2018.",
+ "title": "Feria (u tjednu 3. nedjelje po Uskrsu)",
+ "rank": "Feria IV. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen na tihim misama: sv. Juraj, mučenik"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 65, 1-2, Ps 65, 3\n(Ps 65, 1-2) Iubiláte Deo, omnis terra, <i>allelúia</i>:\npsalmum dícite nómini eius, <i>allelúia</i>:\ndate glóriam laudi eius, <i>allelúia</i>, <i>allelúia</i>, <i>allelúia</i>.\n(Ps 65, 3) Dícite Deo, quam terribília sunt ópera tua, Dómine ! in multitúdine virtútis tuae mentiéntur tibi inimíci tui.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 65, 1-2) Iubiláte Deo, omnis terra, <i>allelúia</i>:\npsalmum dícite nómini eius, <i>allelúia</i>:\ndate glóriam laudi eius, <i>allelúia</i>, <i>allelúia</i>, <i>allelúia</i>.",
+     "hr": "Ps 65, 1-2, Ps 65, 3\n(Ps 65, 1-2) Kličite Bogu, sve zemlje, <i>aleluja</i>!\nPjevajte pjesmu imenu njegovu, <i>aleluja</i>!\nProglasite njegovu slavu, <i>aleluja</i>, <i>aleluja</i>, <i>aleluja</i>.\n(Ps 65, 3) Recite Bogu: Kako su silna tvoja djela, Gospodine! Zbog mnoštva tvoje snage laskaju ti neprijatelji tvoji.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 65, 1-2) Kličite Bogu, sve zemlje, <i>aleluja</i>!\nPjevajte pjesmu imenu njegovu, <i>aleluja</i>!\nProglasite njegovu slavu, <i>aleluja</i>, <i>aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui errántibus, ut in viam possint redíre iustítiae, veritátis tuae lumen osténdis: da cunctis qui christiána professióne censéntur, et illa respúere, quae huic inimíca sunt nómini ; et ea quae sunt apta, sectári.\n<i>Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji zalutalima pokazuješ svjetlo svoje istine da se mogu vratiti na put pravednosti, daj svima koji ispovijedaju kršćansku vjeru, da odbace ono što se protivi ovome imenu, a da teže za onim što mu dolikuje.\n<i>Koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Juraj, mučenik</i></b>\n<i>Orémus</i>.\nDeus, qui nos beáti Geórgii Mártyris tui méritis et intercessióne laetíficas: concéde propítius; ut, qui tua per eum beneficia póscimus, dono tuae grátiae consequámur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Juraj, mučenik</i></b>\n<i>Pomolimo se</i>.\nBože, koji nas razveseljuješ zaslugama i zagovorom blaženog Jurja, svoga mučenika, dopusti milostivo, da tvoja dobročinstva, što ih po njemu molimo, darom tvoje milosti postignemo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "I Petri 2, 11-19\nLéctio Epístolae beáti Petri Apóstoli. Caríssimi: Obsecro vos tamquam ádvenas et peregrínos abstinére vos a carnálibus desidériis, quae mílitant advérsus ánimam, conversatiónem vestram inter gentes habéntes bonam: ut in eo, quod detréctant de vobis tamquam de malefactóribus, ex bonis opéribus vos considerántes, gloríficent Deum in die visitatiónis. Subiécti ígitur estóte omni humánae creatúrae propter Deum: sive regi, quasi praecellénti: sive dúcibus, tamquam ab eo missis ad vindíctam malefactórum, laudem vero bonórum: quia sic est volúntas Dei, ut benefaciéntes obmutéscere faciátis imprudéntium hóminum ignorántiam: quasi líberi, et non quasi velámen habéntes malítiae libertátem, sed sicut servi Dei. Omnes honoráte: fraternitátem dilígite: Deum timéte: regem honorificáte. Servi, súbditi estóte in omni timóre dóminis, non tantum bonis et modéstis, sed étiam dýscolis. Haec est enim grátia: in Christo Iesu Dómino nostro.",
+     "hr": "1 Pt 2, 11-19\nČitanje Poslanice bl. Petra apostola. Predragi: Molim vas da se kao stranci i putnici uzdržavate od tjelesnih požuda koje vojuju protiv duše. Vaše vladanje među nevjernicima neka bude dolično, da bi po onome zbog čega vas kleveću kao zločince, motreći vaša dobra djela, slavili Boga u dan pohođenja. – Stoga, pokoravajte se radi Boga svakoj ljudskoj uredbi: bilo vladaru kao najodličnijemu, bilo upraviteljima koje on šalje, da kazni zle, a zaštiti dobre. To je naime volja Božja, da neznanje bezumnika ušutkate dobrim djelima. Vladajte se kao slobodni, ali ne kao oni koji slobodom prikrivaju zloću, nego kao sluge Božje! – Poštujte svakoga, ljubite braću, Boga se bojte, poštujte vladara! Sluge, s dužnim poštovanjem pokoravajte se ne samo dobrim i blagim gospodarima, nego i zločestima. Ovo je naime milost u Gospodinu našem Isusu Kristu."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Allelúia",
+   "hr": "Aleluja",
+   "rows": [
+    {
+     "la": "Ps 110, 9, Luc 24, 46\n<i>Allelúia</i>, <i>allelúia</i>.\n(Ps 110, 9) Redemptiónem misit Dóminus pópulo suo. <i>Allelúia</i>.\n(Lk 24, 46) Oportébat pati Christum, et resúrgere a mórtuis: et ita intráre in glóriam suam. <i>Allelúia</i>.",
+     "hr": "Ps 110, 9, Lk 24, 46\n<i>Aleluja</i>, <i>aleluja</i>.\n(Ps 110, 9) Otkupljenje posla Gospodin narodu svome, <i>aleluja</i>.\n(Lk 24, 46) Trebalo je da Krist i trpi i uskrsne od mrtvih i da tako uđe u svoju slavu, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Io 16, 16-22\nSequéntia sancti Evangélii secúndum Ioánnem. In illo témpore: Dixit Iesus discípulis suis: Módicum, et iam non vidébitis me: et íterum módicum, et vidébitis me: quia vado ad Patrem. Dixérunt ergo ex discípulis eius ad ínvicem: Quid est hoc, quod dicit nobis: Módicum, et non vidébitis me: et íterum módicum, et vidébitis me, et quia vado ad Patrem ? Dicébant ergo: Quid est hoc, quod dicit: Módicum ? nescímus, quid lóquitur. Cognóvit autem Iesus, quia volébant eum interrogáre, et dixit eis: De hoc quaéritis inter vos, quia dixi: Módicum, et non vidébitis me: et íterum módicum, et vidébitis me. Amen, amen dico vobis: quia plorábitis, et flébitis vos, mundus autem gaudébit: vos autem contristabímini, sed tristítia vestra vertétur in gáudium. Múlier cum parit, tristítiam habet, quia venit hora eius: cum autem pepérerit púerum, iam non méminit pressúrae propter gáudium, quia natus est homo in mundum. Et vos ígitur nunc quidem tristítiam habétis, íterum autem vidébo vos, et gaudébit cor vestrum: et gáudium vestrum nemo tollet a vobis.",
+     "hr": "Iv 16, 16-22\nSlijedi sveto Evanđelje po Ivanu. U ono vrijeme: Reče Isus svojim učenicima: Još malo i više me nećete vidjeti, i opet malo, pa ćete me vidjeti, jer idem Ocu. A neki od učenika rekoše među sobom: Što je to što nam kaže: Još malo i i više me nećete vidjeti i opet malo, pa ćete me vidjeti, jer idem Ocu? Pitali su: Što znači to što kaže: Još malo? Ne znamo što time hoće da kaže. Isus je znao da su ga htjeli pitati, pa im reče: Pitate se među sobom za ono što sam rekao: Još malo i nećete me vidjeti, i opet malo, pa ćete me vidjeti. Zaista vam kažem, da ćete vi plakati i tugovati, a svijet će se radovati. Vi ćete se žalostiti, ali će se vaša žalost pretvoriti u radost. Žena kad rađa, žalosna je, jer joj je došao čas, ali kad rodi dijete, više se ne sjeća muke od radosti, što se čovjek rodio na svijet. Tako ste i vi sada žalosni, ali ću vas opet vidjeti, pa će se radovati vaše srce i vaše radosti nitko vam neće oduzeti."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 145, 2\nLauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: psallam Deo meo, quámdiu ero, <i>allelúia</i>.",
+     "hr": "Ps 145, 2\nHvali, dušo moja, Gospodina! Hvalit ću Gospodina za života svojega! Pjevat ću Bogu svojemu dok me bude, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "His nobis, Dómine, mystériis conferátur, quo, terréna desidéria mitigántes, discámus amáre caeléstia.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Po ovim nam otajstvima, Gospodine, daj da krotimo zemaljske želje i naučimo ljubiti nebesko.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Juraj, mučenik</i></b>\nMúnera, Dómine, obláta sanctífica: et, intercedénte beáto Geórgio Mártyre tuo, nos per haec a peccatórum nostrórum máculis emúnda.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Juraj, mučenik</i></b>\nPosveti, Gospodine, darove, što ti ih prinosimo i zagovorom blaženoga Jurja, tvoga mučenika, po njima nas očisti od ljaga naših grijeha.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio paschális",
+   "hr": "Predslovlje uskrsno",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre: Te quidem, Dómine, omni témpore, sed <i>in hoc potíssimum</i> gloriósius praedicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno da tebe, Gospodine, u svako doba, a osobito <i>u ovo</i> svečanije slavimo, kad je Krist žrtvovan, naše vazmeno Janje. On je naime pravo janje koje oduze grijehe svijeta. Svojom smrću on je uništio našu smrt i svojim uskrsnućem obnovio naš život. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Io 16, 16\nMódicum, et non vidébitis me, allelúia: íterum módicum, et vidébitis me, quia vado ad Patrem, <i>allelúia</i>, <i>allelúia</i>.",
+     "hr": "Iv 16, 16\nJoš malo i više me nećete vidjeti i opet malo pa ćete me vidjeti, jer idem Ocu, <i>aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nSacraménta quae súmpsimus, quaésumus, Dómine: et spirituálibus nos instáurent aliméntis, et corporálibus tueántur auxíliis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nOtajstva koja primismo, molimo, Gospodine, okrijepila nas duhovnom hranom i bila nam na tjelesnu pomoć.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Juraj, mučenik</i></b>\n<i>Orémus</i>.\nSúpplices te rogámus, omnípotens Deus: ut, quos tuis réficis sacraméntis, intercedénte beáto Georgio Mártyre tuo, tibi étiam plácitis móribus dignánter tríbuas deservíre.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Juraj, mučenik</i></b>\n<i>Pomolimo se</i>.\nPonizno te molimo, svemogući Bože, da onima koje krijepiš svojim tajnama zagovorom blaženoga Jurja, tvoga mučenika, podaš milost da ti služe doličnim vladanjem.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

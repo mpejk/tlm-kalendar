@@ -1,0 +1,150 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-07-28",
+ "n": 0,
+ "heading": "PETAK, 28.VII.2017.",
+ "title": "sv. Nazarije i sv. Celzo, mučenici, sv. Viktor I., papa, mučenik, sv. Inocent I., papa, priznavalac",
+ "rank": "Blagdan III. razreda",
+ "colour": "Red",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 78, 11 et 12 et 10, Ps 78, 1\n(Ps 78, 11 et 12 et 10) Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum, qui effúsus est. (Ps 78, 1) Deus, venérunt gentes in hereditátem tuam: polluérunt templum sanctum tuum: posuérunt Ierúsalem in pomórum custódiam.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Ps 78, 11 et 12 et 10) Intret in conspéctu tuo, Dómine, gémitus compeditórum: redde vicínis nostris séptuplum in sinu eórum: víndica sánguinem Sanctórum tuórum, qui effúsus est.",
+     "hr": "Ps 78, 11 i 12 i 10, Ps 78, 1\n(Ps 78, 11 i 12 i 10) Neka uzađu pred lice tvoje, Gospodine, uzdasi sužanjski, sedmerostruko vrati susjedima našim. Osveti prolivenu krv slugu svojih! (Ps 78, 1) Bože, narodi prodiru u nasljedstvo tvoje, skvrne sveti hram tvoj, pretvaraju Jeruzalem u razvaline.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Ps 78, 11 i 12 i 10) Neka uzađu pred lice tvoje, Gospodine, uzdasi sužanjski, sedmerostruko vrati susjedima našim. Osveti prolivenu krv slugu svojih!"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nSanctórum tuórum nos, Dómine, Nazárii, Celsi, Victóris et Innocéntii conféssio beáta commúniat: et fragilitáti nostrae subsídium dignánter exóret.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBlaženo svjedočanstvo svetih tvojih Nazarija, Celza, Viktora i Inocenta neka nas, Gospodine, ojača i izmoli pomoć našoj slabosti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Sap 10, 17-20\nLéctio libri Sapiéntiae. Réddidit Deus iustis mercédem labórum suórum, et dedúxit illos in via mirábili: et fuit illis in velaménto diéi, et in luce stellárum per noctem: tránstulit illos per Mare Rubrum, et transvéxit illos per aquam nímiam. Inimícos autem illórum demérsit in mare, et ab altitúdine inferórum edúxit illos. Ideo iusti tulérunt spólia impiórum, et decantavérunt, Dómine, nomen sanctum tuum, et victrícem manum tuam laudavérunt páriter, Dómine Deus noster.",
+     "hr": "Mudr 10, 17-20\nČitanje knjige Mudrosti. Pravednicima je dao Bog nagradu za trude njihove. Vodio ih je čudesnim putem, bio im je zaklon po danu a zvjezdana svjetlost po noći. Vodio ih je preko Crvenoga mora i pratio preko velike vode. Njihove neprijatelje potopi u more. a njih izvede iz dubine morske. Tako su pravednici oplijenili bezbožnike, proslavili pjesmom sveto ime tvoje i jednodušno su hvalili pobjednicu ruku tvoju, Gospodine Bože naš."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Graduále + Allelúia",
+   "hr": "Gradual + Aleluja",
+   "rows": [
+    {
+     "la": "Exodi 15, 11, Exodi 15, 6\n(Exodi 15, 11) Gloriósus Deus in Sanctis suis: mirábilis in maiestáte, fáciens prodígia. (Exodi 15, 6) Déxtera tua, Dómine, glorificáta est in virtúte: déxtera manus tua confrégit inimícos.",
+     "hr": "Izl 15, 11, Izl 15, 6\n(Izl 15, 11) Slavan je Bog u svojim svetima, divan u veličanstvu, čini čudesa. (Izl 15, 6) Snagom se proslavila desnica tvoja, Gospodine, desnica je tvoja uništila neprijatelje."
+    },
+    {
+     "la": "Eccli 44, 14\n<i>Allelúia</i>, <i>allelúia</i>.\nCórpora Sanctórum in pace sepúlta sunt, et nómina eórum vivent in generatiónem et generatiónem. <i>Allelúia</i>.",
+     "hr": "Sir 44, 14\n<i>Aleluja</i>, <i>aleluja</i>.\nTjelesa su svetih u miru sahranjena, a njihova imena žive od koljena do koljena. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 21, 9-19\nSequéntia sancti Evangélii secúndum Lucam. In illo témpore: Dixit Iesus discípulis suis: Cum audiéritis proélia et seditiónes, nolíte terréri: opórtet primum haec fíeri, sed nondum statim finis. Tunc dicébat illis: Surget gens contra gentem, et regnum advérsus regnum. Et terraemótus magni erunt per loca, et pestiléntiae, et fames, terrorésque de caelo, et signa magna erunt. Sed ante haec ómnia inícient vobis manus suas, et persequéntur, tradéntes in synagógas et custódias, trahéntes ad reges et praésides propter nomen meum: contínget autem vobis in testimónium. Pónite ergo in córdibus vestris non praemeditári quemádmodum respondeátis. Ego enim dabo vobis os et sapiéntiam, cui non póterunt resístere et contradícere omnes adversárii vestri. Tradémini autem a paréntibus, et frátribus, et cognátis, et amícis, et morte affícient ex vobis: et éritis ódio ómnibus propter nomen meum: et capíllus de cápite vestro non períbit. In patiéntia vestra possidébitis ánimas vestras.",
+     "hr": "Lk 21, 9-19\nSlijedi sveto Evanđelje po Luki. U ono vrijeme reče Isus svojim učenicima: Kad čujete da se govori o ratovima i bunama, nemojte se plašiti, jer treba da to bude prije, ali još nije odmah svršetak. Tada im reče: Ustat će narod na narod i kraljevstvo na kraljevstvo i na različitim će mjestima biti veliki potresi i kuge i glad i strahote, a na nebu veliki znaci. Ali prije svega toga stavit će na vas ruke i progoniti, predavat će vas u sinagoge i bacati u tamnice, radi mene povlačit će vas pred kraljeve i upravitelje. I to će vam se dogoditi da vi posvjedočite. Zato budite mirni i ne smišljajte unaprijed kako ćete odgovarati, jer ću vam ja dati riječ i mudrost kojoj se neće moći oprijeti ni usprotiviti nitko od svih vaših protivnika. Bit ćete izdani od roditelja i braće i rođaka i prijatelja, a neke će od vas usmrtiti. Svi će vas mrziti radi mene, ali neće propasti ni vlas s vaše glave. Svojom strpljivošću spasit ćete svoj život."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 67, 36\nMirábilis Deus in Sanctis suis: Deus Israel, ipse dabit virtútem et fortitúdinem plebi suae: benedíctus Deus. <i>Allelúia</i>.",
+     "hr": "Ps 67, 36\nDivan je Bog u svojim svetima. Bog Izraelov daje krepost i snagu puku svojemu. Blagoslovljen Bog. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Concéde nobis, omnípotens Deus: ut his munéribus, quae in sanctórum tuórum Nazárii, Celsi, Victóris et Innocéntii honóre deférimus, et te placémus exhíbitis, et nos vivificémur accéptis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Svemogući Bože, daj da po ovim darovima koje prinosimo na čast tvojih svetaca Nazarija, Celza, Viktora i Inocenta tebe umilostivimo a mi oživimo kad ih primimo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio commúnis",
+   "hr": "Predslovlje obično",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Per quem maiestátem tuam laudant Angeli, adórant Dominatiónes, tremunt Potestátes. Caeli caelorúmque Virtútes, ac beáta Séraphim, sócia exsultatióne concélebrant. Cum quibus et nostras voces ut admítti iúbeas, deprecámur, súpplici confessióne dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – Po njemu tvoje veličanstvo hvale anđeli, klanjaju se gospodstva i dršću vlasti. Nebesa i nebeske sile i blaženi serafini zajedničkim klicanjem slave. Daj, molimo, s njima i naše glase primi dok govorimo poniznim hvalospjevom:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Sap 3, 4 et 5 et 6\nEt si coram homínibus torménta passi sunt, Deus tentávit eos: tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit. eos.",
+     "hr": "Mudr 3, 4 i 5 i 6\nI ako su pred ljudima trpjeli muke, Bog ih je iskušao. Prokušao ih je kao zlato u peći i primio ih je kao žrtve paljenice."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nSanctórum Nazárii, Celsi, Victóris et Innocéntii, Dómine, intercessióne placátus: praesta, quaésumus; ut, quod temporáli celebrámus actióne, perpétua salvatióne capiámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nGospodine, umilostivljen zagovorom svetog Nazarija, Celza, Viktora i Inocenta daj nam, molimo, da zaslužimo spasenje u vječnost ovim djelom što ga izvršavamo u vremenu.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

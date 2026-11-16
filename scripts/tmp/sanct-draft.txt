@@ -1,0 +1,1098 @@
+01-00
+   DO: 01-00 [5|Duplex 2 class] Sanctissimi Nominis Iesu
+   HR: 
+01-01
+   DO: 01-01 [6|Duplex I classis] In Circumcisione Domini
+   HR: OSMINA BOŽIĆA {T:INED,IPON,IUTO C: White}
+01-02
+   DO: 
+   HR: 
+01-03
+   DO: 
+   HR: 
+01-04
+   DO: 
+   HR: 
+01-05
+   DO: 01-05cc [1.1|Simplex] S. Telesphori Papae et Martyris
+   HR: sv. Telesfor, papa i mučenik {T: C:low,low,low }
+01-06
+   DO: 01-06 [7|Duplex I classis] Epiphaniae Domini
+   HR: 
+01-07
+   DO: 01-07 [1.2|Feria] Secunda die infra Octavam Epiphaniae
+   HR: Sveta Obitelj Isusa, Marije i Josipa {T:IINED C: White}
+01-08
+   DO: 01-08 [1.2|Feria] Tertia die infra Octavam Epiphaniae
+   HR: Sveta Obitelj Isusa, Marije i Josipa {T:IINED C: White}
+01-09
+   DO: 01-09 [1.2|Feria] Quarta die infra Octavam Epiphaniae
+   HR: 
+01-10
+   DO: 01-10 [1.2|Feria] Quinta die infra Octavam Epiphaniae
+   HR: 
+01-11
+   DO: 01-11 [1.2|Feria] Sexta die infra Octavam Epiphaniae ~ 01-11cc [1.1|Simplex] S. Hygini Papæ et Martyris
+   HR: sv. Higin, papa i mučenik {T: C:low,low,low }
+01-12
+   DO: 01-12 [1.8|Feria] Septima die infra Octavam Epiphaniae
+   HR: 
+01-13
+   DO: 01-13 [5|Duplex II. classis] Die Octava Epiphaniae
+   HR: Krštenje Gospodina našega Isusa Krista {T:IIPET,IISUB C: White} ~ Sveta Obitelj Isusa, Marije i Josipa {T:IINED C: White}
+01-14
+   DO: 01-14 [3|Duplex] S. Hilarii Episcopi Confessoris Ecclesiae Doctoris ~ 01-14cc [1.1|Simplex] S. Felicis Presbyteri et Mart
+   HR: sv. Hilarij iz Poitiersa, biskup, priznavalac, naučitelj {T:IIISUB,IIIPON C: White} ~ sv. Feliks iz Nole, svećenik, mučenik {T: C:low,low }
+01-15
+   DO: 01-15 [3|Duplex] S. Pauli primi Eremitae et Confessoris ~ 01-15cc [1.1|Simplex] S. Mauri Abbatis
+   HR: sv. Pavao, prvi pustinjak, priznavalac {T:IIIPON,IIIUTO C: White} ~ sv. Mavro, opat {T: C:low,low }
+01-16
+   DO: 01-16 [2.2|Semiduplex] S. Marcelli Papae et Martyris
+   HR: sv. Marcel I, papa i mučenik {T:IIIPON,IIIUTO,IIISRI C: Red}
+01-17
+   DO: 01-17 [3|Duplex] S. S. Antonii Abbatis
+   HR: sv. Antun, opat {T:IIIUTO,IIISRI,IIIČET C: White}
+01-18
+   DO: 01-18r [1.1|Simplex] S Priscae Virginis
+   HR: sv. Priska, djevica, mučenica {T: C:low,low,low }
+01-19
+   DO: 01-19 [1.1|Simplex] S. Marii et Soc Mart ~ 01-19o [1.1|Simplex] S. Canuti Mart
+   HR: sv. Marije, sv. Marta, sv. Audifaks i sv. Abak, mučenici {T: C:low,low,low } ~ sv. Knut IV. Danski, kralj, mučenik {T: C:low,low,low }
+01-20
+   DO: 01-20 [3|Duplex] Ss. Fabiani et Sebastiani Martyrum
+   HR: sv. Fabijan, papa, i sv. Sebastijan, mučenici {T:IIIPET,IIISUB C: Red}
+01-21
+   DO: 01-21 [3|Duplex] S. Agnetis Virginis et Martyris
+   HR: sv. Agneza (Janja, Ines), djevica i mučenica {T:IIISUB,IIIPON C: Red}
+01-22
+   DO: 01-22 [2.2|Semiduplex] Ss. Vincentii et Anastasii Martyrum
+   HR: sv. Vinko i sv. Anastazije, mučenici {T:IIIPON,IIIUTO C: Red}
+01-23
+   DO: 01-23 [2.2|Semiduplex] S. Raymundi de Penafort Confessoris ~ 01-23o [1.1|Simplex] S. Emerentianae Virginis et Martyris
+   HR: sv. Rajmund Peñafortski, priznavalac {T:IIIPON,IIIUTO,IIISRI C: White} ~ sv. Emerencijana, djevica, mučenica {T: C:low,low,low }
+01-24
+   DO: 01-24 [3|Duplex] S. Timothei Episcopi et Martyris
+   HR: sv. Timotej, biskup i mučenik {T:IIIUTO,IIISRI,IIIČET C: Red}
+01-25
+   DO: 01-25r [4|Duplex majus] In Conversione S. Pauli Apostoli
+   HR: Obraćenje sv. Pavla {T:IIISRI,IIIČET,IIIPET C: White} ~ sv. Petar, apostol {T: C:SAME,SAME,SAME }
+01-26
+   DO: 01-26 [3|Duplex] S. Polycarpi Episcopi et Martyris
+   HR: sv. Polikarp, biskup i mučenik {T:IIIČET,IIIPET,IIISUB C: Red}
+01-27
+   DO: 01-27 [3|Duplex] S. Joannis Chrysostomi Episcopi Confessoris Ecclesiae Doctoris
+   HR: sv. Ivan Zlatousti, biskup, priznavalac, naučitelj {T:IIIPET,IIISUB C: White}
+01-28
+   DO: 01-28 [3|Duplex] S. Petri Nolasci Confessoris ~ 01-28t [1.1|Simplex] S. Agnetis Virginis Martyris secundo
+   HR: sv. Petar Nolasco, priznavalac {T:IIISUB,IIIPON C: White} ~ sv. Agneza (Janja, Ines), djevica, mučenica [na osminu njenog blagdana] {T: C:low,low } ~ Sedamdesetnica (Septuagesima) {T:IINED C: Violet}
+01-29
+   DO: 01-29 [3|Duplex] S. Francisci Salesii Episcopi Confessoris Ecclesiae Doctoris
+   HR: sv. Franjo Saleški, biskup, priznavalac, naučitelj {T:IIIPON,IIIUTO C: White}
+01-30
+   DO: 01-30 [2.2|Semiduplex] S. Martinae Virginis et Martyris
+   HR: sv. Martina, djevica i mučenica {T:IIIPON,IIIUTO,IIISRI C: Red}
+01-31
+   DO: 01-31 [3|Duplex] S.Joannis Bosco Confessoris
+   HR: sv. Ivan Bosco, priznavalac {T:IIIUTO,IIISRI,IIIČET C: White}
+02-01
+   DO: 02-01 [3|Duplex] S. Ignatii Episcopi et Martyris
+   HR: sv. Ignacije Antiohijski, biskup i mučenik {T:IIISRI,IIIČET,IIIPET C: Red}
+02-02
+   DO: 02-02 [5.1|Duplex 2 class] In Purificatione Beatae Mariae Virginis
+   HR: Očišćenje BDM (Svijećnica, Kandelora) [napomena: blagdan Gospodnji, a ne Marijin] {T:IIČET,IIPET,IISUB C: White}
+02-03
+   DO: 02-03 [1.1|Simplex] S. S. Blasii Episcopi et Martyris
+   HR: sv. Blaž (Vlaho), biskup, mučenik {T: C:low,low }
+02-04
+   DO: 02-04 [3|Duplex] S. Andreae Corsini Episcopi et Confessoris
+   HR: sv. Andrija Corsini, biskup, priznavalac {T:IIISUB,IIIPON C: White} ~ Šezdesetnica (Sexagesima) {T:IINED C: Violet}
+02-05
+   DO: 02-05 [3|Duplex] S. Agathae Virginis et Martyris
+   HR: sv. Agata, djevica i mučenica {T:IIIPON,IIIUTO C: Red}
+02-06
+   DO: 02-06 [2.1|Duplex] S. Titi Episc et Confessoris ~ 02-06o [1.1|Simplex] S. Dorotheæ, Virginis et Martyris
+   HR: sv. Tito, biskup, priznavalac {T:IIIPON,IIIUTO,IIISRI C: White} ~ sv. Doroteja iz Cezareje, djevica, mučenica {T: C:low,low,low }
+02-07
+   DO: 02-07 [2.1|Duplex] S. Romualdi Abbatis
+   HR: sv. Romuald, opat {T:IIIUTO,IIISRI,IIIČET C: White}
+02-08
+   DO: 02-08 [2.1|Duplex] S. S. Joannis de Matha Confessoris
+   HR: sv. Ivan iz Mate, priznavalac {T:IIISRI,IIIČET,IIIPET C: White}
+02-09
+   DO: 02-09 [2.1|Duplex] S. Cyrilli Episc Alexandrini Confessoris Ecclesiae Doctoris ~ 02-09o [1.1|Simplex] S. Apolloniae Virginis et Martyris
+   HR: sv. Ćiril Aleksandrijski, biskup, priznavalac, naučitelj {T:IIIČET,IIIPET,IIISUB C: White} ~ sv. Apolonija, djevica, mučenica {T: C:low,low,low }
+02-10
+   DO: 02-10 [3|Duplex] S. Scholasticae Virginis
+   HR: sv. Skolastika, djevica {T:IIIPET,IIISUB C: White}
+02-11
+   DO: 02-11 [2.1|Duplex] In apparitione Beatae Mariae Virginis
+   HR: Ukazanje BDM bezgrešno začete u Lourdesu (Gospa Lurdska) {T:IIISUB,IIIPON C: White} ~ Pedesetnica (Quinquagesima) {T:IINED C: Violet}
+02-12
+   DO: 02-12 [2.1|Duplex] Ss. Septem Fundatorum Ordinis Servorum B. M. V.
+   HR: Sedamdesetnica (Septuagesima) {T:IINED C: Violet} ~ sedam osnivača Reda slugu BDM (Ordo Servorum Beatae Mariae Virginis), priznavaoci {T:IIIPON,IIIUTO C: White}
+02-13
+   DO: 
+   HR: 
+02-14
+   DO: 02-14 [1.1|Simplex] S. Valentini Presbyteri et Martyris
+   HR: sv. Valentin, svećenik, mučenik {T: C:low,low }
+02-15
+   DO: 02-15 [1.1|Simplex] Ss. Faustini et Jovitae Martyrum
+   HR: sv. Faustin i Jovita, mučenici {T: C:low,low,low }
+02-16
+   DO: 
+   HR: 
+02-17
+   DO: 
+   HR: Sedamdesetnica (Septuagesima) {T:IINED C: Violet}
+02-18
+   DO: 02-18 [1.1|Simplex] S. Simeonis Episcopi et Martyris
+   HR: sv. Šimun Jeruzalemski, biskup, mučenik {T: C:low,low }
+02-19
+   DO: 
+   HR: Šezdesetnica (Sexagesima) {T:IINED C: Violet}
+02-20
+   DO: 
+   HR: 
+02-21
+   DO: 
+   HR: 
+02-22
+   DO: 02-22 [5|Duplex II classis] In Cathedra S. Petri Ap Antiochiae
+   HR: Katedra sv. Petra {T:IISRI,IIČET,IIPET C: White} ~ sv. Pavao, apostol {T: C:SAME,SAME,SAME }
+02-23
+   DO: 02-23r [2.1|Duplex] S. Petri Damiani
+   HR: sv. Petar Damiani, priznavalac {T:IIIČET,IIISUB C:low White}
+02-24
+   DO: 02-24 [5|Duplex II classis] S. Matthiae Apostoli
+   HR: sv. Matija, apostol {T:IIPET,IISUB C:low Red} ~ Šezdesetnica (Sexagesima) {T:IINED C: Violet}
+02-25
+   DO: 
+   HR: 
+02-26
+   DO: 
+   HR: Pedesetnica (Quinquagesima) {T:IINED C: Violet}
+02-27
+   DO: 02-27 [2.1|Duplex] S. Gabrielis a Virgine Perdolente Confessoris
+   HR: sv. Gabrijel od Žalosne Gospe, priznavalac {T:IIIPON,IIISRI C:low White}
+02-28
+   DO: 
+   HR: 
+03-01
+   DO: 
+   HR: 
+03-02
+   DO: 
+   HR: 
+03-03
+   DO: 
+   HR: Pedesetnica (Quinquagesima) {T:IINED C: Violet}
+03-04
+   DO: 03-04 [2.1|Duplex] S. Casimiri ~ 03-04cc [1.1|Simplex] S. Lucii I Papae et Martyris
+   HR: sv. Kazimir Poljski, priznavalac {T:IIIPON C:low White} ~ sv. Lucije I., papa, mučenik {T: C:low,low }
+03-05
+   DO: 
+   HR: 
+03-06
+   DO: 03-06 [3|Duplex] Ss. Perpetuae et Felicitatis Martyrum
+   HR: sv. Perpetua i sv. Felicita, mučenice {T: C:low,low }
+03-07
+   DO: 03-07 [2.1|Duplex] S. Thomae de Aquino Confessoris Ecclesiae Doctoris
+   HR: sv. Toma Akvinski, priznavalac i naučitelj {T: C:low,low,low }
+03-08
+   DO: 03-08 [2.1|Duplex] S. Joannis de Deo Confessoris
+   HR: sv. Ivan od Boga, priznavalac {T: C:low,low,low }
+03-09
+   DO: 03-09 [3|Duplex] S. Franciscae Viduae Romanae
+   HR: sv. Franciska Rimska, udovica {T: C:low,low,low }
+03-10
+   DO: 03-10 [2.1|Semiduplex] Ss. Quadraginta Martyrum
+   HR: svetih 40 mučenika iz Sebaste {T: C:low,low }
+03-11
+   DO: 
+   HR: 
+03-12
+   DO: 03-12 [2.1|Duplex] S. Gregorii Papae Confessoris et Eccl Doct
+   HR: sv. Grgur I. Veliki, papa, priznavalac i naučitelj {T: C:low,low }
+03-13
+   DO: 
+   HR: 
+03-14
+   DO: 
+   HR: 
+03-15
+   DO: 
+   HR: 
+03-16
+   DO: 
+   HR: 
+03-17
+   DO: 03-17 [2|Duplex] S. Patritii Episcopi et Conf
+   HR: sv. Patrik, biskup, priznavalac {T: C:low,low }
+03-18
+   DO: 03-18 [2.1|Semiduplex] S. Cyrilli Episc Hierosolymitani Eccl Doct
+   HR: sv. Ćiril Jeruzalemski, biskup, priznavalac, naučitelj {T: C:low,low }
+03-19
+   DO: 03-19 [6|Duplex I classis] S. Joseph sponsi BMV confessoris
+   HR: SV. JOSIP, ZARUČNIK BDM, PRIZNAVALAC, ZAŠTITNIK SVEOPĆE CRKVE {T:IPON,IUTO C: White}
+03-20
+   DO: 
+   HR: SV. JOSIP, ZARUČNIK BDM, PRIZNAVALAC, ZAŠTITNIK SVEOPĆE CRKVE {T:IPON C: White}
+03-21
+   DO: 03-21 [2.1|Duplex] S. Benedicti Abbatis
+   HR: sv. Benedikt, opat {T: C:low,low,low }
+03-22
+   DO: 
+   HR: 
+03-23
+   DO: 
+   HR: Sedam žalosti BDM {T: C:low }
+03-24
+   DO: 03-24 [2.1|Duplex] S. Gabrielis Archangeli
+   HR: sv. Gabrijel, arkanđeo {T: C:low,low }
+03-25
+   DO: 03-25 [6.5|Duplex I classis] In Annuntiatione Beate Mariæ Virginis
+   HR: BLAGOVIJEST {T:ISUB,IPON C: White}
+03-26
+   DO: 
+   HR: 
+03-27
+   DO: 03-27 [2.1|Duplex] S. Joannis Damascene Confessor et Ecclesiae Doctoris
+   HR: sv. Ivan Damašćanin, priznavalac, naučitelj {T: C:low,low }
+03-28
+   DO: 03-28 [2.1|Semiduplex] S. Joannis Capistrano Confessoris
+   HR: sv. Ivan Kapistran, priznavalac {T: C:low,low }
+03-29
+   DO: 
+   HR: 
+03-30
+   DO: 
+   HR: 
+03-31
+   DO: 
+   HR: 
+04-01
+   DO: 
+   HR: 
+04-02
+   DO: 04-02 [3|Duplex] S. Francisci de Paula Confessoris
+   HR: sv. Franjo Paulski, priznavalac {T: C:low }
+04-03
+   DO: 
+   HR: 
+04-04
+   DO: 04-04 [2.1|Duplex] S. Isidori Episc Confessoris et Ecclesiae Doctoris
+   HR: sv. Izidor Seviljski, biskup, priznavalac, naučitelj {T: C:low,low }
+04-05
+   DO: 04-05 [2.1|Duplex] S. Vincentii Ferrerii Confessoris
+   HR: sv. Vinko Ferrer, priznavalac {T: C:low,low }
+04-06
+   DO: 
+   HR: 
+04-07
+   DO: 
+   HR: Sedam žalosti BDM {T: C:low }
+04-08
+   DO: 
+   HR: 
+04-09
+   DO: 
+   HR: BLAGOVIJEST {T:IPON C: White}
+04-10
+   DO: 
+   HR: 
+04-11
+   DO: 04-11 [2.1|Duplex] S. Leonis I Papae Confessoris
+   HR: sv. Lav I. Veliki, papa, priznavalac, naučitelj {T:IIISRI C:low White}
+04-12
+   DO: 
+   HR: Sedam žalosti BDM {T: C:low }
+04-13
+   DO: 04-13 [2.1|Semiduplex] S. Hermenegildi Martyris
+   HR: sv. Hermenegild, mučenik {T:IIIPET C:low Red}
+04-14
+   DO: 04-14 [2.1|Duplex] S. Justini Martyris ~ 04-14t [1.1|Simplex] Ss. Tiburtii, Valeriani et Maximi, Martyrum
+   HR: sv. Justin, mučenik {T:IIISUB C: Red} ~ sv. Tiburcij, sv. Valerijan i sv. Maksim, mučenici {T: C:low }
+04-15
+   DO: 
+   HR: 
+04-16
+   DO: 
+   HR: 
+04-17
+   DO: 04-17 [1.1|Simplex] S. Aniceti Papae et Martyris
+   HR: sv. Anicet, papa, mučenik {T: C:low }
+04-18
+   DO: 
+   HR: 
+04-19
+   DO: 
+   HR: 
+04-20
+   DO: 
+   HR: 
+04-21
+   DO: 04-21 [3|Duplex] S. Anselmi Episcopi Confessoris et Ecclesiae Doctoris
+   HR: sv. Anzelmo Kenterberijski, biskup, priznavalac, naučitelj {T:IIISUB C: White}
+04-22
+   DO: 04-22 [2.2|Semiduplex] Ss. Soteris et Caji Pontifices et Martyres
+   HR: 
+04-23
+   DO: 04-23 [1.1|Simplex] S. Georgii Martyris
+   HR: sv. Juraj, mučenik {T: C:low }
+04-24
+   DO: 04-24 [3|Duplex] S. Fidelis Sigmaringa Martyris
+   HR: sv. Fidelije Sigmaringenski, mučenik {T:IIIPON,IIIUTO C: Red}
+04-25
+   DO: 04-25 [5|Duplex II classis] S. Marci Evangelistae
+   HR: sv. Marko, evanđelist {T:IIUTO,IISRI C: Red}
+04-26
+   DO: 04-26 [2.5|Semiduplex] S. Cleti et Marcellini Pontif Martyrum
+   HR: sv. Kleto, papa i sv. Marcelin, papa, mučenici {T:IIISRI,IIIČET C: Red}
+04-27
+   DO: 04-27 [3|Duplex] S. Petri Canisii Confessoris et Ecclesiae Doctoris
+   HR: sv. Petar Kanizij, priznavalac, naučitelj {T:IIIČET,IIIPET C: White}
+04-28
+   DO: 04-28 [3|Duplex] S. Pauli a Cruce Confessoris
+   HR: sv. Pavao od Križa, priznavalac {T:IIIPET,IIISUB C: White}
+04-29
+   DO: 04-29 [3|Duplex] S. Petri Martyris
+   HR: sv. Petar Veronski, mučenik {T:IIISUB,IIIPON C: Red}
+04-30
+   DO: 04-30 [3|Duplex] S. Catharinae Senensis Virginis
+   HR: sv. Katarina Sijenska, djevica, naučiteljica {T:IIIPON,IIIUTO C: White}
+05-01
+   DO: 05-01r [6|Duplex I classis] S. Joseph Opificis
+   HR: SV. JOSIP RADNIK, SUPRUG BDM, PRIZNAVALAC {T:IPON,IUTO,ISRI C: White}
+05-02
+   DO: 05-02 [3|Duplex] S. Athanasii Confessoris Ecclesiae Doctoris
+   HR: sv. Atanazije, biskup, priznavalac, naučitelj {T:IIIUTO,IIISRI,IIIČET C: White}
+05-03
+   DO: 05-03r [1.1|Simplex] Ss. Alexandri et sociorum Martyrum
+   HR: sv. Aleksandar I., papa, sv. Evencij i sv. Teodul, mučenici, sv. Juvenal, biskup, priznavalac {T: C:low,low,low }
+05-04
+   DO: 05-04 [3|Duplex] S. Monica Vidua
+   HR: sv. Monika, udovica {T:IIIČET,IIIPET,IIISUB C: White}
+05-05
+   DO: 05-05 [3|Duplex] S. Pii V Papae Confessoris
+   HR: sv. Pio V., papa, priznavalac {T:IIIPET,IIISUB C: White}
+05-06
+   DO: 
+   HR: 
+05-07
+   DO: 05-07 [3|Duplex] S. Stanislai Episcopi Martyri
+   HR: sv. Stanislav, biskup, mučenik {T:IIIPON,IIIUTO C: Red}
+05-08
+   DO: 
+   HR: 
+05-09
+   DO: 05-09 [3|Duplex] S. Gregorii Nazianzi Episcopi Confessoris Ecclasiae Doctorum
+   HR: sv. Grgur Nazijanski, biskup, priznavalac, naučitelj {T:IIIUTO,IIIČET C:low White}
+05-10
+   DO: 05-10 [3|Duplex] S. Antonii Episcopi Confessoris ~ 05-10o [1.1|Simplex] Ss. Gordiani et Epimachi Martyri
+   HR: sv. Antonin Firentinski, biskup, priznavalac {T:IIISRI,IIIPET C: White} ~ sv. Gordijan i Epimah, mučenici {T: C:low,low }
+05-11
+   DO: 05-11r [5|Duplex II classis] Ss. Philippi et Jacobi Apostolorum
+   HR: sv. Filip i sv. Jakov (Mlađi), apostoli {T:IIČET,IIPET,IISUB C: Red}
+05-12
+   DO: 05-12 [2.2|Semiduplex] Ss. Nerei, Achillei et Domitillae Virgini atque Pancratii Martyrum
+   HR: sv. Nerej, sv. Ahilej, sv. Domitila, djevica, i sv. Pankracije, mučenici {T:IIIPET,IIISUB C: Red}
+05-13
+   DO: 05-13 [3|Duplex] S.Roberti Ballarmino Episcopi Confessoris et Ecclesiae Doctoris
+   HR: sv. Robert Bellarmino, biskup, priznavalac, naučitelj {T:IIISUB,IIIPON C: White}
+05-14
+   DO: 05-14 [1.1|Simplex] S. Bonifacii Martyri
+   HR: sv. Bonifacije iz Tarza, mučenik {T: C:low,low }
+05-15
+   DO: 05-15 [3|Duplex] S. Joanni Baptistae de la Salle Confessoris
+   HR: sv. Ivan de la Salle, priznavalac {T:IIIPON,IIIUTO,IIISRI C: White}
+05-16
+   DO: 05-16 [2.2|Semiduplex] S. Ubaldi Episcopi Confessoris
+   HR: sv. Ubald iz Gubbija, biskup, priznavalac {T:IIIUTO,IIISRI,IIIČET C: White}
+05-17
+   DO: 05-17 [3|Duplex] S. Paschalis Baylon Confessoris
+   HR: sv. Paskal Baylon, priznavalac {T:IIISRI,IIIČET,IIIPET C: White}
+05-18
+   DO: 05-18 [3|Duplex] S. Venantii Martyris
+   HR: sv. Venancij, mučenik {T:IIIČET,IIIPET,IIISUB C: Red}
+05-19
+   DO: 05-19 [3|Duplex] S. Petri Celestini Papae Confessoris ~ 05-19o [1.1|Simplex] S. Pudentianae
+   HR: sv. Petar Celestin (Celestin V.), papa, priznavalac {T:IIIPET C: White} ~ sv. Pudencijana, djevica, mučenica {T: C:low }
+05-20
+   DO: 05-20 [2.2|Semiduplex] S. Bernardini Senensis Confessoris
+   HR: sv. Bernardin Sijenski, priznavalac {T:IIISUB,IIIPON C: White}
+05-21
+   DO: 
+   HR: 
+05-22
+   DO: 
+   HR: 
+05-23
+   DO: 
+   HR: 
+05-24
+   DO: 
+   HR: 
+05-25
+   DO: 05-25 [3|Duplex] S. Gregory VII Papae Confessoris ~ 05-25o [1.1|Simplex] S. Urbani I Pp et Martyris
+   HR: sv. Grgur VII., papa, priznavalac {T:IIISUB C: White} ~ sv. Urban I., papa, mučenik {T: C:low }
+05-26
+   DO: 05-26 [3|Duplex] S. Philippi Neri Confessoris ~ 05-26o [1.1|Simplex] S. Eleutherius pope and martyr
+   HR: sv. Filip Neri, priznavalac {T:IIIPET C: White} ~ sv. Eleuterije, papa, mučenik {T: C:low }
+05-27
+   DO: 05-27 [3|Duplex] S. Bedæ Venerabilis Confessoris et Ecclesiæ Doctoris ~ 05-27o [1.1|Simplex] S. Joanne Papa et Mart
+   HR: sv. Beda Časni, priznavalac, naučitelj {T:IIISUB,IIIPON C: White} ~ sv. Ivan I., papa, mučenik {T: C:low,low }
+05-28
+   DO: 05-28 [3|Duplex] S. Augustini Episcopi Confessoris
+   HR: sv. Augustin Kenterberijski, biskup, priznavalac {T:IIIPON,IIIUTO C: White}
+05-29
+   DO: 05-29 [2.2|Semiduplex] S. Mariae Magdalenae de Pazzis
+   HR: sv. Marija Magdalena Pazzi, djevica {T:IIIPON,IIIUTO C:low White}
+05-30
+   DO: 05-30 [1.1|Simplex] S. Felicis Papae et Martyris
+   HR: sv. Feliks I., papa, mučenik {T: C:low,low }
+05-31
+   DO: 05-31 [5.1|Duplex II classis] Beatae Mariae Virginis Regina ~ 05-31o [1.1|Simplex] S. Petronillae Virginis
+   HR: BDM Kraljica {T:IISRI,IIPET C: White} ~ sv. Petronila, djevica, mučenica {T: C:low,low }
+06-01
+   DO: 06-01 [3|Duplex] S. Angelae Mericiae Virginis
+   HR: sv. Anđela Merici, djevica {T:IIIČET,IIIPET,IIISUB C: White}
+06-02
+   DO: 06-02 [1.1|Simplex] Ss. Marcellini, Petri, atque Erasmi Martyrum
+   HR: sv. Marcelin, svećenik i sv. Petar,egzorcist, mučenici, sv. Erazmo Formijski, biskup, mučenik {T: C:low,low }
+06-03
+   DO: 
+   HR: 
+06-04
+   DO: 06-04 [3|Duplex] S. Francisci Caracciolo Confessoris
+   HR: sv. Franjo Caracciolo, priznavalac {T:IIIPON,IIIUTO C: White}
+06-05
+   DO: 06-05 [3|Duplex] S. Bonifacii Episc et Mart
+   HR: sv. Bonifacije (apostol Njemačke), biskup, mučenik {T:IIIUTO,IIISRI C: Red}
+06-06
+   DO: 06-06 [3|Duplex] S. Norberti Episc et Confessoris
+   HR: sv. Norbert Ksantenski, biskup, priznavalac {T:IIISRI,IIIČET C: White}
+06-07
+   DO: 
+   HR: 
+06-08
+   DO: 
+   HR: 
+06-09
+   DO: 06-09 [1.1|Simplex] Ss. Primi et Feliciani Martyrum
+   HR: sv. Primo i sv. Felicijan, mučenici {T: C:low }
+06-10
+   DO: 06-10 [2.2|Semiduplex] S. Margaritae Reginae viduae
+   HR: 
+06-11
+   DO: 06-11 [3|Duplex] S. Barnabae Apostoli
+   HR: sv. Barnaba, apostol {T:IIIPON C: Red}
+06-12
+   DO: 06-12 [3|Duplex] S. Joannis a S Facundo Confessoris ~ 06-12o [1.1|Simplex] SS Martyrum
+   HR: sv. Ivan iz Svetog Fakunda, priznavalac {T:IIIPON,IIIUTO C: White} ~ sv. Bazilid, sv. Cirin, sv. Nabor i sv. Nazarije, mučenici {T: C:low,low }
+06-13
+   DO: 06-13 [3|Duplex] S. Antonii de Padua Confessoris (1946: & Ecclesiae Doctoris)
+   HR: sv. Antun Padovanski, priznavalac, naučitelj {T:IIIUTO,IIISRI C: White}
+06-14
+   DO: 06-14 [3|Duplex] S. Basilii Magni Confessoris et Ecclesiae Doctoris
+   HR: sv. Bazilije Veliki, biskup, priznavalac, naučitelj {T:IIISRI,IIIČET C: White}
+06-15
+   DO: 06-15 [1.1|Simplex] Ss. Viti, Modesti atque Crescentiae Martyrum
+   HR: sv. Vid, sv. Modest i sv. Krescencija, mučenici {T: C:low }
+06-16
+   DO: 
+   HR: 
+06-17
+   DO: 06-17r [3|Duplex] S. Gregorii Barbadici Ep. Conf
+   HR: sv. Grgur Barbarigo, biskup, priznavalac {T:IIISUB,IIIPON C: White}
+06-18
+   DO: 06-18 [3|Duplex] S. Ephraem Syri Confessorem et Ecclesiae Doctorem ~ 06-18t [1.1|Simplex] Ss. Marci et Marcellini Martyrum
+   HR: sv. Efrem Sirijski, đakon, priznavalac, naučitelj {T:IIIPON,IIIUTO C: White} ~ sv. Marko i sv. Marcelijan, đakoni, mučenici {T: C:low,low }
+06-19
+   DO: 06-19 [3|Duplex] S. Julianae de Falconeriis Virginae ~ 06-19o [1.1|Simplex] Ss. Gervasii et Protasii Mart
+   HR: sv. Julijana Falconieri, djevica {T:IIIPON,IIIUTO,IIISRI C: White} ~ sv. Gervazije i sv. Protazije, mučenici {T: C:low,low,low }
+06-20
+   DO: 06-20 [1.1|Simplex] S. Sylverii Papae et Martyri
+   HR: sv. Silverije, papa, mučenik {T: C:low,low }
+06-21
+   DO: 06-21 [3|Duplex] S. Alosii Gonzage Confessoris
+   HR: sv. Alojzije Gonzaga, priznavalac {T:IIISRI,IIIČET,IIIPET C: White}
+06-22
+   DO: 06-22 [3|Duplex] S. Paulini episcopi et Confessoris
+   HR: sv. Paulin iz Nole, biskup, priznavalac {T:IIIČET,IIIPET,IIISUB C: White}
+06-23
+   DO: 06-23 [5|Duplex II classis] Vigilia S. Joannis Baptistae
+   HR: bdijenje uoči rođendana sv. Ivana Krstitelja {T:IISUB C: Violet}
+06-24
+   DO: 06-24 [6|Duplex I classis] In Nativitate S. Joannis Baptistae
+   HR: ROĐENJE SV. IVANA KRSTITELJA {T:ISUB,INED,IPON C: White}
+06-25
+   DO: 06-25 [3|Duplex] S. Gulielmi Abbatis
+   HR: sv. Vilim iz Vercellija (Monte Vergine), opat {T:IIIPON,IIIUTO C: White}
+06-26
+   DO: 06-26 [3|Duplex] Ss. Joannis et Pauli Martyrum
+   HR: sv. Ivan i Pavao iz Rima, mučenici {T:IIIPON,IIIUTO,IIISRI C: Red}
+06-27
+   DO: 
+   HR: 
+06-28
+   DO: 06-28r [5|Duplex II classis] Vigilia Ss. Petri et Pauli Apostolorum
+   HR: bdijenje uoči dana sv. Petra i sv. Pavla, apostola {T:IISRI,IIČET C: Violet}
+06-29
+   DO: 06-29 [6|Duplex I classis] Ss. Apostolorum Petri et Pauli
+   HR: SV. PETAR I SV. PAVAO, APOSTOLI {T:IČET,IPET,ISUB C: Red}
+06-30
+   DO: 06-30 [3|Duplex] In Commemoratione Sancti Pauli Apostoli
+   HR: Spomen sv. Pavla, apostola {T:IIIPET,IIISUB C: Red} ~ sv. Petar, apostol {T: C:SAME,SAME }
+07-01
+   DO: 07-01 [6|Duplex I classis] Pretiosissimi Sanguinis Domini Nostri Jesu Christi
+   HR: PREDRAGOCJENA KRV GOSPODINA NAŠEGA ISUSA KRISTA {T:ISUB,INED,IPON C: Red}
+07-02
+   DO: 07-02 [5.1|Duplex II classis] In Visitatione B Mariae Virginis ~ 07-02cc [1.1|Simplex] Ss. Processi et Martiniani Martyrum
+   HR: Pohod BDM {T:IIPON,IIUTO C:low White} ~ sv. Proceso i sv. Martinijan, mučenici {T: C:low,low }
+07-03
+   DO: 07-03r [3|Duplex] S. Irenaei Episcopi et Martyris
+   HR: sv. Irenej (Irinej) Lionski, biskup, mučenik {T:IIIPON,IIIUTO,IIISRI C: Red}
+07-04
+   DO: 
+   HR: 
+07-05
+   DO: 07-05 [3|Duplex] S. Antonii Mariae Zacharia Confessor
+   HR: sv. Antun Marija Zaccaria, priznavalac {T:IIISRI,IIIČET,IIIPET C: White}
+07-06
+   DO: 
+   HR: 
+07-07
+   DO: 07-07 [3|Duplex] Ss. Cyrilli et Methodii Pont et Conf
+   HR: sv. Ćiril i sv. Metod, biskupi, priznavaoci {T:IIIPET,IIISUB C: White}
+07-08
+   DO: 07-08 [2.2|Semiduplex] S. Elisabeth Reg Portugaliae Viduae
+   HR: sv. Elizabeta Aragonska, kraljica, udovica {T:IIISUB,IIIPON C: White}
+07-09
+   DO: 
+   HR: 
+07-10
+   DO: 07-10 [2.2|Semiduplex] Ss. Septem Fratrum Martyrum, ac Rufinae et Secundae Virgini et Martyri
+   HR: svetih 7 rimskih mučenika, sv. Rufina, djevica i mučenica, sv. Sekunda, djevica i mučenica {T:IIIPON,IIIUTO,IIISRI C: Red}
+07-11
+   DO: 07-11 [1.1|Simplex] S. Pii I Papae et Martyris
+   HR: sv. Pio I., papa, mučenik {T: C:low,low,low }
+07-12
+   DO: 07-12 [3|Duplex] S. Joannis Gualberti Abbatis ~ 07-12o [1.1|Simplex] Ss. Naboris et Felicis Mart
+   HR: sv. Ivan Gualbert, opat {T:IIISRI,IIIČET,IIIPET C: White} ~ sv. Nabor i sv. Feliks, mučenici {T: C:low,low,low }
+07-13
+   DO: 
+   HR: 
+07-14
+   DO: 07-14 [3|Duplex] S. Bonaventurae Episcopi Confessoris (1588: et Ecclesiae Doctoris)
+   HR: sv. Bonaventura, biskup, priznavalac, naučitelj {T:IIIPET,IIISUB C: White}
+07-15
+   DO: 07-15 [2.2|Semiduplex] S. Henrici Imperatoris Confessoris
+   HR: sv. Henrik II. Njemački, car, priznavalac {T:IIISUB,IIIPON C: White}
+07-16
+   DO: 07-16 [1.1|Simplex] In Commemoratione Beatae Mariae Virginis de Monte Carmelo
+   HR: Gospa Karmelska {T: C:low,low }
+07-17
+   DO: 07-17 [1.1|Simplex] S. Alexii Confessoris
+   HR: sv. Aleksije, priznavalac {T: C:low,low,low }
+07-18
+   DO: 07-18 [3|Duplex] S. Camilli de Lellis Confessoris ~ 07-18o [1.1|Simplex] pro Ss. Symphorosa et septem filiis Martyribus
+   HR: sv. Kamilo de Lellis, priznavalac {T:IIIUTO,IIISRI,IIIČET C: White} ~ sv. Simforoza i njenih sedam sinova, mučenici {T: C:low,low,low }
+07-19
+   DO: 07-19 [3|Duplex] S. Vincentii a Paulo Conf
+   HR: sv. Vinko Paulski, priznavalac {T:IIISRI,IIIČET,IIIPET C: White}
+07-20
+   DO: 07-20 [3|Duplex] S. Hieronomy Emiliani Conf ~ 07-20o [1.1|Simplex] S. Margaritæ, Virginis et Martyris
+   HR: sv. Jeronim Emiliani, priznavalac {T:IIIČET,IIIPET,IIISUB C: White} ~ sv. Margareta iz Antiohije Pizidijske, djevica, mučenica {T: C:low,low,low }
+07-21
+   DO: 07-21r [3|Duplex] S. Laurentii de Brundusio Confessoris et Ecclesiae Doctoris ~ 07-21 [1.1|Simplex] S. Praxedis Virginis
+   HR: sv. Lovro Brindizijski, priznavalac, naučitelj {T:IIIPET,IIISUB C: White} ~ sv. Prakseda, djevica, mučenica {T: C:low,low }
+07-22
+   DO: 07-22 [3|Duplex] S. Mariae Magdalenae Poenitentis
+   HR: sv. Marija Magdalena, pokajnica {T:IIISUB,IIIPON C: White}
+07-23
+   DO: 07-23 [3|Duplex] S. Apollinaris Episcopi et Mart ~ 07-23cc [1.1|Simplex] S. Liborii Ep Conf
+   HR: sv. Apolinar iz Ravenne, mučenik {T:IIIPON,IIIUTO C: Red} ~ sv. Liborije iz Le Mansa, biskup, priznavalac {T: C:low,low }
+07-24
+   DO: 07-24r [1.1|Simplex] S. Christinae Virginis Martyris
+   HR: sv. Kristina Tirska, djevica, mučenica {T: C:low,low,low }
+07-25
+   DO: 07-25 [5|Duplex II classis] S. Jacobi Apostoli ~ 07-25cc [1.1|Simplex] S. Christophori Mart
+   HR: sv. Jakov (Stariji, Zebedejev), apostol {T:IIUTO,IISRI,IIČET C: Red} ~ sv. Kristofor, mučenik {T: C:low,low,low }
+07-26
+   DO: 07-26 [5|Duplex II classis] S. Annae Matris BMV
+   HR: sv. Ana, majka BDM {T:IISRI,IIČET,IIPET C: White}
+07-27
+   DO: 07-27 [1.1|Simplex] S. Pantaleon Martyr
+   HR: sv. Pantaleon, mučenik {T: C:low,low,low }
+07-28
+   DO: 07-28 [3|Semiduplex] Ss. Nazarii et Celsi Martyrum
+   HR: sv. Nazarije i sv. Celzo, mučenici, sv. Viktor I., papa, mučenik, sv. Inocent I., papa, priznavalac {T:IIIPET,IIISUB C: Red}
+07-29
+   DO: 07-29 [3|Duplex] S. Marthae Virginis ~ 07-29cc [1.1|Simplex] Ss. Felicis, Simplicii, Faustini et Beatricis Mart
+   HR: sv. Marta, djevica {T:IIISUB,IIIPON C: White} ~ sv. Feliks, sv. Simplicije, sv. Faustin i sv. Beatrica, mučenici {T: C:low,low }
+07-30
+   DO: 07-30 [1.1|Simplex] S. Abdon et Senen Martyrum
+   HR: sv. Abdon i sv. Senen, mučenici {T: C:low,low }
+07-31
+   DO: 07-31 [4|Duplex majus] S. Ignatii Confessoris
+   HR: sv. Ignacije Lojolski, priznavalac {T:IIIPON,IIIUTO,IIISRI C: White}
+08-01
+   DO: 08-01r [1.1|Simplex] Ss. Martyrum Machabaeorum
+   HR: Makabejski mučenici {T: C:low,low,low }
+08-02
+   DO: 08-02 [3|Duplex] S. Alphonsi Mariae de Ligorio Episc Conf et Eccles Doct ~ 08-02o [1.1|Simplex] St Stephano Papae Martyris
+   HR: sv. Alfons Marija Liguori, biskup, priznavalac, naučitelj {T:IIISRI,IIIČET,IIIPET C: White} ~ sv. Stjepan I, papa, mučenik {T: C:low,low,low }
+08-03
+   DO: 
+   HR: 
+08-04
+   DO: 08-04 [4|Duplex majus] S. Dominici Confessoris
+   HR: sv. Dominik de Guzmán, priznavalac {T:IIIPET,IIISUB C: White}
+08-05
+   DO: 08-05 [4|Duplex majus] S. Mariae ad Nives
+   HR: Posveta bazilike sv. Marije od Snijega (Gospa Snježna) {T:IIISUB,IIIPON C: White}
+08-06
+   DO: 08-06 [5.1|Duplex II classis] Transfiguratio Domini Nostri Jesu Christi ~ 08-06cc [1.1|Simplex] Ss. Xysti Felicissimi et Agapiti Martyrum
+   HR: Preobraženje Gospodina našega Isusa Krista {T:IINED,IIPON,IIUTO C: White} ~ sv. Siksto II., papa, sv. Felicisimo i Agapit, mučenici {T: C:low,low }
+08-07
+   DO: 08-07 [3|Duplex] S. Cajetani Confessoris ~ 08-07o [1.1|Simplex] S. Donati Ep et Mart
+   HR: sv. Kajetan iz Vincenze, priznavalac {T:IIIPON,IIIUTO,IIISRI C: White} ~ sv. Donat iz Arezza, biskup, mučenik {T: C:low,low,low }
+08-08
+   DO: 08-09 [3|Duplex] S. Joannis Vianney Confessoris ~ 08-08 [1.1|Simplex] Ss. Cyriacii et socii maryres
+   HR: sv. Ivan Marija Vianney, svećenik, priznavalac {T:IIIUTO,IIISRI,IIIČET C: White} ~ sv. Cirijak, sv. Largo i sv. Smaragd, mučenici {T: C:low,low,low }
+08-09
+   DO: 08-09t [3|Vigilia] Vigilia S. Laurentii Martyris ~ 08-09cc [1.1|Simplex] S. Romanae Maryris
+   HR: bdijenje uoči dana sv. Lovre, mučenika {T:IIISRI,IIIČET,IIIPET C: Violet} ~ sv. Roman Ostijarij, mučenik {T: C:low,low,low }
+08-10
+   DO: 08-10 [5|Duplex II classis] S. Laurentii Martyris
+   HR: sv. Lovro, mučenik {T:IIČET,IIPET,IISUB C: Red}
+08-11
+   DO: 08-11 [1.1|Simplex] Ss. Tiburtii et Susannae Virg. Martyrum
+   HR: sv. Tiburcij i sv. Suzana, mučenici {T: C:low,low }
+08-12
+   DO: 08-12 [3|Duplex] S. Clarae Virginis
+   HR: sv. Klara Asiška, djevica {T:IIISUB,IIIPON C: White}
+08-13
+   DO: 08-13 [1.1|Simplex] Ss. Hippolity et Cassiano Martyrum
+   HR: sv. Hipolit Rimski i sv. Kasijan iz Imole, mučenici {T: C:low,low }
+08-14
+   DO: 08-14 [5|Duplex II classis] Vigilia Assumptionis B.M.V. ~ 08-14cc [1.1|Simplex] S. Eusebii
+   HR: bdijenje uoči Uznesenja BDM {T:IIPON,IIUTO,IISRI C: Violet} ~ sv. Euzebije Rimski, priznavalac {T: C:low,low,low }
+08-15
+   DO: 08-15 [6.5|Duplex I classis] Assumptione Beatae Mariae Virginis
+   HR: UZNESENJE BDM (VELIKA GOSPA) {T:IUTO,ISRI,IČET C: White}
+08-16
+   DO: 08-16 [5|Duplex II classis] S. Joachim Confessoris
+   HR: sv. Joakim, otac BDM {T:IISRI,IIČET,IIPET C: White}
+08-17
+   DO: 08-17 [3|Duplex] S. Hyacinthi Confessoris
+   HR: sv. Hijacint Krakovski, priznavalac {T:IIIČET,IIIPET,IIISUB C: White}
+08-18
+   DO: 08-18r [1.1|Simplex] S. Agapiti Martyris
+   HR: sv. Agapit, mučenik {T: C:low,low }
+08-19
+   DO: 08-19 [3|Duplex] S. Joannis Eudes Confessoris
+   HR: sv. Ivan Eudes, priznavalac {T:IIISUB,IIIPON C: White}
+08-20
+   DO: 08-20 [3|Duplex] S. Bernardi Abbatis et Ecclesiae Doctoris
+   HR: sv. Bernard iz Clairvauxa, opat, naučitelj {T:IIIPON,IIIUTO C: White}
+08-21
+   DO: 08-21 [3|Duplex] S. Joanne Franciscae Fremiot de Chantal Viduae
+   HR: sv. Ivana Franciska Frémiot de Chantal, udovica {T:IIIPON,IIIUTO,IIISRI C: White}
+08-22
+   DO: 08-22 [5.1|Duplex II classis] Festum Immaculati Cordis Beatae Mariae Virginis ~ 08-22cc [1.1|Simplex] Ss. Timothei, Hippolyti et Symphoriani Mart
+   HR: Bezgrešno Srce BDM {T:IIUTO,IISRI,IIČET C: White} ~ sv. Timotej i drugovi, mučenici {T: C:low,low,low }
+08-23
+   DO: 08-23 [3|Duplex] S. Philippi Beniti Confessoris
+   HR: sv. Filip Benizi, priznavalac {T:IIISRI,IIIČET,IIIPET C: White}
+08-24
+   DO: 08-24 [5|Duplex II classis] S. Bartholomaei Apostoli
+   HR: sv. Bartol, apostol {T:IIČET,IIPET,IISUB C: Red}
+08-25
+   DO: 08-25 [3|Duplex] S. Ludovioci Confessoris
+   HR: sv. Ljudevit IX. Francuski, kralj, priznavalac {T:IIIPET,IIISUB C: White}
+08-26
+   DO: 08-26 [1.1|Simplex] S. Zephirini Papae et Martyris
+   HR: sv. Zefirin, papa, mučenik {T: C:low,low }
+08-27
+   DO: 08-27 [3|Duplex] S. Josephi Calasantini Confessoris
+   HR: sv. Josip Kalasancij, priznavalac {T:IIIPON,IIIUTO C: White}
+08-28
+   DO: 08-28 [3|Duplex] S. Augustini Episcopi et Confessoris et Ecclesiae Doctoris ~ 08-28cc [1.1|Simplex] S. Hermetis Mart
+   HR: sv. Augustin Hiponski, biskup, priznavalac, naučitelj {T:IIIPON,IIIUTO,IIISRI C: White} ~ sv. Hermes, mučenik {T: C:low,low,low }
+08-29
+   DO: 08-29 [3|Duplex] Decollatione S. Joannis Baptistae ~ 08-29cc [1.1|Simplex] S. Sabinae Mart
+   HR: Glavosijek sv. Ivana Krstitelja {T:IIIUTO,IIISRI,IIIČET C: Red} ~ sv. Sabina, mučenica {T: C:low,low,low }
+08-30
+   DO: 08-30 [3|Duplex] S. Rosae a Sancta Maria Limange Virgini ~ 08-30o [1.1|Simplex] Ss. Felicis et Soc. Mart.
+   HR: sv. Ruža Limska, djevica {T:IIISRI,IIIČET,IIIPET C: White} ~ sv. Feliks i sv. Adaukt, mučenici {T: C:low,low,low }
+08-31
+   DO: 08-31 [3|Duplex] S. Raymundi Nonnati Confessori
+   HR: sv. Rajmund Nerođeni, priznavalac {T:IIIČET,IIIPET,IIISUB C: White}
+09-01
+   DO: 09-01 [1.1|Simplex] S. Aegidii Abbatis ~ 09-01cc [1.1|Simplex] Ss. Duodecim Fratrum Mm
+   HR: sv. Egidije (Gilles), opat, priznavalac {T: C:low,low } ~ Dvanaestorica svete braće mučenika {T: C:low,low }
+09-02
+   DO: 09-02 [2.2|Semiduplex] S. Stephani Hungariae Regis Confessoris
+   HR: sv. Stjepan I. Ugarski, kralj, priznavalac {T:IIISUB,IIIPON C: White}
+09-03
+   DO: 09-03 [3|Duplex] S. Pius X Papae Confessoris
+   HR: sv. Pio X., papa, priznavalac {T:IIIPON,IIIUTO C: White}
+09-04
+   DO: 
+   HR: 
+09-05
+   DO: 09-05 [2.2|Semiduplex] S. Laurentii Justiniani Episcopi et Confessoris
+   HR: sv. Lovro Justiniani, biskup, priznavalac {T:IIIUTO,IIISRI,IIIČET C: White}
+09-06
+   DO: 
+   HR: 
+09-07
+   DO: 
+   HR: 
+09-08
+   DO: 09-08 [5.1|Duplex II classis cum Octava simplici] Nativitate Beatae Mariae Virginis ~ 09-08cc [1.1|Simplex] S. Adriani Mart
+   HR: Rođenje BDM (Mala Gospa) {T:IIPET,IISUB C:low White} ~ sv. Hadrijan, mučenik {T: C:low,low }
+09-09
+   DO: 09-09 [1.1|Simplex] S. Gorgonii mart
+   HR: sv. Gorgonije, mučenik {T: C:low,low }
+09-10
+   DO: 09-10 [3|Duplex] S. Nicolai de Tolentino Confessoris
+   HR: sv. Nikola Tolentinski, priznavalac {T:IIIPON,IIIUTO C: White}
+09-11
+   DO: 09-11 [1.1|Simplex] Ss. Proti et Hyacinthi Martyrum
+   HR: sv. Proto i sv. Hijacint, mučenici {T: C:low,low,low }
+09-12
+   DO: 09-12 [4|Duplex majus] S. Nominis Beatae Mariae Virginis
+   HR: Presveto Ime Marijino {T:IIIUTO,IIISRI,IIIČET C: White}
+09-13
+   DO: 
+   HR: 
+09-14
+   DO: 09-14 [5.5|Duplex II classis] In Exaltatione Sanctae crucis
+   HR: Uzvišenje sv. Križa {T:IIČET,IIPET,IISUB C: Red}
+09-15
+   DO: 09-15 [5.1|Duplex 2nd class] Septem Dolorum Beatae Mariae Virginis ~ 09-15cc [1.1|Simplex] S. Nicomedis
+   HR: Sedam žalosti BDM {T:IIPET,IISUB C:low White} ~ sv. Nikomed, mučenik {T: C:low,low }
+09-16
+   DO: 09-16 [2.2|Semiduplex] Ss. Cornelii et Cypriani Pontificium et Martyrum ~ 09-16cc [1.1|Simplex] Ss. Euphemiae, Luciae et Geminiani Martyrum
+   HR: sv. Kornelije papa, mučenik, sv. Ciprijan, biskup, mučenik {T:IIISUB,IIIPON C: Red} ~ sv. Eufemija, djevica, mučenica, sv. Lucija i sv. Geminijan, mučenici {T: C:low,low }
+09-17
+   DO: 09-17 [1.1|Simplex] Impressionis Stigmatum S. Francisci
+   HR: rane sv. Franje Asiškog, priznavaoca {T: C:low,low }
+09-18
+   DO: 09-18 [3|Duplex] S. Joseph Cupertino
+   HR: sv. Josip Kupertinski, priznavalac {T:IIIPON,IIIUTO C:low White}
+09-19
+   DO: 09-19 [3|Duplex] S. Januarii Episcopi et Sociorum Martyrum
+   HR: sv. Januarije, biskup i drugovi, mučenici {T:IIIUTO,IIIČET C:low Red}
+09-20
+   DO: 09-20 [1.1|Simplex] S. Eustachii et Sociorum Martyrum
+   HR: sv. Eustahije i drugovi, mučenici {T: C:low,low,low }
+09-21
+   DO: 09-21 [5|Duplex II classis] S. Matthaei Apostoli et Evangelistae
+   HR: sv. Matej, apostol i evanđelist {T:IIČET,IIPET,IISUB C: Red}
+09-22
+   DO: 09-22 [3|Duplex] S. Thomae de Villanove Episcopi et Confessoris ~ 09-22o [1.1|Simplex] Ss. Martyris Mauritii et Sociorum
+   HR: sv. Toma iz Villanove, biskup, priznavalac {T: C:low,low }
+09-23
+   DO: 09-23 [2.2|Semiduplex] S. Linae Papae et Martyris ~ 09-23cc [1.1|Simplex] S. Theclae Virgini et Martyri
+   HR: sv. Lino, papa, mučenik {T:IIIPON C:low Red} ~ sv. Tekla, djevica, mučenica {T: C:low }
+09-24
+   DO: 09-24 [1.1|Simplex] Beatae Mariae Virginis de Mercede
+   HR: Gospa od Otkupljenja {T: C:low,low }
+09-25
+   DO: 
+   HR: 
+09-26
+   DO: 09-26 [1.1|Simplex] Ss. Cypriani et Justinae Martyri
+   HR: Sv. Ciprijan, biskup i sv. Justina, djevica, mučenici {T: C:low,low,low }
+09-27
+   DO: 09-27 [2.2|Semiduplex] S. Cosmae et Damiani Martyrum
+   HR: sv. Kuzma i sv. Damjan, mučenici {T:IIISRI,IIIČET,IIIPET C: Red}
+09-28
+   DO: 09-28 [2.2|Semiduplex] S. Wenceslai Ducis et Martyris
+   HR: sv. Vjenceslav I. Češki, knez, mučenik {T:IIIČET,IIIPET,IIISUB C: Red}
+09-29
+   DO: 09-29 [6|Duplex I classis] In dedicatione S. Michaelis Archangelis
+   HR: SV. MIHAEL ARKANĐEO {T:IPET,ISUB,INED C: White}
+09-30
+   DO: 09-30 [3|Duplex] S. Hieronomy Presbitery Confessorie et Ecclesiae Doctoris
+   HR: sv. Jeronim Dalmatinac, svećenik, priznavalac, naučitelj {T:IIISUB,IIIPON C: White}
+10-01
+   DO: 10-01 [1.1|Simplex] S. Remigii Episcopi Confessoris
+   HR: sv. Remigije, biskup, priznavalac {T: C:low,low }
+10-02
+   DO: 10-02 [4|Duplex majus] Ss. Angelorum Custodum
+   HR: sv. Anđeli Čuvari {T:IIIPON,IIIUTO,IIISRI C: White}
+10-03
+   DO: 10-03 [3|Duplex] S. Theresiae a Jesu Infante Virginis
+   HR: sv. Terezija od Djeteta Isusa (iz Lisieuxa), djevica, naučiteljica {T:IIIUTO,IIISRI,IIIČET C: White}
+10-04
+   DO: 10-04 [4|Duplex majus] S. Francisci Confessoris
+   HR: sv. Franjo Asiški, priznavalac {T:IIISRI,IIIČET,IIIPET C: White}
+10-05
+   DO: 10-05 [1.1|Simplex] S. Placidi et Sociorum Martyrum
+   HR: sv. Placid i drugovi, mučenici {T: C:low,low,low }
+10-06
+   DO: 10-06 [3|Duplex] S. Brunonis Confessoris
+   HR: sv. Bruno, priznavalac {T:IIIPET,IIISUB C: White}
+10-07
+   DO: 10-07 [5.1|Duplex 2 classis] Festum Beatae Mariae Virginis a Rosario ~ 10-07t [1.1|Simplex] S. Marci Papae Confessoris
+   HR: BDM od Krunice (Ružarija) {T:IISUB,IIPON C:low White} ~ sv. Marko, papa, priznavalac {T: C:low,low }
+10-08
+   DO: 10-08 [3|Duplex] S. Brigittae Viduae ~ 10-07cc [1.1|Simplex] Ss. Martyrum Sergii, Bacchi, Marcelli et Apuleji
+   HR: sv. Brigita Švedska, udovica {T:IIIPON,IIIUTO C: White} ~ sv. Sergije, sv. Bakho, sv. Marcel i sv. Apulej, mučenici {T: C:low,low }
+10-09
+   DO: 10-09 [3|Duplex] S. Joannis Leonardi Confessoris ~ 10-09t [1.1|Simplex] S. Dionysii Episcopi Rustici et Eleuthery Martyrum
+   HR: sv. Ivan Leonardi, priznavalac {T:IIIPON,IIIUTO,IIISRI C: White} ~ sv. Dionizije, biskup, sv. Rustik, svećenik i sv. Eleuterije, mučenici {T: C:low,low,low }
+10-10
+   DO: 10-10 [2.2|Semiduplex] S. Francisci Borgiae Confessoris
+   HR: sv. Franjo Borgia, priznavalac {T:IIIUTO,IIISRI,IIIČET C: White}
+10-11
+   DO: 10-11 [5|Duplex 2 classis] Maternitatis Beatae Mariae Virginis
+   HR: Majčinstvo BDM {T:IISRI,IIČET,IIPET C: White}
+10-12
+   DO: 
+   HR: 
+10-13
+   DO: 10-13 [2.2|Semiduplex] S. Eduardi Regis Confessoris
+   HR: sv. Eduard Engleski, kralj, priznavalac {T:IIIPET,IIISUB C: White}
+10-14
+   DO: 10-14 [3|Duplex] S. Callisti Papae et Martyris
+   HR: sv. Kalist I., papa, mučenik {T:IIISUB,IIIPON C: Red}
+10-15
+   DO: 10-15 [3|Duplex] S. Teresiae Virginis
+   HR: sv. Terezija Avilska, djevica, naučiteljica {T:IIIPON,IIIUTO C: White}
+10-16
+   DO: 10-16 [2.2|Semiduplex] S. Hedwigis Viduae
+   HR: sv. Hedviga Šleska (iz Andechsa), udovica {T:IIIPON,IIIUTO,IIISRI C: White}
+10-17
+   DO: 10-17 [3|Duplex] S. Margaritae Mariae Alaquoque Virginis
+   HR: sv. Margareta Marija Alacoque, djevica {T:IIIUTO,IIISRI,IIIČET C: White}
+10-18
+   DO: 10-18 [5|Duplex 2 classis] S. Lucae Evangelistae
+   HR: sv. Luka, evanđelist {T:IISRI,IIČET,IIPET C: Red}
+10-19
+   DO: 10-19 [3|Duplex] S. Petri de Alcantara Confessoris
+   HR: sv. Petar iz Alkantare, priznavalac {T:IIIČET,IIIPET,IIISUB C: White}
+10-20
+   DO: 10-20 [3|Duplex] S. Joannis Cantii Confessoris
+   HR: sv. Ivan Kentijski, priznavalac {T:IIIPET,IIISUB C: White}
+10-21
+   DO: 10-21 [1.1|Simplex] S. Hilarionis Abbatis ~ 10-21cc [1.1|Simplex] Ss. Ursule et Soc Virg et Mart
+   HR: sv. Hilarion, opat, priznavalac {T: C:low,low } ~ sv. Uršula i drugarice, djevice i mučenice {T: C:low,low }
+10-22
+   DO: 
+   HR: 
+10-23
+   DO: 10-23r [3|Duplex] S. Antonii Mariae Claret Episcopi Confessoris
+   HR: sv. Antun Marija Claret, biskup, priznavalac {T:IIIPON,IIIUTO,IIISRI C: White}
+10-24
+   DO: 10-24 [4|Duplex majus] S. Raphaelis Archangeli
+   HR: sv. Rafael Arkanđeo {T:IIIUTO,IIISRI,IIIČET C: White}
+10-25
+   DO: 10-25 [1.1|Simplex] Ss. Chrysanthi et Dariae Martyres
+   HR: sv. Krizant i sv. Darija, mučenici {T: C:low,low,low }
+10-26
+   DO: 10-26 [1.1|Simplex] S. Evaristi Papae et Martyri
+   HR: sv. Evarist, papa, mučenik {T: C:low,low,low }
+10-27
+   DO: 
+   HR: 
+10-28
+   DO: 10-28 [5|Duplex 2 classis] Ss. Simonis et Judae Apostolorum
+   HR: sv. Šimun i Juda Tadej, apostoli {T:IISUB,IIPON C: Red}
+10-29
+   DO: 
+   HR: 
+10-30
+   DO: 
+   HR: 
+10-31
+   DO: 
+   HR: 
+11-01
+   DO: 11-01 [6.4|Duplex I classis cum octava communi] Omnium Sanctorum
+   HR: SVI SVETI {T:ISRI,IČET,IPET C: White}
+11-02
+   DO: 11-02 [6|I. classis] Commemoratio Omnium Fidelium Defunctorum
+   HR: SPOMEN SVIH VJERNIH MRTVIH (DUŠNI DAN) {T:IČET,IPET,ISUB C: Black}
+11-03
+   DO: 
+   HR: 
+11-04
+   DO: 11-04 [3|Duplex] S. Caroli Episcopi et Confessoris ~ 11-04cc [1.1|Simplex] Ss. Mart Vitalis et Agricolae
+   HR: sv. Karlo Boromejski, biskup, priznavalac {T:IIISUB,IIIPON C: White} ~ sv. Vital i sv. Agrikola, mučenici {T: C:low,low }
+11-05
+   DO: 
+   HR: 
+11-06
+   DO: 
+   HR: 
+11-07
+   DO: 
+   HR: 
+11-08
+   DO: 11-08r [1.1|Simplex] Ss. Quatuor Coronatorum Martyrum
+   HR: Četvorica svetih proslavljenih mučenika {T: C:low,low,low }
+11-09
+   DO: 11-09 [5.5|Duplex 2nd class] In dedicatione Basilicae Ss. Salvatoris ~ 11-09cc [1.1|Simplex] S. Theodori
+   HR: Posveta bazilike Presvetog Spasitelja (Lateranske katedralne bazilike) {T:IIČET,IIPET,IISUB C: White} ~ sv. Teodor, mučenik {T: C:low,low,low }
+11-10
+   DO: 11-10 [3|Duplex] S.Andreae Avellini Confessoris ~ 11-10o [1.1|Simplex] Ss. Tryphonis et Sociorum Martyris
+   HR: sv. Andrija Avellino, priznavalac {T:IIIPET,IIISUB C: White} ~ sv. Trifon (Tripun), sv. Respicij i sv. Nimfa, mučenici {T: C:low,low }
+11-11
+   DO: 11-11 [3|Duplex] S. Martini Episcopi et Confessoris ~ 11-11cc [1.1|Simplex] "S. Menna
+   HR: sv. Martin iz Toursa, biskup, priznavalac {T:IIISUB,IIIPON C: White} ~ sv. Mena, mučenik {T: C:low,low }
+11-12
+   DO: 11-12 [2.2|Semiduplex] S. Martini Papae et Martyris
+   HR: sv. Martin I., papa, mučenik {T:IIIPON,IIIUTO C: Red}
+11-13
+   DO: 11-13 [2.2|Semiduplex] S. Didaci Confessoris
+   HR: sv. Didak (Diego) Alkalski, priznavalac {T:IIIPON,IIIUTO,IIISRI C: White}
+11-14
+   DO: 11-14 [3|Duplex] S. Josaphat Episcopi et Martyris
+   HR: sv. Jozafat Kuncevič, biskup, mučenik {T:IIIUTO,IIISRI,IIIČET C: Red}
+11-15
+   DO: 11-15 [3|Duplex] S. Albertus Magnus Ep Conf et Eccl Doctoris
+   HR: sv. Albert Veliki, biskup, priznavalac, naučitelj {T:IIISRI,IIIČET,IIIPET C: White}
+11-16
+   DO: 11-16 [3|Duplex] S. Gertrudis Virginis
+   HR: sv. Gertruda Velika, djevica {T:IIIČET,IIIPET,IIISUB C: White}
+11-17
+   DO: 11-17 [3|Duplex] S. Gregorii Thaumaturgi Episcopi et Confessoris
+   HR: sv. Grgur Čudotvorac, biskup, priznavalac {T:IIIPET,IIISUB C: White}
+11-18
+   DO: 11-18r [4|Duplex maius] In Dedicatione Basilicarum Ss. Apostolorum Petri et Pauli
+   HR: Posvete bazilike sv. Petra i bazilike sv. Pavla {T:IIISUB,IIIPON C: White}
+11-19
+   DO: 11-19 [3|Duplex] S. Elisabeth vidue ~ 11-19o [1.1|Simplex] S. Pontianae Papae et Martyre
+   HR: sv. Elizabeta Ugarska, udovica {T:IIIPON,IIIUTO C: White} ~ sv. Poncijan, papa, mučenik {T: C:low,low }
+11-20
+   DO: 11-20 [3|Duplex] S. Felicis Valois Confessoris
+   HR: sv. Feliks Valois, priznavalac {T:IIIPON,IIIUTO,IIISRI C: White}
+11-21
+   DO: 11-21 [4|Duplex majus] In Presentatione of Beatae Mariae Virginis
+   HR: Prikazanje BDM u Hramu {T:IIIUTO,IIISRI,IIIČET C: White}
+11-22
+   DO: 11-22 [3|Duplex] S. Ceciliae Virginis et Martyrum
+   HR: sv. Cecilija, djevica, mučenica {T:IIISRI,IIIČET,IIIPET C: Red}
+11-23
+   DO: 11-23 [3|Duplex] S. Clement Papae et Martyris ~ 11-23cc [1.1|Simplex] S. Felicitatis Martyris
+   HR: sv. Klement I., papa, mučenik {T:IIIČET,IIIPET,IIISUB C: Red} ~ sv. Felicita, mučenica {T: C:low,low,low }
+11-24
+   DO: 11-24 [3|Duplex] S. Joannis de Cruce Confessoris (1926: et Ecclesiae Doctoris) ~ 11-24o [1.1|Simplex] S. Chrysogoni Martyris
+   HR: sv. Ivan od Križa, priznavalac, naučitelj {T:IIIPET,IIISUB C: White} ~ sv. Krizogon (Krševan), mučenik {T: C:low,low }
+11-25
+   DO: 11-25 [3|Duplex] S. Catharinae Virginis et Martyris
+   HR: sv. Katarina Aleksandrijska, djevica, mučenica {T:IIISUB,IIIPON C: Red}
+11-26
+   DO: 11-26 [3|Duplex] S. Silvesteri Abbatis Confessoris ~ 11-26t [1.1|Simplex] S. Petri Alexandrini
+   HR: sv. Silvestar Gozzolini, opat {T:IIIPON,IIIUTO C: White} ~ Petar Aleksandrijski, biskup, mučenik {T: C:low,low }
+11-27
+   DO: 
+   HR: 
+11-28
+   DO: 
+   HR: 
+11-29
+   DO: 11-29r [1.1|Simplex] S. Saturnini Martyris
+   HR: sv. Saturnin, mučenik {T: C:low,low,low,low }
+11-30
+   DO: 11-30 [5|Duplex 2 classis] S. Andreae Apostoli
+   HR: sv. Andrija, apostol {T:IISRI,IIČET,IIPET,IISUB C: Red}
+12-01
+   DO: 
+   HR: 
+12-02
+   DO: 12-02 [2.2|Semiduplex] S. Bibianae Virginis et Martyris
+   HR: sv. Bibijana, djevica, mučenica {T:IIIPET,IIISUB,IIIPON C: Red}
+12-03
+   DO: 12-03 [4|Duplex majus] S. Francisci Xaverii Confessoris
+   HR: sv. Franjo Ksaverski, priznavalac {T:IIISUB,IIIPON,IIIUTO C: White}
+12-04
+   DO: 12-04 [3|Duplex] S. Petri Chrysologi Episcopi Confessoris Ecclesiae Doctoris ~ 12-04o [1.1|Simplex] S. Barbarae Virginis et Martyris
+   HR: sv. Petar Krizolog, biskup, priznavalac, naučitelj {T:IIIPON,IIIUTO,IIISRI C: White} ~ sv. Barbara, djevica, mučenica {T: C:low,low,low }
+12-05
+   DO: 12-05 [1.1|Simplex] S. Sabbae Abbatis
+   HR: sv. Saba, opat, priznavalac {T: C:low,low,low,low }
+12-06
+   DO: 12-06 [3|Duplex] S. Nicolai Episcopi et confessoris
+   HR: sv. Nikola iz Mire, biskup, priznavalac {T:IIIUTO,IIISRI,IIIČET,IIIPET C: White}
+12-07
+   DO: 12-07 [3|Duplex] S. Ambrosii Episcopi Confesoris et Ecclesiae Doctoris
+   HR: sv. Ambrozije, biskup, priznavalac, naučitelj {T:IIISRI,IIIČET,IIIPET,IIISUB C: White}
+12-08
+   DO: 12-08 [6.5|Duplex I classis cum octava communi] Immaculata Conceptione Beatae Mariae Virginis
+   HR: BEZGREŠNO ZAČEĆE BDM {T:IČET,IPET,ISUB,INED C: White}
+12-09
+   DO: 
+   HR: 
+12-10
+   DO: 12-10o [1.1|Simplex] S. Melchiadis Papae et Mart
+   HR: sv. Melkijad, papa, mučenik {T: C:low,low,low }
+12-11
+   DO: 12-11 [3|Duplex] S. Damasi Papae et confessoris
+   HR: sv. Damaz I., papa, priznavalac {T:IIIPON,IIIUTO,IIISRI C: White}
+12-12
+   DO: 
+   HR: 
+12-13
+   DO: 12-13r [3|Duplex] S. Luciae Virginis et Martyris
+   HR: sv. Lucija, djevica, mučenica {T:IIIUTO,IIISRI,IIIČET,IIIPET C: Red}
+12-14
+   DO: 
+   HR: 
+12-15
+   DO: 
+   HR: 
+12-16
+   DO: 12-16 [2.5|Semiduplex] S. Eusebii Episcopi et Martyris
+   HR: sv. Euzebije iz Vercellija, biskup, mučenik {T:IIISUB,IIIPON C:low Red}
+12-17
+   DO: 
+   HR: 
+12-18
+   DO: 
+   HR: 
+12-19
+   DO: 
+   HR: 
+12-20
+   DO: 
+   HR: 
+12-21
+   DO: 12-21 [5|Duplex II classis] S. Thomae Apostoli
+   HR: sv. Toma, apostol {T:IISRI,IIČET,IIPET,IISUB C: Red}
+12-22
+   DO: 
+   HR: 
+12-23
+   DO: 
+   HR: 
+12-24
+   DO: 12-24 [6.1|Duplex I classis] Vigilia Nativitatis Domini
+   HR: BADNJAK (BDIJENJE UOČI DANA ROĐENJA GOSPODINA NAŠEGA ISUSA KRISTA) {T:ISUB,INED,IPON,IUTO C: Violet}
+12-25
+   DO: 12-25 [6.5|Duplex I Classis] In Nativitate Domini
+   HR: BOŽIĆ (ROĐENJE GOSPODINA NAŠEGA ISUSA KRISTA) {T:INED,IPON,IUTO,ISRI C: White} ~ spomen i na tihim i na pjevanim misama: sv. Anastazija, mučenica {T: C:samo zornica,samo zornica,samo zornica,samo zornica }
+12-26
+   DO: 12-26 [5.4|Duplex II class] S. Stephani Protomartyris
+   HR: sv. Stjepan, prvomučenik {T:IIPON,IIUTO,IISRI,IIČET C: Red} ~ II. dan božićne osmine {T: C:ALL,ALL,ALL,ALL }
+12-27
+   DO: 12-27 [5.3|Duplex II class] S. Joanni Apostoli
+   HR: sv. Ivan, apostol i evanđelist {T:IIUTO,IISRI,IIČET,IIPET C: White} ~ III. dan božićne osmine {T: C:ALL,ALL,ALL,ALL }
+12-28
+   DO: 12-28r [5.4|Duplex II class] Die quarta infra octavam Nativitatis
+   HR: Nevina dječica {T:IISRI,IIČET,IIPET,IISUB C: Red} ~ IV. dan božićne osmine {T: C:ALL,ALL,ALL,ALL }
+12-29
+   DO: 12-29r [1.1|Simplex] Die quinta infra octavam Nativitatis
+   HR: V. dan božićne osmine {T:IIČET,IIPET,IISUB C: White} ~ sv. Toma Becket, biskup, mučenik {T: C:low,low,low } ~ Nedjelja u božićnoj osmini {T:IINED C: White}
+12-30
+   DO: 
+   HR: VI. dan božićne osmine {T:IIPET,IISUB,IIPON C: White} ~ Nedjelja u božićnoj osmini {T:IINED C: White}
+12-31
+   DO: 12-31r [1.1|Simplex] Die septima infra octavam Nativitatis
+   HR: VII. dan božićne osmine {T:IISUB,IIPON,IIUTO C: White} ~ sv. Silvestar I., papa, priznavalac {T: C:low,low,low } ~ Nedjelja u božićnoj osmini {T:IINED C: White}

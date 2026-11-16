@@ -1,0 +1,146 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-05-02",
+ "n": 0,
+ "heading": "SRIJEDA, 2.V.2018.",
+ "title": "sv. Atanazije, biskup, priznavalac, naučitelj",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Eccli 15, 5, Ps 91, 2\n(Eccli 15, 5) In médio Ecclésiae apéruit os eius: et implévit eum Dóminus spíritu sapiéntiae et Intelléctus: stolam glóriae índuit eum. <i>Allelúia</i>, <i>allelúia</i>.\n(Ps. 91, 2) Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Eccli 15, 5) In médio Ecclésiae apéruit os eius: et implévit eum Dóminus spíritu sapiéntiae et Intelléctus: stolam glóriae índuit eum. <i>Allelúia</i>, <i>allelúia</i>.",
+     "hr": "Sir 15, 5, Ps 91, 2\n(Sir 15, 5) Usred Crkve otvorio je Gospodin usta njegova i napunio ga duhom mudrosti i razuma, ogrnuo ga odjećom slave. <i>Aleluja</i>, <i>aleluja</i>.\n(Ps. 91, 2) Dobro je slaviti Gospodina i pjevati imenu tvojem, Višnji!\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Sir 15, 5) Usred Crkve otvorio je Gospodin usta njegova i napunio ga duhom mudrosti i razuma, ogrnuo ga odjećom slave. <i>Aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nExáudi, quaésumus, Dómine, preces nostras, quas in beáti Athanásii Confessóris tui atque Pontíficis solemnitáte deférimus: et, qui tibi digne méruit famulári, eius intercedéntibus méritis, ab ómnibus nos absólve peccátis.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nUsliši, molimo, Gospodine, naše molitve koje ti prinosimo o svetkovini blaženog Atanazija tvoga priznavaoca i biskupa i odriješi nas od svih grijeha po zaslugama onoga koji je zavrijedio da ti dostojno služi.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "II Cor 4, 5-14\nLéctio Epístolae beáti Pauli Apóstoli ad Corínthios. Fratres: Non nosmetípsos praedicámus, sed Iesum Christum Dóminum nostrum: nos autem servos vestros per Iesum: quóniam Deus, qui dixit de ténebris lucem splendéscere, ipse illúxit in córdibus nostris ad illuminatiónem sciéntiae claritátis Dei, in fácie Christi Iesu. Habémus autem thesáurum istum in vasis fictílibus: ut sublímitas sit virtútis Dei, et non ex nobis. In ómnibus tribulatiónem pátimur, sed non angustiámur: aporiámur, sed non destitúimur: persecutiónem pátimur, sed non derelínquimur: deícimur, sed non périmus: semper mortificatiónem lesu in córpore nostro circumferéntes, ut et vita lesu manifestétur in corpóribus nostris. Semper enim nos, qui vívimus, in mortem trádimur propter Iesum: ut et vita Iesu manifestétur in carne nostra mortáli. Ergo mors in nobis operátur, vita autem in vobis. Habéntes autem eúndem spíritum fídei, sicut scriptum est: Crédidi, propter quod locútus sum: et nos credimus, propter quod et lóquimur: sciéntes, quóniam qui suscitávit Iesum, et nos cum Iesu suscitábit, et constítuet vobíscum.",
+     "hr": "2 Kor 4, 5-14\nČitanje Poslanice bl. Pavla apostola Korinćanima. Braćo, mi ne propovijedamo sami sebe, nego Isusa Krista kao svojega Gospodina, a sebe kao vaše sluge radi Isusa. Jer je Bog, na čiju je riječ iz tame zasjalo svjetlo, zapalio u našim srcima svjetlo spoznaje Božjega veličanstva na licu Isusa Krista. Ovaj zaklad nosimo u zemljanim pobudama da uzvišenost ne dolazi od nas, nego je djelo Božje moći. U svemu trpimo ostavljeni; odbacuju nas, ali ne uništavaju. Uvijek u svojem tijelu nosimo smrtne Isusove muke, da se i na našem tijelu odražava Isusov život. Uvijek se za života zbog Isusa predajemo smrti, da se Isusov život očituje na našem smrtnom tijelu. Dakle, smrt je djelotvorna u nama, u vama pak život. Imajući isti duh vjere, kao što je pisano: Vjerovao sam, zbog toga i govorim. I mi vjerujemo, zbog toga i govorimo, znajući da će onaj koji je uskrisio Isusa uskrsnuli s Isusom i naš i postaviti zajedno s vama."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Allelúia",
+   "hr": "Aleluja",
+   "rows": [
+    {
+     "la": "Ps 109, 4, Iac 1, 12\n<i>Allelúia</i>, <i>allelúia</i>.\n(Ps 109, 4) Tu es sacérdos in aetérnum, secúndum órdinem Melchísedech. <i>Allelúia</i>.\n(Iac 1, 12) Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitae. <i>Allelúia</i>.",
+     "hr": "Ps 109, 4, Jak 1, 12\n<i>Aleluja</i>, <i>aleluja</i>.\n(Ps 109, 4) Ti si svećenik dovijeka po redu Melkisedekovu. <i>Aleluja</i>.\n(Jak 1, 12) Blago čovjeku koji nadvlada napast, jer kad bude prokušan, primit će krunu života. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mt 10, 23-28\nSequéntia sancti Evangélii secúndum Matthaéum. In illo témpore: Dixit Iesus discípulis suis: Cum persequéntur vos in civitáte ista, fúgite in áliam. Amen dico vobis, non consummábitis civitátes Israel, donec véniat Fílius hóminis. Non est discípulus super magístrum, nee servus super dóminum suum. Súfficit discípulo, ut sit sicut magíster eius: et servo, sicut dóminus eius. Si patremfamílias Beélzebub vocavérunt; quanto magis domésticos eius? Ne ergo timuéritis eos. Nihil enim est opértum, quod non revelábitur: et occúltum, quod non sciétur. Quod dico vobis in ténebris, dícite in lúmine: et quod in aure audítis, praedicáte super tecta. Et nolíte timére eos qui occídunt corpus, ánimam autem non possunt occídere: sed pótius timéte eum qui potest et ánimam et corpus pérdere in gehénnam.",
+     "hr": "Mt 10, 23-28\nSlijedi sveto Evanđelje po Mateju. U ono vrijeme Isus reče svojim učenicima: Kada vas budu progonili u jednom gradu, bježite u drugi. Jamčim vam da nećete obići izraelskih gradova prije dolaska Sina Čovječjega. Učenik nije viši od učitelja niti je sluga viši od svojega gospodara. Dovoljno je, da učenik bude kao njegov učitelj, i sluga kao njegov gospodar. Ako su domaćina nazvali Belzebubom, kako će istom nazivati njegove ukućane? Vi se ne trebate bojati. Ništa nema sakrivena, što se ne bi otkrilo, ni tajna, što se ne bi saznalo. Sto vam kažem u tami, recite na svjetlu, a što čujete na uho, propovijedajte na krovovima. Nemojte se bojati onih koji ubijaju tijelo, a ne mogu ubiti duše; nego više se bojte onoga koji može i dušu i tijelo upropastiti u paklu."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 88, 21-22\nInvéni David servum meum, óleo sancto meo unxi eum: manus enim mea auxiliábitur ei, et brácchium meum confortábit eum. <i>Allelúia</i>.",
+     "hr": "Ps 88, 21-22\nNašao sam Davida, slugu svojega, pomazao sam ga svojim svetim uljem. S njim će biti ruka moja i krijepit će ga desnica moja. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Sancti Athanásii Confessóris tui atque Pontíficis, quaésumus, Dómine, ánnua solémnitas pietáti tuae nos reddat accéptos: ut, per haec piae placatiónis offícia, et illum beáta retribútio comitétur, et nobis grátiae tuae dona concíliet.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Godišnja svetkovina svetog Atanazija priznavaoca tvoga i biskupa neka nas, molimo, Gospodine, učini dragima tvojoj dobroti da, po ovoj smjernoj pomirbenoj službi, njega prati kao blažena nagrada i nama isprosi darove tvoje milosti.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio paschális",
+   "hr": "Predslovlje uskrsno",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre: Te quidem, Dómine, omni témpore, sed <i>in hoc potíssimum</i> gloriósius praedicáre, cum Pascha nostrum immolátus est Christus. Ipse enim verus est Agnus, qui ábstulit peccáta mundi. Qui mortem nostram moriéndo destrúxit et vitam resurgéndo reparávit. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno da tebe, Gospodine, u svako doba, a osobito <i>u ovo</i> svečanije slavimo, kad je Krist žrtvovan, naše vazmeno Janje. On je naime pravo janje koje oduze grijehe svijeta. Svojom smrću on je uništio našu smrt i svojim uskrsnućem obnovio naš život. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Mt 10, 27\nQuod dico vobis in ténebris, dícite in lúmine, dicit Dóminus: et quod in aure audítis, praedicáte super tecta. <i>Allelúia</i>.",
+     "hr": "Mt 10, 27\nŠto vam kažem u tami, razglasujte na svjetlu, kaže Gospodin, i ono što vam na uho šapćem, propovijedajte s krovova. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, fidélium remunerátor animárum: praesta; ut beáti Athanásii Confessóris tui atque Pontíficis, cuius venerándam celebrámus festivitátem, précibus indulgéntiam consequámur.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji nagrađuješ duše vjernih, podaj da po molitvama blaženog Atanazija priznavaoca tvoga i biskupa, kojega časnu svetkovinu slavimo, postignemo oproštenje.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

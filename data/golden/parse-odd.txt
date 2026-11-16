@@ -1,0 +1,6 @@
+2017/propers/02112017_0.html: text: "
+2017/propers/02112017_1.html: text: "
+2017/propers/02112017_2.html: text: "
+2018/propers/02112018_0.html: text: "
+2018/propers/02112018_1.html: text: "
+2018/propers/02112018_2.html: text: "

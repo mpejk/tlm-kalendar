@@ -1,0 +1,159 @@
+{
+ "page": 2018,
+ "kind": "propers",
+ "date": "2018-05-10",
+ "n": 0,
+ "heading": "ČETVRTAK, 10.V.2018.",
+ "title": "Uzašašće Gospodina našega Isusa Krista (Spasovo)",
+ "rank": "Nedjelja I. razreda",
+ "colour": "White",
+ "commemorations": [],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Act 1, 11, Ps 46, 2\n(Act 1, 11) Viri Galilaéi, quid admirámini aspiciéntes in caelum? <i>Allelúia</i>.\nQuemádmodum vidístis eum ascendéntem in caelum, ita véniet, <i>allelúia</i>, <i>allelúia</i>, <i>allelúia</i>.\n(Ps 46, 2) Omnes gentes, pláudite mánibus: iubiláte Deo in voce exsultatiónis.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Act 1, 11) Viri Galilaéi, quid admirámini aspiciéntes in caelum? <i>Allelúia</i>.\nQuemádmodum vidístis eum ascendéntem in caelum, ita véniet, <i>allelúia</i>, <i>allelúia</i>, <i>allelúia</i>.",
+     "hr": "Dj 1, 11, Ps 46, 2\n(Dj 1, 11) Galilejci, što se čudite gledajući na nebo, <i>aleluja</i>?\nKao što ste vidjeli da on uzlazi na nebo tako će i doći, <i>aleluja</i>, <i>aleluja</i>, <i>aleluja</i>.\n(Ps 46, 2) Svi narodi plješćite rukama, kličite Bogu radosnim glasom.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Dj 1, 11) Galilejci, što se čudite gledajući na nebo, <i>aleluja</i>?\nKao što ste vidjeli da on uzlazi na nebo tako će i doći, <i>aleluja</i>, <i>aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nConcéde, quaésumus, omnípotens Deus: ut, qui hodiérna die Unigénitum tuum Redemptórem nostrum ad caelos ascendísse crédimus; ipsi quoque mente in caeléstibus habitémus.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nPodaj, molimo, svemogući Bože, da mi koji vjerujemo da je tvoj Jedinorođenac, naš Otkupitelj, na današnji dan uzašao na nebesa i sami budemo duhom uvijek u nebeskim stvarima.\n<i>Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Act 1, 1-11\nLéctio Actuum Apostolórum. Primum quidem sermónem feci de ómnibus, o Theóphile, quae coepit Iesus fácere et docére, usque in diem, qua, praecípiens Apóstolis per Spíritum Sanctum, quos elégit, assúmptus est: quibus et praébuit seípsum vivum post passiónem suam in multis arguméntis, per dies quadragínta appárens eis, et loquens de regno Dei. Et convéscens, praecépit eis ab Ierosólymis ne discéderent, sed exspectárent promissiónem Patris, quam audístis (inquit) per os meum:quia Ioánnes quidem baptizávit aqua, vos autem baptizabímini Spíritu Sancto non post multos hos dies. Igitur qui convénerant, interrogábant eum, dicéntes: Dómine, si in témpore hoc restítues regnum Israel? Dixit autem eis: Non est vestrum nosse témpora vel moménta, quae Pater pósuit in sua potestáte: sed accipiétis virtútem superveniéntis Spíritus Sancti in vos, et éritis mihi testes in Ierúsalem, et in omni Iudaéa, et Samaría, et usque ad últimum terrae. Et cum haec dixísset, vidéntibus illis, elevátus est, et nubs suscépit eum ab óculis eórum. Cumque intueréntur in caelum eúntem illum, ecce duo viri astitérunt iuxta illos in véstibus albis, qui et dixérunt: Viri Galilaéi, quid statis aspiciéntes in caelum? Hic Iesus, qui assúmptus est a vobis in caelum, sic véniet, quemádmodum vidístis eum eúntem in caelum.",
+     "hr": "Dj 1, 1-11\nČitanje Djela apostolskih. Prvu sam knjigu, o Teofile, napisao o svemu što je Isus činio i učio od početka pa sve do onog dana, kad je uzašao na nebo, pošto je apostolima, koje je izabrao po Duhu Svetom, dao zapovijedi. On se poslije svoje muke pokazivao živ apostolima dajući im brojne dokaze, javljao im se četrdeset dana i govorio im o Božjem kraljevstvu. Kad je s njima jeo, rekao im je da ne odlaze iz Jeruzalema, nego da čekaju Očevo obećanje, Obećanje za koje ste, reče, čuli od mene: Ivan je krstio vodom, a vi ćete nedugo poslije ovih dana biti kršteni Duhom Svetim. Tada ga prisutni upitaju: Hoćeš li, Gospodine, sada obnoviti Izraelsko kraljevstvo? A on im odgovori: Nije vam potrebno znati vrijeme i prigodu što ih je Otac zadržao u svojoj vlasti. Nego ćete primiti silu Duha Svetoga i za mene ćete svjedočiti u Jeruzalemu, u čitavoj Judeji i Samariji i sve do kraja zemlje. I kad to reče, uzdigne se pred njima, a oblak ga zastre njihovim očima. A dok su oni promatrali, kako se uzdiže k nebu, stanu do njih dvojica obučena u bjelinu. Ovi im rekoše: Galilejci, što stojite i gledate u nebo? Ovaj Isus, koji je pred vašim očima uznesen na nebo, isto će tako sići kao što ste vidjeli da uzlazi na nebo."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Allelúia",
+   "hr": "Aleluja",
+   "rows": [
+    {
+     "la": "Ps 46, 6, Ps 67, 18-19\n<i>Allelúia</i>, <i>allelúia</i>.\nAscéndit Deus in iubilatióne, et Dóminus in voce tubae. <i>Allelúia</i>.\nDóminus in Sina in sancto, ascéndens in altum, captívam duxit captivitátem. <i>Allelúia</i>.",
+     "hr": "Ps 46, 6, Ps 67, 18-19\n<i>Aleluja</i>, <i>aleluja</i>.\nUziđe Bog uz klicanje i Gospodin uz glas trublje, <i>aleluja</i>.\nGospodin sa Sinaja dolazi u svetište, uzlazi uvis i vodi sa sobom roblje, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Mc 16, 14-20\nSequéntia sancti Evangélii secúndum Marcum. In illo témpore: Recumbéntibus úndecim discípulis, appáruit illis Iesus: et exprobrávit incredulitátem eórum, et durítiam cordis:quia iis, qui víderant eum resurrexísse, non credidérunt. Et dixit eis: Eúntes in mundum univérsum, praedicáte Evangélium omni creatúrae. Qui credíderit, et baptizátus fúerit, salvus erit: qui vero non credíderit, condemnábitur. Signa autem eos, qui credíderint, haec sequéntur: In nómine meo daemónia eícient: linguis loquéntur novis: serpéntes tollent: et si mortíferum quid bíberint, non eis nocébit: super aegros manus impónent, et bene habébunt. Et Dóminus quidem Iesus, postquam locútus est eis, assúmptus est in caelum, et sedet a dextris Dei. Illi autem profécti, praedicavérunt ubíque, Dómino cooperánte, et sermónem confirmánte, sequéntibus signis. [Dicto Evangelio, exstinguitur cereus Paschalis]",
+     "hr": "Mk 16, 14-20\nSlijedi sveto Evanđelje po Marku. U ono vrijeme kad su jedanaestorica sjedila za stolom, ukaže im se Isus te ih prekori s njihove nevjere i tvrda srca, jer nisu vjerovali onima koji su ga vidjeli poslije uskrsnuća. Zatim im reče: Pođite po svemu svijetu i propovijedajte evanđelje svim stvorovima. Tko bude vjerovao i krsti se, spasit će se, a tko ne bude vjerovao, bit će osuđen. One koji budu vjerovali pratit će ova čudesa: u moje će ime izgoniti đavle, i govorit će nove jezike, hvatat će zmije, ako popiju što smrtonosno, neće im naškoditi, na bolesnike će polagati ruke i bolesnici će ozdravljati. I Gospodin Isus poslije govora s apostolima uznese se na nebo i sjede s desna Bogu. Oni su otišli i svuda su propovijedali, a pomagao im je Gospodin i njihovu je riječ potvrđivao čudesima koja su slijedila. [Nakon pročitanog Evanđelja ugasi se uskrsna svijeća]"
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "id": "tableCredo",
+   "hidden": true,
+   "la": "Credo (Symbolum Niceno-Constantinopolitanum)",
+   "hr": "Vjerovanje (nicejsko-carigradsko)",
+   "rows": [
+    {
+     "la": "Credo in unum Deum. Patrem omnipoténtem, factórem caeli et terrae, visibílium ómnium et invisibílium. Et in unum Dóminum Iesum Christum, Fílium Dei unigénitum. Et ex Patre natum ante ómnia saécula. Deum de Deo, lumen de lúmine, Deum verum de Deo vero. Génitum, non factum, consubstantiálem Patri: per quem ómnia facta sunt. Qui propter nos hómines et propter nostram salútem descéndit de caelis. (Hic genuflecitur) Et incarnátus est de Spíritu Sancto ex María Vírgine: Et homo factus est. Crucifíxus étiam pro nobis: sub Póntio Piláto passus, et sepúltus est. Et resurréxit tértia die, secúndum Scriptúras. Et ascéndit in caelum: sedet ad déxteram Patris. Et íterum ventúrus est cum glória iudicáre vivos et mórtuos: cuius regni non erit finis. Et in Spíritum Sanctum, Dóminum et vivificántem: qui ex Patre Filióque procédit. Qui cum Patre et Fílio simul adorátur et conglorificátur: qui locútus est per Prophétas. Et unam sanctam cathólicam et apostolicam Ecclésiam. Confíteor unum baptísma in remissiónem peccatórum. Et expécto resurrectiónem mortuórum. Et vitam ventúri saéculi. Amen.",
+     "hr": "Vjerujem u jednoga Boga, Oca svemogućega, stvoritelja neba i zemlje, svega vidljivoga i nevidljivoga.I u jednoga Gospodina Isusa Krista, jedinorođenoga Sina Božjega. Rođenog od Oca prije svih vjekova. Boga od Boga, svjetlo od svjetla, pravoga Boga od pravoga Boga. Rođena, ne stvorena, istobitna s Ocem, po kome je sve stvoreno. Koji je radi nas ljudi i radi našega spasenja sišao s nebesa. (ovdje se poklekne) I utjelovio se po Duhu Svetom od Marije Djevice: i postao čovjekom. Raspet također za nas: pod Poncijem Pilatom mučen i pokopan. I uskrsnuo treći dan, po Svetom Pismu. I uzašao na nebo: sjedi s desne Ocu. I opet će doći u slavi suditi žive i mrtve, i njegovu kraljevstvu neće biti kraja. I u Duha Svetoga, Gospodina i životvorca; koji izlazi od Oca i Sina. Koji se s Ocem i Sinom skupa časti i zajedno slavi; koji je govorio po prorocima. I u jednu svetu katoličku i apostolsku Crkvu. Ispovijedam jedno krštenje za oproštenje grijeha. I iščekujem uskrsnuće mrtvih. I život budućega vijeka. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 46, 6\nAscéndit Deus in iubilatióne, et Dóminus in voce tubae, <i>allelúia</i>.",
+     "hr": "Ps 46, 6\nUzlazi Bog uz klicanje i Gospodin uz glas trublje, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Súscipe, Dómine, múnera, quae pro Fílii tui gloriósa Ascensióne deférimus: et concéde propítius; ut a praeséntibus perículis liberémur, et ad vitam perveniámus aetérnam.\n<i>Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Primi, Gospodine, darove koje prinosimo o slavnom uzašašću tvojega Sina, i podaj milostivo, da se izbavimo od sadašnjih pogibli i prispijemo u vječni život.\n<i>Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de Ascensióne Dómini",
+   "hr": "Predslovlje Uzašašća Gospodnjeg",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Qui post resurrectiónem suam ómnibus discípulis suis maniféstus appáruit, et ipsis cernéntibus est elevátus in caelum, ut nos divinitátis suae tribúeret esse partícipes. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – On se poslije svojeg uskrsnuća svim svojim učenicima javno ukazao i pred njihovim se očima uzdigao na nebo, da nas učini dionicima svoga božanstva. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Ps 67, 33-34\nPsállite Dómino, qui ascéndit super caelos caelórum ad Oriéntem, <i>allelúia</i>.",
+     "hr": "Ps 67, 33-34\nPjevajte psalme Gospodinu koji uzlazi na najviša nebesa prema istoku, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nPraesta nobis, quaésumus, omnípotens et miséricors Deus: ut, quae visibílibus mystériis suménda percépimus, invisíbili consequámur efféctu.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nPodaj nam, molimo, svemogući i milosrdni Bože, da ono što si nam pod vidljivim otajstvima dao za hranu postignemo nevidljivim učinkom.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}

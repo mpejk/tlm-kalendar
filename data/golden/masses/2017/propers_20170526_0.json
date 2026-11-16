@@ -1,0 +1,160 @@
+{
+ "page": 2017,
+ "kind": "propers",
+ "date": "2017-05-26",
+ "n": 0,
+ "heading": "PETAK, 26.V.2017.",
+ "title": "sv. Filip Neri, priznavalac",
+ "rank": "Blagdan III. razreda",
+ "colour": "White",
+ "commemorations": [
+  "spomen na tihim misama: sv. Eleuterije, papa, mučenik"
+ ],
+ "items": [
+  {
+   "kind": "section",
+   "la": "Antíphona ad intróitum",
+   "hr": "Ulazna pjesma",
+   "rows": [
+    {
+     "la": "Rom 5, 5, Ps 102, 1\n(Rom 5, 5) Cáritas Dei diffúsa est in córdibus nostris per inhabitántem Spíritum eius in nobis. <i>Allelúia</i>, <i>allelúia</i>.\n(Ps 102, 1) Bénedic, ánima mea, Dómino: et ómnia quae intra me sunt, nómini sancto eius.\n<i>Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in saécula saeculórum. Amen</i>.\n(Rom 5, 5) Cáritas Dei diffúsa est in córdibus nostris per inhabitántem Spíritum eius in nobis, <i>allelúia</i>, <i>allelúia</i>.",
+     "hr": "Rim 5, 5, Ps 102, 1\n(Rim 5, 5) Ljubav se Božja izlila u našim srcima po Duhu Svetom, koji stanuje u nama. <i>Aleluja</i>, <i>aleluja</i>.\n(Ps 102, 1) Blagoslivljaj, dušo moja, Gospodina! I sve što je u meni sveto ime njegovo.\n<i>Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova. Amen</i>.\n(Rim 5, 5) Ljubav se Božja izlila u našim srcima po Duhu Svetom, koji stanuje u nama, <i>aleluja</i>, <i>aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi govori se Gloria"
+  },
+  {
+   "kind": "section",
+   "id": "tableGloria",
+   "hidden": true,
+   "la": "Glória",
+   "hr": "Gloria",
+   "rows": [
+    {
+     "la": "Glória in excélsis Deo et in terra pax homínibus bonae voluntátis. Laudámus te, benedícimus te, adorámus te, glorificámus te, grátias ágimus tibi propter magnam glóriam tuam, Dómine Deus, Rex caeléstis, Deus Pater omnípotens. Dómine Fili Unigénite, Iesu Christe, Dómine Deus, Agnus Dei, Fílius Patris, qui tollis peccáta mundi, miserére nobis; qui tollis peccáta mundi, súscipe deprecatiónem nostram. Qui sedes ad déxteram Patris, miserére nobis. Quóniam tu solus Sanctus, tu solus Dóminus, tu solus Altíssimus, Iesu Christe, cum Sancto Spíritu: in glória Dei Patris. Amen.",
+     "hr": "Slava Bogu na visini i na zemlji mir ljudima dobre volje. Hvalimo Te, blagoslivljamo Te, klanjamo Ti se, slavimo Te, zahvaljujemo Ti radi velike slave Tvoje. Gospodine Bože, Kralju nebeski, Bože Oče Svemogući. Gospodine Sine jedinorođeni, Isuse Kriste, Gospodine Bože, Jaganjče Božji, Sine Očev, koji oduzimaš grijehe svijeta, smiluj nam se; koji oduzimaš grijehe svijeta, primi našu molitvu. Koji sjediš s desne Ocu, smiluj nam se. Jer Ti si jedini svet. Ti si jedini Gospodin. Ti si jedini Svevišnji, Isuse Kriste, sa Svetim Duhom, u slavi Boga Oca. Amen."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nDeus, qui beátum Philíppum Confessórem tuum Sanctórum tuórum glória sublimásti: concéde propítius; ut, cuius solemnitáte laetámur, eius virtútum proficiámus exémplo.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nBože, koji si blaženog Filipa priznavaoca svoga uzvisio slavom svojih svetih, daj milostiv da se okoristimo kreposnim primjerom onoga kojega se svetkovini radujemo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Eleuterije, papa, mučenik</i></b>\n<i>Orémus</i>.\nGregem tuum, Pastor aetérne, placátus inténde: et per beátum Eleuthérium, Mártyrem tuum atque Summum Pontíficem perpétua protectióne custódi; quem totíus Ecclésiae praestitísti esse pastórem.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Eleuterije, papa, mučenik</i></b>\n<i>Pomolimo se</i>.\nVječni Pastiru, milosno pazi svoje stado i čuvaj vječnom zaštitom po zagovoru blaženoga Eleuterija, tvoga mučenika i pape koga si postavio za pastira čitave Crkve.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "la": "Sap 7, 7-14\nLéctio libri Sapiéntiae. Optávi, et datus est mihi sensus: et invocávi, et venit in me spíritus sapiéntiae: et praepósui illam regnis et sédibus, et divítias nihil esse duxi in comparatióne illíus: nec comparávi illi lápidem pretiósum: quóniam omne aurum, in comparatióne illíus, aréna est exígua, et tamquam lutum aestimábitur argéntum in conspéctu illíus. Super salútem et spéciem diléxi illam, et propósui pro luce habére illam: quóniam inexstinguíbile est lumen illíus. Venérunt autem mihi ómnia bona páriter cum illa, et innumerábilis honéstas per manus illíus, et laetátus sum in ómnibus: quóniam antecedébat me ista sapiéntia, et ignorábam quóniam horum ómnium mater est. Quam sine fictióne dídici, et sine invídia commúnico, et honestátem illíus non abscóndo. Infinítus enim thesáurus est homínibus: quo qui usi sunt, partícipes facti sunt amicítiae Dei, propter disciplínae dona commendáti.",
+     "hr": "Mudr 7, 7-14\nČitanje knjige Mudrosti. Zaželio sam i dano mi je shvaćanje, molio sam i došao je u mene duh mudrosti koja mi je draža nego kraljevstva i prijestolja, a bogatstvo prema njoj nije ništa. Ne uspoređujem s njom dragi kamen, jer sve zlato prema njoj je kao sitan pijesak, a srebro je pored nje kao blato. Volim je više nego li zdravlje i ljepotu. Uzeo sam je kao svoje svjetlo što se ne može ugasiti. Zajedno s njom imam sva druga dobra, iz njezinih ruku. primam neizmjerno bogatstvo. Radujem se tome svemu, jer ova mudrost je moj vođa, a nisam znao, da je ona izvor sviju dobara. Naučio sam je bez himbe, i predajem je bez zavisti i ne sakrivam njezina blaga. Ona je neiscrpivo blago za sve ljude. Oni koji se njome služe postaju Božji prijatelji, preporučeni darovima nauke."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Allelúia",
+   "hr": "Aleluja",
+   "rows": [
+    {
+     "la": "Thren* 1, 13, Ps 38, 4\n<i>Allelúia</i>, <i>allelúia</i>.\n(Thren 1, 13) De excélso misit ignem in óssibus meis, et erudívit me. <i>Allelúia</i>.\n(Ps 38, 4) Concáluit cor meum intra me: et in meditatióne mea exardéscet ignis. <i>Allelúia</i>.\n[* Knjiga tužaljki Jeremijinih , lat. Lamentationes, često se koristi pod svojim grčkim nazivom Threnoi Hieremiou; odatle kratica Thren]",
+     "hr": "Tuž 1, 13, Ps 38, 4\n<i>Aleluja</i>, <i>aleluja</i>.\n(Tuž 1, 13) S visine je bacio oganj u moje kosti i poučio me. <i>Aleluja</i>.\n(Ps 38, 4) Srce mi se zapalilo, i od razmišljanja moga rasplamsala se vatra. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "Luc 12, 35-40\nSequéntia sancti Evangélii secúndum Lucam. In illo témpore: Dixit Iesus discípulis suis: Sint lumbi vestri praecíncti, et lucérnae ardéntes in mánibus vestris, et vos símiles homínibus exspectántibus dóminum suum, quando revertátur a núptiis: ut, cum vénerit et pulsáverit, conféstim apériant ei. Beáti servi illi, quos, cum vénerit dóminus, invénerit vigilántes: amen dico vobis, quod praecínget se, et fáciet illos discúmbere, et tránsiens ministrábit illis. Et si vénerit in secúnda vigília, et si in tértia vigília vénerit, et ita invénerit, beáti sunt servi illi. Hoc autem scitóte, quóniam, si sciret paterfamílias, qua hora fur veníret, vigiláret útique, et non síneret perfódi domum suam. Et vos estóte paráti: quia, qua hora non putátis, Fílius hóminis véniet.",
+     "hr": "Lk 12, 35-40\nSlijedi sveto Evanđelje po Luki. U ono vrijeme Isus reče svojim učenicima: Neka budu opasani vaši bokovi i upaljene svjetiljke u vašim rukama, a vi budite slični slugama koji očekuju svojega gospodara, kada se vraća sa svadbe, da mu smjesta otvore vrata, čim dođe i pokuca. Blago onim slugama koje gospodar kada dođe nađe budne! Uvjeravam vas, da će se sam pripasati, narediti im da sjednu za stol i poslužiti ih. Blago tim slugama, ako ih nađe tako došao on bilo o drugoj, ili o trećoj straži. Pazite: Kada bi domaćin znao u koji čas dolazi tat, ne bi dopustio potkopati svoje kuće. Zato budite pripravni i vi, jer će Čovječji Sin doći u čas, kada vi i ne slutite."
+    }
+   ]
+  },
+  {
+   "kind": "note",
+   "level": 3,
+   "text": "Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje"
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad offertórium",
+   "hr": "Prikazna pjesma",
+   "rows": [
+    {
+     "la": "Ps 118, 32\nViam mandatórum tuórum cucúrri, cum dilatásti cor meum. <i>Allelúia</i>.",
+     "hr": "Ps 118, 32\nTrčim putem tvojih zapovijedi, od veselja mi se širi srce. <i>Aleluja</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "la": "Sacrifíciis praeséntibus, quaésumus, Dómine, inténde placátus: et praesta; ut illo nos igne Spíritus Sanctus inflámmet, quo beáti Philíppi cor mirabíliter penetrávit.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte eiúsdem Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "Umilostivljen pogledaj, molimo, Gospo dine, na ove žrtve, i podaj da nas Duh Sveti raspali onim ognjem, kojim je čudesno prožeo srce blaženog Filipa.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu istog Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Eleuterije, papa, mučenik</i></b>\nOblátis munéribus, quaésumus, Dómine, Ecclésiam tuam benígnus illúmina: ut et gregis tui profíciat ubíque succéssus, et grati fiant nómini tuo, te gubernánte, pastóres.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Eleuterije, papa, mučenik</i></b>\nPo prikaznim darovima, molimo, Gospodine, dobrostivo rasvijetli svoju Crkvu da i stado tvoje sve više i više napreduje i da ti ugode pastiri koje si postavio.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Praefátio de Ascensióne Dómini",
+   "hr": "Predslovlje Uzašašća Gospodnjeg",
+   "rows": [
+    {
+     "la": "Vere dignum et iustum est, aequum et salutáre, nos tibi semper et ubíque grátias ágere: Dómine, sancte Pater, omnípotens aetérne Deus: per Christum Dóminum nostrum. Qui post resurrectiónem suam ómnibus discípulis suis maniféstus appáruit, et ipsis cernéntibus est elevátus in caelum, ut nos divinitátis suae tribúeret esse partícipes. Et ídeo cum Angelis et Archángelis, cum Thronis et Dominatiónibus, cumque omni milítia caeléstis exércitus, hymnum glóriae tuae cánimus, sine fine dicéntes:",
+     "hr": "Uistinu je dostojno i pravedno, pravo i spasonosno, da vazda i svagdje zahvaljujemo tebi, Gospodine, sveti Oče, svemogući vječni Bože, po Kristu Gospodinu našemu. – On se poslije svojeg uskrsnuća svim svojim učenicima javno ukazao i pred njihovim se očima uzdigao na nebo, da nas učini dionicima svoga božanstva. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Antíphona ad communiónem",
+   "hr": "Pričesna pjesma",
+   "rows": [
+    {
+     "la": "Ps 83, 3\nCor meum et caro mea exsultavérunt in Deum vivum. <i>Allelúia</i>.",
+     "hr": "Ps 83, 3\nMoje srce i moje tijelo kliču od radosti u Bogu živomu. <i>Aleluja</i>"
+    }
+   ]
+  },
+  {
+   "kind": "section",
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "la": "<i>Orémus</i>.\nCaeléstibus, Dómine, pasti delíciis: quaésumus; ut, beáti Philíppi Confessóris tui méritis et imitatióne, semper éadem, per quae veráciter vívimus, appetámus.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<i>Pomolimo se</i>.\nNahranjeni, Gospodine, nebeskom hranom molimo, da po zaslugama i nasljedovanju blaženog Filipa priznavaoca tvoga težimo vazda za onim po čemu doista živimo.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    },
+    {
+     "la": "<b><i>spomen na tihim misama: sv. Eleuterije, papa, mučenik</i></b>\n<i>Orémus</i>.\nRefectióne sancta enutrítam gubérna, quaésumus, Dómine, tuam placátus Ecclésiam: ut, poténti moderatióne dirécta, et incrément a libertátis accípiat et in religiónis integritáte persístat.\n<i>Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum</i>.",
+     "hr": "<b><i>spomen na tihim misama: sv. Eleuterije, papa, mučenik</i></b>\n<i>Pomolimo se</i>.\nVladaj, molimo, Gospodine, svojom Crkvom koja je nahranjena, na svetoj gozbi, da po tvome snažnom ravnanju zadobije porast slobode i ustraje u savršenom bogoštovlju.\n<i>Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova</i>."
+    }
+   ]
+  }
+ ]
+}
