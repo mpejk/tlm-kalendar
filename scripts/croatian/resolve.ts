@@ -31,7 +31,7 @@ export function typoOnly(a: string, b: string): boolean {
 }
 let NAMES = new Set<string>();
 const typoPair = (w: string, v: string) => { const d = lev(w, v); const n = Math.max(w.length, v.length); if (NAMES.has(w) || NAMES.has(v)) return d <= 1 && n >= 5; return d <= (n >= 4 ? 2 : 1); };
-export interface Hit { hr: string; src: 'site' | 'kniewald'; via: 'exact' | 'typo' | 'variant' | 'manual'; page: string; sim?: number; diff?: string }
+export interface Hit { hr: string; src: 'site' | 'kniewald'; via: 'exact' | 'typo' | 'variant' | 'manual'; page: string; sim?: number; diff?: string; /** key of the block-memory entry that matched */ key?: string }
 
 const BOOKS = new Set('isai esdr iv i ii iii vel neh tren ps sap cant et eccli prov iob dan ier os ioel mal mat marc luc ioan act rom cor gal efes fil col tes tim hebr iac petr apoc ex gen lev num deut reg par tob iudit ester mac postcomunio v p'.split(' '));
 const DIVINE = new Set('deus dei deo deum domine dominus domini domino dominum cristus cristi cristo cristum iesus iesu iesum spiritus sancti sancto sanctus sanctum pater patris patri filius fili filium filio maria marie mariam virgo virginis eclesia eclesie isrel'.split(' '));
@@ -98,7 +98,7 @@ export function makeResolver(file = 'data/tm/blocks.json') {
     let hit: Hit | null = null;
     const e = tm[core];
     if (manual[core]) hit = { hr: manual[core].hr, src: 'site', via: 'manual', page: manual[core].page, diff: manual[core].why };
-    else if (e) hit = { hr: e.hr, src: 'site', via: 'exact', page: e.src };
+    else if (e) hit = { hr: e.hr, src: 'site', via: 'exact', page: e.src, key: core };
     else {
       const w = core.split(' ');
       const cands = new Set<string>(byTail.get(tail(core)) ?? []);
@@ -107,8 +107,8 @@ export function makeResolver(file = 'data/tm/blocks.json') {
       for (const k of cands) {
         if (Math.abs(k.length - core.length) > 0.2 * core.length + 12) continue;
         const s = similarity(k, core); if (s < 0.8 || (best && s <= best.sim!)) continue;
-        if (typoOnly(k, core)) best = { hr: tm[k].hr, src: 'site', via: 'typo', page: tm[k].src, sim: s };
-        else { const d = variantOnly(k, core); if (d !== null) best = { hr: tm[k].hr, src: 'site', via: 'variant', page: tm[k].src, sim: s, diff: d }; }
+        if (typoOnly(k, core)) best = { hr: tm[k].hr, src: 'site', via: 'typo', page: tm[k].src, sim: s, key: k };
+        else { const d = variantOnly(k, core); if (d !== null) best = { hr: tm[k].hr, src: 'site', via: 'variant', page: tm[k].src, sim: s, diff: d, key: k }; }
       }
       hit = best;
     }

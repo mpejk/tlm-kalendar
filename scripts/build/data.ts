@@ -43,6 +43,10 @@ export function buildData(dist: string) {
   fs.mkdirSync(path.join(dist, 'data/cal'), { recursive: true }); fs.mkdirSync(path.join(dist, 'data/f'), { recursive: true });
   const kn = fs.existsSync('data/tm/kniewald.json') ? JSON.parse(fs.readFileSync('data/tm/kniewald.json', 'utf8')) as Record<string, { hr: string; ref: string }> : {};
 
+  // Kniewald's version of blocks that the old site covers (found by scripts/kniewald/check.ts; uncorrected OCR), kept beside the
+  // site's wording so that the primary Croatian can be switched with the one setting in data/site-config.json.
+  const alt = fs.existsSync('data/tm/kniewald-alt.json') ? JSON.parse(fs.readFileSync('data/tm/kniewald-alt.json', 'utf8')) as Record<string, { kn: string; ref: string; status?: string }> : {};
+  const siteConfig = fs.existsSync('data/site-config.json') ? JSON.parse(fs.readFileSync('data/site-config.json', 'utf8')) : {};
   const visit = (day: Day, cal: string) => {
     day.masses.forEach((m, i) => {
       if (m.kind !== 'mass') { used.add(m.id); return; }
@@ -61,6 +65,7 @@ export function buildData(dist: string) {
           let val: any = null;
           if (h) val = h.via === 'exact' || h.via === 'typo' ? { t: h.hr } : { t: h.hr, v: h.diff || h.via };
           if (k) val = val ? { ...val, kn: k.hr, knRef: k.ref } : { kn: k.hr, knRef: k.ref };
+          else if (val && h?.key && alt[h.key] && (alt[h.key].status ?? 'ok') === 'ok') val = { ...val, kn: alt[h.key].kn, knRef: alt[h.key].ref + ' (OCR)' };
           table[key] = val; tally(val); uniq.set(fid + key, val ? (val.t ? 'site' : 'kniewald') : 'missing');
           if (!val) { const g = gaps.get(fid + key) ?? { n: 0, where: day.title, la: u.lines.filter(l => l.k === 'text').map(l => l.la).join(' '), sec: `${u.src}`, first: day.date, cal, core } as any; g.n++; gaps.set(fid + key, g); }
         }
@@ -95,7 +100,7 @@ export function buildData(dist: string) {
   for (const it of g.items) if (it.hidden && it.rows?.[0]) hidden[it.id] = { la: it.rows[0].la, hr: it.rows[0].hr };
   const ordoInline = { prayers: Object.fromEntries(Object.entries(corpus.ordo.prayers).map(([k, u]) => [k, inline(u)])), prefaces: Object.fromEntries(Object.entries(corpus.ordo.prefaces).map(([k, u]) => [k, inline(u)])) };
   const coverage = { ...stats, unique: uniq.size, uniqueSite: [...uniq.values()].filter(x => x === 'site').length, uniqueKniewald: [...uniq.values()].filter(x => x === 'kniewald').length, uniqueMissing: [...uniq.values()].filter(x => x === 'missing').length };
-  const base = { years: YEARS, pope: POPE, ordo: ordoInline, gloria: hidden.tableGloria, credo: hidden.tableCredo, built: new Date().toISOString().slice(0, 10), coverage, hasZagreb: cals.zagreb !== cals.opci };
+  const base = { years: YEARS, pope: POPE, ordo: ordoInline, gloria: hidden.tableGloria, credo: hidden.tableCredo, built: new Date().toISOString().slice(0, 10), coverage, croatianPrimary: siteConfig.croatianPrimary === 'kniewald' ? 'kniewald' : 'site', hasZagreb: cals.zagreb !== cals.opci };
   fs.writeFileSync(path.join(dist, 'data/base.js'), `TLM.base(${JSON.stringify(base)});\n`);
   fs.mkdirSync('data/verify', { recursive: true });
   fs.writeFileSync('data/verify/coverage.json', JSON.stringify({ coverage, rites, missingFormularies, gaps: [...gaps.values()].sort((a, b) => b.n - a.n) }, null, 1));
