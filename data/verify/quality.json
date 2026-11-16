@@ -1,0 +1,82 @@
+{
+ "axe": {
+  "seriousViolations": 0,
+  "list": []
+ },
+ "offline": {
+  "cachedFiles": 710,
+  "formularyFiles": 685,
+  "views": [
+   {
+    "view": "?d=2027-03-28",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?d=2031-06-29",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?d=2033-12-25&m=2",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?d=2036-08-15",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?d=2029-05-10&k=opci",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?d=2030-04-19",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?d=2028-02-02&v=mjesec",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?d=2034-01-01&v=godina",
+    "ok": true,
+    "errors": []
+   }
+  ],
+  "ok": true
+ },
+ "lighthouse": [
+  {
+   "name": "day view, mobile",
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 100,
+   "lcp": "2.3 s",
+   "tbt": "0 ms",
+   "failingAccessibility": []
+  },
+  {
+   "name": "day view, desktop",
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 100,
+   "lcp": "0.5 s",
+   "tbt": "0 ms",
+   "failingAccessibility": []
+  },
+  {
+   "name": "month view, mobile",
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "lcp": "2.3 s",
+   "tbt": "0 ms",
+   "failingAccessibility": []
+  }
+ ]
+}

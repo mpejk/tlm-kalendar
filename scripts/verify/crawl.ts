@@ -42,8 +42,8 @@ try {
           const secs = main.querySelectorAll('.sec'); out.sections += secs.length;
           if (!secs.length) out.problems.push(`${where}: no section`);
           if (main.querySelector('.empty')) out.problems.push(`${where}: empty view`);
-          secs.forEach(s => { const rows = s.querySelectorAll('.row:not(.head)'); if (!rows.length) out.problems.push(`${where}: section without rows (${s.querySelector('h3')?.textContent})`);
-            rows.forEach(r => { const la = r.querySelector('.la')?.textContent?.trim() ?? '', hr = r.querySelector('.hr')?.textContent?.trim() ?? ''; if (!la) out.problems.push(`${where}: empty Latin cell (${s.querySelector('h3')?.textContent})`); if (!hr && !r.classList.contains('sub')) out.problems.push(`${where}: empty Croatian cell (${s.querySelector('h3')?.textContent})`); }); });
+          secs.forEach(s => { const rows = s.querySelectorAll('.row:not(.head)'); if (!rows.length) out.problems.push(`${where}: section without rows (${s.querySelector('h2')?.textContent})`);
+            rows.forEach(r => { const la = r.querySelector('.la')?.textContent?.trim() ?? '', hr = r.querySelector('.hr')?.textContent?.trim() ?? ''; if (!la) out.problems.push(`${where}: empty Latin cell (${s.querySelector('h2')?.textContent})`); if (!hr && !r.classList.contains('sub')) out.problems.push(`${where}: empty Croatian cell (${s.querySelector('h2')?.textContent})`); }); });
           out.missingHr += main.querySelectorAll('.missing').length;
           const text = main.textContent ?? ''; const hrText = [...main.querySelectorAll('.hr')].map(e => e.textContent).join(' ');
           if (/�|Ã[\u0080-¿¡-¿]|Ä[\u0080-¿]|Å[\u0080-¿¡-¿]/.test(text)) out.problems.push(`${where}: mojibake`);

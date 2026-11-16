@@ -9,6 +9,9 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
+<script>/* start fetching the calendar of the year shown while the application loads */
+(function () { try { var m = /[?#&]d=(\d{4})-/.exec(location.search + location.hash); var y = m ? m[1] : new Date().getFullYear(); var l = document.createElement('link'); l.rel = 'preload'; l.as = 'script'; l.href = 'data/cal/' + y + '.js'; document.head.appendChild(l);
+  if (/^https?:$/.test(location.protocol)) { var f = document.createElement('link'); f.rel = 'preload'; f.as = 'font'; f.type = 'font/woff2'; f.crossOrigin = 'anonymous'; f.href = 'fonts/eb-garamond-latin-400-normal.woff2'; document.head.appendChild(f); } } catch (e) {} })();</script>
 </head>
 <body>
 <a class="skip" href="#main">Preskoči na sadržaj</a>
@@ -28,7 +31,7 @@
     <span class="group langsel" role="group" aria-label="Jezik teksta">
       <button type="button" class="btn" data-act="lang" data-lang-btn="la">Latinski</button><button type="button" class="btn" data-act="lang" data-lang-btn="hr">Hrvatski</button><button type="button" class="btn" data-act="lang" data-lang-btn="oba">Oboje</button>
     </span>
-    <span class="group" role="group" aria-label="Veličina slova"><button type="button" class="btn" data-act="smaller" aria-label="Manja slova">A−</button><button type="button" class="btn" data-act="bigger" aria-label="Veća slova">A+</button></span>
+    <span class="group" role="group" aria-label="Veličina slova"><button type="button" class="btn" data-act="smaller" aria-label="A− (manja slova)">A−</button><button type="button" class="btn" data-act="bigger" aria-label="A+ (veća slova)">A+</button></span>
     <button type="button" class="btn" data-act="theme">Svijetlo / tamno</button>
     <button type="button" class="btn" data-act="print">Ispis</button>
     <button type="button" class="btn" data-act="paper">Papir: A4</button>
@@ -37,8 +40,7 @@
 <main id="main" tabindex="-1"><p class="empty">Učitavanje…</p></main>
 <footer class="foot"><p>Rimski misal 1962. · latinski tekst: Divinum Officium · hrvatski: tradicionalnamisa.com i Kniewaldov Rimski misal</p></footer>
 <noscript><p class="empty">Za prikaz kalendara potreban je JavaScript.</p></noscript>
-<script src="app.js"></script>
-<script src="data/base.js"></script>
-<script>TLM.start();</script>
+<script src="app.js" defer></script>
+<script src="data/base.js" defer></script>
 </body>
 </html>

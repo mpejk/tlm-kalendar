@@ -115,7 +115,7 @@ function sectionHtml(s: Section): string {
     const lab = u.label ? h('span', { class: 'commlab' }, esc(u.label)) : '';
     rows.push(h('div', { class: 'row' }, h('div', { class: 'la', lang: 'la' }, lab, u.lines.map(laLine).join('')), h('div', { class: 'hr', lang: 'hr' }, lab, hrFor(u.lines, u.src))));
   }
-  return h('section', { class: 'sec sec-' + s.key }, h('div', { class: 'row head' }, h('h3', { class: 'la', lang: 'la' }, esc(s.la)), h('h3', { class: 'hr', lang: 'hr' }, esc(s.hr))), rows.join(''));
+  return h('section', { class: 'sec sec-' + s.key }, h('div', { class: 'row head' }, h('h2', { class: 'la', lang: 'la' }, esc(s.la)), h('h2', { class: 'hr', lang: 'hr' }, esc(s.hr))), rows.join(''));
 }
 function fixedHtml(title: string, t: { la: string; hr: string }): string {
   return h('details', { class: 'fixed' }, h('summary', null, esc(title)), h('div', { class: 'row' }, h('div', { class: 'la', lang: 'la' }, h('span', { class: 'tx' }, esc(t.la))), h('div', { class: 'hr', lang: 'hr' }, h('span', { class: 'tx' }, esc(t.hr)))));
@@ -135,7 +135,7 @@ function riteHtml(f: FData): string {
   return (f.items ?? []).map((it: any) => {
     if (it.kind === 'note') return h('p', { class: 'note rubnote' }, esc(it.text));
     const rows = (it.rows ?? []).map((r: any) => r.la === undefined ? h('p', { class: 'note rubnote' }, esc(r.text ?? '')) : r.hr === ' ' ? h('div', { class: 'rubonly', lang: 'la' }, hrCell(typo(r.la))) : h('div', { class: r.head ? 'row sub' : 'row' }, h('div', { class: 'la', lang: 'la' }, hrCell(typo(r.la))), h('div', { class: 'hr', lang: 'hr' }, r.hr ? hrCell(typo(r.hr)) + (r.src ? h('span', { class: 'srcnote' }, esc(r.src)) : '') : h('span', { class: 'missing' }, 'hrvatski prijevod nedostaje')))).join('');
-    return h('section', { class: 'sec' }, h('div', { class: 'row head' }, h('h3', { class: 'la', lang: 'la' }, esc(it.la ?? '')), h('h3', { class: 'hr', lang: 'hr' }, esc(it.hr ?? ''))), rows);
+    return h('section', { class: 'sec' }, h('div', { class: 'row head' }, h('h2', { class: 'la', lang: 'la' }, esc(it.la ?? '')), h('h2', { class: 'hr', lang: 'hr' }, esc(it.hr ?? ''))), rows);
   }).join('');
 }
 function commLines(d: Day): string {
@@ -262,5 +262,6 @@ function init() {
   if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register(here + 'sw.js').catch(() => { /* offline use unavailable */ });
 }
 W.TLM.start = init;
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => init()); else setTimeout(init, 0);
 /** used by the verification crawl: show a day and resolve when it is rendered */
 W.TLM.nav = async (o: Partial<State>) => { Object.assign(st, o); const u = urlFor({}); try { history.replaceState(null, '', u); } catch { /* file:// */ } await render(); };

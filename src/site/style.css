@@ -7,13 +7,16 @@
 /* ℟ and ℣ come from the full font file, fetched only for these two characters */
 @font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 400 800; font-display: swap; src: url(fonts/EBGaramond.ttf) format("truetype"); unicode-range: U+211F, U+2123; }
 
+/* fallback with the proportions of EB Garamond, so that text does not reflow when the font arrives */
+@font-face { font-family: "EBG Fallback"; src: local("Times New Roman"), local("Times"), local("Liberation Serif"), local("Noto Serif"); size-adjust: 96%; ascent-override: 92%; descent-override: 28%; line-gap-override: 0%; }
+
 :root { --paper: #fbf8f1; --ink: #23201c; --muted: #6b6257; --rule: #d9cfbd; --red: #9b1c1c; --card: #fffdf8; --link: #6d1a1a; --fs: 100%;
   --w: #c9a227; --r: #b3261e; --v: #6a3d9a; --g: #2f7d3b; --b: #2b2b2b; --p: #d98aa5; color-scheme: light; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --paper: #17140f; --ink: #e9e2d3; --muted: #a79d8c; --rule: #3a342a; --red: #e8837a; --card: #1e1a14; --link: #f0a9a0; --w: #e3c565; --r: #ef6a5e; --v: #b392e0; --g: #6cc47a; --b: #9a9a9a; --p: #f0a8c0; color-scheme: dark; } }
 :root[data-theme="dark"] { --paper: #17140f; --ink: #e9e2d3; --muted: #a79d8c; --rule: #3a342a; --red: #e8837a; --card: #1e1a14; --link: #f0a9a0; --w: #e3c565; --r: #ef6a5e; --v: #b392e0; --g: #6cc47a; --b: #9a9a9a; --p: #f0a8c0; color-scheme: dark; }
 * { box-sizing: border-box; }
 html { font-size: var(--fs); -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--paper); color: var(--ink); font-family: "EB Garamond", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; font-size: 1.19rem; line-height: 1.45; font-variant-numeric: oldstyle-nums; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: "EB Garamond", "EBG Fallback", "Times New Roman", serif; font-size: 1.19rem; line-height: 1.45; font-variant-numeric: oldstyle-nums; }
 /* EB Garamond would turn u into v for text marked as Latin (its locl feature): the missal spelling keeps u */
 [lang="la"] { font-feature-settings: "locl" 0; }
 a { color: var(--link); text-underline-offset: .15em; }
@@ -27,13 +30,14 @@ a { color: var(--link); text-underline-offset: .15em; }
 .views a { text-decoration: none; color: var(--muted); padding: .1rem 0; border-bottom: 2px solid transparent; }
 .views a.on { color: var(--ink); border-bottom-color: var(--red); }
 .tools { display: flex; flex-wrap: wrap; gap: .35rem .5rem; align-items: center; }
+.btn { white-space: nowrap; }
 .btn, input[type=date], input[type=search] { font: inherit; font-size: .95rem; color: var(--ink); background: var(--card); border: 1px solid var(--rule); border-radius: 3px; padding: .22rem .6rem; min-height: 2.1rem; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; }
 .btn:hover { border-color: var(--muted); }
 .btn[aria-pressed=true] { border-color: var(--red); color: var(--red); }
 .group { display: inline-flex; } .group .btn { border-radius: 0; margin-left: -1px; } .group .btn:first-child { border-radius: 3px 0 0 3px; margin-left: 0; } .group .btn:last-child { border-radius: 0 3px 3px 0; }
 .langsel { display: none; }
 :focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
-main { max-width: 76rem; margin: 0 auto; padding: 1rem 1rem 3rem; min-height: 60vh; }
+main { max-width: 76rem; margin: 0 auto; padding: 1rem 1rem 3rem; min-height: 100vh; }
 .daynav { display: flex; align-items: center; justify-content: center; gap: 1rem; margin: .2rem 0 1rem; }
 .daynav .btn { font-size: 1.4rem; line-height: 1; padding: 0 .8rem; min-width: 2.75rem; min-height: 2.75rem; justify-content: center; }
 .when { font-variant-caps: all-small-caps; letter-spacing: .08em; font-size: 1.15rem; color: var(--muted); text-align: center; }
@@ -53,7 +57,7 @@ h1 { font-size: 1.9rem; line-height: 1.2; font-weight: 400; margin: 0 0 .4rem; }
 .sec { margin: 0 0 1.1rem; }
 .row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2.2rem; }
 .row > * { min-width: 0; padding: .1rem 0 .5rem; }
-.row.head h3 { margin: .6rem 0 .1rem; font-size: 1.02rem; font-weight: 400; color: var(--red); font-variant-caps: all-small-caps; letter-spacing: .08em; border-bottom: 1px solid var(--rule); padding-bottom: .1rem; }
+.row.head h2 { margin: .6rem 0 .1rem; font-size: 1.02rem; font-weight: 400; color: var(--red); font-variant-caps: all-small-caps; letter-spacing: .08em; border-bottom: 1px solid var(--rule); padding-bottom: .1rem; }
 .la .tx, .hr .tx, .formula, .ref, .rub, .commlab, .missing, .srcnote { display: block; }
 .tx + .tx, .tx + .formula, .formula + .tx { margin-top: .25rem; }
 .ref { color: var(--red); font-size: .88rem; letter-spacing: .02em; }
