@@ -26,7 +26,7 @@ for (let n = dayNumber(1961, 1, 1); n <= dayNumber(2100, 12, 31); n++) {
   for (const c of d.commemorations) ids.add(c.id);
   for (const m of d.masses) ids.add(m.id.split(':')[0]);
 }
-for (const x of ['Commune/C10', 'Commune/C10a', 'Commune/C10b', 'Commune/C10c', 'Commune/C10Pasc', 'Commune/Coronatio', 'Commune/Propaganda']) ids.add(x);
+for (const x of ['Sancti/05-04pl', 'Commune/C10', 'Commune/C10a', 'Commune/C10b', 'Commune/C10c', 'Commune/C10Pasc', 'Commune/Coronatio', 'Commune/Propaganda']) ids.add(x);
 // Commons, for the local layer
 for (const f of fs.readdirSync('data/raw/do/repo/web/www/missa/Latin/Commune')) if (/^C\d/.test(f)) ids.add('Commune/' + f.replace('.txt', ''));
 
@@ -56,6 +56,12 @@ for (const id of [...ids].sort()) {
       if (JSON.stringify(f.sections[n]) !== JSON.stringify(p.sections[n])) { pd[n] = p.sections[n] ? pack(p.sections[n]) : null; anyP = true; }
     }
     if (anyP) entry.variants = { ...(entry.variants ?? {}), paschal: pd };
+  }
+  // a Common used directly as the Mass (local feasts): in Paschaltide its chants and readings come from the Paschal form
+  if (/^Commune\/C\d+[a-z]?$/.test(id) && !id.endsWith('p')) {
+    const pf = parseFile(id + 'p', {}) ? id + 'p' : /^Commune\/C2/.test(id) ? 'Commune/C2p' : /^Commune\/C3/.test(id) ? 'Commune/C3p' : null;
+    const p = pf ? importFormulary(pf, {}) : null;
+    if (p) { const pd: Record<string, any> = {}; for (const n of ['Introitus', 'Lectio', 'Graduale', 'Evangelium', 'Offertorium', 'Communio']) if (p.sections[n] && p.from?.[n] === undefined && JSON.stringify(p.sections[n]) !== JSON.stringify(f.sections[n])) pd[n] = pack(p.sections[n]); if (Object.keys(pd).length) entry.variants = { ...(entry.variants ?? {}), paschal: pd }; }
   }
   out[id] = entry;
 }

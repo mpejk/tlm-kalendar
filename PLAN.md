@@ -28,7 +28,7 @@ DO data: sparse clone in data/raw/do/repo (git-ignored; re-clone with the comman
 - [x] Import script DO -> data/corpus/la (each text once) — `npx tsx scripts/import/import-do.ts`; DO snapshot 326bc4a (Feb 2025); overrides in data/corpus/overrides.yaml
 - [x] Assembler: day -> ordered Mass (sections, commemorations, preface, Gloria/Credo lines)
 - [x] Test: reproduces every harvested Mass page section by section (Latin) — tests/oldsite-texts.test.ts, exceptions in data/verify/text-exceptions.yaml
-- [ ] Rites: blessing of palms, Mandatum, Good Friday, Easter Vigil, Candlemas, Ash Wednesday (import + compare with the 4 harvested rite pages)
+- [x] Rites: palms, Good Friday, Mandatum taken whole from the old site's pages (scripts/build/rites.ts); Candlemas, ashes, Easter Vigil from DO [Prelude] (Latin only so far — Croatian: Kniewald / GAPS)
 
 ## 4. Croatian
 - [x] Block memory (data/tm/blocks.json, `npx tsx scripts/croatian/build-blocks.ts`) + resolver (scripts/croatian/resolve.ts: exact / typo / variant / manual) + coverage (`npx tsx scripts/croatian/coverage.ts` -> data/tm/missing.json, data/tm/variants.txt). 16 Nov: 2432 of 2474 distinct blocks of 2026-2036 (general calendar) have the old site's Croatian; 42 missing.
@@ -39,13 +39,14 @@ DO data: sparse clone in data/raw/do/repo (git-ignored; re-clone with the comman
 - [ ] TYPOS.md
 
 ## 5. Zagreb layer
-- [ ] Re-read HBK page; search for pre-conciliar Zagreb proper
-- [ ] data/local/zagreb.yaml with sources; Mass choices; engine integration; "mjesni kalendar" tag
+- [x] Re-read HBK page (data/raw/hbk/, unchanged); searched for a pre-conciliar Zagreb proper (none found online)
+- [x] data/local/zagreb.yaml with sources; Mass choices; engine integration; "mjesni kalendar" tag (check with `npx tsx scripts/tmp/zg.ts <dates>`)
+- [ ] Named tests for the local layer (tests/zagreb.test.ts): ranks, occurrence with Sundays/Corpus Christi, commemorations; St Demetrius collect (Common C3 has the form for bishops: pick the form for non-bishops)
 
 ## 6. Site
-- [ ] Build pipeline: per-year calendar files + per-formulary files as classic scripts into dist/
-- [ ] Day view, tabs, language modes, navigation, date picker, month grid, year list, search
-- [ ] Typography, themes, font size, self-hosted fonts, print leaflet, .ics, offline (service worker)
+- [x] Build pipeline: per-year calendar files + per-formulary files as classic scripts into dist/ (`npx tsx scripts/build/build.ts`: data.ts, rites.ts, ics.ts, site.ts)
+- [x] Day view, tabs, language modes, navigation, date picker, month grid, year list, search (src/site/main.ts) — first version; needs the screenshot review of stage 7
+- [x] Typography, themes, font size, self-hosted fonts, print leaflet, .ics, offline (service worker) — first version; print/offline still to be verified in stage 7
 
 ## 7. Verification
 - [ ] Calendar vs old site (100% or DIFFS.md)

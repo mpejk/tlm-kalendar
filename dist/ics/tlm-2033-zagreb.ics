@@ -379,8 +379,8 @@ UID:2033-02-10-zagreb@tlm-kalendar
 DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20330210
 DTEND;VALUE=DATE:20330211
-SUMMARY:sv. Skolastika\, djevica
-DESCRIPTION:III. razred
+SUMMARY:bl. Alojzije Stepinac\, biskup i mučenik
+DESCRIPTION:III. razred\nspomen na tihim misama: sv. Skolastika\, djevica
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1085,7 +1085,8 @@ DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20330427
 DTEND;VALUE=DATE:20330428
 SUMMARY:sv. Petar Kanizij\, priznavalac\, naučitelj
-DESCRIPTION:III. razred
+DESCRIPTION:III. razred\nbl. Ozana Kotorska\, djevica (neobvezatni spomen
+ dan)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1150,8 +1151,8 @@ UID:2033-05-04-zagreb@tlm-kalendar
 DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20330504
 DTEND;VALUE=DATE:20330505
-SUMMARY:sv. Monika\, udovica
-DESCRIPTION:III. razred
+SUMMARY:sv. Florijan\, mučenik\, drugi zaštitnik Nadbiskupije
+DESCRIPTION:II. razred\nspomen na tihim misama: sv. Monika\, udovica
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1206,7 +1207,7 @@ DTSTART;VALUE=DATE:20330510
 DTEND;VALUE=DATE:20330511
 SUMMARY:sv. Antonin Firentinski\, biskup\, priznavalac
 DESCRIPTION:III. razred\nspomen na tihim misama: sv. Gordijan i Epimah\, 
- mučenici
+ mučenici\nbl. Ivan Merz (neobvezatni spomendan)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1223,9 +1224,9 @@ UID:2033-05-12-zagreb@tlm-kalendar
 DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20330512
 DTEND;VALUE=DATE:20330513
-SUMMARY:sv. Nerej\, sv. Ahilej\, sv. Domitila\, djevica\, i sv. Pankracij
- e\, mučenici
-DESCRIPTION:III. razred
+SUMMARY:sv. Leopold Mandić\, prezbiter\, priznavalac
+DESCRIPTION:III. razred\nspomen na tihim misama: sv. Nerej\, sv. Ahilej\,
+  sv. Domitila\, djevica\, i sv. Pankracije\, mučenici
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1651,8 +1652,8 @@ UID:2033-06-27-zagreb@tlm-kalendar
 DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20330627
 DTEND;VALUE=DATE:20330628
-SUMMARY:Feria (u tjednu 3. nedjelje po Duhovima)
-DESCRIPTION:IV. razred
+SUMMARY:SV. LADISLAV\, KRALJ\, ZAŠTITNIK NADBISKUPIJE
+DESCRIPTION:I. razred
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1744,7 +1745,7 @@ DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20330707
 DTEND;VALUE=DATE:20330708
 SUMMARY:sv. Ćiril i sv. Metod\, biskupi\, priznavaoci
-DESCRIPTION:III. razred
+DESCRIPTION:II. razred
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1762,7 +1763,8 @@ DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20330709
 DTEND;VALUE=DATE:20330710
 SUMMARY:Subotnja služba Gospina
-DESCRIPTION:IV. razred
+DESCRIPTION:IV. razred\nbl. Marija Propetog Isusa Petković\, djevica (ne
+ obvezatni spomendan)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1799,8 +1801,8 @@ UID:2033-07-13-zagreb@tlm-kalendar
 DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20330713
 DTEND;VALUE=DATE:20330714
-SUMMARY:Feria (u tjednu 5. nedjelje po Duhovima)
-DESCRIPTION:IV. razred
+SUMMARY:Majka Božja Bistrička
+DESCRIPTION:II. razred
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1997,7 +1999,8 @@ DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20330803
 DTEND;VALUE=DATE:20330804
 SUMMARY:Feria (u tjednu 8. nedjelje po Duhovima)
-DESCRIPTION:IV. razred
+DESCRIPTION:IV. razred\nbl. Augustin Kažotić\, biskup (neobvezatni spom
+ endan)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2200,8 +2203,8 @@ UID:2033-08-25-zagreb@tlm-kalendar
 DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20330825
 DTEND;VALUE=DATE:20330826
-SUMMARY:sv. Ljudevit IX. Francuski\, kralj\, priznavalac
-DESCRIPTION:III. razred
+SUMMARY:OBLJETNICA POSVETE PRVOSTOLNE CRKVE
+DESCRIPTION:I. razred
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2321,8 +2324,8 @@ UID:2033-09-07-zagreb@tlm-kalendar
 DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20330907
 DTEND;VALUE=DATE:20330908
-SUMMARY:Feria (u tjednu 13. nedjelje po Duhovima)
-DESCRIPTION:IV. razred
+SUMMARY:sv. Marko Križevčanin\, prezbiter i mučenik
+DESCRIPTION:III. razred
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2611,9 +2614,10 @@ UID:2033-10-08-zagreb@tlm-kalendar
 DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20331008
 DTEND;VALUE=DATE:20331009
-SUMMARY:sv. Brigita Švedska\, udovica
-DESCRIPTION:III. razred\nspomen na tihim misama: sv. Sergije\, sv. Bakho\
- , sv. Marcel i sv. Apulej\, mučenici
+SUMMARY:sv. Demetrije i drugovi\, mučenici
+DESCRIPTION:III. razred\nspomen na tihim misama: sv. Brigita Švedska\, u
+ dovica\nspomen na tihim misama: sv. Sergije\, sv. Bakho\, sv. Marcel i s
+ v. Apulej\, mučenici
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2870,8 +2874,9 @@ UID:2033-11-05-zagreb@tlm-kalendar
 DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20331105
 DTEND;VALUE=DATE:20331106
-SUMMARY:Subotnja služba Gospina
-DESCRIPTION:IV. razred
+SUMMARY:Spomen mučenika i svetaca čije su relikvije u crkvama Nadbiskup
+ ije
+DESCRIPTION:III. razred
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2899,7 +2904,8 @@ DTSTART;VALUE=DATE:20331108
 DTEND;VALUE=DATE:20331109
 SUMMARY:Feria (u tjednu 22. nedjelje po Duhovima)
 DESCRIPTION:IV. razred\nspomen na tihim misama: Četvorica svetih proslav
- ljenih mučenika
+ ljenih mučenika\nbl. Gracija Kotorski\, redovnik (neobvezatni spomendan
+ )
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2954,8 +2960,9 @@ UID:2033-11-14-zagreb@tlm-kalendar
 DTSTAMP:20330101T000000Z
 DTSTART;VALUE=DATE:20331114
 DTEND;VALUE=DATE:20331115
-SUMMARY:sv. Jozafat Kuncevič\, biskup\, mučenik
-DESCRIPTION:III. razred
+SUMMARY:sv. Nikola Tavelić\, prezbiter i mučenik
+DESCRIPTION:III. razred\nspomen na tihim misama: sv. Jozafat Kuncevič\, 
+ biskup\, mučenik
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

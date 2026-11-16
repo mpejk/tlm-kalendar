@@ -1,15 +1,15 @@
 {
  "coverage": {
-  "masses": 4147,
-  "blocks": 47159,
-  "site": 46870,
-  "siteVariant": 1319,
+  "masses": 4337,
+  "blocks": 49330,
+  "site": 48867,
+  "siteVariant": 1369,
   "kniewald": 0,
-  "missing": 289,
-  "unique": 6142,
-  "uniqueSite": 6100,
+  "missing": 463,
+  "unique": 6229,
+  "uniqueSite": 6172,
   "uniqueKniewald": 0,
-  "uniqueMissing": 42
+  "uniqueMissing": 57
  },
  "rites": [
   {
@@ -37,6 +37,38 @@
    "sec": "Sancti/02-10|Graduale",
    "first": "2026-02-10",
    "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "bl. Alojzije Stepinac, biskup i mučenik",
+   "la": "Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti N. Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat",
+   "sec": "Commune/C2c|Oratio",
+   "first": "2026-02-10",
+   "cal": "zagreb"
+  },
+  {
+   "n": 1,
+   "where": "bl. Alojzije Stepinac, biskup i mučenik",
+   "la": "Léctio Epístolæ beáti Jacóbi Apóstoli Caríssimi: Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ, quam repromísit Deus ",
+   "sec": "Commune/C2c|Lectio",
+   "first": "2026-02-10",
+   "cal": "zagreb"
+  },
+  {
+   "n": 1,
+   "where": "bl. Alojzije Stepinac, biskup i mučenik",
+   "la": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.",
+   "sec": "Commune/C2c|Secreta",
+   "first": "2026-02-10",
+   "cal": "zagreb"
+  },
+  {
+   "n": 1,
+   "where": "bl. Alojzije Stepinac, biskup i mučenik",
+   "la": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus e",
+   "sec": "Commune/C2c|Postcommunio",
+   "first": "2026-02-10",
+   "cal": "zagreb"
   },
   {
    "n": 1,
@@ -88,11 +120,43 @@
   },
   {
    "n": 1,
+   "where": "sv. Florijan, mučenik, drugi zaštitnik Nadbiskupije",
+   "la": "Deus, qui nos beáti Floriáni Mártyris solemnitáte lætíficas: concéde propítius; ut, cuius gloriósum triúmphum venerámur in terris, societátis eius lætítiam adip",
+   "sec": "Sancti/05-04pl|Oratio",
+   "first": "2026-05-04",
+   "cal": "zagreb"
+  },
+  {
+   "n": 1,
+   "where": "sv. Florijan, mučenik, drugi zaštitnik Nadbiskupije",
+   "la": "Hanc oblatiónis hóstiam, quǽsumus, omnípotens Deus, beáti Floriáni Mártyris tui digna comméndet orátio: qui sancto caritátis tuæ devíctus amóre, própriam sui có",
+   "sec": "Sancti/05-04pl|Secreta",
+   "first": "2026-05-04",
+   "cal": "zagreb"
+  },
+  {
+   "n": 1,
+   "where": "sv. Florijan, mučenik, drugi zaštitnik Nadbiskupije",
+   "la": "Sancta nos, quǽsumus, Dómine, sacraménti cæléstis participátio: et ab hóstium cállido tueátur incúrsu; et sancto Floriáno intercedénte, nobis remédia salútis có",
+   "sec": "Sancti/05-04pl|Postcommunio",
+   "first": "2026-05-04",
+   "cal": "zagreb"
+  },
+  {
+   "n": 1,
    "where": "sv. Filip i sv. Jakov (Mlađi), apostoli (prosni dan)",
    "la": "Allelúja, allelúja. Confitebúntur cœli mirabília tua, Dómine: etenim veritátem tuam in ecclésia sanctórum. Allelúja. Tanto témpore vobíscum sum, et non cognovís",
    "sec": "Sancti/05-11r|Graduale",
    "first": "2026-05-11",
    "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Leopold Mandić, prezbiter, priznavalac (prosni dan)",
+   "la": "Deus, qui nos beáti N. Confessóris tui ánnua solemnitáte lætíficas: concéde propítius; ut, cujus natalítia cólimus, étiam actiónes imitémur.",
+   "sec": "Commune/C5|Oratio",
+   "first": "2026-05-12",
+   "cal": "zagreb"
   },
   {
    "n": 1,
@@ -117,6 +181,14 @@
    "sec": "Sancti/09-03|Lectio",
    "first": "2026-09-03",
    "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Marko Križevčanin, prezbiter i mučenik",
+   "la": "Præsta, quǽsumus, omnípotens Deus: ut, qui beáti N. Mártyris tui natalícia cólimus, intercessióne ejus, in tui nóminis amóre roborémur.",
+   "sec": "Commune/C2|Oratio",
+   "first": "2026-09-07",
+   "cal": "zagreb"
   },
   {
    "n": 1,
@@ -160,6 +232,14 @@
   },
   {
    "n": 1,
+   "where": "sv. Demetrije i drugovi, mučenici",
+   "la": "Beatórum Mártyrum paritérque Pontíficum N. et N. nos, quǽsumus, Dómine, festa tueántur: et eórum comméndet orátio veneránda.",
+   "sec": "Commune/C3|Oratio",
+   "first": "2026-10-08",
+   "cal": "zagreb"
+  },
+  {
+   "n": 1,
    "where": "sv. Antun Marija Claret, biskup, priznavalac",
    "la": "Lectio sancti Evangelii secundum Matthǽum In illo témpore: Dixit Jesus discípulis suis: Vigiláte ergo, quia nescítis qua hora Dóminus vester ventúrus sit. Illud",
    "sec": "Sancti/10-23r|Evangelium",
@@ -197,6 +277,46 @@
    "sec": "Sancti/11-02m3|Graduale",
    "first": "2026-11-02",
    "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "Spomen mučenika i svetaca čije su relikvije u crkvama Nadbiskupije",
+   "la": "Deus, qui nos concédis sanctórum Mártyrum tuórum N. et N. natalítia cólere: da nobis in ætérna beatitúdine de eórum societáte gaudére.",
+   "sec": "Commune/C3a|Oratio",
+   "first": "2026-11-05",
+   "cal": "zagreb"
+  },
+  {
+   "n": 1,
+   "where": "Spomen mučenika i svetaca čije su relikvije u crkvama Nadbiskupije",
+   "la": "Anima nostra, sicut passer, erépta est de láqueo venántium. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum e",
+   "sec": "Commune/C3a|Graduale",
+   "first": "2026-11-05",
+   "cal": "zagreb"
+  },
+  {
+   "n": 1,
+   "where": "Spomen mučenika i svetaca čije su relikvije u crkvama Nadbiskupije",
+   "la": "Exsultábunt Sancti in glória, lætabúntur in cubílibus suis: exaltatiónes Dei in fáucibus eórum, allelúja.",
+   "sec": "Commune/C3a|Offertorium",
+   "first": "2026-11-05",
+   "cal": "zagreb"
+  },
+  {
+   "n": 1,
+   "where": "Spomen mučenika i svetaca čije su relikvije u crkvama Nadbiskupije",
+   "la": "Dico autem vobis amícis meis: Ne terreámini ab his, qui vos persequúntur.",
+   "sec": "Commune/C3a|Communio",
+   "first": "2026-11-05",
+   "cal": "zagreb"
+  },
+  {
+   "n": 1,
+   "where": "Spomen mučenika i svetaca čije su relikvije u crkvama Nadbiskupije",
+   "la": "Præsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Martýribus tuis N. et N.; ut, quod ore contíngimus, pura mente capiámus.",
+   "sec": "Commune/C3a|Postcommunio",
+   "first": "2026-11-05",
+   "cal": "zagreb"
   },
   {
    "n": 1,
