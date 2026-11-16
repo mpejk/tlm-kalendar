@@ -124,6 +124,8 @@ export function parseFile(rel, ctx = {}, root = DO_ROOT) {
     const m = line[0] === '[' && line.match(SECTION_RE);
     if (m) {
       const cond = m[3];
+      // "[Name] (condition dicitur)": the scoped condition belongs to the first lines of the body, not to the section
+      if (m[3] && /\b(dicitur|dicuntur|omittitur|omittuntur)\b/.test(m[3])) { use = true; keyName = m[1]; sections[keyName] = ['(' + (m[2] || '') + m[3] + ')']; if (!order.includes(keyName)) order.push(keyName); continue; }
       // a section whose condition holds wins over the unconditional section of the same name, whichever comes first
       if (!cond && conditional.has(m[1])) use = false;
       else if (!cond || vero(cond.replace(/^non\s+/, 'nisi '), ctx) ) { use = true; keyName = m[1]; sections[keyName] = []; if (cond) conditional.add(keyName); if (!order.includes(keyName)) order.push(keyName); }
@@ -187,7 +189,7 @@ export function getSection(rel, name, ctx = {}, depth = 0, seen = []) {
       if (!r) { out.push(`[missing ${id}]`); continue; }
       if (m[3]) r = applySubs(r, m[3]);
       // A chant borrowed from a Paschaltide Mass by a Mass outside Paschaltide: its alleluias are said in Paschaltide only.
-      else if (/^Tempora\/Pasc/.test(file) && !/^Tempora\/Pasc/.test(rel)) r = r.map(l => /^[!$&@]/.test(l) ? l : l.replace(/([,;:]?\s*allel[úu][ij]a)+(?=[\s.,;:]|$)/gi, x => '(' + x + ')'));
+      else if ((/^Tempora\/Pasc/.test(file) && !/^Tempora\/Pasc/.test(rel)) || (/^Commune\/C.*p$/.test(file) && !/^Commune\/C.*p$/.test(rel) && !/Pasc/.test(rel))) r = r.map(l => /^[!$&@]/.test(l) ? l : l.replace(/([,;:]?\s*allel[úu][ij]a)+(?=[\s.,;:]|$)/gi, x => '(' + x + ')'));
       out.push(...r);
     } else out.push(line);
   }

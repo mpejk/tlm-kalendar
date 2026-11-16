@@ -31,7 +31,6 @@ export function fallbackOf(file, ctx = {}) {
     const m = c.trim().match(/^(?:ex|vide)\s+([A-Za-z0-9\/-]+)/);
     if (!m) continue;
     let t = m[1];
-    if (/^C\d+$/.test(t)) { const narrower = communes.find(x => x !== t && x.startsWith(t)); if (narrower) t = narrower; }
     if (!t.includes('/')) t = (/^C\d/.test(t) ? 'Commune/' : file.split('/')[0] + '/') + t;
     // in Paschaltide the Commons of Apostles and Martyrs are replaced by their Paschal forms (C1p, C2p, C3p …)
     if (ctx.paschal && /^Commune\/C\d/.test(t) && !t.endsWith('p') && parseFile(t + 'p', ctx)) return t + 'p';
@@ -96,7 +95,7 @@ export function toUnits(lines) {
   if (gi >= 0) units.length = gi;
   while (units.length && units[units.length - 1].k === 'sep') units.pop();
   // tidy DO markup inside text: "++" (sign of the cross in Gospel titles), "+" marks, double spaces
-  for (const u of units) if (u.la) u.la = u.la.replace(/\s*\+\+\s*/g, ' ✠ ').replace(/\s+/g, ' ').trim();
+  for (const u of units) if (u.la) u.la = u.la.replace(/\s*Non dicitur Gl[óo]ria in exc[ée]lsis\.?$/, '').replace(/\s*\+\+\s*/g, ' ✠ ').replace(/\s+/g, ' ').trim();
   return units;
 }
 

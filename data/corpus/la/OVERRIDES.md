@@ -14,3 +14,14 @@
 - Sancti/08-24 Communio <- old site 2017/propers_20170824_0: St Bartholomew: communion antiphon as on the old site
 - Sancti/10-05 Secreta <- old site 2017/propers_20171005_0: St Placid and companions: secret as on the old site
 - Tempora/Quad6-0r (brevior) Evangelium <- old site 2017/propers_20170409_2: Palm Sunday, shorter form of the Passion (Mt 27, 45-52) as printed on the old site
+- Sancti/04-21 Postcommunio <- old site 2018/propers_20180421_0: St Anselm: postcommunion of a Doctor as on the old site
+- Sancti/01-19o Postcommunio <- old site 2017/propers_20170119_0: saint's name filled in as printed on the old site (the DO text has N.)
+- Sancti/01-30 Secreta <- old site 2017/propers_20170130_0: saint's name filled in as printed on the old site (the DO text has N.)
+- Sancti/01-30 Postcommunio <- old site 2017/propers_20170130_0: saint's name filled in as printed on the old site (the DO text has N.)
+- Sancti/05-27o Oratio <- old site 2017/propers_20170527_0: saint's name filled in as printed on the old site (the DO text has N.)
+- Sancti/06-17r Postcommunio <- old site 2017/propers_20170617_0: saint's name filled in as printed on the old site (the DO text has N.)
+- Sancti/08-12 Oratio <- old site 2017/propers_20170812_0: saint's name filled in as printed on the old site (the DO text has N.)
+- Sancti/11-17 Postcommunio <- old site 2017/propers_20171117_0: saint's name filled in as printed on the old site (the DO text has N.)
+- Sancti/09-10 Postcommunio <- old site 2018/propers_20180910_0: saint's name filled in as printed on the old site (the DO text has N.)
+- Sancti/10-01 Postcommunio <- old site 2018/propers_20181001_0: saint's name filled in as printed on the old site (the DO text has N.)
+- Sancti/11-19o Oratio <- old site 2018/propers_20181119_0: saint's name filled in as printed on the old site (the DO text has N.)

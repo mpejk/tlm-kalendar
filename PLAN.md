@@ -25,9 +25,10 @@ DO data: sparse clone in data/raw/do/repo (git-ignored; re-clone with the comman
 - [x] Named edge-date tests with rubric citations (+ fresh-subagent derivation reconciled, EDGE-DERIVATION.md)
 
 ## 3. Latin corpus and assembler
-- [ ] Import script DO -> data/corpus/la (each text once)
-- [ ] Assembler: day -> ordered Mass (sections, commemorations, preface, Gloria/Credo lines)
-- [ ] Test: reproduces every harvested Mass page section by section (Latin)
+- [x] Import script DO -> data/corpus/la (each text once) — `npx tsx scripts/import/import-do.ts`; DO snapshot 326bc4a (Feb 2025); overrides in data/corpus/overrides.yaml
+- [x] Assembler: day -> ordered Mass (sections, commemorations, preface, Gloria/Credo lines)
+- [x] Test: reproduces every harvested Mass page section by section (Latin) — tests/oldsite-texts.test.ts, exceptions in data/verify/text-exceptions.yaml
+- [ ] Rites: blessing of palms, Mandatum, Good Friday, Easter Vigil, Candlemas, Ash Wednesday (import + compare with the 4 harvested rite pages)
 
 ## 4. Croatian
 - [ ] TM lookup for every Latin unit; coverage report

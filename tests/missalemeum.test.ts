@@ -43,7 +43,7 @@ describe.skipIf(!haveSource)('calendar against Missale Meum 2026–2036 (general
     for (const it of cal) {
       n++;
       const d = getDay(parseIso(it.id), cfg);
-      let mineId = d.celebration.id.replace('Tempora/', 'tempora:').replace('Sancti/', 'sancti:').replace('Commune/', 'commune:');
+      let mineId = (/^T:Nat(29|31)$/.test(d.celebration.key) ? 'Tempora/' + d.temporalId : d.celebration.id).replace('Tempora/', 'tempora:').replace('Sancti/', 'sancti:').replace('Commune/', 'commune:');
             const myId = d.celebration.key === 'S:08-09' ? 'S:08-08' : canon(mineId); // DO keeps St John Vianney's Mass in the file 08-09
       const ids = (titleToIds[it.title] ?? []).map(canon);
       const found: { kind: string; text: string; theirs: string[]; mine: string[] }[] = [];

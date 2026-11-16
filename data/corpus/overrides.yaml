@@ -15,3 +15,14 @@
 - { formulary: Sancti/08-24, section: Communio, page: 2017/propers_20170824_0, key: Communio, reason: "St Bartholomew: communion antiphon as on the old site" }
 - { formulary: Sancti/10-05, section: Secreta, page: 2017/propers_20171005_0, key: Secreta, row: 1, reason: "St Placid and companions: secret as on the old site" }
 - { formulary: Tempora/Quad6-0r, variant: brevior, section: Evangelium, page: 2017/propers_20170409_2, key: Evangelium, reason: "Palm Sunday, shorter form of the Passion (Mt 27, 45-52) as printed on the old site" }
+- { formulary: Sancti/04-21, section: Postcommunio, page: 2018/propers_20180421_0, key: Postcommunio, reason: "St Anselm: postcommunion of a Doctor as on the old site" }
+- { formulary: Sancti/01-19o, section: Postcommunio, page: 2017/propers_20170119_0, key: Postcommunio, row: 2, nth: -1, reason: "saint's name filled in as printed on the old site (the DO text has N.)" }
+- { formulary: Sancti/01-30, section: Secreta, page: 2017/propers_20170130_0, key: Secreta, row: 0, nth: -1, reason: "saint's name filled in as printed on the old site (the DO text has N.)" }
+- { formulary: Sancti/01-30, section: Postcommunio, page: 2017/propers_20170130_0, key: Postcommunio, row: 0, nth: -1, reason: "saint's name filled in as printed on the old site (the DO text has N.)" }
+- { formulary: Sancti/05-27o, section: Oratio, page: 2017/propers_20170527_0, key: Oratio, row: 1, nth: -1, reason: "saint's name filled in as printed on the old site (the DO text has N.)" }
+- { formulary: Sancti/06-17r, section: Postcommunio, page: 2017/propers_20170617_0, key: Postcommunio, row: 0, nth: -1, reason: "saint's name filled in as printed on the old site (the DO text has N.)" }
+- { formulary: Sancti/08-12, section: Oratio, page: 2017/propers_20170812_0, key: Oratio, row: 0, nth: -1, reason: "saint's name filled in as printed on the old site (the DO text has N.)" }
+- { formulary: Sancti/11-17, section: Postcommunio, page: 2017/propers_20171117_0, key: Postcommunio, row: 0, nth: -1, reason: "saint's name filled in as printed on the old site (the DO text has N.)" }
+- { formulary: Sancti/09-10, section: Postcommunio, page: 2018/propers_20180910_0, key: Postcommunio, row: 0, nth: -1, reason: "saint's name filled in as printed on the old site (the DO text has N.)" }
+- { formulary: Sancti/10-01, section: Postcommunio, page: 2018/propers_20181001_0, key: Postcommunio, row: 1, nth: -1, reason: "saint's name filled in as printed on the old site (the DO text has N.)" }
+- { formulary: Sancti/11-19o, section: Oratio, page: 2018/propers_20181119_0, key: Oratio, row: 1, nth: -1, reason: "saint's name filled in as printed on the old site (the DO text has N.)" }

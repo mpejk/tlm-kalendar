@@ -54,7 +54,7 @@ function paschalText(la: string, ctx: Ctx): string {
 function lines(corpus: Corpus, units: Unit[] | undefined, ctx: Ctx): Line[] {
   const out: Line[] = [];
   for (const u of units ?? []) {
-    if (u.k === 'text') { const la = paschalText(corpus.texts[u.x!] ?? '', ctx); if (la) out.push({ k: 'text', la, x: u.x, mark: u.mark }); }
+    if (u.k === 'text') { const la = paschalText(u.x ? corpus.texts[u.x] ?? '' : u.la ?? '', ctx); if (la) out.push({ k: 'text', la, x: u.x, mark: u.mark }); }
     else if (u.k === 'ref') out.push({ k: 'ref', la: u.la! });
     else if (u.k === 'rubric' || u.k === 'head') out.push({ k: u.k === 'head' ? 'head' : 'rubric', la: u.la! });
     else if (u.k === 'macro') { const m = macroLine(corpus, u.name!); if (m) out.push(m); }
@@ -73,12 +73,24 @@ const isAlleluiaStart = (s: string) => /^Allel[úu][ij]a,\s*allel[úu][ij]a/i.te
 
 function graduale(corpus: Corpus, f: Formulary, ctx: Ctx, suffix = ''): Section | null {
   let units: Unit[] | undefined;
+  const ownSec = (n: string) => !!f.sections[n] && !f.from?.[n];
+  const twoVerseAlleluia = (u?: Unit[]) => { const t = (u ?? []).filter(x => x.k === 'text').map(x => corpus.texts[x.x!] ?? ''); const ai = t.findIndex(x => /^Allel[úu][ij]a,\s*allel[úu][ij]a\.?$/i.test(x)); return ai > 0 && t.length - ai - 1 >= 2; };
   const startsAlleluia = (u?: Unit[]) => { const t = (u ?? []).find(x => x.k === 'text'); return !!t && /^Allel[úu][ij]a/i.test(corpus.texts[t.x!] ?? ''); };
   // ferias that repeat the Sunday Mass in Advent and after Septuagesima: gradual only, without the Alleluia or the tract
   if (ctx.feria && !suffix && f.sections.GradualeF && f.from?.Graduale) units = f.sections.GradualeF;
-  // Paschaltide: the formulary's own chant if it is already an Alleluia, else the Paschal form
-  else if (ctx.paschal && !ctx.easterWeek && f.sections['GradualeP' + suffix] && !startsAlleluia(f.sections['Graduale' + suffix])) units = f.sections['GradualeP' + suffix];
-  else if (ctx.septuagesima && f.sections['Tractus' + suffix]) units = f.sections['Tractus' + suffix];
+  // Paschaltide: the formulary's own chant if it is already an Alleluia or carries an Alleluia with two verses, else the Paschal form
+  else if (ctx.paschal && !ctx.easterWeek && f.sections['GradualeP' + suffix] && !startsAlleluia(f.sections['Graduale' + suffix]) && !(ownSec('Graduale' + suffix) && twoVerseAlleluia(f.sections['Graduale' + suffix]))) units = f.sections['GradualeP' + suffix];
+  else if (ctx.septuagesima && f.sections['Tractus' + suffix]) {
+    units = f.sections['Tractus' + suffix];
+    // a Tract printed without its gradual: the gradual of the Mass stands before it
+    const g = f.sections['Graduale' + suffix] ?? []; const firstOf = (u: Unit[]) => u.find(x => x.k === 'text')?.x;
+    const AL = /[.,;:]?\s*Allel[úu][ij]a,\s*allel[úu][ij]a[.,]?$/i;
+    const ai = g.findIndex(x => x.k === 'text' && AL.test(corpus.texts[x.x!] ?? ''));
+    if (ownSec('Tractus' + suffix) && ai > 0 && firstOf(units) !== firstOf(g) && units.filter(x => x.k === 'text').length <= 4) {
+      const cut = (corpus.texts[g[ai].x!] ?? '').replace(AL, '').trim();
+      units = [...g.slice(0, ai), ...(cut ? [{ k: 'text' as const, la: cut + '.', mark: g[ai].mark }] : []), ...units];
+    }
+  }
   else units = f.sections['Graduale' + suffix];
   if (!units || !units.length) return null;
   let ls = lines(corpus, units, ctx);
@@ -98,7 +110,7 @@ function graduale(corpus: Corpus, f: Formulary, ctx: Ctx, suffix = ''): Section 
   else if (ctx.emberSat && !suffix) key = 'T';
   else if (units === f.sections['Tractus' + suffix] && texts.length > 2) key = 'GT';
   else if (texts.length <= 2) key = 'G';
-  else key = laterRef ? 'GT' : 'T';
+  else key = laterRef || units !== f.sections['Graduale' + suffix] ? 'GT' : 'T';
   const lab = LABELS[key] ?? LABELS.G;
   return { kind: 'section', key: 'Graduale', la: lab[0], hr: lab[1], blocks: [{ lines: ls.filter(l => !(l.k === 'rubric' && /^tractus/i.test(l.la))) }] };
 }
@@ -224,7 +236,9 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
 
   const intro = add(section(corpus, 'Introitus', LABELS.Introitus, f.sections.Introitus, ctx));
   // Paschaltide: two Alleluias are added to the Introit antiphon when the formulary has none (Rubricae generales Missalis)
-  if (intro && ctx.paschal) { const ts = intro.blocks[0].lines.filter(l => l.k === 'text'); if (ts.length >= 2 && !/allel[úu][ij]a/i.test(ts[0].la)) for (const l of [ts[0], ts[ts.length - 1]]) if (l.la === ts[0].la) l.la = l.la.replace(/[.:;,]?$/, ', allelúja, allelúja.'); }
+  if (intro) { const ls = intro.blocks[0].lines; const gi = ls.findIndex(l => l.k === 'gloriaPatri'); const ant = ls.find(l => l.k === 'text');
+    if (gi >= 0 && ant && !ls.slice(gi + 1).some(l => l.k === 'text')) ls.push({ ...ant }); }   // the antiphon is repeated after the Gloria Patri
+  if (intro && ctx.paschal) { const ts = intro.blocks[0].lines.filter(l => l.k === 'text'); if (ts.length >= 2 && !/allel[úu][ij]a/i.test(ts[0].la)) { const ant = ts[0].la; for (const l of [ts[0], ts[ts.length - 1]]) if (l.la === ant) l.la = ant.replace(/[.:;,]?$/, ', allelúja, allelúja.'); } }
   // Ember days and some ferias: a first prayer, then lessons each followed by a chant and a prayer; the last prayer is the
   // collect, said after the Gloria note and followed by the commemorations.
   let nExtra = 0; while (f.sections['LectioL' + (nExtra + 1)]) nExtra++;

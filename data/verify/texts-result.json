@@ -1,0 +1,122 @@
+{
+ "pages": 791,
+ "pagesIdentical": 754,
+ "sections": 8205,
+ "sectionsExact": 6915,
+ "sectionsSpellingOnly": 1261,
+ "sectionsExcepted": 29,
+ "exceptions": [
+  {
+   "cause": "St Stephen: the old site says the Creed is not said; it is said on every day of the Christmas octave (Code of Rubrics n. 475d). The calendar follows the rubric.",
+   "pages": [
+    "2016-12-26_0",
+    "2017-12-26_0",
+    "2018-12-26_0"
+   ]
+  },
+  {
+   "cause": "Old-site typo (eloquiumvtum for eloquium tuum) in the offertory of Friday and Saturday after Ash Wednesday; corrected against Divinum Officium.",
+   "pages": [
+    "2017-03-03_0",
+    "2017-03-04_0",
+    "2018-02-16_0",
+    "2018-02-17_0"
+   ]
+  },
+  {
+   "cause": "Old-site typos (qual, offerimum) in the secret of the 18th Sunday after Pentecost; corrected against Divinum Officium.",
+   "pages": [
+    "2017-10-15_0",
+    "2018-09-30_0"
+   ]
+  },
+  {
+   "cause": "Old site labels the single prophetic lesson of some Ember Fridays Epístola and of others Léctio; the calendar uses Léctio whenever the reading is not from an Epistle.",
+   "pages": [
+    "2017-03-10_0",
+    "2018-02-23_0",
+    "2018-02-24_0",
+    "2018-09-21_0"
+   ]
+  },
+  {
+   "cause": "Rogation Mass: the old site prints the Paschal Alleluia of the votive Mass for any necessity; the Missal's Rogation Mass has Alleluia. Confitemini Domino (Divinum Officium), which is kept.",
+   "pages": [
+    "2017-04-25_1",
+    "2017-05-22_1",
+    "2017-05-23_1",
+    "2017-05-24_1",
+    "2018-04-25_1",
+    "2018-05-07_1",
+    "2018-05-08_1",
+    "2018-05-09_1"
+   ]
+  },
+  {
+   "cause": "St Joseph the Worker: the old site has the Croatian postcommunion in the Latin column; Latin from Divinum Officium.",
+   "pages": [
+    "2017-05-01_0",
+    "2018-05-01_0"
+   ]
+  },
+  {
+   "cause": "Ascension: the old site's rank line says Nedjelja (Sunday); it is a feast of I class.",
+   "pages": [
+    "2017-05-25_0",
+    "2018-05-10_0"
+   ]
+  },
+  {
+   "cause": "Queenship of Our Lady: for the commemoration of St Petronilla the old site repeats the secret of the feast; the calendar gives St Petronilla's own secret.",
+   "pages": [
+    "2017-05-31_0"
+   ]
+  },
+  {
+   "cause": "St Augustine: the old site prints the verse Inveni David without Alleluia; Divinum Officium has Alleluia. Amavit eum. Kept from Divinum Officium (listed for review).",
+   "pages": [
+    "2017-08-28_0",
+    "2018-08-28_0"
+   ]
+  },
+  {
+   "cause": "Maternity of Our Lady: the old site omits the word Alleluia around the verse; text otherwise the same.",
+   "pages": [
+    "2017-10-11_0",
+    "2018-10-11_0"
+   ]
+  },
+  {
+   "cause": "Sts Simon and Jude: the old site prints the Alleluia verse and Gospel of St James (Mt 20); the Missal has Nimis honorati and Jn 15, 17-25 (Divinum Officium).",
+   "pages": [
+    "2017-10-28_0"
+   ]
+  },
+  {
+   "cause": "Chair of St Peter: the old site continues the offertory with 'et quodcumque ligaveris…'; the Missal's antiphon ends at 'claves regni caelorum' (Divinum Officium).",
+   "pages": [
+    "2017-02-22_0",
+    "2018-02-22_0"
+   ]
+  },
+  {
+   "cause": "St Francis Caracciolo: old site 'sicut cedrus Libani', Missal 'sicut cedrus, quae in Libano est' (Divinum Officium).",
+   "pages": [
+    "2018-06-04_0"
+   ]
+  },
+  {
+   "cause": "Saturday Mass of Our Lady in Paschaltide: the old site prints the antiphon three times.",
+   "pages": [
+    "2017-05-06_0"
+   ]
+  },
+  {
+   "cause": "Holy Thursday evening Mass: the old site inserts the washing of the feet (antiphons) after the Gospel; the calendar shows the Mandatum with the rites of Holy Week.",
+   "pages": [
+    "2017-04-13_1",
+    "2018-03-29_1"
+   ]
+  }
+ ]
+}

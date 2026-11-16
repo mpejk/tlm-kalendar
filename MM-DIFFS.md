@@ -176,24 +176,6 @@ n. 96a gives the Annunciation its proper place on the Monday after Low Sunday; S
 - 2035-04-02 BLAGOVIJEST: celebration «St. Joseph, Spouse of the Bl. Virgin Mary» / «BLAGOVIJEST»
 - 2035-04-03 SV. JOSIP, ZARUČNIK BDM, PRIZNAVALAC, ZAŠTITNIK SVEOPĆE CRKVE: celebration «Annunciation of the Blessed Virgin Mary» / «SV. JOSIP, ZARUČNIK BDM, PRIZNAVALAC, ZAŠTITNIK SVEOPĆE CRKVE»
 
-## Unexplained (19)
+## Unexplained (0)
 
-- 2026-12-29 V. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «V. dan božićne osmine»
-- 2026-12-31 VII. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «VII. dan božićne osmine»
-- 2027-12-29 V. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «V. dan božićne osmine»
-- 2027-12-31 VII. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «VII. dan božićne osmine»
-- 2028-12-29 V. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «V. dan božićne osmine»
-- 2029-12-29 V. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «V. dan božićne osmine»
-- 2029-12-31 VII. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «VII. dan božićne osmine»
-- 2030-12-31 VII. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «VII. dan božićne osmine»
-- 2031-12-29 V. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «V. dan božićne osmine»
-- 2031-12-31 VII. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «VII. dan božićne osmine»
-- 2032-12-29 V. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «V. dan božićne osmine»
-- 2032-12-31 VII. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «VII. dan božićne osmine»
-- 2033-12-29 V. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «V. dan božićne osmine»
-- 2033-12-31 VII. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «VII. dan božićne osmine»
-- 2034-12-29 V. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «V. dan božićne osmine»
-- 2035-12-29 V. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «V. dan božićne osmine»
-- 2035-12-31 VII. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «VII. dan božićne osmine»
-- 2036-12-29 V. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «V. dan božićne osmine»
-- 2036-12-31 VII. dan božićne osmine: celebration «Feria in the Octave of Christmas» / «VII. dan božićne osmine»
+None.
