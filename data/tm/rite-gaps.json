@@ -43,5 +43,20 @@
   "key": "Tempora/Quad6-6r:Prelude#9.3",
   "section": "De Missa solemni Vigiliæ paschalis",
   "la": "[Celebrans benedicit, dicens:]\nAb illo bene + dicáris, in cujus honore cremáberis. Amen."
+ },
+ {
+  "key": "vigil:laudes-ps150",
+  "section": "Pro Láudibus",
+  "la": "Ant. Allelúia, allelúia, allelúia.\nPsalmus 150\nLaudáte Dóminum in sanctis eius * laudáte eum in firmaménto virtútis eius.\nLaudáte eum in virtútibus eius, * laudáte eum secúndum multitúdinem magnitúdinis eius.\nLaudáte eum in sono tubæ, * laudáte eum in psaltério, et cíthara.\nLaudáte eum in týmpano, et choro: * laudáte eum in chordis et órgano.\nLaudáte eum in cýmbalis benesonántibus: laudáte eum in cýmbalis iubilatiónis: * omnes spíritus laudet Dóminum.\nGlória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.\nAnt. Allelúia, allelúia, allelúia."
+ },
+ {
+  "key": "vigil:laudes-benedictus",
+  "section": "Pro Láudibus",
+  "la": "Luc 1:68-79\nBenedíctus ✠ Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ:\nEt eréxit cornu salútis nobis: * in domo David, púeri sui.\nSicut locútus est per os sanctórum, * qui a sǽculo sunt, prophetárum ejus:\nSalútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos.\nAd faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti.\nJusjurándum, quod jurávit ad Ábraham patrem nostrum, * datúrum se nobis:\nUt sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi.\nIn sanctitáte, et justítia coram ipso, * ómnibus diébus nostris.\nEt tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini, paráre vias ejus:\nAd dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum:\nPer víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto:\nIllumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis.\nGlória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen."
+ },
+ {
+  "key": "vigil:exsultet-respice",
+  "section": "De præconio paschali",
+  "la": "Réspice étiam ad eos, qui nos in potestáte regunt, et, ineffábili pietátis et misericórdiæ tuæ múnere, dírige cogitatiónes eórum ad iustítiam et pacem, ut de terréna operositáte ad cæléstem pátriam pervéniant cum omni populo tuo."
  }
 ]

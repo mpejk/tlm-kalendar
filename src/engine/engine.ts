@@ -26,7 +26,7 @@ function toObs(e: SanctoralEntry, transferredFrom?: string): Observance {
   return {
     key: (e.local ? 'L:' : 'S:') + e.id, id: e.mass ?? (e.local ? e.id : 'Sancti/' + e.id), title: e.title, cls: e.class, ord: ordOf(e),
     kind: e.vigil ? 'vigil' : 'feast', colour: e.colour, lord: e.lord, bvm: e.bvm, local: e.local, with: e.with, transferredFrom, idPaschal: e.massPaschal,
-    commAs: 'ordinary',
+    commAs: 'ordinary', name: e.name,
   };
 }
 
@@ -167,7 +167,7 @@ export function getDay(n: number, config: CalendarConfig): Day {
   // ---- commemorations (n. 106–114)
   type C = Commemoration & { ord: number; seasonal?: boolean; with?: string; lord?: boolean; bvm?: boolean };
   const comms: C[] = [];
-  const push = (o: Observance, type: 'privileged' | 'ordinary') => comms.push({ key: o.key, id: o.id, title: o.title, type, cls: o.cls, kind: o.kind, ord: o.ord, seasonal: o.seasonal, with: o.with, lord: o.lord, bvm: o.bvm, local: o.local, colour: o.colour });
+  const push = (o: Observance, type: 'privileged' | 'ordinary') => comms.push({ key: o.key, id: o.id, title: o.title, type, cls: o.cls, kind: o.kind, ord: o.ord, seasonal: o.seasonal, with: o.with, lord: o.lord, bvm: o.bvm, local: o.local, colour: o.colour, name: o.name });
   if (win !== t && !bvmSat && win.key !== 'S:12-24') { // the vigil of Christmas takes the place of the Advent day entirely
     const ty = commType(t);
     if (ty && !t.placeholder) {
@@ -179,7 +179,7 @@ export function getDay(n: number, config: CalendarConfig): Day {
     if (f === win) continue;
     if (f.kind === 'vigil' && wd === 0 && f.key !== 'S:12-24') { omitted.push({ key: f.key, title: f.title, reason: 'bdijenje u nedjelju se izostavlja (n. 30)' }); continue; }
     if (f.cls === 1) { continue; }
-    comms.push({ key: f.key, id: f.id, title: f.title, type: 'ordinary', cls: f.cls, kind: f.kind, ord: f.ord, with: f.with, lord: f.lord, bvm: f.bvm, local: f.local, colour: f.colour });
+    comms.push({ key: f.key, id: f.id, title: f.title, type: 'ordinary', cls: f.cls, kind: f.kind, ord: f.ord, with: f.with, lord: f.lord, bvm: f.bvm, local: f.local, colour: f.colour, name: f.name });
   }
   // Greater Litanies, 25 April (n. 80–83): a privileged commemoration at Mass; moved to Tuesday if Easter Sunday or Monday
   const apr25 = dayNumber(y, 4, 25);
@@ -217,11 +217,11 @@ export function getDay(n: number, config: CalendarConfig): Day {
   // added orations under one conclusion with the prayer of the day
   if (win.with) commemorations.push({ key: win.key + '+with', id: win.id, title: win.with, type: 'same', cls: win.cls, kind: 'feast' });
   if (n === popeDay(ctx, config))
-    commemorations.push({ key: 'X:Papa', id: 'Commune/Coronatio', title: 'Spomen sv. Oca (godišnjica uvođenja u papinsku službu)', type: 'same', cls: 4, kind: 'oration' });
+    commemorations.push({ key: 'X:Papa', id: 'Commune/Coronatio', title: 'Spomen sv. Oca (godišnjica uvođenja u papinsku službu)', type: 'same', cls: 4, kind: 'oration', ...(config.pope?.forms ? { name: config.pope.forms } : {}) });
   const ck = christTheKing(y);
   if (n === ck - 7) commemorations.push({ key: 'X:Missio', id: 'Commune/Propaganda', title: 'Misijska nedjelja (molitva za širenje vjere)', type: 'same', cls: 4, kind: 'oration' });
   for (const c of allowed) {
-    commemorations.push({ key: c.key, id: c.id, title: c.title, type: c.type, cls: c.cls, kind: c.kind, local: c.local, colour: c.colour });
+    commemorations.push({ key: c.key, id: c.id, title: c.title, type: c.type, cls: c.cls, kind: c.kind, local: c.local, colour: c.colour, ...(c.name ? { name: c.name } : {}) });
     if (c.with) commemorations.push({ key: c.key + '+with', id: c.id, title: c.with, type: 'same', cls: c.cls, kind: 'feast' });
   }
   if (win.key === 'S:12-25') commemorations.push({ key: 'S:12-25m2c', id: 'Sancti/12-25m2', title: 'sv. Anastazija, mučenica', type: 'privileged', cls: 4, kind: 'feast', onlyMass: 1 });

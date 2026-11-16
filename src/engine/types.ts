@@ -4,7 +4,11 @@ export type Colour = 'w' | 'r' | 'v' | 'g' | 'b' | 'p';
 export type Kind = 'sunday' | 'feria' | 'feast' | 'vigil' | 'octave' | 'bvmsat';
 export type CommType = 'privileged' | 'ordinary' | 'same';
 
+/** Forms of a saint's (or the Pope's) name for the prayers that print "N." (Latin) or "I." (Croatian), by grammatical case. */
+export interface NameForms { la?: { nom?: string; gen?: string; acc?: string; abl?: string }; hr?: { gen?: string; acc?: string; ins?: string } }
+
 export interface SanctoralEntry {
+  name?: NameForms;        // from data/calendar/names.yaml or the local layer
   date: string;            // MM-DD
   id: string;              // Divinum Officium Sancti id (or a local id)
   class: Cls;              // 4 = commemoration only
@@ -36,12 +40,13 @@ export interface Observance {
   local?: boolean;
   with?: string;
   transferredFrom?: string;
+  name?: NameForms;
   /** how it is commemorated when it loses the day: privileged (n. 109), ordinary, or not at all */
   commAs?: 'privileged' | 'ordinary' | null;
   seasonal?: boolean;      // a commemoration "of the season" (n. 113)
 }
 
-export interface Commemoration { key: string; id: string; title: string; type: CommType; cls: Cls; kind: Kind | 'oration'; onlyMass?: number; local?: boolean; colour?: Colour }
+export interface Commemoration { key: string; id: string; title: string; type: CommType; cls: Cls; kind: Kind | 'oration'; onlyMass?: number; local?: boolean; colour?: Colour; name?: NameForms }
 export interface MassRef { id: string; label?: string; kind: 'mass' | 'rite'; variant?: string; /** a rite added to the Mass of the day (not counted as one of the day's Masses) */ extra?: boolean }
 
 export interface Day {
@@ -67,5 +72,5 @@ export interface CalendarConfig {
   local?: SanctoralEntry[];                 // local layer (class 1–3 feasts); notes handled separately
   localNotes?: { date: string; title: string }[];
   /** anniversary of the pope's coronation/inauguration, MM-DD, and the label used for the added oration */
-  pope?: { name: string; date: string };
+  pope?: { name: string; date: string; forms?: NameForms };
 }

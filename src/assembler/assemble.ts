@@ -1,5 +1,5 @@
 // Assembler: liturgical day + corpus -> the ordered Mass (sections, commemoration prayers in place, preface, Gloria and Credo lines).
-import { Commemoration, Day, MassRef } from '../engine/types';
+import { Commemoration, Day, MassRef, NameForms } from '../engine/types';
 import { Block, Corpus, Formulary, Item, Line, MassView, Section, Unit } from './types';
 
 export const LABELS: Record<string, [string, string]> = {
@@ -227,6 +227,24 @@ export function prefaceOf(day: Day, mass: MassRef, f: Formulary): string {
   return 'Communis';
 }
 
+const NAME_CASE: Record<string, 'nom' | 'gen' | 'acc' | 'abl'> = { beatus: 'nom', sanctus: 'nom', beati: 'gen', sancti: 'gen', beate: 'gen', sancte: 'gen', beato: 'abl', sancto: 'abl', beata: 'abl', sancta: 'abl', nostro: 'abl', beatum: 'acc', sanctum: 'acc', beatam: 'acc', sanctam: 'acc', tuum: 'acc' };
+/** Puts the name into a prayer of a Common in place of "N.", in the case the word before it requires ("beati N." genitive,
+ *  "beato N." ablative, "famulum tuum N." accusative ...). Where the form needed is not on record, "N." stays. */
+export function insertName(la: string, name?: NameForms): string {
+  if (!name?.la || !/N\./.test(la)) return la;
+  return la.replace(/(\p{L}+)(\s+)N\.p?(?=[\s,;:.]|$)/gu, (m, prev: string, sp: string) => {
+    const c = NAME_CASE[prev.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/æ/g, 'e')]; const f = c && name.la![c];
+    return f ? prev + sp + f : m;
+  });
+}
+function named(block: Block | undefined, name?: NameForms): void {
+  if (!block || !name) return;
+  let done = false;
+  for (const l of block.lines) if (l.k === 'text') { const t = insertName(l.la, name); if (t !== l.la) { l.la0 = l.la; l.la = t; delete l.x; done = true; } }
+  // the Croatian name is used when the Latin of the block names the saint (put in here, or already so in the source)
+  if (name.hr && (done || !block.lines.some(l => l.k === 'text' && /(^|\s)N\.(?=p?[\s,;:.]|$)/.test(l.la)))) block.nameHr = name.hr as Record<string, string>;
+}
+
 function commBlocks(corpus: Corpus, day: Day, massIndex: number, sec: 'Oratio' | 'Secreta' | 'Postcommunio', ctx: Ctx, main: Formulary): Block[] {
   const out: Block[] = [];
   const rogation = day.masses[massIndex]?.variant === 'rogation';
@@ -235,7 +253,8 @@ function commBlocks(corpus: Corpus, day: Day, massIndex: number, sec: 'Oratio' |
     const w = day.celebration;
     if (w.kind === 'feria' && w.cls === 4) return out;
     const ls = lines(corpus, formulary(corpus, w.id, day.season === 'easter' ? '+paschal' : '')?.sections[sec], ctx).filter(l => l.k !== 'rubric');
-    return [{ label: `spomen: ${w.title}`, commType: 'rogation', lines: ls, src: `${w.id}|${sec}` }];
+    const rb: Block = { label: `spomen: ${w.title}`, commType: 'rogation', lines: ls, src: `${w.id}|${sec}` }; named(rb, w.name);
+    return [rb];
   }
   for (const c of day.commemorations) {
     if (c.onlyMass !== undefined && c.onlyMass !== massIndex) continue;
@@ -247,7 +266,8 @@ function commBlocks(corpus: Corpus, day: Day, massIndex: number, sec: 'Oratio' |
       if (c.key === 'S:12-25m2c') { units = f?.sections['Commemoratio ' + sec]; src = `${c.id}|Commemoratio ${sec}`; }
     }
     const ls = lines(corpus, units, ctx).filter(l => l.k !== 'rubric');
-    out.push({ label: `${COMM_LABEL[c.type]}: ${c.title}`, commType: c.type, lines: ls, src });
+    const cb: Block = { label: `${COMM_LABEL[c.type]}: ${c.title}`, commType: c.type, lines: ls, src }; named(cb, c.name);
+    out.push(cb);
   }
   return out;
 }
@@ -308,7 +328,8 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
     while (b0.lines.length && b0.lines[b0.lines.length - 1].k === 'oremus') b0.lines.pop();
     if (w) { w.lines = rest; w.src = b0.src + '#2'; } else sec.blocks.splice(1, 0, { label: undefined, commType: 'same', lines: rest, src: b0.src + '#2' });
   };
-  if (oratio) { oratio.blocks.push(...commBlocks(corpus, day, massIndex, 'Oratio', ctx, f)); splitWith(oratio); }
+  const own = mass.variant === 'rogation' ? undefined : day.celebration.name;
+  if (oratio) { named(oratio.blocks[0], own); oratio.blocks.push(...commBlocks(corpus, day, massIndex, 'Oratio', ctx, f)); splitWith(oratio); }
   add(section(corpus, 'Lectio', nExtra || day.flags.ember ? lectioLabel(corpus, f.sections.Lectio) : LABELS.Epistola, f.sections.Lectio, ctx));
   add(graduale(corpus, f, ctx));
   add(section(corpus, 'Sequentia', LABELS.Sequentia, f.sections.Sequentia, ctx));
@@ -316,7 +337,7 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
   items.push({ kind: 'note', key: 'credo', text: credo ? NOTE.credo : NOTE.noCredo });
   antiphonAlleluia(add(section(corpus, 'Offertorium', LABELS.Offertorium, f.sections.Offertorium, ctx)), ctx);
   const secreta = add(section(corpus, 'Secreta', LABELS.Secreta, f.sections.Secreta, ctx));
-  if (secreta) { secreta.blocks.push(...commBlocks(corpus, day, massIndex, 'Secreta', ctx, f)); splitWith(secreta); }
+  if (secreta) { named(secreta.blocks[0], own); secreta.blocks.push(...commBlocks(corpus, day, massIndex, 'Secreta', ctx, f)); splitWith(secreta); }
   const pu = f.sections.Prefatio ?? corpus.ordo.prefaces[pref] ?? corpus.ordo.prefaces.Communis;
   const plab = PREFACES[pref] ?? PREFACES.Communis;
   const prefSec = add(section(corpus, 'Prefatio', plab, pu.filter(u => u.k !== 'rubric'), ctx));
@@ -330,7 +351,7 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
   }
   antiphonAlleluia(add(section(corpus, 'Communio', LABELS.Communio, f.sections.Communio, ctx)), ctx);
   const post = add(section(corpus, 'Postcommunio', LABELS.Postcommunio, f.sections.Postcommunio, ctx));
-  if (post) { post.blocks.push(...commBlocks(corpus, day, massIndex, 'Postcommunio', ctx, f)); splitWith(post); }
+  if (post) { named(post.blocks[0], own); post.blocks.push(...commBlocks(corpus, day, massIndex, 'Postcommunio', ctx, f)); splitWith(post); }
   if (f.sections['Super populum'] && day.celebration.kind === 'feria') {
     items.push({ kind: 'note', key: 'superPopulum', text: NOTE.superPopulum });
     add(section(corpus, 'SuperPopulum', LABELS.SuperPopulum, f.sections['Super populum'], ctx, 'Super populum'));

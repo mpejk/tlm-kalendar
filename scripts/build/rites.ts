@@ -6,11 +6,15 @@ import path from 'node:path';
 import { Corpus, Unit } from '../../src/assembler/types';
 import { normLa } from '../../src/assembler/norm';
 import { fileOf } from './data';
+import YAML from 'yaml';
+import { NOTE } from '../../src/assembler/assemble';
+import { insertNameHr } from '../croatian/names';
+import { NameForms } from '../../src/engine/types';
 
 const golden = (f: string) => JSON.parse(fs.readFileSync(`data/golden/masses/${f}.json`, 'utf8'));
 const fromGolden = (items: any[]) => items.filter(it => !it.hidden).map(it => (it.kind === 'note' ? { kind: 'note', text: it.text } : { kind: 'section', la: it.la, hr: it.hr, rows: it.rows.map((r: any) => (r.la === undefined ? { text: r.text ?? '' } : { la: r.la, hr: r.hr, ...(r.head ? { head: true } : {}) })) }));
 
-export function buildRites(dist: string, corpus: Corpus, fix?: { edit(hr: string, fid: string, section?: string): string }): { id: string; rows: number; withCroatian: number }[] {
+export function buildRites(dist: string, corpus: Corpus, fix?: { edit(hr: string, fid: string, section?: string): string }, pope?: NameForms): { id: string; rows: number; withCroatian: number }[] {
   const out: Record<string, any> = {}; const report: { id: string; rows: number; withCroatian: number }[] = [];
   const palms = golden('2018/actions_20180325_0'), friday = golden('2018/actions_20180330_0'), thursday = golden('2018/propers_20180329_1');
   out['Tempora/Quad6-0r:palms'] = { rite: true, source: 'tradicionalnamisa.com', title: 'Blagoslov grančica i procesija', items: fromGolden(palms.items) };
@@ -54,9 +58,43 @@ export function buildRites(dist: string, corpus: Corpus, fix?: { edit(hr: string
   prelude('Sancti/02-02', 'Blagoslov svijeća i procesija');
   prelude('Tempora/Quadp3-3', 'Blagoslov i dijeljenje pepela');
   prelude('Tempora/Quad6-6r', 'Vazmeno bdijenje');
+  // ---- Easter Vigil: the Mass after the Kyrie (data/corpus/la/vigil-mass.json, made by scripts/import/vigil-mass.ts)
+  const vigil = out['Tempora/Quad6-6r:Prelude'];
+  if (vigil && fs.existsSync('data/corpus/la/vigil-mass.json')) {
+    const vm = JSON.parse(fs.readFileSync('data/corpus/la/vigil-mass.json', 'utf8')) as { sections: { la: string; hr: string; rows: any[] }[] };
+    const T = (u: Unit) => (u.x ? corpus.texts[u.x] ?? '' : u.la ?? '');
+    const concl = (name: string) => (corpus.ordo.prayers[name] ?? []).filter(u => u.k === 'text' && u.mark !== 'R').map(T).join(' ');
+    for (const sec of vm.sections) {
+      const rows: any[] = [];
+      for (const r of sec.rows) {
+        if (r.note) { rows.push({ text: r.note === 'gloria' ? NOTE.gloria : NOTE.noCredo }); continue; }
+        let la: string = r.la ?? '';
+        if (r.preface) la = (corpus.ordo.prefaces[r.preface] ?? []).filter(u => u.k === 'text').map(T).filter(t => !/^Paschalis$/.test(t)).join(' ').replace('in hoc potíssimum', 'in hac potíssimum nocte');   // Missal 1962, p. 288: in Missa Vigiliae paschalis dicitur «in hac potissimum nocte»
+        if (r.concl) la += '\n<i>' + concl(r.concl).replace(/\.$/, '') + '</i>.';
+        rows.push(r.key ? { la, hr: '', key: r.key } : { la, hr: ' ' });
+      }
+      vigil.items.push({ kind: 'section', la: sec.la, hr: sec.hr, rows });
+    }
+  }
+  // ---- Exsultet: its last paragraph (1955) has no Croatian in Kniewald 1942, whose text ends with the older wording; the
+  //      paragraph stands as a row of its own so that the rest keeps its translation (review finding H01)
   const kn = fs.existsSync('data/tm/kniewald-rites.json') ? JSON.parse(fs.readFileSync('data/tm/kniewald-rites.json', 'utf8')) as Record<string, { hr: string; ref: string }> : {};
+  const manual = (fs.existsSync('data/tm/rites-hr.yaml') ? YAML.parse(fs.readFileSync('data/tm/rites-hr.yaml', 'utf8')) ?? {} : {}) as Record<string, { hr: string; source?: string }>;
   const riteGaps: any[] = [];
-  for (const [id, doc] of Object.entries<any>(out)) { if (doc.source !== 'Divinum Officium') continue; doc.items.forEach((it: any, si: number) => (it.rows ?? []).forEach((r: any, ri: number) => { if (r.la === undefined || r.hr) return; const key = `${id}#${si}.${ri}`; if (kn[key]) { r.hr = kn[key].hr.split('\n').filter((l: string) => !/^_`?$/.test(l.trim())).join('\n'); r.src = kn[key].ref; } else riteGaps.push({ key, section: it.la, la: r.la }); })); }
+  for (const [id, doc] of Object.entries<any>(out)) { if (doc.source !== 'Divinum Officium') continue; doc.items.forEach((it: any, si: number) => (it.rows ?? []).forEach((r: any, ri: number) => { if (r.la === undefined || r.hr) return; const key = r.key ?? `${id}#${si}.${ri}`; if (manual[key]?.hr) { r.hr = manual[key].hr; r.src = manual[key].source; } else if (kn[key]) { r.hr = kn[key].hr.split('\n').filter((l: string) => !/^_`?$/.test(l.trim())).join('\n'); r.src = kn[key].ref; } else riteGaps.push({ key, section: it.la, la: r.la }); })); }
+  // H01: split the closing row of the Exsultet
+  if (vigil) for (const it of vigil.items) { const ri = (it.rows ?? []).findIndex((r: any) => typeof r.la === 'string' && r.la.includes('Réspice étiam ad eos, qui nos in potestáte regunt'));
+    if (ri < 0) continue; const r = it.rows[ri]; const a = r.la.indexOf('Réspice étiam'), b = r.la.indexOf('Per eúndem Dóminum'); const h = (r.hr ?? '').indexOf(', po istom Gospodinu');
+    if (a < 0 || b < a || h < 0) throw new Error('Exsultet: the closing row cannot be split');
+    const key = 'vigil:exsultet-respice'; const mid: any = { la: r.la.slice(a, b).trim(), hr: manual[key]?.hr ?? '', key, ...(manual[key]?.source ? { src: manual[key].source } : {}) };
+    if (!mid.hr) riteGaps.push({ key, section: it.la, la: mid.la });
+    it.rows.splice(ri, 1, { ...r, la: r.la.slice(0, a).trim(), hr: r.hr.slice(0, h) + '.' }, mid, { ...r, la: r.la.slice(b).trim(), hr: 'P' + r.hr.slice(h + 3) });
+  }
+  // the Pope's name in place of the placeholder (Good Friday, Exsultet); the bishop's stays "N."
+  if (pope) for (const doc of Object.values<any>(out)) for (const it of doc.items) for (const r of it.rows ?? []) {
+    if (typeof r.la === 'string' && pope.la?.abl) r.la = r.la.replace(/(Papa nostro) N\./g, `$1 ${pope.la.abl}`);
+    if (typeof r.hr === 'string' && r.hr.trim()) r.hr = insertNameHr(r.hr, pope.hr as any);
+  }
   fs.writeFileSync('data/tm/rite-gaps.json', JSON.stringify(riteGaps, null, 1));
   // corrections of the Croatian (data/tm/corrections.yaml)
   if (fix) for (const [id, doc] of Object.entries<any>(out)) for (const it of doc.items) for (const r of it.rows ?? []) if (typeof r.hr === 'string' && r.hr.trim()) r.hr = fix.edit(r.hr, id);

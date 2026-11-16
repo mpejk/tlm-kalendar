@@ -1,0 +1,18 @@
+# Names put into the prayers of a Common in place of "N." (Latin) and "I." (Croatian) - review finding T12.
+# Key: the id of the celebration in data/calendar/sanctoral.yaml or data/local/zagreb.yaml; "pope" is the reigning Pope
+# (prayers on the anniversary, Good Friday, Exsultet) - change it together with POPE in scripts/build/data.ts.
+# la: Latin forms by case (nom, gen, acc, abl); hr: Croatian forms (gen, acc, ins). A form that is not given is not inserted:
+# the placeholder stays. Latin forms are those the Missale Romanum 1962 prints where it prints the prayer with the name;
+# otherwise the regular declension of the name in the Missal's title of the feast. Croatian forms decline the name of the
+# feast's Croatian title. Every insertion is listed for review in ODGOVOR-NA-PROVJERU.md (data/verify/name-insertions.json).
+pope:       { la: { nom: "Leo", gen: "Leónis", acc: "Leónem", abl: "Leóne" }, hr: { gen: "Lava", acc: "Lava", ins: "Lavom" }, source: "Leo XIV; Latin as in the Missal's prayers of St Leo (11 April: beati Leonis, beatum Leonem)" }
+"01-17":    { hr: { gen: "Antuna" }, source: "sv. Antun, opat; the Latin has the name already (MR 1962, pp. 445-446)" }
+"12-05":    { hr: { gen: "Sabe" }, source: "sv. Saba, opat; the old site itself prints »blaženoga Sabe opata« on 5 Dec 2017" }
+"09-23cc":  { hr: { gen: "Tekle" }, source: "sv. Tekla; the Latin has the name already (MR 1962, p. 667)" }
+"zg-02-10": { la: { nom: "Aloísius", gen: "Aloísii", acc: "Aloísium", abl: "Aloísio" }, hr: { gen: "Alojzija" }, source: "bl. Alojzije Stepinac; Latin name as the Missal prints it for St Aloysius (21 June)" }
+"zg-05-04": { la: { nom: "Floriánus", gen: "Floriáni", acc: "Floriánum", abl: "Floriáno" }, hr: { gen: "Florijana" }, source: "sv. Florijan" }
+"zg-05-12": { la: { nom: "Leopóldus", gen: "Leopóldi", acc: "Leopóldum", abl: "Leopóldo" }, hr: { gen: "Leopolda" }, source: "sv. Leopold Mandić" }
+"zg-06-04": { la: { nom: "Quirínus", gen: "Quiríni", acc: "Quirínum", abl: "Quiríno" }, hr: { gen: "Kvirina" }, source: "sv. Kvirin Sisački" }
+"zg-06-27": { la: { nom: "Ladisláus", gen: "Ladislái", acc: "Ladisláum", abl: "Ladisláo" }, hr: { gen: "Ladislava" }, source: "sv. Ladislav" }
+"zg-09-07": { la: { nom: "Marcus", gen: "Marci", acc: "Marcum", abl: "Marco" }, hr: { gen: "Marka" }, source: "sv. Marko Križevčanin; Latin as for St Mark (25 April)" }
+"zg-11-14": { la: { nom: "Nicoláus", gen: "Nicolái", acc: "Nicoláum", abl: "Nicoláo" }, hr: { gen: "Nikole" }, source: "sv. Nikola Tavelić; Latin as for St Nicholas (6 December)" }

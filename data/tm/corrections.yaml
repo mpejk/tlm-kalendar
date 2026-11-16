@@ -73,3 +73,10 @@
 - { id: T13-13, find: "Lk 2, 1-14", replace: "Mt 22, 29-40", where: "Sancti/06-21", section: Evangelium, why: "Sv. Alojzije Gonzaga: Mt 22, 29-40 [PDF 640]" }
 - { id: T13-15, find: "(1, 12-13)", replace: "(1, 12-18)", ifLatin: "Jac 1:12-18", why: "Misa Statuit, poslanica Iac 1, 12-18 (Kniewaldov tekst donosi cijelo čitanje do 18. retka)" }
 - { id: T13-x1, find: "Rim 6, 19, 23", replace: "Rim 6, 19-23", ifLatin: "Rom 6:19-23", why: "7. nedjelja po Duhovima: Rom 6, 19-23 (ista vrsta pogreške, izvan popisa)" }
+
+- id: H03
+  find: "Svemogući vječni Bože, koji ne tražiš smrt grijeha nego uvijek život: milostivo primi našu molitvu i oslobodi ih štovanja kumira i pridodaj svojoj svetoj Crkvi, na hvalu i slavu svojega imena."
+  replace: "Svemogući, vječni Bože, koji ne tražiš smrti grješnika, nego vazda život, primi milostiv molitvu našu, te ih oslobodi od idolopoklonstva i pridruži svojoj svetoj Crkvi, na hvalu i slavu imena svojega."
+  where: "Tempora/Quad6-5r"
+  source: "Kniewald, Rimski misal, 1942, str. 263 (pročitano na slici stranice)"
+  why: "Veliki petak, molitva za pogane: »non mortem peccatorum, sed vitam« bilo je prevedeno »smrt grijeha«. Uzeta je Kniewaldova rečenica iste molitve, koja ima pravi smisao (smrti grješnika)."

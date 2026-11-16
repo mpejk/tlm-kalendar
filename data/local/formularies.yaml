@@ -3,7 +3,9 @@
 Local/zg-05-04:      # St Florian: "Misa »Štiti me« (Protexisti) ... osim: Čitanje poslanice bl. Petra apostola (I. 1, 3-7)" (Kniewald 1942, p. 566)
   base: Commune/C2p
   officium: S. Floriani Martyris
-  sections: { Lectio: Commune/C3pp }
+  # Florian was a martyr but not a bishop: the prayers «Pro Martyre tantum» of the Mass Protexisti (MR 1962, pp. [10]-[11],
+  # PDF 823-824), which are those of the Mass In virtute
+  sections: { Lectio: Commune/C3pp, Oratio: Commune/C2, Secreta: Commune/C2, Postcommunio: Commune/C2 }
 Local/zg-06-04p:     # St Quirinus in Paschaltide: "Misa »Štiti me«, ali poslanica Jak. 1, 12-18 iz mise »Gospodin je sklopio«" (Kniewald 1942, p. 588)
   base: Commune/C2p
   officium: S. Quirini Episcopi et Martyris

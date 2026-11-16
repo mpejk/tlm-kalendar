@@ -1,0 +1,153 @@
+{
+ "source": "Divinum Officium, web/www/missa/Latin/Tempora/Quad6-6r.txt (commit 326bc4a)",
+ "sections": [
+  {
+   "la": "Glória in excélsis",
+   "hr": "Slava",
+   "rows": [
+    {
+     "la": "[Finitis a choro Kyrie, eléison, celebrans incipit solemniter Glória in excelsis, et pulsantur campanæ ac discooperiuntur imagines.]"
+    },
+    {
+     "note": "gloria"
+    }
+   ]
+  },
+  {
+   "la": "Orátio",
+   "hr": "Molitva",
+   "rows": [
+    {
+     "key": "vigil:oratio",
+     "la": "Orémus.\nDeus, qui hanc sacratíssimam noctem glória domínicæ Resurrectiónis illústras: consérva in nova famíliæ tuæ progénie adoptiónis spíritum, quem dedísti; ut, córpore et mente renováti, puram tibi exhíbeant servitútem.",
+     "concl": "Per eundem"
+    }
+   ]
+  },
+  {
+   "la": "Epístola",
+   "hr": "Poslanica",
+   "rows": [
+    {
+     "key": "vigil:epistola",
+     "la": "Léctio Epístolæ beáti Pauli Apóstoli ad Colossénses.\nCol 3:1-4\nFratres: Si consurrexístis cum Christo, quæ sursum sunt quǽrite, ubi Christus est in déxtera Dei sedens: quæ sursum sunt sápite, non quæ super terram. Mórtui enim estis, et vita vestra est abscóndita cum Christo in Deo. Cum Christus apparúerit, vita vestra: tunc et vos apparébitis cum ipso in glória."
+    }
+   ]
+  },
+  {
+   "la": "Allelúia",
+   "hr": "Aleluja",
+   "rows": [
+    {
+     "la": "[Finita Epistola, celebrans incipit:]\n[Et totum decantat ter, elevando vocem gradatim: et omnes post quamlibet vicem, in eodem tono, repetunt illud idem:]"
+    },
+    {
+     "key": "vigil:alleluia",
+     "la": "Allelúia. Allelúia. Allelúia.\nPs. 117, 1\n℣. Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia eius."
+    },
+    {
+     "key": "vigil:tractus",
+     "la": "Ps. 116\n℣. Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli.\n℣. Quóniam confirmáta est super nos misericórdia eius: et véritas Dómini manet in ætérnum."
+    }
+   ]
+  },
+  {
+   "la": "Evangélium",
+   "hr": "Evanđelje",
+   "rows": [
+    {
+     "la": "[Ad Evangelium non portantur luminaria, sed tantum incensum: petitur benedictio, et alia fiunt de more.]"
+    },
+    {
+     "key": "vigil:evangelium",
+     "la": "Sequéntia ✠ sancti Evangélii secúndum Matthǽum.\nMatt 28:1-7\nVéspere autem sábbati, quæ lucéscit in prima sábbati, venit María Magdaléne, et áltera María vidére sepúlcrum. Et ecce terræmótus factus est magnus. Angelus enim Dómini descéndit de cælo: et accédens revólvit lápidem, et sedébat super eum: erat autem aspéctus eius sicut fulgur: et vestiméntum eius sicut nix. Præ timóre autem eius extérriti sunt custódes, et factu sunt velut mórtui. Respóndens autem Angelus, dixit muliéribus: «Nolíte timére vos: scio enim, quod Iesum, qui crucifíxus est, quǽritis: non est hic: surréxit enim, sicut dixit. Veníte, et vidéte locum, ubi pósitus erat Dóminus. Et cito eúntes dícite discípulis eius, quia surréxit et ecce præcédit vos in Galilǽam: ibi eum vidébitis. Ecce prædíxi vobis»."
+    },
+    {
+     "note": "noCredo"
+    },
+    {
+     "la": "[Non dicitur antiphona ad Offertorium. Ad Lavabo dicitur Glória Patri.]"
+    }
+   ]
+  },
+  {
+   "la": "Secréta",
+   "hr": "Prikazna molitva",
+   "rows": [
+    {
+     "key": "vigil:secreta",
+     "la": "Súscipe, quǽsumus, Dómine, preces pópuli tui, cum oblatiónibus hostiárum: ut paschálibus initiáta mystériis, ad æternitátis nobis medélam, te operánte, profíciant.",
+     "concl": "Per Dominum"
+    }
+   ]
+  },
+  {
+   "la": "Praefátio paschális",
+   "hr": "Predslovlje uskrsno",
+   "rows": [
+    {
+     "key": "vigil:prefatio",
+     "preface": "Pasch"
+    },
+    {
+     "la": "[Agnus Dei non dicitur: et, omissa oratione Dómine Iesu Christe, qui dixísti, dicuntur ceteræ orationes consuetæ:]"
+    }
+   ]
+  },
+  {
+   "la": "Pro Láudibus",
+   "hr": "Jutarnja",
+   "rows": [
+    {
+     "la": "[Post sumptionem Sacramenti, distributio Communionis, purificatio et ablutio fiunt more solito; deinde pro LAUDIBUS dominicæ Resurrectionis in choro cantatur antiphona:]"
+    },
+    {
+     "key": "vigil:laudes-ps150",
+     "la": "Ant. Allelúia, allelúia, allelúia.\nPsalmus 150\nLaudáte Dóminum in sanctis eius * laudáte eum in firmaménto virtútis eius.\nLaudáte eum in virtútibus eius, * laudáte eum secúndum multitúdinem magnitúdinis eius.\nLaudáte eum in sono tubæ, * laudáte eum in psaltério, et cíthara.\nLaudáte eum in týmpano, et choro: * laudáte eum in chordis et órgano.\nLaudáte eum in cýmbalis benesonántibus: laudáte eum in cýmbalis iubilatiónis: * omnes spíritus laudet Dóminum.\nGlória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.\nAnt. Allelúia, allelúia, allelúia."
+    },
+    {
+     "la": "[Capitulum, hymnus et versus non dicuntur, sed statim celebrans in cantu incipit antiphonam ad Benedíctus.]"
+    },
+    {
+     "key": "vigil:laudes-antiphona",
+     "la": "Ant. Et valde mane una sabbatórum, véniunt ad monuméntum, orto iam sole, allelúia."
+    },
+    {
+     "la": "[Deinde cantatur Benedíctus, cum Glória Patri in fine, et fit incensatio, ut alias in Laudibus.]"
+    },
+    {
+     "key": "vigil:laudes-benedictus",
+     "la": "Luc 1:68-79\nBenedíctus ✠ Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ:\nEt eréxit cornu salútis nobis: * in domo David, púeri sui.\nSicut locútus est per os sanctórum, * qui a sǽculo sunt, prophetárum ejus:\nSalútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos.\nAd faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti.\nJusjurándum, quod jurávit ad Ábraham patrem nostrum, * datúrum se nobis:\nUt sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi.\nIn sanctitáte, et justítia coram ipso, * ómnibus diébus nostris.\nEt tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini, paráre vias ejus:\nAd dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum:\nPer víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto:\nIllumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis.\nGlória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen."
+    },
+    {
+     "key": "vigil:laudes-antiphona",
+     "la": "Ant. Et valde mane una sabbatórum, véniunt ad monuméntum, orto iam sole, allelúia."
+    }
+   ]
+  },
+  {
+   "la": "Postcommúnio",
+   "hr": "Popričesna",
+   "rows": [
+    {
+     "key": "vigil:postcommunio",
+     "la": "Orémus.\nSpíritum nobis, Dómine, tuæ caritátis infúnde: ut, quos sacraméntis paschálibus satiásti, tua fácias pietáte concórdes.",
+     "concl": "Per Dominum eiusdem"
+    }
+   ]
+  },
+  {
+   "la": "Conclúsio",
+   "hr": "Otpust",
+   "rows": [
+    {
+     "key": "vigil:ite",
+     "la": "℣. Ite, Missa est, allelúia, allelúia.\n℟. Deo grátias, allelúia, allelúia."
+    },
+    {
+     "la": "[Omisso ultimo Evangelio, omnes revertuntur in sacristiam.]"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+# Croatian for rows of the rites (Candlemas, ashes, Easter Vigil) that the old site does not have, by row key.
+# A row without an entry here (and without one in data/tm/kniewald-rites.json) shows "hrvatski prijevod nedostaje" and is
+# listed in ZA-PRIJEVOD.md with its key. To supply a text: add  "<key>": { hr: "…", source: "…" }  and run `npm run deploy`.
+# Nothing here is a new translation by the makers of the calendar: each entry names the printed source it was read from.
+
+# --- Mass of the Easter Vigil (review finding R01). Kniewald, Rimski misal, 1942, pp. 297-298 (read on the page scans).
+"vigil:oratio":
+  hr: "Pomolimo se.\nBože, koji ovu presvetu noć prosvjetljuješ slavom uskrsnuća Gospodnjega, uzdrži u novom podmlatku obitelji svoje duh posinaštva, što ga dade, da obnovljeni tijelom i duhom prikazuju Tebi službu čistu, po istom G. n."
+  source: "Kniewald 1942, str. 297"
+"vigil:epistola":
+  hr: "Čitanje poslanice bl. Pavla apostola Kološanima (3, 1-4).\nBraćo! Ako ste uskrsnuli s Kristom, tražite ono, što je gore, gdje Krist sjedi s desne strane Božje; mislite na nebeske stvari, a ne na zemaljske. Jer ste umrli, vaš je život s Kristom sakriven u Bogu. A kada se pojavi Krist, vaš život, tada ćete se i vi pojaviti s njim u slavi."
+  source: "Kniewald 1942, str. 297"
+"vigil:alleluia":
+  hr: "Aleluja. Aleluja. Aleluja.\n(Ps. 117, 1). Hvalite Gospodina, jer je dobar, jer je do vijeka milosrđe njegovo."
+  source: "Kniewald 1942, str. 297"
+"vigil:tractus":
+  hr: "(Ps. 116, 2). Hvalite Gospodina sva plemena, hvalite ga svi narodi: Jer je silno nad nama milosrđe njegovo i istina Gospodnja ostaje dovijeka."
+  source: "Kniewald 1942, str. 297"
+"vigil:evangelium":
+  hr: "† Slijedi sveto evanđelje po Mateju (28, 1-7).\nPoslije subote, kad je svitao prvi dan po suboti, dođe Marija Magdalena i druga Marija, da pogledaju grob. I gle, silno se potrese zemlja, jer anđeo Gospodnji siđe s neba, pristupi, odvali kamen i sjedio je na njemu. Lice je njegovo bilo kao munja, a njegovo odijelo kao snijeg. Stražari od straha pred njim uzdrhtaše i bili su kao mrtvi. Tada anđeo progovori ženama: Nemojte se bojati! Znam, da tražite raspetoga Isusa. Nema ga ovdje, jer je uskrsnuo, kako je rekao. Dođite i vidite mjesto, gdje je bio Gospodin položen. Požurite se i javite učenicima, da je uskrsnuo. I eto ide pred vama u Galileju i tamo ćete ga vidjeti. Evo, rekao sam vam unaprijed."
+  source: "Kniewald 1942, str. 297-298"
+"vigil:secreta":
+  hr: "Primi, molimo, Gospodine, molitve puka svoga s prinosima žrtava, da nam vazmenim tajnama i Tvojim djelovanjem budu korisne za vječnu okrepu, po G. n."
+  source: "Kniewald 1942, str. 298"
+"vigil:prefatio":
+  hr: "Uistinu je dostojno i pravedno, pravo i spasonosno da tebe, Gospodine, u svako doba, a osobito <i>ove noći</i> svečanije slavimo, kad je Krist žrtvovan, naše vazmeno Janje. On je naime pravo janje koje oduze grijehe svijeta. Svojom smrću on je uništio našu smrt i svojim uskrsnućem obnovio naš život. – I stoga s anđelima i arkanđelima, s prijestoljima i gospodstvima i sa svom nebeskom vojskom pjesmu tvoje slave pjevamo bez prestanka:"
+  source: "tradicionalnamisa.com (uskrsno predslovlje); promjenjive riječi »osobito ove noći« prema Kniewald 1942, str. 298"
+"vigil:laudes-antiphona":
+  hr: "I prvoga dana po suboti, vrlo rano, kad je sunce izlazilo, dođu na grob, <i>aleluja</i>."
+  source: "tradicionalnamisa.com, evanđelje Uskrsa (Mk 16, 2), skraćeno na opseg antifone; dodano Aleluja"
+"vigil:postcommunio":
+  hr: "Pomolimo se.\nUlij nam, Gospodine, duh ljubavi svoje, da svojom milostivošću učiniš složnima, koje si nahranio vazmenim tajnama, po G. n."
+  source: "Kniewald 1942, str. 298"
+"vigil:ite":
+  hr: "℣. Idite misa je! Aleluja, aleluja.\n℟. Bogu hvala, aleluja, aleluja."
+  source: "Kniewald 1942, str. 30 (Red mise); Aleluja udvostručen prema latinskom"

@@ -94,3 +94,31 @@ describe('T13 Scripture reference labels (labels of the Missal 1962)', () => {
   it('Common Mass Statuit (Kniewald): Jak 1, 12-18', () => { expect(sec('zagreb|2026-02-10|0', 'Lectio')[1]).toMatch(/\(1, 12-18\)/); });
   it('the 3rd Sunday after Epiphany and Monday of Passion week keep their own (correct) labels', () => { expect(label('opci|2028-01-23|0', 'Evangelium')[1]).toBe('Mt 8, 1-13'); expect(label('opci|2026-03-23|0', 'Evangelium')[1]).toBe('Iv 7, 32-39'); });
 });
+
+const riteRows = (key: string) => byKey.get(key)!.rows.filter(r => r[0].startsWith('rite')).map(r => ({ label: r[0], la: NFC(r[1]), hr: NFC(r[2]) }));
+describe('R01 the Mass of the Easter Vigil is complete (Missal 1962, pp. 212–213)', () => {
+  for (let y = 2026; y <= 2036; y++) it(`${y}`, () => {
+    const v = views.find(x => x.key.startsWith('opci|' + y) && x.day.temporalId === 'Quad6-6')!; const rows = riteRows(v.key); const all = rows.map(r => r.la).join('\n'); const hr = rows.map(r => r.hr).join('\n');
+    const order = ['Kýrie, eléison', 'Na ovoj misi govori se Gloria', 'Deus, qui hanc sacratíssimam noctem glória domínicæ Resurrectiónis illústras', 'Col 3:1-4', 'Fratres: Si consurrexístis cum Christo', 'Allelúia. Allelúia. Allelúia.', 'Confitémini Dómino, quóniam bonus', 'Laudáte Dóminum, omnes gentes', 'Matt 28:1-7', 'Véspere autem sábbati', 'Na ovoj misi NE govori se Nicejsko-carigradsko vjerovanje', 'Non dicitur antiphona ad Offertorium', 'Súscipe, quǽsumus, Dómine, preces pópuli tui', 'in hac potíssimum nocte', 'Laudáte Dóminum in sanctis eius', 'Et valde mane una sabbatórum', 'Benedíctus ✠ Dóminus, Deus Israël', 'Spíritum nobis, Dómine, tuæ caritátis infúnde', 'Ite, Missa est, allelúia, allelúia.'];
+    let at = -1; for (const s of order) { const i = all.indexOf(s, at + 1); expect(i, s).toBeGreaterThan(at); at = i; }
+    for (const s of ['Bože, koji ovu presvetu noć prosvjetljuješ', 'Ako ste uskrsnuli s Kristom', 'Poslije subote, kad je svitao prvi dan po suboti', 'Primi, molimo, Gospodine, molitve puka svoga', 'a osobito <i>ove noći</i> svečanije slavimo', 'Ulij nam, Gospodine, duh ljubavi svoje']) expect(hr).toContain(s);
+  });
+});
+describe('H01 Exsultet: the last paragraph stands by itself, marked as lacking a translation; the rest keeps its Croatian', () => {
+  it('2027', () => { const rows = riteRows('opci|2027-03-27|0'); const i = rows.findIndex(r => r.la.startsWith('Réspice étiam ad eos, qui nos in potestáte regunt')); expect(i).toBeGreaterThan(0); expect(rows[i].hr).toBe('∅'); expect(rows[i].la).toMatch(/cum omni populo tuo\.$/);
+    expect(rows[i - 1].la).toMatch(/conserváre digneris\.$/); expect(rows[i - 1].hr).toMatch(/mirna vremena u ovim vazmenim radostima\.$/); expect(rows[i + 1].la).toMatch(/^Per eúndem Dóminum/); expect(rows[i + 1].hr).toMatch(/^Po istom Gospodinu našem Isusu Kristu/); });
+});
+describe('H03 Good Friday, prayer for the pagans', () => {
+  it('smrti grješnika (Kniewald 1942, p. 263), not smrt grijeha', () => { for (const v of views.filter(x => x.day.temporalId === 'Quad6-5')) { const hr = riteRows(v.key).map(r => r.hr).join('\n'); expect(hr).not.toMatch(/smrt grijeha/); expect(hr).toMatch(/koji ne tražiš smrti grješnika, nego vazda život/); } });
+});
+describe('T12 names in place of N. / I.', () => {
+  it('St Anthony, abbot, 17 January: blaženoga Antuna opata', () => { for (const s of ['Oratio', 'Secreta', 'Postcommunio']) { const [, hr] = sec('opci|2028-01-17|0', s); expect(hr, s).toMatch(/(blaženoga|svetoga|blaženog) Antuna opata/); expect(hr).not.toMatch(/ I\. /); } });
+  it('prayer for the Pope: Leonem / Lava; no leftover of another Pope', () => { const [la, hr] = sec('opci|2027-05-18|0', 'Oratio', 1); expect(la).toMatch(/fámulum tuum Leónem, quem pastórem/); expect(hr).toMatch(/slugu svoga Lava, koga/); for (const r of massRows) { expect(r.hr, r.key).not.toMatch(/Benedikta\]/); expect(r.la, r.key).not.toMatch(/N\.p\b/); } });
+  it('Good Friday and the Exsultet name the Pope; the bishop stays N.', () => { expect(riteRows('opci|2027-03-26|0').some(r => /Papa nostro Leóne:/.test(r.la) && /Papu našega Lava,/.test(r.hr))).toBe(true); const ex = riteRows('opci|2027-03-27|0').find(r => /una cum beatíssimo Papa nostro/.test(r.la))!; expect(ex.la).toMatch(/Papa nostro Leóne, et Antístite nostro N\./); expect(ex.hr).toMatch(/papom našim Lavom i biskupom I\./); });
+  it('Zagreb feasts on a Common carry the saint\'s name in both columns', () => {
+    const cases: [string, RegExp, RegExp][] = [['zagreb|2026-02-10|0', /beáti Aloísii Mártyris tui atque Pontíficis/, /blaženoga Alojzija, Tvoga mučenika i biskupa/], ['zagreb|2026-05-12|0', /beáti Leopóldi Confessóris/, /blaženoga Leopolda, priznavaoca/], ['zagreb|2026-06-27|0', /beáti Ladislái Confessóris/, /blaženoga Ladislava, priznavaoca/], ['zagreb|2026-09-07|0', /beáto Marco Mártyre tuo/, /blaženoga Marka, Tvoga mučenika/], ['zagreb|2026-11-14|0', /beáto Nicoláo Mártyre tuo/, /blaženoga Nikole, Tvoga mučenika/], ['zagreb|2029-06-04|0', /beáti Quiríni Mártyris tui atque Pontíficis/, /blaženoga Kvirina, Tvoga mučenika i biskupa/]];
+    for (const [k, la, hr] of cases) { const [a, b] = sec(k, 'Oratio'); expect(a, k).toMatch(la); expect(b, k).toMatch(hr); }
+  });
+  it('St Florian, not a bishop, has the prayers «Pro Martyre tantum» of the Mass Protexisti (Missal 1962, pp. [10]–[11])', () => { const [la, hr] = sec('zagreb|2026-05-04|0', 'Oratio'); expect(la).toMatch(/^Præsta, quǽsumus, omnípotens Deus: ut, qui beáti Floriáni Mártyris tui natalícia cólimus/); expect(la).not.toMatch(/Pontíficis/); expect(hr).toMatch(/blaženoga Florijana, Tvoga mučenika/); expect(sec('zagreb|2026-05-04|0', 'Postcommunio')[0]).not.toMatch(/Pontífice/); });
+  it('a placeholder is left only where two or more unnamed martyrs are meant (listed for review)', () => { for (const r of massRows) if (/(^|\s)N\.(?=[\s,;:.]|$)/.test(r.la) && /^(Oratio|Secreta|Postcommunio)/.test(r.label)) expect(r.la, r.key + ' ' + r.label).toMatch(/N\. et N\./); });
+});
