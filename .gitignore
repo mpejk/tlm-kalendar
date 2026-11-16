@@ -11,3 +11,6 @@ data/raw/mm/repo
 
 # large or reproducible downloads
 data/raw/kniewald
+
+# scan crops used while reading Kniewald
+scripts/kniewald/out/*.jpg

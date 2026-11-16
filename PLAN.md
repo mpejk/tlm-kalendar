@@ -32,16 +32,16 @@ DO data: sparse clone in data/raw/do/repo (git-ignored; re-clone with the comman
 
 ## 4. Croatian
 - [x] Block memory (data/tm/blocks.json, `npx tsx scripts/croatian/build-blocks.ts`) + resolver (scripts/croatian/resolve.ts: exact / typo / variant / manual) + coverage (`npx tsx scripts/croatian/coverage.ts` -> data/tm/missing.json, data/tm/variants.txt). 16 Nov: 2432 of 2474 distinct blocks of 2026-2036 (general calendar) have the old site's Croatian; 42 missing.
-- [ ] Manual map data/tm/manual.json { core: { hr, page, why } } for misses whose Croatian is on the old site under different Latin (see scripts/tmp/miss2.ts output: St Joseph the Worker postcommunion, Assumption gradual, prefaces of Our Lady with another mystery word, Passion Gospels, etc.)
-- [ ] Kniewald 1942 (then 1930) for misses, corrected against page images; record source
-- [ ] GAPS.md for the rest
-- [ ] KNIEWALD-CHECK.md; `croatianPrimary` setting
-- [ ] TYPOS.md
+- [x] Manual map data/tm/manual.json { core: { hr, page, why } } for misses whose Croatian is on the old site under different Latin (see scripts/tmp/miss2.ts output: St Joseph the Worker postcommunion, Assumption gradual, prefaces of Our Lady with another mystery word, Passion Gospels, etc.)
+- [x] Kniewald 1942 (then 1930) for misses, corrected against page images; record source
+- [x] GAPS.md for the rest
+- [x] KNIEWALD-CHECK.md; `croatianPrimary` setting
+- [x] TYPOS.md
 
 ## 5. Zagreb layer
 - [x] Re-read HBK page (data/raw/hbk/, unchanged); searched for a pre-conciliar Zagreb proper (none found online)
 - [x] data/local/zagreb.yaml with sources; Mass choices; engine integration; "mjesni kalendar" tag (check with `npx tsx scripts/tmp/zg.ts <dates>`)
-- [ ] Named tests for the local layer (tests/zagreb.test.ts): ranks, occurrence with Sundays/Corpus Christi, commemorations; St Demetrius collect (Common C3 has the form for bishops: pick the form for non-bishops)
+- [x] Named tests for the local layer (tests/zagreb.test.ts): ranks, occurrence with Sundays/Corpus Christi, commemorations; St Demetrius collect (Common C3 has the form for bishops: pick the form for non-bishops)
 
 ## 6. Site
 - [x] Build pipeline: per-year calendar files + per-formulary files as classic scripts into dist/ (`npx tsx scripts/build/build.ts`: data.ts, rites.ts, ics.ts, site.ts)
@@ -49,18 +49,24 @@ DO data: sparse clone in data/raw/do/repo (git-ignored; re-clone with the comman
 - [x] Typography, themes, font size, self-hosted fonts, print leaflet, .ics, offline (service worker) — first version; print/offline still to be verified in stage 7
 
 ## 7. Verification
-- [ ] Calendar vs old site (100% or DIFFS.md)
-- [ ] Texts vs old site (100% or listed)
-- [ ] Calendar vs Missale Meum 2026-2036
-- [ ] Edge dates + fresh-subagent derivation reconciled
-- [ ] Coverage report (Latin complete; Croatian by source)
-- [ ] Whole-site crawl file:// and http, both calendars
-- [ ] Screenshots 40 days x 390/1280 x light/dark reviewed; 5 PDFs checked
-- [ ] Lighthouse >= 90, axe clean, offline works
+- [x] Calendar vs old site (100% or DIFFS.md)
+- [x] Texts vs old site (100% or listed)
+- [x] Calendar vs Missale Meum 2026-2036
+- [x] Edge dates + fresh-subagent derivation reconciled
+- [x] Coverage report (Latin complete; Croatian by source)
+- [x] Whole-site crawl file:// and http, both calendars
+- [x] Screenshots 40 days x 390/1280 x light/dark reviewed; 5 PDFs checked
+- [x] Lighthouse >= 90, axe clean, offline works
 
 ## 8. Publish and report
-- [ ] GitHub repo tlm-kalendar, Pages via Actions (dist only), live URL + deep link verified, `npm run deploy`
-- [ ] REPORT.md with final audit; DONE
+- [x] GitHub repo tlm-kalendar, Pages via Actions (dist only), live URL + deep link verified, `npm run deploy`
+- [x] REPORT.md with final audit; DONE
+
+## Run 4 additions
+- [x] Kniewald for Ash Wednesday (1930) and the Easter Vigil (1942) rites; Laetabitur, Salus autem, 1 Pet 1,3-7
+- [x] Zagreb Masses after Kniewald 1942 (data/local/formularies.yaml, massPaschal); BLOCKED.md for the Latin of the proper prayers
+- [x] Start-up race fixed (scripts/verify/startup.ts); local tag only where the layer changes the day
+- [x] All 8 contact sheets and the other views reviewed; full verification rerun; published; REPORT.md; DONE
 
 ## Notes for the next run (design decisions already taken — keep them)
 - Env: `export PATH="$PWD/tools.nosync/bin:$PATH" NODE_OPTIONS=--use-system-ca PLAYWRIGHT_BROWSERS_PATH="$PWD/tools.nosync/pw"` (Chromium for Playwright lives inside the project); build `npx tsx scripts/build/build.ts`; smoke `npx tsx scripts/verify/smoke.ts`; tests `npx vitest run`; zsh does not word-split and `$O:w` is a modifier, quote git revs.
