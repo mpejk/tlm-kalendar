@@ -6,12 +6,12 @@ import { getDay } from '../../src/engine/engine';
 import { parseIso } from '../../src/engine/dates';
 import { assembleMass } from '../../src/assembler/assemble';
 import { loadCorpus } from '../../src/assembler/corpus-node';
-import { keyOfHead } from './texts-lib';
+import { keyOfHead, massIndex } from './texts-lib';
 const cfg = generalConfig(POPE_OLD_SITE); const corpus = loadCorpus(); const done = new Set<string>();
 for (const y of ['2017', '2018']) for (const f of fs.readdirSync('data/golden/masses/' + y).sort()) {
   if (!f.startsWith('propers_')) continue;
   const g = JSON.parse(fs.readFileSync(`data/golden/masses/${y}/${f}`, 'utf8'));
-  const day = getDay(parseIso(g.date), cfg); const v = assembleMass(day, g.n, corpus); if (!v) continue;
+  const day = getDay(parseIso(g.date), cfg); const v = assembleMass(day, massIndex(day, g.n), corpus); if (!v) continue;
   const comms = day.commemorations.filter(c => c.onlyMass === undefined || c.onlyMass === g.n);
   for (const key of ['Oratio', 'Secreta', 'Postcommunio']) {
     const mine = v.items.filter((i: any) => i.kind === 'section' && i.key === key).pop() as any;

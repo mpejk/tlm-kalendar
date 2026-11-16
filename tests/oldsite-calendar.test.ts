@@ -20,7 +20,7 @@ describe('calendar against the old site (tradicionalnamisa.com/kalendar 2017–2
     const mine: Record<string, unknown> = {
       weekday: WD[d.weekday], class: ['', 'I', 'II', 'III', 'IV'][d.cls], colour: COL[d.colour], colours: (d.colours ?? []).map(c => COL[c]).join('+'), title: d.title,
       commemorations: d.commemorations.map(c => (c.onlyMass !== undefined ? 'samo zornica: ' : '') + TYPE[c.type] + ': ' + c.title).join(' | '),
-      masses: d.flags.noMass ? 0 : d.masses.length,
+      masses: d.flags.noMass ? 0 : d.masses.filter(m => !m.extra).length,
     };
     const theirs: Record<string, unknown> = { weekday: r.weekday, class: r.class, colour: r.colour, colours: (r.colours ?? []).join('+'), title: r.title, commemorations: r.notes.map((x: any) => x.type + ': ' + x.title).join(' | '), masses: r.masses.length };
     for (const k of Object.keys(mine)) if (mine[k] !== theirs[k]) diffs.push(`- ${r.date} ${k}: old site «${theirs[k]}», engine «${mine[k]}»`);

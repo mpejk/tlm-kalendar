@@ -10,7 +10,7 @@ import { parseIso } from '../../src/engine/dates';
 import { assembleMass } from '../../src/assembler/assemble';
 import { loadCorpus } from '../../src/assembler/corpus-node';
 import { blockCore } from '../../src/assembler/norm';
-import { goldenCore, keyOfHead, similarity } from './texts-lib';
+import { goldenCore, keyOfHead, similarity, massIndex } from './texts-lib';
 import { makeResolver, typoOnly } from '../croatian/resolve';
 const cfg = generalConfig(POPE_OLD_SITE); const corpus = loadCorpus(); const R: any = makeResolver();
 const exc = (YAML.parse(fs.readFileSync('data/verify/text-exceptions.yaml', 'utf8')) as any[]).map(e => new RegExp(e.match));
@@ -18,7 +18,7 @@ const done = new Map<string, string>(); const out: string[] = []; const report: 
 for (const y of ['2017', '2018']) for (const f of fs.readdirSync('data/golden/masses/' + y).sort()) {
   if (!f.startsWith('propers_')) continue;
   const g = JSON.parse(fs.readFileSync(`data/golden/masses/${y}/${f}`, 'utf8'));
-  const v = assembleMass(getDay(parseIso(g.date), cfg), g.n, corpus); if (!v) continue;
+  const dd = getDay(parseIso(g.date), cfg); const v = assembleMass(dd, massIndex(dd, g.n), corpus); if (!v) continue;
   for (const key of ['Oratio', 'Secreta', 'Postcommunio', 'SuperPopulum']) {
     const mine = v.items.filter((i: any) => i.kind === 'section' && i.key === key) as any[];
     const old = g.items.filter((i: any) => i.kind === 'section' && !i.hidden && keyOfHead(i.la) === key);

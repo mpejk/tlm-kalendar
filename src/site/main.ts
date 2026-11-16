@@ -121,18 +121,20 @@ function fixedHtml(title: string, t: { la: string; hr: string }): string {
   return h('details', { class: 'fixed' }, h('summary', null, esc(title)), h('div', { class: 'row' }, h('div', { class: 'la', lang: 'la' }, h('span', { class: 'tx' }, esc(t.la))), h('div', { class: 'hr', lang: 'hr' }, h('span', { class: 'tx' }, esc(t.hr)))));
 }
 function massHtml(v: MassView): string {
-  return v.items.map(it => {
+  const ins = (v as any).insert as { at: number; html: string } | undefined;
+  return v.items.map((it, i) => (ins && ins.at === i ? ins.html : '') + one(it)).join('');
+  function one(it: MassView['items'][number]): string {
     if (it.kind === 'section') return sectionHtml(it);
     let extra = '';
     if (it.key === 'gloria' && v.gloria && BASE.gloria) extra = fixedHtml('Tekst himna Gloria', BASE.gloria);
     if (it.key === 'credo' && v.credo && BASE.credo) extra = fixedHtml('Tekst Vjerovanja', BASE.credo);
     return h('p', { class: 'note' }, esc(it.text)) + extra;
-  }).join('');
+  }
 }
 function riteHtml(f: FData): string {
   return (f.items ?? []).map((it: any) => {
     if (it.kind === 'note') return h('p', { class: 'note rubnote' }, esc(it.text));
-    const rows = (it.rows ?? []).map((r: any) => r.la === undefined ? h('p', { class: 'note rubnote' }, esc(r.text ?? '')) : h('div', { class: 'row' }, h('div', { class: 'la', lang: 'la' }, hrCell(r.la)), h('div', { class: 'hr', lang: 'hr' }, r.hr ? hrCell(r.hr) : h('span', { class: 'missing' }, 'hrvatski prijevod nedostaje')))).join('');
+    const rows = (it.rows ?? []).map((r: any) => r.la === undefined ? h('p', { class: 'note rubnote' }, esc(r.text ?? '')) : h('div', { class: r.head ? 'row sub' : 'row' }, h('div', { class: 'la', lang: 'la' }, hrCell(typo(r.la))), h('div', { class: 'hr', lang: 'hr' }, r.hr ? hrCell(typo(r.hr)) : h('span', { class: 'missing' }, 'hrvatski prijevod nedostaje')))).join('');
     return h('section', { class: 'sec' }, h('div', { class: 'row head' }, h('h3', { class: 'la', lang: 'la' }, esc(it.la ?? '')), h('h3', { class: 'hr', lang: 'hr' }, esc(it.hr ?? ''))), rows);
   }).join('');
 }
@@ -155,13 +157,16 @@ async function viewDay(): Promise<string> {
     changed ? ` <span class="tag">mjesni kalendar</span> ${link({ k: 'opci' }, 'opći kalendar', 'small')}` : '', st.k === 'opci' && BASE.hasZagreb ? ` ${link({ k: 'zagreb' }, 'zagrebački kalendar', 'small')}` : '');
   if (d.commemorations.length) head += h('ul', { class: 'comms' }, commLines(d));
   if (d.notes?.length) head += h('ul', { class: 'comms notes' }, d.notes.map(n => h('li', null, esc(n) + ' <span class="tag">mjesni kalendar</span>')).join(''));
-  const idx = Math.min(st.m, d.masses.length - 1); const m = d.masses[idx];
+  // open on the Mass, not on a rite that precedes it, unless a tab was chosen
+  const firstMass = Math.max(0, d.masses.findIndex(x => !x.extra));
+  const idx = new URLSearchParams(location.search.slice(1) || location.hash.slice(1)).has('m') ? Math.min(st.m, d.masses.length - 1) : firstMass; const m = d.masses[idx];
   let tabs = '';
   if (d.masses.length > 1) tabs = h('div', { class: 'tabs', role: 'tablist' }, d.masses.map((x, i) => `<a role="tab" aria-selected="${i === idx}" href="${esc(urlFor({ m: i }))}" data-nav='${JSON.stringify({ m: i })}' class="tab${i === idx ? ' on' : ''}">${esc(x.label ?? `Misa ${i + 1}`)}</a>`).join(''));
   let body = '';
   if (m.kind === 'mass') {
     await needF(formulariesFor(d, idx));
     const v = assembleMass(d, idx, corpus());
+    if (v && m.id === 'Tempora/Quad6-4rm2') { await needF([m.id + ':mandatum']); const md = F[m.id + ':mandatum']; const at = v.items.findIndex(it => it.kind === 'note' && it.key === 'credo'); if (md && at >= 0) (v as any).insert = { at, html: riteHtml(md) }; }
     body = v ? h('p', { class: 'rank' }, esc(m.variant === 'rogation' ? 'Zazivna misa nakon procesije' : v.rankLine)) + massHtml(v) : h('p', { class: 'empty' }, 'Tekst mise nije dostupan.');
   } else {
     await needF([m.id]); const f = F[m.id];

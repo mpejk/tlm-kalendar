@@ -15,6 +15,7 @@ import { loadCorpus } from '../../src/assembler/corpus-node';
 import { blockCore, hashKey } from '../../src/assembler/norm';
 import { Block, Formulary, Section, Unit } from '../../src/assembler/types';
 import { makeResolver, resolveLines, Hit } from '../croatian/resolve';
+import { buildRites } from './rites';
 
 export const YEARS = { from: 2026, to: 2036 };
 export const POPE = { name: 'Lav XIV.', date: '05-18' };
@@ -80,13 +81,14 @@ export function buildData(dist: string) {
   const inline = (u: Unit[]): Unit[] => u.map(x => (x.k === 'text' && x.x ? { k: 'text', la: corpus.texts[x.x], ...(x.mark ? { mark: x.mark } : {}) } : x)) as Unit[];
   let bytes = 0; const missingFormularies: string[] = [];
   for (const id of [...used].sort()) {
-    const f = corpus.formularies[id] as Formulary | undefined; if (!f) { if (!/:|Quad6-[56]r/.test(id)) missingFormularies.push(id); continue; }
+    const f = corpus.formularies[id] as Formulary | undefined; if (!f || (/Quad6-[56]r$/.test(id))) { if (!/:|Quad6-[56]r/.test(id)) missingFormularies.push(id); continue; }
     const out: any = { officium: f.officium, rule: f.rule, ruleInherited: f.ruleInherited, fallback: f.fallback, from: f.from, sections: {}, hr: hr[id] ?? {} };
     for (const [n, u] of Object.entries(f.sections)) out.sections[n] = inline(u);
     if (f.variants) { out.variants = {}; for (const [vn, v] of Object.entries(f.variants)) { out.variants[vn] = {}; for (const [n, u] of Object.entries(v)) out.variants[vn][n] = u ? inline(u) : null; } }
     const js = `TLM.f(${JSON.stringify(id)},${JSON.stringify(out)});\n`; bytes += js.length;
     fs.writeFileSync(path.join(dist, `data/f/${fileOf(id)}.js`), js);
   }
+  const rites = buildRites(dist, corpus);
   // base: fixed texts
   const g = JSON.parse(fs.readFileSync('data/golden/masses/2017/propers_20161225_2.json', 'utf8'));
   const hidden: Record<string, { la: string; hr: string }> = {};
@@ -96,6 +98,6 @@ export function buildData(dist: string) {
   const base = { years: YEARS, pope: POPE, ordo: ordoInline, gloria: hidden.tableGloria, credo: hidden.tableCredo, built: new Date().toISOString().slice(0, 10), coverage, hasZagreb: cals.zagreb !== cals.opci };
   fs.writeFileSync(path.join(dist, 'data/base.js'), `TLM.base(${JSON.stringify(base)});\n`);
   fs.mkdirSync('data/verify', { recursive: true });
-  fs.writeFileSync('data/verify/coverage.json', JSON.stringify({ coverage, missingFormularies, gaps: [...gaps.values()].sort((a, b) => b.n - a.n) }, null, 1));
+  fs.writeFileSync('data/verify/coverage.json', JSON.stringify({ coverage, rites, missingFormularies, gaps: [...gaps.values()].sort((a, b) => b.n - a.n) }, null, 1));
   return { coverage, formularies: used.size, formularyBytes: bytes, missingFormularies };
 }

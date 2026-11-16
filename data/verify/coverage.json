@@ -11,6 +11,23 @@
   "uniqueKniewald": 0,
   "uniqueMissing": 42
  },
+ "rites": [
+  {
+   "id": "Sancti/02-02:Prelude",
+   "rows": 10,
+   "withCroatian": 0
+  },
+  {
+   "id": "Tempora/Quadp3-3:Prelude",
+   "rows": 9,
+   "withCroatian": 0
+  },
+  {
+   "id": "Tempora/Quad6-6r:Prelude",
+   "rows": 47,
+   "withCroatian": 0
+  }
+ ],
  "missingFormularies": [],
  "gaps": [
   {

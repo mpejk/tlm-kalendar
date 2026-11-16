@@ -36,13 +36,15 @@ export function similarity(a: string, b: string): number {
   return (2 * prev[B.length]) / (A.length + B.length);
 }
 
+/** Index in day.masses of the n-th Mass or rite that the old site counts (rites added before the Mass are skipped). */
+export function massIndex(day: { masses: { extra?: boolean }[] }, n: number): number { let k = -1; for (let i = 0; i < day.masses.length; i++) { if (!day.masses[i].extra) k++; if (k === n) return i; } return n; }
 export interface PageResult { nearList: string[]; file: string; date: string; n: number; problems: string[]; sections: number; exact: number; near: number }
 export function comparePage(file: string, cfg = generalConfig(POPE_OLD_SITE)): PageResult {
   const g = JSON.parse(fs.readFileSync(file, 'utf8'));
   const corpus = loadCorpus();
   const day = getDay(parseIso(g.date), cfg);
   const res: PageResult = { file, date: g.date, n: g.n, problems: [], nearList: [], sections: 0, exact: 0, near: 0 };
-  const view = assembleMass(day, g.n, corpus);
+  const view = assembleMass(day, massIndex(day, g.n), corpus);
   if (!view) { res.problems.push('no Mass assembled for index ' + g.n + ' (' + JSON.stringify(day.masses[g.n] ?? null) + ')'); return res; }
   const gItems = g.items.filter((it: any) => !it.hidden);
   const gSeq = gItems.map((it: any) => (it.kind === 'note' ? 'note:' + it.text : keyOfHead(it.la)));

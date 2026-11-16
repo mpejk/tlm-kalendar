@@ -210,10 +210,14 @@ export function getDay(n: number, config: CalendarConfig): Day {
   else if (win === t && tid === 'Quad6-0') masses.push({ id: 'Tempora/Quad6-0r:palms', label: 'Blagoslov grančica', kind: 'rite' }, { id: 'Tempora/Quad6-0r', label: 'Misa', kind: 'mass', variant: 'longior' }, { id: 'Tempora/Quad6-0r', label: 'Misa (kraća Muka)', kind: 'mass', variant: 'brevior' });
   else if (win === t && tid === 'Quad6-4') masses.push({ id: 'Tempora/Quad6-4rm1', label: 'Misa posvete ulja', kind: 'mass' }, { id: 'Tempora/Quad6-4rm2', label: 'Večernja misa Večere Gospodnje', kind: 'mass' });
   else if (win === t && tid === 'Quad6-5') masses.push({ id: 'Tempora/Quad6-5r', label: 'Obred Velikog petka', kind: 'rite' });
-  else if (win === t && tid === 'Quad6-6') { masses.push({ id: 'Tempora/Quad6-6r', label: 'Vazmeno bdijenje', kind: 'rite' }); flags.noMass = true; }
+  else if (win === t && tid === 'Quad6-6') { masses.push({ id: 'Tempora/Quad6-6r:Prelude', label: 'Vazmeno bdijenje', kind: 'rite' }); flags.noMass = true; }
   else if (win === t && t.ember && wd === 6) masses.push({ id: win.id, label: 'Misa (duži oblik)', kind: 'mass', variant: 'longior' }, { id: win.id, label: 'Misa (kraći oblik)', kind: 'mass', variant: 'brevior' });
   else if (win.key === 'S:12-24' && wd === 0) masses.push({ id: 'Sancti/12-24s', kind: 'mass' });   // the vigil on a Sunday has an Alleluia
   else masses.push({ id: win.id, kind: 'mass' });
+  // rites before the Mass: candles on 2 February (also when the feast gives way to a Sunday, n. 2 of the rubrics of the day is not handled: only on the feast), ashes
+  if (win.key === 'S:02-02') masses.unshift({ id: 'Sancti/02-02:Prelude', label: 'Blagoslov svijeća', kind: 'rite', extra: true });
+  if (win === t && tid === 'Quadp3-3') masses.unshift({ id: 'Tempora/Quadp3-3:Prelude', label: 'Blagoslov pepela', kind: 'rite', extra: true });
+  if (masses.some(m => m.extra) && !masses.find(m => m.kind === 'mass')!.label) masses.find(m => m.kind === 'mass')!.label = 'Misa';
   if (rogation || greaterLitanies) { masses.push({ id: 'Tempora/Pasc5-1', label: 'Prosna misa', kind: 'mass', variant: 'rogation' }); flags.rogation = true; if (greaterLitanies) flags.greaterLitanies = true; }
   if (t.ember) flags.ember = true;
   if (win.local || commemorations.some(c => c.local)) flags.local = true;

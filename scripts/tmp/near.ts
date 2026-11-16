@@ -5,14 +5,14 @@ import { getDay } from '../../src/engine/engine';
 import { parseIso } from '../../src/engine/dates';
 import { assembleMass } from '../../src/assembler/assemble';
 import { loadCorpus } from '../../src/assembler/corpus-node';
-import { goldenCore, mineCore, keyOfHead } from '../verify/texts-lib';
+import { goldenCore, mineCore, keyOfHead, massIndex } from '../verify/texts-lib';
 const cfg = generalConfig(POPE_OLD_SITE); const corpus = loadCorpus();
 const agg: Record<string, number> = {}; const ex: Record<string, string> = {}; const seen = new Set<string>(); let nsec = 0;
 const big: string[] = [];
 for (const y of ['2017', '2018']) for (const f of fs.readdirSync('data/golden/masses/' + y).sort()) {
   if (!f.startsWith('propers_') || seen.has(f)) continue; seen.add(f);
   const g = JSON.parse(fs.readFileSync(`data/golden/masses/${y}/${f}`, 'utf8'));
-  const v = assembleMass(getDay(parseIso(g.date), cfg), g.n, corpus); if (!v) continue;
+  const dd = getDay(parseIso(g.date), cfg); const v = assembleMass(dd, massIndex(dd, g.n), corpus); if (!v) continue;
   const mine = v.items.filter((i: any) => i.kind === 'section') as any[]; const used = new Set<number>();
   for (const it of g.items) { if (it.kind !== 'section' || it.hidden) continue; const key = keyOfHead(it.la);
     const idx = mine.findIndex((s, i) => !used.has(i) && s.key === key); if (idx < 0) continue; used.add(idx);

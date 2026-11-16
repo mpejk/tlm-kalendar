@@ -40,7 +40,7 @@ export interface Observance {
 }
 
 export interface Commemoration { key: string; id: string; title: string; type: CommType; cls: Cls; kind: Kind | 'oration'; onlyMass?: number; local?: boolean; colour?: Colour }
-export interface MassRef { id: string; label?: string; kind: 'mass' | 'rite'; variant?: string }
+export interface MassRef { id: string; label?: string; kind: 'mass' | 'rite'; variant?: string; /** a rite added to the Mass of the day (not counted as one of the day's Masses) */ extra?: boolean }
 
 export interface Day {
   date: string;
