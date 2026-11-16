@@ -15,7 +15,7 @@ export default async function buildIcs(dist: string) {
     const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//tlm-kalendar//Zagreb 1962//HR', 'CALSCALE:GREGORIAN', `X-WR-CALNAME:Tradicionalna latinska misa ${y}. (${name === 'zagreb' ? 'Zagreb' : 'opći kalendar'})`];
     for (let n = dayNumber(y, 1, 1); n <= dayNumber(y, 12, 31); n++) {
       const d = getDay(n, cfg); const ds = d.date.replace(/-/g, ''); const next = iso(n + 1).replace(/-/g, '');
-      const desc = [`${ROMAN[d.cls]}. razred`, ...d.commemorations.map(c => `${COMM[c.type]}: ${c.title}`), ...(d.notes ?? [])].join('\n');
+      const desc = [`${ROMAN[d.cls]}. razred`, ...d.commemorations.map(c => `${COMM[c.type]}: ${c.title}`), ...(d.notes ?? []), ...(d.rubricNotes ?? [])].join('\n');
       lines.push('BEGIN:VEVENT', `UID:${d.date}-${name}@tlm-kalendar`, `DTSTAMP:${y}0101T000000Z`, `DTSTART;VALUE=DATE:${ds}`, `DTEND;VALUE=DATE:${next}`, `SUMMARY:${escText(d.title)}`, `DESCRIPTION:${escText(desc)}`, 'TRANSP:TRANSPARENT', 'END:VEVENT');
     }
     lines.push('END:VCALENDAR');

@@ -1,1 +1,10 @@
-EB Garamond — Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12). SIL Open Font License 1.1, https://openfontlicense.org
+EB Garamond — Copyright 2017 The EB Garamond Project Authors (https://github.com/octaviopardo/EBGaramond12).
+Licensed under the SIL Open Font License, Version 1.1 (full text in OFL.txt; https://openfontlicense.org).
+The licence names no Reserved Font Name.
+
+Modified versions, made for tlm-kalendar by scripts/fonts/make-fonts.py:
+- ebg-latin-*.woff2, ebg-latin-ext-*.woff2: the Latin and Latin Extended subsets as distributed by the npm package
+  @fontsource/eb-garamond, with the OpenType language system for Latin (LAT) removed. In the original files that language
+  system replaces u, U and v by the forms u.LAT, U.LAT and v.LAT (u drawn as v) in text marked lang="la".
+- ebg-vr.ttf: the two signs U+211F (℟) and U+2123 (℣) cut out of EBGaramond[wght].ttf from the Google Fonts repository.
+These modified files are distributed under the same licence.

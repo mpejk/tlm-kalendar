@@ -164,6 +164,7 @@ async function viewDay(): Promise<string> {
     changed ? ` <span class="tag">mjesni kalendar</span> ${link({ k: 'opci' }, 'opći kalendar', 'small')}` : '', st.k === 'opci' && BASE.hasZagreb ? ` ${link({ k: 'zagreb' }, 'zagrebački kalendar', 'small')}` : '');
   if (d.commemorations.length) head += h('ul', { class: 'comms' }, commLines(d));
   if (d.notes?.length) head += h('ul', { class: 'comms notes' }, d.notes.map(n => h('li', null, esc(n) + ' <span class="tag">mjesni kalendar</span>')).join(''));
+  if (d.rubricNotes?.length) head += h('ul', { class: 'comms notes' }, d.rubricNotes.map(n => h('li', null, esc(n))).join(''));
   // open on the Mass, not on a rite that precedes it, unless a tab was chosen
   const firstMass = Math.max(0, d.masses.findIndex(x => !x.extra));
   const idx = massIndex(st.m, d.masses.length, firstMass); const m = d.masses[idx];

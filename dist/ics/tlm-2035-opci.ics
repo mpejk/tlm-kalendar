@@ -1121,7 +1121,9 @@ DTSTAMP:20350101T000000Z
 DTSTART;VALUE=DATE:20350501
 DTEND;VALUE=DATE:20350502
 SUMMARY:SV. JOSIP RADNIK\, SUPRUG BDM\, PRIZNAVALAC (prosni dan)
-DESCRIPTION:I. razred
+DESCRIPTION:I. razred\nProsna misa danas se ne služi jer je dan I. razre
+ da (Kodeks rubrika n. 341). Gdje se održava procesija\, molitva prosne 
+ mise dodaje se molitvi dana pod istim završetkom (n. 343c).
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
