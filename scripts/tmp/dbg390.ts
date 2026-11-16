@@ -1,0 +1,6 @@
+import { chromium } from 'playwright'; import path from 'node:path'; import fs from 'node:fs'; const DAYS = [...fs.readFileSync('scripts/verify/shots.ts','utf8').matchAll(/\['(20[^']+)', '/g)].map(m => [m[1]]);
+const b = await chromium.launch(); const ctx = await b.newContext({ viewport: { width: 390, height: 844 } }); const p = await ctx.newPage();
+p.on('console', m => console.log('console', m.type(), m.text().slice(0, 300))); p.on('pageerror', e => console.log('pageerror', String(e).slice(0, 500)));
+p.on('requestfailed', r => console.log('reqfailed', r.url().slice(-60), r.failure()?.errorText));
+for (let rep = 0; rep < 3; rep++) for (const [d] of DAYS) { await p.goto('file://' + path.resolve('dist/index.html') + '?d=' + d); try { await p.waitForFunction(() => !!document.getElementById('main')?.dataset.ready, null, { timeout: 6000 }); await p.screenshot({ path: '.cache/x.png' }); } catch { console.log(d, 'TIMEOUT', await p.evaluate(() => ({ rs: document.readyState, tlm: Object.keys((window as any).TLM ?? {}).join(','), main: document.getElementById('main')?.innerHTML.slice(0, 200), scripts: [...document.scripts].map(s => s.src.split('/').pop()).join(' ') }))); } }
+await b.close(); console.log('end');

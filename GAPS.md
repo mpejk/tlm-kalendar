@@ -16,7 +16,6 @@ Counting every occurrence over the eleven years: 49330 blocks; old site 49063; K
 
 ## Rites without Croatian (rows)
 
-- Tempora/Quadp3-3:Prelude: 9 rows (Latin from Divinum Officium; the old site has no page for this rite)
-- Tempora/Quad6-6r:Prelude: 47 rows (Latin from Divinum Officium; the old site has no page for this rite)
+- Tempora/Quad6-6r:Prelude: 9 rows (Latin from Divinum Officium; the old site has no page for this rite)
 
 To fill a gap: add the Croatian to `data/tm/kniewald-found.json` (ids in `data/tm/gaps-for-kniewald.json` and `data/tm/rite-gaps.json`), run `npx tsx scripts/croatian/apply-kniewald.ts`, then `npm run build`.

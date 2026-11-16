@@ -19,7 +19,12 @@ export function buildRites(dist: string, corpus: Corpus): { id: string; rows: nu
   if (a >= 0 && b > a) out['Tempora/Quad6-4rm2:mandatum'] = { rite: true, source: 'tradicionalnamisa.com', title: 'Pranje nogu', items: fromGolden(thursday.items.slice(a, b + 1)) };
 
   const tm = JSON.parse(fs.readFileSync('data/tm/tm.json', 'utf8')) as Record<string, { hr: string }>;
-  const text = (u: Unit) => (u.x ? corpus.texts[u.x] ?? '' : u.la ?? '');
+  // Latin corrections inside rites (logged in data/corpus/la/OVERRIDES.md): [damaged text in the DO file, text of the same passage in another DO file]
+  const RITE_FIXES: [string, string][] = [
+    // Gen 1, 25 in Tempora/Quad6-6r lost a line (fecit ... vidit); restored from the same lesson in Tempora/Quad6-6
+    ['Et fecit Deus quod esset bonum, et ait:', 'Et fecit Deus béstias terræ juxta spécies suas, et juménta, et omne réptile terræ in génere suo. Et vidit Deus quod esset bonum, et ait:'],
+  ];
+  const text = (u: Unit) => { let t = u.x ? corpus.texts[u.x] ?? '' : u.la ?? ''; for (const [a, b] of RITE_FIXES) if (t.includes(a)) t = t.replace(a, b); return t; };
   const prelude = (id: string, title: string, sectionName = 'Prelude') => {
     const units = corpus.formularies[id]?.sections[sectionName]; if (!units) return;
     const items: any[] = []; let sec: any = null; let chunk: Unit[] = []; let rows = 0, withHr = 0;

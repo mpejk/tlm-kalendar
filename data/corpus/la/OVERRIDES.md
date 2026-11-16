@@ -75,3 +75,4 @@
 - Sancti/07-23cc Oratio <- old site 2018/propers_20180723_0: prayer as printed on the old site (differs from the DO file)
 - Sancti/08-20 Oratio <- old site 2018/propers_20180820_0: prayer as printed on the old site (differs from the DO file)
 - Sancti/11-26t Postcommunio <- old site 2018/propers_20181126_0: prayer as printed on the old site (differs from the DO file)
+- Tempora/Quad6-6r Prelude (Easter Vigil, first lesson) <- Divinum Officium Tempora/Quad6-6: Gen 1, 25 had lost the words between "Et fecit Deus" and "quod esset bonum"; restored from the same lesson in the other DO file (scripts/build/rites.ts, RITE_FIXES)

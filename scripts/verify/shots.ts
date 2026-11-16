@@ -25,7 +25,11 @@ for (const [w, hgt, scheme] of combos) {
   const ctx = await browser.newContext({ viewport: { width: w, height: hgt }, colorScheme: scheme }); const page = await ctx.newPage();
   const errors: string[] = []; page.on('console', m => { if (m.type() === 'error') errors.push(m.text()); }); page.on('pageerror', e => errors.push(String(e)));
   for (let i = 0; i < DAYS.length; i++) {
-    await page.goto(`${base}?d=${DAYS[i][0]}`); await page.waitForFunction(() => !!document.getElementById('main')?.dataset.ready); await page.evaluate(() => (document as any).fonts.ready); await page.waitForTimeout(120);
+    await page.goto(`${base}?d=${DAYS[i][0]}`);
+    try { await page.waitForFunction(() => !!document.getElementById('main')?.dataset.ready, null, { timeout: 10000 }); }
+    catch { const diag = await Promise.race([page.evaluate(() => ({ rs: document.readyState, main: document.getElementById('main')?.innerHTML.slice(0, 150), n: document.scripts.length })), new Promise(r => setTimeout(() => r('page unresponsive'), 5000))]);
+      console.log('TIMEOUT', DAYS[i][0], w, scheme, JSON.stringify(diag), errors.slice(-3)); report.push(`${DAYS[i][0]} ${w}px ${scheme}: did not render within 10 s (${JSON.stringify(diag).slice(0, 200)})`);
+      await page.goto(`${base}?d=${DAYS[i][0]}`); await page.waitForFunction(() => !!document.getElementById('main')?.dataset.ready); } await page.evaluate(() => (document as any).fonts.ready); await page.waitForTimeout(120);
     // scroll past the page header so that the day itself fills the screenshot
     await page.evaluate(() => document.querySelector('.daynav')?.scrollIntoView());
     await page.screenshot({ path: `${full}/${String(i + 1).padStart(2, '0')}-${w}-${scheme}.png` });
