@@ -9,6 +9,8 @@
     "build": "tsx scripts/croatian/build-manual.ts && tsx scripts/build/build.ts",
     "deploy": "npm run build && git add -A && (git diff --cached --quiet || git commit -m \"Update site\") && git push origin main",
     "import": "tsx scripts/import/import-do.ts",
+    "crawl": "tsx scripts/verify/crawl.ts file && tsx scripts/verify/crawl.ts http && tsx scripts/verify/startup.ts",
+    "check": "npm test && npm run crawl && npm run verify:site",
     "verify:site": "tsx scripts/verify/font-shape.ts && tsx scripts/verify/site-url.ts && tsx scripts/verify/site-keys.ts && tsx scripts/verify/site-layout.ts && tsx scripts/verify/font-render.ts"
   },
   "devDependencies": {

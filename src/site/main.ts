@@ -219,7 +219,7 @@ function viewInfo(): string {
   const c = BASE.coverage;
   return h('article', { class: 'info' }, h('h1', null, 'O kalendaru'),
     h('p', null, 'Kalendar tradicionalne latinske mise za Zagreb prema Rimskom misalu iz 1962. (Kodeks rubrika iz 1960.), za godine ' + `${BASE.years.from}.–${BASE.years.to}.` + ' Nastavlja kalendar sa stranice tradicionalnamisa.com.'),
-    h('p', null, 'Prikazuju se promjenjivi dijelovi mise (proprij) na latinskom i hrvatskom. Latinski tekst: Divinum Officium; hrvatski prijevod: stranice misa s tradicionalnamisa.com, a gdje ga ondje nema, Kniewaldov Rimski misal.'),
+    h('p', null, 'Prikazuju se promjenjivi dijelovi mise (proprij) na latinskom i hrvatskom. Latinski tekst: Divinum Officium, ispravljen prema tipskom izdanju Rimskoga misala iz 1962. gdje se od njega razlikovao; hrvatski prijevod: stranice misa s tradicionalnamisa.com, a gdje ga ondje nema, Kniewaldov Rimski misal (1942. i 1930.). Liturgijski tekstovi nisu prevođeni za ovu stranicu: gdje prijevoda nema, stoji samo latinski.'),
     h('p', null, `Hrvatski prijevod: ${c.uniqueSite} tekstova sa stare stranice, ${c.uniqueKniewald} iz Kniewalda, ${c.uniqueMissing} nedostaje.`),
     h('p', null, `Spomen sv. Oca: ${esc(BASE.pope.name)}, ${+BASE.pope.date.slice(3)}. ${MON[+BASE.pope.date.slice(0, 2) - 1]}.`),
     h('p', { class: 'small' }, `Izrađeno ${BASE.built}. Bez kolačića i praćenja; postavke se pamte samo u pregledniku.`));

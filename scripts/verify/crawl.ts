@@ -8,7 +8,10 @@ import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const [mode, y0, y1] = [process.argv[2] ?? 'file', +(process.argv[3] ?? 2026), +(process.argv[4] ?? process.argv[3] ?? 2026)];
+// Without years, the published range is taken from the built site (dist/data/base.js).
+const published = (() => { try { const m = fs.readFileSync('dist/data/base.js', 'utf8').match(/"years":\{"from":(\d+),"to":(\d+)\}/); return m ? [+m[1], +m[2]] : [2026, 2036]; } catch { return [2026, 2036]; } })();
+const [mode, y0, y1] = [process.argv[2] ?? 'file', +(process.argv[3] ?? published[0]), +(process.argv[4] ?? process.argv[3] ?? published[1])];
+let failures = 0;
 const dist = path.resolve('dist');
 let server: http.Server | null = null; let base = 'file://' + path.join(dist, 'index.html');
 if (mode === 'http') {
@@ -63,6 +66,8 @@ try {
     const result = { mode, year: y, ...res, consoleErrors: [...new Set(errors)] };
     fs.writeFileSync(`data/verify/crawl/${mode}-${y}.json`, JSON.stringify(result, null, 1).split(dist).join('dist'));   // no machine paths in the saved result
     console.log(mode, y, JSON.stringify({ days: res.days, views: res.views, sections: res.sections, missingHr: res.missingHr, problems: res.problems.length, consoleErrors: result.consoleErrors.length }), res.problems.slice(0, 4).join(' | ').slice(0, 400), result.consoleErrors.slice(0, 2).join(' | '));
+    failures += res.problems.length + result.consoleErrors.length;
     await page.close();
   }
 } finally { await browser.close(); if (server) await new Promise(r => server!.close(r)); }
+if (failures) { console.log(`CRAWL FAILED: ${failures} problems`); process.exit(1); }

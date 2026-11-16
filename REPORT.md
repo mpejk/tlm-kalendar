@@ -94,7 +94,7 @@ Also worth a look: `KNIEWALD-CHECK.md` (2721 old-site blocks compared with Kniew
 | Only the Proper, the two Gloria/Credo lines, Gloria and Credo behind an expander | day view (screenshots) |
 | No backend, accounts, cookies, tracking | `dist` is plain files; preferences in local storage only |
 | Engine 1961–2100, published 2026–2036 | `YEARS`; old-site test runs 2016–2019 |
-| Never asked, never waited; state on disk | `PLAN.md`, `RUNLOG.md`, commits |
+| Never asked, never waited; state on disk | `docs/build-log/PLAN.md`, `docs/build-log/RUNLOG.md`, commits |
 | No liturgical text from memory or translated | every text traces to the old site, Divinum Officium or a Kniewald page (`ref` on each Kniewald entry, all read on the scan) |
 | Authorized hosts only | fetches went to tradicionalnamisa.com, archive.org, maternalheart.org, hbk.hr, github.com, raw.githubusercontent.com, missalemeum.com, the npm registry |
 | Stage 1 harvest, fixtures, translation memory, overlap, conflicts | `data/raw/site`, `data/golden`, `data/tm`, `TM-CONFLICTS.md`; 59 overlapping days agree |
