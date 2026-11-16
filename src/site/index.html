@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kalendar tradicionalne latinske mise · Zagreb</title>
+<meta name="description" content="Liturgijski kalendar i dnevni misal za tradicionalnu latinsku misu u Zagrebu (Rimski misal 1962.), latinski i hrvatski usporedno.">
+<meta name="theme-color" content="#7a1f1f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Preskoči na sadržaj</a>
+<header class="top">
+  <div class="brand"><a href="?" data-act="today"><span class="cross" aria-hidden="true"></span> Kalendar tradicionalne latinske mise</a><span class="sub">Zagreb · Rimski misal 1962.</span></div>
+  <nav class="views" aria-label="Prikazi">
+    <a href="?" data-act="view" data-view="dan">Dan</a>
+    <a href="?v=mjesec" data-act="view" data-view="mjesec">Mjesec</a>
+    <a href="?v=godina" data-act="view" data-view="godina">Godina</a>
+    <a href="?v=trazi" data-act="view" data-view="trazi">Traži</a>
+    <a href="?v=info" data-act="view" data-view="info">O kalendaru</a>
+  </nav>
+  <div class="tools">
+    <button type="button" class="btn" data-act="today">Danas</button>
+    <button type="button" class="btn" data-act="sunday">Sljedeća nedjelja</button>
+    <label class="datepick"><span class="vh">Datum</span><input type="date" id="date"></label>
+    <span class="group langsel" role="group" aria-label="Jezik teksta">
+      <button type="button" class="btn" data-act="lang" data-lang-btn="la">Latinski</button><button type="button" class="btn" data-act="lang" data-lang-btn="hr">Hrvatski</button><button type="button" class="btn" data-act="lang" data-lang-btn="oba">Oboje</button>
+    </span>
+    <span class="group" role="group" aria-label="Veličina slova"><button type="button" class="btn" data-act="smaller" aria-label="Manja slova">A−</button><button type="button" class="btn" data-act="bigger" aria-label="Veća slova">A+</button></span>
+    <button type="button" class="btn" data-act="theme">Svijetlo / tamno</button>
+    <button type="button" class="btn" data-act="print">Ispis</button>
+    <button type="button" class="btn" data-act="paper">Papir: A4</button>
+  </div>
+</header>
+<main id="main" tabindex="-1"><p class="empty">Učitavanje…</p></main>
+<footer class="foot"><p>Rimski misal 1962. · latinski tekst: Divinum Officium · hrvatski: tradicionalnamisa.com i Kniewaldov Rimski misal</p></footer>
+<noscript><p class="empty">Za prikaz kalendara potreban je JavaScript.</p></noscript>
+<script src="app.js"></script>
+<script src="data/base.js"></script>
+<script>TLM.start();</script>
+</body>
+</html>

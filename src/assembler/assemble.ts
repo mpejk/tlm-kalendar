@@ -23,6 +23,18 @@ export const NOTE = {
 };
 const COMM_LABEL: Record<string, string> = { privileged: 'spomen i na tihim i na pjevanim misama', ordinary: 'spomen na tihim misama', same: 'spomen pod istim završetkom na svim misama' };
 
+/** Text of a unit: by id from the shared text table (build) or inline (formulary files of the site). */
+const T = (corpus: Corpus, u: Unit): string => (u.x ? corpus.texts[u.x] ?? '' : u.la ?? '');
+
+/** Formularies a Mass needs: its own, those of the commemorations, and the office of the day for a Rogation Mass. */
+export function formulariesFor(day: Day, massIndex: number): string[] {
+  const m = day.masses[massIndex]; if (!m) return [];
+  const ids = new Set<string>([m.id]);
+  for (const c of day.commemorations) ids.add(COMM_FORMULARY[c.key] ?? c.id);
+  if (m.variant === 'rogation') ids.add(day.celebration.id);
+  return [...ids];
+}
+
 interface Ctx { fid?: string; emberSat?: boolean; paschal: boolean; septuagesima: boolean; easterWeek: boolean; tid: string; feria: boolean }
 
 function formulary(corpus: Corpus, id: string, variant?: string): Formulary | null {
@@ -42,7 +54,7 @@ function macroLine(corpus: Corpus, name: string): Line | null {
   if (key === 'Oremus') return { k: 'oremus', la: 'Orémus.' };
   const u = corpus.ordo.prayers[key];
   if (!u) return { k: 'rubric', la: key };
-  const la = u.filter(x => x.k === 'text' && x.mark !== 'R').map(x => corpus.texts[x.x!]).join(' ');
+  const la = u.filter(x => x.k === 'text' && x.mark !== 'R').map(x => T(corpus, x)).join(' ');
   return { k: /^(Per|Qui)/.test(key) ? 'conclusion' : 'text', la };
 }
 
@@ -54,7 +66,7 @@ function paschalText(la: string, ctx: Ctx): string {
 function lines(corpus: Corpus, units: Unit[] | undefined, ctx: Ctx): Line[] {
   const out: Line[] = [];
   for (const u of units ?? []) {
-    if (u.k === 'text') { const la = paschalText(u.x ? corpus.texts[u.x] ?? '' : u.la ?? '', ctx); if (la) out.push({ k: 'text', la, x: u.x, mark: u.mark }); }
+    if (u.k === 'text') { const la = paschalText(T(corpus, u), ctx); if (la) out.push({ k: 'text', la, x: u.x, mark: u.mark }); }
     else if (u.k === 'ref') out.push({ k: 'ref', la: u.la! });
     else if (u.k === 'rubric' || u.k === 'head') out.push({ k: u.k === 'head' ? 'head' : 'rubric', la: u.la! });
     else if (u.k === 'macro') { const m = macroLine(corpus, u.name!); if (m) out.push(m); }
@@ -74,8 +86,8 @@ const isAlleluiaStart = (s: string) => /^Allel[úu][ij]a,\s*allel[úu][ij]a/i.te
 function graduale(corpus: Corpus, f: Formulary, ctx: Ctx, suffix = ''): Section | null {
   let units: Unit[] | undefined;
   const ownSec = (n: string) => !!f.sections[n] && !f.from?.[n];
-  const twoVerseAlleluia = (u?: Unit[]) => { const t = (u ?? []).filter(x => x.k === 'text').map(x => corpus.texts[x.x!] ?? ''); const ai = t.findIndex(x => /^Allel[úu][ij]a,\s*allel[úu][ij]a\.?$/i.test(x)); return ai > 0 && t.length - ai - 1 >= 2; };
-  const startsAlleluia = (u?: Unit[]) => { const t = (u ?? []).find(x => x.k === 'text'); return !!t && /^Allel[úu][ij]a/i.test(corpus.texts[t.x!] ?? ''); };
+  const twoVerseAlleluia = (u?: Unit[]) => { const t = (u ?? []).filter(x => x.k === 'text').map(x => T(corpus, x)); const ai = t.findIndex(x => /^Allel[úu][ij]a,\s*allel[úu][ij]a\.?$/i.test(x)); return ai > 0 && t.length - ai - 1 >= 2; };
+  const startsAlleluia = (u?: Unit[]) => { const t = (u ?? []).find(x => x.k === 'text'); return !!t && /^Allel[úu][ij]a/i.test(T(corpus, t)); };
   // ferias that repeat the Sunday Mass in Advent and after Septuagesima: gradual only, without the Alleluia or the tract
   if (ctx.feria && !suffix && f.sections.GradualeF && f.from?.Graduale) units = f.sections.GradualeF;
   // Paschaltide: the formulary's own chant if it is already an Alleluia or carries an Alleluia with two verses, else the Paschal form
@@ -83,11 +95,11 @@ function graduale(corpus: Corpus, f: Formulary, ctx: Ctx, suffix = ''): Section 
   else if (ctx.septuagesima && f.sections['Tractus' + suffix]) {
     units = f.sections['Tractus' + suffix];
     // a Tract printed without its gradual: the gradual of the Mass stands before it
-    const g = f.sections['Graduale' + suffix] ?? []; const firstOf = (u: Unit[]) => u.find(x => x.k === 'text')?.x;
+    const g = f.sections['Graduale' + suffix] ?? []; const firstOf = (u: Unit[]) => { const x = u.find(y => y.k === 'text'); return x ? T(corpus, x) : undefined; };
     const AL = /[.,;:]?\s*Allel[úu][ij]a,\s*allel[úu][ij]a[.,]?$/i;
-    const ai = g.findIndex(x => x.k === 'text' && AL.test(corpus.texts[x.x!] ?? ''));
+    const ai = g.findIndex(x => x.k === 'text' && AL.test(T(corpus, x)));
     if (ownSec('Tractus' + suffix) && ai > 0 && firstOf(units) !== firstOf(g) && units.filter(x => x.k === 'text').length <= 4) {
-      const cut = (corpus.texts[g[ai].x!] ?? '').replace(AL, '').trim();
+      const cut = T(corpus, g[ai]).replace(AL, '').trim();
       units = [...g.slice(0, ai), ...(cut ? [{ k: 'text' as const, la: cut + '.', mark: g[ai].mark }] : []), ...units];
     }
   }
@@ -112,7 +124,8 @@ function graduale(corpus: Corpus, f: Formulary, ctx: Ctx, suffix = ''): Section 
   else if (texts.length <= 2) key = 'G';
   else key = laterRef || units !== f.sections['Graduale' + suffix] ? 'GT' : 'T';
   const lab = LABELS[key] ?? LABELS.G;
-  return { kind: 'section', key: 'Graduale', la: lab[0], hr: lab[1], blocks: [{ lines: ls.filter(l => !(l.k === 'rubric' && /^tractus/i.test(l.la))) }] };
+  const gsrc = `${ctx.fid}|Graduale${suffix}`;
+  return { kind: 'section', key: 'Graduale', la: lab[0], hr: lab[1], src: gsrc, blocks: [{ src: gsrc, lines: ls.filter(l => !(l.k === 'rubric' && /^tractus/i.test(l.la))) }] };
 }
 
 function section(corpus: Corpus, key: string, label: [string, string], units: Unit[] | undefined, ctx: Ctx, srcName?: string): Section | null {
@@ -123,7 +136,7 @@ function section(corpus: Corpus, key: string, label: [string, string], units: Un
 
 function lectioLabel(corpus: Corpus, units: Unit[] | undefined): [string, string] {
   const first = (units ?? []).find(u => u.k === 'text');
-  const t = first ? corpus.texts[first.x!] : '';
+  const t = first ? T(corpus, first) : '';
   return /Ep[íi]stol/i.test(t) ? LABELS.Epistola : LABELS.Lectio;
 }
 

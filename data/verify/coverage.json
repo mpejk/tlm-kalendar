@@ -1,0 +1,353 @@
+{
+ "coverage": {
+  "masses": 4147,
+  "blocks": 47159,
+  "site": 46870,
+  "siteVariant": 1319,
+  "kniewald": 0,
+  "missing": 289,
+  "unique": 6142,
+  "uniqueSite": 6100,
+  "uniqueKniewald": 0,
+  "uniqueMissing": 42
+ },
+ "missingFormularies": [],
+ "gaps": [
+  {
+   "n": 1,
+   "where": "sv. Skolastika, djevica",
+   "la": "Spécie tua et pulchritúdine tua inténde, próspere procéde et regna. Propter veritátem et mansuetúdinem et justítiam: et dedúcet te mirabíliter déxtera tua. Audi",
+   "sec": "Sancti/02-10|Graduale",
+   "first": "2026-02-10",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "Ukazanje BDM bezgrešno začete u Lourdesu (Gospa Lurdska)",
+   "la": "Flores apparuérunt in terra nostra, tempus putatiónis advénit, vox túrturis audíta est in terra nostra. Surge, amíca mea, speciósa mea, et veni: colúmba mea in ",
+   "sec": "Sancti/02-11|Graduale",
+   "first": "2026-02-11",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "Subota u 2. tjednu korizme",
+   "la": "Léctio libri Genesis In diébus illis: Dixit Rebécca fílio suo Jacob: Audívi patrem tuum loquéntem cum Esau fratre tuo, et dicéntem ei: Affer mihi de venatióne t",
+   "sec": "Tempora/Quad2-6|Lectio",
+   "first": "2026-03-07",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "CVJETNA NEDJELJA (2. NEDJELJA MUKE)",
+   "la": "v. Pássio Dómini nostri Jesu Christi secúndum Matthǽum Tunc venit Jesus cum illis in villam, quæ dícitur Gethsémani, et dixit discípulis suis: J. Sedéte hic, do",
+   "sec": "Tempora/Quad6-0r|Evangelium",
+   "first": "2026-03-29",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "VELIKI UTORAK",
+   "la": "Pássio Dómini nostri Jesu Christi secúndum Marcum Et véniunt in prǽdium, cui nomen Gethsémani. Et ait discípulis suis: J. Sedéte hic, donec orem. C. Et assúmit ",
+   "sec": "Tempora/Quad6-2|Evangelium",
+   "first": "2026-03-31",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Soter i sv. Kajo, pape, mučenici",
+   "la": "Gregem tuum, Pastor ætérne, placátus inténde: et per beátos Sotérem et Cajum Mártyres tuos atque Summos Pontífices perpétua protectióne custódi; quos totíus Ecc",
+   "sec": "Sancti/04-22|Oratio",
+   "first": "2026-04-22",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "SV. JOSIP RADNIK, SUPRUG BDM, PRIZNAVALAC",
+   "la": "Hæc sancta quæ súmpsimus, Dómine, per intercessiónem beáti Joseph; et operatiónem nostram cómpleant, et prǽmia confírment.",
+   "sec": "Sancti/05-01r|Postcommunio",
+   "first": "2026-05-01",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Filip i sv. Jakov (Mlađi), apostoli (prosni dan)",
+   "la": "Allelúja, allelúja. Confitebúntur cœli mirabília tua, Dómine: etenim veritátem tuam in ecclésia sanctórum. Allelúja. Tanto témpore vobíscum sum, et non cognovís",
+   "sec": "Sancti/05-11r|Graduale",
+   "first": "2026-05-11",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Margareta Škotska, kraljica, udovica",
+   "la": "Deus, qui beátam Margarítam regínam exímia in páuperes caritáte mirábilem effecísti: da; ut, ejus intercessióne et exémplo, tua in córdibus nostris cáritas júgi",
+   "sec": "Sancti/06-10|Oratio",
+   "first": "2026-06-10",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "UZNESENJE BDM (VELIKA GOSPA)",
+   "la": "Audi, fília, et vide, et inclína aurem tuam, et concupíscit rex decórem tuum. Omnis glória ejus fíliæ Regis ab intus, in fímbriis áureis circumamícta varietátib",
+   "sec": "Sancti/08-15|Graduale",
+   "first": "2026-08-15",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Pio X., papa, priznavalac",
+   "la": "Lectio prima Sancti Pauli apóstoli ad Thessalonicénses Fratres: Fidúciam habúimus in Deo nostro, loqui ad vos Evangélium Dei in multa sollicitúdine. Exhortátio ",
+   "sec": "Sancti/09-03|Lectio",
+   "first": "2026-09-03",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Toma iz Villanove, biskup, priznavalac",
+   "la": "Annue, quǽsumus, omnípotens Deus: ut sanctórum Martyrum tuórum Maurítii et Sociórum ejus nos lætíficet festíva sollémnitas; ut, quorum suffrágiis nítimur, eórum",
+   "sec": "Sancti/09-22o|Oratio",
+   "first": "2026-09-22",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Toma iz Villanove, biskup, priznavalac",
+   "la": "Réspice, quǽsumus, Dómine, múnera, quæ in sanctórum Mártyrum tuórum Maurítii et Sociórum ejus commemoratióne deférimus: et præsta; ut, quorum honóre sunt grata,",
+   "sec": "Sancti/09-22o|Secreta",
+   "first": "2026-09-22",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Toma iz Villanove, biskup, priznavalac",
+   "la": "Cœléstibus refécti sacraméntis et gáudiis: súpplices te rogámus, Dómine; ut, quorum gloriámur triúmphis, protegámur auxíliis.",
+   "sec": "Sancti/09-22o|Postcommunio",
+   "first": "2026-09-22",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "SV. MIHAEL ARKANĐEO",
+   "la": "Sequéntia ✠ sancti Evangélii secúndum Matthǽum In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et ádvocans J",
+   "sec": "Sancti/09-29|Evangelium",
+   "first": "2026-09-29",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Anđeli Čuvari",
+   "la": "Sequéntia ✠ sancti Evangélii secúndum Matthǽum In illo témpore: Accessérunt discípuli ad Jesum, dicéntes: Quis, putas, major est in regno cœlórum? Et ádvocans J",
+   "sec": "Sancti/10-02|Evangelium",
+   "first": "2026-10-02",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Antun Marija Claret, biskup, priznavalac",
+   "la": "Lectio sancti Evangelii secundum Matthǽum In illo témpore: Dixit Jesus discípulis suis: Vigiláte ergo, quia nescítis qua hora Dóminus vester ventúrus sit. Illud",
+   "sec": "Sancti/10-23r|Evangelium",
+   "first": "2026-10-23",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Šimun i Juda Tadej, apostoli",
+   "la": "Sequéntia ✠ sancti Evangélii secúndum Joánnem In illo témpore: Dixit Jesus discípulis suis: Hæc mando vobis, ut diligátis ínvicem. Si mundus vos odit: scitóte, ",
+   "sec": "Sancti/10-28|Evangelium",
+   "first": "2026-10-28",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "SPOMEN SVIH VJERNIH MRTVIH (DUŠNI DAN)",
+   "la": "Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. In memória ætérna erit justus: ab auditióne mala non timébit. Absólve, Dómine, ánimas ómnium fidél",
+   "sec": "Sancti/11-02m1|Graduale",
+   "first": "2026-11-02",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "SPOMEN SVIH VJERNIH MRTVIH (DUŠNI DAN)",
+   "la": "Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. In memória ætérna erit justus: ab auditióne mala non timébit. Absólve, Dómine, ánimas ómnium fidél",
+   "sec": "Sancti/11-02m2|Graduale",
+   "first": "2026-11-02",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "SPOMEN SVIH VJERNIH MRTVIH (DUŠNI DAN)",
+   "la": "Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. In memória ætérna erit justus: ab auditióne mala non timébit. Absólve, Dómine, ánimas ómnium fidél",
+   "sec": "Sancti/11-02m3|Graduale",
+   "first": "2026-11-02",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Jozafat Kuncevič, biskup, mučenik",
+   "la": "Majórem caritátem nemo habet, ut ánimam suam ponat quis pro amícis suis.",
+   "sec": "Sancti/11-14|Offertorium",
+   "first": "2026-11-14",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "Obraćenje sv. Pavla",
+   "la": "Qui operátus est Petro in apostolátum, operátus est ei mihi inter gentes: et cognovérunt grátiam Dei, quæ data est mihi. Grátia Dei in me vácua non fuit: sed gr",
+   "sec": "Sancti/01-25r|Graduale",
+   "first": "2027-01-25",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "Katedra sv. Petra",
+   "la": "Léctio Epístolæ beáti Petri Apóstoli Petrus, Apóstolus Jesu Christi, eléctis ádvenis dispersiónis Ponti, Galátiæ, Cappadóciæ, Asiæ et Bithýniæ secúndum præscién",
+   "sec": "Sancti/02-22|Lectio",
+   "first": "2027-02-22",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "Katedra sv. Petra",
+   "la": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam: et portæ ínferi non prævalébunt advérsus eam: et tibi dabo claves regni cœlórum.",
+   "sec": "Sancti/02-22|Offertorium",
+   "first": "2027-02-22",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Grgur VII., papa, priznavalac",
+   "la": "Deus, in te sperántium fortitúdo, qui beátum Gregórium Confessórem tuum atque Pontíficem, pro tuénda Ecclésiæ libertáte, virtúte constántiæ roborásti: da nobis,",
+   "sec": "Sancti/05-25|Oratio",
+   "first": "2027-05-25",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Grgur VII., papa, priznavalac",
+   "la": "Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum Urbánum Mártyrem tuum atque Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ p",
+   "sec": "Sancti/05-25o|Oratio",
+   "first": "2027-05-25",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Filip Neri, priznavalac",
+   "la": "Veníte, fílii, audíte me: timórem Dómini docébo vos. Accédite ad eum, et illuminámini: et fácies vestra? non confundántur. Allelúja, allelúja. De excélso misit ",
+   "sec": "Sancti/05-26|Graduale",
+   "first": "2027-05-26",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "BDM Kraljica",
+   "la": "Ipse habet in vestiménto et in fémore suo scriptum: Rex regum et Dóminus dominántium. Regína adstat ad déxteram eius, ornáta auro ex Ophir. Allelúia, allelúia. ",
+   "sec": "Sancti/05-31|Graduale",
+   "first": "2027-05-31",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Antun Marija Zaccaria, priznavalac",
+   "la": "Sequéntia ✠ sancti Evangélii secúndum Marcum In illo témpore: Dixit Jesus discípulis suis: Quisquis non recéperit regnum Dei velut párvulus, non intrábit in ill",
+   "sec": "Sancti/07-05|Evangelium",
+   "first": "2027-07-05",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Lino, papa, mučenik",
+   "la": "Da, quǽsumus, omnípotens Deus: ut, qui beátæ Theclæ Vírginis et Mártyris tuæ natalítia cólimus; et ánnua sollemnitáte lætémur, et tantæ fídei proficiámus exémpl",
+   "sec": "Sancti/09-23cc|Oratio",
+   "first": "2027-09-23",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Lino, papa, mučenik",
+   "la": "Súscipe, Dómine, múnera, quæ in beátæ Theclæ Vírginis et Mártyris tuæ sollemnitáte deférimus: cujus nos confídimus patrocínio liberári.",
+   "sec": "Sancti/09-23cc|Secreta",
+   "first": "2027-09-23",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Lino, papa, mučenik",
+   "la": "Auxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta Thecla Vírgine et Mártyre tua, sempitérna fáciant protectióne gaudére.",
+   "sec": "Sancti/09-23cc|Postcommunio",
+   "first": "2027-09-23",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Franjo Asiški, priznavalac",
+   "la": "Léctio Epístolæ beáti Pauli Apóstoli ad Gálatas Fratres: Mihi autem absit gloriári, nisi in Cruce Dómini nostri Jesu Christi: per quem mihi mundus crucifíxus es",
+   "sec": "Sancti/10-04|Lectio",
+   "first": "2027-10-04",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Cecilija, djevica, mučenica",
+   "la": "Audi, fília, et vide, et inclína aurem tuam: quia concupívit Rex spéciem tuam. V.Ps 44:5 Spécie tua et pulchritúdine tua inténde, próspere procéde et regna. All",
+   "sec": "Sancti/11-22|Graduale",
+   "first": "2027-11-22",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Agata, djevica i mučenica",
+   "la": "Adjuvábit eam Deus vultu suo: Deus in médio ejus, non commovébitur. Flúminis impetus lætíficat civitátem Dei: sanctificávit tabernáculum suum Altíssimus. Allelú",
+   "sec": "Sancti/02-05|Graduale",
+   "first": "2028-02-05",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sedam osnivača Reda slugu BDM (Ordo Servorum Beatae Mariae Virginis), priznavaoci",
+   "la": "Elécti mei non laborábunt frustra, neque germinábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis. Córpora ipsorum in pace sep",
+   "sec": "Sancti/02-12|Graduale",
+   "first": "2028-02-12",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "Subotnja služba Gospina",
+   "la": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénta es Mater Salvatóris. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit",
+   "sec": "Commune/C10c|Graduale",
+   "first": "2030-02-16",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "Utorak u 4. tjednu korizme",
+   "la": "Deus, humílium celsitúdo, qui beátum Francíscum Confessórem Sanctórum tuórum glória sublimásti: tríbue, quǽsumus; ut, ejus méritis et imitatióne, promíssa humíl",
+   "sec": "Sancti/04-02|Oratio",
+   "first": "2030-04-02",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "Utorak u 4. tjednu korizme",
+   "la": "Hæc dona devótæ plebis, Dómine, quibus tua cumulámus altária, beáti Francísci méritis tibi grata nobísque salutária, te miseránte, reddántur.",
+   "sec": "Sancti/04-02|Secreta",
+   "first": "2030-04-02",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "Utorak u 4. tjednu korizme",
+   "la": "Sumpta, Dómine, sacraménta cœléstia: beáto Francísco Confessóre tuo intercedénte, precámur; ut et temporális vitæ subsídia nobis cónferant et ætérnæ.",
+   "sec": "Sancti/04-02|Postcommunio",
+   "first": "2030-04-02",
+   "cal": "opci"
+  },
+  {
+   "n": 1,
+   "where": "sv. Bonifacije (apostol Njemačke), biskup, mučenik",
+   "la": "Allelúja. Lætámini cum Jerúsalem, et exsultáte in ea, omnes, qui dilígitis Dóminum. Allelúja. Vidébitis, et gaudébit cor vestrum: cognoscétur manus Dómini servi",
+   "sec": "Sancti/06-05|Graduale",
+   "first": "2030-06-05",
+   "cal": "opci"
+  }
+ ]
+}
