@@ -21,6 +21,7 @@ const CATEGORIES: { name: string; why: string; test: (x: Ctx) => boolean }[] = [
   { name: 'Colour of the Rogation Monday and Tuesday', why: 'Missale Meum gives violet (the Rogation Mass); the engine gives the colour of the day (white), as the old site does, and offers the Rogation Mass as the second Mass.', test: x => x.kind === 'colour' && x.rogation },
   { name: 'Colour of the ferias of 14–19 January in the week of the Holy Family', why: 'Green from 14 January (n. 117d/119 a: white until 13 January inclusive); the old site has green (18 Jan 2019).', test: x => x.kind === 'colour' && /^01-1[4-9]$/.test(x.md) },
   { name: 'Vigil of St Lawrence on a Saturday', why: 'Missale Meum gives the Saturday Mass of Our Lady; in the table of precedence (n. 91) a III class vigil (26) stands above the Saturday Office of Our Lady (27).', test: x => x.md === '08-09' && x.weekday === 6 },
+  { name: 'Vigil of St John the Baptist, 23 June 2033', why: 'The feast is transferred to 25 June because 24 June is the Sacred Heart; n. 33 then omits the vigil entirely. Missale Meum keeps it.', test: x => x.date === '2033-06-23' },
   { name: 'St Joseph and the Annunciation after Easter 2035', why: 'n. 96a gives the Annunciation its proper place on the Monday after Low Sunday; St Joseph then takes the next free day (n. 96). Missale Meum has them the other way round; Divinum Officium agrees with the engine.', test: x => x.kind === 'id' && (x.date === '2035-04-02' || x.date === '2035-04-03') },
 ];
 interface Ctx { date: string; md: string; weekday: number; cls: number; kind: string; tid: string; rogation: boolean; theirs: string[]; mine: string[] }
@@ -43,8 +44,7 @@ describe.skipIf(!haveSource)('calendar against Missale Meum 2026–2036 (general
       n++;
       const d = getDay(parseIso(it.id), cfg);
       let mineId = d.celebration.id.replace('Tempora/', 'tempora:').replace('Sancti/', 'sancti:').replace('Commune/', 'commune:');
-      if (d.flags.ember && d.celebration.key.startsWith('T:Pent')) mineId = 'tempora:093-' + d.weekday;
-      const myId = d.celebration.key === 'S:08-09' ? 'S:08-08' : canon(mineId); // DO keeps St John Vianney's Mass in the file 08-09
+            const myId = d.celebration.key === 'S:08-09' ? 'S:08-08' : canon(mineId); // DO keeps St John Vianney's Mass in the file 08-09
       const ids = (titleToIds[it.title] ?? []).map(canon);
       const found: { kind: string; text: string; theirs: string[]; mine: string[] }[] = [];
       if (it.rank !== d.cls) found.push({ kind: 'rank', text: `class ${it.rank} / ${d.cls}`, theirs: [], mine: [] });
@@ -56,7 +56,7 @@ describe.skipIf(!haveSource)('calendar against Missale Meum 2026–2036 (general
       if (!feriaOk && !ids.includes(myId)) found.push({ kind: 'id', text: `celebration «${it.title}» / «${d.title}»`, theirs: [], mine: [] });
       const slot = (c: string) => (c.startsWith('T:') ? (c.startsWith('T:093') ? 'T:ember' : c) : 'S');
       const theirs = it.commemorations.map((c: any) => slot(canon(c.id)));
-      const mine = d.commemorations.filter(c => c.kind !== 'oration' || c.key === 'X:LitMaj').map(c => c.key === 'X:LitMaj' ? 'S' : c.key.startsWith('T:') ? (d.flags.ember && /^T:Pent/.test(c.key) ? 'T:ember' : 'T:' + normT(c.id.slice(8))) : 'S');
+      const mine = d.commemorations.filter(c => c.kind !== 'oration' || c.key === 'X:LitMaj').map(c => c.key === 'X:LitMaj' ? 'S' : c.key.startsWith('T:') ? (c.id.startsWith('Tempora/093') ? 'T:ember' : 'T:' + normT(c.id.slice(8))) : 'S');
       if (theirs.join() !== mine.join()) found.push({ kind: 'comm', text: `commemorations MM [${it.commemorations.map((c: any) => c.title).join('; ')}] / engine [${d.commemorations.map(c => c.title).join('; ')}]`, theirs, mine });
       for (const f of found) {
         const ctx: Ctx = { date: it.id, md: it.id.slice(5), weekday: d.weekday, cls: d.cls, kind: f.kind, tid: d.temporalId, rogation: !!d.flags.rogation, theirs: f.theirs, mine: f.mine };

@@ -161,6 +161,14 @@ Missale Meum gives the Saturday Mass of Our Lady; in the table of precedence (n.
 - 2036-08-09 bdijenje uoči dana sv. Lovre, mučenika: colour w / v
 - 2036-08-09 bdijenje uoči dana sv. Lovre, mučenika: celebration «V Mass of the B. V. M. – Salve, Sancta Parens» / «bdijenje uoči dana sv. Lovre, mučenika»
 
+## Vigil of St John the Baptist, 23 June 2033 (3)
+
+The feast is transferred to 25 June because 24 June is the Sacred Heart; n. 33 then omits the vigil entirely. Missale Meum keeps it.
+
+- 2033-06-23 Feria (u tjednu 2. nedjelje po Duhovima): class 2 / 4
+- 2033-06-23 Feria (u tjednu 2. nedjelje po Duhovima): colour v / g
+- 2033-06-23 Feria (u tjednu 2. nedjelje po Duhovima): celebration «Vigil of the Nativity of St. John the Baptist» / «Feria (u tjednu 2. nedjelje po Duhovima)»
+
 ## St Joseph and the Annunciation after Easter 2035 (2)
 
 n. 96a gives the Annunciation its proper place on the Monday after Low Sunday; St Joseph then takes the next free day (n. 96). Missale Meum has them the other way round; Divinum Officium agrees with the engine.

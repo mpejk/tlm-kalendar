@@ -59,10 +59,11 @@ describe('Immaculate Conception and All Souls', () => {
 });
 
 describe('Nativity of St John the Baptist', () => {
-  it('24 June 2033 is the feast of the Sacred Heart (n. 91: 3 over 11); St John is transferred to Saturday 25 June (n. 96); the vigil stays on 23 June (n. 94 by analogy: it is not moved with the feast)', () => {
+  it('24 June 2033 is the feast of the Sacred Heart (n. 91: 3 over 11); St John is transferred to Saturday 25 June (n. 96); the vigil on 23 June is omitted entirely because its feast is transferred (n. 33)', () => {
     expect(day('2033-06-24')).toMatchObject({ key: 'T:Pent02-5', cls: 1, comm: [] });
     expect(day('2033-06-25')).toMatchObject({ key: 'S:06-24', cls: 1, from: '2033-06-24', comm: [] });
-    expect(day('2033-06-23')).toMatchObject({ key: 'S:06-23', cls: 2 });
+    expect(day('2033-06-23')).toMatchObject({ key: 'T:Pent02-4', cls: 4 });
+    expect(day('2033-06-23').omitted).toContain('S:06-23');
   });
   for (const y of [2029, 2035]) it(`${y}: on a II class Sunday the I class feast prevails (n. 91: 11 over 15) with a privileged commemoration of the Sunday (n. 109a, n. 111a)`, () => {
     const d = day(`${y}-06-24`);

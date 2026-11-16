@@ -124,7 +124,10 @@ export function getDay(n: number, config: CalendarConfig): Day {
   const wd = weekday(n);
   const { t, fixed: fixed0 } = candidates(n, ctx);
   const omitted: Day['omitted'] = [];
-  const fixed = fixed0.filter(f => !ctx.transferredOut.has(f.key + '@' + n)).concat(ctx.transfersIn.get(n) ?? []);
+  // n. 33: a II or III class vigil is omitted entirely when the feast it precedes is transferred
+  const feastMoved = [...ctx.transferredOut].some(k => k.endsWith('@' + (n + 1)));
+  const fixed = fixed0.filter(f => !ctx.transferredOut.has(f.key + '@' + n) && !(f.kind === 'vigil' && f.cls > 1 && feastMoved)).concat(ctx.transfersIn.get(n) ?? []);
+  for (const f of fixed0) if (f.kind === 'vigil' && f.cls > 1 && feastMoved) omitted.push({ key: f.key, title: f.title, reason: 'bdijenje se izostavlja jer je blagdan prenesen (n. 33)' });
   for (const f of fixed0) if (ctx.transferredOut.has(f.key + '@' + n)) omitted.push({ key: f.key, title: f.title, reason: 'prenesen (n. 95)' });
   const E = easter(y);
 
@@ -161,7 +164,7 @@ export function getDay(n: number, config: CalendarConfig): Day {
   const litaniesDay = (apr25 === E || apr25 === E + 1) ? E + 2 : apr25;
   const greaterLitanies = n === litaniesDay;
   const rogation = n >= E + 36 && n <= E + 38;
-  if (greaterLitanies) comms.push({ key: 'X:LitMaj', id: 'Tempora/Pasc5-1', title: 'Velike litanije', type: 'privileged', cls: 4, kind: 'oration', ord: 29 });
+  if (greaterLitanies) comms.push({ key: 'X:LitMaj', id: 'Tempora/Pasc5-1r', title: 'Velike litanije', type: 'privileged', cls: 4, kind: 'oration', ord: 29 });
 
   // order: of the season first (n. 113), then the table of precedence
   comms.sort((a, b) => (a.seasonal ? 0 : 1) - (b.seasonal ? 0 : 1) || a.ord - b.ord);
@@ -210,7 +213,7 @@ export function getDay(n: number, config: CalendarConfig): Day {
   else if (win === t && tid === 'Quad6-6') { masses.push({ id: 'Tempora/Quad6-6r', label: 'Vazmeno bdijenje', kind: 'rite' }); flags.noMass = true; }
   else if (win === t && t.ember && wd === 6) masses.push({ id: win.id, label: 'Misa (duži oblik)', kind: 'mass', variant: 'longior' }, { id: win.id, label: 'Misa (kraći oblik)', kind: 'mass', variant: 'brevior' });
   else masses.push({ id: win.id, kind: 'mass' });
-  if (rogation || greaterLitanies) { masses.push({ id: 'Tempora/Pasc5-1', label: 'Prosna misa', kind: 'mass', variant: 'rogation' }); flags.rogation = true; if (greaterLitanies) flags.greaterLitanies = true; }
+  if (rogation || greaterLitanies) { masses.push({ id: 'Tempora/Pasc5-1r', label: 'Prosna misa', kind: 'mass', variant: 'rogation' }); flags.rogation = true; if (greaterLitanies) flags.greaterLitanies = true; }
   if (t.ember) flags.ember = true;
   if (win.local || commemorations.some(c => c.local)) flags.local = true;
 
