@@ -240,5 +240,77 @@
   "ref": "Kniewald 1942, str. 823",
   "checked": "image",
   "note": "Misa »Pred kraljevima« (Commune); same postcommunion as for sv. Tekla. Placeholder I. kept."
+ },
+ {
+  "id": "G016",
+  "hr": "Bože, koji nas razveseljuješ godišnjom svetkovinom blaženoga I., priznavaoca Tvoga, dopusti blagostivo, da nasljedujemo djela onoga, kojega slavimo rođeni dan.",
+  "concl": "Po G. n.",
+  "ref": "Kniewald 1942, str. 815",
+  "checked": "image",
+  "note": "Misa »Pravednikova usta« za priznavaoca, koji nije biskup (Commune)."
+ },
+ {
+  "id": "G020",
+  "hr": "Podaj, molimo, svemogući Bože, da nas, koji svetkujemo rođeni dan blaženoga I., Tvoga mučenika, njegov zagovor ojača u ljubavi Tvoga Imena.",
+  "concl": "Po G. n.",
+  "ref": "Kniewald 1942, str. 793",
+  "checked": "image",
+  "note": "Misa »U Tvojoj se moći« za mučenika, koji nije biskup (Commune)."
+ },
+ {
+  "id": "G019",
+  "hr": "Čitanje poslanice bl. Pavla apostola Solunjanima (I. 2, 2-9).\nBraćo! Ohrabrismo se u Bogu našemu, da propovijedamo vama evanđelje Božje s velikom borbom. Jer utjeha naša nije od prijevare, ni od nečistoće, ni u lukavštini, nego kako nas je Bog udostojao, te nam je povjerio evanđelje, tako govorimo, ne da ljudima ugađamo, nego Bogu, koji kuša srca naša. Jer nismo govorili vama laskavim riječima, kao što znate, niti pod izlikom lakomosti, Bog je svjedok, niti smo tražili od ljudi slave, niti od vas, niti od drugih. Mogli smo vam biti na teret kao apostoli Kristovi, ali bijasmo krotki među vama, kao što majka njeguje djecu svoju. Tako smo vas vruće željeli, da smo bili spremni dati vam ne samo evanđelje Božje, nego i duše svoje, jer ste nam omiljeli.",
+  "ref": "Kniewald 1942, str. 582-583",
+  "checked": "image",
+  "note": "Taken from sv. Augustin 28. V. (sv. Pio X. was canonised in 1954 and is not in Kniewald). Kniewald's pericope is 1 Sol 2, 2-9; the 1962 lesson ends with v. 8, so his last sentence (v. 9: 'Jer pamtite, braćo, trud naš i muku našu, noć i dan smo radili, da ne dosadimo nijednom od vas, tako smo vam propovijedali evanđelje Božje.') is omitted here; the printed reference still says 2-9."
+ },
+ {
+  "id": "G027",
+  "hr": "† Slijedi sv. evanđelje po Mateju (24, 42-47).\nU ono vrijeme reče Isus svojim učenicima: Bdijte, jer ne znate časa, kada će doći vaš Gospodin. A znajte ovo: Kad bi domaćin znao čas, u koji će doći tat, bdio bi i ne bi dao potkopati svoje kuće. Zato budite i vi spremni, jer u čas, kad vi ne mislite, doći će Sin čovječji. Što mislite: Tko je vjeran i razborit sluga, kojega je gospodar postavio nad svojim ukućanima, da im na vrijeme daje hranu? Blago onomu sluzi, kojega, kada dođe njegov gospodar, nađe, da radi tako. Zaista vam kažem: Postavit će ga nad svim svojim imetkom.",
+  "ref": "Kniewald 1942, str. 811-812",
+  "checked": "image",
+  "note": "Misa »Svećenici« za priznavaoca i biskupa (Commune)."
+ },
+ {
+  "id": "G028",
+  "hr": "† Slijedi sv. evanđelje po Ivanu (15, 17-25).\nU ono vrijeme reče Isus svojim učenicima: Zapovijedam vam, da se ljubite među sobom. Ako vas svijet mrzi, znajte, da je mene mrzio prije nego vas. Kad biste bili od ovoga svijeta, ljubio bi svijet svoje. A jer nijeste od svijeta, nego sam vas ja odijelio od svijeta, zato vas svijet mrzi. Sjetite se, što sam vam rekao: Nije sluga veći od gospodara. Ako su progonili mene, progonit će i vas, ako su održavali moju riječ, održavat će i vašu. A sve će vam ovo činiti radi mene, jer ne poznaju onoga, koji je mene poslao. Kad ne bih bio došao i govorio im, ne bi imali grijeha. Ali sada nemaju izgovora radi svoga grijeha. Tko mrzi mene, mrzi i mojega Oca. Da pred njima nijesam činio djela, kojih nitko drugi ne čini, ne bi imali grijeha. Sada su vidjeli, a ipak mrze i mene i mojega Oca. Ali treba da se ispuni riječ, koja je napisana u njihovu zakonu: Mrzili su me bez uzroka.",
+  "ref": "Kniewald 1942, str. 750-751",
+  "checked": "image",
+  "note": "Sv. Simon i Juda apostoli 28. X. The scan reads 'mržio' (worn type) where 'mrzio' is meant."
+ },
+ {
+  "id": "G037",
+  "hr": "Nitko nema veće ljubavi od ove, da tko svoj život polaže za svoje prijatelje.",
+  "ref": "Kniewald 1942, str. 787-788",
+  "checked": "image",
+  "note": "Kniewald has sv. Josafat only as a commemoration (14. XI., p. 779, three prayers) and prints no offertory for him. The verse (Iv 15, 13) is taken from his Gospel of the Navečerje apostolskih blagdana (Iv 15, 12-16)."
+ },
+ {
+  "id": "G045",
+  "hr": "† Slijedi sv. evanđelje po Marku (10, 13-21).\nZaista vam kažem: tko ne primi kraljevstva Božjega kao dijete, ne će ući u nj. I zagrlivši ih stavi ruke na njih, te ih blagoslovi. I kad iziđe na put, pritrča netko i kleknuvši pred njim moljaše ga: Učitelju dobri, što mi valja činiti, da dobijem život vječni? A Isus mu reče: Što me zoveš dobrim? Niko nije dobar osim jedinoga Boga. Znadeš zapovijedi: ne ubij, ne čini preljube, ne ukradi, ne reci lažnoga svjedočanstva, ne prevari, poštuj oca svoga i mater! A on mu odgovori: Učitelju! sve sam ovo izvršio od svoje mladosti. A Isus pogledavši na nj zavoli ga i reče mu: Jedno ti nedostaje: idi, prodaj sve što imaš i podaj siromasima i imat ćeš blago na nebu, i dođi, uzmi križ svoj te idi za mnom!",
+  "ref": "Kniewald 1942, str. 516-517",
+  "checked": "image",
+  "note": "Taken from sv. Gabrijel od Žalosne Gospe 27. II., where the pericope is Mk 10, 13-21. The 1962 Gospel of sv. Antun M. Zaccaria is Mk 10, 15-21 with its own incipit ('In illo tempore: Dixit Jesus discipulis suis: Quisquis non receperit...'); Kniewald's vv. 13-14 are dropped here and the text starts inside his v. 15, so the liturgical incipit 'U ono vrijeme reče Isus svojim učenicima:' is NOT supplied (not printed by Kniewald for this pericope). The printed reference (10, 13-21) is kept. Differences: Kniewald adds 'uzmi križ svoj' in v. 21 and orders the commandments 'ne ubij, ne čini preljube'."
+ },
+ {
+  "id": "G049",
+  "hr": "Čitanje poslanice bl. Pavla apostola Galaćanima (6, 14-18).\nBraćo! Daleko od mene, da bih se drugim hvalio osim križem Gospodina našega Isusa Krista, po kojemu je meni svijet raspet, a ja svijetu. Zato, jer u Isusu Kristu niti što vrijedi obrezanje niti neobrezanje, nego nov stvor, kojigod budu živjeli po ovom pravilu, bit će nad njima i nad Božjim Izraelom mir i milosrđe. U buduće neka mi nitko ne dodijava, jer na svomu tijelu nosim znakove rana Gospodina Isusa. Milost Gospodina našega Isusa Krista s vašim duhom, braćo, Amen.",
+  "ref": "Kniewald 1942, str. 726-727",
+  "checked": "image",
+  "note": "Sv. Franjo Asiški 4. X."
+ },
+ {
+  "id": "G053",
+  "hr": "Blagoslovljena si i časna, Djevo Marijo, koja se bez povrede čistoće nađe mati Spasiteljeva. Bogorodice Djevo, u tvojoj se, postavši čovjek, nađe utrobi, koga sav svijet ne obuhvata.\nAleluja, aleluja. (Br. 17, 8). Ogranak je Jese procvao, Djevica je rodila Boga-čovjeka, Bog je udijelio ljudima mir, pomirivši u sebi vrhunac s nizinama, aleluja.",
+  "ref": "Kniewald 1942, str. 837 (Na stepenicama) i str. 534 (Aleluja)",
+  "checked": "image",
+  "note": "COMPOSITE. Kniewald's Votivna misa o Bl. Djevici Mariji (p. 837) has this gradual but with the Alleluia verse 'Poslije porođaja ostala si, Djevice, nepovrijeđena; Bogorodice, zagovaraj nas' (Post partum). The Alleluia verse 'Virga Jesse floruit' required by the 1962 Saturday Mass after Candlemas is printed by him only on 25. III. (Navještenje, U uskrsno doba, p. 534), from where it is taken."
+ },
+ {
+  "id": "G007",
+  "hr": "Čitanje knjige Postanka. (Post. 27, 6-40).\nU one dane: Reče Rebeka sinu svome Jakovu: Čuh oca tvojega, gdje govori s Esavom, bratom tvojim, i gdje mu kaže: Donesi mi od lova svojega, i zgotovi jelo, da blagujem, pa da te blagoslovim pred Gospodinom prije nego umrem. Sada dakle, sine moj, pristani na savjet moj, idi k stadu, i donesi mi dva najbolja kozlića, da zgotovim od njih ocu tvojemu jelo, koje on rado jede; da te on, kad doneseš, i on uzblaguje, blagoslovi prije nego umre. A on joj odgovori: Znaš, da je Esav, brat moj, čovjek runjav, a ja bez dlake: ako me opipa otac moj i osjeti, bojim se, da ne pomisli, da sam ga htio prevariti, te navedem na se prokletstvo mjesto blagoslova. A mati će njemu: Na meni, reče, neka bude to prokletstvo, sine moj: samo poslušaj glas moj, te otiđi i donesi, što rekoh! Jakov ode i donese, te dade materi. A ona zgotovi jelo, kako je znala, da je po volji ocu njegovu. I obuče ga u najljepše haljine Esavove, koje imađaše kod sebe u kući, i kozlećim kožicama obloži ruke, i pokri golo na vratu. I dade mu jelo i predade kruh, koji bješe ispekla. A on unesavši reče: Oče moj! A on odgovori: Čujem. Ko si ti, sine moj? I reče Jakov: Ja sam Esav, prvorođenac tvoj: učinih, kako si mi zapovjedio; ustani sjedi i blaguj od lova mojega, da me blagoslovi duša tvoja. I opet Izak reče sinu svojemu: Kako si tako brzo mogao naći, sine moj? A on odgovori: Božja volja bi, da brzo izađe preda me, što sam htio. A Izak reče: Pristupi ovamo, da te opipam, sine moj, i da okušam, jesi li ti sin moj Esav ili ne. Pristupi on ocu, i opipavši ga Izak reče: Glas, zaista, glas je Jakovljev, ali ruke, ruke su Esavove. I ne pozna ga, jer mu ruke bijahu runjave kao u starijega. Blagosiljajući ga dakle reče: Ti li si sin moj Esav? Odgovori: Ja sam. A on: Donesi mi, reče, jelo od lova svojega, sine moj, da te blagoslovi duša moja. I kad bi doneseno i on blagova, donese mu i vina. I napivši se reče mu: Pristupi k meni, i cjeluj me, sine moj. Pristupi i cjeliva ga. I odmah, kad osjeti miris haljina njegovih, blagosiljajući ga reče: Evo miris sina mojega, kao miris plodnoga polja, koje blagoslovi Gospodin! Bog ti dao od rose nebeske, i od pretiline zemaljske; i žita i vina izobilja! I narodi ti služili i klanjala ti se plemena; budi gospodar braći svojoj, i klanjali se pred tobom sinovi matere tvoje! Proklet bio, koji bude tebe proklinjao, a blagoslovima obilovao, koji bude tebe blagosiljao! Istom što Izak dovrši besjedu, i Jakov iziđe na dvor, dođe Esav i donese ocu kuhano jelo od lova govoreći: Ustani, oče moj, i blaguj od lova sina svojega, da me blagoslovi duša tvoja. Reče mu Izak: A ko si ti? A on odgovori: Ja sam Esav, sin tvoj prvorođeni. Tada se prepade Izak i zabuni se veoma, te čudeći se preko mjere, reče: Ko je dakle onaj, koji mi čas prije donese lova, što ulovi, te blagovah od svega prije, nego si ti došao? I blagoslovih ga, te će i ostati blagosloven. Čuvši Esav riječi očeve, riknu silnim glasom i rastužen reče: Blagoslovi također i mene, oče moj! A on reče: Dođe rođeni brat tvoj s prijevarom, i primi tvoj blagoslov. A on doda: Ispravno je nazvano ime njegovo Jakov: jer me eto već drugi put prevari: prije mi uze prvenaštvo, a sad opet ugrabi blagoslov moj. Opet reče ocu: Zar nijesi pridržao i za mene blagoslov? Odgovori Izak: Njega postavih za gospodara tebi, i svu braću njegovu podložih vlasti njegovoj: ukrijepih ga žitom i vinom; što dakle da sad još učinim tebi, sine moj? A Esav mu reče: Zar samo jedan blagoslov imaš, oče? Molim te, blagoslovi i mene! I kad počne plakati i silno jaukati, ganu se Izak i reče mu: U pretilini zemaljskoj, i u rosi nebeskoj odozgo bit će blagoslov tvoj.",
+  "ref": "Kniewald 1942, str. 145-147",
+  "checked": "image",
+  "note": "Subota iza II. nedjelje u korizmi. Same pericope (Post 27, 6-40)."
  }
 ]

@@ -27,7 +27,12 @@ const keys = (s: string) => words(s).map(keyOf).filter(Boolean);
 
 // ---------------------------------------------------------------- Kniewald OCR -> paragraphs -> units
 type Para = { leaf: number; text: string; type: string; short: boolean };
-type Unit = { id: number; type: string; leaf: number; raw: string; ext: string[]; pi: number };
+/** parts[0] is the labelled paragraph; further parts were joined as continuations (sure[i] = the join is certain) */
+type Unit = { id: number; type: string; leaf: number; parts: string[]; sure: boolean[]; ext: string[]; pi: number };
+const rawOf = (u: Unit) => u.parts.join(' ');
+
+// labels printed in the middle of an OCR paragraph (two paragraphs merged by the OCR)
+const EMBEDDED = /(?<=[.!?:»"”] )(?=(?:Čitanje (?:poslanice|knjige|proroka|Djela|\p{Lu}\p{Ll}+ [Pp]roroka)|(?:Pjesma n|N)a stepenicama|Zavlaka \(|Prikazanje \(|Pričesna \(|Tajna\. |Popričesna\. |Molitva\. |Molitva nad pukom|Ulaz \(|. Slijedi sv))/u;
 
 function loadParas(): Para[] {
   const st = zlib.gunzipSync(fs.readFileSync(RAW + ITEM + '_hocr_searchtext.txt.gz')).toString('utf8');
@@ -39,18 +44,18 @@ function loadParas(): Para[] {
       // join words hyphenated at line ends: "po¬ stove", "vi- kaše"
       line = line.replace(/¬ ?/g, '').replace(/(\p{Ll})- (\p{Ll})/gu, '$1$2');
       if (!line) continue;
-      out.push({ leaf, text: line, type: '', short: line.length < 90 });
+      for (const t of line.split(EMBEDDED)) if (t.trim()) out.push({ leaf, text: t.trim(), type: '', short: t.length < 90 });
     }
   });
   return out;
 }
 
 const LABELS: [RegExp, string][] = [
-  [/^.{0,3}molitva nad pukom/, 'SuperPopulum'],
+  [/^.{0,3}molitva nad p/, 'SuperPopulum'],
   [/^.{0,3}(molitva|ulazna)\b/, 'Oratio'],
   [/^.{0,3}ulaz\b/, 'Introitus'],
   [/^.{0,3}[cč]itanje\b/, 'Lectio'],
-  [/^.{0,3}(na stepenicama|stepenica|zavlaka|aleluja,? aleluja)/, 'Graduale'],
+  [/^.{0,3}(pjesma na stepenicama|na stepenicama|stepenica|zavlaka|a[l1i]e[l1i]u[ij]a\W{1,3}a[l1i]e[l1i]u[ij]a)/, 'Graduale'],
   [/^.{0,6}(slijedi|pocetak) sv/, 'Evangelium'],
   [/^.{0,3}muka gospodina nasega/, 'Evangelium'],
   [/^.{0,3}prikazanje\b/, 'Offertorium'],
@@ -61,33 +66,54 @@ const LABELS: [RegExp, string][] = [
   [/^.{0,4}[ud] ?istinu.? je dostojno/, 'Prefatio'],
 ];
 // paragraphs that end a unit without starting a text of their own
-const BREAK = /^.{0,3}(spomen\b|misa kao|sve kao|sve ostalo|ostalo kao|predslovlje|postaja kod|n[ec] moli se|slava\b|vjerujem\b|evandelje (kao|iz)|evandelje,|poslanica (kao|iz)|\d{1,2}\. ?[ivx]+\. )/;
+const BREAK = /^.{0,3}(spomen\b|misa kao|sve kao|sve ostalo|ostalo kao|predslovlje|postaja kod|n[ec] moli se|slava\b|vjerujem\b|vjem|evandelje (kao|iz)|evandelje,|poslanica (kao|iz)|sada se|pomolimo se|\d{1,2}\. ?[ivx]+\. )/;
+const isPageNo = (t: string) => /^\d{1,4}$/.test(t);
 
-function classify(p: Para) {
-  const f = fold(p.text.slice(0, 50));
-  for (const [re, t] of LABELS) if (re.test(f)) { p.type = t; return; }
-  if (BREAK.test(f)) p.type = '#break';
-  else if (/^\d{1,4}$/.test(p.text) || (p.short && (/^\d{1,4} \S/.test(p.text) || / \d{1,4}\.?$/.test(p.text)) && !/[a-zčćšžđ]{3,}\.$/.test(p.text))) p.type = '#head';
+function classifyAll(paras: Para[]) {
+  // running heads: short lines that carry a page number, stand next to a page-number line, or are repeated on the spread
+  const seen = new Map<string, number>();
+  const hk = (p: Para) => p.leaf + '|' + keys(p.text).join(' ');
+  for (const p of paras) if (p.short && p.text.length < 70) seen.set(hk(p), (seen.get(hk(p)) ?? 0) + 1);
+  paras.forEach((p, i) => {
+    const f = fold(p.text.slice(0, 50));
+    for (const [re, t] of LABELS) if (re.test(f)) { p.type = t; return; }
+    if (isPageNo(p.text)) { p.type = '#head'; return; }
+    if (p.short && p.text.length < 70) {
+      const numbered = /^\d{1,4} \S/.test(p.text) && !/^\d{1,2}\. ?[IVX]+\./.test(p.text) || (/ \d{2,4}\.?$/.test(p.text) && !/str\. ?\d+\.?$/.test(p.text));
+      const nextToNo = (i > 0 && paras[i - 1].leaf === p.leaf && isPageNo(paras[i - 1].text)) || (i > 0 && paras[i - 1].leaf !== p.leaf);
+      const repeated = (seen.get(hk(p)) ?? 0) >= 2 && keys(p.text).length >= 2;
+      if ((numbered || nextToNo || repeated) && !/^\p{Ll}/u.test(p.text)) { p.type = '#head'; return; }
+    }
+    if (BREAK.test(f)) p.type = '#break';
+  });
 }
 
 function buildUnits(paras: Para[]): Unit[] {
   const units: Unit[] = [];
-  let cur: Unit | null = null; let open = false;
+  let cur: Unit | null = null;      // last labelled unit that may still take continuations / extensions
+  let tail: Unit | null = null;     // unit that the running text currently belongs to
   const endsOpen = (t: string) => !/[.!?»"”:;)*]\s*$/.test(t);
+  classifyAll(paras);
   paras.forEach((p, pi) => {
-    classify(p);
     if (p.type === '#head') return;
-    if (p.type && p.type !== '#break') { cur = { id: units.length, type: p.type, leaf: p.leaf, raw: p.text, ext: [], pi }; units.push(cur); open = true; return; }
-    if (p.type === '#break') { cur = null; open = false; return; }
+    if (p.type && p.type !== '#break') { cur = tail = { id: units.length, type: p.type, leaf: p.leaf, parts: [p.text], sure: [true], ext: [], pi }; units.push(cur); return; }
+    if (p.type === '#break') { cur = tail = null; return; }
     const lower = /^\p{Ll}/u.test(p.text);
-    if (cur && open && (lower || endsOpen(cur.raw)) ) {
-      if (p.short && !lower) return;            // running head in the middle of a sentence
-      cur.raw += ' ' + p.text; return;
+    if (tail) {
+      const prev = tail.parts[tail.parts.length - 1];
+      const open = endsOpen(prev);
+      if (lower || open) {
+        if (p.short && !lower && !open) return;
+        if (p.short && !lower && /^[^\p{L}]*\p{Lu}/u.test(p.text) && keys(p.text).length <= 8 && open && /^[\^*'‘’"]|po našem|str\./.test(p.text)) return;   // footnote
+        tail.parts.push(p.text); tail.sure.push(lower && open);
+        if (cur && tail !== cur && cur.ext.length) cur.ext[cur.ext.length - 1] += ' ' + p.text;
+        return;
+      }
     }
-    if (p.short) { if (!cur || !endsOpen(cur.raw)) open = false; return; }   // heading or rubric
-    // long unlabelled paragraph: a unit of its own (rites, ordinary, commentary) and a possible continuation of the previous unit
-    if (cur && cur.ext.length < 5) cur.ext.push(p.text);
-    units.push({ id: units.length, type: '', leaf: p.leaf, raw: p.text, ext: [], pi });
+    // a paragraph that does not obviously continue the running text: possible continuation after a page break (kept as an
+    // extension candidate of the labelled unit) and, when long, a unit of its own (rites, ordinary, commentary)
+    if (cur && cur.ext.length < (/^.{0,3}Muka/.test(cur.parts[0]) ? 80 : 6)) cur.ext.push(p.text);
+    if (!p.short) { tail = { id: units.length, type: '', leaf: p.leaf, parts: [p.text], sure: [true], ext: [], pi }; units.push(tail); }
   });
   return units;
 }
@@ -96,9 +122,8 @@ function buildUnits(paras: Para[]): Unit[] {
 function pageRefs(paras: Para[], nLeaves: number): (leaf: number) => string {
   const byLeaf: number[][] = Array.from({ length: nLeaves }, () => []);
   for (const p of paras) { const m = p.short && (p.text.match(/^(\d{1,4})$/) || p.text.match(/^(\d{1,4}) \S/) || p.text.match(/ (\d{1,4})\.?$/)); if (m) byLeaf[p.leaf].push(+m[1]); }
-  const off: (number | null)[] = byLeaf.map((ns, leaf) => { const c = ns.map(n => n - 2 * leaf).filter(d => d % 2 === 0 ? true : false); const d = c.find(d => Math.abs(d) < 40 && c.filter(x => x === d).length >= 1 && ns.includes(2 * leaf + d + 1)); return d ?? null; });
+  const off: (number | null)[] = byLeaf.map((ns, leaf) => { const d = ns.map(n => n - 2 * leaf).find(d => d % 2 === 0 && Math.abs(d) < 40 && ns.includes(2 * leaf + d + 1)); return d ?? null; });
   return (leaf: number) => {
-    // nearest calibrated leaf within 6 leaves
     for (let r = 0; r <= 6; r++) for (const l of [leaf - r, leaf + r]) if (l >= 0 && l < nLeaves && off[l] !== null) { const n = 2 * leaf + (off[l] as number); return `Kniewald 1942, str. ${n}–${n + 1} (snimka ${leaf})`; }
     return `Kniewald 1942, snimka ${leaf} (list bez čitljive paginacije)`;
   };
