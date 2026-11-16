@@ -8,3 +8,6 @@ playwright-report
 .cache
 data/raw/do/repo
 data/raw/mm/repo
+
+# large or reproducible downloads
+data/raw/kniewald
