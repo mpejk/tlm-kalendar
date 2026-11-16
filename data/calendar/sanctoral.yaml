@@ -1,0 +1,336 @@
+# 1962 general calendar, fixed dates. One entry per celebration.
+# date: MM-DD (in leap years the entries of 24-28 February are kept one day later)
+# id: Divinum Officium Sancti file holding the Mass; class: 1-3, or 4 = commemoration only
+# colour: w r v g b p; title: Croatian title in the old site's wording (capitals for I class are applied by the old site itself)
+# lord: feast of the Lord; vigil: a vigil; with: inseparable commemoration under one conclusion
+# Titles come from the old site's year pages 2017-2019; the few it never showed are worded in the same style (marked own: true).
+
+- { date: "01-01", id: "01-01", class: 1, colour: w, title: "OSMINA BOŽIĆA", lord: true, la: "In Circumcisione Domini" }
+- { date: "01-05", id: "01-05cc", class: 4, colour: r, title: "sv. Telesfor, papa i mučenik", la: "S. Telesphori Papæ et Martyris" }
+- { date: "01-06", id: "01-06", class: 1, colour: w, title: "BOGOJAVLJENJE (TRI KRALJA)", lord: true, la: "In Epiphania Domini" }
+- { date: "01-11", id: "01-11cc", class: 4, colour: r, title: "sv. Higin, papa i mučenik", la: "S. Hygini Papæ et Martyris" }
+- { date: "01-13", id: "01-13", class: 2, colour: w, title: "Krštenje Gospodina našega Isusa Krista", lord: true, la: "In Commemoratione Baptismatis Domini Nostri Jesu Christi" }
+- { date: "01-14", id: "01-14", class: 3, colour: w, title: "sv. Hilarij iz Poitiersa, biskup, priznavalac, naučitelj", la: "S. Hilarii Episcopi Confessoris Ecclesiæ Doctoris" }
+- { date: "01-14", id: "01-14cc", class: 4, colour: r, title: "sv. Feliks iz Nole, svećenik, mučenik", la: "S. Felicis Presbyteri et Martyris" }
+- { date: "01-15", id: "01-15", class: 3, colour: w, title: "sv. Pavao, prvi pustinjak, priznavalac", la: "S. Pauli Primi Eremitæ et Confessoris" }
+- { date: "01-15", id: "01-15cc", class: 4, colour: w, title: "sv. Mavro, opat", la: "S. Mauri Abbatis" }
+- { date: "01-16", id: "01-16", class: 3, colour: r, title: "sv. Marcel I, papa i mučenik", la: "S. Marcelli Papæ et Martyris" }
+- { date: "01-17", id: "01-17", class: 3, colour: w, title: "sv. Antun, opat", la: "S. Antonii Abbatis" }
+- { date: "01-18", id: "01-18r", class: 4, colour: r, title: "sv. Priska, djevica, mučenica", la: "S. Priscæ Virginis" }
+- { date: "01-19", id: "01-19", class: 4, colour: r, title: "sv. Marije, sv. Marta, sv. Audifaks i sv. Abak, mučenici", la: "Ss. Marii, Marthæ, Audifacis, et Abachum Martyrum" }
+- { date: "01-19", id: "01-19o", class: 4, colour: r, title: "sv. Knut IV. Danski, kralj, mučenik", la: "S. Canuti Regis et Martyrum" }
+- { date: "01-20", id: "01-20", class: 3, colour: r, title: "sv. Fabijan, papa, i sv. Sebastijan, mučenici", la: "Ss. Fabiani et Sebastiani Martyrum" }
+- { date: "01-21", id: "01-21", class: 3, colour: r, title: "sv. Agneza (Janja, Ines), djevica i mučenica", la: "S. Agnetis Virginis et Martyris" }
+- { date: "01-22", id: "01-22", class: 3, colour: r, title: "sv. Vinko i sv. Anastazije, mučenici", la: "Ss. Vincentii et Anastasii Martyrum" }
+- { date: "01-23", id: "01-23", class: 3, colour: w, title: "sv. Rajmund Peñafortski, priznavalac", la: "S. Raymundi de Peñafort Confessoris" }
+- { date: "01-23", id: "01-23o", class: 4, colour: r, title: "sv. Emerencijana, djevica, mučenica", la: "S. Emerentianæ Virginis et Martyris" }
+- { date: "01-24", id: "01-24", class: 3, colour: r, title: "sv. Timotej, biskup i mučenik", la: "S. Timothei Episcopi et Martyris" }
+- { date: "01-25", id: "01-25r", class: 3, colour: w, title: "Obraćenje sv. Pavla", with: "sv. Petar, apostol", la: "In Conversione S. Pauli Apostoli" }
+- { date: "01-26", id: "01-26", class: 3, colour: r, title: "sv. Polikarp, biskup i mučenik", la: "S. Polycarpi Episcopi et Martyris" }
+- { date: "01-27", id: "01-27", class: 3, colour: w, title: "sv. Ivan Zlatousti, biskup, priznavalac, naučitelj", la: "S. Joannis Chrysostomi Episcopi Confessoris et Ecclesiæ Doctoris" }
+- { date: "01-28", id: "01-28", class: 3, colour: w, title: "sv. Petar Nolasco, priznavalac", la: "S. Petri Nolasci Confessoris" }
+- { date: "01-28", id: "01-28t", class: 4, colour: r, title: "sv. Agneza (Janja, Ines), djevica, mučenica [na osminu njenog blagdana]", la: "S. Agnetis Virginis et Martyris secundo" }
+- { date: "01-29", id: "01-29", class: 3, colour: w, title: "sv. Franjo Saleški, biskup, priznavalac, naučitelj", la: "S. Francisci Salesii Episcopi Confessoris et Ecclesiæ Doctoris" }
+- { date: "01-30", id: "01-30", class: 3, colour: r, title: "sv. Martina, djevica i mučenica", la: "S. Martinæ Virginis et Martyris" }
+- { date: "01-31", id: "01-31", class: 3, colour: w, title: "sv. Ivan Bosco, priznavalac", la: "S. Joannis Bosco Confessoris" }
+- { date: "02-01", id: "02-01", class: 3, colour: r, title: "sv. Ignacije Antiohijski, biskup i mučenik", la: "S. Ignatii Episcopi et Martyris" }
+- { date: "02-02", id: "02-02", class: 2, colour: w, title: "Očišćenje BDM (Svijećnica, Kandelora) [napomena: blagdan Gospodnji, a ne Marijin]", lord: true, la: "In Purificatione Beatae Mariae Virginis" }
+- { date: "02-03", id: "02-03", class: 4, colour: r, title: "sv. Blaž (Vlaho), biskup, mučenik", la: "S. Blasii Episcopi et Martyris" }
+- { date: "02-04", id: "02-04", class: 3, colour: w, title: "sv. Andrija Corsini, biskup, priznavalac", la: "S. Andreæ Corsini Episcopi et Confessoris" }
+- { date: "02-05", id: "02-05", class: 3, colour: r, title: "sv. Agata, djevica i mučenica", la: "S. Agathæ Virginis et Martyris" }
+- { date: "02-06", id: "02-06", class: 3, colour: w, title: "sv. Tito, biskup, priznavalac", la: "S. Titi Episcopi et Confessoris" }
+- { date: "02-06", id: "02-06o", class: 4, colour: r, title: "sv. Doroteja iz Cezareje, djevica, mučenica", la: "S. Dorotheæ Virginis et Martyris" }
+- { date: "02-07", id: "02-07", class: 3, colour: w, title: "sv. Romuald, opat", la: "S. Romualdi Abbatis" }
+- { date: "02-08", id: "02-08", class: 3, colour: w, title: "sv. Ivan iz Mate, priznavalac", la: "S. Joannis de Matha Confessoris" }
+- { date: "02-09", id: "02-09", class: 3, colour: w, title: "sv. Ćiril Aleksandrijski, biskup, priznavalac, naučitelj", la: "S. Cyrilli Episc. Alexandrini Confessoris et Ecclesiæ Doctoris" }
+- { date: "02-09", id: "02-09o", class: 4, colour: r, title: "sv. Apolonija, djevica, mučenica", la: "S. Apolloniæ Virginis et Martyris" }
+- { date: "02-10", id: "02-10", class: 3, colour: w, title: "sv. Skolastika, djevica", la: "S. Scholasticæ Virginis" }
+- { date: "02-11", id: "02-11", class: 3, colour: w, title: "Ukazanje BDM bezgrešno začete u Lourdesu (Gospa Lurdska)", la: "In Apparitione Beatæ Mariæ Virginis Immaculatæ" }
+- { date: "02-12", id: "02-12", class: 3, colour: w, title: "sedam osnivača Reda slugu BDM (Ordo Servorum Beatae Mariae Virginis), priznavaoci", la: "Ss. Septem Fundatorum Ordinis Servorum B. M. V." }
+- { date: "02-14", id: "02-14", class: 4, colour: r, title: "sv. Valentin, svećenik, mučenik", la: "S. Valentini Presbyteri et Martyris" }
+- { date: "02-15", id: "02-15", class: 4, colour: r, title: "sv. Faustin i Jovita, mučenici", la: "SS. Faustini et Jovitæ" }
+- { date: "02-18", id: "02-18", class: 4, colour: r, title: "sv. Šimun Jeruzalemski, biskup, mučenik", la: "S. Simeonis Episcopi et Martyris" }
+- { date: "02-22", id: "02-22", class: 2, colour: w, title: "Katedra sv. Petra", with: "sv. Pavao, apostol", la: "In Cathedra S. Petri Apostoli" }
+- { date: "02-23", id: "02-23r", class: 3, colour: w, title: "sv. Petar Damiani, priznavalac", la: "S. Petri Damiani Episcopi Confessoris et Ecclesiæ Doctoris" }
+- { date: "02-24", id: "02-24", class: 2, colour: r, title: "sv. Matija, apostol", la: "S. Matthiæ Apostoli" }
+- { date: "02-27", id: "02-27", class: 3, colour: w, title: "sv. Gabrijel od Žalosne Gospe, priznavalac", la: "S. Gabrielis a Virgine Perdolente Confessoris" }
+- { date: "03-04", id: "03-04", class: 3, colour: w, title: "sv. Kazimir Poljski, priznavalac", la: "S. Casimiri Confessoris" }
+- { date: "03-04", id: "03-04cc", class: 4, colour: r, title: "sv. Lucije I., papa, mučenik", la: "S. Lucii I Papæ et Martyris" }
+- { date: "03-06", id: "03-06", class: 3, colour: r, title: "sv. Perpetua i sv. Felicita, mučenice", la: "Ss. Perpetuæ et Felicitatis Martyrum" }
+- { date: "03-07", id: "03-07", class: 3, colour: w, title: "sv. Toma Akvinski, priznavalac i naučitelj", la: "S. Thomæ de Aquino Confessoris et Ecclesiæ Doctoris" }
+- { date: "03-08", id: "03-08", class: 3, colour: w, title: "sv. Ivan od Boga, priznavalac", la: "S. Joannis de Deo Confessoris" }
+- { date: "03-09", id: "03-09", class: 3, colour: w, title: "sv. Franciska Rimska, udovica", la: "S. Franciscæ Romanæ Viduæ" }
+- { date: "03-10", id: "03-10", class: 3, colour: r, title: "svetih 40 mučenika iz Sebaste", la: "Ss. Quadraginta Martyrum" }
+- { date: "03-12", id: "03-12", class: 3, colour: w, title: "sv. Grgur I. Veliki, papa, priznavalac i naučitelj", la: "S. Gregorii Papæ Confessoris et Ecclesiæ Doctoris" }
+- { date: "03-17", id: "03-17", class: 3, colour: w, title: "sv. Patrik, biskup, priznavalac", la: "S. Patricii Episcopi et Confessoris" }
+- { date: "03-18", id: "03-18", class: 3, colour: w, title: "sv. Ćiril Jeruzalemski, biskup, priznavalac, naučitelj", la: "S. Cyrilli Episcopi Hierosolymitani Confessoris et Ecclesiæ Doctoris" }
+- { date: "03-19", id: "03-19", class: 1, colour: w, title: "SV. JOSIP, ZARUČNIK BDM, PRIZNAVALAC, ZAŠTITNIK SVEOPĆE CRKVE", la: "S. Joseph Sponsi B.M.V. Confessoris" }
+- { date: "03-21", id: "03-21", class: 3, colour: w, title: "sv. Benedikt, opat", la: "S. Benedicti Abbatis" }
+- { date: "03-24", id: "03-24", class: 3, colour: w, title: "sv. Gabrijel, arkanđeo", la: "S. Gabrielis Archangeli" }
+- { date: "03-25", id: "03-25", class: 1, colour: w, title: "BLAGOVIJEST", la: "In Annuntiatione Beate Mariæ Virginis" }
+- { date: "03-27", id: "03-27", class: 3, colour: w, title: "sv. Ivan Damašćanin, priznavalac, naučitelj", la: "S. Joannis Damasceni Confessoris et Ecclesiæ Doctoris" }
+- { date: "03-28", id: "03-28", class: 3, colour: w, title: "sv. Ivan Kapistran, priznavalac", la: "S. Joannis a Capistrano Confessoris" }
+- { date: "04-02", id: "04-02", class: 3, colour: w, title: "sv. Franjo Paulski, priznavalac", la: "S. Francisci de Paula Confessoris" }
+- { date: "04-04", id: "04-04", class: 3, colour: w, title: "sv. Izidor Seviljski, biskup, priznavalac, naučitelj", la: "S. Isidori Episcopi Confessoris et Ecclesiæ Doctoris" }
+- { date: "04-05", id: "04-05", class: 3, colour: w, title: "sv. Vinko Ferrer, priznavalac", la: "S. Vincentii Ferrerii Confessoris" }
+- { date: "04-11", id: "04-11", class: 3, colour: w, title: "sv. Lav I. Veliki, papa, priznavalac, naučitelj", la: "S. Leonis I Papæ Confessoris et Ecclesiæ Doctoris" }
+- { date: "04-13", id: "04-13", class: 3, colour: r, title: "sv. Hermenegild, mučenik", la: "S. Hermenegildi Martyris" }
+- { date: "04-14", id: "04-14", class: 3, colour: r, title: "sv. Justin, mučenik", la: "S. Justini Martyris" }
+- { date: "04-14", id: "04-14t", class: 4, colour: r, title: "sv. Tiburcij, sv. Valerijan i sv. Maksim, mučenici", la: "Ss. Tiburtii, Valeriani, et Maximi Martyrum" }
+- { date: "04-17", id: "04-17", class: 4, colour: r, title: "sv. Anicet, papa, mučenik", la: "S. Aniceti Papæ et Martyris" }
+- { date: "04-21", id: "04-21", class: 3, colour: w, title: "sv. Anzelmo Kenterberijski, biskup, priznavalac, naučitelj", la: "S. Anselmi Episcopi Confessoris et Ecclesiæ Doctoris" }
+- { date: "04-22", id: "04-22", class: 3, colour: r, title: "sv. Soter i sv. Kajo, pape, mučenici", own: true, la: "Ss. Soteris et Caji Summorum Pontificum et Martyrum" }
+- { date: "04-23", id: "04-23", class: 4, colour: r, title: "sv. Juraj, mučenik", la: "S. Georgii Martyris" }
+- { date: "04-24", id: "04-24", class: 3, colour: r, title: "sv. Fidelije Sigmaringenski, mučenik", la: "S. Fidelis de Sigmaringa Martyris" }
+- { date: "04-25", id: "04-25", class: 2, colour: r, title: "sv. Marko, evanđelist", la: "S. Marci Evangelistæ" }
+- { date: "04-26", id: "04-26", class: 3, colour: r, title: "sv. Kleto, papa i sv. Marcelin, papa, mučenici", la: "SS. Cleti et Marcellini Summorum Pontificum et Martyrum" }
+- { date: "04-27", id: "04-27", class: 3, colour: w, title: "sv. Petar Kanizij, priznavalac, naučitelj", la: "S. Petri Canisii Confessoris et Ecclesiæ Doctoris" }
+- { date: "04-28", id: "04-28", class: 3, colour: w, title: "sv. Pavao od Križa, priznavalac", la: "S. Pauli a Cruce Confessoris" }
+- { date: "04-29", id: "04-29", class: 3, colour: r, title: "sv. Petar Veronski, mučenik", la: "S. Petri Martyris" }
+- { date: "04-30", id: "04-30", class: 3, colour: w, title: "sv. Katarina Sijenska, djevica, naučiteljica", la: "S. Catharinæ Senensis Virginis" }
+- { date: "05-01", id: "05-01r", class: 1, colour: w, title: "SV. JOSIP RADNIK, SUPRUG BDM, PRIZNAVALAC", la: "S. Joseph Opificis" }
+- { date: "05-02", id: "05-02", class: 3, colour: w, title: "sv. Atanazije, biskup, priznavalac, naučitelj", la: "S. Athanasii Episcopi Confessoris et Ecclesiæ Doctoris" }
+- { date: "05-03", id: "05-03r", class: 4, colour: r, title: "sv. Aleksandar I., papa, sv. Evencij i sv. Teodul, mučenici, sv. Juvenal, biskup, priznavalac", la: "Ss. Alexandri I Papæ, Eventii et Theoduli Mm. ac Juvenalis Ep. et Conf." }
+- { date: "05-04", id: "05-04", class: 3, colour: w, title: "sv. Monika, udovica", la: "S. Monicæ Viduæ" }
+- { date: "05-05", id: "05-05", class: 3, colour: w, title: "sv. Pio V., papa, priznavalac", la: "S. Pii V Papæ et Confessoris" }
+- { date: "05-07", id: "05-07", class: 3, colour: r, title: "sv. Stanislav, biskup, mučenik", la: "S. Stanislai Episcopi et Martyris" }
+- { date: "05-09", id: "05-09", class: 3, colour: w, title: "sv. Grgur Nazijanski, biskup, priznavalac, naučitelj", la: "S. Gregorii Nazianzeni Episcopi Confessoris et Ecclesiæ Doctoris" }
+- { date: "05-10", id: "05-10", class: 3, colour: w, title: "sv. Antonin Firentinski, biskup, priznavalac", la: "S. Antonini Episcopi et Confessoris" }
+- { date: "05-10", id: "05-10o", class: 4, colour: r, title: "sv. Gordijan i Epimah, mučenici", la: "Ss. Gordiani et Epimachi Martyrum" }
+- { date: "05-11", id: "05-11r", class: 2, colour: r, title: "sv. Filip i sv. Jakov (Mlađi), apostoli", la: "Ss. Philippi et Jacobi Apostolorum" }
+- { date: "05-12", id: "05-12", class: 3, colour: r, title: "sv. Nerej, sv. Ahilej, sv. Domitila, djevica, i sv. Pankracije, mučenici", la: "Ss. Nerei, Achillei et Domitillæ Virg. atque Pancratii Martyrum" }
+- { date: "05-13", id: "05-13", class: 3, colour: w, title: "sv. Robert Bellarmino, biskup, priznavalac, naučitelj", la: "S. Roberti Bellarmino Episcopi Confessoris et Ecclesiæ Doctoris" }
+- { date: "05-14", id: "05-14", class: 4, colour: r, title: "sv. Bonifacije iz Tarza, mučenik", la: "S. Bonifatii Martyris" }
+- { date: "05-15", id: "05-15", class: 3, colour: w, title: "sv. Ivan de la Salle, priznavalac", la: "S. Joannis Baptistæ de la Salle Confessoris" }
+- { date: "05-16", id: "05-16", class: 3, colour: w, title: "sv. Ubald iz Gubbija, biskup, priznavalac", la: "S. Ubaldi Episcopi et Confessoris" }
+- { date: "05-17", id: "05-17", class: 3, colour: w, title: "sv. Paskal Baylon, priznavalac", la: "S. Paschalis Baylon Confessoris" }
+- { date: "05-18", id: "05-18", class: 3, colour: r, title: "sv. Venancij, mučenik", la: "S. Venantii Martyris" }
+- { date: "05-19", id: "05-19", class: 3, colour: w, title: "sv. Petar Celestin (Celestin V.), papa, priznavalac", la: "S. Petri Celestini Papæ et Confessoris" }
+- { date: "05-19", id: "05-19o", class: 4, colour: r, title: "sv. Pudencijana, djevica, mučenica", la: "S. Pudentianæ Virginis" }
+- { date: "05-20", id: "05-20", class: 3, colour: w, title: "sv. Bernardin Sijenski, priznavalac", la: "S. Bernardini Senensis Confessoris" }
+- { date: "05-25", id: "05-25", class: 3, colour: w, title: "sv. Grgur VII., papa, priznavalac", la: "S. Gregorii VII Papæ et Confessoris" }
+- { date: "05-25", id: "05-25o", class: 4, colour: r, title: "sv. Urban I., papa, mučenik", la: "S. Urbanis Papæ et Martyris" }
+- { date: "05-26", id: "05-26", class: 3, colour: w, title: "sv. Filip Neri, priznavalac", la: "S. Philippi Neri Confessoris" }
+- { date: "05-26", id: "05-26o", class: 4, colour: r, title: "sv. Eleuterije, papa, mučenik", la: "S. Eleutherii Papæ et Martyris" }
+- { date: "05-27", id: "05-27", class: 3, colour: w, title: "sv. Beda Časni, priznavalac, naučitelj", la: "S. Bedæ Venerabilis Confessoris et Ecclesiæ Doctoris" }
+- { date: "05-27", id: "05-27o", class: 4, colour: r, title: "sv. Ivan I., papa, mučenik", la: "S. Joannis Papæ et Martyris" }
+- { date: "05-28", id: "05-28", class: 3, colour: w, title: "sv. Augustin Kenterberijski, biskup, priznavalac", la: "S. Augustini Episcopi et Confessoris" }
+- { date: "05-29", id: "05-29", class: 3, colour: w, title: "sv. Marija Magdalena Pazzi, djevica", la: "S. Mariæ Magdalenæ de Pazzis Virginis" }
+- { date: "05-30", id: "05-30", class: 4, colour: r, title: "sv. Feliks I., papa, mučenik", la: "S. Felicis I Papæ et Martyris" }
+- { date: "05-31", id: "05-31", class: 2, colour: w, title: "BDM Kraljica", la: "Beatae Mariae Virginis Regina" }
+- { date: "05-31", id: "05-31o", class: 4, colour: r, title: "sv. Petronila, djevica, mučenica", la: "S. Petronillæ Virginis" }
+- { date: "06-01", id: "06-01", class: 3, colour: w, title: "sv. Anđela Merici, djevica", la: "S. Angelæ Mericiæ Virginis" }
+- { date: "06-02", id: "06-02", class: 4, colour: r, title: "sv. Marcelin, svećenik i sv. Petar,egzorcist, mučenici, sv. Erazmo Formijski, biskup, mučenik", la: "Ss. Marcellini, Petri, atque Erasmi, Episcopi, Martyrum" }
+- { date: "06-04", id: "06-04", class: 3, colour: w, title: "sv. Franjo Caracciolo, priznavalac", la: "S. Francisci Caracciolo Confessoris" }
+- { date: "06-05", id: "06-05", class: 3, colour: r, title: "sv. Bonifacije (apostol Njemačke), biskup, mučenik", la: "S. Bonifatii Episcopi et Martyris" }
+- { date: "06-06", id: "06-06", class: 3, colour: w, title: "sv. Norbert Ksantenski, biskup, priznavalac", la: "S. Norberti Episcopi et Confessoris" }
+- { date: "06-09", id: "06-09", class: 4, colour: r, title: "sv. Primo i sv. Felicijan, mučenici", la: "Ss. Primi et Feliciani Martyrum" }
+- { date: "06-10", id: "06-10", class: 3, colour: w, title: "sv. Margareta Škotska, kraljica, udovica", own: true, la: "S. Margaritæ Reginæ Viduæ" }
+- { date: "06-11", id: "06-11", class: 3, colour: r, title: "sv. Barnaba, apostol", la: "S. Barnabæ Apostoli" }
+- { date: "06-12", id: "06-12", class: 3, colour: w, title: "sv. Ivan iz Svetog Fakunda, priznavalac", la: "S. Joannis a S. Facundo Confessoris" }
+- { date: "06-12", id: "06-12o", class: 4, colour: r, title: "sv. Bazilid, sv. Cirin, sv. Nabor i sv. Nazarije, mučenici", la: "Ss. Basilidis, Cyrini, Naboris and Nazarii Martyrum" }
+- { date: "06-13", id: "06-13", class: 3, colour: w, title: "sv. Antun Padovanski, priznavalac, naučitelj", la: "S. Antonii de Padua Confessoris et Ecclesiæ Doctoris" }
+- { date: "06-14", id: "06-14", class: 3, colour: w, title: "sv. Bazilije Veliki, biskup, priznavalac, naučitelj", la: "S. Basilii Magni Confessoris et Ecclesiæ Doctoris" }
+- { date: "06-15", id: "06-15", class: 4, colour: r, title: "sv. Vid, sv. Modest i sv. Krescencija, mučenici", la: "Ss. Viti, Modesti atque Crescentiæ Martyrum" }
+- { date: "06-17", id: "06-17r", class: 3, colour: w, title: "sv. Grgur Barbarigo, biskup, priznavalac", la: "S. Gregorii Barbadici Episcopi et Confessoris" }
+- { date: "06-18", id: "06-18", class: 3, colour: w, title: "sv. Efrem Sirijski, đakon, priznavalac, naučitelj", la: "S. Ephræm Syri Confessoris et Ecclesiæ Doctoris" }
+- { date: "06-18", id: "06-18t", class: 4, colour: r, title: "sv. Marko i sv. Marcelijan, đakoni, mučenici", la: "SS. Marci et Marcelliani Martyrum" }
+- { date: "06-19", id: "06-19", class: 3, colour: w, title: "sv. Julijana Falconieri, djevica", la: "S. Julianæ de Falconeriis Virginis" }
+- { date: "06-19", id: "06-19o", class: 4, colour: r, title: "sv. Gervazije i sv. Protazije, mučenici", la: "Ss. Gervasii et Protasii Martyrum" }
+- { date: "06-20", id: "06-20", class: 4, colour: r, title: "sv. Silverije, papa, mučenik", la: "S. Silverii Papæ et Martyris" }
+- { date: "06-21", id: "06-21", class: 3, colour: w, title: "sv. Alojzije Gonzaga, priznavalac", la: "S. Aloisii Gonzagæ Confessoris" }
+- { date: "06-22", id: "06-22", class: 3, colour: w, title: "sv. Paulin iz Nole, biskup, priznavalac", la: "S. Paulini Episcopi et Confessoris" }
+- { date: "06-23", id: "06-23", class: 2, colour: v, title: "bdijenje uoči rođendana sv. Ivana Krstitelja", vigil: true, la: "In Vigilia S. Joannis Baptistæ" }
+- { date: "06-24", id: "06-24", class: 1, colour: w, title: "ROĐENJE SV. IVANA KRSTITELJA", la: "In Nativitate S. Joannis Baptistæ" }
+- { date: "06-25", id: "06-25", class: 3, colour: w, title: "sv. Vilim iz Vercellija (Monte Vergine), opat", la: "S. Gulielmi Abbatis" }
+- { date: "06-26", id: "06-26", class: 3, colour: r, title: "sv. Ivan i Pavao iz Rima, mučenici", la: "Ss. Joannis et Pauli Martyrum" }
+- { date: "06-28", id: "06-28r", class: 2, colour: v, title: "bdijenje uoči dana sv. Petra i sv. Pavla, apostola", vigil: true, la: "In Vigilia Ss. Petri et Pauli Apostolorum" }
+- { date: "06-29", id: "06-29", class: 1, colour: r, title: "SV. PETAR I SV. PAVAO, APOSTOLI", la: "SS. Apostolorum Petri et Pauli" }
+- { date: "06-30", id: "06-30", class: 3, colour: r, title: "Spomen sv. Pavla, apostola", with: "sv. Petar, apostol", la: "In Commemoratione S. Pauli Apostoli" }
+- { date: "07-01", id: "07-01", class: 1, colour: r, title: "PREDRAGOCJENA KRV GOSPODINA NAŠEGA ISUSA KRISTA", lord: true, la: "Pretiosissimi Sanguinis Domini Nostri Jesu Christi" }
+- { date: "07-02", id: "07-02", class: 2, colour: w, title: "Pohod BDM", la: "In Visitatione B Mariae Virginis" }
+- { date: "07-02", id: "07-02cc", class: 4, colour: r, title: "sv. Proceso i sv. Martinijan, mučenici", la: "Ss. Processi et Martiniani Martyrum" }
+- { date: "07-03", id: "07-03r", class: 3, colour: r, title: "sv. Irenej (Irinej) Lionski, biskup, mučenik", la: "S. Irenaei Episcopi et Martyris" }
+- { date: "07-05", id: "07-05", class: 3, colour: w, title: "sv. Antun Marija Zaccaria, priznavalac", la: "S. Antonii Mariæ Zaccaria Confessoris" }
+- { date: "07-07", id: "07-07", class: 3, colour: w, title: "sv. Ćiril i sv. Metod, biskupi, priznavaoci", la: "Ss. Cyrilli et Methodii Pont. et Conf." }
+- { date: "07-08", id: "07-08", class: 3, colour: w, title: "sv. Elizabeta Aragonska, kraljica, udovica", la: "S. Elisabeth Reg. Portugaliæ Viduæ" }
+- { date: "07-10", id: "07-10", class: 3, colour: r, title: "svetih 7 rimskih mučenika, sv. Rufina, djevica i mučenica, sv. Sekunda, djevica i mučenica", la: "Ss. Septem Fratrum Martyrum, ac Rufinæ et Secundæ Virginum et Martyrum" }
+- { date: "07-11", id: "07-11", class: 4, colour: r, title: "sv. Pio I., papa, mučenik", la: "S. Pii I Papæ et Martyris" }
+- { date: "07-12", id: "07-12", class: 3, colour: w, title: "sv. Ivan Gualbert, opat", la: "S. Joannis Gualberti Abbatis" }
+- { date: "07-12", id: "07-12o", class: 4, colour: r, title: "sv. Nabor i sv. Feliks, mučenici", la: "Ss. Naboris et Felicis Martyrum" }
+- { date: "07-14", id: "07-14", class: 3, colour: w, title: "sv. Bonaventura, biskup, priznavalac, naučitelj", la: "S. Bonaventuræ Episcopi Confessoris et Ecclesiæ Doctoris" }
+- { date: "07-15", id: "07-15", class: 3, colour: w, title: "sv. Henrik II. Njemački, car, priznavalac", la: "S. Henrici Imperatoris Confessoris" }
+- { date: "07-16", id: "07-16", class: 4, colour: w, title: "Gospa Karmelska", la: "In Commemoratione Beatae Mariae Virginis de Monte Carmelo" }
+- { date: "07-17", id: "07-17", class: 4, colour: w, title: "sv. Aleksije, priznavalac", la: "S. Alexii Confessoris" }
+- { date: "07-18", id: "07-18", class: 3, colour: w, title: "sv. Kamilo de Lellis, priznavalac", la: "S. Camilli de Lellis Confessoris" }
+- { date: "07-18", id: "07-18o", class: 4, colour: r, title: "sv. Simforoza i njenih sedam sinova, mučenici", la: "Ss. Symphorosæ et Septem Filiorum Martyrum" }
+- { date: "07-19", id: "07-19", class: 3, colour: w, title: "sv. Vinko Paulski, priznavalac", la: "S. Vincentii a Paulo Confessoris" }
+- { date: "07-20", id: "07-20", class: 3, colour: w, title: "sv. Jeronim Emiliani, priznavalac", la: "S. Hieronymi Æmiliani Confessoris" }
+- { date: "07-20", id: "07-20o", class: 4, colour: r, title: "sv. Margareta iz Antiohije Pizidijske, djevica, mučenica", la: "S. Margaritæ, Virg. et Mart." }
+- { date: "07-21", id: "07-21r", class: 3, colour: w, title: "sv. Lovro Brindizijski, priznavalac, naučitelj", la: "S. Laurentii a Brundusio Confessoris et Ecclesiæ Doctoris" }
+- { date: "07-21", id: "07-21", class: 4, colour: r, title: "sv. Prakseda, djevica, mučenica", la: "S. Praxedis Virginis" }
+- { date: "07-22", id: "07-22", class: 3, colour: w, title: "sv. Marija Magdalena, pokajnica", la: "S. Mariæ Magdalenæ Pœnitentis" }
+- { date: "07-23", id: "07-23", class: 3, colour: r, title: "sv. Apolinar iz Ravenne, mučenik", la: "S. Apollinaris Episcopi et Martyris" }
+- { date: "07-23", id: "07-23cc", class: 4, colour: w, title: "sv. Liborije iz Le Mansa, biskup, priznavalac", la: "S. Liborii Episcopi et Confessoris" }
+- { date: "07-24", id: "07-24r", class: 4, colour: r, title: "sv. Kristina Tirska, djevica, mučenica", la: "S. Christinæ Virginis et Martyris" }
+- { date: "07-25", id: "07-25", class: 2, colour: r, title: "sv. Jakov (Stariji, Zebedejev), apostol", la: "S. Jacobi Apostoli" }
+- { date: "07-25", id: "07-25cc", class: 4, colour: r, title: "sv. Kristofor, mučenik", la: "S. Christophori Martyris" }
+- { date: "07-26", id: "07-26", class: 2, colour: w, title: "sv. Ana, majka BDM", la: "S. Annæ Matris B.M.V." }
+- { date: "07-27", id: "07-27", class: 4, colour: r, title: "sv. Pantaleon, mučenik", la: "S. Pantaleonis Martyris" }
+- { date: "07-28", id: "07-28", class: 3, colour: r, title: "sv. Nazarije i sv. Celzo, mučenici, sv. Viktor I., papa, mučenik, sv. Inocent I., papa, priznavalac", la: "Ss. Nazarii et Celsi Martyrum, Victoris I Papæ et Martyris ac Innocentii I Papæ et Confessoris" }
+- { date: "07-29", id: "07-29", class: 3, colour: w, title: "sv. Marta, djevica", la: "S. Marthæ Virginis" }
+- { date: "07-29", id: "07-29cc", class: 4, colour: r, title: "sv. Feliks, sv. Simplicije, sv. Faustin i sv. Beatrica, mučenici", la: "Ss. Felicis, Simplicii, Faustini et Beatricis Martyrum" }
+- { date: "07-30", id: "07-30", class: 4, colour: r, title: "sv. Abdon i sv. Senen, mučenici", la: "Ss. Abdon et Sennen Martyrum" }
+- { date: "07-31", id: "07-31", class: 3, colour: w, title: "sv. Ignacije Lojolski, priznavalac", la: "S. Ignatii Confessoris" }
+- { date: "08-01", id: "08-01r", class: 4, colour: r, title: "Makabejski mučenici", la: "Ss. Martyrum Machabæorum" }
+- { date: "08-02", id: "08-02", class: 3, colour: w, title: "sv. Alfons Marija Liguori, biskup, priznavalac, naučitelj", la: "S. Alfonsi Mariæ de Ligorio Episc. Conf. et Eccles. Doct." }
+- { date: "08-02", id: "08-02o", class: 4, colour: r, title: "sv. Stjepan I, papa, mučenik", la: "S. Stephani Papæ Martyris" }
+- { date: "08-04", id: "08-04", class: 3, colour: w, title: "sv. Dominik de Guzmán, priznavalac", la: "S. Dominici Confessoris" }
+- { date: "08-05", id: "08-05", class: 3, colour: w, title: "Posveta bazilike sv. Marije od Snijega (Gospa Snježna)", la: "S. Mariae ad Nives" }
+- { date: "08-06", id: "08-06", class: 2, colour: w, title: "Preobraženje Gospodina našega Isusa Krista", lord: true, la: "Transfiguratio Domini Nostri Jesu Christi" }
+- { date: "08-06", id: "08-06cc", class: 4, colour: r, title: "sv. Siksto II., papa, sv. Felicisimo i Agapit, mučenici", la: "Ss. Xysti II Papæ, Felicissimi et Agapiti Martyrum" }
+- { date: "08-07", id: "08-07", class: 3, colour: w, title: "sv. Kajetan iz Vincenze, priznavalac", la: "S. Cajetani Confessoris" }
+- { date: "08-07", id: "08-07o", class: 4, colour: r, title: "sv. Donat iz Arezza, biskup, mučenik", la: "S. Donati Episcopi et Martyris" }
+- { date: "08-08", id: "08-09", class: 3, colour: w, title: "sv. Ivan Marija Vianney, svećenik, priznavalac", la: "S. Joannis Mariæ Vianney Confessoris" }
+- { date: "08-08", id: "08-08", class: 4, colour: r, title: "sv. Cirijak, sv. Largo i sv. Smaragd, mučenici", la: "Ss. Cyriaci, Largi et Smaragdi Martyrum" }
+- { date: "08-09", id: "08-09t", class: 3, colour: v, title: "bdijenje uoči dana sv. Lovre, mučenika", vigil: true, la: "In Vigilia S. Laurentii Mart." }
+- { date: "08-09", id: "08-09cc", class: 4, colour: r, title: "sv. Roman Ostijarij, mučenik", la: "S. Romani Martyris" }
+- { date: "08-10", id: "08-10", class: 2, colour: r, title: "sv. Lovro, mučenik", la: "S. Laurentii Martyris" }
+- { date: "08-11", id: "08-11", class: 4, colour: r, title: "sv. Tiburcij i sv. Suzana, mučenici", la: "Ss. Tiburtii et Susannæ Virginis, Martyrum" }
+- { date: "08-12", id: "08-12", class: 3, colour: w, title: "sv. Klara Asiška, djevica", la: "S. Claræ Virginis" }
+- { date: "08-13", id: "08-13", class: 4, colour: r, title: "sv. Hipolit Rimski i sv. Kasijan iz Imole, mučenici", la: "Ss. Hippolyti et Cassiani Martyrum" }
+- { date: "08-14", id: "08-14", class: 2, colour: v, title: "bdijenje uoči Uznesenja BDM", vigil: true, la: "Vigilia Assumptionis B.M.V." }
+- { date: "08-14", id: "08-14cc", class: 4, colour: w, title: "sv. Euzebije Rimski, priznavalac", la: "S. Eusebii Confessoris" }
+- { date: "08-15", id: "08-15", class: 1, colour: w, title: "UZNESENJE BDM (VELIKA GOSPA)", la: "Assumptione Beatae Mariae Virginis" }
+- { date: "08-16", id: "08-16", class: 2, colour: w, title: "sv. Joakim, otac BDM", la: "S. Joachim Confessoris, Patris B. M. V." }
+- { date: "08-17", id: "08-17", class: 3, colour: w, title: "sv. Hijacint Krakovski, priznavalac", la: "S. Hyacinthi Confessoris" }
+- { date: "08-18", id: "08-18r", class: 4, colour: r, title: "sv. Agapit, mučenik", la: "S. Agapiti Martyris" }
+- { date: "08-19", id: "08-19", class: 3, colour: w, title: "sv. Ivan Eudes, priznavalac", la: "S. Joannis Eudes Confessoris" }
+- { date: "08-20", id: "08-20", class: 3, colour: w, title: "sv. Bernard iz Clairvauxa, opat, naučitelj", la: "S. Bernardi Abbatis et Ecclesiæ Doctoris" }
+- { date: "08-21", id: "08-21", class: 3, colour: w, title: "sv. Ivana Franciska Frémiot de Chantal, udovica", la: "S. Joannæ Franciscæ Frémiot de Chantal Viduæ" }
+- { date: "08-22", id: "08-22", class: 2, colour: w, title: "Bezgrešno Srce BDM", la: "Festum Immaculati Cordis Beatae Mariae Virginis" }
+- { date: "08-22", id: "08-22cc", class: 4, colour: r, title: "sv. Timotej i drugovi, mučenici", la: "Ss. Timothei, Hippolyti et Symphoriani Martyres" }
+- { date: "08-23", id: "08-23", class: 3, colour: w, title: "sv. Filip Benizi, priznavalac", la: "S. Philippi Benitii Confessoris" }
+- { date: "08-24", id: "08-24", class: 2, colour: r, title: "sv. Bartol, apostol", la: "S. Bartholomæi Apostoli" }
+- { date: "08-25", id: "08-25", class: 3, colour: w, title: "sv. Ljudevit IX. Francuski, kralj, priznavalac", la: "S. Ludovici Regis Franciæ Confessoris" }
+- { date: "08-26", id: "08-26", class: 4, colour: r, title: "sv. Zefirin, papa, mučenik", la: "S. Zephyrini Papæ et Martyris" }
+- { date: "08-27", id: "08-27", class: 3, colour: w, title: "sv. Josip Kalasancij, priznavalac", la: "S. Josephi Calasanctii Confessoris" }
+- { date: "08-28", id: "08-28", class: 3, colour: w, title: "sv. Augustin Hiponski, biskup, priznavalac, naučitelj", la: "S. Augustini Episcopi et Confessoris et Ecclesiæ Doctoris" }
+- { date: "08-28", id: "08-28cc", class: 4, colour: r, title: "sv. Hermes, mučenik", la: "S. Hermetis Martyris" }
+- { date: "08-29", id: "08-29", class: 3, colour: r, title: "Glavosijek sv. Ivana Krstitelja", la: "In Decollatione S. Joannis Baptistæ" }
+- { date: "08-29", id: "08-29cc", class: 4, colour: r, title: "sv. Sabina, mučenica", la: "S. Sabinæ Martyris" }
+- { date: "08-30", id: "08-30", class: 3, colour: w, title: "sv. Ruža Limska, djevica", la: "S. Rosæ a Sancta Maria Limange Virginis" }
+- { date: "08-30", id: "08-30o", class: 4, colour: r, title: "sv. Feliks i sv. Adaukt, mučenici", la: "Ss. Felicis et Adaucti Martyrum" }
+- { date: "08-31", id: "08-31", class: 3, colour: w, title: "sv. Rajmund Nerođeni, priznavalac", la: "S. Raymundi Nonnati Confessoris" }
+- { date: "09-01", id: "09-01", class: 4, colour: w, title: "sv. Egidije (Gilles), opat, priznavalac", la: "S. Ægidii Abbatis" }
+- { date: "09-01", id: "09-01cc", class: 4, colour: r, title: "Dvanaestorica svete braće mučenika", la: "Ss. Duodecim Fratrum Mártyrum" }
+- { date: "09-02", id: "09-02", class: 3, colour: w, title: "sv. Stjepan I. Ugarski, kralj, priznavalac", la: "S. Stephani Hungariæ Regis Confessoris" }
+- { date: "09-03", id: "09-03", class: 3, colour: w, title: "sv. Pio X., papa, priznavalac", la: "S. Pii X Papæ Confessoris" }
+- { date: "09-05", id: "09-05", class: 3, colour: w, title: "sv. Lovro Justiniani, biskup, priznavalac", la: "S. Laurentii Justiniani Episcopi et Confessoris" }
+- { date: "09-08", id: "09-08", class: 2, colour: w, title: "Rođenje BDM (Mala Gospa)", la: "Nativitate Beatae Mariae Virginis" }
+- { date: "09-08", id: "09-08cc", class: 4, colour: r, title: "sv. Hadrijan, mučenik", la: "S. Hadriani Martyris" }
+- { date: "09-09", id: "09-09", class: 4, colour: r, title: "sv. Gorgonije, mučenik", la: "S. Gorgonii Martyris" }
+- { date: "09-10", id: "09-10", class: 3, colour: w, title: "sv. Nikola Tolentinski, priznavalac", la: "S. Nicolai de Tolentino Confessoris" }
+- { date: "09-11", id: "09-11", class: 4, colour: r, title: "sv. Proto i sv. Hijacint, mučenici", la: "Ss. Proti et Hyacinthi Martyrum" }
+- { date: "09-12", id: "09-12", class: 3, colour: w, title: "Presveto Ime Marijino", la: "S. Nominis Beatae Mariae Virginis" }
+- { date: "09-14", id: "09-14", class: 2, colour: r, title: "Uzvišenje sv. Križa", lord: true, la: "In Exaltatione Sanctae crucis" }
+- { date: "09-15", id: "09-15", class: 2, colour: w, title: "Sedam žalosti BDM", la: "Septem Dolorum Beatae Mariae Virginis" }
+- { date: "09-15", id: "09-15cc", class: 4, colour: r, title: "sv. Nikomed, mučenik", la: "S. Nicomedis Martyris" }
+- { date: "09-16", id: "09-16", class: 3, colour: r, title: "sv. Kornelije papa, mučenik, sv. Ciprijan, biskup, mučenik", la: "Ss. Cornelii Papæ et Cypriani Episcopi, Martyrum" }
+- { date: "09-16", id: "09-16cc", class: 4, colour: r, title: "sv. Eufemija, djevica, mučenica, sv. Lucija i sv. Geminijan, mučenici", la: "Ss. Euphemiæ, Luciæ et Geminiani Martyrum" }
+- { date: "09-17", id: "09-17", class: 4, colour: w, title: "rane sv. Franje Asiškog, priznavaoca", la: "Impressionis Stigmatum S. Francisci" }
+- { date: "09-18", id: "09-18", class: 3, colour: w, title: "sv. Josip Kupertinski, priznavalac", la: "S. Josephi de Cupertino Confessoris" }
+- { date: "09-19", id: "09-19", class: 3, colour: r, title: "sv. Januarije, biskup i drugovi, mučenici", la: "S. Januarii Episcopi et Sociorum Martyrum" }
+- { date: "09-20", id: "09-20", class: 4, colour: r, title: "sv. Eustahije i drugovi, mučenici", la: "Ss. Eustachii et Sociorum Martyrum" }
+- { date: "09-21", id: "09-21", class: 2, colour: r, title: "sv. Matej, apostol i evanđelist", la: "S. Matthæi Apostoli et Evangelistæ" }
+- { date: "09-22", id: "09-22", class: 3, colour: w, title: "sv. Toma iz Villanove, biskup, priznavalac", la: "S. Thomæ de Villanova Episcopi et Confessoris" }
+- { date: "09-22", id: "09-22o", class: 4, colour: r, title: "sv. Mauricije i drugovi, mučenici", own: true, la: "Ss. Mauritii et Sociorum Martyrum" }
+- { date: "09-23", id: "09-23", class: 3, colour: r, title: "sv. Lino, papa, mučenik", la: "S. Lini Papæ et Martyris" }
+- { date: "09-23", id: "09-23cc", class: 4, colour: r, title: "sv. Tekla, djevica, mučenica", la: "S. Theclæ Virginis et Martyris" }
+- { date: "09-24", id: "09-24", class: 4, colour: w, title: "Gospa od Otkupljenja", la: "Beatae Mariae Virginis de Mercede" }
+- { date: "09-26", id: "09-26", class: 4, colour: r, title: "Sv. Ciprijan, biskup i sv. Justina, djevica, mučenici", la: "Ss. Cypriani et Justinæ Virginis, Martyrum" }
+- { date: "09-27", id: "09-27", class: 3, colour: r, title: "sv. Kuzma i sv. Damjan, mučenici", la: "Ss. Cosmæ et Damiani Martyrum" }
+- { date: "09-28", id: "09-28", class: 3, colour: r, title: "sv. Vjenceslav I. Češki, knez, mučenik", la: "S. Wenceslai Ducis et Martyris" }
+- { date: "09-29", id: "09-29", class: 1, colour: w, title: "SV. MIHAEL ARKANĐEO", la: "In Dedicatione S. Michaëlis Archangelis" }
+- { date: "09-30", id: "09-30", class: 3, colour: w, title: "sv. Jeronim Dalmatinac, svećenik, priznavalac, naučitelj", la: "S. Hieronymi Presbyteris Confessoris et Ecclesiæ Doctoris" }
+- { date: "10-01", id: "10-01", class: 4, colour: w, title: "sv. Remigije, biskup, priznavalac", la: "S. Remigii Episcopi et Confessoris" }
+- { date: "10-02", id: "10-02", class: 3, colour: w, title: "sv. Anđeli Čuvari", la: "Ss. Angelorum Custodum" }
+- { date: "10-03", id: "10-03", class: 3, colour: w, title: "sv. Terezija od Djeteta Isusa (iz Lisieuxa), djevica, naučiteljica", la: "S. Theresiæ a Jesu Infante Virginis" }
+- { date: "10-04", id: "10-04", class: 3, colour: w, title: "sv. Franjo Asiški, priznavalac", la: "S. Francisci Confessoris" }
+- { date: "10-05", id: "10-05", class: 4, colour: r, title: "sv. Placid i drugovi, mučenici", la: "Ss. Placidi et Sociorum Martyrum" }
+- { date: "10-06", id: "10-06", class: 3, colour: w, title: "sv. Bruno, priznavalac", la: "S. Brunonis Confessoris" }
+- { date: "10-07", id: "10-07", class: 2, colour: w, title: "BDM od Krunice (Ružarija)", la: "Festum Beatae Mariae Virginis a Rosario" }
+- { date: "10-07", id: "10-07t", class: 4, colour: w, title: "sv. Marko, papa, priznavalac", la: "S. Marci Papæ Confessoris" }
+- { date: "10-08", id: "10-08", class: 3, colour: w, title: "sv. Brigita Švedska, udovica", la: "S. Birgittæ Viduæ" }
+- { date: "10-08", id: "10-07cc", class: 4, colour: r, title: "sv. Sergije, sv. Bakho, sv. Marcel i sv. Apulej, mučenici", la: "Ss. Sergii, Bacchi, Marcelli et Apuleji Martyrum" }
+- { date: "10-09", id: "10-09", class: 3, colour: w, title: "sv. Ivan Leonardi, priznavalac", la: "S. Joannis Leonardi Confessoris" }
+- { date: "10-09", id: "10-09t", class: 4, colour: r, title: "sv. Dionizije, biskup, sv. Rustik, svećenik i sv. Eleuterije, mučenici", la: "S. Dionysii Epíscopi, Rustici et Eleutherii Martyrum" }
+- { date: "10-10", id: "10-10", class: 3, colour: w, title: "sv. Franjo Borgia, priznavalac", la: "S. Francisci Borgiæ Confessoris" }
+- { date: "10-11", id: "10-11", class: 2, colour: w, title: "Majčinstvo BDM", la: "Maternitatis Beatæ Mariæ Virginis" }
+- { date: "10-13", id: "10-13", class: 3, colour: w, title: "sv. Eduard Engleski, kralj, priznavalac", la: "S. Eduardi Regis Confessoris" }
+- { date: "10-14", id: "10-14", class: 3, colour: r, title: "sv. Kalist I., papa, mučenik", la: "S. Callisti Papæ et Martyris" }
+- { date: "10-15", id: "10-15", class: 3, colour: w, title: "sv. Terezija Avilska, djevica, naučiteljica", la: "S. Teresiæ Virginis" }
+- { date: "10-16", id: "10-16", class: 3, colour: w, title: "sv. Hedviga Šleska (iz Andechsa), udovica", la: "S. Hedwigis Viduæ" }
+- { date: "10-17", id: "10-17", class: 3, colour: w, title: "sv. Margareta Marija Alacoque, djevica", la: "S. Margaritæ Mariæ Alaquoque Virginis" }
+- { date: "10-18", id: "10-18", class: 2, colour: r, title: "sv. Luka, evanđelist", la: "S. Lucæ Evangelistæ" }
+- { date: "10-19", id: "10-19", class: 3, colour: w, title: "sv. Petar iz Alkantare, priznavalac", la: "S. Petri de Alcantara Confessoris" }
+- { date: "10-20", id: "10-20", class: 3, colour: w, title: "sv. Ivan Kentijski, priznavalac", la: "S. Joannis Cantii Confessoris" }
+- { date: "10-21", id: "10-21", class: 4, colour: w, title: "sv. Hilarion, opat, priznavalac", la: "S. Hilarionis Abbatis" }
+- { date: "10-21", id: "10-21cc", class: 4, colour: r, title: "sv. Uršula i drugarice, djevice i mučenice", la: "Ss. Ursulæ et Sociarum Virg. et Mart." }
+- { date: "10-23", id: "10-23r", class: 3, colour: w, title: "sv. Antun Marija Claret, biskup, priznavalac", la: "S. Antonii Mariæ Claret Episcopi et Confessoris" }
+- { date: "10-24", id: "10-24", class: 3, colour: w, title: "sv. Rafael Arkanđeo", la: "S. Raphaëlis Archangeli" }
+- { date: "10-25", id: "10-25", class: 4, colour: r, title: "sv. Krizant i sv. Darija, mučenici", la: "Ss. Chrysanthi et Dariæ Martyrum" }
+- { date: "10-26", id: "10-26", class: 4, colour: r, title: "sv. Evarist, papa, mučenik", la: "S. Evaristi Papæ et Martyris" }
+- { date: "10-28", id: "10-28", class: 2, colour: r, title: "sv. Šimun i Juda Tadej, apostoli", la: "Ss. Simonis et Judæ Apostolorum" }
+- { date: "11-01", id: "11-01", class: 1, colour: w, title: "SVI SVETI", la: "Omnium Sanctorum" }
+- { date: "11-02", id: "11-02", class: 1, colour: b, title: "SPOMEN SVIH VJERNIH MRTVIH (DUŠNI DAN)", la: "Commemoratio Omnium Fidelium Defunctorum" }
+- { date: "11-04", id: "11-04", class: 3, colour: w, title: "sv. Karlo Boromejski, biskup, priznavalac", la: "S. Caroli Episcopi et Confessoris" }
+- { date: "11-04", id: "11-04cc", class: 4, colour: r, title: "sv. Vital i sv. Agrikola, mučenici", la: "Ss. Mart. Vitalis et Agricolæ" }
+- { date: "11-08", id: "11-08r", class: 4, colour: r, title: "Četvorica svetih proslavljenih mučenika", la: "Ss. Quatuor Coronatorum Martyrum" }
+- { date: "11-09", id: "11-09", class: 2, colour: w, title: "Posveta bazilike Presvetog Spasitelja (Lateranske katedralne bazilike)", lord: true, la: "In dedicatione Basilicae Ss. Salvatoris" }
+- { date: "11-09", id: "11-09cc", class: 4, colour: r, title: "sv. Teodor, mučenik", la: "S. Theodori Martyris" }
+- { date: "11-10", id: "11-10", class: 3, colour: w, title: "sv. Andrija Avellino, priznavalac", la: "S. Andreæ Avellini Confessoris" }
+- { date: "11-10", id: "11-10o", class: 4, colour: r, title: "sv. Trifon (Tripun), sv. Respicij i sv. Nimfa, mučenici", la: "Ss. Tryphonis, Respicii, et Nymphæ Virg., Martyrum" }
+- { date: "11-11", id: "11-11", class: 3, colour: w, title: "sv. Martin iz Toursa, biskup, priznavalac", la: "S. Martini Episcopi et Confessoris" }
+- { date: "11-11", id: "11-11cc", class: 4, colour: r, title: "sv. Mena, mučenik", la: "S. Mennæ Martyris" }
+- { date: "11-12", id: "11-12", class: 3, colour: r, title: "sv. Martin I., papa, mučenik", la: "S. Martini Papæ et Martyris" }
+- { date: "11-13", id: "11-13", class: 3, colour: w, title: "sv. Didak (Diego) Alkalski, priznavalac", la: "S. Didaci Confessoris" }
+- { date: "11-14", id: "11-14", class: 3, colour: r, title: "sv. Jozafat Kuncevič, biskup, mučenik", la: "S. Josaphat Episcopi et Martyris" }
+- { date: "11-15", id: "11-15", class: 3, colour: w, title: "sv. Albert Veliki, biskup, priznavalac, naučitelj", la: "S. Alberti Magni Episcopi Confessoris et Ecclesiæ Doctoris" }
+- { date: "11-16", id: "11-16", class: 3, colour: w, title: "sv. Gertruda Velika, djevica", la: "S. Gertrudis Virginis" }
+- { date: "11-17", id: "11-17", class: 3, colour: w, title: "sv. Grgur Čudotvorac, biskup, priznavalac", la: "S. Gregorii Thaumaturgi Episcopi et Confessoris" }
+- { date: "11-18", id: "11-18r", class: 3, colour: w, title: "Posvete bazilike sv. Petra i bazilike sv. Pavla", la: "In Dedicatione Basilicarum Ss. Apostolorum Petri et Pauli" }
+- { date: "11-19", id: "11-19", class: 3, colour: w, title: "sv. Elizabeta Ugarska, udovica", la: "S. Elisabeth Viduæ" }
+- { date: "11-19", id: "11-19o", class: 4, colour: r, title: "sv. Poncijan, papa, mučenik", la: "S. Pontiani Papæ et Martyris" }
+- { date: "11-20", id: "11-20", class: 3, colour: w, title: "sv. Feliks Valois, priznavalac", la: "S. Felicis de Valois Confessoris" }
+- { date: "11-21", id: "11-21", class: 3, colour: w, title: "Prikazanje BDM u Hramu", la: "In Presentatione of Beatae Mariae Virginis" }
+- { date: "11-22", id: "11-22", class: 3, colour: r, title: "sv. Cecilija, djevica, mučenica", la: "S. Cæciliæ Virginis et Martyris" }
+- { date: "11-23", id: "11-23", class: 3, colour: r, title: "sv. Klement I., papa, mučenik", la: "S. Clementis Papæ et Martyris" }
+- { date: "11-23", id: "11-23cc", class: 4, colour: r, title: "sv. Felicita, mučenica", la: "S. Felicitatis Martyris" }
+- { date: "11-24", id: "11-24", class: 3, colour: w, title: "sv. Ivan od Križa, priznavalac, naučitelj", la: "S. Joannis a Cruce Confessoris et Ecclesiæ Doctoris" }
+- { date: "11-24", id: "11-24o", class: 4, colour: r, title: "sv. Krizogon (Krševan), mučenik", la: "S. Chrysogoni Martyris" }
+- { date: "11-25", id: "11-25", class: 3, colour: r, title: "sv. Katarina Aleksandrijska, djevica, mučenica", la: "S. Catharinæ Virginis et Martyris" }
+- { date: "11-26", id: "11-26", class: 3, colour: w, title: "sv. Silvestar Gozzolini, opat", la: "S. Silvestri Abbatis" }
+- { date: "11-26", id: "11-26t", class: 4, colour: r, title: "Petar Aleksandrijski, biskup, mučenik", la: "S. Petri Alexandrini Martyris" }
+- { date: "11-29", id: "11-29r", class: 4, colour: r, title: "sv. Saturnin, mučenik", la: "S. Saturnini Martyris" }
+- { date: "11-30", id: "11-30", class: 2, colour: r, title: "sv. Andrija, apostol", la: "S. Andreæ Apostoli" }
+- { date: "12-02", id: "12-02", class: 3, colour: r, title: "sv. Bibijana, djevica, mučenica", la: "S. Bibianæ Virginis et Martyris" }
+- { date: "12-03", id: "12-03", class: 3, colour: w, title: "sv. Franjo Ksaverski, priznavalac", la: "S. Francisci Xaverii Confessoris" }
+- { date: "12-04", id: "12-04", class: 3, colour: w, title: "sv. Petar Krizolog, biskup, priznavalac, naučitelj", la: "S. Petri Chrysologi Episcopi Confessoris et Ecclesiæ Doctoris" }
+- { date: "12-04", id: "12-04o", class: 4, colour: r, title: "sv. Barbara, djevica, mučenica", la: "S. Barbaræ Virginis et Martyris" }
+- { date: "12-05", id: "12-05", class: 4, colour: w, title: "sv. Saba, opat, priznavalac", la: "S. Sabbæ Abbatis" }
+- { date: "12-06", id: "12-06", class: 3, colour: w, title: "sv. Nikola iz Mire, biskup, priznavalac", la: "S. Nicolai Episcopi et Confessoris" }
+- { date: "12-07", id: "12-07", class: 3, colour: w, title: "sv. Ambrozije, biskup, priznavalac, naučitelj", la: "S. Ambrosii Episcopi Confessoris et Ecclesiæ Doctoris" }
+- { date: "12-08", id: "12-08", class: 1, colour: w, title: "BEZGREŠNO ZAČEĆE BDM", la: "Immaculata Conceptione Beatae Mariae Virginis" }
+- { date: "12-10", id: "12-10o", class: 4, colour: r, title: "sv. Melkijad, papa, mučenik", la: "S. Melchiadis Papæ et Martyris" }
+- { date: "12-11", id: "12-11", class: 3, colour: w, title: "sv. Damaz I., papa, priznavalac", la: "S. Damasi Papæ et Confessoris" }
+- { date: "12-13", id: "12-13r", class: 3, colour: r, title: "sv. Lucija, djevica, mučenica", la: "S. Luciæ Virginis et Martyris" }
+- { date: "12-16", id: "12-16", class: 3, colour: r, title: "sv. Euzebije iz Vercellija, biskup, mučenik", la: "S. Eusebii Episcopi et Martyris" }
+- { date: "12-21", id: "12-21", class: 2, colour: r, title: "sv. Toma, apostol", la: "S. Thomæ Apostoli" }
+- { date: "12-24", id: "12-24", class: 1, colour: v, title: "BADNJAK (BDIJENJE UOČI DANA ROĐENJA GOSPODINA NAŠEGA ISUSA KRISTA)", vigil: true, la: "Vigilia Nativitatis Domini" }
+- { date: "12-25", id: "12-25", class: 1, colour: w, title: "BOŽIĆ (ROĐENJE GOSPODINA NAŠEGA ISUSA KRISTA)", lord: true, la: "In Nativitate Domini" }
+- { date: "12-26", id: "12-26", class: 2, colour: r, title: "sv. Stjepan, prvomučenik", la: "S. Stephani Protomartyris" }
+- { date: "12-27", id: "12-27", class: 2, colour: w, title: "sv. Ivan, apostol i evanđelist", la: "S. Joannis Apostoli et Evangelistæ" }
+- { date: "12-28", id: "12-28r", class: 2, colour: r, title: "Nevina dječica", la: "Ss. Innocentium" }
+- { date: "12-29", id: "12-29r", class: 4, colour: r, title: "sv. Toma Becket, biskup, mučenik", la: "S. Thomæ Cantuariensis Episcopi et Martyris" }
+- { date: "12-31", id: "12-31r", class: 4, colour: w, title: "sv. Silvestar I., papa, priznavalac", la: "S. Silvestri Papæ et Confessoris" }

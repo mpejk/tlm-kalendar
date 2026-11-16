@@ -1,0 +1,759 @@
+# Translation-memory conflicts
+
+Latin units with more than one Croatian rendering on the old site: **228** of 5813 units. The most frequent rendering is kept (first listed); the others are stored as alternatives in `data/tm/tm.json`.
+
+- **Antiphona**
+  - (14×, e.g. actions_20170409_0.json) Antifona
+  - (4×, e.g. actions_20170414_0.json) (Antifona)
+  - (2×, e.g. propers_20170413_1.json) Antifona (1)
+  - (2×, e.g. propers_20170413_1.json) Antifona (2)
+  - (2×, e.g. propers_20170413_1.json) Antifona (3)
+  - (2×, e.g. propers_20170413_1.json) Antifona (4)
+  - (2×, e.g. propers_20170413_1.json) Antifona (5)
+  - (2×, e.g. propers_20170413_1.json) Antifona (6)
+  - (2×, e.g. propers_20170413_1.json) Antifona (7)
+- **Beáti immaculáti in via: qui ámbulant in lege Dómini.**
+  - (31×, e.g. propers_20170130_0.json) Blago onima koji idu neokaljanim putem, koji žive po zakonu Gospodnjemu.
+  - (4×, e.g. propers_20161202_0.json) Blago neokaljanima na životnom putu, koji žive po zakonu Gospodnjemu.
+  - (2×, e.g. propers_20161216_0.json) Blago onima koji idu neokaljanim putem, koji žive po zakonu Gospodnjem.
+  - (2×, e.g. propers_20170413_1.json) Blago onima koji su neporočna života, koji žive po zakonu Gospodinovu.
+  - (1×, e.g. propers_20180414_0.json) Blago neokaljanima na životnom putu, koji žive po zakonu Gospodnjem.
+- **Satiásti, Dómine, famíliam tuam munéribus sacris: eius, quaésumus, semper interventióne nos réfove, cuius solémnia celebrámus.**
+  - (19×, e.g. propers_20161225_1.json) Nasitio si, Gospodine, svoju obitelj svetim darovima, molimo da nas uvijek krijepiš na zagovor one čiju svečanost slavimo.
+  - (12×, e.g. propers_20161213_0.json) Pošto si, Gospodine, nahranio svoju obitelj svetim darovima, molimo te, da nas uvijek krijepiš po zagovoru one koje svetkovinu slavimo.
+  - (2×, e.g. propers_20170818_0.json) Nasitio si, Gospodine, svoju obitelj svetim darovima, molimo da nas uvijek krijepiš na zagovor onoga čiju svečanost slavimo.
+  - (2×, e.g. propers_20171122_0.json) Pošto si, Gospodine, nahranio svoju obitelj, svetim darovima, molimo te, da nas uvijek krijepiš po zagovoru one koje svetkovinu slavimo.
+  - (1×, e.g. propers_20170531_0.json) Pošto si, Gospodine, nahranio svoju obitelj svetim darovima, molimo te da nas uvijek krijepiš po zagovoru one koje svetkovinu slavimo.
+- **Munéribus nostris, quaésumus, Dómine, precibúsque suscéptis: et caeléstibus nos munda mystériis, et cleménter exáudi.**
+  - (9×, e.g. propers_20170101_0.json) Primi, molimo, Gospodine, naše darove i molitve te nas nebeskim otajstvima očisti i milostivo usliši.
+  - (9×, e.g. propers_20170725_0.json) Nakon što si primio naše darove i prošnje, molimo, Gospodine, očisti nas nebeskim tajnama i milostivo usliši.
+  - (7×, e.g. propers_20170212_0.json) Primi naše darove i molitve, molimo Gospodine, te nas nebeskim otajstvom očisti i milostivo usliši.
+  - (3×, e.g. propers_20161216_0.json) Primi naše darove i molitve, molimo, Gospodine, te nas nebeskim otajstvom očisti i milostivo usliši.
+  - (3×, e.g. propers_20170424_0.json) Primi, Gospodine, naše darove i molitve, te nas očisti nebeskim tajnama i milostivo usliši.
+- **Munéribus nostris, quaésumus, Dómine, precibúsque suscéptis: et caeléstibus nos munda mystériis, et cleménter exáudi. Per Dóminum nostrum Iesum Christum, Fílium…**
+  - (8×, e.g. propers_20170101_0.json) Primi, molimo, Gospodine, naše darove i molitve te nas nebeskim otajstvima očisti i milostivo usliši. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (7×, e.g. propers_20170212_0.json) Primi naše darove i molitve, molimo Gospodine, te nas nebeskim otajstvom očisti i milostivo usliši. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (3×, e.g. propers_20170424_0.json) Primi, Gospodine, naše darove i molitve, te nas očisti nebeskim tajnama i milostivo usliši. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20161216_0.json) Primi naše darove i molitve, molimo, Gospodine, te nas nebeskim otajstvom očisti i milostivo usliši. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170928_0.json) Nakon što si primio naše darove i prošnje, molimo, Gospodine, očisti nas nebeskim tajnama i milostivo usliši. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Haec hóstia, Dómine, quaésumus, emúndet nostra delícta: et ad sacrifícium celebrándum, subditórum tibi córpora mentésque sanctíficet.**
+  - (4×, e.g. propers_20170226_0.json) Molimo, Gospodine, da ovaj žrtveni dar izbriše naša zlodjela te da dušu i tijelo tvojih podložnika posveti za svetkovanje žrtve.
+  - (2×, e.g. propers_20170122_0.json) Molimo, Gospodine, da ovaj prinos izbriše naša zlodjela te da tijelo i dušu tvojih podložnika posveti za svetkovanje žrtve.
+  - (2×, e.g. propers_20170319_0.json) Molimo, Gospodine, da ovaj prinos izbriše naša zlodjela i da tijela i duše tvojih podložnika posveti za prikazivanje žrtve.
+  - (2×, e.g. propers_20170328_0.json) Ovaj dar, molimo, Gospodine, neka iz briše naše prestupke i posveti tijelo i dušu tvojih službenika za prikazivanje žrtve.
+  - (2×, e.g. propers_20170920_0.json) Ovaj dar, molimo, Gospodine, neka očisti naše prijestupe i posveti tijelo i dušu tvojih službenika za dostojno žrtvovanje.
+- **Haec hóstia, Dómine, quaésumus, emúndet nostra delícta: et ad sacrifícium celebrándum, subditórum tibi córpora mentésque sanctíficet. Per Dóminum nostrum Iesum …**
+  - (4×, e.g. propers_20170226_0.json) Molimo, Gospodine, da ovaj žrtveni dar izbriše naša zlodjela te da dušu i tijelo tvojih podložnika posveti za svetkovanje žrtve. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170122_0.json) Molimo, Gospodine, da ovaj prinos izbriše naša zlodjela te da tijelo i dušu tvojih podložnika posveti za svetkovanje žrtve. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170328_0.json) Ovaj dar, molimo, Gospodine, neka iz briše naše prestupke i posveti tijelo i dušu tvojih službenika za prikazivanje žrtve. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170920_0.json) Ovaj dar, molimo, Gospodine, neka očisti naše prijestupe i posveti tijelo i dušu tvojih službenika za dostojno žrtvovanje. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (1×, e.g. propers_20180304_0.json) Molimo, Gospodine, da ovaj prinos izbriše naša zlodjela i da tijela i duše tvojih podložnika posveti za prikazivanje žrtve. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Exsultáte, iusti, in Dómino: rectos decet collaudátio.**
+  - (8×, e.g. propers_20170430_0.json) . Radujte se, pravednici, u Gospodinu, dobrima dolikuje da ga hvale.
+  - (4×, e.g. propers_20170512_0.json) Radujte se, pravednici, u Gospodinu, pravednima dolikuje da ga hvale.
+  - (4×, e.g. propers_20171101_0.json) Radujte se, pravednici, u Gospodinu; pravednima dolikuje pohvala.
+  - (2×, e.g. propers_20170511_0.json) Radujte se, pravednici, u Gospodinu, pravednima dolikuje pohvala!
+  - (2×, e.g. propers_20170927_0.json) Radujte se, pravednici, u Gospodinu, pravednicima dolikuje da ga hvale.
+- **spomen i na tihim i na pjevanim misama: Feria (u tjednu 1. nedjelje došašća)**
+  - (36×, e.g. propers_20161130_0.json) spomen i na tihim i na pjevanim misama: Feria (u tjednu 1. nedjelje došašća)
+  - (24×, e.g. propers_20161206_0.json) spomen i na tihim i na pjevanim misama: Feria (u tjednu 2. nedjelje došašća)
+  - (6×, e.g. propers_20161213_0.json) spomen i na tihim i na pjevanim misama: Feria (u tjednu 3. nedjelje došašća)
+  - (3×, e.g. propers_20161221_0.json) spomen i na tihim i na pjevanim misama: Feria (u tjednu 4. nedjelje došašća)
+- **Bonum est confitéri Dómino: et psállere nómini tuo, Altíssime.**
+  - (40×, e.g. propers_20161207_0.json) Dobro je slaviti Gospodina i pjevati imenu tvojem, Višnji!
+  - (17×, e.g. propers_20170128_0.json) Dobro je slaviti Gospodina, i pjevati tvojemu imenu, Svevišnji.
+  - (7×, e.g. propers_20170212_0.json) Dobro je slaviti Gospodina i pjevati tvojem imenu, Svevišnji.
+  - (2×, e.g. propers_20170624_0.json) Dobro je slaviti Gospodina, i pjevati imenu tvojemu, Svevišnji.
+- **Eructávit cor meum verbum bonum: dico ego ópera mea Regi.**
+  - (22×, e.g. propers_20170218_0.json) Iz srca mi navire radosna riječ, pripovijedam svoja djela Kralju!
+  - (19×, e.g. propers_20170210_0.json) Iz srca mi navire radosna riječ, pripovijedam djela svoja Kralju.
+  - (7×, e.g. propers_20161213_0.json) . Iz srca mi navire radosna riječ, pripovijedam djela svoja Kralju.
+  - (7×, e.g. propers_20170107_0.json) Iz srca mi navire radosna riječ, pripovijedam svoja djela Kralju.
+- **Dómine, Dóminus noster: quam admirábile est nomen tuum in univérsa terra!**
+  - (3×, e.g. propers_20161228_0.json) Gospodine, Gospodine naš, kako li je divno ime tvoje po svoj zemlji!
+  - (2×, e.g. propers_20170313_0.json) Gospodine, Gospodine naš, kako je divno ime tvoje po svoj zemlji.
+  - (2×, e.g. propers_20170611_0.json) Gospodine, Gospodine naš, kako li je divno tvoje ime po svoj zemlji!
+  - (1×, e.g. propers_20180212_0.json) Gospodine, Gospodine naš, kako li je divno ime tov je po svoj zemlji!
+- **Quam dilécta tabernácula tua, Dómine virtútum! Concupíscit, et déficit ánima mea in átria Dómini.**
+  - (4×, e.g. propers_20170910_0.json) Kako su mili stanovi tvoji, Gospodine vojska, duša moja čezne i gine od žudnje za dvorima Gospodnjim.
+  - (3×, e.g. propers_20171109_0.json) Kako su mili stanovi tvoji, Gospodine vojska! Duša moja čezne i gine za dvorima Gospodnjim.
+  - (2×, e.g. propers_20170108_0.json) Kako su mili stanovi tvoji, Gospodine vojska! Duša mi gine od čežnje za dvorovima Gospodnjim.
+  - (2×, e.g. propers_20170806_0.json) Kako su mili stanovi tvoji, Gospodine vojska! Duša moja čeznu i gine za dvorovima Gospodnjim.
+- **Confitémini Dómino, et invocáte nomen eius: annuntiáte inter gentes ópera eius.**
+  - (3×, e.g. propers_20170330_0.json) Hvalite Gospodina i zazivajte ime njegovo, navješćujte među narodima djela njegova.
+  - (2×, e.g. propers_20170417_0.json) . Slavite Gospodina i zazivajte ime njegovo, naviještajte među narodima djela njegova.
+  - (2×, e.g. propers_20170418_0.json) Slavite Gospodina i zazivajte ime njegovo, naviještajte među narodima djela njegova.
+  - (2×, e.g. propers_20170422_0.json) Slavite Gospodina i zazivajte ime njegovo, navještajte među narodima djela njegova.
+- **[Hic genuflectitur] Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.**
+  - (6×, e.g. propers_20170604_0.json) [Ovdje se poklekne] Dođi, Duše Sveti, napuni srca svojih vjernika i zapali u njima oganj svoje ljubavi.
+  - (4×, e.g. propers_20170606_0.json) [Ovdje se poklekne] Dođi, Duše Sveti, napuni srca svojih vjernih i zapali u njima oganj svoje ljubavi.
+  - (4×, e.g. propers_20170610_0.json) [Ovdje se poklekne] Dođi, Duše Sveti, napuni srca svih vjernih i zapali u njima oganj svoje ljubavi.
+  - (2×, e.g. propers_20170607_0.json) [Ovdje se poklekne] Dođi, Duše Sveti, i napuni srca svojih vjernih i zapali u njima oganj svoje ljubavi.
+- **Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum.**
+  - (2705×, e.g. actions_20170414_0.json) Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (12×, e.g. propers_20161211_0.json) Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova
+  - (2×, e.g. propers_20171102_1.json) Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum.
+- **Allelúia, allelúia.**
+  - (567×, e.g. propers_20161127_0.json) Aleluja, aleluja.
+  - (14×, e.g. propers_20170128_0.json) aleluja, aleluja.
+  - (9×, e.g. propers_20170424_0.json) Aleluja, aleluja!
+- **Exaltábo te, Dómine, quóniam suscepísti me: nec delectásti inimícos meos super me.**
+  - (12×, e.g. propers_20170116_0.json) Veličat ću te, Gospodine, jer si me odabrao i nisi dao da se moji neprijatelji raduju nada mnom.
+  - (4×, e.g. propers_20170303_0.json) Veličat ću te, Gospodine, jer si me odabrao, nisi dao da se moji neprijatelji raduju nada mnom.
+  - (3×, e.g. propers_20161208_0.json) Veličat ću te, Gospodine, jer si me odabrao. Nisi dao da se moji neprijatelji raduju nada mnom.
+- **Benedixísti, Dómine, terram tuam: avertísti captivitátem Jacob.**
+  - (21×, e.g. propers_20171112_0.json) Blagoslovio si, Gospodine, svoju zemlju, na dobro si okrenuo Jakovljevu sudbinu.
+  - (10×, e.g. propers_20161211_0.json) Blagoslovio si, Gospodine, svoju zemlju, izveo si Jakova iz ropstva.
+  - (2×, e.g. propers_20170413_1.json) Blagoslovio si, Gospodine, zemlju svoju, odvratio si ropstvo od Jakova.
+- **Orémus. Satiásti, Dómine, famíliam tuam munéribus sacris: eius, quaésumus, semper interventióne nos réfove, cuius solémnia celebrámus. Per Dóminum nostrum Iesum…**
+  - (13×, e.g. propers_20170210_0.json) Pomolimo se. Nasitio si, Gospodine, svoju obitelj svetim darovima, molimo da nas uvijek krijepiš na zagovor one čiju svečanost slavimo. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (10×, e.g. propers_20161213_0.json) Pomolimo se. Pošto si, Gospodine, nahranio svoju obitelj svetim darovima, molimo te, da nas uvijek krijepiš po zagovoru one koje svetkovinu slavimo. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20171122_0.json) Pomolimo se. Pošto si, Gospodine, nahranio svoju obitelj, svetim darovima, molimo te, da nas uvijek krijepiš po zagovoru one koje svetkovinu slavimo. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Ecce virgo concípiet, et páriet fílium: et vocábitur nomen eius Emmánuel.**
+  - (9×, e.g. propers_20161214_0.json) Evo, Djevica će začeti i roditi Sina, i on će se zvati Emanuel.
+  - (4×, e.g. propers_20171011_0.json) Evo, Djevica će začeti i roditi Sina i on će se zvati Emanuel.
+  - (1×, e.g. propers_20170325_0.json) Evo, djevica će začeti i roditi sina i dat će mu ime Emanuel.
+- **Cantáte Dómino cánticum novum, quia mirabília fecit.**
+  - (20×, e.g. propers_20161225_2.json) Pjevajte Gospodinu novu pjesmu, jer učini divna djela.
+  - (2×, e.g. propers_20170420_0.json) Pjevajte Gospodinu pjesmu novu, jer je učinio divna djela.
+  - (2×, e.g. propers_20170815_0.json) Pjevajte Gospodinu novu pjesmu, jer je učinio divote.
+- **Iustus ut palma florébit: sicut cedrus, quae in Líbano est, multiplicábitur.**
+  - (22×, e.g. propers_20170114_0.json) Pravednik cvate kao palma i raste kao libanski cedar.
+  - (3×, e.g. propers_20161227_0.json) Pravednik će cvasti kao palma, rast će kao cedar libanski.
+  - (2×, e.g. propers_20170624_0.json) Pravednik cvate poput palme, širi se kao cedar na Libanu.
+- **Ps 91, 13 Iustus ut palma florébit: sicut cedrus, quae in Líbano est, multiplicábitur.**
+  - (22×, e.g. propers_20170114_0.json) Ps 91, 13 Pravednik cvate kao palma i raste kao libanski cedar.
+  - (3×, e.g. propers_20161227_0.json) Ps 91, 13 Pravednik će cvasti kao palma, rast će kao cedar libanski.
+  - (2×, e.g. propers_20170624_0.json) Ps 91, 13 Pravednik cvate poput palme, širi se kao cedar na Libanu.
+- **Haec nos commúnio, Dómine, purget a crimíne: et, intercedénte beáta Vírgine Dei Genetríce María, caeléstis remédii fáciat esse consórtes.**
+  - (8×, e.g. propers_20170101_0.json) Ova Pričest, Gospodine, neka nas očisti od opačina i zagovorom blažene Djevice Bogorodice Marije neka nas učini dionicima nebeskog lijeka.
+  - (2×, e.g. propers_20171011_0.json) Ova nas Pričest, Gospodine, očistila od krivice i po zagovoru blažene Djevice Bogorodice Marije učinila dionicima nebeskoga lijeka.
+  - (1×, e.g. propers_20170107_0.json) Neka nas, Gospodine, ova pričest očisti od opačine i neka nas učini po zagovoru blažene Djevice Bogorodice Marije dionicima nebeske pomoći.
+- **Orémus. Haec nos commúnio, Dómine, purget a crimíne: et, intercedénte beáta Vírgine Dei Genetríce María, caeléstis remédii fáciat esse consórtes. Per eúndem Dóm…**
+  - (8×, e.g. propers_20170101_0.json) Pomolimo se. Ova Pričest, Gospodine, neka nas očisti od opačina i zagovorom blažene Djevice Bogorodice Marije neka nas učini dionicima nebeskog lijeka. Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20171011_0.json) Pomolimo se. Ova nas Pričest, Gospodine, očistila od krivice i po zagovoru blažene Djevice Bogorodice Marije učinila dionicima nebeskoga lijeka. Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (1×, e.g. propers_20170107_0.json) Pomolimo se. Neka nas, Gospodine, ova pričest očisti od opačine i neka nas učini po zagovoru blažene Djevice Bogorodice Marije dionicima nebeske pomoći. Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.…
+- **Oblátum tibi, Dómine, sacrifícium vivíficet nos semper et múniat.**
+  - (9×, e.g. propers_20170109_0.json) Neka nas vazda oživljuje i brani, Gospodine, žrtva koju ti prinosimo.
+  - (4×, e.g. propers_20170219_0.json) Žrtva prinesena tebi, Gospodine, neka nas vazda oživljuje i brani.
+  - (2×, e.g. propers_20170327_0.json) Žrtva koju ti prikazujemo, Gospodine, neka nas uvijek oživljuje i brani.
+- **Oblátum tibi, Dómine, sacrifícium vivíficet nos semper et múniat. Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus…**
+  - (9×, e.g. propers_20170109_0.json) Neka nas vazda oživljuje i brani, Gospodine, žrtva koju ti prinosimo. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (4×, e.g. propers_20170219_0.json) Žrtva prinesena tebi, Gospodine, neka nas vazda oživljuje i brani. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170327_0.json) Žrtva koju ti prikazujemo, Gospodine, neka nas uvijek oživljuje i brani. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis sacraméntis, tibi étiam plácitis móribus dignánter deservíre concédas.**
+  - (9×, e.g. propers_20170109_0.json) Ponizno te molimo, svemogući Bože, udijeli da ti služe i ugode dostojnijim vladanjem oni koje krijepiš svojim otajstvima.
+  - (4×, e.g. propers_20170219_0.json) Smjerno te molimo, svemoćni Bože, podaj da ti svetim životom služe oni koje krijepiš svojim otajstvima.
+  - (2×, e.g. propers_20170312_0.json) Smjerno te molimo, svemogući Bože, podaj da ti svetim životom služe oni koje krijepiš svojim otajstvima.
+- **Orémus. Súpplices te rogámus, omnípotens Deus: ut, quos tuis réficis sacraméntis, tibi étiam plácitis móribus dignánter deservíre concédas. Per Dóminum nostrum …**
+  - (9×, e.g. propers_20170109_0.json) Pomolimo se. Ponizno te molimo, svemogući Bože, udijeli da ti služe i ugode dostojnijim vladanjem oni koje krijepiš svojim otajstvima. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (4×, e.g. propers_20170219_0.json) Pomolimo se. Smjerno te molimo, svemoćni Bože, podaj da ti svetim životom služe oni koje krijepiš svojim otajstvima. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170312_0.json) Pomolimo se. Smjerno te molimo, svemogući Bože, podaj da ti svetim životom služe oni koje krijepiš svojim otajstvima. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Tu es Petrus, et super hanc petram aedificábo Ecclésiam meam.**
+  - (8×, e.g. propers_20170116_0.json) Ti si Petar–stijena, i na toj stijeni sazidat ću svoju Crkvu.
+  - (2×, e.g. propers_20170222_0.json) Ti si Petar-Stijena, i na toj stijeni sazidat ću Crkvu svoju.
+  - (2×, e.g. propers_20170629_0.json) Ti si Petar–stijena i na toj ću stijeni sazidati Crkvu svoju.
+- **Mt 16, 18 Tu es Petrus, et super hanc petram aedificábo Ecclésiam meam.**
+  - (8×, e.g. propers_20170116_0.json) Mt 16, 18 Ti si Petar–stijena, i na toj stijeni sazidat ću svoju Crkvu.
+  - (2×, e.g. propers_20170222_0.json) Mt 16, 18 Ti si Petar-Stijena, i na toj stijeni sazidat ću Crkvu svoju.
+  - (2×, e.g. propers_20170629_0.json) Mt 16, 18 Ti si Petar–stijena i na toj ću stijeni sazidati Crkvu svoju.
+- **Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.**
+  - (5×, e.g. propers_20170122_0.json) Desnica Gospodnja učini čudo, desnica me Gospodnja podiže! Neću umrijeti nego živjeti i naviještati djela Gospodnja.
+  - (2×, e.g. propers_20170321_0.json) Desnica je Gospodnja izvela junačko djelo, desnica me Gospodnja podigla. Neću umrijeti nego ću živjeti i naviještati djela Gospodnja.
+  - (2×, e.g. propers_20170413_1.json) Desnica je Gospodnja izvela junačko djelo, desnica me Gospodnja podigla. Neću umrijeti, nego ću živjeti i naviještati djela Gospodnja.
+- **In te, Dómine, sperávi, non confúndar in aetérnum: in iustítia tua líbera me, et éripe me.**
+  - (4×, e.g. propers_20170226_0.json) U tebe se, Gospodine, uzdam, ne daj da se razočaram ikada. U svojoj pravednosti izbavi me i spasi me.
+  - (2×, e.g. propers_20170322_0.json) U tebe se, Gospodine, uzdam. Ne daj da se razočaram ikada. U svojoj me pravednosti izbavi i spasi.
+  - (2×, e.g. propers_20170609_0.json) U te se, Gospodine, uzdam, neću se postidjeli dovijeka. U pravdi me svojoj oslobodi i izbavi!
+- **Sacrifíciis praeséntibus, Dómine, quaésumus, inténde placátus: ut et devotióni nostrae profíciant, et salúti.**
+  - (2×, e.g. propers_20170302_0.json) Umilostivljen pogledaj, molimo, Gospodine, na ove žrtve, da koriste i našoj pobožnosti i spasenju.
+  - (2×, e.g. propers_20170312_0.json) Pogledaj milostivo, molimo, Gospodine, na ovu žrtvu, da bude na korist i našoj vjernosti i našem spasenju.
+  - (2×, e.g. propers_20170326_0.json) Pogledaj milostivo, molimo, Gospodine, na ovu žrtvu, da bude na korist i našoj vjernosti i spasenju.
+- **Sacrifíciis praeséntibus, Dómine, quaésumus, inténde placátus: ut et devotióni nostrae profíciant, et salúti. Per Dóminum nostrum Iesum Christum, Fílium tuum: Q…**
+  - (2×, e.g. propers_20170302_0.json) Umilostivljen pogledaj, molimo, Gospodine, na ove žrtve, da koriste i našoj pobožnosti i spasenju. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170312_0.json) Pogledaj milostivo, molimo, Gospodine, na ovu žrtvu, da bude na korist i našoj vjernosti i našem spasenju. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170326_0.json) Pogledaj milostivo, molimo, Gospodine, na ovu žrtvu, da bude na korist i našoj vjernosti i spasenju. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam.**
+  - (6×, e.g. propers_20170308_0.json) K tebi, Gospodine, uzdižem svoju dušu, u tebe se uzdam. Ne daj da se postidim.
+  - (4×, e.g. propers_20170625_0.json) K tebi, Gospodine, uzdižem svoju dušu. Bože moj, u tebe se uzdam, ne daj da se postidim.
+  - (2×, e.g. propers_20170310_0.json) Tebi, Gospodine, uzdižem dušu svoju, Bože moj, u tebe se uzdam, ne daj da se zastidim.
+- **Cantáte Dómino cánticum novum: cantáte Dómino, omnis terra.**
+  - (3×, e.g. propers_20170309_0.json) Pjevajte Gospodinu pjesmu novu, pjevaj Gospodinu sva zemljo!
+  - (2×, e.g. propers_20170419_0.json) Pjevajte Gospodinu pjesmu novu, pjevaj Gospodinu, sva zemljo!
+  - (2×, e.g. propers_20171009_0.json) Pjevajte Gospodinu pjesmu novu, pjevaj Gospodinu, sva zemljo.
+- **Per huius, Dómine, operatiónem mystérii, et vítia nostra purgéntur, et iusta desidéria compleántur.**
+  - (4×, e.g. propers_20170409_1.json) Djelovanjem ovoga otajstva, Gospodine, neka se očiste naše opačine i ispune pravedne želje.
+  - (2×, e.g. propers_20170310_0.json) Djelovanjem, Gospodine, ove tajne očistile se naše mane i ispunile pravedne želje.
+  - (2×, e.g. propers_20171231_0.json) Djelovanjem ovog otajstva, Gospodine, neka se očiste naše mane i ispune pravedne želje.
+- **Orémus. Per huius, Dómine, operatiónem mystérii, et vítia nostra purgéntur, et iusta desidéria compleántur. Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui…**
+  - (4×, e.g. propers_20170409_1.json) Pomolimo se. Djelovanjem ovoga otajstva, Gospodine, neka se očiste naše opačine i ispune pravedne želje. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170310_0.json) Pomolimo se. Djelovanjem, Gospodine, ove tajne očistile se naše mane i ispunile pravedne želje. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20171231_0.json) Pomolimo se. Djelovanjem ovog otajstva, Gospodine, neka se očiste naše mane i ispune pravedne želje. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Dóminus illuminátio mea, et salus mea: quem timébo?**
+  - (7×, e.g. propers_20170314_0.json) Gospodin mi je svjetlo i spas. Koga da se bojim?
+  - (4×, e.g. propers_20170709_0.json) Gospodin je prosvjetljenje moje i spasenje moje, koga da se bojim?
+  - (2×, e.g. propers_20170404_0.json) Gospodin je svjetlo i spas, koga da se bojim?
+- **Atténdite, pópule meus, legem meam: inclináte aurem vestram in verba oris mei.**
+  - (10×, e.g. propers_20170323_0.json) Čuj, puče moj, zakon moj, prigni uho svoje k riječima usta mojih.
+  - (2×, e.g. propers_20170421_0.json) . Pazi, puče moj, na zakon moj, čuj riječi usta mojih.
+  - (2×, e.g. propers_20170606_0.json) Pazi, puče moj, na zakon moj i prikloni svoje uho riječima usta mojih.
+- **Exsultáte Deo adiutóri nostro: iubiláte Deo Iacob.**
+  - (4×, e.g. propers_20170423_0.json) Kličite Bogu, pomoćniku našemu! Veličajte Boga Jakovljeva.
+  - (2×, e.g. propers_20170605_0.json) Kličite Bogu, našem pomagaču! Veličajte Boga Jakovljeva.
+  - (2×, e.g. propers_20170615_0.json) Kličite Bogu, našem pomagaču, veličajte Boga Jakovljeva.
+- **Exsúrgat Deus, et dissipéntur inimíci eius: et fúgiant, qui odérunt eum, a fácie eius.**
+  - (4×, e.g. propers_20170604_0.json) Nek ustane Bog i neka se rasprše njegovi neprijatelji! I neka bježe od njegova lica svi koji ga mrze.
+  - (2×, e.g. propers_20170607_0.json) Nek' ustane Bog i nek' se rasprše neprijatelji njegovi i neka pobjegnu od njegova lica koji mrze na nj.
+  - (2×, e.g. propers_20170820_0.json) Neka ustane Bog i razaspu se njegovi neprijatelji! Neka bježe svi koji ga mrze od njegova lica.
+- **[R: amen]**
+  - (6×, e.g. actions_20170414_0.json) [R. Amen]
+  - (2×, e.g. actions_20170409_0.json) [R: amen]
+- **qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum.**
+  - (99×, e.g. actions_20170414_0.json) koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (41×, e.g. propers_20161217_0.json) Koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Per eúndem Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus: per ómnia saecula saéculórum.**
+  - (193×, e.g. actions_20170414_0.json) Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170701_0.json) Koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte eiúsdem Spíritus Sancti, Deus: per ómnia saecula saéculórum.**
+  - (43×, e.g. propers_20170416_0.json) Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu istog Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. actions_20170414_0.json) Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti, Deus: per ómnia saécula saeculórum.**
+  - (136×, e.g. propers_20161127_0.json) koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (20×, e.g. propers_20161217_0.json) Koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Mihi autem nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum.**
+  - (32×, e.g. propers_20161130_0.json) Nadasve častim tvoje prijatelje, Bože, jer je velika uloga vlasti njihove.
+  - (13×, e.g. propers_20161130_0.json) Nada sve častim tvoje prijatelje, Bože, jer je velika uloga vlasti njihove.
+- **Dómine, probásti me, et cognovísti me: tu cognovísti sessiónem meam, et resurrectiónem meam.**
+  - (22×, e.g. propers_20161130_0.json) Gospodine, ti si me kušao i spoznao, tebi je poznat moj počinak i moje uskrsnuće.
+  - (2×, e.g. propers_20170629_0.json) Gospodine, ti si me kušao i spoznao, tebi je poznat moj počinak i moje ustajanje.
+- **Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitae. Allelúia.**
+  - (33×, e.g. propers_20161203_0.json) Blago čovjeku koji nadvlada napast, jer kad bude prokušan, primit će krunu života. Aleluja.
+  - (5×, e.g. propers_20170515_0.json) Blago čovjeku koji nadvlada napast, jer kad bude prokušan, primit će krunu života, aleluja.
+- **Meménto, Dómine, David: et omnis mansuetúdinis eius.**
+  - (23×, e.g. propers_20161206_0.json) Spomeni se, Gospodine, Davida i sve njegove krotkosti.
+  - (7×, e.g. propers_20170622_0.json) Spomeni se, Gospodine, Davida i sve revnosti njegove.
+- **Eccli 45, 30, Ps 131, 1 Státuit ei Dóminus testaméntum pacis, et príncipem fecit eum: ut sit illi sacerdótii dígnitas in aetérnum. Meménto, Dómine, David: et om…**
+  - (10×, e.g. propers_20170204_0.json) Sir 45, 30, Ps 131, 1 (Sir 45, 30) Sklopio je Gospodin s njime savez mira učinio ga knezom da zauvijek bude u svećeničkom dostojanstvu. (Ps 131, 1) Spomeni se, Gospodine, Davida i sve njegove krotkosti. Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekova…
+  - (8×, e.g. propers_20161206_0.json) Sir 45, 30, Ps 131, 1 (Sir 45, 30) Sklopio je Gospodin s njime savez mira učinio ga knezom da zauvijek bude u svećeničkom dostojanstvu. (Ps. 131, 1) Spomeni se, Gospodine, Davida i sve njegove krotkosti. Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vijeke vjekov…
+- **Ave, María , grátia plena: Dóminus tecum: benedícta tu in muliéribus, allelúia.**
+  - (3×, e.g. propers_20161208_0.json) Zdravo Marijo, milosti puna, Gospodin s tobom, blagoslovljena ti među ženama, aleluja.
+  - (1×, e.g. propers_20180409_0.json) Zdravo Marijo, milosti puna. Gospodin s tobom, blagoslovljena ti među ženama. Aleluja.
+- **Luc 1, 28 Ave, María , grátia plena: Dóminus tecum: benedícta tu in muliéribus, allelúia.**
+  - (3×, e.g. propers_20161208_0.json) Lk 1, 28 Zdravo Marijo, milosti puna, Gospodin s tobom, blagoslovljena ti među ženama, aleluja.
+  - (1×, e.g. propers_20170506_0.json) Zdravo Marijo, milosti puna. Gospodin s tobom, blagoslovljena ti među ženama. Aleluja.
+- **Ps 44, 8, Ps 44, 2 Dilexísti iustítiam, et odísti iniquitátem. Proptérea unxit te Deus, Deus tuus, óleo laetítiae prae consórtibus tuis. Eructávit cor meum verb…**
+  - (13×, e.g. propers_20170210_0.json) Ps 44, 8, Ps 44, 2 (Ps 44, 8) Ljubiš pravdu a mrziš nepravdu. Zato te je pomazao Bog, Bog tvoj, uljem radosti više nego drugarice tvoje. (Ps 44, 2) Iz srca mi navire radosna riječ, pripovijedam djela svoja Kralju. Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vij…
+  - (3×, e.g. propers_20161213_0.json) Ps 44, 8, Ps 44, 2 (Ps 44, 8) Ljubiš pravdu a mrziš nepravdu. Zato te je pomazao Bog, Bog tvoj, uljem radosti više nego drugarice tvoje. (Ps 44, 2). Iz srca mi navire radosna riječ, pripovijedam djela svoja Kralju. Slava Ocu, i Sinu, i Duhu Svetomu. Kako bijaše na početku, tako i sada i vazda i u vi…
+- **Dilexísti iustítiam, et odísti iniquitátem. Proptérea unxit te Deus, Deus tuus, óleo laetítiae.**
+  - (8×, e.g. propers_20161213_0.json) Ljubiš pravdu a mrziš nepravdu. Zato te je pomazao Bog, Bog tvoj, uljem radosti.
+  - (1×, e.g. propers_20170722_0.json) Ljubiš pravdu, a mrziš nepravdu. Zato te je pomazao Bog, Bog tvoj, uljem radosti.
+- **Ps 44, 8 Dilexísti iustítiam, et odísti iniquitátem. Proptérea unxit te Deus, Deus tuus, óleo laetítiae.**
+  - (8×, e.g. propers_20161213_0.json) Ps 44, 8 Ljubiš pravdu a mrziš nepravdu. Zato te je pomazao Bog, Bog tvoj, uljem radosti.
+  - (1×, e.g. propers_20170722_0.json) Ps 44, 8 Ljubiš pravdu, a mrziš nepravdu. Zato te je pomazao Bog, Bog tvoj, uljem radosti.
+- **Accépta tibi sit, Dómine, sacrátae plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium.**
+  - (18×, e.g. propers_20170210_0.json) Pogledaj, Gospodine, na darove svoga naroda, i daj mu osjetiti da mu koristi za spasenje ova žrtvena svečanost koju obavlja s pobožnom odanošću na čast tvojih svetih.
+  - (12×, e.g. propers_20161213_0.json) Neka ti bude, Gospodine, drag ovaj prinos što ga tvoj sveti narod prikazuje, u čast tvojih svetih priznavajući da je po njihovim zaslugama primio pomoć u nevolji.
+- **Accépta tibi sit, Dómine, sacrátae plebis oblátio pro tuórum honóre Sanctórum: quorum se méritis de tribulatióne percepísse cognóscit auxílium. Per Dóminum nost…**
+  - (13×, e.g. propers_20170210_0.json) Pogledaj, Gospodine, na darove svoga naroda, i daj mu osjetiti da mu koristi za spasenje ova žrtvena svečanost koju obavlja s pobožnom odanošću na čast tvojih svetih. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.…
+  - (10×, e.g. propers_20161213_0.json) Neka ti bude, Gospodine, drag ovaj prinos što ga tvoj sveti narod prikazuje, u čast tvojih svetih priznavajući da je po njihovim zaslugama primio pomoć u nevolji. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Quis ascéndet in montem Dómini? Aut quis stabit in loco sancto eius? Innocens mánibus et mundo corde.**
+  - (3×, e.g. propers_20161214_0.json) Tko će uzaći na goru Gospodnju? Tko će stati na svetom mjestu njegovu? Onaj koji je nevinih ruku i čista srca.
+  - (2×, e.g. propers_20170621_0.json) Tko će uzaći na goru Gospodnju, tko će stati na svetom mjestu njegovu? Onaj koji je nevinih ruku i čista srca.
+- **Léctio Isaíae Prophétae. In diébus illis: Locútus est Dóminus ad Achaz, dicens: Pete tibi signum a Dómino Deo tuo in profúndum inférni, sive in excélsum supra. …**
+  - (3×, e.g. propers_20161214_0.json) Čitanje Izaije proroka. U one dane reče Gospodin Ahazu: Traži od Gospodina, Boga svojega, znak dolje u dubini ili gore u visini. Ahaz odgovori: Neću tražiti i neću iskušavati Gospodina. Tada reče (Izaija): Čujte sada, dome Davidov: Zar vam je malo, što ste teški ljudima, pa još odbijate i moga Boga?…
+  - (2×, e.g. propers_20170325_0.json) Čitanje Izaije proroka: U one dane reče Gospodin Ahazu: Traži od Gospodina, Boga svojega, znak dolje u dubini ili gore u visini. Ahaz odgovori: Neću tražiti i neću iskušavati Gospodina. Tada reče (Izaija): Čujte sada, dome Davidov: Zar vam je malo, što ste teški ljudima, pa još odbijate i moga Boga?…
+- **Isai 7, 10-15 Léctio Isaíae Prophétae. In diébus illis: Locútus est Dóminus ad Achaz, dicens: Pete tibi signum a Dómino Deo tuo in profúndum inférni, sive in ex…**
+  - (3×, e.g. propers_20161214_0.json) Iz 7, 10-15 Čitanje Izaije proroka. U one dane reče Gospodin Ahazu: Traži od Gospodina, Boga svojega, znak dolje u dubini ili gore u visini. Ahaz odgovori: Neću tražiti i neću iskušavati Gospodina. Tada reče (Izaija): Čujte sada, dome Davidov: Zar vam je malo, što ste teški ljudima, pa još odbijate …
+  - (2×, e.g. propers_20170325_0.json) Iz 7, 10-15 Čitanje Izaije proroka: U one dane reče Gospodin Ahazu: Traži od Gospodina, Boga svojega, znak dolje u dubini ili gore u visini. Ahaz odgovori: Neću tražiti i neću iskušavati Gospodina. Tada reče (Izaija): Čujte sada, dome Davidov: Zar vam je malo, što ste teški ljudima, pa još odbijate …
+- **Isai 7, 14 Ecce virgo concípiet, et páriet fílium: et vocábitur nomen eius Emmánuel.**
+  - (9×, e.g. propers_20161214_0.json) Iz 7, 14 Evo, Djevica će začeti i roditi Sina, i on će se zvati Emanuel.
+  - (1×, e.g. propers_20170325_0.json) Iz 7, 14 Evo, djevica će začeti i roditi sina i dat će mu ime Emanuel.
+- **Tui nos, Dómine, sacraménti libátio sancta restáuret: et a vetustáte purgátos, in mystérii salutáris fáciat transíre consórtium.**
+  - (3×, e.g. propers_20161216_0.json) Sveto žrtvovanje tvojeg otajstva, Gospodine, neka nas obnovi, da očišćeni od starih mana zavrijedimo dobiti dio u tajni spasenja.
+  - (2×, e.g. propers_20170305_0.json) Sveto žrtvovanje tvojeg otajstva, Gospodine, neka nas obnovi, i da očišćeni od starih mana zavrijedimo dobiti dio u tajni spasenja.
+- **Orémus. Tui nos, Dómine, sacraménti libátio sancta restáuret: et a vetustáte purgátos, in mystérii salutáris fáciat transíre consórtium. Per Dóminum nostrum Ies…**
+  - (2×, e.g. propers_20161216_0.json) Pomolimo se. Sveto žrtvovanje tvojeg otajstva, Gospodine, neka nas obnovi, da očišćeni od starih mana zavrijedimo dobiti dio u tajni spasenja. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170305_0.json) Pomolimo se. Sveto žrtvovanje tvojeg otajstva, Gospodine, neka nas obnovi, i da očišćeni od starih mana zavrijedimo dobiti dio u tajni spasenja. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Sacrifíciis praeséntibus, quaésumus, Dómine, placátus inténde: ut et devotióni nostrae profíciant, et salúti.**
+  - (7×, e.g. propers_20161218_0.json) Pogledaj, molimo, Gospodine, umilostivljen na ove žrtvene darove, da budu na korist našoj pobožnosti i spasenju.
+  - (6×, e.g. propers_20161217_0.json) Milostivo pogledaj, molimo, Gospodine, na ove žrtvene darove, da budu na korist našoj pobožnosti i spasenju.
+- **Sacrifíciis praeséntibus, quaésumus, Dómine, placátus inténde: ut et devotióni nostrae profíciant, et salúti. Per Dóminum nostrum Iesum Christum, Fílium tuum: Q…**
+  - (6×, e.g. propers_20161217_0.json) Milostivo pogledaj, molimo, Gospodine, na ove žrtvene darove, da budu na korist našoj pobožnosti i spasenju. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (6×, e.g. propers_20161218_0.json) Pogledaj, molimo, Gospodine, umilostivljen na ove žrtvene darove, da budu na korist našoj pobožnosti i spasenju. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Quaésumus, Dómine Deus noster: ut sacrosáncta mystéria, quae pro reparatiónis nostrae munímine contulísti; et praesens nobis remédium esse fácias, et futúrum.**
+  - (6×, e.g. propers_20161217_0.json) Molimo, Gospodine Bože naš, daj da nam sveta otajstva, koja si ustanovio za naše spasenje, budu lijek i sada i ubuduće.
+  - (4×, e.g. propers_20170423_0.json) Molimo, Gospodine Bože naš, da nam ova sveta otajstva, koja si nam udijelio da osiguraš naš preporod, budu sada i u buduće kao lijek.
+- **Orémus. Quaésumus, Dómine Deus noster: ut sacrosáncta mystéria, quae pro reparatiónis nostrae munímine contulísti; et praesens nobis remédium esse fácias, et fu…**
+  - (6×, e.g. propers_20161217_0.json) Pomolimo se. Molimo, Gospodine Bože naš, daj da nam sveta otajstva, koja si ustanovio za naše spasenje, budu lijek i sada i ubuduće. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (4×, e.g. propers_20170423_0.json) Pomolimo se. Molimo, Gospodine Bože naš, da nam ova sveta otajstva, koja si nam udijelio da osiguraš naš preporod, budu sada i u buduće kao lijek. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Ave, María, grátia plena: Dóminus tecum: benedícta tu in muliéribus, et benedíctus fructus ventris tui.**
+  - (18×, e.g. propers_20170325_0.json) Zdravo, Marijo, milosti puna, Gospodin s tobom, blagoslovljena ti među ženama i blagoslovljen plod utrobe tvoje.
+  - (6×, e.g. propers_20161218_0.json) Zdravo Marijo, milosti puna, Gospodin s tobom, blagoslovljena ti među ženama i blagoslovljen plod utrobe tvoje.
+- **Nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum. Dinumerábo eos, et super arénam multiplicabúntur.**
+  - (3×, e.g. propers_20161221_0.json) Nadasve častim tvoje prijatelje, Bože, jer je velika uloga vlasti njihove. Da ih brojim, ima ih više nego pijeska.
+  - (2×, e.g. propers_20170224_0.json) Nada sve častim tvoje prijatelje, Bože, jer je velika uloga vlasti njihove. Da ih brojim, ima ih više nego pijeska.
+- **Ps 138, 17-18 Nimis honoráti sunt amíci tui, Deus: nimis confortátus est principátus eórum. Dinumerábo eos, et super arénam multiplicabúntur.**
+  - (3×, e.g. propers_20161221_0.json) Ps 138, 17-18 Nadasve častim tvoje prijatelje, Bože, jer je velika uloga vlasti njihove. Da ih brojim, ima ih više nego pijeska.
+  - (2×, e.g. propers_20170224_0.json) Ps 138, 17-18 Nada sve častim tvoje prijatelje, Bože, jer je velika uloga vlasti njihove. Da ih brojim, ima ih više nego pijeska.
+- **In omnem terram exívit sonus eórum: et in fines orbis terrae verba eórum.**
+  - (3×, e.g. propers_20161221_0.json) Po svoj zemlji iziđe njihov glas i do na kraj svijeta nauka njihova.
+  - (3×, e.g. propers_20170725_0.json) Po svoj zemlji iziđe njihov glas i do na kraj svijeta nauku njihova.
+- **Ps 18, 5 In omnem terram exívit sonus eórum: et in fines orbis terrae verba eórum.**
+  - (3×, e.g. propers_20161221_0.json) Ps 18, 5 Po svoj zemlji iziđe njihov glas i do na kraj svijeta nauka njihova.
+  - (3×, e.g. propers_20170725_0.json) Ps 18, 5 Po svoj zemlji iziđe njihov glas i do na kraj svijeta nauku njihova.
+- **Sequéntia sancti Evangélii secúndum Matthaéum. Cum esset desponsáta mater Iesu María Ioseph, ántequam convenírent, invénta est in útero habens de Spíritu Sancto…**
+  - (3×, e.g. propers_20161224_0.json) Slijedi sveto Evanđelje po Mateju. Kad je Isusova majka Marija bila zaručena s Josipom, prije nego se nastaniše zajedno, nađe se da je začela po Duhu Svetomu. Njezin muž Josip, jer je bio pravedan te je nije htio javno osramotiti, bavio se mišlju da je potajno otpusti. Ali, dok je on to razmišljao, …
+  - (2×, e.g. propers_20170320_0.json) Slijedi sveto Evanđelje po Mateju. Kad je Isusova majka Marija bila zaručena s Josipom, prije nego se nastaniše zajedno, nađe se da je začela po Duhu Svetomu. Njezin muž Josip, jer je bio pravedan te je nije htio javno osramotiti bavio se mišlju da je potajno otpusti. Ali, dok je on to razmišljao, u…
+- **Mt 1, 18-21 Sequéntia sancti Evangélii secúndum Matthaéum. Cum esset desponsáta mater Iesu María Ioseph, ántequam convenírent, invénta est in útero habens de Sp…**
+  - (3×, e.g. propers_20161224_0.json) Mt 1, 18-21 Slijedi sveto Evanđelje po Mateju. Kad je Isusova majka Marija bila zaručena s Josipom, prije nego se nastaniše zajedno, nađe se da je začela po Duhu Svetomu. Njezin muž Josip, jer je bio pravedan te je nije htio javno osramotiti, bavio se mišlju da je potajno otpusti. Ali, dok je on to …
+  - (2×, e.g. propers_20170320_0.json) Mt 1, 18-21 Slijedi sveto Evanđelje po Mateju. Kad je Isusova majka Marija bila zaručena s Josipom, prije nego se nastaniše zajedno, nađe se da je začela po Duhu Svetomu. Njezin muž Josip, jer je bio pravedan te je nije htio javno osramotiti bavio se mišlju da je potajno otpusti. Ali, dok je on to r…
+- **Dóminus regnávit, decórem índuit: índuit Dóminus fortitúdinem, et praecínxit se virtúte. Allelúia.**
+  - (3×, e.g. propers_20161225_1.json) Gospodin kraljuje, ogrnuo se veličanstvom, zaodio se Gospodin snagom i opasao se jakošću. Aleluja.
+  - (2×, e.g. propers_20171231_0.json) Gospodin kraljuje, ogrnuo se veličanstvom. Zaodio se Gospodin snagom i opasao se jakošću. Aleluja.
+- **Ps 92, 1 Allelúia, allelúia. Dóminus regnávit, decórem índuit: índuit Dóminus fortitúdinem, et praecínxit se virtúte. Allelúia.**
+  - (3×, e.g. propers_20161225_1.json) Ps 92, 1 Aleluja, aleluja. Gospodin kraljuje, ogrnuo se veličanstvom, zaodio se Gospodin snagom i opasao se jakošću. Aleluja.
+  - (2×, e.g. propers_20171231_0.json) Ps 92, 1 Aleluja, aleluja. Gospodin kraljuje, ogrnuo se veličanstvom. Zaodio se Gospodin snagom i opasao se jakošću. Aleluja.
+- **Deus firmávit orbem terrae, qui non commovébitur: párata sedes tua, Deus, ex tunc, a saéculo tu es.**
+  - (3×, e.g. propers_20161225_1.json) Bog je učvrstio zemaljski krug. koji se neće pokolebati. Otada je pripravno prijestolje tvoje. Bože, Ti si od vijeka.
+  - (2×, e.g. propers_20171231_0.json) Bog je učvrstio zemaljski krug koji se neće pokolebati. Od tada je pripravno prijestolje tvoje. Bože, ti si od vijeka.
+- **Ps 92, 1-2 Deus firmávit orbem terrae, qui non commovébitur: párata sedes tua, Deus, ex tunc, a saéculo tu es.**
+  - (3×, e.g. propers_20161225_1.json) Ps 92, 1-2 Bog je učvrstio zemaljski krug. koji se neće pokolebati. Otada je pripravno prijestolje tvoje. Bože, Ti si od vijeka.
+  - (2×, e.g. propers_20171231_0.json) Ps 92, 1-2 Bog je učvrstio zemaljski krug koji se neće pokolebati. Od tada je pripravno prijestolje tvoje. Bože, ti si od vijeka.
+- **Súscipe, Dómine, múnera, quae in eius tibi solemnitáte deférimus, cuius nos confídimus patrocínio liberári.**
+  - (3×, e.g. propers_20161227_0.json) Primi, Gospodine, darove što ti ih prinosimo na blagdan onoga po čijem se zagovoru nadamo osloboditi.
+  - (2×, e.g. propers_20170818_0.json) Primi, Gospodine, darove koje ti prikazujemo o svetkovini onoga kojega se zaštitom nadamo osloboditi.
+- **Deus, qui salútis aetérnae, beátae Maríae virginitáte fecúnda, humáno géneri praémia praestitísti: tríbue, quaésumus; ut ipsam pro nobis intercédere sentiámus, …**
+  - (8×, e.g. propers_20170101_0.json) Bože, koji si plodnim djevičanstvom blažene Marije darovao ljudskom rodu dobra vječnog spasenja, podaj, molimo te, da osjetimo zagovor one po kojoj smo zavrijedili primiti početnika života, Gospodina našega Isusa Krista, Sina tvoga:
+  - (1×, e.g. propers_20170107_0.json) Bože koji si po plodnom djevičanstvu blažene Marije darovao ljudskom rodu dobra vječnoga spasenja podaj, molimo, da osjetimo zagovor one po kojoj smo zavrijedili primiti početnika života, Gospodina našega Isusa Krista, Sina tvoga:
+- **Orémus. Deus, qui salútis aetérnae, beátae Maríae virginitáte fecúnda, humáno géneri praémia praestitísti: tríbue, quaésumus; ut ipsam pro nobis intercédere sen…**
+  - (8×, e.g. propers_20170101_0.json) Pomolimo se. Bože, koji si plodnim djevičanstvom blažene Marije darovao ljudskom rodu dobra vječnog spasenja, podaj, molimo te, da osjetimo zagovor one po kojoj smo zavrijedili primiti početnika života, Gospodina našega Isusa Krista, Sina tvoga: koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga,…
+  - (1×, e.g. propers_20170107_0.json) Pomolimo se. Bože koji si po plodnom djevičanstvu blažene Marije darovao ljudskom rodu dobra vječnoga spasenja podaj, molimo, da osjetimo zagovor one po kojoj smo zavrijedili primiti početnika života, Gospodina našega Isusa Krista, Sina tvoga: koji s Tobom živi i kraljuje u jedinstvu Duha Svetoga, B…
+- **Deus, iudícium tuum Regi da: et iustítiam tuam Fílio Regis.**
+  - (4×, e.g. propers_20170106_0.json) Bože, daj Kralju svoju sudačku vlast i svoju pravdu Kraljevu Sinu.
+  - (2×, e.g. propers_20171029_0.json) Bože, daj svoje suđenje kralju, i svoju pravdu sinu kraljevu.
+- **Speciósus forma prae fíliis hóminum: diffúsa est grátia in lábiis tuis. Eructávit cor meum verbum bonum: dico ego ópera mea Regi: lingua mea cálamus scribae vel…**
+  - (2×, e.g. propers_20171231_0.json) Najljepši si od sinova ljudskih, ljupkost ti je razlivena na usnama. Iz mog srca vinula se dobra riječ. Svoja djela posvećujem kralju. Jezik je moj poput pera pisara.
+  - (1×, e.g. propers_20170107_0.json) Najljepši si od sinova ljudskih, ljupkost ti je razlivena na usnama. Iz mog srca vinula se dobra riječ; svoja djela posvećujem kralju. Jezik je moj poput pera pisara što piše brzo.
+- **Post partum, Virgo, invioláta permansísti: Dei Génetrix, intercéde pro nobis. Allelúia.**
+  - (17×, e.g. propers_20170805_0.json) Poslije porođaja ostala si, Djevice, nepovrijeđena. Bogorodice, zagovaraj nas. Aleluja.
+  - (1×, e.g. propers_20170107_0.json) Poslije porođaja ostala si, Djevice, nepovrijeđena; Bogorodice, zagovaraj nas. Aleluja.
+- **Allelúia, allelúia. Post partum, Virgo, invioláta permansísti: Dei Génetrix, intercéde pro nobis. Allelúia.**
+  - (17×, e.g. propers_20170805_0.json) Aleluja, aleluja. Poslije porođaja ostala si, Djevice, nepovrijeđena. Bogorodice, zagovaraj nas. Aleluja.
+  - (1×, e.g. propers_20170107_0.json) Aleluja, aleluja. Poslije porođaja ostala si, Djevice, nepovrijeđena; Bogorodice, zagovaraj nas. Aleluja.
+- **Felix namque es, sacra Virgo María, et omni laude digníssima: quia ex te ortus est sol iustítiae, Christus Deus noster.**
+  - (3×, e.g. propers_20170218_0.json) Sretna si, sveta Djevice Marijo, i svake si hvale dostojna, jer je iz tebe isteklo Sunce pravde, Krist Bog naš.
+  - (1×, e.g. propers_20170107_0.json) Sretna si, sveta Djevo Marijo, i svake si hvale predostojna, jer je iz tebe isteklo Sunce pravde, Krist Bog naš.
+- **Beáta víscera Maríae Vírginis, quae portavérunt aetérni Patris Fílium.**
+  - (21×, e.g. propers_20170218_0.json) Blaženo tijelo Marije Djevice koje je nosilo Sina vječnoga Oca.
+  - (8×, e.g. propers_20170107_0.json) Blaženo krilo Marije Djevice, koje je nosilo Sina vječnog Oca.
+- **Fidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram.**
+  - (50×, e.g. propers_20170114_0.json) Evo vjernog i razboritog sluge koga je postavio Gospodin nad svojom obitelji, da im na vrijeme daje za hranu pšenicu koja im pripada.
+  - (2×, e.g. propers_20170816_0.json) Evo vjernog i razboritog sluge koga je postavio Gospodin nad svojom obitelju da im na vrijeme daje za hranu pšenicu koja im pripada.
+- **Luc 12, 42 Fidélis servus et prudens, quem constítuit dóminus super famíliam suam: ut det illis in témpore trítici mensúram.**
+  - (31×, e.g. propers_20170114_0.json) Lk 12, 42 Evo vjernog i razboritog sluge koga je postavio Gospodin nad svojom obitelji, da im na vrijeme daje za hranu pšenicu koja im pripada.
+  - (19×, e.g. propers_20170617_0.json) Luc 12, 42 Evo vjernog i razboritog sluge koga je postavio Gospodin nad svojom obitelji, da im na vrijeme daje za hranu pšenicu koja im pripada.
+- **Iubiláte Deo, omnis terra, psalmum dícite nómini eius: date glóriam laudi eius.**
+  - (7×, e.g. propers_20170521_0.json) Kličite Bogu, sve zemlje, pjevajte pjesmu imenu njegovu.
+  - (6×, e.g. propers_20170115_0.json) Kličite Bogu svi narodi, pjevajte psalme njegovu imenu, hvalite njegovu slavu.
+- **Iubiláte Deo, univérsa terra: psalmum dícite nómini eius: veníte, et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit Dóminus ánimae meae, allelúi…**
+  - (6×, e.g. propers_20170115_0.json) Kličite Bogu svi narodi, pjevajte psalme njegovu imenu. Dođite i slušajte svi koji se Boga bojite, pa ću vam pričati što je sve učinio mojoj duši, aleluja.
+  - (3×, e.g. propers_20170514_0.json) Kličite Bogu, sve zemlje, pjevajte pjesmu imenu njegovu. Dođite svi koji se bojite Boga, slušajte i pripovijedat ću vam koliko je učinio Gospodin duši mojoj, aleluja.
+- **Ps 65, 1-2 et 16 Iubiláte Deo, univérsa terra: psalmum dícite nómini eius: veníte, et audíte, et narrábo vobis, omnes qui timétis Deum, quanta fecit Dóminus áni…**
+  - (6×, e.g. propers_20170115_0.json) Ps 65, 1-2 i 16 Kličite Bogu svi narodi, pjevajte psalme njegovu imenu. Dođite i slušajte svi koji se Boga bojite, pa ću vam pričati što je sve učinio mojoj duši, aleluja.
+  - (3×, e.g. propers_20170514_0.json) Ps 65, 1-2 i 16 Kličite Bogu, sve zemlje, pjevajte pjesmu imenu njegovu. Dođite svi koji se bojite Boga, slušajte i pripovijedat ću vam koliko je učinio Gospodin duši mojoj, aleluja.
+- **Noli aemulári in malignántibus: neque zeláveris faciéntes iniquitátem.**
+  - (44×, e.g. propers_20170117_0.json) Ne zaviđaj sreći grešnika i ne žesti se radi zlotvora.
+  - (1×, e.g. propers_20170919_0.json) Nemoj zaviđati sreći zlotvora, niti se uznemiravati radi zadovoljstva grešnika.
+- **Accépta sit in conspéctu tuo, Dómine, nostra devótio: et eius nobis fiat supplicatióne salutáris, pro cuius solemnitáte defértur.**
+  - (2×, e.g. propers_20170119_0.json) Bio ti, Gospodine, ugodan naš odani dar, i neka nam bude spasonosan po molitvi onoga o čijoj se svetkovini prikazuje.
+  - (2×, e.g. propers_20170727_0.json) Neka bude prijatna naša pobožnost pred tvojim licem, Gospodine, i neka nam donese spas zagovorom onoga na čiju ti je svetkovinu prinosimo.
+- **Timébunt gentes nomen tuum, Dómine, et omnes reges terrae glóriam tuam. Quóniam aedificávit Dóminus Sion, et vidébitur in maiestáte sua.**
+  - (6×, e.g. propers_20170924_0.json) Narodi će se bojati imena tvojega, Gospodine, i svi kraljevi zemaljski slave tvoje. Jer je Gospodin sagradio Sion i javio se u slavi svojoj.
+  - (5×, e.g. propers_20170122_0.json) Bojat će se narodi imena tvojega, Gospodine, i tvoje slave svi kraljevi zemlje. Jer je Gospodin sagradio Sion i objavit će se u svojem veličanstvu.
+- **Ps 101, 16-17 Timébunt gentes nomen tuum, Dómine, et omnes reges terrae glóriam tuam. Quóniam aedificávit Dóminus Sion, et vidébitur in maiestáte sua.**
+  - (6×, e.g. propers_20170924_0.json) Ps 101, 16-17 Narodi će se bojati imena tvojega, Gospodine, i svi kraljevi zemaljski slave tvoje. Jer je Gospodin sagradio Sion i javio se u slavi svojoj.
+  - (5×, e.g. propers_20170122_0.json) Ps 101, 16-17 Bojat će se narodi imena tvojega, Gospodine, i tvoje slave svi kraljevi zemlje. Jer je Gospodin sagradio Sion i objavit će se u svojem veličanstvu.
+- **Glória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.**
+  - (5×, e.g. propers_20170126_0.json) Okrunio si ga slavom i čašću i postavio si ga nad djela svojih ruku, Gospodine.
+  - (5×, e.g. propers_20170201_0.json) Okrunio si ga slavom i čašću, postavio si ga nad djelima ruku svojih, Gospodine.
+- **Ps 8, 6-7 Glória et honóre coronásti eum: et constituísti eum super ópera mánuum tuárum, Dómine.**
+  - (5×, e.g. propers_20170126_0.json) Ps 8, 6-7 Okrunio si ga slavom i čašću i postavio si ga nad djela svojih ruku, Gospodine.
+  - (5×, e.g. propers_20170201_0.json) Ps 8, 6-7 Okrunio si ga slavom i čašću, postavio si ga nad djelima ruku svojih, Gospodine.
+- **Hic est sacérdos, quem coronávit Dóminus. Allelúia.**
+  - (5×, e.g. propers_20170126_0.json) Ovo je svećenik koga je okrunio Gospodin. Aleluja.
+  - (3×, e.g. propers_20170510_0.json) Ovo je svećenik kojega je okrunio Gospodin. Aleluja.
+- **Ps 111, 1 allelúia, allelúia. Beátus vir, qui timet Dóminum: in mandátis eius cupit nimis. Allelúia.**
+  - (12×, e.g. propers_20170128_0.json) Ps 111, 1 aleluja, aleluja. Blago čovjeku koji se boji Gospodina i koji uživa u njegovim zapovijedima. Aleluja.
+  - (2×, e.g. propers_20170718_0.json) Ps 111, 1 Aleluja, aleluja. Blago čovjeku koji se boji Gospodina i koji uživa u njegovim zapovijedima. Aleluja.
+- **In virtúte tua, Dómine, laetábitur Iustus, et super salutáre tuum exsultábit veheménter: desidérium ánimae eius tribuísti ei.**
+  - (17×, e.g. propers_20170128_0.json) U jakosti tvojoj, Gospodine, raduje se pravednik i kliče radi tvoga spasenja, jer si mu ispunio želju srca njegova.
+  - (4×, e.g. propers_20170928_0.json) Radi jakosti tvoje, Gospodine, veseli se pravednik i radosno kliče radi pomoći tvoje, ispunio si mu želju srca njegova.
+- **Súmpsimus, Dómine, celebritátis ánnuae votíva sacraménta: praesta, quaésumus; ut et temporális vitae nobis remédia praébeant, et aetérnae.**
+  - (4×, e.g. propers_20170702_0.json) Primivši, Gospodine, zavjetna otajstva godišnje svečanosti, molimo te, da nam udijele okrepu i za vremeniti i za vječni život.
+  - (1×, e.g. propers_20170128_0.json) Primili smo, Gospodine, sveta otajstva godišnje svečanosti, pa te molimo, daj da nam pomažu i za vremeniti i za vječni život.
+- **Concéde, quaésumus, omnípotens Deus: ut huius sacrifícii munus oblátum, fragilitátem nostram ab omni malo purget semper, et múniat.**
+  - (7×, e.g. propers_20170129_0.json) Dopusti, molimo, svemogući Bože, da prikazni dar ove žrtve vazda čisti i brani našu krhku narav od svakoga zla.
+  - (2×, e.g. propers_20170325_0.json) Daj, molimo, svemogući Bože, da prikazani dar ove žrtve našu krhku narav uvijek čisti od svakoga zla i vazda je štiti.
+- **Concéde, quaésumus, omnípotens Deus: ut huius sacrifícii munus oblátum, fragilitátem nostram ab omni malo purget semper, et múniat. Per Dóminum nostrum Iesum Ch…**
+  - (7×, e.g. propers_20170129_0.json) Dopusti, molimo, svemogući Bože, da prikazni dar ove žrtve vazda čisti i brani našu krhku narav od svakoga zla. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (1×, e.g. propers_20180310_0.json) Daj, molimo, svemogući Bože, da prikazani dar ove žrtve našu krhku narav uvijek čisti od svakoga zla i vazda je štiti. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Veníte, fílii, audíte me: timórem Dómini docébo vos.**
+  - (3×, e.g. propers_20180827_0.json) Dođite, sinovi, čujte me, naučit ću vas strahu Gospodnjemu.
+  - (2×, e.g. propers_20170131_0.json) Dođite, sinovi, čujte me! Naučit ću vas strahu Gospodnjemu.
+- **Mihi autem absit gloriári nisi in Cruce Dómini nostri Iesu Christi: per quem mihi mundus crucifíxus est, et ego mundo.**
+  - (4×, e.g. propers_20170201_0.json) Daleko od mene da bih se ičim drugim hvalio osim križem Gospodina našega Isusa Krista, po kojem je meni svijet razapet, a ja svijetu.
+  - (4×, e.g. propers_20171004_0.json) Daleko od mene da bih se ičim drugim hvalio osim križem Gospodina našega Isusa Krista, po kojemu je meni svijet razapet, a ja svijetu.
+- **Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum nomen tuum, Deus, ita et laus tua in fines terrae: iustítia plena est dextéra tua.**
+  - (12×, e.g. propers_20170730_0.json) Primili smo, Bože tvoju milost usred tvojeg hrama. Kao što je tvoje ime, Bože, tako neka bude i tvoja hvala do kraja zemlje. Pravde je puna tvoja desnica.
+  - (4×, e.g. propers_20170202_0.json) Primili smo, Bože, tvoje milosrđe usred tvoga hrama. Kao što tvoje ime, Bože, tako i tvoja slava dopire do krajeva zemlje, pravde je puna tvoja desnica.
+- **Magnus Dóminus, et laudábilis nimis: in civitáte Dei nostri, in monte sancto eius.**
+  - (8×, e.g. propers_20170730_0.json) Velik je Gospodin i veoma dostojan hvale u gradu Boga našega, na svetoj gori njegovoj.
+  - (2×, e.g. propers_20170202_0.json) Velik je Gospodin i veoma dostojan hvale u građu našega Boga, na njegovoj svetoj gori.
+- **Ps 47, 10-11, Ps 47, 2 Suscépimus, Deus, misericórdiam tuam in médio templi tui: secúndum nomen tuum, Deus, ita et laus tua in fines terrae: iustítia plena est …**
+  - (6×, e.g. propers_20170730_0.json) Ps 47, 10-11, Ps 47, 2 (Ps 47, 10-11) Primili smo, Bože tvoju milost usred tvojeg hrama. Kao što je tvoje ime, Bože, tako neka bude i tvoja hvala do kraja zemlje. Pravde je puna tvoja desnica. (Ps 47, 2) Velik je Gospodin i veoma dostojan hvale u gradu Boga našega, na svetoj gori njegovoj. Slava Ocu…
+  - (2×, e.g. propers_20170202_0.json) Ps 47, 10-11, Ps 47, 2 (Ps 47, 10-11) Primili smo, Bože, tvoje milosrđe usred tvoga hrama. Kao što tvoje ime, Bože, tako i tvoja slava dopire do krajeva zemlje, pravde je puna tvoja desnica. (Ps 47, 2) Velik je Gospodin i veoma dostojan hvale u građu našega Boga, na njegovoj svetoj gori. Slava Ocu, …
+- **Hóstias tibi, Dómine, placatiónis offérimus: ut et delícta nostra miserátus absólvas, et nutántia corda tu dírigas.**
+  - (2×, e.g. propers_20170205_0.json) Prinosimo ti, Gospodine, pomirnu žrtvu da nam milosrdno oprostiš grijehe i da kolebljiva srca vodiš.
+  - (2×, e.g. propers_20170308_0.json) Prikazujemo ti, Gospodine, pomirbene prinose da i grijehe naše milostivo odriješiš i kolebljiva srca upravljaš.
+- **Hóstias tibi, Dómine, placatiónis offérimus: ut et delícta nostra miserátus absólvas, et nutántia corda tu dírigas. Per Dóminum nostrum Iesum Christum, Fílium t…**
+  - (2×, e.g. propers_20170205_0.json) Prinosimo ti, Gospodine, pomirnu žrtvu da nam milosrdno oprostiš grijehe i da kolebljiva srca vodiš. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170308_0.json) Prikazujemo ti, Gospodine, pomirbene prinose da i grijehe naše milostivo odriješiš i kolebljiva srca upravljaš. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Quaésumus, omnípotens Deus: ut illíus salutáris capiámus efféctum, cuius per haec mystéria pignus accépimus.**
+  - (2×, e.g. propers_20170205_0.json) Molimo, svemogući Bože, da postignemo ono spasenje, kojega smo zalog primili u ovim otajstvima.
+  - (2×, e.g. propers_20170307_0.json) Molimo, svemogući Bože, da zadobijemo učinak onog spasenja kojega smo zalog primili po ovim tajnama.
+- **Orémus. Quaésumus, omnípotens Deus: ut illíus salutáris capiámus efféctum, cuius per haec mystéria pignus accépimus. Per Dóminum nostrum Iesum Christum, Fílium …**
+  - (2×, e.g. propers_20170205_0.json) Pomolimo se. Molimo, svemogući Bože, da postignemo ono spasenje, kojega smo zalog primili u ovim otajstvima. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170307_0.json) Pomolimo se. Molimo, svemogući Bože, da zadobijemo učinak onog spasenja kojega smo zalog primili po ovim tajnama. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Preces pópuli tui, quaésumus, Dómine, cleménter exáudi: ut, qui iuste pro peccátis nostris afflígimur, pro tui nóminis glória misericórditer liberémur.**
+  - (7×, e.g. propers_20170212_0.json) Molitve puka Svojega, molimo, Gospodine, milostivo usliši da mi koji s pravom trpimo zbog svojih grijeha, milosrdno budemo spašeni na slavu tvojeg imena.
+  - (1×, e.g. propers_20170311_0.json) Molitve puka svojega, molimo, Gospodine, milostivo usliši da mi koji s pravom trpimo zbog svojih grijeha, milosrdno budemo spašeni na slavu tvojeg imena.
+- **Fidéles tui, Deus, per tua dona firméntur: ut éadem et percipiéndo requírant, et quaeréndo sine fine percípiant.**
+  - (7×, e.g. propers_20170212_0.json) Vjernici tvoji, Bože, neka se tvojim darovima učvrste, da ih primajući traže i tražeći ih uvijek primaju.
+  - (2×, e.g. propers_20170304_0.json) Učvrstili se, Gospodine, tvoji vjerni po tvojim darovima, da ih dok primaju traže i dok ih traže primaju bez prestanka.
+- **Quaésumus, Dómine, salutáribus repléti mystériis: ut, quorum solémnia celebrámus, eórum oratiónibus adiuvémur.**
+  - (3×, e.g. propers_20170215_0.json) Nasićeni spasonosnim tajnama, molimo, Gospodine, da nas pomažu molitve onih kojih svetkovinu slavimo.
+  - (2×, e.g. propers_20170511_0.json) Okrijepljeni spasonosnim tajnama, molimo te, Gospodine, da nam pomognu molitve onih čiji blagdan slavimo.
+- **Benedícta et venerábilis es, Virgo María: quae sine tactu pudóris invénta es mater Salvatóris. Virgo Dei Génetrix, quem totus non capit orbis, in tua se clausit…**
+  - (17×, e.g. propers_20170805_0.json) Blagoslovljena si i časna, Djevo Marijo, koja si bez povrede djevičanstva bila majka Spasiteljeva. Bogorodice Djevo, u tvojem se zatvori krilu i posta čovjek onaj koga sav svijet ne može obuhvatiti.
+  - (8×, e.g. propers_20170218_0.json) Blagoslovljena si i časna, Djevo Marijo, koja si bez povrede djevičanstva bila majka Spasiteljeva. Bogorodice Djevo, u tvojem se zatvori krilu postavši čovjek, onaj koga sav svijet ne može obuhvatiti.
+- **Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia mea: inclína aurem tuam, et exáudi verba mea: mirífica misericórdias tuas, qui salvos facis sper…**
+  - (4×, e.g. propers_20170219_0.json) Da vjerno koračam tvojim stazama, da ne posrnem u svojem hodu. Prigni svoje uho i usliši moje riječi. Pokaži divno svoje milosrđe, Gospodine, koji spašavaš one što se uzdaju u te.
+  - (4×, e.g. propers_20170716_0.json) Učvrsti moje korake na tvojim stazama da u svome hodu ne posrnem. Prigni svoje uho k meni i usliši moje riječi. Pokaži svoje divno milosrđe, ti koji spašavaš one koji se uzdaju u tebe, Gospodine!
+- **Ps 16, 5-6 et 7 Pérfice gressus meos in sémitis tuis, ut non moveántur vestígia mea: inclína aurem tuam, et exáudi verba mea: mirífica misericórdias tuas, qui s…**
+  - (4×, e.g. propers_20170219_0.json) Ps 16, 5-6 i 7 Da vjerno koračam tvojim stazama, da ne posrnem u svojem hodu. Prigni svoje uho i usliši moje riječi. Pokaži divno svoje milosrđe, Gospodine, koji spašavaš one što se uzdaju u te.
+  - (4×, e.g. propers_20170716_0.json) Ps 16, 5 i 6-7 Učvrsti moje korake na tvojim stazama da u svome hodu ne posrnem. Prigni svoje uho k meni i usliši moje riječi. Pokaži svoje divno milosrđe, ti koji spašavaš one koji se uzdaju u tebe, Gospodine!
+- **Constítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine, in omni progénie et generatióne.**
+  - (3×, e.g. propers_20170224_0.json) Postavit ćeš ih za knezove nad svom zemljom. Spominjat će tvoje ime, Gospodine, u svakom pokoljenju i naraštaju.
+  - (2×, e.g. propers_20170629_0.json) Postavit ćeš ih za knezove nad svom zemljom, spominjat će tvoje ime, Gospodine, u svakom pokoljenju i naraštaju.
+- **Ps 44, 17-18 Constítues eos príncipes super omnem terram: mémores erunt nóminis tui, Dómine, in omni progénie et generatióne.**
+  - (3×, e.g. propers_20170224_0.json) Ps 44, 17-18 Postavit ćeš ih za knezove nad svom zemljom. Spominjat će tvoje ime, Gospodine, u svakom pokoljenju i naraštaju.
+  - (2×, e.g. propers_20170629_0.json) Ps 44, 17-18 Postavit ćeš ih za knezove nad svom zemljom, spominjat će tvoje ime, Gospodine, u svakom pokoljenju i naraštaju.
+- **Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me: Dómine, clamávi ad te, et sanásti me.**
+  - (2×, e.g. propers_20170301_0.json) Slavit ću te, Gospodine, jer si me uzeo k sebi. Nisi dao da neprijatelj slavi pobjedu nada mnom. Gospodine, zavapio sam k tebi i ozdravio si me.
+  - (2×, e.g. propers_20170820_0.json) Slavit ću te, Gospodine, jer si me oslobodio i nisi dao da se moji neprijatelji raduju nada mnom. Gospodine Bože moj, vapio sam k tebi i ozdravio si me.
+- **Ps 29, 2-3 Exaltábo te, Dómine, quóniam suscepísti me, nec delectásti inimícos meos super me: Dómine, clamávi ad te, et sanásti me.**
+  - (2×, e.g. propers_20170301_0.json) Ps 29, 2-3 Slavit ću te, Gospodine, jer si me uzeo k sebi. Nisi dao da neprijatelj slavi pobjedu nada mnom. Gospodine, zavapio sam k tebi i ozdravio si me.
+  - (2×, e.g. propers_20170820_0.json) Ps 29, 2-3 Slavit ću te, Gospodine, jer si me oslobodio i nisi dao da se moji neprijatelji raduju nada mnom. Gospodine Bože moj, vapio sam k tebi i ozdravio si me.
+- **Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde mihi, et exáudi me.**
+  - (6×, e.g. propers_20170813_0.json) Usliši, Bože, molitvu moju i ne prezri prošnju moju. Pogledaj na me i usliši me.
+  - (2×, e.g. propers_20170302_0.json) Usliši, Bože, molitvu moju i ne prezri prošnju moju, pogledaj na me i usliši me.
+- **Iacta cogitátum tuum in Dómino, et ipse te enútriet. Dum clamárem ad Dóminum, exaudívit vocem meam ab his, qui appropínquant mihi.**
+  - (4×, e.g. propers_20170302_0.json) Prebaci na Gospodina svoju brigu i on će te hraniti. Kad sam zazvao Gospodina, uslišio je moj glas protiv onih koji mi se neprijateljski približuju.
+  - (4×, e.g. propers_20170625_0.json) Prebaci na Gospodina svoju brigu i on će te braniti. Kad sam zazivao Gospodina, uslišio je moj glas protiv onih koji mi se neprijateljski približuju.
+- **Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non confundéntur…**
+  - (6×, e.g. propers_20170813_0.json) K tebi, Gospodine, uzdižem svoju dušu, Bože moj, u tebe se uzdam, ne daj da se postidim. Neka mi se ne rugaju neprijatelji, jer se neće smesti nitko od onih koji tebe čekaju.
+  - (4×, e.g. propers_20170302_0.json) K tebi, Gospodine Bože moj, uzdižem svoju dušu, u tebe se uzdam. Ne daj da se postidim. Neka mi se ne rugaju neprijatelji, jer se neće smesti nitko od onih koji tebe čekaju.
+- **Ps 24, 1-3 Ad te, Dómine, levávi ánimam meam: Deus meus, in te confído, non erubéscam: neque irrídeant me inimíci mei: étenim univérsi, qui te exspéctant, non c…**
+  - (6×, e.g. propers_20170813_0.json) Ps 24, 1-3 K tebi, Gospodine, uzdižem svoju dušu, Bože moj, u tebe se uzdam, ne daj da se postidim. Neka mi se ne rugaju neprijatelji, jer se neće smesti nitko od onih koji tebe čekaju.
+  - (4×, e.g. propers_20170302_0.json) Ps 24, 1-3 K tebi, Gospodine Bože moj, uzdižem svoju dušu, u tebe se uzdam. Ne daj da se postidim. Neka mi se ne rugaju neprijatelji, jer se neće smesti nitko od onih koji tebe čekaju.
+- **Caeléstis doni benedictióne percépta: súpplices te, Deus omnípotens, deprecámur; ut hoc idem nobis et sacraménti causa sit, et salútis.**
+  - (2×, e.g. propers_20170302_0.json) Pošto smo primili blagoslov nebeskog dara ponizno te molimo, svemogući Bože, da nam ovo bude sredstvo otajstva i spasenja.
+  - (2×, e.g. propers_20170405_0.json) Primivši blagoslov nebeskog dara, ponizno te molimo, svemogući Bože, da nam taj dar bude uzrokom posvećenja i spasenja.
+- **Orémus. Caeléstis doni benedictióne percépta: súpplices te, Deus omnípotens, deprecámur; ut hoc idem nobis et sacraménti causa sit, et salútis. Per Dóminum nost…**
+  - (2×, e.g. propers_20170302_0.json) Pomolimo se. Pošto smo primili blagoslov nebeskog dara ponizno te molimo, svemogući Bože, da nam ovo bude sredstvo otajstva i spasenja. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170405_0.json) Pomolimo se. Primivši blagoslov nebeskog dara, ponizno te molimo, svemogući Bože, da nam taj dar bude uzrokom posvećenja i spasenja. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Dirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine. Elevátio mánuum meárum sacrifícium vespertínum.**
+  - (5×, e.g. propers_20170307_0.json) Neka se vine, Gospodine, molitva moja k tebi kao tamjan. Dizanje ruku mojih kao večernja žrtva.
+  - (4×, e.g. propers_20171015_0.json) Neka se vine molitva moja k tebi kao tamjan, dizanje ruku mojih kao večernja žrtva.
+- **Ps 140, 2 Dirigátur orátio mea sicut incénsum in conspéctu tuo, Dómine. Elevátio mánuum meárum sacrifícium vespertínum.**
+  - (5×, e.g. propers_20170307_0.json) Ps 140, 2 Neka se vine, Gospodine, molitva moja k tebi kao tamjan. Dizanje ruku mojih kao večernja žrtva.
+  - (4×, e.g. propers_20171015_0.json) Ps 140, 2 Neka se vine molitva moja k tebi kao tamjan, dizanje ruku mojih kao večernja žrtva.
+- **Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli. Quóniam confirmáta est super nos misericórdia eius: et véritas Dómini manet in aetérnum.**
+  - (6×, e.g. propers_20170311_0.json) Hvalite Gospodina, sva plemena, hvalite ga, svi narodi. Jer je silno nad nama milosrđe njegovo, i istina Gospodnja ostaje dovijeka.
+  - (4×, e.g. propers_20170603_0.json) Hvalite Gospodina, sva plemena! Hvalite ga svi narodi. Jer je silno nad nama milosrđe njegovo, i istina Gospodnja ostaje dovijeka.
+- **Ps 116, 1-2 Laudáte Dóminum, omnes gentes: et collaudáte eum, omnes pópuli. Quóniam confirmáta est super nos misericórdia eius: et véritas Dómini manet in aetér…**
+  - (6×, e.g. propers_20170311_0.json) Ps 116, 1-2 Hvalite Gospodina, sva plemena, hvalite ga, svi narodi. Jer je silno nad nama milosrđe njegovo, i istina Gospodnja ostaje dovijeka.
+  - (4×, e.g. propers_20170603_0.json) Ps 116, 1-2 Hvalite Gospodina, sva plemena! Hvalite ga svi narodi. Jer je silno nad nama milosrđe njegovo, i istina Gospodnja ostaje dovijeka.
+- **Sanctificatiónibus tuis, omnípotens Deus, et vítia nostra curéntur, et remédia nobis aetérna provéniant.**
+  - (5×, e.g. propers_20171001_0.json) Svemoćni Bože, neka nas tvoja posvetna otajstva iscijele od opačina i neka nam budu na vječnu pomoć.
+  - (3×, e.g. propers_20170311_0.json) Tvoja otajstva, svemogući Bože, neka izliječe naše mane i donesu nam vječnu pomoć.
+- **Orémus. Sanctificatiónibus tuis, omnípotens Deus, et vítia nostra curéntur, et remédia nobis aetérna provéniant. Per Dóminum nostrum Iesum Christum, Fílium tuum…**
+  - (5×, e.g. propers_20171001_0.json) Pomolimo se. Svemoćni Bože, neka nas tvoja posvetna otajstva iscijele od opačina i neka nam budu na vječnu pomoć. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170311_0.json) Pomolimo se. Tvoja otajstva, svemogući Bože, neka izliječe naše mane i donesu nam vječnu pomoć. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Adésto supplicatiónibus nostris, omnípotens Deus: et, quibus fidúciam sperándae pietátis indúlges; consuétae misericórdiae tríbue benígnus efféctum.**
+  - (2×, e.g. propers_20170313_0.json) Milostiv budi, svemogući Bože, našim vapajima i dobrostivo udijeli učinak običajnog milosrđa nama kojima daješ pouzdanje u očinsku dobrotu kojoj se nadamo.
+  - (2×, e.g. propers_20170405_0.json) Milostiv budi, svemogući Bože, našim vapajima i dobrostivo udijeli da osjetimo tvoje neprestano milosrđe mi kojima daješ pouzdanje u tvoju očinsku dobrotu kojoj se nadamo.
+- **Orémus. Humiliáte cápita vestra Deo. Adésto supplicatiónibus nostris, omnípotens Deus: et, quibus fidúciam sperándae pietátis indúlges; consuétae misericórdiae …**
+  - (2×, e.g. propers_20170313_0.json) Pomolimo se. Prignite pred Bogom svoje glave. Milostiv budi, svemogući Bože, našim vapajima i dobrostivo udijeli učinak običajnog milosrđa nama kojima daješ pouzdanje u očinsku dobrotu kojoj se nadamo. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetog…
+  - (2×, e.g. propers_20170405_0.json) Pomolimo se. Prignite pred Bogom svoje glave. Milostiv budi, svemogući Bože, našim vapajima i dobrostivo udijeli da osjetimo tvoje neprestano milosrđe mi kojima daješ pouzdanje u tvoju očinsku dobrotu kojoj se nadamo. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedin…
+- **Caeli enárrant glóriam Dei: et ópera mánuum eius annúntiat firmaméntum.**
+  - (4×, e.g. propers_20170318_0.json) Nebesa pripovijedaju slavu Božju i nebeski svod navješćuje djelo njegovih ruku.
+  - (2×, e.g. propers_20170628_0.json) . Nebesa pripovijedaju slavu Božju i nebeski svod naviješćuje djelo njegovih ruku.
+- **Iustítiae Dómini rectae, laetificántes corda, et iudícia eius dulcióra super mel et favum: nam et servus tuus custódit ea.**
+  - (4×, e.g. propers_20170811_0.json) Naredbe su Gospodnje ispravne, one razveseljuju srca. I sudovi su njegovi slađi od meda i saća, pa sluga tvoj pazi na njih.
+  - (2×, e.g. propers_20170319_0.json) Gospodnji su sudovi pravedni, razveseljuju srca. I odluke su njegove slađe od međa i saća, jer ih sluga tvoj izvršuje.
+- **Ps 18, 9 et 10 et 11 et 12 Iustítiae Dómini rectae, laetificántes corda, et iudícia eius dulcióra super mel et favum: nam et servus tuus custódit ea.**
+  - (4×, e.g. propers_20170811_0.json) Ps 18, 9 i 10 i 11 i 12 Naredbe su Gospodnje ispravne, one razveseljuju srca. I sudovi su njegovi slađi od meda i saća, pa sluga tvoj pazi na njih.
+  - (2×, e.g. propers_20170319_0.json) Ps 18, 9 i 10 i 11 i 12 Gospodnji su sudovi pravedni, razveseljuju srca. I odluke su njegove slađe od međa i saća, jer ih sluga tvoj izvršuje.
+- **Ps 117, 16 et 17 Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me: non móriar, sed vivam, et narrábo ópera Dómini.**
+  - (2×, e.g. propers_20170321_0.json) Ps 117, 16 i 17 Desnica je Gospodnja izvela junačko djelo, desnica me Gospodnja podigla. Neću umrijeti nego ću živjeti i naviještati djela Gospodnja.
+  - (2×, e.g. propers_20170413_1.json) Ps 117, 16 i 17 Desnica je Gospodnja izvela junačko djelo, desnica me Gospodnja podigla. Neću umrijeti, nego ću živjeti i naviještati djela Gospodnja.
+- **Concéde, quaésumus, omnípotens Deus: ut, qui protectiónis tuae grátiam quaérimus, liberáti a malis ómnibus, secúra tibi mente serviámus.**
+  - (2×, e.g. propers_20170322_0.json) Daj, molimo, svemogući Bože, da ti mi koji molimo za milost tvoje zaštite, izbavljeni od svih zala, služimo bez straha.
+  - (2×, e.g. propers_20170407_0.json) Daj, molimo, svemogući Bože, da ti mi, koji molimo za milost tvoje zaštite, izbavljeni od svih zala, služimo bez straha.
+- **Orémus. Humiliáte cápita vestra Deo. Concéde, quaésumus, omnípotens Deus: ut, qui protectiónis tuae grátiam quaérimus, liberáti a malis ómnibus, secúra tibi men…**
+  - (2×, e.g. propers_20170322_0.json) Pomolimo se. Prignite pred Bogom svoje glave. Daj, molimo, svemogući Bože, da ti mi koji molimo za milost tvoje zaštite, izbavljeni od svih zala, služimo bez straha. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.…
+  - (2×, e.g. propers_20170407_0.json) Pomolimo se. Prignite pred Bogom svoje glave. Daj, molimo, svemogući Bože, da ti mi, koji molimo za milost tvoje zaštite, izbavljeni od svih zala, služimo bez straha. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.…
+- **Oculi ómnium in te sperant, Dómine: et tu das illis escam in témpore opportúno. Aperis tu manum tuam: et imples omne ánimal benedictióne.**
+  - (8×, e.g. propers_20170323_0.json) Oči sviju uzdaju se u tebe, Gospodine, i ti im daješ hranu u pravo vrijeme. Ti otvaraš svoju ruku i puniš blagoslovom sve što živi.
+  - (2×, e.g. propers_20170615_0.json) Oči sviju uzdaju se u tebe, Gospodine, i ti im daješ hranu u pravo vrijeme. Otvaraš svoju ruku i napunjaš blagoslovom sve što živi.
+- **Ps 144, 15-16 Oculi ómnium in te sperant, Dómine: et tu das illis escam in témpore opportúno. Aperis tu manum tuam: et imples omne ánimal benedictióne.**
+  - (8×, e.g. propers_20170323_0.json) Ps 144, 15-16 Oči sviju uzdaju se u tebe, Gospodine, i ti im daješ hranu u pravo vrijeme. Ti otvaraš svoju ruku i puniš blagoslovom sve što živi.
+  - (2×, e.g. propers_20170615_0.json) Ps 144, 15-16 Oči sviju uzdaju se u tebe, Gospodine, i ti im daješ hranu u pravo vrijeme. Otvaraš svoju ruku i napunjaš blagoslovom sve što živi.
+- **Huius nos, Dómine, percéptio sacraménti mundet a crímine: et ad caeléstia regna perdúcat.**
+  - (2×, e.g. propers_20170324_0.json) Primanje ovog otajstva neka nas, Gospodine, očisti od opačina i privede u kraljevstvo nebesko.
+  - (2×, e.g. propers_20170328_0.json) Primanje ovog otajstva neka nas, Gospodine, očisti od zločina i privede u kraljevstvo nebesko.
+- **Orémus. Huius nos, Dómine, percéptio sacraménti mundet a crímine: et ad caeléstia regna perdúcat. Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui tecum viv…**
+  - (2×, e.g. propers_20170324_0.json) Pomolimo se. Primanje ovog otajstva neka nas, Gospodine, očisti od opačina i privede u kraljevstvo nebesko. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170328_0.json) Pomolimo se. Primanje ovog otajstva neka nas, Gospodine, očisti od zločina i privede u kraljevstvo nebesko. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Deus, qui de beátae Maríae Vírginis útero Verbum tuum, Angelo nuntiánte, carnem suscípere voluísti: praesta supplícibus tuis; ut, qui vere eam Genetrícem Dei cr…**
+  - (2×, e.g. propers_20170325_0.json) Bože, koji si htio da po anđelovu navještenju tvoja Riječ uzme tijelo u krilu blažene Djevice Marije, daj, smjerno te molimo, da mi koji je priznajemo Bogorodicom, po njezinu zagovoru nađemo pomoć u tebe.
+  - (2×, e.g. propers_20171011_0.json) Bože, koji si htio da po anđelovu navještenju Riječ tvoja uzme tijelo u krilu blažene Djevice Marije, daj molimo da mi koji je držimo doista Bogorodicom po njezinu zagovoru nađemo pomoć u tebe.
+- **Orémus. Deus, qui de beátae Maríae Vírginis útero Verbum tuum, Angelo nuntiánte, carnem suscípere voluísti: praesta supplícibus tuis; ut, qui vere eam Genetríce…**
+  - (2×, e.g. propers_20170325_0.json) Pomolimo se. Bože, koji si htio da po anđelovu navještenju tvoja Riječ uzme tijelo u krilu blažene Djevice Marije, daj, smjerno te molimo, da mi koji je priznajemo Bogorodicom, po njezinu zagovoru nađemo pomoć u tebe. Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u…
+  - (2×, e.g. propers_20171011_0.json) Pomolimo se. Bože, koji si htio da po anđelovu navještenju Riječ tvoja uzme tijelo u krilu blažene Djevice Marije, daj molimo da mi koji je držimo doista Bogorodicom po njezinu zagovoru nađemo pomoć u tebe. Po istom Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu …
+- **Laetátus sum in his, quae dicta sunt mihi: in domum Dómini íbimus.**
+  - (6×, e.g. propers_20171008_0.json) Obradovah se kad mi rekoše: Idemo u dom Gospodnji.
+  - (2×, e.g. propers_20170326_0.json) Obradovao sam se kad mi rekoše: Idemo u dom Gospodnji.
+- **Laetátus sum in his, quae dicta sunt mihi: in domum Dómini íbimus. Fiat pax in virtúte tua: et abundántia in túrribus tuis.**
+  - (6×, e.g. propers_20171008_0.json) Obradovah se kad mi rekoše: Idemo u dom Gospodnji. Neka bude mir u zidinama tvojim, sigurnost u palačama tvojim.
+  - (2×, e.g. propers_20170326_0.json) Obradovao sam se kad mi rekoše: »Idemo u dom Gospodnji.« Neka bude mir u tvojim tvrđavama, sigurnost u tvojim kulama.
+- **Ps 121, 1 et 7 Laetátus sum in his, quae dicta sunt mihi: in domum Dómini íbimus. Fiat pax in virtúte tua: et abundántia in túrribus tuis.**
+  - (6×, e.g. propers_20171008_0.json) Ps 121, 1 i 7 Obradovah se kad mi rekoše: Idemo u dom Gospodnji. Neka bude mir u zidinama tvojim, sigurnost u palačama tvojim.
+  - (2×, e.g. propers_20170326_0.json) Ps 121, 1 i 7 Obradovao sam se kad mi rekoše: »Idemo u dom Gospodnji.« Neka bude mir u tvojim tvrđavama, sigurnost u tvojim kulama.
+- **Praesta, quaésumus, omnípotens Deus: ut, observatiónes sacras ánnua devotióne recoléntes, et córpore tibi placeámus, et mente.**
+  - (2×, e.g. propers_20170327_0.json) Podaj, molimo, svemogući Bože, da izvršavajući pobožno svake godine svete propise ugodimo ti tijelom i dušom.
+  - (2×, e.g. propers_20170922_0.json) Daj, molimo, svemogući Bože, da ti se doživljujući svake godine ove svete dane svidimo tijelom i dušom.
+- **Orémus. Praesta, quaésumus, omnípotens Deus: ut, observatiónes sacras ánnua devotióne recoléntes, et córpore tibi placeámus, et mente. Per Dóminum nostrum Iesum…**
+  - (2×, e.g. propers_20170327_0.json) Pomolimo se. Podaj, molimo, svemogući Bože, da izvršavajući pobožno svake godine svete propise ugodimo ti tijelom i dušom. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (1×, e.g. propers_20170922_0.json) Pomolimo se. Daj, molimo, svemogući Bože, da ti se doživljujući svake godine ove svete dane svidimo tijelom i dušom. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Exáudi, Deus, oratiónem meam, et ne despéxeris deprecatiónem meam: inténde in me, et exáudi me.**
+  - (4×, e.g. propers_20170328_0.json) Usliši, Bože, molitvu moju i ne prezri prošnju moju, pogledaj na me i čuj me.
+  - (1×, e.g. propers_20180305_0.json) Usliši, Bože, molitvu moju i ne prezri prošnju moju, pogledaj na me i usliši me.
+- **Beáta gens, cuius est Dóminus Deus eórum: pópulus, quem elégit Dóminus in hereditátem sibi. Verbo Dómini caeli firmáti sunt: et spíritu oris eius omnis virtus e…**
+  - (7×, e.g. propers_20170329_0.json) Blago narodu kojemu je Bog Gospodin, puku koji on izabra sebi za baštinu! Riječju su Gospodnjom stvorena nebesa, i dahom njegovih usta sva vojska njihova.
+  - (2×, e.g. propers_20170920_0.json) Blago narodu kojemu je Bog Gospodin, puku koji on izabra sebi za baštinu! Riječju su Gospodnjom stvorena nebesa i dahom njegovih usta sva vojska njihova.
+- **Ps 32, 12 et 6 Beáta gens, cuius est Dóminus Deus eórum: pópulus, quem elégit Dóminus in hereditátem sibi. Verbo Dómini caeli firmáti sunt: et spíritu oris eius…**
+  - (7×, e.g. propers_20170329_0.json) Ps 32, 12 i 6 Blago narodu kojemu je Bog Gospodin, puku koji on izabra sebi za baštinu! Riječju su Gospodnjom stvorena nebesa, i dahom njegovih usta sva vojska njihova.
+  - (2×, e.g. propers_20170920_0.json) Ps 32, 12 i 6 Blago narodu kojemu je Bog Gospodin, puku koji on izabra sebi za baštinu! Riječju su Gospodnjom stvorena nebesa i dahom njegovih usta sva vojska njihova.
+- **Páteant aures misericórdiae tuae, Dómine, précibus supplicántium: et, ut peténtibus desideráta concédas; fac eos, quae tibi sunt plácita, postuláre.**
+  - (4×, e.g. propers_20170811_0.json) Uši milosrđa tvoga, Gospodine, neka budu otvorene molbama onih koji ti se mole, i daj da od tebe ištu ono što je tebi ugodno da bi im željama udovoljio.
+  - (2×, e.g. propers_20170329_0.json) Otajstva što smo ih primili, Gospodine, Bože naš, neka nas i napune duhovnom hranom i štite tjelesnom pomoći.
+- **Oblatiónibus nostris, quaésumus, Dómine, placáre suscéptis: et ad te nostras étiam rebélles compélle propítius voluntátes.**
+  - (5×, e.g. propers_20170702_0.json) Primi naše prinose, molimo, Gospodine, kao pomirbeni dar pa i naše buntovne volje usmjeri k sebi.
+  - (2×, e.g. propers_20170401_0.json) Ublaži se, molimo, Gospodine, primanjem naših darova i milostiv privuci također k sebi naše volje, premda se protive.
+- **Oblatiónibus nostris, quaésumus, Dómine, placáre suscéptis: et ad te nostras étiam rebélles compélle propítius voluntátes. Per Dóminum nostrum Iesum Christum, F…**
+  - (5×, e.g. propers_20170702_0.json) Primi naše prinose, molimo, Gospodine, kao pomirbeni dar pa i naše buntovne volje usmjeri k sebi. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170401_0.json) Ublaži se, molimo, Gospodine, primanjem naših darova i milostiv privuci također k sebi naše volje, premda se protive. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Haec múnera, quaésumus, Dómine, et víncula nostrae pravitátis absólvant, et tuae nobis misericórdiae dona concílient.**
+  - (10×, e.g. propers_20170425_0.json) Ovi prinosi, Gospodine, razriješili okove naše zlobe i donijeli nam darove tvojega milosrđa.
+  - (2×, e.g. propers_20170402_0.json) Ovaj prinos, molimo, Gospodine, neka razriješi okove naše zloće i neka nam pribavi darove tvojeg milosrđa.
+- **Haec múnera, quaésumus, Dómine, et víncula nostrae pravitátis absólvant, et tuae nobis misericórdiae dona concílient. Per Dóminum nostrum Iesum Christum, Fílium…**
+  - (8×, e.g. propers_20170425_1.json) Ovi prinosi, Gospodine, razriješili okove naše zlobe i donijeli nam darove tvojega milosrđa. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170402_0.json) Ovaj prinos, molimo, Gospodine, neka razriješi okove naše zloće i neka nam pribavi darove tvojeg milosrđa. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Díligam te, Dómine, virtus mea: Dóminus firmaméntum meum, et refúgium meum, et liberátor meus.**
+  - (4×, e.g. propers_20170618_0.json) Ljubim te, Gospodine, jakosti moja! Gospodin je stijena moja, tvrđava moja, osloboditelj moj.
+  - (2×, e.g. propers_20170405_0.json) Ljubim te, Gospodine, jakosti moja. Gospodin je moja tvrđava, moje utočište i moj osloboditelj.
+- **Tóllite hóstias, et introíte in átria eius: adoráte Dóminum in aula sancta eius.**
+  - (6×, e.g. propers_20171008_0.json) Prinesite žrtve i uđite u dvore njegove, klanjajte se Gospodinu u svetom hramu njegovu.
+  - (2×, e.g. propers_20170406_0.json) Prinesite žrtve i uđite u dvore njegove. Klanjajte se Gospodinu u svetom hramu njegovu.
+- **Praébeant nobis, Dómine, divínum tua sancta fervórem: quo eórum páriter et actu delectémur et fructu.**
+  - (4×, e.g. propers_20170610_0.json) Napunila nas, Gospodine, tvoja sveta otajstva božanskim žarom, te uživali i u njihovu vršenju i plodu.
+  - (2×, e.g. propers_20170410_0.json) Napunila nas, Gospodine, tvoja sveta otajstva božanskim žarom, da uzmognemo uživati u njihovu vršenju i učinku.
+- **Orémus. Praébeant nobis, Dómine, divínum tua sancta fervórem: quo eórum páriter et actu delectémur et fructu. Per Dóminum nostrum Iesum Christum, Fílium tuum: Q…**
+  - (4×, e.g. propers_20170610_0.json) Pomolimo se. Napunila nas, Gospodine, tvoja sveta otajstva božanskim žarom, te uživali i u njihovu vršenju i plodu. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170410_0.json) Pomolimo se. Napunila nas, Gospodine, tvoja sveta otajstva božanskim žarom, da uzmognemo uživati u njihovu vršenju i učinku. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Nos autem gloriári opórtet in Cruce Dómini nostri Iesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti sumus.**
+  - (4×, e.g. propers_20170411_0.json) Mi treba da se dičimo križem Gospodina našega Isusa Krista. U njemu je naše spasenje, život i uskrsnuće. Po njemu smo spašeni i izbavljeni.
+  - (4×, e.g. propers_20170914_0.json) Mi treba da se dičimo Križem Gospodina našega Isusa Krista. U njemu je naše spasenje, život i uskrsnuće. Po njemu smo spašeni i izbavljeni.
+- **Deus misereátur nostri, et benedícat nobis: illúminet vultum suum super nos, et misereátur nostri.**
+  - (4×, e.g. propers_20170413_1.json) Nek' nam se smiluje Bog i neka nas blagoslovi! Neka naš obasja svojim licem i nek' nam se smiluje!
+  - (2×, e.g. propers_20170411_0.json) Nek nam se smiluje Bog i neka nas blagoslovi! Neka naš obasja svojim licem i nek nam se smiluje!
+- **Gal 6, 14, Ps 66, 2 Nos autem gloriári opórtet in Cruce Dómini nostri Iesu Christi: in quo est salus, vita et resurréctio nostra: per quem salváti et liberáti s…**
+  - (2×, e.g. propers_20170411_0.json) Gal 6, 14, Ps 66, 2 (Gal 6, 14) Mi treba da se dičimo križem Gospodina našega Isusa Krista. U njemu je naše spasenje, život i uskrsnuće. Po njemu smo spašeni i izbavljeni. (Ps 66, 2) Nek nam se smiluje Bog i neka nas blagoslovi! Neka naš obasja svojim licem i nek nam se smiluje! (Gal 6, 14) Mi treba…
+  - (2×, e.g. propers_20170413_1.json) Gal 6, 14, Ps 66, 2 (Gal 6, 14) Mi treba da se dičimo križem Gospodina našega Isusa Krista. U njemu je naše spasenje, život i uskrsnuće. Po njemu smo spašeni i izbavljeni. (Ps 66, 2) Nek' nam se smiluje Bog i neka nas blagoslovi! Neka naš obasja svojim licem i nek' nam se smiluje! (Gal 6, 14) Mi tre…
+- **Dóminus Iesus, postquam cenávit cum discípulis suis, lavit pedes eórum, et ait illis: Scitis quid fécerim vobis ego, Dóminus et Magister? Exémplum dedi vobis, u…**
+  - (4×, e.g. propers_20170413_1.json) Kad je Gospodin Isus večerao sa svojim učenicima, oprao im je noge i rekao: Znate li što sam vam učinio ja, Gospodin i Učitelj? Dao sam vam primjer da i vi tako činite!
+  - (2×, e.g. propers_20170413_1.json) Kad je Gospodin Isus večerao sa svojim učenicima, oprao im je noge i rekao: Znate li, što sam vam učinio ja, Gospodin i Učitelj? Dao sam vam primjer da i vi tako činite!
+- **amen, allelúia.**
+  - (30×, e.g. propers_20170416_0.json) amen, aleluja.
+  - (2×, e.g. propers_20170615_0.json) amen, allelúia.
+- **Súscipe, quaésumus Dómine, preces pópuli tui cum oblatiónibus hostiárum: ut paschálibus initiáta mystériis, ad aeternitátis nobis medélam, te operánte, profícia…**
+  - (2×, e.g. propers_20170416_0.json) Sa žrtvenim prinosima primi, molimo, Gospodine, i molitve svoga puka, da posvećene uskrsnim otajstvima, po tvojem djelovanju budu nama na pomoć za vječnost.
+  - (2×, e.g. propers_20170417_0.json) Sa žrtvenim prinosima, primi, molimo, Gospodine, i molitve svoga puka, da posvećene uskrsnim otajstvima, po tvojem djelovanju budu nama na pomoć za vječnost.
+- **Súscipe, quaésumus Dómine, preces pópuli tui cum oblatiónibus hostiárum: ut paschálibus initiáta mystériis, ad aeternitátis nobis medélam, te operánte, profícia…**
+  - (2×, e.g. propers_20170416_0.json) Sa žrtvenim prinosima primi, molimo, Gospodine, i molitve svoga puka, da posvećene uskrsnim otajstvima, po tvojem djelovanju budu nama na pomoć za vječnost. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170417_0.json) Sa žrtvenim prinosima, primi, molimo, Gospodine, i molitve svoga puka, da posvećene uskrsnim otajstvima, po tvojem djelovanju budu nama na pomoć za vječnost. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Spíritum nobis, Dómine, tuae caritátis infúnde: ut, quos sacraméntis paschálibus satiásti, tua fácias pietáte concórdes.**
+  - (2×, e.g. propers_20170416_0.json) Ulij nam, Gospodine, Duha ljubavi svoje i složi svojom blagošću one koje si nasitio uskrsnim tajnama.
+  - (2×, e.g. propers_20170417_0.json) Ulij, nam, Gospodine, duh ljubavi svoje i složi svojom blagošću one koje si nasitio uskrsnim tajnama.
+- **Orémus. Spíritum nobis, Dómine, tuae caritátis infúnde: ut, quos sacraméntis paschálibus satiásti, tua fácias pietáte concórdes. Per Dóminum nostrum Iesum Chris…**
+  - (2×, e.g. propers_20170416_0.json) Pomolimo se. Ulij nam, Gospodine, Duha ljubavi svoje i složi svojom blagošću one koje si nasitio uskrsnim tajnama. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu istog Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170417_0.json) Pomolimo se. Ulij, nam, Gospodine, duh ljubavi svoje i složi svojom blagošću one koje si nasitio uskrsnim tajnama. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu istog Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Angelus Dómini descéndit de caelo, et dixit muliéribus: Quem quaéritis, surréxit, sicut dixit, allelúia.**
+  - (4×, e.g. propers_20170423_0.json) Anđeo Gospodnji siđe s neba i reče ženama: Onaj kojega tražite uskrsnuo je, kako je rekao, aleluja.
+  - (2×, e.g. propers_20170417_0.json) Anđeo je Gospodnji sišao s neba i rekao ženama: Uskrsnuo je onaj koga tražite kako je rekao, aleluja.
+- **Súscipe, Dómine, fidélium preces, cum oblatiónibus hostiárum: ut, per haec piae devotiónis offícia, ad caeléstem glóriam transeámus.**
+  - (9×, e.g. propers_20170521_0.json) Sa žrtvenim prinosima primi, Gospodine, i molitve svojih vjernika da po ovoj službi pobožne odanosti prijeđemo u nebesku slavu.
+  - (2×, e.g. propers_20170418_0.json) Primi, molimo, Gospodine, molitve puka svoga koji ti prinosi ove žrtve da po ovoj službi svete pobožnosti prijeđemo u nebesku slavu.
+- **Súscipe, Dómine, fidélium preces, cum oblatiónibus hostiárum: ut, per haec piae devotiónis offícia, ad caeléstem glóriam transeámus. Per Dóminum nostrum Iesum C…**
+  - (7×, e.g. propers_20170521_0.json) Sa žrtvenim prinosima primi, Gospodine, i molitve svojih vjernika da po ovoj službi pobožne odanosti prijeđemo u nebesku slavu. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170418_0.json) Primi, molimo, Gospodine, molitve puka svoga koji ti prinosi ove žrtve da po ovoj službi svete pobožnosti prijeđemo u nebesku slavu. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Portas caeli apéruit Dóminus: et pluit illis manna, ut éderent: panem caeli dedit eis: panem Angelórum manducávit homo, allelúia.**
+  - (2×, e.g. propers_20170419_0.json) Gospodin je otvorio nebeska vrata i dao je da pada mana poput kiše da jedu. Dao im je kruh s nebesa, čovjek je blagovao anđeoski kruh, aleluja.
+  - (2×, e.g. propers_20170606_0.json) Gospodin je otvorio nebeska vrata i dao je da pada mana poput kiše da jedu! Dao im je kruh s nebesa, čovjek je blagovao anđeoski kruh, aleluja.
+- **Ps 77, 23-25 Portas caeli apéruit Dóminus: et pluit illis manna, ut éderent: panem caeli dedit eis: panem Angelórum manducávit homo, allelúia.**
+  - (2×, e.g. propers_20170419_0.json) Ps 77, 23-25 Gospodin je otvorio nebeska vrata i dao je da pada mana poput kiše da jedu. Dao im je kruh s nebesa, čovjek je blagovao anđeoski kruh, aleluja.
+  - (2×, e.g. propers_20170606_0.json) Ps 77, 23-25 Gospodin je otvorio nebeska vrata i dao je da pada mana poput kiše da jedu! Dao im je kruh s nebesa, čovjek je blagovao anđeoski kruh, aleluja.
+- **Allelúia**
+  - (120×, e.g. propers_20170422_0.json) Aleluja
+  - (18×, e.g. propers_20170603_0.json) Aleluja.
+- **Redemptiónis nostrae múnere vegetáti, quaésumus, Dómine: ut hoc perpétuae salútis auxílio fides semper vera profíciat.**
+  - (2×, e.g. propers_20170422_0.json) Redemptiónis nostrae múnere vegetáti, quaésumus, Dómine: ut hoc perpétuae salútis auxílio fides semper vera profíciat.
+  - (2×, e.g. propers_20171022_0.json) Okrijepljeni darom našeg otkupljenja, molimo, Gospodine, da se sve više širi prava vjera ojačana ovim pomagalom vječnog spasenja.
+- **Confitebúntur caeli mirabília tua, Dómine: étenim veritátem tuam in ecclésia sanctórum. Allelúia.**
+  - (9×, e.g. propers_20170424_0.json) Nebesa slave tvoja čudesa, Gospodine, a zbor svetih tvoju vjernost, aleluja.
+  - (2×, e.g. propers_20170511_0.json) Nebesa slave tvoja čudesa. Gospodine, a zbor svetih tvoju vjernost, aleluja.
+- **Posuísti, Dómine, super caput eius corónam de lápide pretióso. Allelúia.**
+  - (9×, e.g. propers_20170424_0.json) Gospodine, okrunio si ga krunom od dragoga kamenja, aleluja.
+  - (2×, e.g. propers_20170928_0.json) Okrunio si ga, Gospodine, krunom od dragoga kamenja. Aleluja.
+- **Confitebúntur caeli mirabília tua, Dómine: et veritátem tuam in ecclésia sanctórum, allelúia, allelúia.**
+  - (9×, e.g. propers_20170424_0.json) Nebesa slave tvoja čudesa, Gospodine, a zbor svetih tvoju vjernost, aleluja, aleluja.
+  - (4×, e.g. propers_20170511_0.json) Nebesa slave tvoja čudesa. Gospodine, a zbor svetih tvoju vjernost, aleluja, aleluja.
+- **Ps 88, 6 Confitebúntur caeli mirabília tua, Dómine: et veritátem tuam in ecclésia sanctórum, allelúia, allelúia.**
+  - (9×, e.g. propers_20170424_0.json) Ps 88, 6 Nebesa slave tvoja čudesa, Gospodine, a zbor svetih tvoju vjernost, aleluja, aleluja.
+  - (4×, e.g. propers_20170511_0.json) Ps 88, 6 Nebesa slave tvoja čudesa. Gospodine, a zbor svetih tvoju vjernost, aleluja, aleluja.
+- **Da, quaésumus, Dómine Deus noster: ut, sicut tuórum commemoratióne Sanctórum temporáli gratulámur offício; ita perpétuo laetémur aspéctu.**
+  - (7×, e.g. propers_20170725_0.json) Daj, molimo, Gospodine Bože naš, da se tako radujemo vječnim gledanjem tvojih svetih kao što se veselimo sjećanjem na njih po vremenitoj službi.
+  - (3×, e.g. propers_20170424_0.json) Daj, molimo, Gospodine Bože naš, da se tako u vječnosti radujemo gledanjem tvojih svetih, kao što u vremenu radosno svetkujemo njihov spomen.
+- **Orémus. Da, quaésumus, Dómine Deus noster: ut, sicut tuórum commemoratióne Sanctórum temporáli gratulámur offício; ita perpétuo laetémur aspéctu. Per Dóminum no…**
+  - (3×, e.g. propers_20170424_0.json) Pomolimo se. Daj, molimo, Gospodine Bože naš, da se tako u vječnosti radujemo gledanjem tvojih svetih, kao što u vremenu radosno svetkujemo njihov spomen. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170928_0.json) Pomolimo se. Daj, molimo, Gospodine Bože naš, da se tako radujemo vječnim gledanjem tvojih svetih kao što se veselimo sjećanjem na njih po vremenitoj službi. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Beátus qui intéllegit super egénum et páuperem: in die mala liberábit eum Dóminus.**
+  - (2×, e.g. propers_20170428_0.json) Blago onom koji razumije siromaha i uboga, u zao dan izbavit će ga Gospodin.
+  - (2×, e.g. propers_20170718_0.json) Blago onom koji razumije siromaha i ubogog, u zao dan izbavit će ga Gospodin.
+- **Sequéntia sancti Evangélii secúndum Ioánnem. In illo témpore: Stabant iuxta Crucem Iesu mater eius, et soror matris eius María Cléophae, et María Magdaléne. Cum…**
+  - (4×, e.g. propers_20170822_0.json) Slijedi sveto Evanđelje po Luki. U ono vrijeme: Stajale su kod križa Isusova njegova Majka i sestra Majke njegove Marija Kleofina i Marija Magdalena. Kada dakle vidje Isus Majku i učenika, koga ljubljaše gdje stoji, reče svojoj Majci: Ženo, evo ti sina. Zatim reče učeniku: Evo ti majke. I od onoga č…
+  - (1×, e.g. propers_20170506_0.json) Slijedi sveto Evanđelje po Ivanu. U ono vrijeme: Uz Isusov križ stajale su njegova majka i sestra njegove majke Marija Kleofina i Marija Magdalena. Kada je Isus vidio svoju majku i uz nju učenika, kojega je ljubio, reče svojoj majci: »Zeno, evo ti sina!« Poslije toga reče učeniku: »Evo ti majke!« I …
+- **Io 19, 25-27 Sequéntia sancti Evangélii secúndum Ioánnem. In illo témpore: Stabant iuxta Crucem Iesu mater eius, et soror matris eius María Cléophae, et María M…**
+  - (4×, e.g. propers_20170822_0.json) Iv 19, 25-27 Slijedi sveto Evanđelje po Luki. U ono vrijeme: Stajale su kod križa Isusova njegova Majka i sestra Majke njegove Marija Kleofina i Marija Magdalena. Kada dakle vidje Isus Majku i učenika, koga ljubljaše gdje stoji, reče svojoj Majci: Ženo, evo ti sina. Zatim reče učeniku: Evo ti majke.…
+  - (1×, e.g. propers_20170506_0.json) Iv 19, 25-27 Slijedi sveto Evanđelje po Ivanu. U ono vrijeme: Uz Isusov križ stajale su njegova majka i sestra njegove majke Marija Kleofina i Marija Magdalena. Kada je Isus vidio svoju majku i uz nju učenika, kojega je ljubio, reče svojoj majci: »Zeno, evo ti sina!« Poslije toga reče učeniku: »Evo …
+- **Lauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: psallam Deo meo, quámdiu ero, allelúia.**
+  - (4×, e.g. propers_20170507_0.json) Hvali, dušo moja, Gospodina! Hvalit ću Gospodina za života svojega! Pjevat ću Bogu svojemu dok me bude, aleluja.
+  - (2×, e.g. propers_20170609_0.json) Hvali, dušo moja, Gospodina, hvalit ću Gospodina za svojega života, psalme ću pjevati Bogu svojemu dok me bude, aleluja.
+- **Ps 145, 2 Lauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: psallam Deo meo, quámdiu ero, allelúia.**
+  - (4×, e.g. propers_20170507_0.json) Ps 145, 2 Hvali, dušo moja, Gospodina! Hvalit ću Gospodina za života svojega! Pjevat ću Bogu svojemu dok me bude, aleluja.
+  - (2×, e.g. propers_20170609_0.json) Ps 145, 2 Hvali, dušo moja, Gospodina, hvalit ću Gospodina za svojega života, psalme ću pjevati Bogu svojemu dok me bude, aleluja.
+- **Orémus. Quaésumus, Dómine, salutáribus repléti mystériis: ut, quorum solémnia celebrámus, eórum oratiónibus adiuvémur. Per Dóminum nostrum Iesum Christum, Fíliu…**
+  - (2×, e.g. propers_20170511_0.json) Pomolimo se. Okrijepljeni spasonosnim tajnama, molimo te, Gospodine, da nam pomognu molitve onih čiji blagdan slavimo. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (1×, e.g. propers_20170916_0.json) Pomolimo se. Nasićeni spasonosnim tajnama, molimo, Gospodine, da nas pomažu molitve onih kojih svetkovinu slavimo. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Haec est vera fratérnitas, quae vicit mundi crímina: Christum secúta est, ínclita tenens regna caeléstia. Allelúia.**
+  - (4×, e.g. propers_20170512_0.json) Ovo je pravo bratstvo koje je pobijedilo opačine svijeta, slijedilo je Krista i zadobilo slavno nebesko kraljevstvo. Aleluja.
+  - (2×, e.g. propers_20170927_0.json) Ovo je pravo bratstvo koje je pobijedilo opačine svijeta, slijedilo je Krista i zadobilo slavimo nebesko kraljevstvo. Aleluja.
+- **Te Mártyrum candidátus laudat exércitus, Dómine. Allelúia.**
+  - (2×, e.g. propers_20170512_0.json) Tebe. Gospodine, hvali mučenika svijetla vojska. Aleluja.
+  - (1×, e.g. propers_20170919_0.json) Tebe, Gospodine, hvali svjetla vojska mučenika. Aleluja.
+- **Omnes gentes, pláudite mánibus: iubiláte Deo in voce exsultatiónis.**
+  - (14×, e.g. propers_20170723_0.json) Svi narodi, plješćite rukama, kličite Bogu radosnim glasom.
+  - (2×, e.g. propers_20170525_0.json) Svi narodi plješćite rukama, kličite Bogu radosnim glasom.
+- **Ascéndit Deus in iubilatióne, et Dóminus in voce tubae. Allelúia.**
+  - (7×, e.g. propers_20170525_0.json) Uzlazi Bog uz klicanje i Gospodin uz glas trublje, aleluja.
+  - (2×, e.g. propers_20170525_0.json) Uziđe Bog uz klicanje i Gospodin uz glas trublje, aleluja.
+- **Cáritas Dei diffúsa est in córdibus nostris per inhabitántem Spíritum eius in nobis. Allelúia, allelúia.**
+  - (1×, e.g. propers_20170526_0.json) Ljubav se Božja izlila u našim srcima po Duhu Svetom, koji stanuje u nama. Aleluja, aleluja.
+  - (1×, e.g. propers_20170526_0.json) Ljubav se Božja izlila u našim srcima po Duhu Svetom, koji stanuje u nama, aleluja, aleluja.
+- **Bénedic, ánima mea, Dómino: et ómnia quae intra me sunt, nómini sancto eius.**
+  - (6×, e.g. propers_20170929_0.json) Blagoslivljaj, dušo moja, Gospodina, i sve što je u meni njegovo sveto ime.
+  - (5×, e.g. propers_20170526_0.json) Blagoslivljaj, dušo moja, Gospodina! I sve što je u meni sveto ime njegovo.
+- **Accipe, quaésumus, Dómine, múnera laetántis Ecclésiae, et, beátae Vírginis Maríae Regínae suffragántibus méritis, ad nostrae salútis auxílium proveníre concéde.**
+  - (1×, e.g. propers_20170531_0.json) Primi, molimo, Gospodine, darove radosne Crkve, i daj da posredovanjem zasluga blažene Djevice Marije Kraljice budu na pomoć našeg spasenja.
+  - (1×, e.g. propers_20170531_0.json) Neka ti bude, Gospodine, drag ovaj prinos što ga tvoj sveti narod prikazuje u čast tvojih svetih priznajući da je po njihovim zaslugama primio pomoć u nevolji.
+- **Sacro múnere satiáti, súpplices te, Dómine, deprecámur: ut, quod débitae servitútis celebrámus offício, salvatiónis tuae sentiámus augméntum.**
+  - (2×, e.g. propers_20170602_0.json) Nasićeni svetim darom, ponizno te, Gospodine, molimo, da ovo što slavimo službom dužne pokornosti osjetimo kao povećanje tvoga spasenja.
+  - (1×, e.g. propers_20180414_0.json) Nasićeni svetim darom ponizno te molimo, Gospodine, da ovo što slavimo službom dužne pokornosti osjetimo kao povećanje tvoga spasenja.
+- **Cibávit eos ex ádipe fruménti, allelúia:**
+  - (4×, e.g. propers_20170605_0.json) Nahranio ih je najboljom pšenicom, aleluja.
+  - (4×, e.g. propers_20170615_0.json) Nahranio ih je najboljom pšenicom, aleluja,
+- **Allelúia, allelúia. [Hic genuflectitur] Veni, Sancte Spíritus, reple tuórum corda fidélium: et tui amóris in eis ignem accénde.**
+  - (2×, e.g. propers_20170607_0.json) Aleluja, aleluja. [Ovdje se poklekne] Dođi, Duše Sveti, i napuni srca svojih vjernih i zapali u njima oganj svoje ljubavi.
+  - (2×, e.g. propers_20170610_1.json) Aleluja, aleluja. [Ovdje se poklekne] Dođi, Duše Sveti, napuni srca svih vjernih i zapali u njima oganj svoje ljubavi.
+- **Súmpsimus, Dómine, sacri dona mystérii: humíliter deprecántes; ut, quae in tui commemórationem nos fácere praecepísti, in nostrae profíciant infirmitátis auxíli…**
+  - (8×, e.g. propers_20171105_0.json) Primili smo, Gospodine, darove svetog otajstva i smjerno te molimo da bude na pomoć našoj slabosti ono što si zapovjedio da činimo tebi na spomen:
+  - (2×, e.g. propers_20170609_0.json) Primivši, Gospodine, darove svetih tajna, ponizno te molimo, da nam bude na korist za okrepu u našoj nemoći što si zapovjedio da činimo tebi u spomen:
+- **Orémus. Súmpsimus, Dómine, sacri dona mystérii: humíliter deprecántes; ut, quae in tui commemórationem nos fácere praecepísti, in nostrae profíciant infirmitáti…**
+  - (7×, e.g. propers_20171105_0.json) Pomolimo se. Primili smo, Gospodine, darove svetog otajstva i smjerno te molimo da bude na pomoć našoj slabosti ono što si zapovjedio da činimo tebi na spomen: koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170609_0.json) Pomolimo se. Primivši, Gospodine, darove svetih tajna, ponizno te molimo, da nam bude na korist za okrepu u našoj nemoći što si zapovjedio da činimo tebi u spomen: koji živiš i kraljuješ s Bogom Ocem u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Benedícam Dóminum in omni témpore: semper laus eius in ore meo.**
+  - (2×, e.g. propers_20170626_0.json) Blagoslivljat ću Gospodina u svako doba, na ustima mi je uvijek hvala njegova.
+  - (1×, e.g. propers_20180827_0.json) Blagoslivljat ću Gospodina u svako doba, uvijek je hvala njegova na ustima mojim.
+- **Et si coram homínibus torménta passi sunt, Deus tentávit eos: tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit eos.**
+  - (4×, e.g. propers_20170728_0.json) I ako su pred ljudima trpjeli muke, Bog ih je iskušao. Prokušao ih je kao zlato u peći i primio ih je kao žrtve paljenice.
+  - (2×, e.g. propers_20170626_0.json) Iako su pred ljudima trpjeli muke, Bog ih je iskušao. Iskušao ih je kao zlato u peći i primio ih je kao žrtve paljenice.
+- **Sap 3, 4 et 5 et 6 Et si coram homínibus torménta passi sunt, Deus tentávit eos: tamquam aurum in fornáce probávit eos, et quasi holocáusta accépit eos.**
+  - (4×, e.g. propers_20170728_0.json) Mudr 3, 4 i 5 i 6 I ako su pred ljudima trpjeli muke, Bog ih je iskušao. Prokušao ih je kao zlato u peći i primio ih je kao žrtve paljenice.
+  - (2×, e.g. propers_20170626_0.json) Mudr 3, 4 i 5 i 6 Iako su pred ljudima trpjeli muke, Bog ih je iskušao. Iskušao ih je kao zlato u peći i primio ih je kao žrtve paljenice.
+- **In omnem terram exívit sonus eórum: et in fines orbis terrae verba eórum. Caeli enárrant glóriam Dei: et ópera mánuum eius annúntiat firmaméntum.**
+  - (3×, e.g. propers_20171018_0.json) Po svoj zemlji iziđe njihov glas, i do na kraj svijeta njihova nauka. Nebesa pripovijedaju slavu Božju i svod nebeski naviješta djelo njegovih ruku.
+  - (2×, e.g. propers_20170628_0.json) Po svoj zemlji iziđe njihov glas. i do na kraj svijeta njihova nauka. Nebesa propovijedaju slavu Božju i nebeski svod navješćuje djelo njegovih ruku.
+- **Ps 18, 5 et 2 In omnem terram exívit sonus eórum: et in fines orbis terrae verba eórum. Caeli enárrant glóriam Dei: et ópera mánuum eius annúntiat firmaméntum.**
+  - (3×, e.g. propers_20171018_0.json) Ps 18, 5 et 2 Po svoj zemlji iziđe njihov glas, i do na kraj svijeta njihova nauka. Nebesa pripovijedaju slavu Božju i svod nebeski naviješta djelo njegovih ruku.
+  - (2×, e.g. propers_20170628_0.json) Ps 18, 5 i 2 Po svoj zemlji iziđe njihov glas. i do na kraj svijeta njihova nauka. Nebesa propovijedaju slavu Božju i nebeski svod navješćuje djelo njegovih ruku.
+- **Quos caelésti, Dómine, aliménto satiásti: apostólicis intercessiónibus ab omni adversitáte custódi.**
+  - (2×, e.g. propers_20170628_0.json) Gospodine, po apostolskom zagovoru čuvaj od svake protivštine nas koje si nasitio nebeskom hranom.
+  - (2×, e.g. propers_20170629_0.json) Po zagovoru apostola čuvaj, Gospodine, od svake protivnosti one koje si nasitio nebeskom hranom.
+- **Orémus. Quos caelésti, Dómine, aliménto satiásti: apostólicis intercessiónibus ab omni adversitáte custódi. Per Dóminum nostrum Iesum Christum, Fílium tuum: Qui…**
+  - (2×, e.g. propers_20170628_0.json) Pomolimo se. Gospodine, po apostolskom zagovoru čuvaj od svake protivštine nas koje si nasitio nebeskom hranom. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20170629_0.json) Pomolimo se. Po zagovoru apostola čuvaj, Gospodine, od svake protivnosti one koje si nasitio nebeskom hranom. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Sermo meus et praedicátio mea non in persuasibílibus humánae sapiéntiae verbis, sed in ostensióne spíritus et virtútis.**
+  - (2×, e.g. propers_20170705_0.json) [Šarić, obnovljeno izdanje] Govor moj i propovijedanje moje nije bilo u uvjerljivim riječima ljudske mudrosti, nego u dokazivanju Duha i sile.
+  - (2×, e.g. propers_20170705_0.json) Govor moj i propovijedanje moje nije bilo u uvjerljivim riječima ljudske mudrosti, nego u dokazivanju Duha i sile.
+- **Allelúia, allelúia. Haec est vera fratérnitas, quae vicit mundi crímina: Christum secúta est, ínclita tenens regna caeléstia. Allelúia.**
+  - (2×, e.g. propers_20170710_0.json) Aleluja, aleluja. Ovo je pravo bratstvo koje je pobijedilo opačine svijeta, slijedilo je Krista i zadobilo slavno nebesko kraljevstvo. Aleluja.
+  - (2×, e.g. propers_20170927_0.json) Aleluja, aleluja. Ovo je pravo bratstvo koje je pobijedilo opačine svijeta, slijedilo je Krista i zadobilo slavimo nebesko kraljevstvo. Aleluja.
+- **Ego vos elégi de mundo, ut eátis, et fructum afferátis: et fructus vester máneat. Allelúia.**
+  - (4×, e.g. propers_20171018_0.json) Ja sam vas izabrao od svijeta da idete i plod donesete i plod vaš da ostane. Aleluja.
+  - (2×, e.g. propers_20170725_0.json) Ja sam vas izabrao ođ svijeta da idete i plod donesete i plod vaš da ostane. Aleluja.
+- **Io 15, 16 Allelúia, allelúia. Ego vos elégi de mundo, ut eátis, et fructum afferátis: et fructus vester máneat. Allelúia.**
+  - (4×, e.g. propers_20171018_0.json) Io 15, 16 Aleluja, aleluja. Ja sam vas izabrao od svijeta da idete i plod donesete i plod vaš da ostane. Aleluja.
+  - (2×, e.g. propers_20170725_0.json) Iv 15, 16 Aleluja, aleluja. Ja sam vas izabrao ođ svijeta da idete i plod donesete i plod vaš da ostane. Aleluja.
+- **Beátus vir, qui timet Dóminum: in mandátis eius cupit nimis.**
+  - (4×, e.g. propers_20170809_0.json) Blago čovjeku koji se boji Gospodina, koji se veoma raduje njegovim zapovijedima.
+  - (2×, e.g. propers_20171123_0.json) . Blago Čovjeku koji se boji Gospodina, koji se veoma raduje njegovim zapovijedima.
+- **Ps 111, 9 et 2 Dispérsit, dedit paupéribus: iustítia eius manet in saéculum saéculi. Potens in terra erit semen eius: generátio rectórum benedicétur.**
+  - (2×, e.g. propers_20170809_0.json) Ps 111, 9 i 2 Obilno je dijelio i davao siromasima, pravda njegova ostaje dovijeka. Jako će bili na zemlji potomstvo njegovo, rod će pravednika biti blagoslovljen.
+  - (2×, e.g. propers_20170816_0.json) Ps 111, 9 et 2 Obilno je dijelio i davao siromasima, pravda njegova ostaje dovijeka. Jako će bili na zemlji potomstvo njegovo, rod će pravednika biti blagoslovljen.
+- **Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes: ut eásdem, angélico pro nobis interveniénte suffrágio, et placátus accípias, et ad salútem nost…**
+  - (2×, e.g. propers_20170929_0.json) Prikazujemo ti, Gospodine, žrtve hvale smjerno moleći, da ih na zagovor anđela i milostivo primiš i podaš da nam budu korisne za naše spasenje.
+  - (2×, e.g. propers_20171024_0.json) Prikazujemo ti, Gospodine, žrtvu hvale i ponizno te molimo da je po anđeoskom zagovoru za nas i milostivo primiš i dopustiš da nam bude na spasenje.
+- **Hóstias tibi, Dómine, laudis offérimus, supplíciter deprecántes: ut eásdem, angélico pro nobis interveniénte suffrágio, et placátus accípias, et ad salútem nost…**
+  - (2×, e.g. propers_20170929_0.json) Prikazujemo ti, Gospodine, žrtve hvale smjerno moleći, da ih na zagovor anđela i milostivo primiš i podaš da nam budu korisne za naše spasenje. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+  - (2×, e.g. propers_20171024_0.json) Prikazujemo ti, Gospodine, žrtvu hvale i ponizno te molimo da je po anđeoskom zagovoru za nas i milostivo primiš i dopustiš da nam bude na spasenje. Po Gospodinu našemu Isusu Kristu, Sinu tvome: Koji s tobom živi i kraljuje u jedinstvu Duha Svetoga, Bog: po sve vijeke vjekova.
+- **Múnera tibi, Dómine, dicáta sanctífica: et, intercedénte beáto Francísco, ab omni nos culpárum labe purífica.**
+  - (2×, e.g. propers_20171004_0.json) Posveti, Gospodine, darove tebi namijenjene i po zagovoru blaženoga Franje od svake nas ljage grijeha očisti.
+  - (1×, e.g. propers_20180917_0.json) Posveti, Gospodine, darove tebi prikazane i po zagovoru blaženoga Franje očisti nas od svake ljage grijeha.
+- **Léctio Epístolae beáti Pauli Apóstoli ad Philippénses. Fratres: Imitatóres mei estóte, et observáte eos qui ita ámbulant, sicut habétis formam nostram. Multi en…**
+  - (4×, e.g. propers_20171112_0.json) Čitanje Poslanice bl. Pavla apostola Filipljanima. Braćo: Ugledajte se u mene i vladajte se prema onima koji žive po primjeru koji vam mi dajemo. Mnogi, o kojima sam vam često govorio, a sada plačući ponavljam, žive kao neprijatelji Kristova križa. Njihov će svršetak biti propast, jer im je bog trbu…
+  - (2×, e.g. propers_20171123_0.json) Čitanje Poslanice bl. Pavla apostola Filipljanima. Braćo: Ugledajte se u mene i vladajte se prema onima koji žive po primjeru koji vam mi dajemo. Mnogi, o kojima sam vam često govorio, a sada plačući ponavljam, žive kao neprijatelji Kristova križa. Njihov će svršetak biti propast, jer im je bog trbu…
+- **Philipp 3, 17-21; 4, 1-3 Léctio Epístolae beáti Pauli Apóstoli ad Philippénses. Fratres: Imitatóres mei estóte, et observáte eos qui ita ámbulant, sicut habétis…**
+  - (4×, e.g. propers_20171112_0.json) Fil 3, 17-21; 4, 1-3 Čitanje Poslanice bl. Pavla apostola Filipljanima. Braćo: Ugledajte se u mene i vladajte se prema onima koji žive po primjeru koji vam mi dajemo. Mnogi, o kojima sam vam često govorio, a sada plačući ponavljam, žive kao neprijatelji Kristova križa. Njihov će svršetak biti propas…
+  - (2×, e.g. propers_20171123_0.json) Fil 3, 17-21; 4, 1-3 Čitanje Poslanice bl. Pavla apostola Filipljanima. Braćo: Ugledajte se u mene i vladajte se prema onima koji žive po primjeru koji vam mi dajemo. Mnogi, o kojima sam vam često govorio, a sada plačući ponavljam, žive kao neprijatelji Kristova križa. Njihov će svršetak biti propas…

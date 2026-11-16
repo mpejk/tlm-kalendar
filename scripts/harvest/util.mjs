@@ -9,4 +9,4 @@ export function decodeHtml(buf) { return dec.decode(buf); }
 export function clean(s) { return decodeEntities(s.replace(/<[^>]+>/g, ' ')).replace(/[\s ]+/g, ' ').trim(); }
 // Encoding damage on the old site: a few Croatian letters were stored as their ISO-8859-1 look-alikes.
 const DAMAGE = { 'æ': 'ć', 'ð': 'đ', 'è': 'č', 'Æ': 'Ć', 'Ð': 'Đ', 'È': 'Č' };
-export function repairHr(s) { return s.replace(/[æðèÆÐÈ]/g, c => DAMAGE[c]); }
+export function repairHr(s) { return s.replace(/[æðèÆÐÈ]/g, c => DAMAGE[c]).replace(/uvo\?enja/g, 'uvođenja'); }
