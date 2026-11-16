@@ -1,5 +1,5 @@
 // Calendar against the old site: every day from 27 Nov 2016 to 31 Dec 2019 must match on weekday, class, colour,
-// title, commemorations (type and order) and number of Masses. Exceptions go to DIFFS.md.
+// title, commemorations (type and order) and number of Masses. Exceptions go to data/verify/diffs-calendar.md, which scripts/verify/report.ts puts into DIFFS.md.
 import fs from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { generalConfig, POPE_OLD_SITE } from '../src/engine/config';
@@ -25,7 +25,7 @@ describe('calendar against the old site (tradicionalnamisa.com/kalendar 2017–2
     const theirs: Record<string, unknown> = { weekday: r.weekday, class: r.class, colour: r.colour, colours: (r.colours ?? []).join('+'), title: r.title, commemorations: r.notes.map((x: any) => x.type + ': ' + x.title).join(' | '), masses: r.masses.length };
     for (const k of Object.keys(mine)) if (mine[k] !== theirs[k]) diffs.push(`- ${r.date} ${k}: old site «${theirs[k]}», engine «${mine[k]}»`);
   }
-  fs.writeFileSync('DIFFS.md', `# Calendar differences from the old site\n\nDays compared: ${n} (27 Nov 2016 – 31 Dec 2019). Fields: weekday, class, colour(s), title, commemorations (type and order), number of Masses.\n\n` + (diffs.length ? diffs.join('\n') : 'No differences.') + '\n');
+  fs.writeFileSync('data/verify/diffs-calendar.md', `# Calendar differences from the old site\n\nDays compared: ${n} (27 Nov 2016 – 31 Dec 2019). Fields: weekday, class, colour(s), title, commemorations (type and order), number of Masses.\n\n` + (diffs.length ? diffs.join('\n') : 'No differences.') + '\n');
   it('covers 27 Nov 2016 – 31 Dec 2019', () => { expect(n).toBe(1130); });
   it('matches every row', () => { expect(diffs).toEqual([]); });
 });
