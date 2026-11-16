@@ -138,7 +138,7 @@ export function getDay(n: number, config: CalendarConfig): Day {
   if (win === t && t.cls === 4 && t.kind === 'feria' && wd === 6 && !t.placeholder) {
     bvmSat = true;
     const { m: mm, d: dd } = { m, d };
-    const variant = t.season === 'easter' ? 'C10Pasc' : (mm === 12 || mm === 1 || (mm === 2 && dd <= 2)) ? 'C10b' : (n < E - 46 && n > dayNumber(y, 2, 2) && n < E) ? 'C10c' : 'C10';
+    const variant = t.season === 'easter' ? 'C10Pasc' : ((mm === 12 && dd >= 25) || mm === 1 || (mm === 2 && dd <= 2)) ? 'C10b' : (n < E - 46 && n > dayNumber(y, 2, 2) && n < E) ? 'C10c' : 'C10';
     win = { key: 'T:BVMSat', id: 'Commune/' + variant, title: 'Subotnja služba Gospina', cls: 4, ord: 27, kind: 'bvmsat', colour: 'w', bvm: true, commAs: null };
   }
 
@@ -164,7 +164,7 @@ export function getDay(n: number, config: CalendarConfig): Day {
   const litaniesDay = (apr25 === E || apr25 === E + 1) ? E + 2 : apr25;
   const greaterLitanies = n === litaniesDay;
   const rogation = n >= E + 36 && n <= E + 38;
-  if (greaterLitanies) comms.push({ key: 'X:LitMaj', id: 'Tempora/Pasc5-1r', title: 'Velike litanije', type: 'privileged', cls: 4, kind: 'oration', ord: 29 });
+  if (greaterLitanies) comms.push({ key: 'X:LitMaj', id: 'Tempora/Pasc5-1', title: 'Velike litanije', type: 'privileged', cls: 4, kind: 'oration', ord: 29 });
 
   // order: of the season first (n. 113), then the table of precedence
   comms.sort((a, b) => (a.seasonal ? 0 : 1) - (b.seasonal ? 0 : 1) || a.ord - b.ord);
@@ -212,8 +212,9 @@ export function getDay(n: number, config: CalendarConfig): Day {
   else if (win === t && tid === 'Quad6-5') masses.push({ id: 'Tempora/Quad6-5r', label: 'Obred Velikog petka', kind: 'rite' });
   else if (win === t && tid === 'Quad6-6') { masses.push({ id: 'Tempora/Quad6-6r', label: 'Vazmeno bdijenje', kind: 'rite' }); flags.noMass = true; }
   else if (win === t && t.ember && wd === 6) masses.push({ id: win.id, label: 'Misa (duži oblik)', kind: 'mass', variant: 'longior' }, { id: win.id, label: 'Misa (kraći oblik)', kind: 'mass', variant: 'brevior' });
+  else if (win.key === 'S:12-24' && wd === 0) masses.push({ id: 'Sancti/12-24s', kind: 'mass' });   // the vigil on a Sunday has an Alleluia
   else masses.push({ id: win.id, kind: 'mass' });
-  if (rogation || greaterLitanies) { masses.push({ id: 'Tempora/Pasc5-1r', label: 'Prosna misa', kind: 'mass', variant: 'rogation' }); flags.rogation = true; if (greaterLitanies) flags.greaterLitanies = true; }
+  if (rogation || greaterLitanies) { masses.push({ id: 'Tempora/Pasc5-1', label: 'Prosna misa', kind: 'mass', variant: 'rogation' }); flags.rogation = true; if (greaterLitanies) flags.greaterLitanies = true; }
   if (t.ember) flags.ember = true;
   if (win.local || commemorations.some(c => c.local)) flags.local = true;
 

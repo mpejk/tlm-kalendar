@@ -117,14 +117,16 @@ export function parseFile(rel, ctx = {}, root = DO_ROOT) {
   if (!fs.existsSync(full)) full = path.join(root.replace('/missa/', '/horas/'), rel + '.txt');
   if (!fs.existsSync(full)) { cache.set(key, null); return null; }
   const lines = fs.readFileSync(full, 'utf8').replace(/^﻿/, '').split(/\r?\n/);
-  const sections = {}; const order = [];
+  const sections = {}; const order = []; const conditional = new Set();
   let keyName = '__preamble', use = true;
   sections[keyName] = [];
   for (const line of lines) {
     const m = line[0] === '[' && line.match(SECTION_RE);
     if (m) {
       const cond = m[3];
-      if (!cond || vero(cond.replace(/^non\s+/, 'nisi '), ctx) ) { use = true; keyName = m[1]; sections[keyName] = []; if (!order.includes(keyName)) order.push(keyName); }
+      // a section whose condition holds wins over the unconditional section of the same name, whichever comes first
+      if (!cond && conditional.has(m[1])) use = false;
+      else if (!cond || vero(cond.replace(/^non\s+/, 'nisi '), ctx) ) { use = true; keyName = m[1]; sections[keyName] = []; if (cond) conditional.add(keyName); if (!order.includes(keyName)) order.push(keyName); }
       else use = false;
     } else if (use) sections[keyName].push(line);
   }

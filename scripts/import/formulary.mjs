@@ -1,6 +1,6 @@
 // Turns Divinum Officium Mass files into this project's clean format: sections as lists of typed units.
 // Unit kinds: ref (scripture reference), text, rubric, macro (Gloria Patri, conclusions), sep (paragraph break), head.
-import { getSection, parseFile, sectionNames } from './dofile.mjs';
+import { getSection, parseFile, sectionNames, DO_ROOT } from './dofile.mjs';
 
 const OFFICE_ONLY = /^(Ant|Lectio\d|Responsory|Hymnus|Versum|Capitulum|Invit|Oratio\d|Ant Matutinum|Nocturn|Lectio Prima|Day\d|Commemoratio\d|Special|Popup|HymnusM|Oratio Matutinum|Ant Vespera|Ant Laudes|Ant Prima|Lectio94|Psalm|Minor|Legend|Missa$|Te Deum|Hymnus|MM LB)/;
 export const MASS_SECTIONS = ['Introitus', 'Oratio', 'Lectio', 'Graduale', 'GradualeP', 'GradualeF', 'Tractus', 'Sequentia', 'Evangelium', 'Offertorium', 'Secreta', 'Communio', 'Postcommunio', 'Super populum',
@@ -8,23 +8,49 @@ export const MASS_SECTIONS = ['Introitus', 'Oratio', 'Lectio', 'Graduale', 'Grad
 
 function firstLine(lines) { return (lines || []).map(l => l.trim()).filter(Boolean)[0] || ''; }
 
+/** 1960: a feria without a Mass of its own repeats the Mass of the preceding Sunday (n. 300 ff.), whatever older pointers in the
+ *  file say. Trinity and Holy Family weeks use the Mass of the 1st Sunday (the "a" file); the days after the Ascension repeat the feast. */
+export function feriaSunday(file, ctx = {}) {
+  const f = parseFile(file, ctx); if (!f) return null;
+  const fm = file.match(/^Tempora\/(.+)-([1-6])(Feria|r)?$/);
+  if (!fm || /^(Pasc0|Pasc7|Quad\d|Quadp3|Nat|Adv)/.test(fm[1]) || (f.sections.Introitus || []).some(l => l.trim())) return null;
+  if (fm[1] === 'Pasc5' && +fm[2] >= 5) return 'Tempora/Pasc5-4';
+  for (const sfx of ['-0a', '-0r', '-0']) if (parseFile('Tempora/' + fm[1] + sfx, ctx) && (getSection('Tempora/' + fm[1] + sfx, 'Introitus', ctx) || []).length) return 'Tempora/' + fm[1] + sfx;
+  return null;
+}
 /** Where a file sends us for sections it does not have: the 4th field of [Rank] ("vide C4a", "ex Sancti/12-25m3") or a [Rule] line. */
 export function fallbackOf(file, ctx = {}) {
   const f = parseFile(file, ctx); if (!f) return null;
+  const fs0 = feriaSunday(file, ctx); if (fs0) return fs0;
   const cands = [];
-  const rank = firstLine(f.sections.Rank).split(';;')[3];
+  // The Office file of the same saint often names the Common more precisely than the Mass file (C5 -> C5b for abbots): prefer it
+  // when it only narrows the same Common.
+  const precise = (t) => {
+    if (!/^Sancti\//.test(file) || !/^Commune\/C\d+$/.test(t)) return t;
+    const h = parseFile(file.replace(/r$/, ''), ctx, DO_ROOT.replace('/missa/', '/horas/'));
+    if (!h) return t;
+    for (const c of [firstLine(h.sections.Rank).split(';;')[3] || '', ...(h.sections.Rule || [])]) {
+      const m = c.trim().match(/^(?:ex|vide)\s+(C\d+[a-z](?:-\d)?)\b/);
+      if (m && ('Commune/' + m[1]).startsWith(t) && parseFile('Commune/' + m[1], ctx)) return 'Commune/' + m[1];
+    }
+    return t;
+  };
+  const rank = firstLine(getSection(file, 'Rank', ctx)).split(';;')[3];
   if (rank) cands.push(rank);
-  for (const l of f.sections.Rule || []) cands.push(l);
+  for (const l of getSection(file, 'Rule', ctx) || []) cands.push(l);
   for (const c of cands) {
     const m = c.trim().match(/^(?:ex|vide)\s+([A-Za-z0-9\/-]+)/);
     if (!m) continue;
     let t = m[1];
     if (!t.includes('/')) t = (/^C\d/.test(t) ? 'Commune/' : file.split('/')[0] + '/') + t;
+    t = precise(t);
+    // in Paschaltide the Commons of Apostles and Martyrs are replaced by their Paschal forms (C1p, C2p, C3p …)
+    if (ctx.paschal && /^Commune\/C[123]/.test(t) && !t.endsWith('p') && parseFile(t + 'p', ctx)) return t + 'p';
     if (parseFile(t, ctx)) return t;
     if (parseFile('Tempora/' + m[1], ctx)) return 'Tempora/' + m[1];
   }
   // a feria of the temporal cycle without texts of its own takes the Mass of the preceding Sunday
-  const m = file.match(/^Tempora\/(.+)-([1-6])(Feria)?$/);
+  const m = file.match(/^Tempora\/(.+)-([1-6])(Feria|r)?$/);
   if (m) { for (const s of [m[1] + '-0r', m[1] + '-0']) if (parseFile('Tempora/' + s, ctx) && SUNDAY_OK(m[1], s)) return 'Tempora/' + s; }
   return null;
 }
@@ -33,10 +59,12 @@ const SUNDAY_OK = (stem, s) => true;
 
 export function sectionWithFallback(file, name, ctx = {}, depth = 0, trail = []) {
   if (depth > 6) return null;
-  const own = getSection(file, name, ctx);
+  const viaSunday = feriaSunday(file, ctx);
+  const own = viaSunday && !(parseFile(file, ctx).sections[name] || []).some(l => l.trim()) ? null : getSection(file, name, ctx);
   if (own && own.some(l => l.trim())) return { lines: own, from: file, trail };
   const fb = fallbackOf(file, ctx);
   if (!fb || trail.includes(fb)) return null;
+  if (name === 'Sequentia' && fb.startsWith('Tempora/')) return null;   // a sequence is not inherited from another day of the season
   return sectionWithFallback(fb, name, ctx, depth + 1, [...trail, file]);
 }
 
@@ -71,6 +99,9 @@ export function toUnits(lines) {
     if ((m = t.match(/^(M|S|D|C|J)\.\s+(.*)$/))) { units.push({ k: 'text', la: m[2], mark: m[1] }); continue; }
     units.push({ k: 'text', la: t });
   }
+  // the Gloria in excelsis printed after a chant (Ember Saturdays): not part of the Proper
+  const gi = units.findIndex(u => u.k === 'head' && /^Gloria$/i.test(u.la));
+  if (gi >= 0) units.length = gi;
   while (units.length && units[units.length - 1].k === 'sep') units.pop();
   // tidy DO markup inside text: "++" (sign of the cross in Gospel titles), "+" marks, double spaces
   for (const u of units) if (u.la) u.la = u.la.replace(/\s*\+\+\s*/g, ' ✠ ').replace(/\s+/g, ' ').trim();
@@ -94,7 +125,7 @@ export function importFormulary(file, ctx = {}) {
     const r = sectionWithFallback(file, n, ctx);
     if (!r) continue;
     let lines = r.lines;
-    if (nm.default !== null) { const v = nm[n] ?? nm.default; lines = lines.map(l => l.replace(/\bN\.(?=\s|,|:|;|$)/g, v)); }
+    if (nm.default !== null) { const v = nm[n] ?? nm.default; lines = lines.map(l => l.replace(/\bN\. (et|atque) N\.(?=\s|,|:|;|$)/g, v).replace(/\bN\.(?=\s|,|:|;|$)/g, v)); }
     out.sections[n] = toUnits(lines);
     if (r.from !== file) out.from[n] = r.from;
   }

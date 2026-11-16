@@ -23,12 +23,16 @@ const FORMULAS = [
   /\boremus\b/g, /flectamus genua( levate)?/g, /humiliate capita vestra deo/g,
 ];
 export function core(s: string): string {
-  let t = normLa(s.replace(/<b>[\s\S]*?<\/b>/g, ' ').replace(INLINE_REF, ' ').replace(/\[[^\]]*\]/g, ' '));
+  let t = normLa(s.replace(/<b>[\s\S]*?<\/b>/g, ' ').replace(/\(Hic genuflectitur\)/gi, ' ').replace(INLINE_REF, ' ').replace(/\[[^\]]*\]/g, ' '));
   for (const f of FORMULAS) t = t.replace(f, ' ');
   return t.replace(/\s+/g, ' ').trim();
 }
 const isRefLine = (x: string) => { const t = x.replace(/<[^>]+>/g, '').trim(); if (t.replace(INLINE_REF, '').trim() !== t && t.replace(INLINE_REF, '').trim().length > 3) return false; return t.length < 70 && /\d/.test(t) && /^[\p{L}\d .,;:\-–()]+$/u.test(t) && !/\p{Ll}{9,}/u.test(t); };
-export function goldenCore(row: { la: string }): string { return core(row.la.split('\n').filter(l => !isRefLine(l)).join(' ')); }
+const PRAYER = new Set(['Oratio', 'Secreta', 'Postcommunio', 'SuperPopulum']);
+/** In the prayers the old site prints Oremus and the conclusion as whole italic lines: they are formulas, not part of the proper text. */
+export function goldenCore(row: { la: string }, key = ''): string {
+  return core(row.la.split('\n').filter(l => !isRefLine(l) && !(PRAYER.has(key) && /^<i>[^<]*<\/i>\.?$/.test(l.trim()))).join(' '));
+}
 export function mineCore(sec: Section, blockIndex?: number): string {
   const bs = blockIndex === undefined ? sec.blocks : [sec.blocks[blockIndex]].filter(Boolean);
   return core(bs.map(b => b.lines.filter(l => l.k === 'text').map(l => l.la).join(' ')).join(' '));
@@ -71,7 +75,7 @@ export function comparePage(file: string, cfg = generalConfig(POPE_OLD_SITE)): P
     if (it.la !== m.la && key !== 'Prefatio') res.problems.push(`heading ${key}: old «${it.la}» mine «${m.la}»`);
     if (key === 'Prefatio' && core(it.la) !== core(m.la)) res.problems.push(`preface: old «${it.la}» mine «${m.la}»`);
     const rows = it.rows.filter((r: any) => r.la !== undefined && !r.head);
-    const a = rows.map((r: any) => goldenCore(r)).join(' ').replace(/\s+/g, ' ').trim();
+    const a = rows.map((r: any) => goldenCore(r, key)).join(' ').replace(/\s+/g, ' ').trim();
     const b = mineCore(m);
     if (a === b) { res.exact++; continue; }
     const sim = similarity(a, b);

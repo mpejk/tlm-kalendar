@@ -47,6 +47,15 @@ for (const id of [...ids].sort()) {
     if (JSON.stringify(f.sections[n]) !== JSON.stringify(b.sections[n])) { diff[n] = b.sections[n] ? pack(b.sections[n]) : null; any = true; }
   }
   if (any) entry.variants = { brevior: diff };
+  // Paschaltide: sections that come from the Paschal form of the Common
+  if (/^Commune\/C[123]/.test(f.fallback ?? '')) {
+    const p = importFormulary(id, { paschal: true });
+    const pd: Record<string, any> = {}; let anyP = false;
+    for (const n of new Set([...Object.keys(f.sections), ...Object.keys(p.sections)])) {
+      if (JSON.stringify(f.sections[n]) !== JSON.stringify(p.sections[n])) { pd[n] = p.sections[n] ? pack(p.sections[n]) : null; anyP = true; }
+    }
+    if (anyP) entry.variants = { ...(entry.variants ?? {}), paschal: pd };
+  }
   out[id] = entry;
 }
 // fixed texts

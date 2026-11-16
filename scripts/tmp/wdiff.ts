@@ -14,7 +14,7 @@ const v = assembleMass(day, +n, loadCorpus())!;
 console.log('formulary', v.formulary, day.title, '| comm:', day.commemorations.map(c => c.id).join(','));
 const gs = g.items.filter((it: any) => it.kind === 'section' && !it.hidden && keyOfHead(it.la) === key)[+(nth ?? 0)];
 const ms = v.items.filter((it: any) => it.kind === 'section' && it.key === key)[+(nth ?? 0)] as any;
-const a = gs ? gs.rows.filter((r: any) => r.la !== undefined && !r.head).map((r: any) => goldenCore(r)).join(' ').split(' ') : [];
+const a = gs ? gs.rows.filter((r: any) => r.la !== undefined && !r.head).map((r: any) => goldenCore(r, key)).join(' ').split(' ') : [];
 const b = ms ? mineCore(ms).split(' ') : [];
 // LCS diff
 const L = Array.from({ length: a.length + 1 }, () => new Uint16Array(b.length + 1));
