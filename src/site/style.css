@@ -66,6 +66,7 @@ h1 { font-size: 1.9rem; line-height: 1.2; font-weight: 400; margin: 0 0 .4rem; }
 .srcnote { color: var(--muted); font-size: .8rem; text-align: right; }
 .note { text-align: center; color: var(--red); font-style: italic; margin: .8rem 0; }
 .rubnote { text-align: left; font-size: 1rem; }
+.rubonly { margin: .2rem 0 .5rem; } .rubonly .rub { display: block; }
 details.fixed { margin: -.3rem 0 1rem; } details.fixed summary { cursor: pointer; color: var(--muted); text-align: center; font-size: .95rem; }
 .empty { text-align: center; color: var(--muted); font-style: italic; margin: 3rem 0; }
 .grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 3px; }

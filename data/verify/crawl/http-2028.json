@@ -1,0 +1,13 @@
+{
+ "mode": "http",
+ "year": 2028,
+ "days": 732,
+ "views": 766,
+ "sections": 7958,
+ "missingHr": 111,
+ "problems": [],
+ "ics": [
+  "http://127.0.0.1:55451/sub/path/ics/tlm-2028-zagreb.ics"
+ ],
+ "consoleErrors": []
+}

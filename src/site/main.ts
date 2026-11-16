@@ -134,7 +134,7 @@ function massHtml(v: MassView): string {
 function riteHtml(f: FData): string {
   return (f.items ?? []).map((it: any) => {
     if (it.kind === 'note') return h('p', { class: 'note rubnote' }, esc(it.text));
-    const rows = (it.rows ?? []).map((r: any) => r.la === undefined ? h('p', { class: 'note rubnote' }, esc(r.text ?? '')) : h('div', { class: r.head ? 'row sub' : 'row' }, h('div', { class: 'la', lang: 'la' }, hrCell(typo(r.la))), h('div', { class: 'hr', lang: 'hr' }, r.hr ? hrCell(typo(r.hr)) : h('span', { class: 'missing' }, 'hrvatski prijevod nedostaje')))).join('');
+    const rows = (it.rows ?? []).map((r: any) => r.la === undefined ? h('p', { class: 'note rubnote' }, esc(r.text ?? '')) : r.hr === ' ' ? h('div', { class: 'rubonly', lang: 'la' }, hrCell(typo(r.la))) : h('div', { class: r.head ? 'row sub' : 'row' }, h('div', { class: 'la', lang: 'la' }, hrCell(typo(r.la))), h('div', { class: 'hr', lang: 'hr' }, r.hr ? hrCell(typo(r.hr)) + (r.src ? h('span', { class: 'srcnote' }, esc(r.src)) : '') : h('span', { class: 'missing' }, 'hrvatski prijevod nedostaje')))).join('');
     return h('section', { class: 'sec' }, h('div', { class: 'row head' }, h('h3', { class: 'la', lang: 'la' }, esc(it.la ?? '')), h('h3', { class: 'hr', lang: 'hr' }, esc(it.hr ?? ''))), rows);
   }).join('');
 }
@@ -159,7 +159,7 @@ async function viewDay(): Promise<string> {
   if (d.notes?.length) head += h('ul', { class: 'comms notes' }, d.notes.map(n => h('li', null, esc(n) + ' <span class="tag">mjesni kalendar</span>')).join(''));
   // open on the Mass, not on a rite that precedes it, unless a tab was chosen
   const firstMass = Math.max(0, d.masses.findIndex(x => !x.extra));
-  const idx = new URLSearchParams(location.search.slice(1) || location.hash.slice(1)).has('m') ? Math.min(st.m, d.masses.length - 1) : firstMass; const m = d.masses[idx];
+  const idx = st.m >= 0 && (st.m > 0 || new URLSearchParams(location.search.slice(1) || location.hash.slice(1)).has('m')) ? Math.min(st.m, d.masses.length - 1) : firstMass; const m = d.masses[idx];
   let tabs = '';
   if (d.masses.length > 1) tabs = h('div', { class: 'tabs', role: 'tablist' }, d.masses.map((x, i) => `<a role="tab" aria-selected="${i === idx}" href="${esc(urlFor({ m: i }))}" data-nav='${JSON.stringify({ m: i })}' class="tab${i === idx ? ' on' : ''}">${esc(x.label ?? `Misa ${i + 1}`)}</a>`).join(''));
   let body = '';
@@ -262,3 +262,5 @@ function init() {
   if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register(here + 'sw.js').catch(() => { /* offline use unavailable */ });
 }
 W.TLM.start = init;
+/** used by the verification crawl: show a day and resolve when it is rendered */
+W.TLM.nav = async (o: Partial<State>) => { Object.assign(st, o); const u = urlFor({}); try { history.replaceState(null, '', u); } catch { /* file:// */ } await render(); };

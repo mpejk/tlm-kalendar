@@ -1,0 +1,13 @@
+{
+ "mode": "file",
+ "year": 2035,
+ "days": 730,
+ "views": 764,
+ "sections": 7938,
+ "missingHr": 123,
+ "problems": [],
+ "ics": [
+  "file:///Users/markopejkovic/tlm-kalendar/dist/ics/tlm-2035-zagreb.ics"
+ ],
+ "consoleErrors": []
+}
