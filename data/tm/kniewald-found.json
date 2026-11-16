@@ -280,10 +280,10 @@
  },
  {
   "id": "G037",
-  "hr": "Nitko nema veće ljubavi od ove, da tko svoj život polaže za svoje prijatelje.",
-  "ref": "Kniewald 1942, str. 787-788",
+  "hr": "(Iv. 15, 13). Od ove ljubavi nema veće, nego da tko položi život svoj za prijatelje svoje.",
+  "ref": "Kniewald 1930, str. 886",
   "checked": "image",
-  "note": "Kniewald has sv. Josafat only as a commemoration (14. XI., p. 779, three prayers) and prints no offertory for him. The verse (Iv 15, 13) is taken from his Gospel of the Navečerje apostolskih blagdana (Iv 15, 12-16)."
+  "note": "Sv. Josafat 14. XI., Prikazanje. Taken from the 1930 (2nd) edition, which has the full Mass; the 1942 edition has only the three prayers as a commemoration (p. 779). The same verse in the 1942 wording (Gospel Iv 15, 12-16, p. 787-788): 'Nitko nema veće ljubavi od ove, da tko svoj život polaže za svoje prijatelje.'"
  },
  {
   "id": "G045",
@@ -334,5 +334,75 @@
   "ref": "Kniewald 1942, str. 772",
   "checked": "image",
   "note": "Kniewald gives no proper prayers for sv. Mauricije i drugovi (22. IX., p. 717: commemoration from Misa »Vapaj«). The same postcommunion (Caelestibus refecti sacramentis et gaudiis) is printed as the commemoration of the Four Crowned Martyrs on 8. XI., from where it is taken."
+ },
+ {
+  "id": "Sancti/02-02:Prelude#0.1",
+  "hr": "Pomolimo se. Gospode sveti, Oče svemogući, vječni Bože, koji si ni od čega stvorio i učinio zapovjeđu svojom djelovanjem pčela, da ova tekućina dođe do svršene svijeće; koji si na današnji dan ispunio molitvu pravednoga Simeona: Tebe smjerno molimo, da se dostojiš ove svijeće za porabu ljudima i za zdravlje tijela i duša, bilo na kopnu, bilo na vodama, zazivanjem Tvoga presvetoga imena i zagovorom blažene Marije, vazda Djevice, koje se blagdan danas pobožno svetkuje, i molitvama svih svetih tvojih, blagosloviti i posvetiti; sa svetoga neba svojega i sa prijestola veličanstva svojega usliši glasove naroda svojega, koji ih želi časno u rukama nositi i Tebe pjesmom hvaliti, te da milostiv budeš svima koji viču k tebi, koje si otkupio dragocjenom krvlju Sina svojega: Koji s Tobom živi i kraljuje u jedinstvu Duha svetoga, Bog, u sve vijeke vijekova. Amen.",
+  "ref": "Kniewald 1930, str. 622",
+  "checked": "image",
+  "note": "Blagoslov svijeća is only in the 1930 edition (1942 has just the procession). 1930 wording uses 'Gospode'. Kniewald prints no 'Gospod s vama / I s duhom tvojim' before the prayer and no cross signs in this prayer; his conclusion is the long one ('u jedinstvu Duha svetoga, Bog')."
+ },
+ {
+  "id": "Sancti/02-02:Prelude#0.2",
+  "hr": "Pomolimo se. Svemogući, vječni Bože, koji si na današnji dan doveo Jedinorođenoga svojega u sveti hram svoj, da ga sv. Simeon primi na svoj naručaj, smjerno molimo tvoju blagost, da se dostojiš blagosloviti i posvetiti i užgati svijetlom višnjega blagoslova ove svijeće, što ih mi, sluge tvoji, primamo i na veličanje imena tvojega želimo nositi svjetlošću užgane, prikazavši ih Tebi, Gospodu Bogu svojemu, te zavrijedimo predstaviti se u svetomu hramu slave Tvoje dostojni i užgani svetim ognjem preslatke ljubavi Tvoje, po istom G. n.",
+  "ref": "Kniewald 1930, str. 622-623",
+  "checked": "image",
+  "note": "Blagoslov svijeća is only in the 1930 edition (1942 has just the procession). 1930 wording uses 'Gospode'. Conclusion printed abbreviated 'po istom G. n.'; no 'Amen' printed."
+ },
+ {
+  "id": "Sancti/02-02:Prelude#0.3",
+  "hr": "Pomolimo se! Gospode Isuse Kriste, svjetlosti prava, koji prosvjećuješ svakoga čovjeka, koji dohodi na ovaj svijet, izlij blago†slov svoj na ove svijeće i po†sveti ih svijetlom milosti svoje, i budi milostiv, da kao što ova svijetla, užgana vidljivim ognjem, razgone noćnu pomrčinu, tako i srca naša nevidljivim ognjem, to jest sjajnošću Duha Svetoga, prosvijećena budu bez ikoje sljepoće, te očišćenim okom duše svoje uzmognemo gledati ono, što je Tebi ugodno, a našemu spasenju korisno; eda nakon mračnih promjena ovoga vijeka zavrijedimo doprijeti do neprestanog svijetla, k Tebi, Kriste Isuse, Spasitelju svijeta, koji u savršenome Trojstvu živiš i kraljuješ Bog: po sve vijeke vijekova. Amen.",
+  "ref": "Kniewald 1930, str. 623",
+  "checked": "image",
+  "note": "Blagoslov svijeća is only in the 1930 edition (1942 has just the procession). 1930 wording uses 'Gospode'. The cross signs are printed as † inside the words. 'k Tebi, Kriste Isuse' is printed so (Latin: Per te)."
+ },
+ {
+  "id": "Sancti/02-02:Prelude#0.4",
+  "hr": "Pomolimo se. Svemogući, vječni Bože, koji si po Mojsiju, sluzi svojem, zapovjedio, da se pripravi najčišća tekućina od ulja, od kojega će se uzdržavati neprekidno svjetiljke pred Tvojim licem, izlij milostivo blagodat svoga blago†slova na ove svijeće, da tako podavaju svijetlo izvanjsko, te po tvojemu daru ne prestane svijetlo Duha Tvojega u našim dušama: po Gospodinu našemu Isusu Kristu, Sinu Tvojemu, koji s Tobom živi i kraljuje u jedinstvu istoga Duha Svetoga, Bog, u sve vijeke vijekova Amen.",
+  "ref": "Kniewald 1930, str. 623-624",
+  "checked": "image",
+  "note": "Blagoslov svijeća is only in the 1930 edition (1942 has just the procession). 1930 wording uses 'Gospode'. Kniewald prints the long conclusion (1962 Latin has the short 'Per Christum Dominum nostrum')."
+ },
+ {
+  "id": "Sancti/02-02:Prelude#0.5",
+  "hr": "Pomolimo se! Gospode Isuse Kriste, koji si bio, ukazavši se današnji dan, u biti tijela našega u hramu od roditelja prikazan; kojega je Simeon, časni starac, prosvijećen Duhom Svetim, upoznao, primio i blagoslovio: podaj milostivo, da milošću istoga Duha Svetoga prosvijećeni i poučeni, istinito upoznamo i vjerno ljubimo Tebe, koji s Bogom Ocem u jedinstvu istoga Duha Svetoga živiš i kraljuješ u sve vijeke vijekova. Amen.",
+  "ref": "Kniewald 1930, str. 624",
+  "checked": "image",
+  "note": "Blagoslov svijeća is only in the 1930 edition (1942 has just the procession). 1930 wording uses 'Gospode'. The closing rubric of the Latin (incensing, sprinkling) is not in Kniewald."
+ },
+ {
+  "id": "Sancti/02-02:Prelude#1.1",
+  "hr": "[Dok se dijele svijeće pjeva kor:]\n(Luka 2, 32.) Svijetlo na objavu narodima i na slavu puka Tvojega Izraela.\nSad otpuštaš slugu svojega, Gospode, po riječi svojoj, u miru.\nSvijetlo na objavu narodima i na slavu puka Tvojega Izraela.\nJer vidješe oči moje spasenje Tvoje.\nSvijetlo na objavu...\nŠto ga pripravi pred licem sviju naroda.\nSvijetlo na objavu...\nSlava Ocu i Sinu i Duhu Svetomu.\nSvijetlo na objavu...\nKako bijaše u početku, i sada i vazda, i u vijeke vijekova Amen.\nSvijetlo na objavu...",
+  "ref": "Kniewald 1930, str. 624",
+  "checked": "image",
+  "note": "Blagoslov svijeća is only in the 1930 edition (1942 has just the procession). 1930 wording uses 'Gospode'. Rubric in [ ] is Kniewald's own. He abbreviates the repeated antiphon as 'Svijetlo na objavu...' from the third time on; kept as printed."
+ },
+ {
+  "id": "Sancti/02-02:Prelude#1.2",
+  "hr": "Usliši molimo, Gospode, narod svoj, i dopusti, da iznutra dostigne svjetlošću milosti Tvoje, što daješ, da izvana slavi godišnjom pobožnošću, po Kristu, Gospodu našem. Amen.",
+  "ref": "Kniewald 1930, str. 625",
+  "checked": "image",
+  "note": "Blagoslov svijeća is only in the 1930 edition (1942 has just the procession). 1930 wording uses 'Gospode'. Before this prayer Kniewald still prints the antiphon 'Ustani, Gospode' (Exsurge) and 'Prignimo koljena', which the 1960 rubrics dropped; not included. No 'Pomolimo se' is printed before this prayer."
+ },
+ {
+  "id": "Sancti/02-02:Prelude#2.0",
+  "hr": "[Ophod.]\nPođimo u miru. — U ime Kristovo! Amen.\nPripjev. Ukrasi dvor svoj, Sione, i primi kralja Krista, zagrli Mariju, koja je nebeska vrata; jer ona nosi slavnoga kralja nove svijetlosti; evo stoji Djevica, noseći na rukama Sina, rođenoga prije danice, koga primi Simeon u naručaj svoj i objavi narodima, da je on Gospodar života i smrti i Spasitelj svijeta.",
+  "ref": "Kniewald 1930, str. 625",
+  "checked": "image",
+  "note": "Blagoslov svijeća is only in the 1930 edition (1942 has just the procession). 1930 wording uses 'Gospode'. Kniewald 1942, p. 498-499, has a differently worded version of the procession chants ('Nakiti ložnicu svoju, Sione ...'); the 1930 text is used so that the whole rite comes from one edition."
+ },
+ {
+  "id": "Sancti/02-02:Prelude#2.1",
+  "hr": "Drugi pripjev (Luka 2, 26—29). Odgovor dobi Simeon od Duha Svetoga, da ne će ugledati smrti, dok ne vidi Krista Gospodnjega; i kad unesoše dječaka u hram, primi ga u naručaj svoj, i blagoslovi Boga i reče: Sad otpuštaš slugu svoga, Gospode, u miru.\nKad uvedoše dijete Isusa roditelji njegovi, da učine za nj po običaju zakona, on ga primi u naručaj svoj.",
+  "ref": "Kniewald 1930, str. 625",
+  "checked": "image",
+  "note": "Blagoslov svijeća is only in the 1930 edition (1942 has just the procession). 1930 wording uses 'Gospode'. The 1942 edition (p. 499) omits the verse 'Kad uvedoše'."
+ },
+ {
+  "id": "Sancti/02-02:Prelude#2.2",
+  "hr": "[Kod ulaza u crkvu:]\nPrikazaše za njega Gospodu dvije grlice ili dva mlada goluba, kao što je pisano u zakonu Gospodnjem.\nA kad se navršiše dani očišćenja Marijina po zakonu Mojsijevu, donesoše Isusa u Jerusalem, da ga prinesu Gospodu: Kao što je pisano u zakonu Gospodnjem.\nSlava Ocu i Sinu i Duhu Svetomu.\nKao što je pisano u zakonu Gospodnjem.",
+  "ref": "Kniewald 1930, str. 625-626",
+  "checked": "image",
+  "note": "Blagoslov svijeća is only in the 1930 edition (1942 has just the procession). 1930 wording uses 'Gospode'. The long closing rubric of the 1962 Latin (Finita processione ...) has no counterpart in Kniewald."
  }
 ]

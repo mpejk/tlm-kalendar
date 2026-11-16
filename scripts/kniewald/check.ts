@@ -32,7 +32,7 @@ type Unit = { id: number; type: string; leaf: number; parts: string[]; sure: boo
 const rawOf = (u: Unit) => u.parts.join(' ');
 
 // labels printed in the middle of an OCR paragraph (two paragraphs merged by the OCR)
-const EMBEDDED = /(?<=[.!?:»"”] )(?=(?:Čitanje (?:poslanice|knjige|proroka|Djela|\p{Lu}\p{Ll}+ [Pp]roroka)|(?:Pjesma n|N)a stepenicama|Zavlaka \(|Prikazanje \(|Pričesna \(|Tajna\. |Popričesna\. |Molitva\. |Molitva nad pukom|Ulaz \(|. Slijedi sv))/u;
+const EMBEDDED = /(?<=[.!?:»"”] )(?=(?:Čitanje (?:poslanice|knjige|proroka|Djela|\p{Lu}\p{Ll}+ [Pp]roroka)|(?:Pjesma n|N)a stepenicama|Zavlaka \(|Prikazanje \(|Pričesna \(|Tajna\. |Popričesna\. |Molitva\. |Molitva nad pukom|Ulaz \(|.{0,4}Slijedi sv))/u;
 
 function loadParas(): Para[] {
   const st = zlib.gunzipSync(fs.readFileSync(RAW + ITEM + '_hocr_searchtext.txt.gz')).toString('utf8');
@@ -53,7 +53,7 @@ function loadParas(): Para[] {
 const LABELS: [RegExp, string][] = [
   [/^.{0,3}molitva nad p/, 'SuperPopulum'],
   [/^.{0,3}(molitva|ulazna)\b/, 'Oratio'],
-  [/^.{0,3}ulaz\b/, 'Introitus'],
+  [/^.{0,3}(u|tj|d)[il1]az\b/, 'Introitus'],
   [/^.{0,3}[cč]itanje\b/, 'Lectio'],
   [/^.{0,3}(pjesma na stepenicama|na stepenicama|stepenica|zavlaka|a[l1i]e[l1i]u[ij]a\W{1,3}a[l1i]e[l1i]u[ij]a)/, 'Graduale'],
   [/^.{0,6}(slijedi|pocetak) sv/, 'Evangelium'],
@@ -64,7 +64,21 @@ const LABELS: [RegExp, string][] = [
   [/^.{0,3}pr[il1]c[ec]sna/, 'Communio'],
   [/^.{0,3}posljednica\b/, 'Sequentia'],
   [/^.{0,4}[ud] ?istinu.? je dostojno/, 'Prefatio'],
+  [/^predslovlje[^.]{0,30}\. ?uistinu/, 'Prefatio'],
 ];
+// labels damaged by the OCR ("MoUtva.", "Prioesna (", "Molitava."): first word within a small edit distance, followed by . : or (
+const FUZZY: [string, string][] = [['molitva', 'Oratio'], ['tajna', 'Secreta'], ['popricesna', 'Postcommunio'], ['pricesna', 'Communio'], ['prikazanje', 'Offertorium'], ['zavlaka', 'Graduale']];
+function lev(a: string, b: string): number {
+  const d = Array.from({ length: a.length + 1 }, (_, i) => [i, ...new Array(b.length).fill(0)]);
+  for (let j = 1; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++) for (let j = 1; j <= b.length; j++) d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+  return d[a.length][b.length];
+}
+function fuzzyLabel(text: string): string {
+  const m = fold(text.slice(0, 24)).match(/^[^a-z]{0,3}([a-z?]{4,11})\.{0,2} ?[.:(]/); if (!m) return '';
+  for (const [w, t] of FUZZY) if (Math.abs(m[1].length - w.length) <= 1 && lev(m[1], w) <= (w.length >= 7 ? 2 : 1)) return t;
+  return '';
+}
 // paragraphs that end a unit without starting a text of their own
 const BREAK = /^.{0,3}(spomen\b|misa kao|sve kao|sve ostalo|ostalo kao|predslovlje|postaja kod|n[ec] moli se|slava\b|vjerujem\b|vjem|evandelje (kao|iz)|evandelje,|poslanica (kao|iz)|sada se|pomolimo se|\d{1,2}\. ?[ivx]+\. )/;
 const isPageNo = (t: string) => /^\d{1,4}$/.test(t);
@@ -77,6 +91,7 @@ function classifyAll(paras: Para[]) {
   paras.forEach((p, i) => {
     const f = fold(p.text.slice(0, 50));
     for (const [re, t] of LABELS) if (re.test(f)) { p.type = t; return; }
+    const fz = fuzzyLabel(p.text); if (fz) { p.type = fz; return; }
     if (isPageNo(p.text)) { p.type = '#head'; return; }
     if (p.short && p.text.length < 70) {
       const numbered = /^\d{1,4} \S/.test(p.text) && !/^\d{1,2}\. ?[IVX]+\./.test(p.text) || (/ \d{2,4}\.?$/.test(p.text) && !/str\. ?\d+\.?$/.test(p.text));
@@ -84,7 +99,7 @@ function classifyAll(paras: Para[]) {
       const repeated = (seen.get(hk(p)) ?? 0) >= 2 && keys(p.text).length >= 2;
       if ((numbered || nextToNo || repeated) && !/^\p{Ll}/u.test(p.text)) { p.type = '#head'; return; }
     }
-    if (BREAK.test(f)) p.type = '#break';
+    if (BREAK.test(f)) p.type = p.short ? '#break' : /^.{0,3}pomo[li1]imo,? se/.test(f) ? 'Oratio' : '#long';
   });
 }
 
@@ -92,18 +107,23 @@ function buildUnits(paras: Para[]): Unit[] {
   const units: Unit[] = [];
   let cur: Unit | null = null;      // last labelled unit that may still take continuations / extensions
   let tail: Unit | null = null;     // unit that the running text currently belongs to
+  let afterPrayerCue = false;
   const endsOpen = (t: string) => !/[.!?»"”:;)*]\s*$/.test(t);
   classifyAll(paras);
   paras.forEach((p, pi) => {
     if (p.type === '#head') return;
-    if (p.type && p.type !== '#break') { cur = tail = { id: units.length, type: p.type, leaf: p.leaf, parts: [p.text], sure: [true], ext: [], pi }; units.push(cur); return; }
-    if (p.type === '#break') { cur = tail = null; return; }
+    if (p.type && !p.type.startsWith('#')) { afterPrayerCue = false; cur = tail = { id: units.length, type: p.type, leaf: p.leaf, parts: [p.text], sure: [true], ext: [], pi }; units.push(cur); return; }
+    if (p.type === '#break') { cur = tail = null; afterPrayerCue = /^.{0,3}(spomen|pomo[li1]imo)/.test(fold(p.text)); return; }
+    if (p.type === '#long') { cur = null; tail = { id: units.length, type: '', leaf: p.leaf, parts: [p.text], sure: [true], ext: [], pi }; units.push(tail); return; }
+    const cue = afterPrayerCue; afterPrayerCue = false;
+    if (cue && !p.short && /^\p{Lu}/u.test(p.text)) { cur = tail = { id: units.length, type: 'Oratio', leaf: p.leaf, parts: [p.text], sure: [true], ext: [], pi }; units.push(cur); return; }   // prayer printed without a label after "Spomen ..." or "Pomolimo se!"
     const lower = /^\p{Ll}/u.test(p.text);
     if (tail) {
       const prev = tail.parts[tail.parts.length - 1];
       const open = endsOpen(prev);
       if (lower || open) {
         if (p.short && !lower && !open) return;
+        if (open && !lower && p.text.length < 400 && /^[\^*'‘’]+ ?\p{Lu}/u.test(p.text)) return;   // footnote in the middle of a sentence
         if (p.short && !lower && /^[^\p{L}]*\p{Lu}/u.test(p.text) && keys(p.text).length <= 8 && open && /^[\^*'‘’"]|po našem|str\./.test(p.text)) return;   // footnote
         tail.parts.push(p.text); tail.sure.push(lower && open);
         if (cur && tail !== cur && cur.ext.length) cur.ext[cur.ext.length - 1] += ' ' + p.text;
@@ -157,11 +177,11 @@ function cleanSite(hr: string, sec: string): { text: string; refs: Set<string> }
   return { text: t.replace(/¶/g, ' ').replace(/\s+([.,;:!?])/g, '$1').replace(/^[\s.]+|(?<=[.!?])[\s.]+$/g, '').replace(/\s+/g, ' ').trim(), refs: refPairs(refsSrc) };
 }
 
-const LABEL_STRIP = /^.{0,6}?(Molitva nad p\p{L}+|Molitva|Ulazna|Ulaz|Pjesma na stepenicama|Na stepenicama|Stepenica|Zavlaka|Prikazanje|Tajna|Pop\S{6,8}|Pr\S{6,7}|Posljednica)\b[.:]?\s*/u;
-const ALLELUIA2 = /\(?A[l1i]e\W{0,3}[lI1i][un]\W?[ij]a\W{1,6}a[l1i]e\W{0,3}[l1i][un]\W?[ij]a/;
+const LABEL_STRIP = /^.{0,6}?(Molitva nad p\p{L}+|Molitva|Ulazna|Ulaz|TJlaz|Pjesma na stepenicama|Na stepenicama|Stepenica|Zavlaka|Prikazanje|Tajna|Pop\S{6,8}|Pr\S{6,7}|Posljednica)\b[.:]?\s*/u;
+const ALLELUIA2 = /\(?A[l1i]e\W{0,3}[lI1ij][un]\W?[ij]a\W{1,6}a[l1i]e\W{0,3}[l1ij][un]\W?[ij]a/;
 function cleanKn(raw: string, type: string): { text: string; body: string; refs: Set<string> } {
   let body = raw;
-  if (type && !['Lectio', 'Evangelium', 'Prefatio'].includes(type) && !/^.{0,3}Aleluja/i.test(raw)) body = raw.replace(LABEL_STRIP, '');
+  if (type && !['Lectio', 'Evangelium', 'Prefatio'].includes(type) && !/^.{0,3}Aleluja/i.test(raw)) { body = raw.replace(LABEL_STRIP, ''); if (body === raw && fuzzyLabel(raw)) body = raw.replace(/^[^.:(]{0,16}[.:]?\s*/, ''); }
   let refsSrc = '';
   let t = body.replace(/\(([^()]{0,60})\)/g, (m, x) => { if (/\d/.test(x)) { refsSrc += ' ' + x; return ' '; } if (/^ovdje/i.test(x.trim())) return ' '; return ' ' + x + ' '; });
   if (PRAYERS.has(type)) {
@@ -201,6 +221,7 @@ function candidatesOf(u: Unit, units: Unit[]): Cand[] {
       const marks: number[] = [0];
       for (const m of t.matchAll(/\([^()]{0,40}\d[^()]{0,40}\)/g)) marks.push(m.index!);
       const am = t.slice(8).match(ALLELUIA2); if (am) marks.push(am.index! + 8);
+      for (const m of t.matchAll(/(?<=[.!?,;:] ?)\(?A[l1i]e[l1i]u[ij]a\b/g)) if (m.index! > 8 && !marks.some(x => Math.abs(x - m.index!) < 22)) marks.push(m.index!);
       marks.sort((a, b) => a - b); marks.push(t.length);
       for (let i = 0; i + 1 < marks.length; i++) { const piece = t.slice(marks[i], marks[i + 1]).trim(); if (keys(piece.replace(/\([^()]*\d[^()]*\)/g, ' ')).length >= 2) { pieces.push(piece); if (gi === 0) own = pieces.length; } }
     });
@@ -239,11 +260,11 @@ function edges(a: string[], b: string[]) {
   const solid = (x: number) => { let c = 0; for (let y = Math.max(0, x - 3); y <= Math.min(p.length - 1, x + 3); y++) if (Math.abs(p[y][0] - p[x][0]) <= 8 && Math.abs(p[y][1] - p[x][1]) <= 8) c++; return c >= 3; };
   let f = 0; while (f < p.length && !solid(f)) f++;
   let l = p.length - 1; while (l >= 0 && !solid(l)) l--;
-  if (f > l) return { ok: false, headA: a.length, headB: b.length, tailA: a.length, tailB: b.length, matched: p.length, gapA: 0, gapB: 0 };
+  if (f > l) return { ok: false, headA: a.length, headB: b.length, tailA: a.length, tailB: b.length, matched: p.length, gapA: 0, gapB: 0, gapAat: 0, gapBat: 0 };
   // largest one-sided gap in the middle (verses omitted on one side)
-  let gapA = 0, gapB = 0;
-  for (let x = f + 1; x <= l; x++) { const da = p[x][0] - p[x - 1][0] - 1, db = p[x][1] - p[x - 1][1] - 1; if (da - db > gapA) gapA = da - db; if (db - da > gapB) gapB = db - da; }
-  return { ok: true, headA: p[f][0], headB: p[f][1], tailA: a.length - 1 - p[l][0], tailB: b.length - 1 - p[l][1], matched: p.length, gapA, gapB };
+  let gapA = 0, gapB = 0, gapAat = 0, gapBat = 0;
+  for (let x = f + 1; x <= l; x++) { const da = p[x][0] - p[x - 1][0] - 1, db = p[x][1] - p[x - 1][1] - 1; if (da - db > gapA) { gapA = da - db; gapAat = p[x - 1][1]; } if (db - da > gapB) { gapB = db - da; gapBat = p[x - 1][0]; } }
+  return { ok: true, headA: p[f][0], headB: p[f][1], tailA: a.length - 1 - p[l][0], tailB: b.length - 1 - p[l][1], matched: p.length, gapA, gapB, gapAat, gapBat };
 }
 
 // ---------------------------------------------------------------- main
@@ -265,7 +286,7 @@ cands.forEach((c, ci) => { for (const k of new Set(c.ks)) { let a = inv.get(k); 
 // readings that Kniewald prints only as a cross-reference: "(8, 5-13). (Kao na 3. nedjelju po Bogojavljenju, str. 81...)"
 const xrefs = units.filter(u => READINGS.has(u.type) && rawOf(u).length < 320 && /\bkao\b|str\. ?\d/i.test(rawOf(u)) && knCite(u.parts[0]));
 
-type Res = { key: string; b: Block; site: string; sk: string[]; refs: Set<string>; cite: string; best?: Cand; F: number; P: number; R: number; refHit: boolean; typed: boolean; citeEq: boolean; score: number; status: string; note: string; ratio: number; near?: boolean; kn?: string; knText?: string; xref?: Unit };
+type Res = { anchor?: number; key: string; b: Block; site: string; sk: string[]; refs: Set<string>; cite: string; best?: Cand; F: number; P: number; R: number; refHit: boolean; typed: boolean; citeEq: boolean; score: number; status: string; note: string; ratio: number; near?: boolean; kn?: string; knText?: string; xref?: Unit };
 const secBase = (s: string) => s.startsWith('Other') ? 'Other' : s;
 
 function search(r: Res, anchor?: number): void {
@@ -294,7 +315,7 @@ const bySrc = new Map<string, Res[]>(); for (const r of results) { let a = bySrc
 for (const rs of bySrc.values()) {
   const sure = rs.filter(r => r.best && r.F >= 0.6).map(r => r.best!.unit.pi).sort((a, b) => a - b);
   if (sure.length < 2) continue; const anchor = sure[sure.length >> 1];
-  for (const r of rs) if (!r.best || r.F < 0.6) search(r, anchor);
+  for (const r of rs) { r.anchor = anchor; if (!r.best || r.F < 0.6) search(r, anchor); else r.near = Math.abs(r.best.unit.pi - anchor) <= 70; }
 }
 
 // acceptance and content comparison
@@ -309,7 +330,10 @@ for (const r of results) {
   let found = n >= 3 && (conf >= 0.5 || (contain >= 0.75 && r.F >= 0.3 && r.typed && n >= 8) || (r.refHit && r.typed && r.F >= 0.28));
   if (found && SEC2TYPE[sec] && c.unit.type === '' && r.F < 0.55) found = false;   // unlabelled paragraph: only a strong match counts
   if (found && secBase(sec) === 'Other' && r.F < 0.45) found = false;
-  if (!found) { r.status = 'not-found'; continue; }
+  // borderline: probably the same text, too weak to say (kept as "uncertain", never as agreement)
+  const weak = !found && n >= 6 && r.F >= 0.38 && (r.typed && c.unit.type !== '' || r.near) && secBase(sec) !== 'Other';
+  if (!found && !weak) { r.status = 'not-found'; continue; }
+  if (weak) { r.score = Math.round(conf * 100) / 100; r.kn = c.body; r.knText = c.text; r.ratio = 0; r.status = 'uncertain'; r.note = 'slaba leksička podudarnost; možda srodan, a ne isti tekst'; continue; }
   r.score = Math.min(1, Math.round(conf * 100) / 100);
   r.kn = c.body; r.knText = c.text;
   const kw = c.text.split(/\s+/).length, sw = r.site.split(/\s+/).length; r.ratio = sw / Math.max(1, kw);
@@ -318,9 +342,12 @@ for (const r of results) {
   if (sec === 'Prefatio') { if (r.F < 0.5) { status = 'uncertain'; notes.push('predslovlje: slaba podudarnost'); } }
   else if (n >= 30 && !CHANTS.has(sec) && !PRAYERS.has(sec)) {
     const e = edges(r.sk, c.ks);
-    const T = Math.max(7, Math.round(0.07 * Math.min(n, c.ks.length)));
+    const T = Math.max(10, Math.round(0.08 * Math.min(n, c.ks.length)));
     if (!e.ok) { status = 'uncertain'; notes.push('poravnanje nije uspjelo'); }
     else {
+      // only the opening formula ("Slijedi sveto Evanđelje... U ono vrijeme") matched before a large gap: that gap is the real start
+      if (e.gapB >= T && e.gapBat <= 14 && e.gapB > e.headB) { e.headB = e.gapB; e.gapB = 0; }
+      if (e.gapA >= T && e.gapAat <= 14 && e.gapA > e.headA) { e.headA = e.gapA; e.gapA = 0; }
       if (e.headB - e.headA >= T) { status = 'different-start'; knMore = true; notes.push(`Kniewald počinje ranije (oko ${e.headB} riječi prije početka na stranici)`); }
       else if (e.headA - e.headB >= T) { status = 'different-start'; siteMore = true; notes.push(`stranica počinje ranije (oko ${e.headA} riječi prije Kniewaldova početka)`); }
       if (e.tailB - e.tailA >= T) { if (status === 'ok') status = 'different-end'; knMore = true; notes.push(`tekst na stranici završava ranije (Kniewald ima još oko ${e.tailB} riječi)`); }
@@ -336,6 +363,9 @@ for (const r of results) {
     if (r.ratio < 0.6 && d <= -7) { if (r.P >= 0.6) { status = 'shorter-on-site'; knMore = true; notes.push('tekst na stranici znatno kraći'); } else { status = 'uncertain'; notes.push('različita duljina i slaba podudarnost'); } }
     else if (r.ratio > 1.7 && d >= 7) { if (r.R >= 0.6) { status = 'longer-on-site'; siteMore = true; notes.push('tekst na stranici znatno dulji'); } else { status = 'uncertain'; notes.push('različita duljina i slaba podudarnost'); } }
   }
+  if (FLAG.has(status) && (CHANTS.has(sec) || PRAYERS.has(sec)) && !r.near) { status = 'uncertain'; notes.push('Kniewaldov tekst nije iz istog misnog obrasca; možda srodan, a ne isti tekst'); }
+  if (FLAG.has(status) && (secBase(sec) === 'Other' || sec === 'Sequentia')) { status = 'uncertain'; notes.push(sec === 'Sequentia' ? 'posljednica je u Kniewalda složena u stihove; opseg se iz OCR-a ne može pouzdano usporediti' : 'obred izvan mise: u Kniewalda drukčije raspoređen (stanje prije 1955.), opseg se ne može pouzdano usporediti'); }
+  if (FLAG.has(status) && r.citeEq && knMore && !siteMore && /Kniewald počinje ranije/.test(notes.join()) && !/^.{0,8}(čitanje|citanje|slijedi|početak|muka)/i.test(c.body)) { status = 'cite'; notes.push('navod jednak; ispred Kniewaldova čitanja u OCR-u je zalijepljen prethodni tekst'); }
   // the OCR passage is the incomplete side: not evidence about the old site
   if (FLAG.has(status) && siteMore && !knMore) {
     if (r.citeEq) { status = 'cite'; notes.push('navod (poglavlje i reci) jednak; Kniewaldov odlomak u OCR-u nepotpun'); }
@@ -346,7 +376,8 @@ for (const r of results) {
 }
 // Kniewald gives the pericope by cross-reference to a longer one printed elsewhere
 for (const r of results) {
-  if (!READINGS.has(r.b.sec) || !r.cite || r.citeEq || r.status === 'ok') continue;
+  if (!READINGS.has(r.b.sec) || !r.cite || r.status === 'ok') continue;
+  if (r.citeEq) { const cn = r.cite.split('.'); const nx = xrefs.find(u => { const k = knCite(u.parts[0]).split('.'); return u.type === r.b.sec && k[0] === cn[0] && k[k.length - 1] === cn[cn.length - 1] && k.join('.') !== r.cite; }); if (nx && FLAG.has(r.status)) r.note += `; Kniewald na tom danu ima samo uputu: «${rawOf(nx).slice(0, 140)}» — navod na stranici vjerojatno je pogrešan, a ne tekst`; continue; }
   const x = xrefs.find(u => u.type === r.b.sec && knCite(u.parts[0]) === r.cite);
   if (x) { r.xref = x; r.note = `Kniewald ovo čitanje donosi samo uputom na drugo mjesto: «${rawOf(x).slice(0, 140)}»` + (r.note ? ' — usporedba s tim duljim odlomkom: ' + r.note : ''); r.status = 'xref'; if (!r.kn && r.best) { r.kn = r.best.body; r.knText = r.best.text; } }
 }
@@ -389,10 +420,21 @@ for (const s of secs) { const c = cnt(results.filter(r => secBase(r.b.sec) === s
 md.push('"Flagged" = the counterpart was found and the content differs in extent (start, end or length); these are the ones to review. "Uncertain" = a candidate was found but the OCR passage is damaged, cut, or too weak a match to judge.', '');
 md.push('## Flagged blocks', '');
 const cites = (r: Res) => READINGS.has(r.b.sec) && r.cite && r.best!.cite ? ` Navod: stranica ${r.cite.replace(/\./g, ' ')}, Kniewald ${r.best!.cite.replace(/\./g, ' ')}.` : '';
-for (const r of results.filter(r => FLAG.has(r.status)).sort(bySecSrc)) {
-  md.push(`- **${page(r.b.src)} · ${r.b.sec} · ${r.status}** — ${r.note}. Riječi: stranica ${r.site.split(/\s+/).length}, Kniewald ${r.knText!.split(/\s+/).length}.${cites(r)} ${refOf(r.best!.unit.leaf)}.`);
-  md.push(`  - stranica: «${first(r.site)} … ${last(r.site)}»`);
-  md.push(`  - Kniewald (OCR): «${first(r.knText!)} … ${last(r.knText!)}»`);
+const flaggedAll = results.filter(r => FLAG.has(r.status)).sort(bySecSrc);
+const groups: [string, (r: Res) => boolean][] = [
+  ['A. Readings with the same citation on both sides, yet a different extent (most likely real: text missing or added, or a wrong citation line)', r => READINGS.has(r.b.sec) && r.citeEq],
+  ['B. Readings whose citations differ (Kniewald\'s passage is a longer or shorter pericope of the same chapter: the reading was changed after 1942, or Kniewald prints it for another Mass)', r => READINGS.has(r.b.sec) && !r.citeEq],
+  ['C. Prayers and chants of the same Mass with a clearly different length', r => !READINGS.has(r.b.sec)],
+];
+for (const [title, f] of groups) {
+  md.push('### ' + title, '');
+  const rs = flaggedAll.filter(f); if (!rs.length) md.push('(none)');
+  for (const r of rs) {
+    md.push(`- **${page(r.b.src)} · ${r.b.sec} · ${r.status}** — ${r.note}. Riječi: stranica ${r.site.split(/\s+/).length}, Kniewald ${r.knText!.split(/\s+/).length}.${cites(r)} ${refOf(r.best!.unit.leaf)}.`);
+    md.push(`  - stranica: «${first(r.site)} … ${last(r.site)}»`);
+    md.push(`  - Kniewald (OCR): «${first(r.knText!)} … ${last(r.knText!)}»`);
+  }
+  md.push('');
 }
 md.push('', '## Agreeing by citation or cross-reference only', '');
 for (const r of results.filter(r => r.status === 'cite' || r.status === 'xref').sort(bySecSrc)) md.push(`- ${page(r.b.src)} · ${r.b.sec} (${r.cite.replace(/\./g, ' ')}) — ${r.note}. ${refOf((r.xref ?? r.best!.unit).leaf)}.`);

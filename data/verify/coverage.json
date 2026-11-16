@@ -4,12 +4,12 @@
   "blocks": 49330,
   "site": 49063,
   "siteVariant": 1565,
-  "kniewald": 0,
-  "missing": 267,
+  "kniewald": 206,
+  "missing": 61,
   "unique": 6229,
   "uniqueSite": 6192,
-  "uniqueKniewald": 0,
-  "uniqueMissing": 37
+  "uniqueKniewald": 29,
+  "uniqueMissing": 8
  },
  "rites": [
   {
@@ -30,51 +30,6 @@
  ],
  "missingFormularies": [],
  "gaps": [
-  {
-   "n": 1,
-   "where": "bl. Alojzije Stepinac, biskup i mučenik",
-   "la": "Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti N. Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat.",
-   "sec": "Commune/C2c|Oratio",
-   "first": "2026-02-10",
-   "cal": "zagreb",
-   "core": "infirmitatem nostram respice omnipotens deus et quia pondus proprie actionis gravat beati n martiris tui atque pontificis intercesio gloriosa nos protegat"
-  },
-  {
-   "n": 1,
-   "where": "bl. Alojzije Stepinac, biskup i mučenik",
-   "la": "Léctio Epístolæ beáti Jacóbi Apóstoli Caríssimi: Beátus vir, qui suffert tentatiónem: quóniam, cum probátus fúerit, accípiet corónam vitæ, quam repromísit Deus diligéntibus se. Nemo, cum tentátur, dicat, quóniam a Deo tentátur: Deus enim intentátor malórum est: ipse autem néminem tentat. Unusquísque vero tentátur a concupiscéntia sua abstráctus et illéctus. Deinde Concupiscéntia cum concéperit, parit peccátum: peccátum vero cum consummátum fúerit, génerat mortem. Nolíte itaque erráre, fratres mei dilectíssimi. Omne datum óptimum et omne donum perféctum desúrsum est, descéndens a Patre lúminum, apud quem non est transmutátio nec vicissitúdinis obumbrátio. Voluntárie enim génuit nos verbo veritátis, ut simus inítium aliquod creatúræ ejus.",
-   "sec": "Commune/C2c|Lectio",
-   "first": "2026-02-10",
-   "cal": "zagreb",
-   "core": "lectio epistole beati iacobi apostoli carisimi beatus vir qui sufert tentationem quoniam cum probatus fuerit acipiet coronam vite quam repromisit deus diligentibus se nemo cum tentatur dicat quoniam a deo tentatur deus enim intentator malorum est ipse autem neminem tentat unusquisque vero tentatur a concupiscentia sua abstractus et ilectus deinde concupiscentia cum conceperit parit pecatum pecatum vero cum consumatum fuerit generat mortem nolite itaque erare fratres mei dilectisimi omne datum optimum et omne donum perfectum desursum est descendens a patre luminum apud quem non est transmutatio nec vicisitudinis obumbratio voluntarie enim genuit nos verbo veritatis ut simus initium aliquod creature eius"
-  },
-  {
-   "n": 1,
-   "where": "bl. Alojzije Stepinac, biskup i mučenik",
-   "la": "Hóstias tibi, Dómine, beáti N. Mártyris tui atque Pontíficis dicátas méritis, benígnus assúme: et ad perpétuum nobis tríbue proveníre subsídium.",
-   "sec": "Commune/C2c|Secreta",
-   "first": "2026-02-10",
-   "cal": "zagreb",
-   "core": "hostias tibi domine beati n martiris tui atque pontificis dicatas meritis benignus asume et ad perpetum nobis tribue provenire subsidium"
-  },
-  {
-   "n": 1,
-   "where": "bl. Alojzije Stepinac, biskup i mučenik",
-   "la": "Refécti participatióne múneris sacri, quǽsumus, Dómine, Deus noster: ut, cujus exséquimur cultum, intercedénte beáto N. Mártyre tuo atque Pontífice, sentiámus efféctum.",
-   "sec": "Commune/C2c|Postcommunio",
-   "first": "2026-02-10",
-   "cal": "zagreb",
-   "core": "refecti participatione muneris sacri quesumus domine deus noster ut cuius exsequimur cultum intercedente beato n martire tuo atque pontifice sentiamus efectum"
-  },
-  {
-   "n": 1,
-   "where": "Ukazanje BDM bezgrešno začete u Lourdesu (Gospa Lurdska)",
-   "la": "Flores apparuérunt in terra nostra, tempus putatiónis advénit, vox túrturis audíta est in terra nostra. Surge, amíca mea, speciósa mea, et veni: colúmba mea in foramínibus petræ, in cavérna macériæ. Tu glória Jerúsalem, tu lætítia Israël, tu honorificéntia pópuli nostri. Tota pulchra es, María: et mácula originális non est in te. Felix es, sacra Virgo María, et omni laude digníssima, quæ serpéntis caput virgíneo pede contrivísti.",
-   "sec": "Sancti/02-11|Graduale",
-   "first": "2026-02-11",
-   "cal": "opci",
-   "core": "flores aparuerunt in tera nostra tempus putationis advenit vox turturis audita est in tera nostra surge amica mea spetiosa mea et veni columba mea in foraminibus petre in caverna macerie tu gloria ierusalem tu letitia isrel tu honorificentia populi nostri tota pulcra es maria et macula originalis non est in te felix es sacra virgo maria et omni laude dignisima que serpentis caput virgineo pede contrivisti"
-  },
   {
    "n": 1,
    "where": "sv. Soter i sv. Kajo, pape, mučenici",
@@ -113,33 +68,6 @@
   },
   {
    "n": 1,
-   "where": "sv. Leopold Mandić, prezbiter, priznavalac (prosni dan)",
-   "la": "Deus, qui nos beáti N. Confessóris tui ánnua solemnitáte lætíficas: concéde propítius; ut, cujus natalítia cólimus, étiam actiónes imitémur.",
-   "sec": "Commune/C5|Oratio",
-   "first": "2026-05-12",
-   "cal": "zagreb",
-   "core": "deus qui nos beati n confesoris tui anua solemnitate letificas concede propitius ut cuius natalitia colimus etiam actiones imitemur"
-  },
-  {
-   "n": 1,
-   "where": "sv. Margareta Škotska, kraljica, udovica",
-   "la": "Deus, qui beátam Margarítam regínam exímia in páuperes caritáte mirábilem effecísti: da; ut, ejus intercessióne et exémplo, tua in córdibus nostris cáritas júgiter augeátur.",
-   "sec": "Sancti/06-10|Oratio",
-   "first": "2026-06-10",
-   "cal": "opci",
-   "core": "deus qui beatam margaritam reginam eximia in pauperes caritate mirabilem efecisti da ut eius intercesione et exemplo tua in cordibus nostris caritas iugiter augeatur"
-  },
-  {
-   "n": 1,
-   "where": "sv. Marko Križevčanin, prezbiter i mučenik",
-   "la": "Præsta, quǽsumus, omnípotens Deus: ut, qui beáti N. Mártyris tui natalícia cólimus, intercessióne ejus, in tui nóminis amóre roborémur.",
-   "sec": "Commune/C2|Oratio",
-   "first": "2026-09-07",
-   "cal": "zagreb",
-   "core": "presta quesumus omnipotens deus ut qui beati n martiris tui natalitia colimus intercesione eius in tui nominis amore roboremur"
-  },
-  {
-   "n": 1,
    "where": "sv. Toma iz Villanove, biskup, priznavalac",
    "la": "Annue, quǽsumus, omnípotens Deus: ut sanctórum Martyrum tuórum Maurítii et Sociórum ejus nos lætíficet festíva sollémnitas; ut, quorum suffrágiis nítimur, eórum natalítiis gloriémur.",
    "sec": "Sancti/09-22o|Oratio",
@@ -158,96 +86,6 @@
   },
   {
    "n": 1,
-   "where": "sv. Toma iz Villanove, biskup, priznavalac",
-   "la": "Cœléstibus refécti sacraméntis et gáudiis: súpplices te rogámus, Dómine; ut, quorum gloriámur triúmphis, protegámur auxíliis.",
-   "sec": "Sancti/09-22o|Postcommunio",
-   "first": "2026-09-22",
-   "cal": "opci",
-   "core": "celestibus refecti sacramentis et gaudis suplices te rogamus domine ut quorum gloriamur triumfis protegamur auxilis"
-  },
-  {
-   "n": 1,
-   "where": "sv. Demetrije i drugovi, mučenici",
-   "la": "Beatórum Mártyrum paritérque Pontíficum N. et N. nos, quǽsumus, Dómine, festa tueántur: et eórum comméndet orátio veneránda.",
-   "sec": "Commune/C3|Oratio",
-   "first": "2026-10-08",
-   "cal": "zagreb",
-   "core": "beatorum martirum pariterque pontificum n et n nos quesumus domine festa tueantur et eorum comendet oratio veneranda"
-  },
-  {
-   "n": 1,
-   "where": "sv. Šimun i Juda Tadej, apostoli",
-   "la": "Sequéntia ✠ sancti Evangélii secúndum Joánnem In illo témpore: Dixit Jesus discípulis suis: Hæc mando vobis, ut diligátis ínvicem. Si mundus vos odit: scitóte, quia me priórem vobis odio hábuit. Si de mundo fuissétis, mundus quod suum erat dilígeret; quia vero de mundo non estis, sed ego elegi vos de mundo, proptérea odit vos mundus. Mementóte sermónis mei, quem ego dixi vobis: Non est servus major dómino suo. Si me persecúti sunt, et vos persequántur: si sermónem meum servavérunt, et vestrum servábunt. Sed hæc ómnia fácient vobis propter nomen meum: quia nésciunt eum, qui misit me. Si non veníssem et locútus fuíssem eis, peccátum non háberent: nunc autem excusatiónem non habent de peccáto suo. Qui me odit: et Patrem meum odit. Si ópera non fecíssem in eis, quæ nemo álius fecit, peccátum non háberent: nunc autem et vidérunt et odérunt et me et Patrem meum. Sed ut adimpleátur sermo, qui in lege eórum scriptus est: Quia ódio habuérunt me gratis.",
-   "sec": "Sancti/10-28|Evangelium",
-   "first": "2026-10-28",
-   "cal": "opci",
-   "core": "sequentia sancti evangeli secundum ioanem in ilo tempore dixit iesus discipulis suis hec mando vobis ut diligatis invicem si mundus vos odit scitote quia me priorem vobis odio habuit si de mundo fuisetis mundus quod sum erat diligeret quia vero de mundo non estis sed ego elegi vos de mundo propterea odit vos mundus mementote sermonis mei quem ego dixi vobis non est servus maior domino suo si me persecuti sunt et vos persequantur si sermonem meum servaverunt et vestrum servabunt sed hec omnia fatient vobis propter nomen meum quia nestiunt eum qui misit me si non venisem et locutus fuisem eis pecatum non haberent nunc autem excusationem non habent de pecato suo qui me odit et patrem meum odit si opera non fecisem in eis que nemo alius fecit pecatum non haberent nunc autem et viderunt et oderunt et me et patrem meum sed ut adimpleatur sermo qui in lege eorum scriptus est quia odio habuerunt me gratis"
-  },
-  {
-   "n": 1,
-   "where": "Spomen mučenika i svetaca čije su relikvije u crkvama Nadbiskupije",
-   "la": "Deus, qui nos concédis sanctórum Mártyrum tuórum N. et N. natalítia cólere: da nobis in ætérna beatitúdine de eórum societáte gaudére.",
-   "sec": "Commune/C3a|Oratio",
-   "first": "2026-11-05",
-   "cal": "zagreb",
-   "core": "deus qui nos concedis sanctorum martirum tuorum n et n natalitia colere da nobis in eterna beatitudine de eorum sotietate gaudere"
-  },
-  {
-   "n": 1,
-   "where": "Spomen mučenika i svetaca čije su relikvije u crkvama Nadbiskupije",
-   "la": "Anima nostra, sicut passer, erépta est de láqueo venántium. Láqueus contrítus est, et nos liberáti sumus: adjutórium nostrum in nómine Dómini, qui fecit cœlum et terram. Allelúja, allelúja. Justi epuléntur, et exsúltent in conspéctu Dei: et delecténtur in lætítia. Alleluja.",
-   "sec": "Commune/C3a|Graduale",
-   "first": "2026-11-05",
-   "cal": "zagreb",
-   "core": "anima nostra sicut paser erepta est de laqueo venantium laqueus contritus est et nos liberati sumus adiutorium nostrum in nomine domini qui fecit celum et teram aleluia aleluia iusti epulentur et exsultent in conspectu dei et delectentur in letitia aleluia"
-  },
-  {
-   "n": 1,
-   "where": "Spomen mučenika i svetaca čije su relikvije u crkvama Nadbiskupije",
-   "la": "Exsultábunt Sancti in glória, lætabúntur in cubílibus suis: exaltatiónes Dei in fáucibus eórum, allelúja.",
-   "sec": "Commune/C3a|Offertorium",
-   "first": "2026-11-05",
-   "cal": "zagreb",
-   "core": "exsultabunt sancti in gloria letabuntur in cubilibus suis exaltationes dei in faucibus eorum aleluia"
-  },
-  {
-   "n": 1,
-   "where": "Spomen mučenika i svetaca čije su relikvije u crkvama Nadbiskupije",
-   "la": "Dico autem vobis amícis meis: Ne terreámini ab his, qui vos persequúntur.",
-   "sec": "Commune/C3a|Communio",
-   "first": "2026-11-05",
-   "cal": "zagreb",
-   "core": "dico autem vobis amicis meis ne tereamini ab his qui vos persequntur"
-  },
-  {
-   "n": 1,
-   "where": "Spomen mučenika i svetaca čije su relikvije u crkvama Nadbiskupije",
-   "la": "Præsta nobis, quǽsumus, Dómine: intercedéntibus sanctis Martýribus tuis N. et N.; ut, quod ore contíngimus, pura mente capiámus.",
-   "sec": "Commune/C3a|Postcommunio",
-   "first": "2026-11-05",
-   "cal": "zagreb",
-   "core": "presta nobis quesumus domine intercedentibus sanctis martiribus tuis n et n ut quod ore contingimus pura mente capiamus"
-  },
-  {
-   "n": 1,
-   "where": "Obraćenje sv. Pavla",
-   "la": "Qui operátus est Petro in apostolátum, operátus est ei mihi inter gentes: et cognovérunt grátiam Dei, quæ data est mihi. Grátia Dei in me vácua non fuit: sed grátia ejus semper in me manet. Tu es vas electiónis, sancte Paule Apóstole: vere digne es glorificándus. Prædicátor veritátis et doctor géntium in fide et veritáte. Per te omnes gentes cognovérunt grátiam Dei. Intercéde pro nobis ad Deum, qui te elégit.",
-   "sec": "Sancti/01-25r|Graduale",
-   "first": "2027-01-25",
-   "cal": "opci",
-   "core": "qui operatus est petro in apostolatum operatus est ei mihi inter gentes et cognoverunt gratiam dei que data est mihi gratia dei in me vacua non fuit sed gratia eius semper in me manet tu es vas electionis sancte paule apostole vere digne es glorificandus predicator veritatis et doctor gentium in fide et veritate per te omnes gentes cognoverunt gratiam dei intercede pro nobis ad deum qui te elegit"
-  },
-  {
-   "n": 1,
-   "where": "sv. Grgur VII., papa, priznavalac",
-   "la": "Deus, in te sperántium fortitúdo, qui beátum Gregórium Confessórem tuum atque Pontíficem, pro tuénda Ecclésiæ libertáte, virtúte constántiæ roborásti: da nobis, ejus exémplo et intercessióne, ómnia adversántia fórtiter superáre.",
-   "sec": "Sancti/05-25|Oratio",
-   "first": "2027-05-25",
-   "cal": "opci",
-   "core": "deus in te sperantium fortitudo qui beatum gregorium confesorem tum atque pontificem pro tuenda eclesie libertate virtute constantie roborasti da nobis eius exemplo et intercesione omnia adversantia fortiter superare"
-  },
-  {
-   "n": 1,
    "where": "sv. Grgur VII., papa, priznavalac",
    "la": "Gregem tuum, Pastor ætérne, placátus inténde: et, per beátum Urbánum Mártyrem tuum atque Summum Pontíficem, perpétua protectióne custódi; quem totíus Ecclésiæ præstitísti esse pastórem.",
    "sec": "Sancti/05-25o|Oratio",
@@ -257,111 +95,12 @@
   },
   {
    "n": 1,
-   "where": "sv. Filip Neri, priznavalac",
-   "la": "Veníte, fílii, audíte me: timórem Dómini docébo vos. Accédite ad eum, et illuminámini: et fácies vestra? non confundántur. Allelúja, allelúja. De excélso misit ignem in óssibus meis, et erudívit me. Allelúja.",
-   "sec": "Sancti/05-26|Graduale",
-   "first": "2027-05-26",
-   "cal": "opci",
-   "core": "venite fili audite me timorem domini docebo vos acedite ad eum et iluminamini et faties vestra non confundantur aleluia aleluia de excelso misit ignem in osibus meis et erudivit me aleluia"
-  },
-  {
-   "n": 1,
    "where": "BDM Kraljica",
    "la": "Ipse habet in vestiménto et in fémore suo scriptum: Rex regum et Dóminus dominántium. Regína adstat ad déxteram eius, ornáta auro ex Ophir. Allelúia, allelúia. Salve, Regína misericórdiæ, tu nos ab hoste prótege, et mortis hora súscipe. Allelúia.",
    "sec": "Sancti/05-31|Graduale",
    "first": "2027-05-31",
    "cal": "opci",
    "core": "ipse habet in vestimento et in femore suo scriptum rex regum et dominus dominantium regina adstat ad dexteram eius ornata auro ex ofir aleluia aleluia salve regina misericordie tu nos ab hoste protege et mortis hora suscipe aleluia"
-  },
-  {
-   "n": 1,
-   "where": "sv. Lino, papa, mučenik",
-   "la": "Da, quǽsumus, omnípotens Deus: ut, qui beátæ Theclæ Vírginis et Mártyris tuæ natalítia cólimus; et ánnua sollemnitáte lætémur, et tantæ fídei proficiámus exémplo.",
-   "sec": "Sancti/09-23cc|Oratio",
-   "first": "2027-09-23",
-   "cal": "opci",
-   "core": "da quesumus omnipotens deus ut qui beate tecle virginis et martiris tue natalitia colimus et anua solemnitate letemur et tante fidei profitiamus exemplo"
-  },
-  {
-   "n": 1,
-   "where": "sv. Lino, papa, mučenik",
-   "la": "Súscipe, Dómine, múnera, quæ in beátæ Theclæ Vírginis et Mártyris tuæ sollemnitáte deférimus: cujus nos confídimus patrocínio liberári.",
-   "sec": "Sancti/09-23cc|Secreta",
-   "first": "2027-09-23",
-   "cal": "opci",
-   "core": "suscipe domine munera que in beate tecle virginis et martiris tue solemnitate deferimus cuius nos confidimus patrocinio liberari"
-  },
-  {
-   "n": 1,
-   "where": "sv. Lino, papa, mučenik",
-   "la": "Auxiliéntur nobis, Dómine, sumpta mystéria: et, intercedénte beáta Thecla Vírgine et Mártyre tua, sempitérna fáciant protectióne gaudére.",
-   "sec": "Sancti/09-23cc|Postcommunio",
-   "first": "2027-09-23",
-   "cal": "opci",
-   "core": "auxilientur nobis domine sumpta misteria et intercedente beata tecla virgine et martire tua sempiterna fatiant protectione gaudere"
-  },
-  {
-   "n": 1,
-   "where": "sv. Agata, djevica i mučenica",
-   "la": "Adjuvábit eam Deus vultu suo: Deus in médio ejus, non commovébitur. Flúminis impetus lætíficat civitátem Dei: sanctificávit tabernáculum suum Altíssimus. Allelúja, allelúja. Loquébar de testimóniis tuis in conspéctu regum, et non confundébar. Allelúja.",
-   "sec": "Sancti/02-05|Graduale",
-   "first": "2028-02-05",
-   "cal": "opci",
-   "core": "adiuvabit eam deus vultu suo deus in medio eius non comovebitur fluminis impetus letificat civitatem dei sanctificavit tabernaculum sum altisimus aleluia aleluia loquebar de testimonis tuis in conspectu regum et non confundebar aleluia"
-  },
-  {
-   "n": 1,
-   "where": "sedam osnivača Reda slugu BDM (Ordo Servorum Beatae Mariae Virginis), priznavaoci",
-   "la": "Elécti mei non laborábunt frustra, neque germinábunt in conturbatióne: quia semen benedictórum Dómini est, et nepótes eórum cum eis. Córpora ipsorum in pace sepúlta sunt, et nomen eórum vivit in generatiónem et generatiónem. Allelúja, allelúja. Sapiéntiam ipsorum narrent pópuli, et laudem eórum núntiet Ecclésia. Allelúja.",
-   "sec": "Sancti/02-12|Graduale",
-   "first": "2028-02-12",
-   "cal": "opci",
-   "core": "electi mei non laborabunt frustra neque germinabunt in conturbatione quia semen benedictorum domini est et nepotes eorum cum eis corpora ipsorum in pace sepulta sunt et nomen eorum vivit in generationem et generationem aleluia aleluia sapientiam ipsorum narent populi et laudem eorum nuntiet eclesia aleluia"
-  },
-  {
-   "n": 1,
-   "where": "Subotnja služba Gospina",
-   "la": "Benedícta et venerábilis es, Virgo María: quæ sine tactu pudóris invénta es Mater Salvatóris. Virgo, Dei Génetrix, quem totus non capit orbis, in tua se clausit víscera factus homo. Allelúja, allelúja. Virga Jesse flóruit: Virgo Deum et hóminem génuit: pacem Deus réddidit, in se reconcílians ima summis. Allelúja.",
-   "sec": "Commune/C10c|Graduale",
-   "first": "2030-02-16",
-   "cal": "opci",
-   "core": "benedicta et venerabilis es virgo maria que sine tactu pudoris inventa es mater salvatoris virgo dei genetrix quem totus non capit orbis in tua se clausit viscera factus homo aleluia aleluia virga iese floruit virgo deum et hominem genuit pacem deus redidit in se reconcilians ima sumis aleluia"
-  },
-  {
-   "n": 1,
-   "where": "Utorak u 4. tjednu korizme",
-   "la": "Deus, humílium celsitúdo, qui beátum Francíscum Confessórem Sanctórum tuórum glória sublimásti: tríbue, quǽsumus; ut, ejus méritis et imitatióne, promíssa humílibus præmia felíciter consequámur.",
-   "sec": "Sancti/04-02|Oratio",
-   "first": "2030-04-02",
-   "cal": "opci",
-   "core": "deus humilium celsitudo qui beatum franciscum confesorem sanctorum tuorum gloria sublimasti tribue quesumus ut eius meritis et imitatione promisa humilibus premia feliciter consequamur"
-  },
-  {
-   "n": 1,
-   "where": "Utorak u 4. tjednu korizme",
-   "la": "Hæc dona devótæ plebis, Dómine, quibus tua cumulámus altária, beáti Francísci méritis tibi grata nobísque salutária, te miseránte, reddántur.",
-   "sec": "Sancti/04-02|Secreta",
-   "first": "2030-04-02",
-   "cal": "opci",
-   "core": "hec dona devote plebis domine quibus tua cumulamus altaria beati francisci meritis tibi grata nobisque salutaria te miserante redantur"
-  },
-  {
-   "n": 1,
-   "where": "Utorak u 4. tjednu korizme",
-   "la": "Sumpta, Dómine, sacraménta cœléstia: beáto Francísco Confessóre tuo intercedénte, precámur; ut et temporális vitæ subsídia nobis cónferant et ætérnæ.",
-   "sec": "Sancti/04-02|Postcommunio",
-   "first": "2030-04-02",
-   "cal": "opci",
-   "core": "sumpta domine sacramenta celestia beato francisco confesore tuo intercedente precamur ut et temporalis vite subsidia nobis conferant et eterne"
-  },
-  {
-   "n": 1,
-   "where": "sv. Bonifacije (apostol Njemačke), biskup, mučenik",
-   "la": "Allelúja. Lætámini cum Jerúsalem, et exsultáte in ea, omnes, qui dilígitis Dóminum. Allelúja. Vidébitis, et gaudébit cor vestrum: cognoscétur manus Dómini servis ejus. Allelúja.",
-   "sec": "Sancti/06-05|Graduale",
-   "first": "2030-06-05",
-   "cal": "opci",
-   "core": "aleluia letamini cum ierusalem et exsultate in ea omnes qui diligitis dominum aleluia videbitis et gaudebit cor vestrum cognoscetur manus domini servis eius aleluia"
   }
  ]
 }
