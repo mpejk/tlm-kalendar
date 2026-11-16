@@ -208,7 +208,7 @@ export function getDay(n: number, config: CalendarConfig): Day {
   if (win.key === 'S:12-25') masses.push({ id: 'Sancti/12-25m1', label: 'Ponoćka', kind: 'mass' }, { id: 'Sancti/12-25m2', label: 'Zornica', kind: 'mass' }, { id: 'Sancti/12-25m3', label: 'Danja misa', kind: 'mass' });
   else if (win.key === 'S:11-02') masses.push({ id: 'Sancti/11-02m1', label: '1. misa', kind: 'mass' }, { id: 'Sancti/11-02m2', label: '2. misa', kind: 'mass' }, { id: 'Sancti/11-02m3', label: '3. misa', kind: 'mass' });
   else if (win === t && tid === 'Quad6-0') masses.push({ id: 'Tempora/Quad6-0r:palms', label: 'Blagoslov grančica', kind: 'rite' }, { id: 'Tempora/Quad6-0r', label: 'Misa', kind: 'mass', variant: 'longior' }, { id: 'Tempora/Quad6-0r', label: 'Misa (kraća Muka)', kind: 'mass', variant: 'brevior' });
-  else if (win === t && tid === 'Quad6-4') masses.push({ id: 'Tempora/Quad6-4rm1', label: 'Misa posvete ulja', kind: 'mass' }, { id: 'Tempora/Quad6-4r', label: 'Večernja misa Večere Gospodnje', kind: 'mass' });
+  else if (win === t && tid === 'Quad6-4') masses.push({ id: 'Tempora/Quad6-4rm1', label: 'Misa posvete ulja', kind: 'mass' }, { id: 'Tempora/Quad6-4rm2', label: 'Večernja misa Večere Gospodnje', kind: 'mass' });
   else if (win === t && tid === 'Quad6-5') masses.push({ id: 'Tempora/Quad6-5r', label: 'Obred Velikog petka', kind: 'rite' });
   else if (win === t && tid === 'Quad6-6') { masses.push({ id: 'Tempora/Quad6-6r', label: 'Vazmeno bdijenje', kind: 'rite' }); flags.noMass = true; }
   else if (win === t && t.ember && wd === 6) masses.push({ id: win.id, label: 'Misa (duži oblik)', kind: 'mass', variant: 'longior' }, { id: win.id, label: 'Misa (kraći oblik)', kind: 'mass', variant: 'brevior' });

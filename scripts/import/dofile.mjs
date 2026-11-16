@@ -113,6 +113,8 @@ export function parseFile(rel, ctx = {}, root = DO_ROOT) {
   const key = rel + '|' + JSON.stringify(ctx) + '|' + root;
   if (cache.has(key)) return cache.get(key);
   let full = path.join(root, rel + '.txt');
+  // the Commons of Apostles (C1…) are shared with the Office and live under horas/ in this snapshot
+  if (!fs.existsSync(full) && /^Commune\//.test(rel)) full = path.join(root.replace('/missa/', '/horas/'), rel + '.txt');
   if (!fs.existsSync(full)) { cache.set(key, null); return null; }
   const lines = fs.readFileSync(full, 'utf8').replace(/^﻿/, '').split(/\r?\n/);
   const sections = {}; const order = []; const conditional = new Set();

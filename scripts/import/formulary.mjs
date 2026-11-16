@@ -110,11 +110,23 @@ export function importFormulary(file, ctx = {}) {
   while (fb && !seenFb.has(fb)) { seenFb.add(fb); inh.push(...(getSection(fb, 'Rule', ctx) || []).map(l => l.trim()).filter(Boolean)); fb = fallbackOf(fb, ctx); }
   out.ruleInherited = inh.length ? inh : undefined;
   const nm = names(file, ctx);
+  // Popes (1942 Common of Supreme Pontiffs): "OPapaM=Name" gives the prayers of the Mass, "CPapaM=Name" those of a commemoration
+  // kept inside this formulary; M = martyr, C/D = confessor. The name stands in the accusative.
+  const papal = {};
+  for (const l of out.rule) {
+    const m = l.match(/^([OC])Pap(a|ae|æ)([MCD])=(.+?);?$/); if (!m) continue;
+    const plural = m[2] !== 'a' || / et /.test(m[4]);
+    const fix = (lines) => (lines || []).map(x => x.replace(/N\. et N\.|N\./, m[4]).replace(/\(([^)]*atque)\)\s*/, m[3] === 'M' ? '$1 ' : ''));
+    const pre = m[1] === 'O' ? '' : 'Commemoratio ';
+    papal[pre + 'Oratio'] = fix(getSection('Commune/C4b', plural ? 'Oratio91' : 'Oratio', ctx));
+    papal[pre + 'Secreta'] = fix(getSection('Commune/C4b', 'Secreta', ctx));
+    papal[pre + 'Postcommunio'] = fix(getSection('Commune/C4b', 'Postcommunio', ctx));
+  }
   const wanted = new Set(MASS_SECTIONS);
   for (const n of sectionNames(file, ctx)) if (!OFFICE_ONLY.test(n) && !['Officium', 'Rank', 'Rule', 'Name', 'Comment'].includes(n)) wanted.add(n);
   // numbered lessons of Ember days etc. may live in the fallback
   for (const n of [...wanted]) {
-    const r = sectionWithFallback(file, n, ctx);
+    const r = papal[n] ? { lines: papal[n], from: file } : sectionWithFallback(file, n, ctx);
     if (!r) continue;
     let lines = r.lines;
     if (nm.default !== null) { const v = nm[n] ?? nm.default; lines = lines.map(l => l.replace(/\bN\. (et|atque) N\.(?=\s|,|:|;|$)/g, v).replace(/\bN\.(?=\s|,|:|;|$)/g, v)); }
