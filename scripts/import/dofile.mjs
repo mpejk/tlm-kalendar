@@ -180,6 +180,7 @@ export function getSection(rel, name, ctx = {}, depth = 0, seen = []) {
     const m = line[0] === '@' && line.match(INCL_RE);
     if (m) {
       const file = m[1] || rel, sec = m[2] || name;
+      if (sec === 'Munda Cor Passionis') continue;   // the priest's preparation before the Passion: Ordinary, not Proper
       const id = file + ':' + sec;
       if (seen.includes(id) && file === rel && sec === name) { out.push(`[missing ${id}]`); continue; }
       let r = getSection(file, sec, ctx, depth + 1, [...seen, rel + ':' + name]);

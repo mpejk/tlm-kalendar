@@ -322,7 +322,7 @@
 - { date: "12-06", id: "12-06", class: 3, colour: w, title: "sv. Nikola iz Mire, biskup, priznavalac", la: "S. Nicolai Episcopi et Confessoris" }
 - { date: "12-07", id: "12-07", class: 3, colour: w, title: "sv. Ambrozije, biskup, priznavalac, naučitelj", la: "S. Ambrosii Episcopi Confessoris et Ecclesiæ Doctoris" }
 - { date: "12-08", id: "12-08", class: 1, colour: w, title: "BEZGREŠNO ZAČEĆE BDM", la: "Immaculata Conceptione Beatae Mariae Virginis" }
-- { date: "12-10", id: "12-10o", class: 4, colour: r, title: "sv. Melkijad, papa, mučenik", la: "S. Melchiadis Papæ et Martyris" }
+- { date: "12-10", id: "12-10r", class: 4, colour: r, title: "sv. Melkijad, papa, mučenik", la: "S. Melchiadis Papæ et Martyris" }
 - { date: "12-11", id: "12-11", class: 3, colour: w, title: "sv. Damaz I., papa, priznavalac", la: "S. Damasi Papæ et Confessoris" }
 - { date: "12-13", id: "12-13r", class: 3, colour: r, title: "sv. Lucija, djevica, mučenica", la: "S. Luciæ Virginis et Martyris" }
 - { date: "12-16", id: "12-16", class: 3, colour: r, title: "sv. Euzebije iz Vercellija, biskup, mučenik", la: "S. Eusebii Episcopi et Martyris" }

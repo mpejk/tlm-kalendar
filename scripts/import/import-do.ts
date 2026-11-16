@@ -8,6 +8,7 @@ import crypto from 'node:crypto';
 import { generalConfig } from '../../src/engine/config';
 import { getDay } from '../../src/engine/engine';
 import { dayNumber } from '../../src/engine/dates';
+import { applyOverrides } from './overrides';
 // @ts-ignore
 import { importFormulary, toUnits } from './formulary.mjs';
 // @ts-ignore
@@ -58,6 +59,8 @@ for (const id of [...ids].sort()) {
   }
   out[id] = entry;
 }
+const ovLog = applyOverrides(out, pack);
+fs.writeFileSync('data/corpus/la/OVERRIDES.md', '# Latin sections taken from the old site instead of Divinum Officium\n\n' + ovLog.map(l => '- ' + l).join('\n') + '\n');
 // fixed texts
 const ordo: any = { prayers: {}, prefaces: {} };
 const prayers = parseFile('Ordo/Prayers', {});

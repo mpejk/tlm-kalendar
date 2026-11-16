@@ -1,0 +1,17 @@
+# Sections where the Latin of the old site (tradicionalnamisa.com) replaces the Divinum Officium text, because the old site
+# prints the text of the 1962 Missal and the DO data file differs or lacks the section. Applied by scripts/import/import-do.ts.
+# page = harvested Mass page under data/golden/masses; key = section; row = which block of that section (0 = the Mass itself).
+- { formulary: Sancti/12-13r, section: Graduale, page: 2017/propers_20161213_0, key: Graduale, reason: "St Lucy: Alleluia verse Diffusa est gratia (DO file points to another Mass)" }
+- { formulary: Tempora/Quad6-4rm1, section: Introitus, page: 2017/propers_20170413_0, key: Introitus, reason: "Chrism Mass (1955) uses the new Latin psalter; DO prints the Vulgate psalm text" }
+- { formulary: Tempora/Quad6-4rm1, section: Graduale, page: 2017/propers_20170413_0, key: Graduale, reason: "Chrism Mass: new Latin psalter" }
+- { formulary: Tempora/Quad6-4rm1, section: Offertorium, page: 2017/propers_20170413_0, key: Offertorium, reason: "Chrism Mass: new Latin psalter" }
+- { formulary: Sancti/09-15, section: Oratio, page: 2017/propers_20170915_0, key: Oratio, reason: "Seven Sorrows: collect in the form of the 1962 Missal" }
+- { formulary: Sancti/09-15, section: Offertorium, page: 2017/propers_20170915_0, key: Offertorium, reason: "Seven Sorrows: proper offertory (DO borrows that of 16 July)" }
+- { formulary: Tempora/Quad5-5, section: Oratio, page: 2017/propers_20170407_0, key: Oratio, row: 1, reason: "Commemoration of the Seven Sorrows on Friday of Passion week: collect as on the old site" }
+- { formulary: Sancti/11-02m3, section: Oratio, page: 2017/propers_20171102_2, key: Oratio, reason: "Third Mass of All Souls: collect for the souls of the departed (DO has the form for brethren and benefactors)" }
+- { formulary: Sancti/10-11, section: Secreta, page: 2017/propers_20171011_0, key: Secreta, reason: "Maternity of Our Lady: proper wording of the secret" }
+- { formulary: Sancti/01-24, section: Graduale, page: 2017/propers_20170124_0, key: Graduale, reason: "St Timothy: Alleluia verse as in the Mass Statuit" }
+- { formulary: Sancti/08-09t, section: Secreta, page: 2017/propers_20170809_0, key: Secreta, reason: "Vigil of St Lawrence: secret missing in the DO file" }
+- { formulary: Sancti/08-24, section: Communio, page: 2017/propers_20170824_0, key: Communio, reason: "St Bartholomew: communion antiphon as on the old site" }
+- { formulary: Sancti/10-05, section: Secreta, page: 2017/propers_20171005_0, key: Secreta, row: 1, reason: "St Placid and companions: secret as on the old site" }
+- { formulary: Tempora/Quad6-0r, variant: brevior, section: Evangelium, page: 2017/propers_20170409_2, key: Evangelium, reason: "Palm Sunday, shorter form of the Passion (Mt 27, 45-52) as printed on the old site" }

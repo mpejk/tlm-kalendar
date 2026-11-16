@@ -222,7 +222,9 @@ export function assembleMass(day: Day, massIndex: number, corpus: Corpus): MassV
   const gloria = hasGloria(day, mass, f), credo = hasCredo(day, mass, f);
   const pref = prefaceOf(day, mass, f);
 
-  add(section(corpus, 'Introitus', LABELS.Introitus, f.sections.Introitus, ctx));
+  const intro = add(section(corpus, 'Introitus', LABELS.Introitus, f.sections.Introitus, ctx));
+  // Paschaltide: two Alleluias are added to the Introit antiphon when the formulary has none (Rubricae generales Missalis)
+  if (intro && ctx.paschal) { const ts = intro.blocks[0].lines.filter(l => l.k === 'text'); if (ts.length >= 2 && !/allel[úu][ij]a/i.test(ts[0].la)) for (const l of [ts[0], ts[ts.length - 1]]) if (l.la === ts[0].la) l.la = l.la.replace(/[.:;,]?$/, ', allelúja, allelúja.'); }
   // Ember days and some ferias: a first prayer, then lessons each followed by a chant and a prayer; the last prayer is the
   // collect, said after the Gloria note and followed by the commemorations.
   let nExtra = 0; while (f.sections['LectioL' + (nExtra + 1)]) nExtra++;
