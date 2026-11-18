@@ -4,5 +4,29 @@
   "workerActive": true,
   "liveEqualsLocal": false,
   "hasV2Code": true
+ },
+ "after": {
+  "date": "2026-11-18T19:54:45.587Z",
+  "visits": [
+   {
+    "visit": 1,
+    "newBuildOnServer": true,
+    "migratedAndRunning": false
+   },
+   {
+    "visit": 2,
+    "newBuildOnServer": true,
+    "migratedAndRunning": true
+   }
+  ],
+  "liveEqualsLocal": true,
+  "profiles": [
+   "Ivan",
+   "Marija",
+   "Josip",
+   "Ana"
+  ],
+  "albumKept": true,
+  "ok": true
  }
 }

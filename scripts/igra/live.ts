@@ -11,16 +11,16 @@ for (const [name, type] of [['chromium', chromium], ['webkit', webkit]] as const
   try {
     const resp = await page.goto(site + 'igra/'); await ready(page); res.gameLoads = resp?.status() === 200 && (await page.locator('h1').innerText()) === 'Nedjeljni izazov';
     res.sameBuildAsLocal = (await page.evaluate(() => fetch('data/base.js').then(x => x.text()))) === fs.readFileSync('dist/igra/data/base.js', 'utf8');
-    await page.goto(site); await page.waitForFunction(() => !!document.getElementById('main')?.dataset.ready); const a = page.locator('header .views a.djeca'); res.buttonOnCalendar = (await a.count()) === 1 && (await a.innerText()).trim() === 'Djeca' && /^Djeca: Nedjeljni izazov/.test((await a.getAttribute('aria-label')) ?? '') && (await page.locator('header').innerText()).split(/\s+/).every(w => w !== 'Igra') && (await page.locator('header nav.views a').last().getAttribute('class')) === 'djeca';
+    await page.goto(site); await page.waitForFunction(() => !!document.getElementById('main')?.dataset.ready); const a = page.locator('header .views a.djeca'); res.buttonOnCalendar = (await a.count()) === 1 && (await a.innerText()).trim() === 'Djeca' && /^Djeca: Nedjeljni izazov/.test((await a.getAttribute('aria-label')) ?? '') && (await page.locator('header.top').innerText()).split(/\s+/).every(w => w !== 'Igra') && (await page.locator('header nav.views a').last().getAttribute('class')) === 'djeca';
     await a.tap(); await page.waitForURL(u => u.pathname.includes('/igra/'), { timeout: 15000 }); await ready(page); res.buttonOpensGame = page.url().startsWith(site + 'igra/') && (await page.locator('h1').innerText()) === 'Nedjeljni izazov';
     await setProfiles(page, [{ ime: 'Proba', dob: 'c' }]);
-    await page.goto(site + `igra/?d=${d}&danas=${d}`); await ready(page); res.directRoundLink = (await page.locator('.igra-boja').count()) === 1;
+    await page.goto(site + `igra/?d=${d}&danas=${d}`); await ready(page); res.directRoundLink = (await page.locator(`.igra-${r.x.c[0]}`).count()) === 1;
     const played = await playRound(page, r, BASE, 'c', { touch: true, wrongFirst: true }); res.gamesPlayed = played.length; res.sticker = (await page.locator('.kraj .slicica:not(.vjezba)').count()) === 1;
-    await page.goto(site + `igra/?d=${d}&ispis=1`); await ready(page); res.sheet = (await page.locator('.list .bojanka').count()) === 1;
+    await page.goto(site + `igra/?d=${d}&ispis=1`); await ready(page); res.sheet = (await page.locator('.list .igre section').count()) === r.x.c.length;
     await page.locator('.views a.kal').tap(); await page.waitForFunction(() => !location.pathname.includes('/igra/')); res.linkBack = true;
   } catch (e) { errors.push(String(e).slice(0, 300)); }
   res.requestsToOtherSites = [...other]; res.errors = errors; out.engines[name] = res;
-  if (errors.length || other.size || !res.gameLoads || !res.sameBuildAsLocal || !res.buttonOnCalendar || !res.buttonOpensGame || !res.directRoundLink || res.gamesPlayed !== 6 || !res.sticker || !res.sheet || !res.linkBack) bad = true;
+  if (errors.length || other.size || !res.gameLoads || !res.sameBuildAsLocal || !res.buttonOnCalendar || !res.buttonOpensGame || !res.directRoundLink || res.gamesPlayed !== r.x.c.length || !res.sticker || !res.sheet || !res.linkBack) bad = true;
   await b.close();
 }
 fs.writeFileSync('data/verify/igra-live.json', JSON.stringify(out, null, 1) + '\n'); console.log(JSON.stringify(out, null, 1)); process.exit(bad ? 1 : 0);
