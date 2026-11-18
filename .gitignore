@@ -25,3 +25,10 @@ run-task.sh
 data/raw/missale62
 .claude/
 tools-py
+
+# working files of the game task
+IGRA-TASK.md
+IGRA-PLAN.md
+IGRA-DONE
+run-igra.sh
+data/raw/rjecnik
