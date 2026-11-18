@@ -185,3 +185,6 @@ body.velika-slova .predmet { text-transform: uppercase; }
   html { font-size: 11pt; } .list h2 { font-size: 1.05rem; margin: .45rem 0 .1rem; } .list .pitanja li, .broji li { margin: .15rem 0; } .upute { font-size: .9rem; }
   .list .igre { columns: 2; column-gap: 7mm; } .list header { padding-bottom: .15rem; } .list .ime { margin-top: .2rem; }
 }
+.kv-izbor { white-space: normal; max-width: 100%; } .kv-izbor .kucica { flex: none; }
+.predmet > span { min-width: 0; overflow-wrap: anywhere; } .predmet .dvoje { min-width: 0; }
+.list .ponuda, .kv-izbor { overflow-wrap: anywhere; min-width: 0; }

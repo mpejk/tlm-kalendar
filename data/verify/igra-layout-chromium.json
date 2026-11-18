@@ -1,0 +1,14 @@
+{
+ "check": "igra-layout",
+ "width": 340,
+ "type": [
+  100,
+  130,
+  160
+ ],
+ "cases": 1908,
+ "touchTargets": 18142,
+ "smallestTarget": 44,
+ "failed": 0,
+ "failures": []
+}

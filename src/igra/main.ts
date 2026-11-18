@@ -3,7 +3,7 @@
 // albums are kept in localStorage.
 import { figureSet, icon, outline, sticker, chalice, chaliceIcon, altar, altarIcon } from './crtez';
 import { igra, expand, maxLevel, FIXED, NAZIV, Korak, Izbor, Txt, Slika, dayName, shortDate } from './pitanja';
-import { Dob, Profil, Spremljeno, readStore as readStored, writeStore, eraseStore, empty, levelOf, recordLevel } from './store';
+import { Dob, Profil, Spremljeno, readStore as readStored, writeStore, eraseStore, empty, levelOf, recordLevel, KEY } from './store';
 
 interface Odgovor { id: string; la: string; laOdg: string; hr: string; hrOdg: string; strLa: number; strHr: number; lako?: boolean }
 interface Dio { id: string; vrsta: 'red' | 'vlastito'; la?: string; hr?: string; kratko?: boolean; strLa?: number; strHr?: number }
@@ -62,6 +62,8 @@ const LS = (() => { try { return window.localStorage; } catch { return null; } }
 let S: Spremljeno = readStored(LS);
 let storageWorks = true;
 function save() { storageWorks = writeStore(LS, S); }
+// data of the earlier version are written forward at once (the earlier entry stays as it was)
+try { if (LS && LS.getItem(KEY) === null && S.profili.length) save(); } catch { /* no storage */ }
 const me = (): Profil | null => S.profili.find(p => p.id === S.tko) ?? null;
 const DOB: Record<Dob, string> = { a: '6–7 godina', b: '8–10 godina', c: '11 godina i više' };
 const gamesFor = (p: Profil, r: Round) => r.x[p.dob];
@@ -400,7 +402,7 @@ async function viewSheet(): Promise<string> {
     if (k0.t === 'red') { const items = det(k0.stavke, 1); parts.push(sec(g, `<p class="upute">Poredaj brojevima.</p><ul class="broji">${items.map(x => `<li><span class="kucica"></span> ${esc(x.hr ?? x.la ?? '')}</li>`).join('')}</ul>`)); sol.push(`${n}. ${k0.stavke.map((x, i) => `${i + 1}. ${esc(g === 'poredaj' ? (x.hr ?? '').split(' ').slice(0, 3).join(' ') + '…' : x.hr ?? x.la ?? '')}`).join(', ')}`); continue; }
     if (g === 'tjedan') { parts.push(sec(g, `<p class="upute">Upiši boju mise svakoga dana.</p><ul class="broji tjedan-list">${s!.map(q => q.t === 'izbor' ? `<li><span>${esc(q.uvod!.dan!)}</span> <span class="crta kratka"></span></li>` : '').join('')}</ul>`)); sol.push(`${n}. ${s!.map(q => q.t === 'izbor' ? `${esc(q.uvod!.dan!.split(',')[0])} – ${BASE.boje[q.tocno]}` : '').join(', ')}`); continue; }
     // questions with choices: each question, its choices, a box to tick
-    const one = (q: Izbor) => { const u = q.uvod; const lead = u?.svecenik ? `<span lang="la">${esc(u.la!)}</span>` : u?.dan ? `${esc(u.dan)} · ${esc(u.hr!)}` : g === 'evandjelje' ? esc(u!.hr!).replace('_____', '<span class="crta kratka"></span>') : u ? esc(u.hr ?? u.la ?? '') : ''; return `<li>${lead ? `<span class="uv">${lead}</span> ` : ''}${s!.length > 1 && !lead ? `<span class="pit">${esc(q.pitanje)}</span>` : ''}<span class="ponuda">${q.izbori.map(x => `<span class="kv-izbor"><span class="kucica"></span>${esc(g === 'odgovori' ? x.la! : x.hr ?? x.la ?? '')}</span>`).join(' ')}</span></li>`; };
+    const one = (q: Izbor) => { const u = q.uvod; const lead = u?.svecenik ? `<span lang="la">${esc(u.la!)}</span>` : u?.dan ? `${esc(u.dan)} · ${esc(u.hr!)}` : g === 'evandjelje' ? esc(u!.hr!).replace('_____', '<span class="crta kratka"></span>') : u ? esc(u.hr ?? u.la ?? '') : ''; return `<li>${lead ? `<span class="uv">${lead}</span> ` : ''}${!lead && new Set(s!.map(x => x.pitanje)).size > 1 ? `<span class="pit">${esc(q.pitanje)}</span>` : ''}<span class="ponuda">${q.izbori.map(x => `<span class="kv-izbor"><span class="kucica"></span>${esc(g === 'odgovori' ? x.la! : x.hr ?? x.la ?? '')}</span>`).join(' ')}</span></li>`; };
     const qs = s!.filter((q): q is Izbor => q.t === 'izbor');
     parts.push(sec(g, `${new Set(qs.map(q => q.pitanje)).size === 1 ? `<p class="upute">${esc(qs[0].pitanje)}</p>` : ''}<ol class="pitanja">${qs.map(one).join('')}</ol>`));
     sol.push(`${n}. ${qs.map(q => { const x = q.izbori.find(y => y.v === q.tocno)!; return esc(g === 'odgovori' ? x.la! : x.hr ?? x.la ?? ''); }).join('; ')}`);
