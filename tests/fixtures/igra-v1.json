@@ -1,0 +1,4 @@
+{
+ "_about": "localStorage entry 'igra.v1' as written by the game published on 17-18 Nov 2026 (commit 414848a, src/igra/main.ts save()): four children, one with capital letters, stickers and practice marks.",
+ "value": {"profili":[{"id":"pmhq2k1x3f","ime":"Ivan","dob":"c"},{"id":"pmhq2l0a91","ime":"Marija","dob":"b"},{"id":"pmhq2lz7k2","ime":"Josip","dob":"a","vel":true},{"id":"pmhq2n4c0d","ime":"Ana","dob":"c"}],"tko":"pmhq2l0a91","gotovo":{"pmhq2k1x3f":{"2026-11-22":"n","2026-11-29":"n","2026-11-01":"v"},"pmhq2l0a91":{"2026-11-22":"v","2026-11-29":"n"},"pmhq2lz7k2":{"2026-11-29":"n"}}}
+}

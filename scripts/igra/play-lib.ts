@@ -13,8 +13,8 @@ export function loadIgra(dist = 'dist') {
 }
 export const ready = (page: Page) => page.waitForFunction(() => !!document.getElementById('main')?.dataset.ready, null, { timeout: 10000 });
 export const GAMES: Record<string, string[]> = { a: ['boja', 'ruho'], b: ['boja', 'ruho', 'odgovori', 'dijelovi'], c: ['boja', 'ruho', 'odgovori', 'dijelovi', 'rijeci', 'evandjelje'] };
-export async function setProfiles(page: Page, profs: { ime: string; dob: string; vel?: boolean }[], cur = 0) {
-  await page.evaluate(([ps, c]) => { const profili = (ps as any[]).map((p, i) => ({ id: 'p' + i, ...p })); const old = JSON.parse(localStorage.getItem('igra.v1') ?? '{}'); localStorage.setItem('igra.v1', JSON.stringify({ profili, tko: 'p' + c, gotovo: old.gotovo ?? {} })); }, [profs, cur] as any);
+export async function setProfiles(page: Page, profs: { ime: string; dob: string; vel?: boolean }[], cur = 0, razine: Record<string, Record<string, { l: number; ok: string[] }>> = {}) {
+  await page.evaluate(([ps, c, rz]) => { const profili = (ps as any[]).map((p, i) => ({ id: 'p' + i, ...p })); const old = JSON.parse(localStorage.getItem('igra.v2') ?? '{}'); localStorage.setItem('igra.v2', JSON.stringify({ v: 2, profili, tko: 'p' + c, gotovo: old.gotovo ?? {}, razine: { ...(old.razine ?? {}), ...(rz as any) } })); }, [profs, cur, razine] as any);
 }
 const tap = async (page: Page, sel: string, touch: boolean) => { const el = page.locator(sel).first(); await el.scrollIntoViewIfNeeded(); if (touch) await el.tap(); else await el.click(); };
 const title = (page: Page) => page.locator('#naslov').innerText();

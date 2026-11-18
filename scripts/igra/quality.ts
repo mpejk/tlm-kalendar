@@ -22,7 +22,7 @@ try {
       await page.goto(url); await ready(page); await axe('first visit (form)');
       await setProfiles(page, KIDS);
       for (const [i, k] of KIDS.entries()) {
-        await page.evaluate(n => { const s = JSON.parse(localStorage.getItem('igra.v1')!); s.tko = 'p' + n; localStorage.setItem('igra.v1', JSON.stringify(s)); }, i);
+        await page.evaluate(n => { const s = JSON.parse(localStorage.getItem('igra.v2')!); s.tko = 'p' + n; localStorage.setItem('igra.v2', JSON.stringify(s)); }, i);
         await page.goto(url + `?d=${date}&danas=${date}`); await ready(page);
         await playRound(page, r, BASE, k.dob, { touch: true, wrongFirst: true, onGame: async (g, ph) => { await axe(`${k.dob} ${g} ${ph}`); } });
         await axe(`${k.dob} kraj`);

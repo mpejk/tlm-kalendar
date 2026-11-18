@@ -59,7 +59,7 @@ for (const width of [390, 768]) {
   }
   // reload: four profiles and each album as played
   await page.goto(url + '?v=roditelji'); await ready(page); await page.reload(); await ready(page);
-  const stored = await page.evaluate(() => JSON.parse(localStorage.getItem('igra.v1') ?? 'null'));
+  const stored = await page.evaluate(() => JSON.parse(localStorage.getItem('igra.v2') ?? 'null'));
   if (stored?.profili?.length !== 4) fail(`${width}: ${stored?.profili?.length} profiles after reload`);
   for (const k of KIDS) { const p = stored.profili.find((x: any) => x.ime === k.ime); if (!p || p.dob !== k.dob) { fail(`${width}: profile ${k.ime} lost`); continue; } if (JSON.stringify(stored.gotovo[p.id] ?? {}, Object.keys(stored.gotovo[p.id] ?? {}).sort()) !== JSON.stringify(expected[k.ime] ?? {}, Object.keys(expected[k.ime] ?? {}).sort())) fail(`${width}: album of ${k.ime} differs after reload`); }
   if ((await page.locator('.djeca .dijete').count()) !== 4) fail(`${width}: the parents' page does not list four children`);
@@ -74,7 +74,7 @@ for (const width of [390, 768]) {
   // erase everything
   await page.goto(url + '?v=roditelji'); await ready(page);
   await tap(page, '[data-act="brisi-sve"]'); await tap(page, '[data-act="brisi-sve-da"]'); await ready(page);
-  const after = await page.evaluate(() => localStorage.getItem('igra.v1')); if (after !== null) fail(`${width}: data left after erasing`);
+  const after = await page.evaluate(() => (localStorage.getItem('igra.v2') ?? '') + (localStorage.getItem('igra.v1') ?? '') || null); if (after !== null) fail(`${width}: data left after erasing`);
   await page.goto(url); await ready(page); if (!(await page.locator('form[data-form="novi"]').count()) || (await page.locator('.tko .ime').count())) fail(`${width}: children still shown after erasing`);
   res.erased = after === null;
   // nothing asked of any other site

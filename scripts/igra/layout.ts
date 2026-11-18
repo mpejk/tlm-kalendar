@@ -41,7 +41,7 @@ for (const [name, type] of [['chromium', chromium], ['webkit', webkit]] as const
     await page.goto(base + '?danas=' + date); await ready(page);
     await setProfiles(page, [{ ime: 'Bartolomej', dob: 'a', vel: true }, { ime: 'Katarina', dob: 'b' }, { ime: 'Maksimilijan', dob: 'c' }, { ime: 'Ana', dob: 'c' }]);
     for (const [i, dob] of ['a', 'b', 'c'].entries()) {
-      await page.evaluate(n => { const s = JSON.parse(localStorage.getItem('igra.v1')!); s.tko = 'p' + n; localStorage.setItem('igra.v1', JSON.stringify(s)); }, i);
+      await page.evaluate(n => { const s = JSON.parse(localStorage.getItem('igra.v2')!); s.tko = 'p' + n; localStorage.setItem('igra.v2', JSON.stringify(s)); }, i);
       const tag = `${name} ${scheme} ${fs_}% band ${dob}`;
       await page.goto(base + `?d=${date}&danas=${date}`); await ready(page); await enlarge();
       await playRound(page, r, BASE, dob, { touch: true, wrongFirst: true, onGame: async (g, ph) => { await measure(page, `${tag} ${g} ${ph}`); } });

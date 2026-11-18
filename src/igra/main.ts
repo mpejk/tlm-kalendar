@@ -2,6 +2,7 @@
 // (data/base.js, data/r/<liturgical year>.js), so that it also opens from disk. Nothing leaves the device: profiles and
 // albums are kept in localStorage.
 import { figure, icon, outline, sticker } from './crtez';
+import { Dob, Profil, Spremljeno, readStore as readStored, writeStore, eraseStore, empty } from './store';
 
 interface Odgovor { id: string; la: string; laOdg: string; hr: string; hrOdg: string; strLa: number; strHr: number; lako?: boolean }
 interface Dio { id: string; vrsta: 'red' | 'vlastito'; la?: string; hr?: string; kratko?: boolean; strLa?: number; strHr?: number }
@@ -17,9 +18,6 @@ interface Round {
   dan: string[]; o: string[][]; ol: string[][]; p: string[]; pl?: Record<string, [string, string]>; w: [string, string][];
   e: { s: string; a: string; x: string[]; ref: string } | null;
 }
-type Dob = 'a' | 'b' | 'c';
-interface Profil { id: string; ime: string; dob: Dob; vel?: boolean }
-interface Spremljeno { profili: Profil[]; tko: string | null; gotovo: Record<string, Record<string, 'n' | 'v'>> }
 
 const W = window as any;
 let BASE: Base; const R: Record<number, Round[]> = {};
@@ -57,14 +55,10 @@ const openTo = (r: Round) => addDays(r.d, r.wd === 6 ? 7 : 6 - r.wd);
 const isOpen = (r: Round, t = today()) => openFrom(r) <= t && t <= openTo(r);
 
 // ---------- storage (this device only)
-const KEY = 'igra.v1';
-function readStore(): Spremljeno {
-  try { const s = JSON.parse(localStorage.getItem(KEY) ?? 'null'); if (s && Array.isArray(s.profili)) return { profili: s.profili, tko: s.tko ?? null, gotovo: s.gotovo ?? {} }; } catch { /* no storage */ }
-  return { profili: [], tko: null, gotovo: {} };
-}
-let S: Spremljeno = readStore();
+const LS = (() => { try { return window.localStorage; } catch { return null; } })();
+let S: Spremljeno = readStored(LS);
 let storageWorks = true;
-function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch { storageWorks = false; } }
+function save() { storageWorks = writeStore(LS, S); }
 const me = (): Profil | null => S.profili.find(p => p.id === S.tko) ?? null;
 const DOB: Record<Dob, string> = { a: '6–7 godina', b: '8–10 godina', c: '11 godina i više' };
 const GAMES: Record<Dob, string[]> = { a: ['boja', 'ruho'], b: ['boja', 'ruho', 'odgovori', 'dijelovi'], c: ['boja', 'ruho', 'odgovori', 'dijelovi', 'rijeci', 'evandjelje'] };
@@ -328,8 +322,8 @@ function act(a: string, v: string, el: HTMLElement) {
   if (a === 'tema') { const cur = document.documentElement.dataset.theme; const dark = cur ? cur === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches; const t = dark ? 'light' : 'dark'; try { localStorage.setItem('tlm.theme', t); } catch { /* private mode */ } document.documentElement.dataset.theme = t; return; }
   if (a === 'brisi-sve') { confirmErase = true; render(); return; }
   if (a === 'brisi-sve-ne') { confirmErase = false; render(); return; }
-  if (a === 'brisi-sve-da') { confirmErase = false; S = { profili: [], tko: null, gotovo: {} }; try { localStorage.removeItem(KEY); } catch { /* nothing stored */ } play = null; render(); return; }
-  if (a === 'brisi-dijete') { const id = el.dataset.id!; S.profili = S.profili.filter(x => x.id !== id); delete S.gotovo[id]; if (S.tko === id) S.tko = S.profili[0]?.id ?? null; save(); render(); return; }
+  if (a === 'brisi-sve-da') { confirmErase = false; S = empty(); eraseStore(LS); play = null; render(); return; }
+  if (a === 'brisi-dijete') { const id = el.dataset.id!; S.profili = S.profili.filter(x => x.id !== id); delete S.gotovo[id]; delete S.razine[id]; if (S.tko === id) S.tko = S.profili[0]?.id ?? null; save(); render(); return; }
   if (a === 'ispis') { window.print(); return; }
   if (!p || !prof) return;
   const r = p.r; const g = p.games[p.i];
