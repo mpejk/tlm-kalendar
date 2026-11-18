@@ -85,6 +85,7 @@ fieldset { border: 0; padding: 0; margin: .6rem 0; } legend { padding: 0; font-w
 .obuceno:empty, .slozeno:empty { display: none; }
 .ladica { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
 .komad { font: inherit; font-size: 1.1rem; color: var(--ink); background: var(--card); border: 1.5px solid var(--muted); border-radius: 10px; padding: .35rem .3rem; min-height: 5.2rem; cursor: grab; display: grid; justify-items: center; align-content: center; gap: .15rem; touch-action: none; -webkit-user-select: none; user-select: none; }
+.komad { touch-action: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }   /* a finger drags the piece, not the page */
 .komad svg { width: 2.9rem; height: 2.9rem; pointer-events: none; } .komad span { pointer-events: none; }
 .komad.krivo { border-style: dashed; animation: ne .35s; } .komad.nosi { opacity: .35; }
 .duh { position: fixed; left: 0; top: 0; z-index: 20; pointer-events: none; box-shadow: 0 6px 18px rgba(0, 0, 0, .25); margin: 0; }

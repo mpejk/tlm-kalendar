@@ -1,0 +1,46 @@
+{
+ "chromium": {
+  "browser": "chromium",
+  "rounds": 32,
+  "games": 144,
+  "byBand": {
+   "a": 8,
+   "b": 8,
+   "c": 16
+  },
+  "byWidth": {
+   "390": 16,
+   "768": 16
+  },
+  "days": 16,
+  "stickers": 26,
+  "practiceMarks": 6,
+  "dragged": 16,
+  "tapped": 16,
+  "errors": [],
+  "profilesAfterReload": 4,
+  "erased": true
+ },
+ "webkit": {
+  "browser": "webkit",
+  "rounds": 32,
+  "games": 144,
+  "byBand": {
+   "a": 8,
+   "b": 8,
+   "c": 16
+  },
+  "byWidth": {
+   "390": 16,
+   "768": 16
+  },
+  "days": 16,
+  "stickers": 26,
+  "practiceMarks": 6,
+  "dragged": 16,
+  "tapped": 16,
+  "errors": [],
+  "profilesAfterReload": 4,
+  "erased": true
+ }
+}

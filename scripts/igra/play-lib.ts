@@ -19,7 +19,7 @@ export async function setProfiles(page: Page, profs: { ime: string; dob: string;
 const tap = async (page: Page, sel: string, touch: boolean) => { const el = page.locator(sel).first(); await el.scrollIntoViewIfNeeded(); if (touch) await el.tap(); else await el.click(); };
 const title = (page: Page) => page.locator('#naslov').innerText();
 /** Plays the round that is open on the page. `onGame(name, phase)` is called at the start and at the end of each game (for screenshots). Returns the names of the games played. */
-export async function playRound(page: Page, r: any, BASE: any, dob: string, opt: { touch?: boolean; wrongFirst?: boolean; drag?: boolean; onGame?: (g: string, phase: 'start' | 'mid' | 'end') => Promise<void> } = {}): Promise<string[]> {
+export async function playRound(page: Page, r: any, BASE: any, dob: string, opt: { touch?: boolean; wrongFirst?: boolean; drag?: boolean; realTouch?: boolean; onGame?: (g: string, phase: 'start' | 'mid' | 'end') => Promise<void> } = {}): Promise<string[]> {
   const touch = opt.touch ?? true; const games = GAMES[dob].filter(g => g !== 'evandjelje' || r.e); const played: string[] = [];
   const act = (a: string, v: string) => tap(page, `#main [data-act="${a}"][data-v="${v.replace(/"/g, '\\"')}"]`, touch);
   const next = async () => { await page.locator('[data-act="dalje"]').waitFor({ timeout: 5000 }); await tap(page, '[data-act="dalje"]', touch); };
@@ -33,7 +33,7 @@ export async function playRound(page: Page, r: any, BASE: any, dob: string, opt:
       const ids: string[] = BASE.ruho.map((x: any) => x.id);
       if (opt.wrongFirst) { await act('ruho', ids[3]); if ((await page.locator('.obuceno li').count()) !== 0) throw new Error('a vestment out of order was accepted'); }
       for (let i = 0; i < ids.length; i++) {
-        if (opt.drag && i % 2 === 0) { const from = await page.locator(`[data-act="ruho"][data-v="${ids[i]}"]`).boundingBox(); const to = await page.locator('.lik').boundingBox(); if (!from || !to) throw new Error('no box'); await dragTouch(page, from.x + from.width / 2, from.y + from.height / 2, to.x + to.width / 2, to.y + to.height / 2); }
+        if (opt.drag) { await page.locator(`[data-act="ruho"][data-v="${ids[i]}"]`).scrollIntoViewIfNeeded(); const from = await page.locator(`[data-act="ruho"][data-v="${ids[i]}"]`).boundingBox(); const to = await page.locator('.lik').boundingBox(); if (!from || !to) throw new Error('no box'); await (opt.realTouch ? dragCdp : dragTouch)(page, from.x + from.width / 2, from.y + from.height / 2, to.x + to.width / 2, to.y + to.height / 2); }
         else await act('ruho', ids[i]);
         await page.waitForFunction(n => document.querySelectorAll('.obuceno li').length === n, i + 1, { timeout: 3000 });
         if (i === 2) await opt.onGame?.(g, 'mid');
@@ -72,4 +72,11 @@ export async function dragTouch(page: Page, x1: number, y1: number, x2: number, 
     ev('pointerdown', a, b, document.elementFromPoint(a, b));
     for (let i = 1; i <= 8; i++) ev('pointermove', a + ((c - a) * i) / 8, b + ((d - b) * i) / 8, document);
     ev('pointerup', c, d, document); })()`);
+}
+/** A real touch drag (Chromium only): touch points sent through the browser's input pipeline, so that touch-action and scrolling behave as on a phone. */
+export async function dragCdp(page: Page, x1: number, y1: number, x2: number, y2: number) {
+  const c = await page.context().newCDPSession(page); const pt = (x: number, y: number) => [{ x: Math.round(x), y: Math.round(y), id: 1 }];
+  await c.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: pt(x1, y1) });
+  for (let i = 1; i <= 8; i++) { await c.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: pt(x1 + ((x2 - x1) * i) / 8, y1 + ((y2 - y1) * i) / 8) }); await page.waitForTimeout(16); }
+  await c.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] }); await c.detach();
 }
