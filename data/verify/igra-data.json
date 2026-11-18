@@ -8,21 +8,296 @@
   "c": 979
  },
  "games": {
-  "boja": 2937,
-  "ruho": 2937,
-  "odgovori": 1958,
-  "dijelovi": 1958,
-  "rijeci": 979,
-  "evandjelje": 979
+  "boja": 2624,
+  "ruho": 637,
+  "tjedan": 1885,
+  "dio": 1034,
+  "poredaj": 866,
+  "kalez": 636,
+  "koliko": 406,
+  "negovori": 303,
+  "misa": 639,
+  "sveci": 709,
+  "rijeci": 491,
+  "evandjelje": 489,
+  "oltar": 635,
+  "odgovori": 390
  },
- "questions": 20559,
- "choices": 60698,
+ "variants": 16833,
+ "questions": 46720,
+ "choices": 171439,
  "withGospel": 979,
  "withoutGospel": 0,
  "distinctGospelSentences": 95,
- "wordsUsed": 197,
+ "wordsUsed": 194,
  "from": "2026-11-22",
  "to": "2036-12-28",
+ "variety": {
+  "a": {
+   "sameGamesAsRoundBefore": 0,
+   "fixedPerYear": {
+    "2025": {
+     "ruho": 1
+    },
+    "2026": {
+     "kalez": 24,
+     "oltar": 24,
+     "misa": 25,
+     "ruho": 24
+    },
+    "2027": {
+     "kalez": 25,
+     "oltar": 26,
+     "ruho": 26,
+     "misa": 25
+    },
+    "2028": {
+     "kalez": 25,
+     "oltar": 25,
+     "misa": 25,
+     "ruho": 24
+    },
+    "2029": {
+     "ruho": 24,
+     "kalez": 24,
+     "oltar": 24,
+     "misa": 23
+    },
+    "2030": {
+     "misa": 23,
+     "ruho": 23,
+     "oltar": 22,
+     "kalez": 22
+    },
+    "2031": {
+     "oltar": 23,
+     "kalez": 24,
+     "misa": 24,
+     "ruho": 23
+    },
+    "2032": {
+     "oltar": 26,
+     "ruho": 25,
+     "kalez": 25,
+     "misa": 25
+    },
+    "2033": {
+     "ruho": 25,
+     "kalez": 25,
+     "misa": 25,
+     "oltar": 25
+    },
+    "2034": {
+     "ruho": 26,
+     "misa": 25,
+     "kalez": 24,
+     "oltar": 25
+    },
+    "2035": {
+     "kalez": 23,
+     "oltar": 23,
+     "misa": 23,
+     "ruho": 22
+    },
+    "2036": {
+     "ruho": 2,
+     "kalez": 3,
+     "oltar": 2,
+     "misa": 2
+    }
+   },
+   "minPerFullYear": {
+    "ruho": 22,
+    "kalez": 22,
+    "oltar": 22,
+    "misa": 23
+   }
+  },
+  "b": {
+   "sameGamesAsRoundBefore": 0,
+   "fixedPerYear": {
+    "2025": {
+     "ruho": 1
+    },
+    "2026": {
+     "misa": 20,
+     "kalez": 20,
+     "oltar": 19,
+     "odgovori": 19,
+     "ruho": 19
+    },
+    "2027": {
+     "oltar": 21,
+     "odgovori": 21,
+     "ruho": 20,
+     "misa": 20,
+     "kalez": 20
+    },
+    "2028": {
+     "ruho": 20,
+     "misa": 20,
+     "kalez": 20,
+     "oltar": 20,
+     "odgovori": 19
+    },
+    "2029": {
+     "odgovori": 19,
+     "misa": 19,
+     "ruho": 19,
+     "kalez": 19,
+     "oltar": 19
+    },
+    "2030": {
+     "misa": 19,
+     "odgovori": 18,
+     "kalez": 18,
+     "ruho": 18,
+     "oltar": 17
+    },
+    "2031": {
+     "oltar": 19,
+     "odgovori": 19,
+     "kalez": 19,
+     "ruho": 19,
+     "misa": 18
+    },
+    "2032": {
+     "misa": 21,
+     "oltar": 20,
+     "odgovori": 20,
+     "kalez": 20,
+     "ruho": 20
+    },
+    "2033": {
+     "oltar": 20,
+     "kalez": 20,
+     "odgovori": 20,
+     "ruho": 20,
+     "misa": 20
+    },
+    "2034": {
+     "oltar": 20,
+     "kalez": 20,
+     "odgovori": 20,
+     "ruho": 20,
+     "misa": 20
+    },
+    "2035": {
+     "kalez": 18,
+     "oltar": 19,
+     "odgovori": 18,
+     "ruho": 18,
+     "misa": 18
+    },
+    "2036": {
+     "kalez": 2,
+     "odgovori": 2,
+     "ruho": 2,
+     "misa": 2,
+     "oltar": 1
+    }
+   },
+   "minPerFullYear": {
+    "ruho": 18,
+    "misa": 18,
+    "kalez": 18,
+    "oltar": 17,
+    "odgovori": 18
+   }
+  },
+  "c": {
+   "sameGamesAsRoundBefore": 0,
+   "fixedPerYear": {
+    "2025": {
+     "ruho": 1
+    },
+    "2026": {
+     "misa": 20,
+     "kalez": 20,
+     "oltar": 19,
+     "odgovori": 19,
+     "ruho": 19
+    },
+    "2027": {
+     "oltar": 21,
+     "odgovori": 21,
+     "ruho": 20,
+     "misa": 20,
+     "kalez": 20
+    },
+    "2028": {
+     "ruho": 20,
+     "misa": 20,
+     "kalez": 20,
+     "oltar": 20,
+     "odgovori": 19
+    },
+    "2029": {
+     "odgovori": 19,
+     "misa": 19,
+     "ruho": 19,
+     "kalez": 19,
+     "oltar": 19
+    },
+    "2030": {
+     "misa": 19,
+     "odgovori": 18,
+     "kalez": 18,
+     "ruho": 18,
+     "oltar": 17
+    },
+    "2031": {
+     "oltar": 19,
+     "odgovori": 19,
+     "kalez": 19,
+     "ruho": 19,
+     "misa": 18
+    },
+    "2032": {
+     "misa": 21,
+     "oltar": 20,
+     "odgovori": 20,
+     "kalez": 20,
+     "ruho": 20
+    },
+    "2033": {
+     "oltar": 20,
+     "kalez": 20,
+     "odgovori": 20,
+     "ruho": 20,
+     "misa": 20
+    },
+    "2034": {
+     "oltar": 20,
+     "kalez": 20,
+     "odgovori": 20,
+     "ruho": 20,
+     "misa": 20
+    },
+    "2035": {
+     "kalez": 18,
+     "oltar": 19,
+     "odgovori": 18,
+     "ruho": 18,
+     "misa": 18
+    },
+    "2036": {
+     "kalez": 2,
+     "odgovori": 2,
+     "ruho": 2,
+     "misa": 2,
+     "oltar": 1
+    }
+   },
+   "minPerFullYear": {
+    "ruho": 18,
+    "misa": 18,
+    "kalez": 18,
+    "oltar": 17,
+    "odgovori": 18
+   }
+  }
+ },
  "words": 197,
  "problems": 0
 }

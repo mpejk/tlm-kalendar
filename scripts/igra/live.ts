@@ -11,7 +11,7 @@ for (const [name, type] of [['chromium', chromium], ['webkit', webkit]] as const
   try {
     const resp = await page.goto(site + 'igra/'); await ready(page); res.gameLoads = resp?.status() === 200 && (await page.locator('h1').innerText()) === 'Nedjeljni izazov';
     res.sameBuildAsLocal = (await page.evaluate(() => fetch('data/base.js').then(x => x.text()))) === fs.readFileSync('dist/igra/data/base.js', 'utf8');
-    await page.goto(site); await page.waitForFunction(() => !!document.getElementById('main')?.dataset.ready); const a = page.locator('header a.igra'); res.buttonOnCalendar = (await a.count()) === 1 && (await a.getAttribute('aria-label')) === 'Nedjeljni izazov, igra za djecu';
+    await page.goto(site); await page.waitForFunction(() => !!document.getElementById('main')?.dataset.ready); const a = page.locator('header .views a.djeca'); res.buttonOnCalendar = (await a.count()) === 1 && (await a.innerText()).trim() === 'Djeca' && /^Djeca: Nedjeljni izazov/.test((await a.getAttribute('aria-label')) ?? '') && (await page.locator('header').innerText()).split(/\s+/).every(w => w !== 'Igra') && (await page.locator('header nav.views a').last().getAttribute('class')) === 'djeca';
     await a.tap(); await page.waitForURL(u => u.pathname.includes('/igra/'), { timeout: 15000 }); await ready(page); res.buttonOpensGame = page.url().startsWith(site + 'igra/') && (await page.locator('h1').innerText()) === 'Nedjeljni izazov';
     await setProfiles(page, [{ ime: 'Proba', dob: 'c' }]);
     await page.goto(site + `igra/?d=${d}&danas=${d}`); await ready(page); res.directRoundLink = (await page.locator('.igra-boja').count()) === 1;

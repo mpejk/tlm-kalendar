@@ -11,7 +11,7 @@
     "import": "tsx scripts/import/import-do.ts",
     "crawl": "tsx scripts/verify/crawl.ts file && tsx scripts/verify/crawl.ts http && tsx scripts/verify/startup.ts",
     "check": "npm test && npm run crawl && npm run verify:site && npm run verify:igra",
-    "verify:igra": "tsx scripts/igra/verify-data.ts && tsx scripts/igra/button.ts && tsx scripts/igra/layout.ts && tsx scripts/igra/quality.ts",
+    "verify:igra": "tsx scripts/igra/verify-data.ts && tsx scripts/igra/button.ts && tsx scripts/igra/layout.ts chromium && tsx scripts/igra/layout.ts webkit && tsx scripts/igra/quality.ts",
     "play:igra": "tsx scripts/igra/play.ts chromium && tsx scripts/igra/play.ts webkit",
     "verify:site": "tsx scripts/verify/font-shape.ts && tsx scripts/verify/site-url.ts && tsx scripts/verify/site-keys.ts && tsx scripts/verify/site-layout.ts && tsx scripts/verify/font-render.ts"
   },

@@ -2,7 +2,7 @@
 // plays every game of a round to the end by touch (tap), with one wrong try first in each game, as a child would.
 import fs from 'node:fs'; import path from 'node:path';
 import type { Page } from 'playwright';
-import { expand, igra } from '../../src/igra/pitanja';
+import { expand, igra, maxLevel, FIXED } from '../../src/igra/pitanja';
 
 export function loadIgra(dist = 'dist') {
   let BASE: any; const R: Record<number, any[]> = {};
@@ -72,4 +72,18 @@ export async function dragCdp(page: Page, x1: number, y1: number, x2: number, y2
   await c.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: pt(x1, y1) });
   for (let i = 1; i <= 8; i++) { await c.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: pt(x1 + ((x2 - x1) * i) / 8, y1 + ((y2 - y1) * i) / 8) }); await page.waitForTimeout(16); }
   await c.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] }); await c.detach();
+}
+
+/** Rounds that together cover, for one band, every game and every level of the fixed games: the first rounds (from 29 Nov 2026)
+ *  that bring a game not yet covered, at level 1; then for each fixed game and each higher level one round that has it. */
+export function coverage(all: any[], BASE: any, dob: string, ministrant = false): { r: any; level: number }[] {
+  const out: { r: any; level: number }[] = []; const seen = new Set<string>(); const rs = all.filter(x => x.d >= '2026-11-29');
+  const games = [...new Set(rs.flatMap(x => x.x[dob]))] as string[];
+  for (const r of rs) { if (games.every(g => seen.has(g))) break; if (r.x[dob].some((g: string) => !seen.has(g))) { out.push({ r, level: 1 }); r.x[dob].forEach((g: string) => seen.add(g)); } }
+  for (const g of FIXED) { const max = maxLevel(BASE, dob as any, g, ministrant); for (let L = 2; L <= max; L++) { const r = rs.filter(x => x.x[dob].includes(g))[L * 3]; if (r) out.push({ r, level: L }); } }
+  return out;
+}
+/** Sets the level of every fixed game of profile `pid` (index) in the stored data. */
+export async function setLevel(page: Page, n: number, level: number) {
+  await page.evaluate(([n, L]) => { const s = JSON.parse(localStorage.getItem('igra.v2')!); s.tko = 'p' + n; s.razine = { ...(s.razine ?? {}), ['p' + n]: Object.fromEntries(['ruho', 'kalez', 'oltar', 'misa', 'odgovori'].map(g => [g, { l: L, ok: [] }])) }; localStorage.setItem('igra.v2', JSON.stringify(s)); }, [n, level] as any);
 }

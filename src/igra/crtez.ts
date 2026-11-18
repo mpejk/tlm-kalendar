@@ -57,18 +57,19 @@ export function outline(): string {
 const GOLD = '#d8b04a', GOLD2 = '#9c7a1c', LINEN = '#fffdf6';
 const KALEZ: Record<string, (k: string, y: number) => string> = {
   calix: (_k, y) => `<g transform="translate(0 ${y})"><path d="M70 40 Q70 82 100 90 Q130 82 130 40 Z" fill="${GOLD}" ${s()}/><path d="M96 90 h8 v22 h-8 Z" fill="${GOLD}" ${s()}/><ellipse cx="100" cy="100" rx="10" ry="5" fill="${GOLD2}" ${s(1)}/><path d="M74 128 Q100 108 126 128 Z" fill="${GOLD}" ${s()}/><ellipse cx="100" cy="40" rx="30" ry="5" fill="${GOLD2}" ${s(1)}/></g>`,
-  purif: (_k, y) => `<g transform="translate(0 ${y})"><path d="M66 34 L134 34 L130 42 L136 64 L124 60 L120 42 L80 42 L76 60 L64 64 L70 42 Z" fill="${LINEN}" ${s()}/><path d="M96 34 v8 M104 34 v8" ${s(0.8)}/></g>`,
+  purif: (_k, y) => `<g transform="translate(0 ${y})"><path d="M66 34 L134 34 L133 40 Q131 52 127 62 L121 61 Q125 50 126 40 L74 40 Q75 50 79 61 L73 62 Q69 52 67 40 Z" fill="${LINEN}" ${s()}/><path d="M80 37 h40" ${s(0.6)} stroke-dasharray="2 3"/></g>`,
   patena: (_k, y) => `<g transform="translate(0 ${y})"><ellipse cx="100" cy="34" rx="36" ry="6" fill="${GOLD}" ${s()}/><ellipse cx="100" cy="30" rx="16" ry="3.5" fill="${LINEN}" ${s(1)}/><path d="M97 30 h6 M100 28 v4" stroke="#b8901c" stroke-width="1"/></g>`,
   palla: (_k, y) => `<g transform="translate(0 ${y})"><path d="M68 30 L132 30 L140 38 L60 38 Z" fill="${LINEN}" ${s()}/><path d="M96 34 h8 M100 31.5 v5" stroke="#b8901c" stroke-width="1.4"/></g>`,
   velum: (k, y) => `<g transform="translate(0 ${y})"><path d="M60 26 Q100 16 140 26 L150 92 Q100 100 50 92 Z" fill="${BOJA[k][0]}" ${s()}/><path d="M92 70 h16 M100 62 v16" stroke="${BOJA[k][1]}" stroke-width="2.5"/><path d="M50 92 Q100 100 150 92" fill="none" stroke="${BOJA[k][1]}" stroke-width="1.5"/></g>`,
   bursa: (k, y) => `<g transform="translate(0 ${y})"><path d="M64 14 L136 14 L136 30 L64 30 Z" fill="${BOJA[k][0]}" ${s()}/><path d="M92 22 h16 M100 17 v10" stroke="${BOJA[k][1]}" stroke-width="2"/><path d="M68 30 L132 30" stroke="${LINEN}" stroke-width="2"/></g>`,
 };
 const KALEZ_ORDER = ['calix', 'purif', 'patena', 'palla', 'velum', 'bursa'];
-/** The chalice with the pieces in `ima` (in the order of the Missal), each above the one before it. */
+/** The chalice with the pieces in `ima` (in the order of the Missal), each above the one before it; once the veil is on, what it
+ *  covers is under it and the burse lies on top. */
 export function chalice(ima: string[], k: string): string {
-  const Y: Record<string, number> = { calix: 120, purif: 84, patena: 62, palla: 40, velum: 0, bursa: -36 };
+  const Y: Record<string, number> = { calix: 120, purif: 84, patena: 62, palla: 40, velum: 0, bursa: 90 };
   const on = KALEZ_ORDER.filter(id => ima.includes(id));
-  return `<svg viewBox="40 70 120 190" class="kalez-crtez" aria-hidden="true" focusable="false">${on.filter(id => id !== 'velum').map(id => KALEZ[id](k, Y[id])).join('')}${on.includes('velum') ? `<g opacity=".92">${KALEZ.velum(k, Y.velum + 104)}</g>` : ''}</svg>`;
+  return `<svg viewBox="40 64 120 196" class="kalez-crtez" aria-hidden="true" focusable="false">${on.filter(id => id !== 'velum' && id !== 'bursa' && (!on.includes('velum') || id === 'calix')).map(id => KALEZ[id](k, Y[id])).join('')}${on.includes('velum') ? `<g opacity=".92">${KALEZ.velum(k, Y.velum + 104)}</g>` : ''}${on.includes('bursa') ? KALEZ.bursa(k, on.includes('velum') ? Y.bursa : 70) : ''}</svg>`;
 }
 const KBOX: Record<string, string> = { calix: '62 154 76 104', purif: '58 112 84 44', patena: '58 84 84 22', palla: '54 66 92 16', velum: '44 116 112 92', bursa: '58 72 84 26' };
 export function chaliceIcon(id: string, k: string): string { const y: Record<string, number> = { calix: 120, purif: 84, patena: 62, palla: 40, velum: 104, bursa: 64 }; return `<svg viewBox="${KBOX[id]}" class="ruho-crtez" aria-hidden="true" focusable="false">${KALEZ[id](k, y[id])}</svg>`; }

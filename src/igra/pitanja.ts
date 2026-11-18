@@ -67,7 +67,7 @@ export function igra(B: any, r: any, dob: Dob, g: string, level: number): Igra {
     if (level === 1) {
       const stol = it.filter(x => x.mjesto === 'stolic'), alt = it.filter(x => x.mjesto !== 'stolic');
       const pick = [...pickN(stol, 2, rnd), ...pickN(alt, 4, rnd)].sort((a, b) => it.indexOf(a) - it.indexOf(b));
-      for (const x of pick) k.push({ t: 'izbor', pitanje: 'Gdje se to priprema za misu?', uvod: nm(x), izbori: [{ v: 'oltar', hr: 'na žrtveniku' }, { v: 'stolic', hr: M.stolic.hr }], tocno: x.mjesto === 'stolic' ? 'stolic' : 'oltar' });
+      for (const x of pick) k.push({ t: 'izbor', pitanje: 'Gdje to stoji na misi?', uvod: nm(x), izbori: [{ v: 'oltar', hr: 'na žrtveniku' }, { v: 'stolic', hr: M.stolic.hr }], tocno: x.mjesto === 'stolic' ? 'stolic' : 'oltar' });
     } else if (level === 2) {
       const placed: string[] = ['stolnjaci'];
       for (const x of it.filter(y => ['sredina', 'strane', 'poslanica', 'evandjelje'].includes(y.mjesto))) {

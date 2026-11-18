@@ -36,11 +36,11 @@ a { color: var(--link); text-underline-offset: .15em; }
 .btn, input[type=date], input[type=search] { font: inherit; font-size: .95rem; color: var(--ink); background: var(--card); border: 1px solid var(--rule); border-radius: 3px; padding: .22rem .6rem; min-height: 2.1rem; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; }
 .btn:hover { border-color: var(--muted); }
 .btn[aria-pressed=true] { border-color: var(--red); color: var(--red); }
-/* the link to the children's game: the one accent in the header */
-.btn.igra { background: #2a6b36; border-color: #2a6b36; color: #fff; font-weight: 600; padding-inline: .9rem; }
-.btn.igra:hover { background: #235a2d; border-color: #235a2d; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .btn.igra { background: #7fd08b; border-color: #7fd08b; color: #10200f; } }
-:root[data-theme="dark"] .btn.igra { background: #7fd08b; border-color: #7fd08b; color: #10200f; }
+/* the link to the children's game: last item of the navigation, a quiet green outline (not a call to action) */
+.views a.djeca { margin-left: auto; color: #2a6b36; border: 1px solid rgba(42, 107, 54, .45); border-radius: 3px; background: rgba(42, 107, 54, .06); padding: .1rem .5rem; }
+.views a.djeca:hover { background: rgba(42, 107, 54, .12); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .views a.djeca { color: #8fd69a; border-color: rgba(143, 214, 154, .45); background: rgba(143, 214, 154, .07); } }
+:root[data-theme="dark"] .views a.djeca { color: #8fd69a; border-color: rgba(143, 214, 154, .45); background: rgba(143, 214, 154, .07); }
 .group { display: inline-flex; } .group .btn { border-radius: 0; margin-left: -1px; } .group .btn:first-child { border-radius: 3px 0 0 3px; margin-left: 0; } .group .btn:last-child { border-radius: 0 3px 3px 0; }
 .langsel { display: none; }
 :focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }

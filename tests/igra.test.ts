@@ -86,6 +86,17 @@ describe('game: every round of the range', () => {
     expect(r.counts.from).toBe('2026-11-22'); expect(r.counts.to >= '2036-12-25').toBe(true);
     expect(r.counts.rounds).toBe(979); expect(r.counts.sundays).toBe(528); expect(r.counts.byBand).toEqual({ a: 979, b: 979, c: 979 }); expect(r.counts.withoutGospel).toBe(0);
   });
+  it('variety: no two rounds in a row alike, the fixed game never twice running, each fixed game at least 8 times a liturgical year', () => {
+    for (const dob of ['a', 'b', 'c']) {
+      const v = r.counts.variety[dob]; expect(v.sameGamesAsRoundBefore).toBe(0);
+      for (const n of Object.values<number>(v.minPerFullYear)) expect(n).toBeGreaterThanOrEqual(8);
+    }
+    expect(r.counts.variants).toBeGreaterThan(16000);   // every round × band × level checked for one right answer and distinct choices
+  });
+  it('rounds keep to their size: at most 3, 4 and 5 games', () => {
+    const { all } = loadIgra('dist');
+    for (const x of all) { expect(x.x.a.length).toBeLessThanOrEqual(3); expect(x.x.b.length).toBeLessThanOrEqual(4); expect(x.x.c.length).toBeLessThanOrEqual(5); }
+  });
   it('specific days reflect the rubrics', () => {
     const { all } = loadIgra('dist'); const day = (d: string) => all.find(x => x.d === d)!;
     expect(day('2026-11-29')).toMatchObject({ t: '1. NEDJELJA DOŠAŠĆA', k: 'v', g: 0, cr: 1 });           // Advent: violet, no Gloria

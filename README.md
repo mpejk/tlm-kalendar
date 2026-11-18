@@ -172,9 +172,9 @@ Kad obljetnica padne na dan iz br. 1, 2, 3 ili 8 tablice prvenstva (npr. Uzaša�
 | `npm test` | Izgradi stranicu i pokrene 139 testova: kalendar prema staroj stranici 2016.–2019. i prema Missale Meum 2026.–2036., tekstove prema staroj stranici, rubne datume, sve ispravke iz provjere. | oko 30 s |
 | `npm run crawl` | Otvara svaki dan 2026.–2036. u oba kalendara u pregledniku, s diska i preko http-a: bez pogrešaka, praznih odjeljaka i pokvarenih slova. | oko 30 s |
 | `npm run verify:site` | Poveznice, tipkovnica, uski zasloni i uvećana slova, fontovi (Chromium i WebKit). | oko 1 min |
-| `npm run verify:igra` | Igra »Nedjeljni izazov«: svi izazovi, gumb u zaglavlju, uski zasloni, pristupačnost, rad bez mreže i s diska. | oko 6 min |
+| `npm run verify:igra` | Igra »Nedjeljni izazov«: svi izazovi u svim dobima i razinama, stavka »Djeca« u zaglavlju, uski zasloni, pristupačnost, rad bez mreže i s diska. | oko 15 min |
 | `npm run check` | Sve četvero redom. | oko 8 min |
-| `npm run play:igra` | Odigra igru dodirom u Chromiumu i WebKitu (16 dana, sve tri dobi). Nije dio `check`; pokrenuti nakon izmjena u `src/igra`. | oko 10 min |
+| `npm run play:igra` | Odigra igru dodirom u Chromiumu i WebKitu (16 dana kroz godinu i svaku igru i razinu u sve tri dobi, uz prijenos starih albuma i rast razina). Nije dio `check`; pokrenuti nakon izmjena u `src/igra`. | oko 10 min |
 
 Ako ijedna provjera javi pogrešku, ne objavljivati dok se ne otkloni.
 
@@ -190,25 +190,32 @@ Provjera objavljenog: `npx tsx scripts/verify/live.ts https://mpejk.github.io/tl
 
 ## Igra »Nedjeljni izazov«
 
-Uz kalendar postoji kratka igra za djecu, na adresi `igra/` (https://mpejk.github.io/tlm-kalendar/igra/). U zaglavlju kalendara do nje vodi zeleni gumb »Igra«. Dijete je odigra prije nedjeljne mise: boja i dan, oblačenje svećenika, odgovori na misi, red mise, šest latinskih riječi i rečenica iz evanđelja. Za svaku nedjelju i svaki blagdan I. i II. razreda do kraja 2036. postoji jedan izazov; riješeni izazov daje sličicu u albumu. Imena djece i albumi ostaju samo u pregledniku na tom uređaju. Stranica »Za roditelje« u igri objašnjava sve što roditelj treba znati.
+Uz kalendar postoji kratka igra za djecu, na adresi `igra/` (https://mpejk.github.io/tlm-kalendar/igra/). U zaglavlju kalendara do nje vodi tiha stavka »Djeca«, posljednja u izborniku. Za svaku nedjelju i svaki blagdan I. i II. razreda do kraja 2036. postoji jedan izazov; riješeni izazov daje sličicu u albumu. Imena djece, albumi i razine ostaju samo u pregledniku na tom uređaju. Stranica »Za roditelje« u igri objašnjava sve što roditelj treba znati.
 
-Igra se gradi zajedno s kalendarom (`npm run build`) i objavljuje istom naredbom (`npm run deploy`). Boju, dan, dijelove mise i evanđelje uzima iz kalendara, pa se ispravak u kalendaru sam prenosi u igru. Vlastiti sadržaj igre je u četiri datoteke u `data/igra/`:
+Izazov ima najviše tri igre (dob 6–7), četiri (8–10) ili pet (11 i više): točno jednu igru stalnoga znanja (Obuci svećenika, Složi kalež, Pripremi oltar, Složi misu, Odgovori na misi) i igre koje se mijenjaju s danom (Boja i dan, Boje tjedna, Sveci tjedna, Koliko još nedjelja?, Koji je ovo dio?, Što se danas ne govori?, Poredaj evanđelje, Riječi nedjelje, Dopuni evanđelje). Koje igre dolaze, određuje datum (`scripts/igra/rounds2.ts`), pa dvije uzastopne nedjelje nisu iste. Igre stalnoga znanja imaju razine: nakon tri izazova riješena bez pogreške dijete dobiva višu.
+
+Igra se gradi zajedno s kalendarom (`npm run build`) i objavljuje istom naredbom (`npm run deploy`). Boju, dan, dijelove mise, tekstove i evanđelje uzima iz kalendara, pa se ispravak u kalendaru sam prenosi u igru. Vlastiti sadržaj igre je u `data/igra/`:
 
 | Datoteka | Što je u njoj | Izvor |
 | --- | --- | --- |
-| `odijevanje.yaml` | Red oblačenja misnog ruha i hrvatski nazivi | *Missale Romanum* 1962., Praeparatio ad Missam, str. LXXIII; nazivi uobičajeni hrvatski (Kniewald ih ne donosi) |
-| `red-mise.yaml` | Odgovori na misi i dijelovi mise po redu, sa stranicama izvora | Latinski: Misal 1962., Ordo Missae, str. 216–327; hrvatski: Kniewald 1942., »Red i čin sv. mise«, str. 8–31 |
-| `rjecnik.yaml` | 197 latinskih riječi s jednim značenjem i stranicom rječnika | S. Žepić, *Latinsko-hrvatski rječnik*, Zagreb 1881. (prvo izdanje rječnika koji je 1900. preradio Divković) |
-| `evandjelje.yaml` | Za svako evanđelje: početak rečenice, riječ koja se izostavlja i tri kriva izbora | Rečenica se uzima iz hrvatskog evanđelja u kalendaru; krivi izbori su pisani za igru |
+| `odijevanje.yaml` | Red oblačenja, hrvatski nazivi, početne riječi molitava pri oblačenju | *Missale Romanum* 1962., Praeparatio ad Missam, str. LXXIII; nazivi uobičajeni (naglavnik i naručnik potvrđuje Proleksis); molitve samo latinski (Kniewald ih ne donosi) |
+| `kalez.yaml` | Priprema kaleža, dio po dio | Misal 1962., Ritus servandus I, 1, str. LIV; nazivi Kniewald 1942. i Proleksis |
+| `oltar.yaml` | Što je na oltaru i gdje, što je na stoliću | Rubrike 1960., br. 526–528 (Misal str. XXXVI); Ritus servandus II, 2 |
+| `red-mise.yaml` | Odgovori na misi (i dulji: psalam 42, *Misereatur*) i dijelovi mise po redu, sa stranicama izvora | Latinski: Misal 1962., Ordo Missae, str. 216–327; hrvatski: Kniewald 1942., »Red i čin sv. mise«, str. 8–31 |
+| `rjecnik.yaml` | 197 latinskih riječi s jednim značenjem i stranicom rječnika | S. Žepić, *Latinsko-hrvatski rječnik*, Zagreb 1881. |
+| `evandjelje.yaml` | Za svako evanđelje: početak rečenice, riječ koja se izostavlja i tri kriva izbora | Rečenica iz hrvatskog evanđelja u kalendaru; krivi izbori pisani za igru |
+| `poredaj.yaml` | Za svako evanđelje: početak odlomka od 3–4 rečenice za slaganje (ili `null` s razlogom) | Rečenice iz hrvatskog evanđelja u kalendaru, odabrane ručno |
 
 Najčešći poslovi:
 
 - **Promijeniti rečenicu ili riječ iz evanđelja:** u `evandjelje.yaml` naći redak toga evanđelja i upisati prve riječi druge rečenice, riječ koja se izostavlja i tri kriva izbora iste vrste. Ako rečenica ne postoji u evanđelju točno jednom ili se riječ u njoj ne pojavljuje točno jednom, `npm run build` stane i kaže koji redak.
-- **Dodati ili ispraviti riječ:** redak u `rjecnik.yaml` (riječ, natuknica kako je tiskana, značenje, stranica, oblici po kojima se riječ prepoznaje u misi). Značenje se prepisuje iz rječnika; riječ koje u rječniku nema ne dodaje se.
-- **Dodati godine:** igra slijedi godine kalendara; nakon što se kalendaru dodaju godine, u `scripts/igra/lib.ts` pomaknuti `TO`, a u `evandjelje.yaml` dopisati evanđelja koja build prijavi da nedostaju.
-- **Provjeriti:** `npm run check`, a nakon izmjena u izgledu ili ponašanju igre i `npm run play:igra`.
+- **Promijeniti odlomak za slaganje:** u `poredaj.yaml` upisati prve riječi prve rečenice i broj rečenica (3 ili 4), ili `null` ako se red ne može jednoznačno odrediti. `npx tsx scripts/igra/poredaj-cand.ts` ispiše rečenice svakog evanđelja s brojevima.
+- **Dodati ili ispraviti riječ:** redak u `rjecnik.yaml` (riječ, natuknica kako je tiskana, značenje, stranica, oblici). Značenje se prepisuje iz rječnika; riječ koje u rječniku nema ne dodaje se.
+- **Promijeniti koje igre igra koja dob, koliko ih je i koliko razina ima:** `FIX`, `CHG`, `SIZE` i `MAXLEVEL` u `scripts/igra/rounds2.ts`.
+- **Dodati godine:** igra slijedi godine kalendara; nakon što se kalendaru dodaju godine, u `scripts/igra/lib.ts` pomaknuti `TO`, a u `evandjelje.yaml` i `poredaj.yaml` dopisati evanđelja koja build prijavi da nedostaju.
+- **Provjeriti:** `npm run check`, a nakon izmjena u izgledu ili ponašanju igre i `npm run play:igra`. Snimke svih igara i razina za pregled: `npx tsx scripts/igra/shots2.ts`.
 
-Odluke o igri (što igra koja dob, koja se misa uzima na dan s više misa, kako se otvara izazov) i gdje se koja mijenja: `DECISIONS.md`, odjeljak o igri, i `IGRA-IZVJESTAJ.md`.
+Odluke o igri i gdje se koja mijenja: `DECISIONS.md`, odjeljak o igri, `IGRA-IZVJESTAJ.md` i `IGRA2-IZVJESTAJ.md`.
 
 ## Preseljenje stranice
 
@@ -254,7 +261,7 @@ Kopirati **sadržaj mape `dist`** (ne samu mapu projekta) u željenu mapu na pos
 | Obredi: Svijećnica, Pepelnica, Vazmeno bdijenje s misom | Latinski Divinum Officium; hrvatski Kniewald 1930. i 1942. |
 | Gloria i Vjerovanje | Stranice tradicionalnamisa.com |
 | Mjesni kalendar | Nacionalni liturgijski kalendar HBK (hbk.hr), razredi po Kodeksu rubrika; mise po Kniewaldu 1942. |
-| Igra: red oblačenja, odgovori, red mise | *Missale Romanum* 1962. (Praeparatio ad Missam, Ordo Missae); hrvatski Kniewald 1942., »Red i čin sv. mise« |
+| Igra: red oblačenja i molitve, kalež, oltar, odgovori, red mise | *Missale Romanum* 1962. (Praeparatio ad Missam, Ritus servandus, Rubricae generales, Ordo Missae); hrvatski Kniewald 1942., »Red i čin sv. mise«; nazivi i Proleksis enciklopedija |
 | Igra: značenja latinskih riječi | Sebastijan Žepić, *Latinsko-hrvatski rječnik*, Zagreb 1881. (archive.org), pročitan na slikama stranica |
 | Riječi sučelja (gumbi, napomene, upute u igri, krivi izbori u igri) | Pisane za ovu stranicu |
 | Font | EB Garamond (SIL Open Font License), preinačen: `src/site/fonts/LICENSE.txt` |

@@ -88,7 +88,7 @@ function urlFor(o: Partial<State>): string {
   const s = { ...st, ...o }; const p: string[] = [];
   if (s.v === 'igra' || s.v === 'list') { p.push('d=' + s.d); if (s.v === 'list') p.push('ispis=1'); }
   else if (s.v !== 'pocetak') { p.push('v=' + s.v); if (s.v === 'album' && s.g) p.push('g=' + s.g); }
-  const t = new URLSearchParams(location.search.slice(1) || location.hash.slice(1)).get('danas'); if (validDate(t)) p.push('danas=' + t);
+  const q = new URLSearchParams(location.search.slice(1) || location.hash.slice(1)); const t = q.get('danas'); if (validDate(t)) p.push('danas=' + t); if (q.get('brzo') === '1') p.push('brzo=1');
   return '?' + p.join('&');
 }
 function go(o: Partial<State>, replace = false) {
@@ -236,6 +236,8 @@ function setStep(p: Play) {
   const k = p.steps[p.si]; p.krivo = new Set(); p.placed = 0; p.solved = false;
   p.order = k.t === 'izbor' ? (k.izbori.some(x => x.boja) || /^\d+$/.test(k.izbori[0].v) || p.games[p.i] === 'misa' || p.games[p.i] === 'dio' || p.games[p.i] === 'sveci' ? k.izbori.map(x => x.v) : shuffle(k.izbori.map(x => x.v))) : mixed(k.stavke.map(x => x.v));
 }
+/** pause after a right answer before the next question; "?brzo=1" shortens it for the automated checks */
+const PAUSE = /[?&#]brzo=1/.test(location.search + location.hash) ? 40 : 1000;
 const WRONG = ['Još ne. Pokušaj ponovno.', 'Nije to. Probaj drugo.', 'Polako. Pogledaj još jednom.'];
 const wrongMsg = () => WRONG[Math.floor(Math.random() * WRONG.length)];
 function pic(g: string, id: string, k: string): string { return g === 'ruho' ? icon(id, k) : g === 'kalez' ? chaliceIcon(id, k) : g === 'oltar' ? altarIcon(id, k) : ''; }
@@ -263,7 +265,7 @@ function stepHtml(p: Play): string {
     const name = (x: Txt) => esc(x.hr ?? x.la ?? '');
     const list = `<ol class="${k.slika ? 'obuceno' : g === 'poredaj' ? 'slozeno recenice' : 'slozeno'}" aria-label="Složeno po redu">${placed.map(x => `<li><span>${name(x)}</span>${x.hr && x.la && g !== 'poredaj' ? ` <i lang="la">${esc(x.la)}</i>` : ''}</li>`).join('')}</ol>`;
     const tray = p.done ? '' : k.slika
-      ? `<div class="ladica" role="group" aria-labelledby="pit">${left.map(v => { const x = k.stavke.find(y => y.v === v)!; return `<button type="button" class="komad${p.krivo.has(v) ? ' krivo' : ''}" data-act="red" data-v="${esc(v)}" data-drag="1"${k.imena ? '' : ` aria-label="${name(x)}"`}>${pic(g, x.ikona ?? '', r.k)}${k.imena ? `<span>${name(x)}</span>` : ''}</button>`; }).join('')}</div><p class="small pomoc">${k.imena ? 'Dodirni komad ili ga povuci na sliku.' : 'Bez imena: prepoznaj ih po slici. Dodirni komad ili ga povuci na sliku.'}</p>`
+      ? `<div class="ladica" role="group" aria-labelledby="pit">${left.map(v => { const x = k.stavke.find(y => y.v === v)!; return `<button type="button" class="komad${p.krivo.has(v) ? ' krivo' : ''}${name(x).length > 11 ? ' dugo' : ''}" data-act="red" data-v="${esc(v)}" data-drag="1"${k.imena ? '' : ` aria-label="${name(x)}"`}>${pic(g, x.ikona ?? '', r.k)}${k.imena ? `<span>${name(x)}</span>` : ''}</button>`; }).join('')}</div><p class="small pomoc">${k.imena ? 'Dodirni komad ili ga povuci na sliku.' : 'Bez imena: prepoznaj ih po slici. Dodirni komad ili ga povuci na sliku.'}</p>`
       : `<div class="izbori ${g === 'poredaj' ? 'recenice' : 'dijelovi'}" role="group" aria-labelledby="pit">${left.map(v => { const x = k.stavke.find(y => y.v === v)!; return `<button type="button" class="izbor${p.krivo.has(v) ? ' krivo' : ''}" data-act="red" data-v="${esc(v)}">${g === 'poredaj' ? `<span>${esc(x.hr!)}</span>` : `<span class="dvoje"><span class="hr">${esc(x.hr!)}</span><span lang="la" class="la">${esc(x.la ?? '')}</span></span>`}</button>`; }).join('')}</div>`;
     const q = p.done ? (g === 'ruho' ? 'Svećenik je obučen za misu.' : g === 'kalez' ? 'Kalež je pripremljen.' : g === 'poredaj' ? 'Tako ide ovaj odlomak evanđelja.' : 'Tako ide misa.') : p.placed === 0 ? k.pitanje + ' Što je prvo?' : 'Što dolazi zatim?';
     return `<p class="pitanje" id="pit">${q}</p>${fig ? `<div class="oblacenje">${fig}<div class="strana">${list}${tray}</div></div>` : list + tray}`;
@@ -370,7 +372,7 @@ function act(a: string, v: string, el: HTMLElement) {
     if (v === k.tocno) {
       p.solved = true; p.krivo = new Set(); p.msg = 'ok';
       if (p.si === p.steps.length - 1) p.done = true;
-      else { const si = p.si; rerender(); setTimeout(() => { if (play !== p || p.si !== si || p.games[p.i] !== g) return; p.si++; setStep(p); p.msg = ''; rerender(); const f = main().querySelector<HTMLElement>('[data-act="izbor"]:not([disabled])'); if (document.activeElement === document.body || !main().contains(document.activeElement)) f?.focus({ preventScroll: true }); }, 1000); return; }
+      else { const si = p.si; rerender(); setTimeout(() => { if (play !== p || p.si !== si || p.games[p.i] !== g) return; p.si++; setStep(p); p.msg = ''; rerender(); const f = main().querySelector<HTMLElement>('[data-act="izbor"]:not([disabled])'); if (document.activeElement === document.body || !main().contains(document.activeElement)) f?.focus({ preventScroll: true }); }, PAUSE); return; }
     } else wrong(p, v, g === 'tjedan' && prof.dob === 'a' && p.err >= 1 ? 'Pogledaj zelenim obrubom označenu boju.' : wrongMsg());
   } else if (a === 'karta' && g === 'rijeci') {
     const i = +v; const c = p.karte![i]; if (p.nadjeno.has(c.k) || (p.otv.length === 1 && p.otv[0] === i)) return;

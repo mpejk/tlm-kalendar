@@ -175,3 +175,5 @@ body.velika-slova .komad { font-size: 1rem; } body.velika-slova main button, bod
 .kv-izbor { display: inline-flex; align-items: center; margin-right: .8rem; white-space: nowrap; } .list .ponuda { display: block; font-style: normal; white-space: normal; }
 .upute { margin: .1rem 0 .2rem; font-size: 1rem; color: var(--muted); }
 body.velika-slova .predmet { text-transform: uppercase; }
+.dvoje.hr-prvo .hr { color: var(--ink); font-size: 1.25rem; } .dvoje.hr-prvo .la { color: var(--muted); font-size: 1rem; font-style: italic; }
+.komad.dugo span { font-size: .8rem; }
