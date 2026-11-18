@@ -1,0 +1,485 @@
+[
+ {
+  "lema": "respondeo",
+  "natuknica": "respondeo, ndi, nsum, 2.",
+  "tiskano": "odgovoriti",
+  "hr": "odgovoriti",
+  "str": 846,
+  "list": 425,
+  "sigurno": true
+ },
+ {
+  "lema": "rex",
+  "natuknica": "rex, regis, m.",
+  "tiskano": "kralj",
+  "hr": "kralj",
+  "str": 851,
+  "list": 427,
+  "sigurno": true
+ },
+ {
+  "lema": "sacerdos",
+  "natuknica": "sacerdos, dotis, m. i f.",
+  "tiskano": "svećenik",
+  "hr": "svećenik",
+  "str": 859,
+  "list": 431,
+  "sigurno": true
+ },
+ {
+  "lema": "sacrificium",
+  "natuknica": "sacrificium, ii, n.",
+  "tiskano": "žrtva",
+  "hr": "žrtva",
+  "str": 860,
+  "list": 432,
+  "sigurno": true
+ },
+ {
+  "lema": "salus",
+  "natuknica": "salus, utis, f.",
+  "tiskano": "spas",
+  "hr": "spas",
+  "str": 864,
+  "list": 434,
+  "sigurno": true
+ },
+ {
+  "lema": "sanctus",
+  "natuknica": "sanctus, adj.",
+  "tiskano": "svet",
+  "hr": "svet",
+  "str": 865,
+  "list": 434,
+  "sigurno": true
+ },
+ {
+  "lema": "sanguis",
+  "natuknica": "sanguis, inis, m.",
+  "tiskano": "krv",
+  "hr": "krv",
+  "str": 866,
+  "list": 435,
+  "sigurno": true
+ },
+ {
+  "lema": "sano",
+  "natuknica": "sano, 1.",
+  "tiskano": "liečiti",
+  "hr": "liječiti",
+  "str": 866,
+  "list": 435,
+  "sigurno": true
+ },
+ {
+  "lema": "sapientia",
+  "natuknica": "sapientia, ae, f.",
+  "tiskano": "mudrost",
+  "hr": "mudrost",
+  "str": 867,
+  "list": 435,
+  "sigurno": true
+ },
+ {
+  "lema": "scio",
+  "natuknica": "scio (perf. scivi i scii, * scisti m. scivisti; inf. pravilno scisse), 4.",
+  "tiskano": "znati",
+  "hr": "znati",
+  "str": 873,
+  "list": 438,
+  "sigurno": true
+ },
+ {
+  "lema": "sedeo",
+  "natuknica": "sedeo, sedi, sessum, 2.",
+  "tiskano": "sjedjeti",
+  "hr": "sjedjeti",
+  "str": 879,
+  "list": 441,
+  "sigurno": true
+ },
+ {
+  "lema": "sedes",
+  "natuknica": "sedes, is, f.",
+  "tiskano": "sjedište",
+  "hr": "sjedište",
+  "str": 879,
+  "list": 441,
+  "sigurno": true
+ },
+ {
+  "lema": "semen",
+  "natuknica": "semen, inis, n.",
+  "tiskano": "sjeme",
+  "hr": "sjeme",
+  "str": 881,
+  "list": 442,
+  "sigurno": true
+ },
+ {
+  "lema": "semper",
+  "natuknica": "semper, adv.",
+  "tiskano": "uviek",
+  "hr": "uvijek",
+  "str": 882,
+  "list": 443,
+  "sigurno": true
+ },
+ {
+  "lema": "septem",
+  "natuknica": "septem, adj. num. card.",
+  "tiskano": "sedam",
+  "hr": "sedam",
+  "str": 886,
+  "list": 445,
+  "sigurno": true
+ },
+ {
+  "lema": "sermo",
+  "natuknica": "sermo, onis, m.",
+  "tiskano": "govor",
+  "hr": "govor",
+  "str": 888,
+  "list": 446,
+  "sigurno": true
+ },
+ {
+  "lema": "servus",
+  "natuknica": "servus, 1) adj. … 2) subst. a) -vus, i, m.",
+  "tiskano": "sluga",
+  "hr": "sluga",
+  "str": 891,
+  "list": 447,
+  "sigurno": true,
+  "napomena": "natuknica \"servus\" počinje pridjevom (robski); imenica \"rob, sluga\" je pod 2) subst. a) -vus, i, m."
+ },
+ {
+  "lema": "signum",
+  "natuknica": "signum, i, n.",
+  "tiskano": "znak",
+  "hr": "znak",
+  "str": 895,
+  "list": 449,
+  "sigurno": true
+ },
+ {
+  "lema": "sol",
+  "natuknica": "sol, is,",
+  "tiskano": "sunce",
+  "hr": "sunce",
+  "str": 902,
+  "list": 453,
+  "sigurno": true,
+  "napomena": "u natuknici rod nije otisnut"
+ },
+ {
+  "lema": "spes",
+  "natuknica": "spes, ei, f.",
+  "tiskano": "nada",
+  "hr": "nada",
+  "str": 912,
+  "list": 458,
+  "sigurno": true
+ },
+ {
+  "lema": "spiritus",
+  "natuknica": "spiritus, us, m.",
+  "tiskano": "duh",
+  "hr": "duh",
+  "str": 913,
+  "list": 458,
+  "sigurno": true,
+  "napomena": "prvo značenje je \"puhanje, duhanje\"; \"duh\" je pod 3) i 4)"
+ },
+ {
+  "lema": "stella",
+  "natuknica": "stella, ae, f.",
+  "tiskano": "zviezda",
+  "hr": "zvijezda",
+  "str": 917,
+  "list": 460,
+  "sigurno": true
+ },
+ {
+  "lema": "sto",
+  "natuknica": "sto, steti (* steterunt), statum, 1.",
+  "tiskano": "stajati",
+  "hr": "stajati",
+  "str": 920,
+  "list": 462,
+  "sigurno": true
+ },
+ {
+  "lema": "surgo",
+  "natuknica": "surgo, surrexi (inf. perf. surrexe, Hor. sat. 1, 9, 73.), surrectum, 3.",
+  "tiskano": "ustati",
+  "hr": "ustati",
+  "str": 947,
+  "list": 475,
+  "sigurno": true
+ },
+ {
+  "lema": "templum",
+  "natuknica": "templum, i, n.",
+  "tiskano": "hram",
+  "hr": "hram",
+  "str": 961,
+  "list": 482,
+  "sigurno": true,
+  "napomena": "natuknica na str. 961, značenje \"hram\" u nastavku na str. 962 (list 483)"
+ },
+ {
+  "lema": "tempus",
+  "natuknica": "tempus, oris, n.",
+  "tiskano": "vrieme",
+  "hr": "vrijeme",
+  "str": 962,
+  "list": 483,
+  "sigurno": true
+ },
+ {
+  "lema": "tenebrae",
+  "natuknica": "tenebrae, arum, f.",
+  "tiskano": "tmina",
+  "hr": "tmina",
+  "str": 963,
+  "list": 483,
+  "sigurno": true
+ },
+ {
+  "lema": "terra",
+  "natuknica": "terra, ae, f.",
+  "tiskano": "zemlja",
+  "hr": "zemlja",
+  "str": 967,
+  "list": 485,
+  "sigurno": true
+ },
+ {
+  "lema": "testimonium",
+  "natuknica": "testimonium, ii, n.",
+  "tiskano": "svjedočanstvo",
+  "hr": "svjedočanstvo",
+  "str": 969,
+  "list": 486,
+  "sigurno": true
+ },
+ {
+  "lema": "testis",
+  "natuknica": "1. testis, is, comm.",
+  "tiskano": "svjedok",
+  "hr": "svjedok",
+  "str": 969,
+  "list": 486,
+  "sigurno": true
+ },
+ {
+  "lema": "thesaurus",
+  "natuknica": "thesaurus (thens.), i, m.",
+  "tiskano": "blago",
+  "hr": "blago",
+  "str": 972,
+  "list": 488,
+  "sigurno": true
+ },
+ {
+  "lema": "timeo",
+  "natuknica": "timeo, ui, — 2.",
+  "tiskano": "bojati se",
+  "hr": "bojati se",
+  "str": 974,
+  "list": 489,
+  "sigurno": true
+ },
+ {
+  "lema": "timor",
+  "natuknica": "timor, oris, m.",
+  "tiskano": "strah",
+  "hr": "strah",
+  "str": 974,
+  "list": 489,
+  "sigurno": true
+ },
+ {
+  "lema": "tres",
+  "natuknica": "tres, n. tria [adj. num. card.]",
+  "tiskano": "tri",
+  "hr": "tri",
+  "str": 988,
+  "list": 496,
+  "sigurno": true
+ },
+ {
+  "lema": "turba",
+  "natuknica": "turba, ae, f.",
+  "tiskano": "množtvo",
+  "hr": "mnoštvo",
+  "str": 996,
+  "list": 500,
+  "sigurno": true
+ },
+ {
+  "lema": "ubique",
+  "natuknica": "ubi-que, adv.",
+  "tiskano": "svagdje",
+  "hr": "svagdje",
+  "str": 1001,
+  "list": 502,
+  "sigurno": true
+ },
+ {
+  "lema": "unus",
+  "natuknica": "unus (gen. -ius, predclas. uni, dat. -i), adj.",
+  "tiskano": "jedan",
+  "hr": "jedan",
+  "str": 1006,
+  "list": 505,
+  "sigurno": true
+ },
+ {
+  "lema": "venio",
+  "natuknica": "venio, veni, ventum, 4.",
+  "tiskano": "doći",
+  "hr": "doći",
+  "str": 1026,
+  "list": 515,
+  "sigurno": true
+ },
+ {
+  "lema": "ventus",
+  "natuknica": "ventus, i, m.",
+  "tiskano": "vjetar",
+  "hr": "vjetar",
+  "str": 1028,
+  "list": 516,
+  "sigurno": true
+ },
+ {
+  "lema": "verbum",
+  "natuknica": "verbum, i, (gen. pl. verbum, Plaut.), n.",
+  "tiskano": "rieč",
+  "hr": "riječ",
+  "str": 1029,
+  "list": 516,
+  "sigurno": true
+ },
+ {
+  "lema": "veritas",
+  "natuknica": "veritas, atis, f.",
+  "tiskano": "istina",
+  "hr": "istina",
+  "str": 1031,
+  "list": 517,
+  "sigurno": true
+ },
+ {
+  "lema": "verus",
+  "natuknica": "verus, adj.",
+  "tiskano": "istinit",
+  "hr": "istinit",
+  "str": 1034,
+  "list": 519,
+  "sigurno": true
+ },
+ {
+  "lema": "via",
+  "natuknica": "via, ae, (archaist. viai, Ennius u Cic. Cat. m. 6, 16.), f.",
+  "tiskano": "put",
+  "hr": "put",
+  "str": 1038,
+  "list": 521,
+  "sigurno": true
+ },
+ {
+  "lema": "video",
+  "natuknica": "video (viden' = videsne? Com. Cat. Virg. Tib.), vidi, visum, 2.",
+  "tiskano": "vidjeti",
+  "hr": "vidjeti",
+  "str": 1041,
+  "list": 522,
+  "sigurno": true
+ },
+ {
+  "lema": "vinum",
+  "natuknica": "vinum, i, n.",
+  "tiskano": "vino",
+  "hr": "vino",
+  "str": 1047,
+  "list": 525,
+  "sigurno": true
+ },
+ {
+  "lema": "vir",
+  "natuknica": "vir, viri, m.",
+  "tiskano": "muž",
+  "hr": "muž",
+  "str": 1048,
+  "list": 526,
+  "sigurno": true,
+  "napomena": "početno slovo natuknice odrezano je rubom snimke (\"ir, viri, m.\"); značenje jasno čitljivo"
+ },
+ {
+  "lema": "virgo",
+  "natuknica": "virgo, inis, f.",
+  "tiskano": "djevica",
+  "hr": "djevica",
+  "str": 1049,
+  "list": 526,
+  "sigurno": true
+ },
+ {
+  "lema": "virtus",
+  "natuknica": "virtus, utis, f.",
+  "tiskano": "vrlina",
+  "hr": "vrlina",
+  "str": 1049,
+  "list": 526,
+  "sigurno": true,
+  "napomena": "natuknica na str. 1049, značenje \"vrlina\" u nastavku na str. 1050 (list 527); tiskano je i \"kriepost\" (danas \"krepost\")"
+ },
+ {
+  "lema": "vita",
+  "natuknica": "vita, ae, f.",
+  "tiskano": "život",
+  "hr": "život",
+  "str": 1052,
+  "list": 528,
+  "sigurno": true
+ },
+ {
+  "lema": "vivo",
+  "natuknica": "vivo, vixi (vixet mj. vixisset, Virg. Aen. 11, 118.), victum, 3.",
+  "tiskano": "živjeti",
+  "hr": "živjeti",
+  "str": 1053,
+  "list": 528,
+  "sigurno": true
+ },
+ {
+  "lema": "vivus",
+  "natuknica": "vivus, adj.",
+  "tiskano": "živ",
+  "hr": "živ",
+  "str": 1054,
+  "list": 529,
+  "sigurno": true
+ },
+ {
+  "lema": "voco",
+  "natuknica": "voco, 1.",
+  "tiskano": "zvati",
+  "hr": "zvati",
+  "str": 1055,
+  "list": 529,
+  "sigurno": true
+ },
+ {
+  "lema": "vox",
+  "natuknica": "vox, vocis, f.",
+  "tiskano": "glas",
+  "hr": "glas",
+  "str": 1060,
+  "list": 532,
+  "sigurno": true
+ }
+]

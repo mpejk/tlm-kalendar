@@ -1,0 +1,15 @@
+# Game 2 (Obuci svećenika): the order in which the priest puts on the vestments.
+# Order and Latin names: Missale Romanum 1962, Praeparatio ad Missam, "Orationes dicendae cum sacerdos induitur sacerdotalibus
+# paramentis", printed p. LXXIII (PDF p. 75 of the CMAA scan), read on the page image: Ad amictum, Ad albam, Ad cingulum,
+# Ad manipulum, Ad stolam, Ad casulam.
+# Croatian names: Kniewald's Rimski misal (1942) does not name the vestments (searched: the Ordinary pp. 8-31 and the whole OCR
+# text), so the standard Croatian liturgical terms are used (hrIzvor: uobičajeni naziv).
+izvor: "Missale Romanum 1962, Praeparatio ad Missam, str. LXXIII (PDF str. 75)"
+hrIzvor: "uobičajeni hrvatski naziv (Kniewald 1942. ne imenuje misno ruho)"
+ruho:
+  - { id: amikt,   la: "amictus",   rubrika: "Ad amictum, dum ponitur super caput",        hr: "naglavnik" }
+  - { id: alba,    la: "alba",      rubrika: "Ad albam, cum ea induitur",                  hr: "alba" }
+  - { id: pojas,   la: "cingulum",  rubrika: "Ad cingulum, dum se cingit",                 hr: "pojas" }
+  - { id: narucnik, la: "manipulus", rubrika: "Ad manipulum, dum imponitur bracchio sinistro", hr: "naručnik" }
+  - { id: stola,   la: "stola",     rubrika: "Ad stolam, dum imponitur collo",             hr: "štola" }
+  - { id: misnica, la: "casula",    rubrika: "Ad casulam, cum assumitur",                  hr: "misnica" }

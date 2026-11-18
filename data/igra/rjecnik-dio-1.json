@@ -1,0 +1,472 @@
+[
+ {
+  "lema": "accipio",
+  "natuknica": "accipio, cepi, ceptum, 3.",
+  "tiskano": "primiti",
+  "hr": "primiti",
+  "str": 13,
+  "list": 8,
+  "sigurno": true
+ },
+ {
+  "lema": "adoro",
+  "natuknica": "ad-oro, etc. 1.",
+  "tiskano": "klanjati se",
+  "hr": "klanjati se",
+  "str": 33,
+  "list": 18,
+  "sigurno": true
+ },
+ {
+  "lema": "aeternus",
+  "natuknica": "aeternus, adj.",
+  "tiskano": "vječan",
+  "hr": "vječan",
+  "str": 47,
+  "list": 25,
+  "sigurno": true
+ },
+ {
+  "lema": "agnus",
+  "natuknica": "agnus, i, m.",
+  "tiskano": "janje",
+  "hr": "janje",
+  "str": 55,
+  "list": 29,
+  "sigurno": true
+ },
+ {
+  "lema": "altare",
+  "natuknica": "altaria, ium, n. pl.",
+  "tiskano": "žrtvenik",
+  "hr": "žrtvenik",
+  "str": 67,
+  "list": 35,
+  "sigurno": true,
+  "napomena": "natuknica je u množini (altaria); 'sing. dolazi samo kod kasnih pisatelja'"
+ },
+ {
+  "lema": "ambulo",
+  "natuknica": "ambulo, 1.",
+  "tiskano": "hodati",
+  "hr": "hodati",
+  "str": 72,
+  "list": 38,
+  "sigurno": true
+ },
+ {
+  "lema": "amicus",
+  "natuknica": "amicus, i, m.",
+  "tiskano": "prijatelj",
+  "hr": "prijatelj",
+  "str": 73,
+  "list": 38,
+  "sigurno": true
+ },
+ {
+  "lema": "amo",
+  "natuknica": "amo, 1.",
+  "tiskano": "ljubiti",
+  "hr": "ljubiti",
+  "str": 73,
+  "list": 38,
+  "sigurno": true
+ },
+ {
+  "lema": "angelus",
+  "hr": null,
+  "napomena": "nema natuknice"
+ },
+ {
+  "lema": "anima",
+  "natuknica": "anima, ae, f.",
+  "tiskano": "duša",
+  "hr": "duša",
+  "str": 79,
+  "list": 41,
+  "sigurno": true,
+  "napomena": "natuknica na str. 79, značenje 'duša' u nastavku natuknice na str. 80 (list 42)"
+ },
+ {
+  "lema": "annus",
+  "natuknica": "annus, i, m.",
+  "tiskano": "godina",
+  "hr": "godina",
+  "str": 82,
+  "list": 43,
+  "sigurno": true
+ },
+ {
+  "lema": "aperio",
+  "natuknica": "aperio, rui, rtum, 4.",
+  "tiskano": "otvoriti",
+  "hr": "otvoriti",
+  "str": 87,
+  "list": 45,
+  "sigurno": true
+ },
+ {
+  "lema": "apostolus",
+  "hr": null,
+  "napomena": "nema natuknice"
+ },
+ {
+  "lema": "aqua",
+  "natuknica": "aqua, ae, f.",
+  "tiskano": "voda",
+  "hr": "voda",
+  "str": 93,
+  "list": 48,
+  "sigurno": true
+ },
+ {
+  "lema": "ascendo",
+  "natuknica": "ascendo, ndi, nsum, 3.",
+  "tiskano": "popeti se",
+  "hr": "popeti se",
+  "str": 106,
+  "list": 55,
+  "sigurno": true
+ },
+ {
+  "lema": "audio",
+  "natuknica": "audio, 4.",
+  "tiskano": "čuti",
+  "hr": "čuti",
+  "str": 122,
+  "list": 63,
+  "sigurno": true
+ },
+ {
+  "lema": "auris",
+  "natuknica": "auris, is, f.",
+  "tiskano": "uho",
+  "hr": "uho",
+  "str": 126,
+  "list": 65,
+  "sigurno": true
+ },
+ {
+  "lema": "auxilium",
+  "natuknica": "auxilium, ii, n.",
+  "tiskano": "pomoć",
+  "hr": "pomoć",
+  "str": 129,
+  "list": 66,
+  "sigurno": true
+ },
+ {
+  "lema": "beatus",
+  "natuknica": "beatus, adj.",
+  "tiskano": "blažen",
+  "hr": "blažen",
+  "str": 134,
+  "list": 69,
+  "sigurno": true
+ },
+ {
+  "lema": "benedico",
+  "natuknica": "benedico, benedictum, benefacio, gledaj bene 1) A) B).",
+  "tiskano": "hvaliti",
+  "hr": "hvaliti",
+  "str": 136,
+  "list": 70,
+  "sigurno": false,
+  "napomena": "vlastita natuknica samo upućuje na 'bene'; značenje je iz natuknice bene, str. 135 (list 69): 'bene dicere alicui dobro govoriti ili kazati o kom, hvaliti koga'"
+ },
+ {
+  "lema": "benedictio",
+  "hr": null,
+  "napomena": "nema natuknice"
+ },
+ {
+  "lema": "bibo",
+  "natuknica": "bibo, bibi, —, 3.",
+  "tiskano": "piti",
+  "hr": "piti",
+  "str": 137,
+  "list": 70,
+  "sigurno": true
+ },
+ {
+  "lema": "bonus",
+  "natuknica": "bonus, A) adj.",
+  "tiskano": "dobar",
+  "hr": "dobar",
+  "str": 140,
+  "list": 72,
+  "sigurno": true
+ },
+ {
+  "lema": "caelum",
+  "natuknica": "coelum (cael.), i, n.",
+  "tiskano": "nebo",
+  "hr": "nebo",
+  "str": 190,
+  "list": 97,
+  "sigurno": true,
+  "napomena": "pod 'caelum' (str. 146) stoji samo 'caelum, v. coelum'"
+ },
+ {
+  "lema": "canto",
+  "natuknica": "canto, 1.",
+  "tiskano": "pjevati",
+  "hr": "pjevati",
+  "str": 154,
+  "list": 79,
+  "sigurno": true
+ },
+ {
+  "lema": "caput",
+  "natuknica": "caput, pitis, n.",
+  "tiskano": "glava",
+  "hr": "glava",
+  "str": 158,
+  "list": 81,
+  "sigurno": true
+ },
+ {
+  "lema": "caritas",
+  "natuknica": "caritas, atis, f.",
+  "tiskano": "ljubav",
+  "hr": "ljubav",
+  "str": 159,
+  "list": 81,
+  "sigurno": true,
+  "napomena": "prvo značenje je 'dražina, skupoća'; 'ljubav' je pod 2) tp."
+ },
+ {
+  "lema": "caro",
+  "natuknica": "1. caro, rnis, f.",
+  "tiskano": "meso",
+  "hr": "meso",
+  "str": 160,
+  "list": 82,
+  "sigurno": true,
+  "napomena": "tiskano: '1. caro (arhaist. uz to oblik carnis, Liv. 37, 3, 4.), rnis, f.'"
+ },
+ {
+  "lema": "centum",
+  "natuknica": "centum, adj. num. card.",
+  "tiskano": "sto",
+  "hr": "sto",
+  "str": 170,
+  "list": 87,
+  "sigurno": true
+ },
+ {
+  "lema": "civitas",
+  "natuknica": "civitas, atis, f.",
+  "tiskano": "grad",
+  "hr": "grad",
+  "str": 184,
+  "list": 94,
+  "sigurno": true,
+  "napomena": "prvo značenje 'gradjanstvo'; 'grad' pod 2) i 3) (= urbs), str. 185"
+ },
+ {
+  "lema": "clamo",
+  "natuknica": "clamo, 1.",
+  "tiskano": "vikati",
+  "hr": "vikati",
+  "str": 185,
+  "list": 94,
+  "sigurno": true
+ },
+ {
+  "lema": "consilium",
+  "natuknica": "consilium, ii, n.",
+  "tiskano": "savjet",
+  "hr": "savjet",
+  "str": 228,
+  "list": 116,
+  "sigurno": true
+ },
+ {
+  "lema": "cor",
+  "natuknica": "cor, cordis, n.",
+  "tiskano": "srdce",
+  "hr": "srce",
+  "str": 244,
+  "list": 124,
+  "sigurno": true
+ },
+ {
+  "lema": "corona",
+  "natuknica": "corona, ae, f.",
+  "tiskano": "vienac",
+  "hr": "vijenac",
+  "str": 246,
+  "list": 125,
+  "sigurno": true
+ },
+ {
+  "lema": "corpus",
+  "natuknica": "corpus, oris, n.",
+  "tiskano": "tielo",
+  "hr": "tijelo",
+  "str": 246,
+  "list": 125,
+  "sigurno": true
+ },
+ {
+  "lema": "cotidie",
+  "natuknica": "quotidie (cotidie i cottidie), adv.",
+  "tiskano": "svaki dan",
+  "hr": "svaki dan",
+  "str": 815,
+  "list": 409,
+  "sigurno": true,
+  "napomena": "na str. 249 (list 126) samo uputnica 'cotidianus, cotidie v. quotidianus, quotidie'"
+ },
+ {
+  "lema": "credo",
+  "natuknica": "credo, didi, ditum, 3.",
+  "tiskano": "vjerovati",
+  "hr": "vjerovati",
+  "str": 250,
+  "list": 127,
+  "sigurno": true,
+  "napomena": "prvo značenje 'povjeriti'; 'vjerovati' pod 3) i 4)"
+ },
+ {
+  "lema": "crux",
+  "natuknica": "crux, ucis, f.",
+  "tiskano": "križ",
+  "hr": "križ",
+  "str": 254,
+  "list": 129,
+  "sigurno": true
+ },
+ {
+  "lema": "custodio",
+  "natuknica": "custodio, 4.",
+  "tiskano": "čuvati",
+  "hr": "čuvati",
+  "str": 262,
+  "list": 133,
+  "sigurno": true
+ },
+ {
+  "lema": "decem",
+  "natuknica": "decem, adj. num. card.",
+  "tiskano": "deset",
+  "hr": "deset",
+  "str": 268,
+  "list": 136,
+  "sigurno": true
+ },
+ {
+  "lema": "descendo",
+  "natuknica": "descendo, di, sum, 3.",
+  "tiskano": "sići",
+  "hr": "sići",
+  "str": 288,
+  "list": 146,
+  "sigurno": true
+ },
+ {
+  "lema": "desertum",
+  "natuknica": "desertus, adj.",
+  "tiskano": "pustinje",
+  "hr": "pustinje",
+  "str": 289,
+  "list": 146,
+  "sigurno": false,
+  "napomena": "nema vlastite natuknice 'desertum'; pod pridjevom desertus ('ostavljen, zapušten, pust') tiskano je 'odatle * deserta, orum, n. pust(ar)e, pustinje, pustoši' — značenje je u množini"
+ },
+ {
+  "lema": "deus",
+  "natuknica": "deus, i, m.",
+  "tiskano": "bog",
+  "hr": "bog",
+  "str": 293,
+  "list": 148,
+  "sigurno": true
+ },
+ {
+  "lema": "dextera",
+  "natuknica": "dextera ili dextra, ae, f.",
+  "tiskano": "desnica",
+  "hr": "desnica",
+  "str": 295,
+  "list": 149,
+  "sigurno": true,
+  "napomena": "podnatuknica (masno tiskana) unutar natuknice 'dexter, tra, trum, ili tera, terum, adj.': 'Na pose dextera ili dextra, ae, f. a) (sc. manus), desna ruka, desnica'"
+ },
+ {
+  "lema": "dico",
+  "natuknica": "2. dico, xi, ctum, 3.",
+  "tiskano": "reći",
+  "hr": "reći",
+  "str": 296,
+  "list": 150,
+  "sigurno": true
+ },
+ {
+  "lema": "dies",
+  "natuknica": "dies, ei, m. i f.",
+  "tiskano": "dan",
+  "hr": "dan",
+  "str": 298,
+  "list": 151,
+  "sigurno": true,
+  "napomena": "tiskano: 'dies, ei, (stari oblik die, Sall. Virg., dii, Virg.) m. i [nu samo u sing. i kod najboljih prosaika samo u značenjih 2) i 3)] f.'"
+ },
+ {
+  "lema": "dignus",
+  "natuknica": "dignus, adj.",
+  "tiskano": "dostojan",
+  "hr": "dostojan",
+  "str": 300,
+  "list": 152,
+  "sigurno": true
+ },
+ {
+  "lema": "diligo",
+  "natuknica": "diligo, lexi, lectum, 3.",
+  "tiskano": "ljubiti",
+  "hr": "ljubiti",
+  "str": 301,
+  "list": 152,
+  "sigurno": true,
+  "napomena": "tiskano: 'upr. razbirati, izmedju više njih izabrati, odavle vele štovati, počitati, vele cieniti, ljubiti iz počitanja'"
+ },
+ {
+  "lema": "discipulus",
+  "natuknica": "discipulus, i, m.",
+  "tiskano": "učenik",
+  "hr": "učenik",
+  "str": 305,
+  "list": 154,
+  "sigurno": true
+ },
+ {
+  "lema": "do",
+  "natuknica": "do, dedi, datum, dare",
+  "tiskano": "dati",
+  "hr": "dati",
+  "str": 315,
+  "list": 159,
+  "sigurno": true,
+  "napomena": "u glavi natuknice nema broja konjugacije"
+ },
+ {
+  "lema": "doceo",
+  "natuknica": "doceo, cui, ctum, 2.",
+  "tiskano": "učiti",
+  "hr": "učiti",
+  "str": 316,
+  "list": 160,
+  "sigurno": true
+ },
+ {
+  "lema": "dominus",
+  "natuknica": "dominus, i, m.",
+  "tiskano": "gospodar",
+  "hr": "gospodar",
+  "str": 318,
+  "list": 161,
+  "sigurno": true
+ }
+]

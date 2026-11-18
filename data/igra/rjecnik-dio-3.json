@@ -1,0 +1,476 @@
+[
+{
+"lema": "manus",
+"natuknica": "manus, us, f.",
+"tiskano": "ruka",
+"hr": "ruka",
+"str": 599,
+"list": 301,
+"sigurno": true
+},
+{
+"lema": "mare",
+"natuknica": "mare, is, n.",
+"tiskano": "more",
+"hr": "more",
+"str": 600,
+"list": 302,
+"sigurno": true
+},
+{
+"lema": "mater",
+"natuknica": "mater, tris, f.",
+"tiskano": "mati",
+"hr": "mati",
+"str": 602,
+"list": 303,
+"sigurno": true
+},
+{
+"lema": "mensa",
+"natuknica": "mensa, ae, f.",
+"tiskano": "stol",
+"hr": "stol",
+"str": 611,
+"list": 307,
+"sigurno": true
+},
+{
+"lema": "militia",
+"natuknica": "militia, ae, f.",
+"tiskano": "vojska",
+"hr": "vojska",
+"str": 616,
+"list": 310,
+"sigurno": true,
+"napomena": "prvi smisao 1) je 'ratna, vojna, vojnička služba, vojnovanje' (str. 616); 'vojska' je tiskano pod b) collect. na vrhu str. 617"
+},
+{
+"lema": "mille",
+"natuknica": "mille (mile), adj. indecl. num. card.",
+"tiskano": "tisuća",
+"hr": "tisuća",
+"str": 617,
+"list": 310,
+"sigurno": true
+},
+{
+"lema": "misericordia",
+"natuknica": "misericordia, ae, f.",
+"tiskano": "milosrdje",
+"hr": "milosrđe",
+"str": 621,
+"list": 312,
+"sigurno": true
+},
+{
+"lema": "misericors",
+"natuknica": "misericors, dis, adj.",
+"tiskano": "milosrdan",
+"hr": "milosrdan",
+"str": 621,
+"list": 312,
+"sigurno": true
+},
+{
+"lema": "mitto",
+"natuknica": "mitto, misi, missum, 3.",
+"tiskano": "slati",
+"hr": "slati",
+"str": 621,
+"list": 312,
+"sigurno": true
+},
+{
+"lema": "mons",
+"natuknica": "mons, tis, m.",
+"tiskano": "gora",
+"hr": "gora",
+"str": 628,
+"list": 316,
+"sigurno": true
+},
+{
+"lema": "mors",
+"natuknica": "mors, tis, f.",
+"tiskano": "smrt",
+"hr": "smrt",
+"str": 630,
+"list": 317,
+"sigurno": true
+},
+{
+"lema": "mortuus",
+"hr": null,
+"napomena": "nema natuknice (između mortualia i morulus na str. 631 nema je; obrađeno unutar natuknice morior, str. 629–630, list 316–317: 'mortuus subst. mrtvac, mrtvik, lešina')"
+},
+{
+"lema": "mulier",
+"natuknica": "mulier, eris, f.",
+"tiskano": "žena",
+"hr": "žena",
+"str": 633,
+"list": 318,
+"sigurno": true
+},
+{
+"lema": "multus",
+"natuknica": "multus, adj.",
+"tiskano": "mnogi",
+"hr": "mnogi",
+"str": 635,
+"list": 319,
+"sigurno": true
+},
+{
+"lema": "munus",
+"natuknica": "munus, neris, n.",
+"tiskano": "dar",
+"hr": "dar",
+"str": 637,
+"list": 320,
+"sigurno": true,
+"napomena": "'dar' je pod 2) 'usluga, ljubav, dar, poklon'; smisao 1) je 'djelokrug, zadaća, dužnost, služba'"
+},
+{
+"lema": "mysterium",
+"natuknica": "mysteria, orum, n.",
+"tiskano": "tajna",
+"hr": "tajna",
+"str": 640,
+"list": 322,
+"sigurno": true,
+"napomena": "natuknica je u množini (mysteria); 'tajna' stoji iza 'tp.', prije toga 'otajno bogoštovje, mysterije'"
+},
+{
+"lema": "nomen",
+"natuknica": "nomen, inis, n.",
+"tiskano": "ime",
+"hr": "ime",
+"str": 657,
+"list": 330,
+"sigurno": true
+},
+{
+"lema": "novus",
+"natuknica": "novus, adj.",
+"tiskano": "nov",
+"hr": "nov",
+"str": 662,
+"list": 333,
+"sigurno": true
+},
+{
+"lema": "nox",
+"natuknica": "nox, ctis, f.",
+"tiskano": "noć",
+"hr": "noć",
+"str": 662,
+"list": 333,
+"sigurno": true
+},
+{
+"lema": "nubes",
+"natuknica": "nubes, is, f.",
+"tiskano": "oblak",
+"hr": "oblak",
+"str": 662,
+"list": 333,
+"sigurno": true
+},
+{
+"lema": "nunc",
+"natuknica": "nunc [νῦν] adv.",
+"tiskano": "sada",
+"hr": "sada",
+"str": 665,
+"list": 334,
+"sigurno": true
+},
+{
+"lema": "oculus",
+"natuknica": "oculus, i, m.",
+"tiskano": "oko",
+"hr": "oko",
+"str": 679,
+"list": 341,
+"sigurno": true
+},
+{
+"lema": "offero",
+"natuknica": "offero, obtuli, oblatum, offerre,",
+"tiskano": "nudjati",
+"hr": "nuđati",
+"str": 681,
+"list": 342,
+"sigurno": true,
+"napomena": "'nudjati' tiskano pod 1) ('nudjati, prodavati', str. 681) i pod 2) d) (str. 682, list 343); prvi smisao je 'nositi pred koga, pokazivati'. 'nuđati' je danas rjeđi oblik (obično: nuditi), ali ista riječ"
+},
+{
+"lema": "omnipotens",
+"natuknica": "omni-potens, tis, adj.",
+"tiskano": "svemogući",
+"hr": "svemogući",
+"str": 684,
+"list": 344,
+"sigurno": true
+},
+{
+"lema": "omnis",
+"natuknica": "omnis, adj.",
+"tiskano": "sav",
+"hr": "sav",
+"str": 684,
+"list": 344,
+"sigurno": true,
+"napomena": "tiskano 'vas, sav (u obće ...)'"
+},
+{
+"lema": "opus",
+"natuknica": "1. opus, eris, n.",
+"tiskano": "djelo",
+"hr": "djelo",
+"str": 689,
+"list": 346,
+"sigurno": true,
+"napomena": "smisao 1) 'radnja, rad, posao, djelo'"
+},
+{
+"lema": "oratio",
+"natuknica": "oratio, onis, f.",
+"tiskano": "govor",
+"hr": "govor",
+"str": 690,
+"list": 347,
+"sigurno": true,
+"napomena": "smisao 1) 'govor, jezik u obće'; značenje 'molitva' nije tiskano u natuknici"
+},
+{
+"lema": "oro",
+"natuknica": "oro, 1.",
+"tiskano": "moliti",
+"hr": "moliti",
+"str": 693,
+"list": 348,
+"sigurno": true
+},
+{
+"lema": "ostendo",
+"natuknica": "ostendo, di, sum (predcl. i tum), 3.",
+"tiskano": "pokazati",
+"hr": "pokazati",
+"str": 694,
+"list": 349,
+"sigurno": true,
+"napomena": "'pokazati' tiskano pod 3) tp. a) 'pokazati, izdati'; pod 2) 'pružati, pokazivati'"
+},
+{
+"lema": "ovis",
+"natuknica": "ovis, is, f.",
+"tiskano": "ovca",
+"hr": "ovca",
+"str": 695,
+"list": 349,
+"sigurno": true
+},
+{
+"lema": "panis",
+"natuknica": "panis, is, m.",
+"tiskano": "kruh",
+"hr": "kruh",
+"str": 700,
+"list": 352,
+"sigurno": true
+},
+{
+"lema": "pastor",
+"natuknica": "pastor, oris, m.",
+"tiskano": "pastir",
+"hr": "pastir",
+"str": 706,
+"list": 355,
+"sigurno": true
+},
+{
+"lema": "pater",
+"natuknica": "pater, tris, m.",
+"tiskano": "otac",
+"hr": "otac",
+"str": 707,
+"list": 355,
+"sigurno": true
+},
+{
+"lema": "pauper",
+"natuknica": "pauper, eris, adj.",
+"tiskano": "siromašan",
+"hr": "siromašan",
+"str": 709,
+"list": 356,
+"sigurno": true
+},
+{
+"lema": "pax",
+"natuknica": "pax, acis, f.",
+"tiskano": "mir",
+"hr": "mir",
+"str": 710,
+"list": 357,
+"sigurno": true
+},
+{
+"lema": "peccatum",
+"natuknica": "peccatum, i, n.",
+"tiskano": "grieh",
+"hr": "grijeh",
+"str": 710,
+"list": 357,
+"sigurno": true,
+"napomena": "glavna značenja: 'pogrješka, prestupak, grieška'; 'grieh' je tiskano u zagradi objašnjenja: '(proti kojemu zakonu mudrosti ili ćudorednosti; zabluda ili grieh; sr. delictum)'"
+},
+{
+"lema": "pes",
+"natuknica": "pes, pedis, m.",
+"tiskano": "noga",
+"hr": "noga",
+"str": 733,
+"list": 368,
+"sigurno": true
+},
+{
+"lema": "petra",
+"natuknica": "1. petra, ae, f.",
+"tiskano": "stiena",
+"hr": "stijena",
+"str": 735,
+"list": 369,
+"sigurno": true
+},
+{
+"lema": "plenus",
+"natuknica": "plenus, adj.",
+"tiskano": "pun",
+"hr": "pun",
+"str": 744,
+"list": 374,
+"sigurno": true
+},
+{
+"lema": "populus",
+"natuknica": "1. populus, (Plaut. poplus), i, m.",
+"tiskano": "narod",
+"hr": "narod",
+"str": 750,
+"list": 377,
+"sigurno": true
+},
+{
+"lema": "porta",
+"natuknica": "porta, ae, f.",
+"tiskano": "vrata",
+"hr": "vrata",
+"str": 751,
+"list": 377,
+"sigurno": true
+},
+{
+"lema": "porto",
+"natuknica": "porto, 1.",
+"tiskano": "nositi",
+"hr": "nositi",
+"str": 751,
+"list": 377,
+"sigurno": true
+},
+{
+"lema": "potestas",
+"natuknica": "potestas, atis, f.",
+"tiskano": "vlast",
+"hr": "vlast",
+"str": 755,
+"list": 379,
+"sigurno": true
+},
+{
+"lema": "praeceptum",
+"natuknica": "praeceptum, i, n.",
+"tiskano": "zapovied",
+"hr": "zapovijed",
+"str": 757,
+"list": 380,
+"sigurno": true,
+"napomena": "tiskano: 'naredba, zapovied, nauka, pravilo'"
+},
+{
+"lema": "primus",
+"natuknica": "primus, adj.",
+"tiskano": "prvi",
+"hr": "prvi",
+"str": 772,
+"list": 388,
+"sigurno": true
+},
+{
+"lema": "princeps",
+"natuknica": "princeps, cipis, adj. i subst.",
+"tiskano": "poglavar",
+"hr": "poglavar",
+"str": 772,
+"list": 388,
+"sigurno": true,
+"napomena": "prvi smisao 1) je 'prvi'; 'poglavar, načelnik' tiskano pod b) na str. 773; također 'glava', 'vladar'"
+},
+{
+"lema": "propheta",
+"hr": null,
+"napomena": "nema natuknice (str. 787, list 395: iza pro-pexus odmah slijedi pro-pino)"
+},
+{
+"lema": "puer",
+"natuknica": "puer, eri (voc. puere, Plaut.), m.",
+"tiskano": "diete",
+"hr": "dijete",
+"str": 796,
+"list": 400,
+"sigurno": true,
+"napomena": "smisao I) 'diete'; 2) 'mužko diete, djetčak'"
+},
+{
+"lema": "quaero",
+"natuknica": "quaero, sivi, situm, 3.",
+"tiskano": "tražiti",
+"hr": "tražiti",
+"str": 803,
+"list": 403,
+"sigurno": true
+},
+{
+"lema": "quaeso",
+"natuknica": "quaeso, — — 3.",
+"tiskano": "moliti",
+"hr": "moliti",
+"str": 804,
+"list": 404,
+"sigurno": true,
+"napomena": "tiskano: '(predcl.) tražiti; obič. moliti, izmoliti'"
+},
+{
+"lema": "regno",
+"natuknica": "regno, 1.",
+"tiskano": "kraljevati",
+"hr": "kraljevati",
+"str": 832,
+"list": 418,
+"sigurno": true,
+"napomena": "tiskano: 'kraljevati, vladati'"
+},
+{
+"lema": "regnum",
+"natuknica": "regnum, i, n.",
+"tiskano": "kraljevstvo",
+"hr": "kraljevstvo",
+"str": 833,
+"list": 418,
+"sigurno": true
+}
+]

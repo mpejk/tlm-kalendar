@@ -1,0 +1,492 @@
+[
+ {
+  "lema": "domus",
+  "natuknica": "domus, us, i (Com. i kano adv. v. ozdol), i, f.",
+  "tiskano": "kuća",
+  "hr": "kuća",
+  "str": 319,
+  "list": 161,
+  "sigurno": true
+ },
+ {
+  "lema": "donum",
+  "natuknica": "donum, i, n.",
+  "tiskano": "dar",
+  "hr": "dar",
+  "str": 319,
+  "list": 161,
+  "sigurno": true
+ },
+ {
+  "lema": "dormio",
+  "natuknica": "dormio, 4.",
+  "tiskano": "spavati",
+  "hr": "spavati",
+  "str": 320,
+  "list": 162,
+  "sigurno": true
+ },
+ {
+  "lema": "dulcis",
+  "natuknica": "dulcis, adj.",
+  "tiskano": "sladak",
+  "hr": "sladak",
+  "str": 323,
+  "list": 163,
+  "sigurno": true
+ },
+ {
+  "lema": "duo",
+  "natuknica": "duo, ae, o, adj. num. card.",
+  "tiskano": "dva",
+  "hr": "dva",
+  "str": 324,
+  "list": 164,
+  "sigurno": true
+ },
+ {
+  "lema": "duodecim",
+  "natuknica": "duo-decim, adj. num. card.",
+  "tiskano": "dvanaest",
+  "hr": "dvanaest",
+  "str": 324,
+  "list": 164,
+  "sigurno": true
+ },
+ {
+  "lema": "ecce",
+  "natuknica": "ecce, adv.",
+  "tiskano": "evo",
+  "hr": "evo",
+  "str": 327,
+  "list": 165,
+  "sigurno": true
+ },
+ {
+  "lema": "ecclesia",
+  "natuknica": "ecclesia, ae, f.",
+  "tiskano": "narodna skupština",
+  "hr": "narodna skupština",
+  "str": 328,
+  "list": 166,
+  "sigurno": true,
+  "napomena": "samo klasično značenje: narodna skupština u Grka"
+ },
+ {
+  "lema": "exaudio",
+  "natuknica": "ex-audio, 4.",
+  "tiskano": "uslišati",
+  "hr": "uslišati",
+  "str": 355,
+  "list": 179,
+  "sigurno": true
+ },
+ {
+  "lema": "exeo",
+  "natuknica": "ex-eo, ii (ivi riedko), itum, ire",
+  "tiskano": "izaći",
+  "hr": "izaći",
+  "str": 360,
+  "list": 182,
+  "sigurno": true,
+  "napomena": "prvi smisao tiskan 'iz-, otići, iz-, odlaziti, poći, polaziti'; 'izaći' tiskano u istom smislu uz primjer 'in terram, izaći, stupiti na kopno'"
+ },
+ {
+  "lema": "exercitus",
+  "natuknica": "2. exercitus, us, m.",
+  "tiskano": "vojska",
+  "hr": "vojska",
+  "str": 361,
+  "list": 182,
+  "sigurno": true
+ },
+ {
+  "lema": "facio",
+  "natuknica": "facio, feci, factum, facere",
+  "tiskano": "činiti",
+  "hr": "činiti",
+  "str": 381,
+  "list": 192,
+  "sigurno": true
+ },
+ {
+  "lema": "fidelis",
+  "natuknica": "fidelis, adj.",
+  "tiskano": "vjeran",
+  "hr": "vjeran",
+  "str": 398,
+  "list": 201,
+  "sigurno": true
+ },
+ {
+  "lema": "fides",
+  "natuknica": "1. fides, ei, (archaist. gen. i dat. fide) f.",
+  "tiskano": "vjera",
+  "hr": "vjera",
+  "str": 398,
+  "list": 201,
+  "sigurno": true
+ },
+ {
+  "lema": "filia",
+  "natuknica": "filia, ae, f.",
+  "tiskano": "kći",
+  "hr": "kći",
+  "str": 401,
+  "list": 202,
+  "sigurno": true
+ },
+ {
+  "lema": "filius",
+  "natuknica": "filius, ii, m.",
+  "tiskano": "sin",
+  "hr": "sin",
+  "str": 401,
+  "list": 202,
+  "sigurno": true
+ },
+ {
+  "lema": "flumen",
+  "natuknica": "flumen, inis, n.",
+  "tiskano": "rieka",
+  "hr": "rijeka",
+  "str": 408,
+  "list": 206,
+  "sigurno": true,
+  "napomena": "smisao 2); smisao 1) 'što teče, tekuća voda, struja'"
+ },
+ {
+  "lema": "fortis",
+  "natuknica": "fortis, adj.",
+  "tiskano": "jak",
+  "hr": "jak",
+  "str": 413,
+  "list": 208,
+  "sigurno": true,
+  "napomena": "natuknica na dnu str. 412, značenja na vrhu str. 413"
+ },
+ {
+  "lema": "frater",
+  "natuknica": "frater, tris, m.",
+  "tiskano": "brat",
+  "hr": "brat",
+  "str": 416,
+  "list": 210,
+  "sigurno": true
+ },
+ {
+  "lema": "fructus",
+  "natuknica": "fructus, us, m.",
+  "tiskano": "plod",
+  "hr": "plod",
+  "str": 420,
+  "list": 212,
+  "sigurno": true,
+  "napomena": "smisao 2) 'užitak = plod, rod, urod'; smisao 1) 'uživanje, užitak'"
+ },
+ {
+  "lema": "gaudeo",
+  "natuknica": "gaudeo, gavisus sum, 2.",
+  "tiskano": "veseliti se",
+  "hr": "veseliti se",
+  "str": 431,
+  "list": 217,
+  "sigurno": true
+ },
+ {
+  "lema": "gaudium",
+  "natuknica": "gaudium, ii, n.",
+  "tiskano": "radost",
+  "hr": "radost",
+  "str": 432,
+  "list": 218,
+  "sigurno": true
+ },
+ {
+  "lema": "gens",
+  "natuknica": "gens, tis, f.",
+  "tiskano": "narod",
+  "hr": "narod",
+  "str": 434,
+  "list": 219,
+  "sigurno": true,
+  "napomena": "smisao 2) na str. 435; smisao 1) 'rod, pleme, koljeno'"
+ },
+ {
+  "lema": "gladius",
+  "natuknica": "gladius, ii, m.",
+  "tiskano": "mač",
+  "hr": "mač",
+  "str": 439,
+  "list": 221,
+  "sigurno": true
+ },
+ {
+  "lema": "gloria",
+  "natuknica": "gloria, ae, f.",
+  "tiskano": "slava",
+  "hr": "slava",
+  "str": 440,
+  "list": 222,
+  "sigurno": true
+ },
+ {
+  "lema": "gratia",
+  "natuknica": "gratia, ae, f.",
+  "tiskano": "milost",
+  "hr": "milost",
+  "str": 443,
+  "list": 223,
+  "sigurno": true,
+  "napomena": "smisao 2); smisao 1) 'milina, milota'"
+ },
+ {
+  "lema": "grex",
+  "natuknica": "grex, egis, m.",
+  "tiskano": "stado",
+  "hr": "stado",
+  "str": 447,
+  "list": 225,
+  "sigurno": true
+ },
+ {
+  "lema": "habeo",
+  "natuknica": "habeo, ui, itum, 2.",
+  "tiskano": "imati",
+  "hr": "imati",
+  "str": 449,
+  "list": 226,
+  "sigurno": true,
+  "napomena": "tiskano 'imati-, držati-, nositi što god kod sebe'"
+ },
+ {
+  "lema": "hereditas",
+  "natuknica": "hereditas (haered.), atis, f.",
+  "tiskano": "baština",
+  "hr": "baština",
+  "str": 457,
+  "list": 230,
+  "sigurno": true
+ },
+ {
+  "lema": "hodie",
+  "natuknica": "hodie, adv.",
+  "tiskano": "danas",
+  "hr": "danas",
+  "str": 461,
+  "list": 232,
+  "sigurno": true
+ },
+ {
+  "lema": "homo",
+  "natuknica": "homo, inis, comm.",
+  "tiskano": "čovjek",
+  "hr": "čovjek",
+  "str": 462,
+  "list": 233,
+  "sigurno": true
+ },
+ {
+  "lema": "hora",
+  "natuknica": "2. hora, ae, f.",
+  "tiskano": "sat",
+  "hr": "sat",
+  "str": 463,
+  "list": 233,
+  "sigurno": true,
+  "napomena": "tiskano 'ura, sat'"
+ },
+ {
+  "lema": "hostia",
+  "natuknica": "hostia, ae, f.",
+  "tiskano": "žrtva",
+  "hr": "žrtva",
+  "str": 465,
+  "list": 234,
+  "sigurno": true
+ },
+ {
+  "lema": "humilis",
+  "natuknica": "humilis, adj.",
+  "tiskano": "ponizan",
+  "hr": "ponizan",
+  "str": 467,
+  "list": 235,
+  "sigurno": true,
+  "napomena": "smisao 2) c) β) 'ponizan, pokoran'; prvi smisao 'nizak, mao, malen'"
+ },
+ {
+  "lema": "hymnus",
+  "hr": null,
+  "napomena": "nema natuknice (list 236, str. 468: iza Hymettus slijedi Hypaepa)"
+ },
+ {
+  "lema": "ignis",
+  "natuknica": "ignis, is, m.",
+  "tiskano": "vatra",
+  "hr": "vatra",
+  "str": 471,
+  "list": 237,
+  "sigurno": true
+ },
+ {
+  "lema": "inimicus",
+  "natuknica": "inimicus, adj.",
+  "tiskano": "neprijatelj",
+  "hr": "neprijatelj",
+  "str": 512,
+  "list": 258,
+  "sigurno": true,
+  "napomena": "natuknica je pridjev ('neprijateljski'); u istoj natuknici 'subst. inimicus, i, m. neprijatelj, dušmanin' (vrh str. 513)"
+ },
+ {
+  "lema": "intro",
+  "natuknica": "2. intro, 1.",
+  "tiskano": "ulaziti",
+  "hr": "ulaziti",
+  "str": 534,
+  "list": 269,
+  "sigurno": true,
+  "napomena": "tiskano 'unići-, ulaziti-, prodrieti-, provaliti kamo'; postoji i '1. intro, adv.' = 'unutra'"
+ },
+ {
+  "lema": "invenio",
+  "natuknica": "in-venio, etc. 4.",
+  "tiskano": "naći",
+  "hr": "naći",
+  "str": 536,
+  "list": 270,
+  "sigurno": true
+ },
+ {
+  "lema": "iudicium",
+  "natuknica": "judicium, ii, n.",
+  "tiskano": "sud",
+  "hr": "sud",
+  "str": 549,
+  "list": 276,
+  "sigurno": true
+ },
+ {
+  "lema": "iustitia",
+  "natuknica": "justitia, ae, f.",
+  "tiskano": "pravednost",
+  "hr": "pravednost",
+  "str": 552,
+  "list": 278,
+  "sigurno": true,
+  "napomena": "tiskano 'pravda, pravednost'"
+ },
+ {
+  "lema": "iustus",
+  "natuknica": "justus, adj.",
+  "tiskano": "pravedan",
+  "hr": "pravedan",
+  "str": 552,
+  "list": 278,
+  "sigurno": true
+ },
+ {
+  "lema": "lapis",
+  "natuknica": "lapis, idis, m.",
+  "tiskano": "kamen",
+  "hr": "kamen",
+  "str": 560,
+  "list": 282,
+  "sigurno": true
+ },
+ {
+  "lema": "laudo",
+  "natuknica": "laudo, 1.",
+  "tiskano": "hvaliti",
+  "hr": "hvaliti",
+  "str": 564,
+  "list": 284,
+  "sigurno": true
+ },
+ {
+  "lema": "laus",
+  "natuknica": "laus, dis, f.",
+  "tiskano": "hvala",
+  "hr": "hvala",
+  "str": 564,
+  "list": 284,
+  "sigurno": true
+ },
+ {
+  "lema": "lex",
+  "natuknica": "lex, legis, f.",
+  "tiskano": "zakon",
+  "hr": "zakon",
+  "str": 570,
+  "list": 287,
+  "sigurno": true,
+  "napomena": "natuknica na dnu str. 570; 'zakon' je smisao 3) na str. 571; smisao 1) 'oblik rieči, propis, ustanova, ugovor'"
+ },
+ {
+  "lema": "lingua",
+  "natuknica": "lingua, ae, f.",
+  "tiskano": "jezik",
+  "hr": "jezik",
+  "str": 576,
+  "list": 290,
+  "sigurno": true
+ },
+ {
+  "lema": "lumen",
+  "natuknica": "lumen, inis, n.",
+  "tiskano": "svjetlo",
+  "hr": "svjetlo",
+  "str": 585,
+  "list": 294,
+  "sigurno": true
+ },
+ {
+  "lema": "lux",
+  "natuknica": "lux, lucis, f.",
+  "tiskano": "svjetlost",
+  "hr": "svjetlost",
+  "str": 587,
+  "list": 295,
+  "sigurno": true
+ },
+ {
+  "lema": "magnus",
+  "natuknica": "1. magnus, adj.",
+  "tiskano": "velik",
+  "hr": "velik",
+  "str": 593,
+  "list": 298,
+  "sigurno": true
+ },
+ {
+  "lema": "maiestas",
+  "natuknica": "majestas, atis, f.",
+  "tiskano": "veličanstvo",
+  "hr": "veličanstvo",
+  "str": 594,
+  "list": 299,
+  "sigurno": true,
+  "napomena": "tiskano 'uzvišenost, visost, dostojanstvo ili poštovanost, svetost, veličanstvo'"
+ },
+ {
+  "lema": "mandatum",
+  "natuknica": "mandatum, i, n.",
+  "tiskano": "zapovied",
+  "hr": "zapovijed",
+  "str": 597,
+  "list": 300,
+  "sigurno": true,
+  "napomena": "prvi smisao 'nalog, naruka, naručba'; 'zapovied' tiskano niže ('na moju zapovied', 'zapovied carska')"
+ },
+ {
+  "lema": "manduco",
+  "natuknica": "manduco, 1.",
+  "tiskano": null,
+  "hr": null,
+  "str": 597,
+  "list": 300,
+  "sigurno": false,
+  "napomena": "natuknica nema vlastitoga hrvatskog značenja: tiskano samo '(predcl. i kasno) = 2. mando 2)'; pod '2. mando, di, sum, 3.' smisao 2) glasi 'žvačuć jesti, pojesti'"
+ }
+]

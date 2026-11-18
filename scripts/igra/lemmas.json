@@ -1,0 +1,1964 @@
+{
+"dominus": [
+"dominus",
+"domini",
+"domino",
+"dominum",
+"domine",
+"dominorum",
+"dominis",
+"dominos"
+],
+"deus": [
+"deus",
+"dei",
+"deo",
+"deum"
+],
+"pater": [
+"pater",
+"patris",
+"patri",
+"patrem",
+"patre",
+"patres",
+"patrum",
+"patribus"
+],
+"filius": [
+"filius",
+"filii",
+"filio",
+"filium",
+"filie",
+"filiorum",
+"filiis",
+"filios",
+"fili"
+],
+"spiritus": [
+"spiritus",
+"spiritui",
+"spiritum",
+"spiritu",
+"spirituum",
+"spiritibus"
+],
+"angelus": [
+"angelus",
+"angeli",
+"angelo",
+"angelum",
+"angele",
+"angelorum",
+"angelis",
+"angelos"
+],
+"apostolus": [
+"apostolus",
+"apostoli",
+"apostolo",
+"apostolum",
+"apostole",
+"apostolorum",
+"apostolis",
+"apostolos"
+],
+"gratia": [
+"gratia",
+"gratiae",
+"gratiam",
+"gratiarum",
+"gratiis",
+"gratias"
+],
+"gloria": [
+"gloria",
+"gloriae",
+"gloriam"
+],
+"terra": [
+"terra",
+"terrae",
+"terram",
+"terrarum",
+"terris",
+"terras"
+],
+"caelum": [
+"caelum",
+"caeli",
+"caelo",
+"caela",
+"caelorum",
+"caelis",
+"coelum",
+"coeli",
+"coelo",
+"coela",
+"coelorum",
+"coelis",
+"caelos",
+"coelos"
+],
+"nomen": [
+"nomen",
+"nominis",
+"nomini",
+"nomine",
+"nomina",
+"nominum",
+"nominibus"
+],
+"verbum": [
+"verbum",
+"verbi",
+"verbo",
+"verba",
+"verborum",
+"verbis"
+],
+"homo": [
+"homo",
+"hominis",
+"homini",
+"hominem",
+"homine",
+"homines",
+"hominum",
+"hominibus"
+],
+"dies": [
+"dies",
+"diei",
+"diem",
+"die",
+"dierum",
+"diebus"
+],
+"vita": [
+"vita",
+"vitae",
+"vitam",
+"vitarum",
+"vitas"
+],
+"cor": [
+"cor",
+"cordis",
+"cordi",
+"corda",
+"cordum",
+"cordibus",
+"corde"
+],
+"populus": [
+"populus",
+"populi",
+"populo",
+"populum",
+"popule",
+"populorum",
+"populis",
+"populos"
+],
+"rex": [
+"rex",
+"regis",
+"regem",
+"rege",
+"regum",
+"regibus"
+],
+"regnum": [
+"regnum",
+"regni",
+"regna",
+"regnorum",
+"regnis"
+],
+"pax": [
+"pax",
+"pacis",
+"pacem",
+"pace"
+],
+"mater": [
+"mater",
+"matris",
+"matri",
+"matrem",
+"matre"
+],
+"lumen": [
+"lumen",
+"luminis",
+"lumini",
+"lumine",
+"lumina",
+"luminum",
+"luminibus"
+],
+"lux": [
+"lux",
+"lucis",
+"lucem"
+],
+"misericordia": [
+"misericordia",
+"misericordiae",
+"misericordiam",
+"misericordiarum",
+"misericordiis",
+"misericordias"
+],
+"opus": [
+"opus",
+"operis",
+"opere",
+"opera",
+"operum",
+"operibus"
+],
+"domus": [
+"domus",
+"domum",
+"domo",
+"domui"
+],
+"gens": [
+"gens",
+"gentis",
+"genti",
+"gentem",
+"gente",
+"gentes",
+"gentium",
+"gentibus"
+],
+"discipulus": [
+"discipulus",
+"discipuli",
+"discipulo",
+"discipulum",
+"discipule",
+"discipulorum",
+"discipulis",
+"discipulos"
+],
+"ecclesia": [
+"ecclesia",
+"ecclesiae",
+"ecclesiam",
+"ecclesiarum",
+"ecclesiis",
+"ecclesias"
+],
+"fides": [
+"fides",
+"fidei",
+"fidem",
+"fide"
+],
+"sacrificium": [
+"sacrificium",
+"sacrificii",
+"sacrificio",
+"sacrificia",
+"sacrificiorum",
+"sacrificiis"
+],
+"pastor": [
+"pastor",
+"pastoris",
+"pastori",
+"pastorem",
+"pastore",
+"pastores",
+"pastorum",
+"pastoribus"
+],
+"anima": [
+"anima",
+"animae",
+"animam",
+"animarum",
+"animas",
+"animabus"
+],
+"lex": [
+"lex",
+"legis",
+"legem"
+],
+"caro": [
+"caro",
+"carnis",
+"carnem",
+"carne"
+],
+"mors": [
+"mors",
+"mortis",
+"mortem",
+"morte"
+],
+"via": [
+"via",
+"viae",
+"viam",
+"viarum",
+"viis",
+"vias"
+],
+"propheta": [
+"propheta",
+"prophetae",
+"prophetam",
+"prophetarum",
+"prophetis",
+"prophetas"
+],
+"servus": [
+"servus",
+"servi",
+"servo",
+"servum",
+"serve",
+"servorum",
+"servis",
+"servos"
+],
+"munus": [
+"munus",
+"muneris",
+"munere",
+"munera",
+"munerum",
+"muneribus"
+],
+"vir": [
+"vir",
+"viri",
+"viro",
+"virum",
+"viros",
+"virorum"
+],
+"peccatum": [
+"peccatum",
+"peccati",
+"peccato",
+"peccata",
+"peccatorum",
+"peccatis"
+],
+"iudicium": [
+"iudicium",
+"iudicii",
+"iudicio",
+"iudicia",
+"iudiciorum",
+"iudiciis"
+],
+"mysterium": [
+"mysterium",
+"mysterii",
+"mysterio",
+"mysteria",
+"mysteriorum",
+"mysteriis"
+],
+"lingua": [
+"lingua",
+"linguae",
+"linguam",
+"linguarum",
+"linguis",
+"linguas"
+],
+"turba": [
+"turba",
+"turbae",
+"turbam",
+"turbarum",
+"turbis",
+"turbas"
+],
+"tempus": [
+"tempus",
+"temporis",
+"tempore",
+"tempora",
+"temporum",
+"temporibus"
+],
+"vox": [
+"vox",
+"vocis",
+"vocem",
+"voce",
+"voces",
+"vocibus"
+],
+"frater": [
+"frater",
+"fratris",
+"fratri",
+"fratrem",
+"fratre",
+"fratres",
+"fratrum",
+"fratribus"
+],
+"nox": [
+"nox",
+"noctis",
+"noctem",
+"nocte",
+"noctes"
+],
+"aqua": [
+"aqua",
+"aquae",
+"aquam",
+"aquarum",
+"aquis",
+"aquas"
+],
+"panis": [
+"panis",
+"panem",
+"pane",
+"panes",
+"panibus"
+],
+"vinum": [
+"vinum",
+"vini",
+"vino"
+],
+"sanguis": [
+"sanguis",
+"sanguinis",
+"sanguinem",
+"sanguine"
+],
+"corpus": [
+"corpus",
+"corporis",
+"corpore",
+"corpora",
+"corporum",
+"corporibus"
+],
+"oculus": [
+"oculus",
+"oculi",
+"oculo",
+"oculum",
+"ocule",
+"oculorum",
+"oculis",
+"oculos"
+],
+"manus": [
+"manus",
+"manum",
+"manu",
+"manuum",
+"manibus"
+],
+"pes": [
+"pes",
+"pedem",
+"pedes",
+"pedum",
+"pedibus"
+],
+"mons": [
+"mons",
+"montis",
+"montem",
+"monte",
+"montes",
+"montium",
+"montibus"
+],
+"mare": [
+"mare",
+"maris",
+"mari"
+],
+"civitas": [
+"civitas",
+"civitatis",
+"civitati",
+"civitatem",
+"civitate",
+"civitates",
+"civitatum",
+"civitatibus"
+],
+"sol": [
+"sol",
+"solem"
+],
+"stella": [
+"stella",
+"stellae",
+"stellam",
+"stellarum",
+"stellis",
+"stellas"
+],
+"ignis": [
+"ignis",
+"ignem",
+"igne",
+"igni"
+],
+"puer": [
+"puer",
+"pueri",
+"puero",
+"puerum",
+"pueros",
+"pueris"
+],
+"mulier": [
+"mulier",
+"mulieris",
+"mulieri",
+"mulierem",
+"muliere",
+"mulieres",
+"mulierum",
+"mulieribus"
+],
+"virgo": [
+"virgo",
+"virginis",
+"virgini",
+"virginem",
+"virgine",
+"virgines",
+"virginum",
+"virginibus"
+],
+"salus": [
+"salus",
+"salutis",
+"saluti",
+"salutem",
+"salute"
+],
+"veritas": [
+"veritas",
+"veritatis",
+"veritati",
+"veritatem",
+"veritate"
+],
+"iustitia": [
+"iustitia",
+"iustitiae",
+"iustitiam",
+"iustitiarum",
+"iustitiis",
+"iustitias"
+],
+"sapientia": [
+"sapientia",
+"sapientiae",
+"sapientiam",
+"sapientiarum",
+"sapientiis",
+"sapientias"
+],
+"virtus": [
+"virtus",
+"virtutis",
+"virtuti",
+"virtutem",
+"virtute",
+"virtutes",
+"virtutum",
+"virtutibus"
+],
+"potestas": [
+"potestas",
+"potestatis",
+"potestati",
+"potestatem",
+"potestate",
+"potestates",
+"potestatum",
+"potestatibus"
+],
+"hora": [
+"hora",
+"horae",
+"horam",
+"horarum",
+"horis",
+"horas"
+],
+"annus": [
+"annus",
+"anni",
+"anno",
+"annum",
+"anne",
+"annorum",
+"annis",
+"annos"
+],
+"templum": [
+"templum",
+"templi",
+"templo",
+"templa",
+"templorum",
+"templis"
+],
+"altare": [
+"altare",
+"altaris",
+"altari",
+"altaria",
+"altaribus"
+],
+"hostia": [
+"hostia",
+"hostiae",
+"hostiam",
+"hostiarum",
+"hostiis",
+"hostias"
+],
+"oratio": [
+"oratio",
+"orationis",
+"orationi",
+"orationem",
+"oratione",
+"orationes",
+"orationum",
+"orationibus"
+],
+"donum": [
+"donum",
+"doni",
+"dono",
+"donorum",
+"donis",
+"dona"
+],
+"sermo": [
+"sermo",
+"sermonis",
+"sermoni",
+"sermonem",
+"sermone",
+"sermones",
+"sermonum",
+"sermonibus"
+],
+"testimonium": [
+"testimonium",
+"testimonii",
+"testimonio",
+"testimonia",
+"testimoniorum",
+"testimoniis"
+],
+"princeps": [
+"princeps",
+"principis",
+"principi",
+"principem",
+"principe",
+"principes",
+"principum",
+"principibus"
+],
+"sacerdos": [
+"sacerdos",
+"sacerdotis",
+"sacerdoti",
+"sacerdotem",
+"sacerdote",
+"sacerdotes",
+"sacerdotum",
+"sacerdotibus"
+],
+"ovis": [
+"ovis",
+"ovem",
+"oves",
+"ovium",
+"ovibus"
+],
+"agnus": [
+"agnus",
+"agni",
+"agno",
+"agnum",
+"agne",
+"agnorum",
+"agnis",
+"agnos"
+],
+"lapis": [
+"lapis",
+"lapidis",
+"lapidi",
+"lapidem",
+"lapide",
+"lapides",
+"lapidum",
+"lapidibus"
+],
+"fructus": [
+"fructus",
+"fructui",
+"fructum",
+"fructu",
+"fructuum",
+"fructibus"
+],
+"semen": [
+"semen",
+"seminis",
+"semini",
+"semine",
+"semina",
+"seminum",
+"seminibus"
+],
+"ventus": [
+"ventus",
+"venti",
+"vento",
+"ventum",
+"vente",
+"ventorum",
+"ventis",
+"ventos"
+],
+"porta": [
+"porta",
+"portae",
+"portam",
+"portarum",
+"portis",
+"portas"
+],
+"signum": [
+"signum",
+"signi",
+"signo",
+"signa",
+"signorum",
+"signis"
+],
+"crux": [
+"crux",
+"crucis",
+"cruci",
+"crucem",
+"cruce"
+],
+"laus": [
+"laus",
+"laudis",
+"laudem",
+"laude",
+"laudes",
+"laudibus"
+],
+"gaudium": [
+"gaudium",
+"gaudii",
+"gaudio",
+"gaudia",
+"gaudiorum",
+"gaudiis"
+],
+"timor": [
+"timor",
+"timoris",
+"timorem",
+"timore"
+],
+"caritas": [
+"caritas",
+"caritatis",
+"caritatem",
+"caritate",
+"charitas",
+"charitatis",
+"charitatem",
+"charitate"
+],
+"spes": [
+"spes",
+"spem",
+"spei"
+],
+"inimicus": [
+"inimicus",
+"inimici",
+"inimico",
+"inimicum",
+"inimice",
+"inimicorum",
+"inimicis",
+"inimicos"
+],
+"amicus": [
+"amicus",
+"amici",
+"amico",
+"amicum",
+"amice",
+"amicorum",
+"amicis",
+"amicos"
+],
+"benedictio": [
+"benedictio",
+"benedictionis",
+"benedictioni",
+"benedictionem",
+"benedictione",
+"benedictiones",
+"benedictionum",
+"benedictionibus"
+],
+"maiestas": [
+"maiestas",
+"maiestatis",
+"maiestati",
+"maiestatem",
+"maiestate",
+"maiestates",
+"maiestatum",
+"maiestatibus"
+],
+"hymnus": [
+"hymnus",
+"hymni",
+"hymno",
+"hymnum",
+"hymne",
+"hymnorum",
+"hymnis",
+"hymnos"
+],
+"exercitus": [
+"exercitus",
+"exercitui",
+"exercitum",
+"exercitu",
+"exercituum",
+"exercitibus"
+],
+"militia": [
+"militia",
+"militiae",
+"militiam",
+"militiarum",
+"militiis",
+"militias"
+],
+"filia": [
+"filia",
+"filiae",
+"filiam",
+"filias",
+"filiarum"
+],
+"mensa": [
+"mensa",
+"mensae",
+"mensam",
+"mensarum",
+"mensis",
+"mensas"
+],
+"petra": [
+"petra",
+"petram"
+],
+"dextera": [
+"dextera",
+"dexteram",
+"dexterae",
+"dextra",
+"dextram"
+],
+"caput": [
+"caput",
+"capitis",
+"capite",
+"capita"
+],
+"auris": [
+"aures",
+"auribus",
+"aurem",
+"aurium"
+],
+"sedes": [
+"sedes",
+"sedem",
+"sedis",
+"sede"
+],
+"thesaurus": [
+"thesaurus",
+"thesauri",
+"thesauro",
+"thesaurum",
+"thesaure",
+"thesaurorum",
+"thesauris",
+"thesauros"
+],
+"pauper": [
+"pauper",
+"pauperes",
+"pauperum",
+"pauperibus",
+"pauperem",
+"pauperis"
+],
+"testis": [
+"testis",
+"testes",
+"testem",
+"testium"
+],
+"desertum": [
+"desertum",
+"deserto",
+"deserti"
+],
+"flumen": [
+"flumen",
+"fluminis",
+"flumini",
+"flumine",
+"flumina",
+"fluminum",
+"fluminibus"
+],
+"nubes": [
+"nubes",
+"nubem",
+"nube",
+"nubibus",
+"nubium"
+],
+"grex": [
+"grex",
+"gregis",
+"gregem",
+"grege",
+"gregi"
+],
+"corona": [
+"corona",
+"coronae",
+"coronam",
+"coronarum",
+"coronis",
+"coronas"
+],
+"gladius": [
+"gladius",
+"gladii",
+"gladio",
+"gladium",
+"gladie",
+"gladiorum",
+"gladiis",
+"gladios"
+],
+"hereditas": [
+"hereditas",
+"hereditatis",
+"hereditatem",
+"hereditate",
+"haereditas",
+"haereditatis",
+"haereditatem",
+"haereditate"
+],
+"tenebrae": [
+"tenebrae",
+"tenebras",
+"tenebris",
+"tenebrarum"
+],
+"auxilium": [
+"auxilium",
+"auxilii",
+"auxilio",
+"auxilia",
+"auxiliorum",
+"auxiliis"
+],
+"consilium": [
+"consilium",
+"consilii",
+"consilio",
+"consilia",
+"consiliorum",
+"consiliis"
+],
+"mandatum": [
+"mandatum",
+"mandati",
+"mandato",
+"mandata",
+"mandatorum",
+"mandatis"
+],
+"praeceptum": [
+"praeceptum",
+"praecepti",
+"praecepto",
+"praecepta",
+"praeceptorum",
+"praeceptis"
+],
+"dico": [
+"dico",
+"dicit",
+"dixit",
+"dicunt",
+"dixerunt",
+"dicebat",
+"dicens",
+"dicentes",
+"dicite",
+"dicam",
+"dicimus"
+],
+"facio": [
+"facio",
+"facit",
+"fecit",
+"faciam",
+"facere",
+"fecerunt",
+"faciunt",
+"faciet",
+"facite"
+],
+"video": [
+"video",
+"videt",
+"vidit",
+"viderunt",
+"videbunt",
+"videte",
+"vidi",
+"vidimus",
+"videre",
+"videbit",
+"vident",
+"vidisset",
+"videntes",
+"videns",
+"videbitis"
+],
+"venio": [
+"venio",
+"venit",
+"veniet",
+"venerunt",
+"veni",
+"venite",
+"venire",
+"veniat",
+"veniunt",
+"venient",
+"veniens",
+"venimus",
+"venisset",
+"venerit"
+],
+"do": [
+"dedit",
+"dabo",
+"dabit",
+"date",
+"dedi",
+"dare",
+"dat",
+"dedisti",
+"dederunt",
+"dabitur",
+"dabis"
+],
+"credo": [
+"credo",
+"credit",
+"credimus",
+"crediderunt",
+"credidit",
+"creditis",
+"credunt",
+"credere",
+"credidi",
+"credat",
+"credens",
+"crediderit",
+"credentes",
+"credidisti"
+],
+"audio": [
+"audio",
+"audit",
+"audivit",
+"audite",
+"audierunt",
+"audiunt",
+"audire",
+"audistis",
+"audiens",
+"audientes",
+"audivi",
+"audivimus",
+"audiet",
+"audi",
+"audient"
+],
+"diligo": [
+"diligo",
+"diligit",
+"dilexit",
+"diligis",
+"diligam",
+"diligite",
+"diligere",
+"dilexi",
+"diligunt",
+"diligamus",
+"diligatis",
+"diligentibus",
+"diliges",
+"dilexisti"
+],
+"laudo": [
+"laudo",
+"laudate",
+"laudant",
+"laudabo",
+"laudamus",
+"laudent",
+"laudare",
+"laudabunt",
+"laudantes",
+"laudans"
+],
+"adoro": [
+"adoro",
+"adorant",
+"adorate",
+"adoramus",
+"adorabunt",
+"adorare",
+"adoraverunt",
+"adorabo",
+"adorent",
+"adoravit"
+],
+"oro": [
+"oro",
+"orate",
+"orare",
+"orabat",
+"oravit",
+"orabit",
+"oremus",
+"orantes",
+"orans"
+],
+"clamo": [
+"clamo",
+"clamavi",
+"clamavit",
+"clamabat",
+"clamant",
+"clamare",
+"clamaverunt",
+"clamabant",
+"clamans",
+"clamantes",
+"clamabo"
+],
+"mitto": [
+"mitto",
+"misit",
+"mittit",
+"mittam",
+"miserunt",
+"mittere",
+"misi",
+"mittet",
+"mitte",
+"misisti"
+],
+"vivo": [
+"vivo",
+"vivit",
+"vivet",
+"vivent",
+"vivere",
+"vivimus",
+"vivunt",
+"vivam",
+"vivat"
+],
+"regno": [
+"regno",
+"regnat",
+"regnabit",
+"regnavit",
+"regnas",
+"regnant",
+"regnare"
+],
+"habeo": [
+"habeo",
+"habet",
+"habent",
+"habetis",
+"habebat",
+"habere",
+"habemus",
+"habes",
+"habebit",
+"habebant",
+"habentes",
+"habens"
+],
+"scio": [
+"scio",
+"scit",
+"scitis",
+"scimus",
+"sciunt",
+"sciebat",
+"scis",
+"scire",
+"sciens",
+"scientes",
+"sciebant"
+],
+"voco": [
+"voco",
+"vocavit",
+"vocabitur",
+"vocatus",
+"vocabis",
+"vocat",
+"vocabunt",
+"vocati",
+"vocatur",
+"vocare",
+"vocaverunt"
+],
+"quaero": [
+"quaero",
+"quaerite",
+"quaerit",
+"quaeritis",
+"quaerunt",
+"quaerebant",
+"quaerens",
+"quaerentes",
+"quaerebat",
+"quaerere",
+"quaeris"
+],
+"invenio": [
+"invenio",
+"invenit",
+"invenerunt",
+"invenietis",
+"inveni",
+"invenient",
+"invenire",
+"inveniet",
+"invenimus",
+"invenisset"
+],
+"accipio": [
+"accipio",
+"accepit",
+"accipite",
+"accipiet",
+"acceperunt",
+"accipit",
+"accipere",
+"accipiens",
+"accepi",
+"accipietis",
+"accepistis",
+"accipient"
+],
+"sedeo": [
+"sedeo",
+"sedet",
+"sedebat",
+"sedit",
+"sedens",
+"sedentes",
+"sedebit",
+"sedere",
+"sedebant",
+"sedetis",
+"sedebitis"
+],
+"sto": [
+"sto",
+"stabat",
+"stetit",
+"stat",
+"stans",
+"stantes",
+"stabant",
+"stare",
+"steterunt",
+"state"
+],
+"ambulo": [
+"ambulo",
+"ambulat",
+"ambulabat",
+"ambulate",
+"ambulare",
+"ambulant",
+"ambulans",
+"ambulemus",
+"ambulavit",
+"ambulabo",
+"ambulabant",
+"ambulantes",
+"ambulaveris",
+"ambuletis"
+],
+"surgo": [
+"surgo",
+"surge",
+"surgens",
+"surrexit",
+"surgite",
+"surgam",
+"surgere",
+"surgentes",
+"surget",
+"surrexerunt"
+],
+"respondeo": [
+"respondeo",
+"respondit",
+"respondens",
+"responderunt",
+"respondentes",
+"respondebat",
+"respondere",
+"respondebit"
+],
+"custodio": [
+"custodio",
+"custodit",
+"custodi",
+"custodiat",
+"custodiet",
+"custodire",
+"custodiunt",
+"custodite",
+"custodivit",
+"custodiam",
+"custodiens"
+],
+"exaudio": [
+"exaudi",
+"exaudivit",
+"exaudiet",
+"exaudiat",
+"exaudis",
+"exaudiam",
+"exaudire",
+"exaudisti"
+],
+"offero": [
+"offero",
+"offerimus",
+"obtulit",
+"offerre",
+"offerebant",
+"obtulerunt",
+"offerens",
+"offert",
+"offerunt",
+"offerentes",
+"offeres",
+"offeret"
+],
+"timeo": [
+"timeo",
+"timete",
+"timent",
+"timentibus",
+"timebo",
+"timere",
+"timuerunt",
+"timet",
+"timebit",
+"timentes",
+"timuit",
+"timeas"
+],
+"gaudeo": [
+"gaudeo",
+"gaudete",
+"gaudebit",
+"gaudent",
+"gaudebunt",
+"gaudeamus",
+"gaudens",
+"gaudentes",
+"gavisi",
+"gaudere",
+"gaudet",
+"gavisus"
+],
+"benedico": [
+"benedico",
+"benedicite",
+"benedicam",
+"benedixit",
+"benedicat",
+"benedicimus",
+"benedic",
+"benedicere",
+"benedicent",
+"benedicens",
+"benediximus",
+"benedicentes",
+"benedices",
+"benedicet"
+],
+"amo": [
+"amo",
+"amat",
+"amas",
+"amant",
+"amavit",
+"amare"
+],
+"ascendo": [
+"ascendo",
+"ascendit",
+"ascendens",
+"ascenderunt",
+"ascendam",
+"ascendere",
+"ascendet",
+"ascendentes",
+"ascendebat",
+"ascendisset",
+"ascendimus"
+],
+"descendo": [
+"descendo",
+"descendit",
+"descendens",
+"descenderunt",
+"descendet",
+"descendere",
+"descendentes",
+"descendat",
+"descende",
+"descendi",
+"descendisset"
+],
+"intro": [
+"intravit",
+"intrate",
+"intrare",
+"intrabit",
+"intrat",
+"intraverunt",
+"intrans",
+"intrabunt",
+"intravimus",
+"intrasset",
+"intraret"
+],
+"exeo": [
+"exiit",
+"exierunt",
+"exivit",
+"exire",
+"exite",
+"exibit",
+"exeuntes",
+"exiens",
+"exibunt",
+"exivi"
+],
+"manduco": [
+"manducat",
+"manducavit",
+"manducaverunt",
+"manducare",
+"manducate",
+"manducant",
+"manducabit",
+"manducabant",
+"manducaverit",
+"manducantes",
+"manducabunt",
+"manducent",
+"manducet"
+],
+"bibo": [
+"bibo",
+"bibit",
+"bibere",
+"bibite",
+"biberunt",
+"bibet",
+"bibam",
+"bibat",
+"bibunt",
+"biberit",
+"bibentes",
+"bibent"
+],
+"canto": [
+"cantate",
+"cantabo",
+"cantabimus",
+"cantemus"
+],
+"porto": [
+"porto",
+"portat",
+"portabat",
+"portare",
+"portate",
+"portabit",
+"portans",
+"portantes",
+"portabant",
+"portaverunt",
+"portavit"
+],
+"ostendo": [
+"ostendo",
+"ostendit",
+"ostende",
+"ostendam",
+"ostendite",
+"ostendere",
+"ostendet",
+"ostenderunt",
+"ostendens"
+],
+"doceo": [
+"doceo",
+"docet",
+"docebat",
+"docens",
+"docete",
+"docere",
+"docuit",
+"docebit",
+"docentes",
+"docui",
+"doce",
+"docebo",
+"doces"
+],
+"sano": [
+"sano",
+"sanat",
+"sanavit",
+"sanabat",
+"sanare",
+"sana",
+"sanabo",
+"sanabitur",
+"sanatus",
+"sanati",
+"sanabantur",
+"sanaret",
+"sanatur",
+"sanatum"
+],
+"dormio": [
+"dormio",
+"dormit",
+"dormiebat",
+"dormiunt",
+"dormire",
+"dormientes",
+"dormivit",
+"dormiam",
+"dormitis",
+"dormierunt",
+"dormis"
+],
+"aperio": [
+"aperio",
+"aperit",
+"aperuit",
+"aperi",
+"aperire",
+"aperiet",
+"aperiam",
+"aperti",
+"apertum",
+"aperiens",
+"aperietur",
+"aperuerunt",
+"apertos",
+"apertae",
+"aperta",
+"apertis"
+],
+"sanctus": [
+"sanctus",
+"sancti",
+"sancto",
+"sanctum",
+"sancte",
+"sanctorum",
+"sanctis",
+"sanctos",
+"sancta",
+"sanctae",
+"sanctam",
+"sanctarum",
+"sanctas"
+],
+"bonus": [
+"bonus",
+"boni",
+"bono",
+"bonum",
+"bone",
+"bonorum",
+"bonis",
+"bonos",
+"bona",
+"bonae",
+"bonam",
+"bonarum",
+"bonas"
+],
+"magnus": [
+"magnus",
+"magni",
+"magno",
+"magnum",
+"magne",
+"magnorum",
+"magnis",
+"magnos",
+"magna",
+"magnae",
+"magnam",
+"magnarum",
+"magnas"
+],
+"aeternus": [
+"aeternus",
+"aeterni",
+"aeterno",
+"aeternum",
+"aeterne",
+"aeternorum",
+"aeternis",
+"aeternos",
+"aeterna",
+"aeternae",
+"aeternam",
+"aeternarum",
+"aeternas"
+],
+"beatus": [
+"beatus",
+"beati",
+"beato",
+"beatum",
+"beate",
+"beatorum",
+"beatis",
+"beatos",
+"beata",
+"beatae",
+"beatam",
+"beatarum",
+"beatas"
+],
+"novus": [
+"novus",
+"novi",
+"novo",
+"novum",
+"nove",
+"novorum",
+"novis",
+"novos",
+"nova",
+"novae",
+"novam",
+"novarum",
+"novas"
+],
+"iustus": [
+"iustus",
+"iusti",
+"iusto",
+"iustum",
+"iuste",
+"iustorum",
+"iustis",
+"iustos",
+"iusta",
+"iustae",
+"iustam",
+"iustarum",
+"iustas"
+],
+"dignus": [
+"dignus",
+"digni",
+"digno",
+"dignum",
+"digne",
+"dignorum",
+"dignis",
+"dignos",
+"digna",
+"dignae",
+"dignam",
+"dignarum",
+"dignas"
+],
+"verus": [
+"verus",
+"veri",
+"verorum",
+"veris",
+"veros",
+"vera",
+"verae",
+"veram",
+"verarum",
+"veras"
+],
+"omnipotens": [
+"omnipotens",
+"omnipotentis",
+"omnipotenti",
+"omnipotentem",
+"omnipotente"
+],
+"misericors": [
+"misericors",
+"misericordis",
+"misericordem",
+"misericordes"
+],
+"plenus": [
+"plenus",
+"pleni",
+"pleno",
+"plenum",
+"plene",
+"plenorum",
+"plenis",
+"plenos",
+"plena",
+"plenae",
+"plenam",
+"plenarum",
+"plenas"
+],
+"primus": [
+"primus",
+"primi",
+"primo",
+"primum",
+"prime",
+"primorum",
+"primis",
+"primos",
+"prima",
+"primae",
+"primam",
+"primarum",
+"primas"
+],
+"mortuus": [
+"mortuus",
+"mortui",
+"mortuo",
+"mortuum",
+"mortue",
+"mortuorum",
+"mortuis",
+"mortuos",
+"mortua",
+"mortuae",
+"mortuam",
+"mortuarum",
+"mortuas"
+],
+"vivus": [
+"vivus",
+"vivi",
+"vivum",
+"vivorum",
+"vivos",
+"viva",
+"vivae",
+"vivarum",
+"vivas"
+],
+"omnis": [
+"omnis",
+"omnes",
+"omnia",
+"omnem",
+"omni",
+"omnium",
+"omnibus",
+"omne"
+],
+"multus": [
+"multus",
+"multi",
+"multo",
+"multum",
+"multe",
+"multorum",
+"multis",
+"multos",
+"multa",
+"multae",
+"multam",
+"multarum",
+"multas"
+],
+"fidelis": [
+"fidelis",
+"fideles",
+"fidelem",
+"fideli",
+"fidelium",
+"fidelibus",
+"fidele"
+],
+"humilis": [
+"humilis",
+"humiles",
+"humilem",
+"humili",
+"humilium",
+"humilibus",
+"humile"
+],
+"fortis": [
+"fortis",
+"fortes",
+"fortem",
+"forti",
+"fortium",
+"fortibus"
+],
+"dulcis": [
+"dulcis",
+"dulces",
+"dulcem",
+"dulci",
+"dulce",
+"dulcia"
+],
+"semper": [
+"semper"
+],
+"hodie": [
+"hodie"
+],
+"nunc": [
+"nunc"
+],
+"ecce": [
+"ecce"
+],
+"ubique": [
+"ubique"
+],
+"cotidie": [
+"cotidie",
+"quotidie"
+],
+"quaeso": [
+"quaeso",
+"quaesumus"
+],
+"unus": [
+"unus",
+"una",
+"unum",
+"unius",
+"uni",
+"unam"
+],
+"duo": [
+"duo",
+"duos",
+"duae",
+"duas",
+"duobus",
+"duabus",
+"duorum"
+],
+"tres": [
+"tres",
+"tria",
+"tribus",
+"trium"
+],
+"septem": [
+"septem"
+],
+"duodecim": [
+"duodecim"
+],
+"decem": [
+"decem"
+],
+"centum": [
+"centum"
+],
+"mille": [
+"mille",
+"millia",
+"milia",
+"millibus"
+]
+}

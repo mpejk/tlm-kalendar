@@ -1,0 +1,56 @@
+# Games 3 (Odgovori na misi) and 4 (Složi misu).
+# Latin: Missale Romanum, editio typica 1962, Ordo Missae, printed pp. 216-327 (CMAA scan; PDF page = printed page + 81), read on
+# the page images. Croatian: Kniewald, Rimski misal (1942), "Red i čin sv. mise", pp. 8-31, read on the page scans.
+# Kniewald's pause marks (*) and cross signs are left out; nothing else is changed (his capitals and punctuation are kept).
+izvorLa: "Missale Romanum 1962, Ordo Missae"
+izvorHr: "Kniewald, Rimski misal (1942.), Red i čin sv. mise"
+
+# uvjet (when a line is not used for a round):
+#   bezPristupnih – not on days with a blessing and procession before Mass (Candlemas, Palm Sunday), where the prayers at the foot
+#                   of the altar are omitted (Code of Rubrics n. 424a, c)
+#   bezMuke       – not on Palm Sunday (the Passion is read without Dominus vobiscum and Gloria tibi, Domine)
+#   bezRekvijema  – not in Masses of the dead (Requiescant in pace instead of Ite, missa est; no blessing: Missal p. 323, 326)
+#   bezUskrsa     – not on Easter Sunday (Ite, missa est with two Alleluias: Missal p. 323)
+#   lako: true    – also offered to the 8-10 band
+odgovori:
+  - { id: introibo, la: "Introíbo ad altáre Dei.", laOdg: "Ad Deum qui lætíficat iuventútem meam.", hr: "Pristupit ću k Božjem žrtveniku.", hrOdg: "K Bogu, koji razveseljuje moju mladost.", strLa: 216, strHr: 8, uvjet: [bezPristupnih] }
+  - { id: adiutorium, la: "Adiutórium nostrum in nómine Dómini.", laOdg: "Qui fecit cælum et terram.", hr: "Pomoć je naša u imenu Gospodina.", hrOdg: "Koji stvori nebo i zemlju.", strLa: 216, strHr: 9, uvjet: [bezPristupnih] }
+  - { id: deustu, la: "Deus, tu convérsus vivificábis nos.", laOdg: "Et plebs tua lætábitur in te.", hr: "Bože, obazri se na nas i oživi nas;", hrOdg: "Da se narod Tvoj veseli u Tebi.", strLa: 217, strHr: 11, uvjet: [bezPristupnih] }
+  - { id: ostende, la: "Osténde nobis, Dómine, misericórdiam tuam.", laOdg: "Et salutáre tuum da nobis.", hr: "Pokaži nam, Gospodine, svoje milosrđe!", hrOdg: "I daj nam svoje spasenje!", strLa: 217, strHr: 11, uvjet: [bezPristupnih] }
+  - { id: exaudi, la: "Dómine, exáudi oratiónem meam.", laOdg: "Et clamor meus ad te véniat.", hr: "Gospodine usliši molitvu moju!", hrOdg: "I vapaj moj k tebi da dođe!", strLa: 217, strHr: 11, uvjet: [bezPristupnih] }
+  - { id: dominus, la: "Dóminus vobíscum.", laOdg: "Et cum spíritu tuo.", hr: "Gospodin s vama!", hrOdg: "I s duhom tvojim!", strLa: 217, strHr: 11, lako: true }
+  - { id: evangelium, la: "Sequéntia sancti Evangélii…", laOdg: "Glória tibi, Dómine.", hr: "Slijedi sveto Evanđelje po…", hrOdg: "Slava tebi, Gospodine!", strLa: 219, strHr: 14, uvjet: [bezMuke], lako: true }
+  - { id: orate, la: "Oráte, fratres: ut meum ac vestrum sacrifícium acceptábile fiat apud Deum Patrem omnipoténtem.", laOdg: "Suscípiat Dóminus sacrifícium de mánibus tuis ad laudem et glóriam nóminis sui, ad utilitátem quoque nostram, totiúsque Ecclésiæ suæ sanctæ.", hr: "Molite braćo, da bude moja i vaša žrtva ugodna Bogu, Ocu svemogućemu.", hrOdg: "Neka primi Gospodin žrtvu iz tvojih ruku u hvalu i slavu svojeg imena, na korist također našu i svekolike svoje svete Crkve.", strLa: 222, strHr: 18 }
+  - { id: peromnia, la: "Per ómnia sǽcula sæculórum.", laOdg: "Amen.", hr: "Po sve vijeke vijekova.", hrOdg: "Amen.", strLa: 222, strHr: 19, lako: true }
+  - { id: sursum, la: "Sursum corda.", laOdg: "Habémus ad Dóminum.", hr: "Gore srca.", hrOdg: "Imamo kod Gospodina.", strLa: 260, strHr: 19, lako: true }
+  - { id: gratias, la: "Grátias agámus Dómino Deo nostro.", laOdg: "Dignum et iustum est.", hr: "Hvalu uzdajmo Gospodinu Bogu našemu.", hrOdg: "Dostojno je i pravedno.", strLa: 260, strHr: 19, lako: true }
+  - { id: pater, la: "Et ne nos indúcas in tentatiónem.", laOdg: "Sed líbera nos a malo.", hr: "I ne uvedi nas u napast.", hrOdg: "Nego izbavi nas od zla.", strLa: 315, strHr: 27, lako: true }
+  - { id: pax, la: "Pax Dómini sit semper vobíscum.", laOdg: "Et cum spíritu tuo.", hr: "Mir Gospodnji bio vazda s vama.", hrOdg: "I s duhom Tvojim.", strLa: 317, strHr: 27 }
+  - { id: ite, la: "Ite, missa est.", laOdg: "Deo grátias.", hr: "Idite misa je!", hrOdg: "Bogu hvala.", strLa: 323, strHr: 30, uvjet: [bezRekvijema, bezUskrsa], lako: true }
+  - { id: benedicat, la: "Benedícat vos omnípotens Deus, Pater, et Fílius, et Spíritus Sanctus.", laOdg: "Amen.", hr: "Blagoslovio vas svemogući Bog, Otac i Sin i Duh Sveti.", hrOdg: "Amen.", strLa: 326, strHr: 30, uvjet: [bezRekvijema] }
+
+# Parts of the Mass in order. vrsta: vlastito = a proper part, named as the calendar names its sections (the generator takes the
+# day's own label, e.g. "Gradual + Aleluja"); red = a part of the Ordinary, named as Kniewald names or begins it.
+# uvjet: gloria / credo / sequentia = only when the day has it; bezPristupnih as above. kratko: true = also in the 8-10 list.
+# Order: Missal 1962, Ordo Missae pp. 216-327; the place of the proper parts is given by the rubrics on pp. 217, 219, 220, 222 and 322
+# ("deinde prosequitur Missam"; the Communion antiphon and the Postcommunion in this order: Kniewald p. 30, Code of Rubrics nn. 504-507).
+dijelovi:
+  - { id: pristupne,   vrsta: red, la: "Introíbo ad altáre Dei", hr: "Pristupne molitve", strLa: 216, strHr: 8, uvjet: bezPristupnih }
+  - { id: Introitus,   vrsta: vlastito, strLa: 217, kratko: true }
+  - { id: kyrie,       vrsta: red, la: "Kýrie, eléison", hr: "Gospodine smiluj se", strLa: 217, strHr: 12 }
+  - { id: gloria,      vrsta: red, la: "Glória in excélsis Deo", hr: "Slava", strLa: 217, strHr: 12, uvjet: gloria, kratko: true }
+  - { id: Oratio,      vrsta: vlastito, strLa: 219 }
+  - { id: Lectio,      vrsta: vlastito, strLa: 219, kratko: true }
+  - { id: Graduale,    vrsta: vlastito, strLa: 219 }
+  - { id: Sequentia,   vrsta: vlastito, strLa: 219, uvjet: sequentia }
+  - { id: Evangelium,  vrsta: vlastito, strLa: 219, kratko: true }
+  - { id: credo,       vrsta: red, la: "Credo in unum Deum", hr: "Vjerovanje", strLa: 219, strHr: 14, uvjet: credo, kratko: true }
+  - { id: Offertorium, vrsta: vlastito, strLa: 220, kratko: true }
+  - { id: Secreta,     vrsta: vlastito, strLa: 222 }
+  - { id: praefatio,   vrsta: red, la: "Præfátio", hr: "Predslovlje", strLa: 222, strHr: 19 }
+  - { id: sanctus,     vrsta: red, la: "Sanctus", hr: "Svet, svet, svet", strLa: 222, strHr: 22, kratko: true }
+  - { id: canon,       vrsta: red, la: "Canon Missæ", hr: "Čin mise", strLa: 299, strHr: 22 }
+  - { id: paternoster, vrsta: red, la: "Pater noster", hr: "Oče naš", strLa: 313, strHr: 26, kratko: true }
+  - { id: agnus,       vrsta: red, la: "Agnus Dei", hr: "Jaganjče Božji", strLa: 318, strHr: 27 }
+  - { id: Communio,    vrsta: vlastito, strLa: 322, strHr: 30, kratko: true }
+  - { id: Postcommunio, vrsta: vlastito, strLa: 322, strHr: 30 }
