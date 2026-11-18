@@ -1,0 +1,65 @@
+{
+ "cases": [
+  {
+   "width": 340,
+   "scheme": "light",
+   "visible": true,
+   "height": 34,
+   "text": "Igra",
+   "name": "Nedjeljni izazov, igra za djecu",
+   "contrastOfLabel": 6.45,
+   "differsFromOtherButtons": true,
+   "keyboard": true,
+   "opensGame": true,
+   "gameLinksBack": true,
+   "inPrint": false,
+   "noSideScroll": true
+  },
+  {
+   "width": 340,
+   "scheme": "dark",
+   "visible": true,
+   "height": 34,
+   "text": "Igra",
+   "name": "Nedjeljni izazov, igra za djecu",
+   "contrastOfLabel": 9.14,
+   "differsFromOtherButtons": true,
+   "keyboard": true,
+   "opensGame": true,
+   "gameLinksBack": true,
+   "inPrint": false,
+   "noSideScroll": true
+  },
+  {
+   "width": 1280,
+   "scheme": "light",
+   "visible": true,
+   "height": 34,
+   "text": "Igra",
+   "name": "Nedjeljni izazov, igra za djecu",
+   "contrastOfLabel": 6.45,
+   "differsFromOtherButtons": true,
+   "keyboard": true,
+   "opensGame": true,
+   "gameLinksBack": true,
+   "inPrint": false,
+   "noSideScroll": true
+  },
+  {
+   "width": 1280,
+   "scheme": "dark",
+   "visible": true,
+   "height": 34,
+   "text": "Igra",
+   "name": "Nedjeljni izazov, igra za djecu",
+   "contrastOfLabel": 9.14,
+   "differsFromOtherButtons": true,
+   "keyboard": true,
+   "opensGame": true,
+   "gameLinksBack": true,
+   "inPrint": false,
+   "noSideScroll": true
+  }
+ ],
+ "failed": 0
+}

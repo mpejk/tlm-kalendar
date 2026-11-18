@@ -163,10 +163,12 @@ async function viewAlbum(): Promise<string> {
   for (const r of rs) {
     if (r.s !== season) { if (season) h += '</ul>'; season = r.s; h += `<h3>${SEASON[r.s] ?? ''}</h3><ul class="album">`; }
     const m = markOf(r, p); const open = isOpen(r, t); const future = openFrom(r) > t;
-    const label = `${shortDate(r.d)} ${m || !future ? r.t : (r.wd === 0 ? 'nedjelja' : 'blagdan')}`;
-    const inner = `<span class="slika">${m ? sticker(r.k, m === 'n', 56) : '<span class="prazno"></span>'}</span><span class="dat">${shortDate(r.d)}</span><span class="naz">${m ? esc(r.t) : open ? 'otvoreno' : future ? '' : 'vježba'}</span>`;
-    h += future && !m ? `<li class="polje buduce" aria-label="${esc(label)}, još nije otvoreno">${inner}</li>`
-      : `<li class="polje${m ? ' ima' : ''}${open ? ' otvoreno' : ''}"><a href="${esc(urlFor({ v: 'igra', d: r.d, g: null }))}" data-go='${esc(JSON.stringify({ v: 'igra', d: r.d }))}' aria-label="${esc(label)}${m === 'n' ? ', sličica' : m === 'v' ? ', vježba' : open ? ', otvoreno' : ', za vježbu'}">${inner}</a></li>`;
+    const state = m === 'n' ? 'sličica' : m === 'v' ? 'vježba' : open ? 'otvoreno' : future ? 'još nije otvoreno' : 'za vježbu';
+    const shown = m ? esc(r.t) : open ? 'otvoreno' : future ? '' : 'vježba';
+    // the name of the link is its visible text; what is not visible (the day's name, the state) follows for screen readers
+    const inner = `<span class="slika">${m ? sticker(r.k, m === 'n', 56) : '<span class="prazno"></span>'}</span><span class="dat">${shortDate(r.d)}</span><span class="naz">${shown}</span><span class="vh">${m ? '' : future ? (r.wd === 0 ? 'nedjelja' : 'blagdan') : esc(r.t)}${shown === state ? '' : ', ' + state}</span>`;
+    h += future && !m ? `<li class="polje buduce">${inner}</li>`
+      : `<li class="polje${m ? ' ima' : ''}${open ? ' otvoreno' : ''}"><a href="${esc(urlFor({ v: 'igra', d: r.d, g: null }))}" data-go='${esc(JSON.stringify({ v: 'igra', d: r.d }))}'>${inner}</a></li>`;
   }
   if (season) h += '</ul>';
   return h;

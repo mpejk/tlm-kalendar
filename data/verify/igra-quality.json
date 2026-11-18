@@ -1,0 +1,77 @@
+{
+ "axe": {
+  "screens": 94,
+  "seriousViolations": 0,
+  "list": [],
+  "requestsToOtherSites": []
+ },
+ "offline": {
+  "cachedFiles": 24,
+  "views": [
+   {
+    "view": "(start)",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?d=2027-03-28&danas=2027-03-28",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?d=2031-07-13",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?d=2036-12-25",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?v=album&g=2030",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?v=roditelji",
+    "ok": true,
+    "errors": []
+   },
+   {
+    "view": "?d=2029-06-29&ispis=1",
+    "ok": true,
+    "errors": []
+   }
+  ],
+  "ok": true
+ },
+ "file": {
+  "ok": true,
+  "roundPlayedAndKept": true,
+  "buttonLeadsToGame": true,
+  "linkLeadsBack": true,
+  "networkRequests": [],
+  "errors": []
+ },
+ "lighthouse": [
+  {
+   "name": "start page, mobile",
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 100,
+   "lcp": "2.0 s",
+   "tbt": "0 ms",
+   "failingAccessibility": []
+  },
+  {
+   "name": "a round, mobile",
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 100,
+   "lcp": "2.3 s",
+   "tbt": "0 ms",
+   "failingAccessibility": []
+  }
+ ]
+}
