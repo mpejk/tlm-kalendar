@@ -14,10 +14,11 @@ Ovaj je dokument pisan za onoga tko stranicu održava. Ne treba čitati programs
 2. [Što treba imati instalirano](#što-treba-imati-instalirano)
 3. [Prvo postavljanje](#prvo-postavljanje)
 4. [Redoviti poslovi](#redoviti-poslovi)
-5. [Preseljenje stranice](#preseljenje-stranice)
-6. [Otvorene stavke](#otvorene-stavke)
-7. [Odakle je koji tekst](#odakle-je-koji-tekst)
-8. [Summary in English](#summary-in-english)
+5. [Igra »Nedjeljni izazov«](#igra-nedjeljni-izazov)
+6. [Preseljenje stranice](#preseljenje-stranice)
+7. [Otvorene stavke](#otvorene-stavke)
+8. [Odakle je koji tekst](#odakle-je-koji-tekst)
+9. [Summary in English](#summary-in-english)
 
 ## Što je u repozitoriju
 
@@ -168,10 +169,12 @@ Kad obljetnica padne na dan iz br. 1, 2, 3 ili 8 tablice prvenstva (npr. Uzaša�
 
 | Naredba | Što provjerava | Trajanje |
 | --- | --- | --- |
-| `npm test` | Izgradi stranicu i pokrene 131 test: kalendar prema staroj stranici 2016.–2019. i prema Missale Meum 2026.–2036., tekstove prema staroj stranici, rubne datume, sve ispravke iz provjere. | oko 30 s |
+| `npm test` | Izgradi stranicu i pokrene 139 testova: kalendar prema staroj stranici 2016.–2019. i prema Missale Meum 2026.–2036., tekstove prema staroj stranici, rubne datume, sve ispravke iz provjere. | oko 30 s |
 | `npm run crawl` | Otvara svaki dan 2026.–2036. u oba kalendara u pregledniku, s diska i preko http-a: bez pogrešaka, praznih odjeljaka i pokvarenih slova. | oko 30 s |
 | `npm run verify:site` | Poveznice, tipkovnica, uski zasloni i uvećana slova, fontovi (Chromium i WebKit). | oko 1 min |
-| `npm run check` | Sve troje redom. | oko 2 min |
+| `npm run verify:igra` | Igra »Nedjeljni izazov«: svi izazovi, gumb u zaglavlju, uski zasloni, pristupačnost, rad bez mreže i s diska. | oko 6 min |
+| `npm run check` | Sve četvero redom. | oko 8 min |
+| `npm run play:igra` | Odigra igru dodirom u Chromiumu i WebKitu (16 dana, sve tri dobi). Nije dio `check`; pokrenuti nakon izmjena u `src/igra`. | oko 10 min |
 
 Ako ijedna provjera javi pogrešku, ne objavljivati dok se ne otkloni.
 
@@ -184,6 +187,28 @@ npm run deploy
 Naredba izgradi stranicu, spremi promjene u git i pošalje ih na GitHub; ondje se za minutu-dvije sama objavi mapa `dist` (GitHub Pages, radni tijek `.github/workflows/pages.yml`). Posjetitelji koji već imaju stranicu otvorenu dobit će novu inačicu pri sljedećem otvaranju; stranica se tada jednom sama osvježi.
 
 Provjera objavljenog: `npx tsx scripts/verify/live.ts https://mpejk.github.io/tlm-kalendar/`.
+
+## Igra »Nedjeljni izazov«
+
+Uz kalendar postoji kratka igra za djecu, na adresi `igra/` (https://mpejk.github.io/tlm-kalendar/igra/). U zaglavlju kalendara do nje vodi zeleni gumb »Igra«. Dijete je odigra prije nedjeljne mise: boja i dan, oblačenje svećenika, odgovori na misi, red mise, šest latinskih riječi i rečenica iz evanđelja. Za svaku nedjelju i svaki blagdan I. i II. razreda do kraja 2036. postoji jedan izazov; riješeni izazov daje sličicu u albumu. Imena djece i albumi ostaju samo u pregledniku na tom uređaju. Stranica »Za roditelje« u igri objašnjava sve što roditelj treba znati.
+
+Igra se gradi zajedno s kalendarom (`npm run build`) i objavljuje istom naredbom (`npm run deploy`). Boju, dan, dijelove mise i evanđelje uzima iz kalendara, pa se ispravak u kalendaru sam prenosi u igru. Vlastiti sadržaj igre je u četiri datoteke u `data/igra/`:
+
+| Datoteka | Što je u njoj | Izvor |
+| --- | --- | --- |
+| `odijevanje.yaml` | Red oblačenja misnog ruha i hrvatski nazivi | *Missale Romanum* 1962., Praeparatio ad Missam, str. LXXIII; nazivi uobičajeni hrvatski (Kniewald ih ne donosi) |
+| `red-mise.yaml` | Odgovori na misi i dijelovi mise po redu, sa stranicama izvora | Latinski: Misal 1962., Ordo Missae, str. 216–327; hrvatski: Kniewald 1942., »Red i čin sv. mise«, str. 8–31 |
+| `rjecnik.yaml` | 197 latinskih riječi s jednim značenjem i stranicom rječnika | S. Žepić, *Latinsko-hrvatski rječnik*, Zagreb 1881. (prvo izdanje rječnika koji je 1900. preradio Divković) |
+| `evandjelje.yaml` | Za svako evanđelje: početak rečenice, riječ koja se izostavlja i tri kriva izbora | Rečenica se uzima iz hrvatskog evanđelja u kalendaru; krivi izbori su pisani za igru |
+
+Najčešći poslovi:
+
+- **Promijeniti rečenicu ili riječ iz evanđelja:** u `evandjelje.yaml` naći redak toga evanđelja i upisati prve riječi druge rečenice, riječ koja se izostavlja i tri kriva izbora iste vrste. Ako rečenica ne postoji u evanđelju točno jednom ili se riječ u njoj ne pojavljuje točno jednom, `npm run build` stane i kaže koji redak.
+- **Dodati ili ispraviti riječ:** redak u `rjecnik.yaml` (riječ, natuknica kako je tiskana, značenje, stranica, oblici po kojima se riječ prepoznaje u misi). Značenje se prepisuje iz rječnika; riječ koje u rječniku nema ne dodaje se.
+- **Dodati godine:** igra slijedi godine kalendara; nakon što se kalendaru dodaju godine, u `scripts/igra/lib.ts` pomaknuti `TO`, a u `evandjelje.yaml` dopisati evanđelja koja build prijavi da nedostaju.
+- **Provjeriti:** `npm run check`, a nakon izmjena u izgledu ili ponašanju igre i `npm run play:igra`.
+
+Odluke o igri (što igra koja dob, koja se misa uzima na dan s više misa, kako se otvara izazov) i gdje se koja mijenja: `DECISIONS.md`, odjeljak o igri, i `IGRA-IZVJESTAJ.md`.
 
 ## Preseljenje stranice
 
@@ -229,7 +254,9 @@ Kopirati **sadržaj mape `dist`** (ne samu mapu projekta) u željenu mapu na pos
 | Obredi: Svijećnica, Pepelnica, Vazmeno bdijenje s misom | Latinski Divinum Officium; hrvatski Kniewald 1930. i 1942. |
 | Gloria i Vjerovanje | Stranice tradicionalnamisa.com |
 | Mjesni kalendar | Nacionalni liturgijski kalendar HBK (hbk.hr), razredi po Kodeksu rubrika; mise po Kniewaldu 1942. |
-| Riječi sučelja (gumbi, napomene) | Pisane za ovu stranicu |
+| Igra: red oblačenja, odgovori, red mise | *Missale Romanum* 1962. (Praeparatio ad Missam, Ordo Missae); hrvatski Kniewald 1942., »Red i čin sv. mise« |
+| Igra: značenja latinskih riječi | Sebastijan Žepić, *Latinsko-hrvatski rječnik*, Zagreb 1881. (archive.org), pročitan na slikama stranica |
+| Riječi sučelja (gumbi, napomene, upute u igri, krivi izbori u igri) | Pisane za ovu stranicu |
 | Font | EB Garamond (SIL Open Font License), preinačen: `src/site/fonts/LICENSE.txt` |
 
 Nijedan liturgijski tekst nije preveden ni napisan za ovu stranicu. Gdje hrvatskoga nema ni u jednom izvoru, stoji samo latinski s napomenom »hrvatski prijevod nedostaje«.
@@ -240,8 +267,9 @@ Izvori koji nisu u repozitoriju jer su veliki (kopija Divinum Officium, slike Kn
 
 Static website showing, for every day from 2026 to 2036, the liturgical day for Zagreb under the 1962 Roman Missal and the Proper of the Mass in Latin and Croatian. Live at https://mpejk.github.io/tlm-kalendar/.
 
-- **Requirements:** Node.js 20+ and git. `npm install`, then `npm test` (builds `dist/` and runs 131 tests).
+- **Requirements:** Node.js 20+ and git. `npm install`, then `npm test` (builds `dist/` and runs 139 tests).
 - **Maintenance is data editing:** Croatian corrections in `data/tm/corrections.yaml`, Latin in `data/corpus/patches.yaml`, rites in `data/tm/rites-hr.yaml`, local feasts in `data/local/zagreb.yaml`, names in `data/calendar/names.yaml`, years and the Pope in `scripts/build/data.ts`. An entry that matches nothing stops the build.
 - **Checks:** `npm run check` (tests, whole-site crawl, browser checks). **Publish:** `npm run deploy` (GitHub Pages via Actions, `dist` only). The site uses relative links only, so `dist` can also be copied to any web server or sub-folder.
+- **Children's game "Nedjeljni izazov"** at `igra/` (source `src/igra`, sourced content in `data/igra/*.yaml`, built and published with the calendar; checks `npm run verify:igra`, `npm run play:igra`). See the Croatian section above and `IGRA-IZVJESTAJ.md`.
 - **Rule:** no liturgical text is written from memory or translated for this site; every text traces to a named source. Texts without Croatian are listed in `ZA-PRIJEVOD.md`.
 - **Open items:** `ZA-PRIJEVOD.md`, `BLOCKED.md`, the review answer `ODGOVOR-NA-PROVJERU.md`; decisions in `DECISIONS.md`; status in `REPORT.md`.

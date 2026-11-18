@@ -24,6 +24,8 @@ A static website that shows, for every day from 2026 to 2036, the liturgical day
 - `scripts/import/` one-off imports from Divinum Officium (need the pinned clone, see `DECISIONS.md`); not needed for maintenance.
 - `data/` calendar tables, corpus, translation memory, harvested old-site pages (`data/golden`), verification results.
 - `tests/` Vitest: old-site and Missale Meum oracles, edge dates, Zagreb layer, the review (`review.test.ts`, `review-texts.test.ts`).
+- `src/igra/`, `scripts/igra/`, `data/igra/` the children's game "Nedjeljni izazov" (`dist/igra`, built by `npm run build`): rounds are generated from the calendar's built data; its own content (vesting order, answers, parts of the Mass, dictionary meanings, Gospel blanks) is sourced data in `data/igra/*.yaml`, under the same rules as above.
+- Game checks: `npm run verify:igra` (in `npm run check`) and `npm run play:igra` (play-through by touch, about 10 minutes, after changes in `src/igra`); decisions in `DECISIONS.md` under the game's heading.
 - `docs/ORIGINAL-BRIEF.md` the brief the calendar was first built from (its "How this runs" and DONE logic no longer apply); `docs/build-log/` the log of that run.
 
 ## Useful when checking a text
