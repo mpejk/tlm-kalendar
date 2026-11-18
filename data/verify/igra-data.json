@@ -1,0 +1,28 @@
+{
+ "rounds": 979,
+ "sundays": 528,
+ "feasts": 451,
+ "byBand": {
+  "a": 979,
+  "b": 979,
+  "c": 979
+ },
+ "games": {
+  "boja": 2937,
+  "ruho": 2937,
+  "odgovori": 1958,
+  "dijelovi": 1958,
+  "rijeci": 979,
+  "evandjelje": 979
+ },
+ "questions": 20559,
+ "choices": 60698,
+ "withGospel": 979,
+ "withoutGospel": 0,
+ "distinctGospelSentences": 95,
+ "wordsUsed": 197,
+ "from": "2026-11-22",
+ "to": "2036-12-28",
+ "words": 197,
+ "problems": 0
+}

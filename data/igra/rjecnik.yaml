@@ -1,0 +1,220 @@
+# Game 5 (Riječi nedjelje): Latin words of the Sunday and feast-day Masses with one short Croatian meaning.
+# Source: Sebastijan Žepić, Latinsko-hrvatski rječnik, Zagreb 1881 (public domain; the first edition of the school dictionary that
+# M. Divković re-edited in 1900), scan: archive.org/details/latinsko_hrvatski_rjecnik_1881-sebastijan_zepic, read on the page images.
+# k = the word as the Missal of 1962 spells it; n = the head of the entry as printed (length marks, notes in brackets left out);
+# hr = a meaning printed in that entry, in today's spelling; tiskano = the printed spelling where it differs (ie/ije, dj/đ, …);
+# str = printed page; oblici = the forms by which the word is recognised in a Mass (mechanical paradigms, scripts/igra/lemmas.py).
+# Words left out (no entry, or no fitting meaning printed) are listed at the end.
+izvor: "S. Žepić, Latinsko-hrvatski rječnik (Zagreb 1881.)"
+rijeci:
+  - { k: accipio, n: "accipio, cepi, ceptum, 3.", hr: "primiti", str: 13, oblici: [accipio, accepit, accipite, accipiet, acceperunt, accipit, accipere, accipiens, accepi, accipietis, accepistis, accipient] }
+  - { k: adoro, n: "ad-oro, etc. 1.", hr: "klanjati se", str: 33, oblici: [adoro, adorant, adorate, adoramus, adorabunt, adorare, adoraverunt, adorabo, adorent, adoravit] }
+  - { k: aeternus, n: "aeternus, adj.", hr: "vječan", str: 47, oblici: [aeternus, aeterni, aeterno, aeternum, aeterne, aeternorum, aeternis, aeternos, aeterna, aeternae, aeternam, aeternarum, aeternas] }
+  - { k: agnus, n: "agnus, i, m.", hr: "janje", str: 55, oblici: [agnus, agni, agno, agnum, agne, agnorum, agnis, agnos] }
+  - { k: altare, n: "altaria, ium, n. pl.", hr: "žrtvenik", str: 67, oblici: [altare, altaris, altari, altaria, altaribus] }
+  - { k: ambulo, n: "ambulo, 1.", hr: "hodati", str: 72, oblici: [ambulo, ambulat, ambulabat, ambulate, ambulare, ambulant, ambulans, ambulemus, ambulavit, ambulabo, ambulabant, ambulantes, ambulaveris, ambuletis] }
+  - { k: amicus, n: "amicus, i, m.", hr: "prijatelj", str: 73, oblici: [amicus, amici, amico, amicum, amice, amicorum, amicis, amicos] }
+  - { k: amo, n: "amo, 1.", hr: "ljubiti", str: 73, oblici: [amo, amat, amas, amant, amavit, amare] }
+  - { k: anima, n: "anima, ae, f.", hr: "duša", str: 79, oblici: [anima, animae, animam, animarum, animas, animabus] }
+  - { k: annus, n: "annus, i, m.", hr: "godina", str: 82, oblici: [annus, anni, anno, annum, anne, annorum, annis, annos] }
+  - { k: aperio, n: "aperio, rui, rtum, 4.", hr: "otvoriti", str: 87, oblici: [aperio, aperit, aperuit, aperi, aperire, aperiet, aperiam, aperti, apertum, aperiens, aperietur, aperuerunt, apertos, apertae, aperta, apertis] }
+  - { k: aqua, n: "aqua, ae, f.", hr: "voda", str: 93, oblici: [aqua, aquae, aquam, aquarum, aquis, aquas] }
+  - { k: ascendo, n: "ascendo, ndi, nsum, 3.", hr: "popeti se", str: 106, oblici: [ascendo, ascendit, ascendens, ascenderunt, ascendam, ascendere, ascendet, ascendentes, ascendebat, ascendisset, ascendimus] }
+  - { k: audio, n: "audio, 4.", hr: "čuti", str: 122, oblici: [audio, audit, audivit, audite, audierunt, audiunt, audire, audistis, audiens, audientes, audivi, audivimus, audiet, audi, audient] }
+  - { k: auris, n: "auris, is, f.", hr: "uho", str: 126, oblici: [aures, auribus, aurem, aurium] }
+  - { k: auxilium, n: "auxilium, ii, n.", hr: "pomoć", str: 129, oblici: [auxilium, auxilii, auxilio, auxilia, auxiliorum, auxiliis] }
+  - { k: beatus, n: "beatus, adj.", hr: "blažen", str: 134, oblici: [beatus, beati, beato, beatum, beate, beatorum, beatis, beatos, beata, beatae, beatam, beatarum, beatas] }
+  - { k: bibo, n: "bibo, bibi, —, 3.", hr: "piti", str: 137, oblici: [bibo, bibit, bibere, bibite, biberunt, bibet, bibam, bibat, bibunt, biberit, bibentes, bibent] }
+  - { k: bonus, n: "bonus, adj.", hr: "dobar", str: 140, oblici: [bonus, boni, bono, bonum, bone, bonorum, bonis, bonos, bona, bonae, bonam, bonarum, bonas] }
+  - { k: caelum, n: "coelum, i, n.", hr: "nebo", str: 190, oblici: [caelum, caeli, caelo, caela, caelorum, caelis, coelum, coeli, coelo, coela, coelorum, coelis, caelos, coelos] }
+  - { k: canto, n: "canto, 1.", hr: "pjevati", str: 154, oblici: [cantate, cantabo, cantabimus, cantemus] }
+  - { k: caput, n: "caput, pitis, n.", hr: "glava", str: 158, oblici: [caput, capitis, capite, capita] }
+  - { k: caritas, n: "caritas, atis, f.", hr: "ljubav", str: 159, oblici: [caritas, caritatis, caritatem, caritate, charitas, charitatis, charitatem, charitate] }
+  - { k: centum, n: "centum, adj. num. card.", hr: "sto", str: 170, oblici: [centum] }
+  - { k: civitas, n: "civitas, atis, f.", hr: "grad", str: 184, oblici: [civitas, civitatis, civitati, civitatem, civitate, civitates, civitatum, civitatibus] }
+  - { k: clamo, n: "clamo, 1.", hr: "vikati", str: 185, oblici: [clamo, clamavi, clamavit, clamabat, clamant, clamare, clamaverunt, clamabant, clamans, clamantes, clamabo] }
+  - { k: consilium, n: "consilium, ii, n.", hr: "savjet", str: 228, oblici: [consilium, consilii, consilio, consilia, consiliorum, consiliis] }
+  - { k: cor, n: "cor, cordis, n.", hr: "srce", tiskano: "srdce", str: 244, oblici: [cor, cordis, cordi, corda, cordum, cordibus, corde] }
+  - { k: corona, n: "corona, ae, f.", hr: "vijenac", tiskano: "vienac", str: 246, oblici: [corona, coronae, coronam, coronarum, coronis, coronas] }
+  - { k: corpus, n: "corpus, oris, n.", hr: "tijelo", tiskano: "tielo", str: 246, oblici: [corpus, corporis, corpore, corpora, corporum, corporibus] }
+  - { k: cotidie, n: "quotidie, adv.", hr: "svaki dan", str: 815, oblici: [cotidie, quotidie] }
+  - { k: credo, n: "credo, didi, ditum, 3.", hr: "vjerovati", str: 250, oblici: [credo, credit, credimus, crediderunt, credidit, creditis, credunt, credere, credidi, credat, credens, crediderit, credentes, credidisti] }
+  - { k: crux, n: "crux, ucis, f.", hr: "križ", str: 254, oblici: [crux, crucis, cruci, crucem, cruce] }
+  - { k: custodio, n: "custodio, 4.", hr: "čuvati", str: 262, oblici: [custodio, custodit, custodi, custodiat, custodiet, custodire, custodiunt, custodite, custodivit, custodiam, custodiens] }
+  - { k: decem, n: "decem, adj. num. card.", hr: "deset", str: 268, oblici: [decem] }
+  - { k: descendo, n: "descendo, di, sum, 3.", hr: "sići", str: 288, oblici: [descendo, descendit, descendens, descenderunt, descendet, descendere, descendentes, descendat, descende, descendi, descendisset] }
+  - { k: deus, n: "deus, i, m.", hr: "bog", str: 293, oblici: [deus, dei, deo, deum] }
+  - { k: dextera, n: "dextera ili dextra, ae, f.", hr: "desnica", str: 295, oblici: [dextera, dexteram, dexterae, dextra, dextram] }
+  - { k: dico, n: "dico, xi, ctum, 3.", hr: "reći", str: 296, oblici: [dico, dicit, dixit, dicunt, dixerunt, dicebat, dicens, dicentes, dicite, dicam, dicimus] }
+  - { k: dies, n: "dies, ei, m. i f.", hr: "dan", str: 298, oblici: [dies, diei, diem, die, dierum, diebus] }
+  - { k: dignus, n: "dignus, adj.", hr: "dostojan", str: 300, oblici: [dignus, digni, digno, dignum, digne, dignorum, dignis, dignos, digna, dignae, dignam, dignarum, dignas] }
+  - { k: diligo, n: "diligo, lexi, lectum, 3.", hr: "ljubiti", str: 301, oblici: [diligo, diligit, dilexit, diligis, diligam, diligite, diligere, dilexi, diligunt, diligamus, diligatis, diligentibus, diliges, dilexisti] }
+  - { k: discipulus, n: "discipulus, i, m.", hr: "učenik", str: 305, oblici: [discipulus, discipuli, discipulo, discipulum, discipule, discipulorum, discipulis, discipulos] }
+  - { k: do, n: "do, dedi, datum, dare", hr: "dati", str: 315, oblici: [dedit, dabo, dabit, date, dedi, dare, dat, dedisti, dederunt, dabitur, dabis] }
+  - { k: doceo, n: "doceo, cui, ctum, 2.", hr: "učiti", str: 316, oblici: [doceo, docet, docebat, docens, docete, docere, docuit, docebit, docentes, docui, doce, docebo, doces] }
+  - { k: dominus, n: "dominus, i, m.", hr: "gospodin", str: 318, oblici: [dominus, domini, domino, dominum, domine, dominorum, dominis, dominos] }
+  - { k: domus, n: "domus, us, i, i, f.", hr: "kuća", str: 319, oblici: [domus, domum, domo, domui] }
+  - { k: donum, n: "donum, i, n.", hr: "dar", str: 319, oblici: [donum, doni, dono, donorum, donis, dona] }
+  - { k: dormio, n: "dormio, 4.", hr: "spavati", str: 320, oblici: [dormio, dormit, dormiebat, dormiunt, dormire, dormientes, dormivit, dormiam, dormitis, dormierunt, dormis] }
+  - { k: dulcis, n: "dulcis, adj.", hr: "sladak", str: 323, oblici: [dulcis, dulces, dulcem, dulci, dulce, dulcia] }
+  - { k: duo, n: "duo, ae, o, adj. num. card.", hr: "dva", str: 324, oblici: [duo, duos, duae, duas, duobus, duabus, duorum] }
+  - { k: duodecim, n: "duo-decim, adj. num. card.", hr: "dvanaest", str: 324, oblici: [duodecim] }
+  - { k: ecce, n: "ecce, adv.", hr: "evo", str: 327, oblici: [ecce] }
+  - { k: exaudio, n: "ex-audio, 4.", hr: "uslišati", str: 355, oblici: [exaudi, exaudivit, exaudiet, exaudiat, exaudis, exaudiam, exaudire, exaudisti] }
+  - { k: exeo, n: "ex-eo, ii, itum, ire", hr: "izaći", str: 360, oblici: [exiit, exierunt, exivit, exire, exite, exibit, exeuntes, exiens, exibunt, exivi] }
+  - { k: exercitus, n: "exercitus, us, m.", hr: "vojska", str: 361, oblici: [exercitus, exercitui, exercitum, exercitu, exercituum, exercitibus] }
+  - { k: facio, n: "facio, feci, factum, facere", hr: "činiti", str: 381, oblici: [facio, facit, fecit, faciam, facere, fecerunt, faciunt, faciet, facite] }
+  - { k: fidelis, n: "fidelis, adj.", hr: "vjeran", str: 398, oblici: [fidelis, fideles, fidelem, fideli, fidelium, fidelibus, fidele] }
+  - { k: fides, n: "fides, ei, f.", hr: "vjera", str: 398, oblici: [fides, fidei, fidem, fide] }
+  - { k: filia, n: "filia, ae, f.", hr: "kći", str: 401, oblici: [filia, filiae, filiam, filias, filiarum] }
+  - { k: filius, n: "filius, ii, m.", hr: "sin", str: 401, oblici: [filius, filii, filio, filium, filie, filiorum, filiis, filios, fili] }
+  - { k: flumen, n: "flumen, inis, n.", hr: "rijeka", tiskano: "rieka", str: 408, oblici: [flumen, fluminis, flumini, flumine, flumina, fluminum, fluminibus] }
+  - { k: fortis, n: "fortis, adj.", hr: "jak", str: 413, oblici: [fortis, fortes, fortem, forti, fortium, fortibus] }
+  - { k: frater, n: "frater, tris, m.", hr: "brat", str: 416, oblici: [frater, fratris, fratri, fratrem, fratre, fratres, fratrum, fratribus] }
+  - { k: fructus, n: "fructus, us, m.", hr: "plod", str: 420, oblici: [fructus, fructui, fructum, fructu, fructuum, fructibus] }
+  - { k: gaudeo, n: "gaudeo, gavisus sum, 2.", hr: "veseliti se", str: 431, oblici: [gaudeo, gaudete, gaudebit, gaudent, gaudebunt, gaudeamus, gaudens, gaudentes, gavisi, gaudere, gaudet, gavisus] }
+  - { k: gaudium, n: "gaudium, ii, n.", hr: "radost", str: 432, oblici: [gaudium, gaudii, gaudio, gaudia, gaudiorum, gaudiis] }
+  - { k: gens, n: "gens, tis, f.", hr: "narod", str: 434, oblici: [gens, gentis, genti, gentem, gente, gentes, gentium, gentibus] }
+  - { k: gladius, n: "gladius, ii, m.", hr: "mač", str: 439, oblici: [gladius, gladii, gladio, gladium, gladie, gladiorum, gladiis, gladios] }
+  - { k: gloria, n: "gloria, ae, f.", hr: "slava", str: 440, oblici: [gloria, gloriae, gloriam] }
+  - { k: gratia, n: "gratia, ae, f.", hr: "milost", str: 443, oblici: [gratia, gratiae, gratiam, gratiarum, gratiis, gratias] }
+  - { k: grex, n: "grex, egis, m.", hr: "stado", str: 447, oblici: [grex, gregis, gregem, grege, gregi] }
+  - { k: habeo, n: "habeo, ui, itum, 2.", hr: "imati", str: 449, oblici: [habeo, habet, habent, habetis, habebat, habere, habemus, habes, habebit, habebant, habentes, habens] }
+  - { k: hereditas, n: "hereditas, atis, f.", hr: "baština", str: 457, oblici: [hereditas, hereditatis, hereditatem, hereditate, haereditas, haereditatis, haereditatem, haereditate] }
+  - { k: hodie, n: "hodie, adv.", hr: "danas", str: 461, oblici: [hodie] }
+  - { k: homo, n: "homo, inis, comm.", hr: "čovjek", str: 462, oblici: [homo, hominis, homini, hominem, homine, homines, hominum, hominibus] }
+  - { k: hora, n: "hora, ae, f.", hr: "sat", str: 463, oblici: [hora, horae, horam, horarum, horis, horas] }
+  - { k: hostia, n: "hostia, ae, f.", hr: "žrtva", str: 465, oblici: [hostia, hostiae, hostiam, hostiarum, hostiis, hostias] }
+  - { k: humilis, n: "humilis, adj.", hr: "ponizan", str: 467, oblici: [humilis, humiles, humilem, humili, humilium, humilibus, humile] }
+  - { k: ignis, n: "ignis, is, m.", hr: "vatra", str: 471, oblici: [ignis, ignem, igne, igni] }
+  - { k: inimicus, n: "inimicus, adj.", hr: "neprijatelj", str: 512, oblici: [inimicus, inimici, inimico, inimicum, inimice, inimicorum, inimicis, inimicos] }
+  - { k: intro, n: "intro, 1.", hr: "ulaziti", str: 534, oblici: [intravit, intrate, intrare, intrabit, intrat, intraverunt, intrans, intrabunt, intravimus, intrasset, intraret] }
+  - { k: invenio, n: "in-venio, etc. 4.", hr: "naći", str: 536, oblici: [invenio, invenit, invenerunt, invenietis, inveni, invenient, invenire, inveniet, invenimus, invenisset] }
+  - { k: iudicium, n: "judicium, ii, n.", hr: "sud", str: 549, oblici: [iudicium, iudicii, iudicio, iudicia, iudiciorum, iudiciis] }
+  - { k: iustitia, n: "justitia, ae, f.", hr: "pravednost", str: 552, oblici: [iustitia, iustitiae, iustitiam, iustitiarum, iustitiis, iustitias] }
+  - { k: iustus, n: "justus, adj.", hr: "pravedan", str: 552, oblici: [iustus, iusti, iusto, iustum, iuste, iustorum, iustis, iustos, iusta, iustae, iustam, iustarum, iustas] }
+  - { k: lapis, n: "lapis, idis, m.", hr: "kamen", str: 560, oblici: [lapis, lapidis, lapidi, lapidem, lapide, lapides, lapidum, lapidibus] }
+  - { k: laudo, n: "laudo, 1.", hr: "hvaliti", str: 564, oblici: [laudo, laudate, laudant, laudabo, laudamus, laudent, laudare, laudabunt, laudantes, laudans] }
+  - { k: laus, n: "laus, dis, f.", hr: "hvala", str: 564, oblici: [laus, laudis, laudem, laude, laudes, laudibus] }
+  - { k: lex, n: "lex, legis, f.", hr: "zakon", str: 570, oblici: [lex, legis, legem] }
+  - { k: lingua, n: "lingua, ae, f.", hr: "jezik", str: 576, oblici: [lingua, linguae, linguam, linguarum, linguis, linguas] }
+  - { k: lumen, n: "lumen, inis, n.", hr: "svjetlo", str: 585, oblici: [lumen, luminis, lumini, lumine, lumina, luminum, luminibus] }
+  - { k: lux, n: "lux, lucis, f.", hr: "svjetlost", str: 587, oblici: [lux, lucis, lucem] }
+  - { k: magnus, n: "magnus, adj.", hr: "velik", str: 593, oblici: [magnus, magni, magno, magnum, magne, magnorum, magnis, magnos, magna, magnae, magnam, magnarum, magnas] }
+  - { k: maiestas, n: "majestas, atis, f.", hr: "veličanstvo", str: 594, oblici: [maiestas, maiestatis, maiestati, maiestatem, maiestate, maiestates, maiestatum, maiestatibus] }
+  - { k: mandatum, n: "mandatum, i, n.", hr: "zapovijed", tiskano: "zapovied", str: 597, oblici: [mandatum, mandati, mandato, mandata, mandatorum, mandatis] }
+  - { k: manus, n: "manus, us, f.", hr: "ruka", str: 599, oblici: [manus, manum, manu, manuum, manibus] }
+  - { k: mare, n: "mare, is, n.", hr: "more", str: 600, oblici: [mare, maris, mari] }
+  - { k: mater, n: "mater, tris, f.", hr: "mati", str: 602, oblici: [mater, matris, matri, matrem, matre] }
+  - { k: mensa, n: "mensa, ae, f.", hr: "stol", str: 611, oblici: [mensa, mensae, mensam, mensarum, mensis, mensas] }
+  - { k: militia, n: "militia, ae, f.", hr: "vojska", str: 616, oblici: [militia, militiae, militiam, militiarum, militiis, militias] }
+  - { k: mille, n: "mille, adj. indecl. num. card.", hr: "tisuća", str: 617, oblici: [mille, millia, milia, millibus] }
+  - { k: misericordia, n: "misericordia, ae, f.", hr: "milosrđe", tiskano: "milosrdje", str: 621, oblici: [misericordia, misericordiae, misericordiam, misericordiarum, misericordiis, misericordias] }
+  - { k: misericors, n: "misericors, dis, adj.", hr: "milosrdan", str: 621, oblici: [misericors, misericordis, misericordem, misericordes] }
+  - { k: mitto, n: "mitto, misi, missum, 3.", hr: "slati", str: 621, oblici: [mitto, misit, mittit, mittam, miserunt, mittere, misi, mittet, mitte, misisti] }
+  - { k: mons, n: "mons, tis, m.", hr: "gora", str: 628, oblici: [mons, montis, montem, monte, montes, montium, montibus] }
+  - { k: mors, n: "mors, tis, f.", hr: "smrt", str: 630, oblici: [mors, mortis, mortem, morte] }
+  - { k: mulier, n: "mulier, eris, f.", hr: "žena", str: 633, oblici: [mulier, mulieris, mulieri, mulierem, muliere, mulieres, mulierum, mulieribus] }
+  - { k: multus, n: "multus, adj.", hr: "mnogi", str: 635, oblici: [multus, multi, multo, multum, multe, multorum, multis, multos, multa, multae, multam, multarum, multas] }
+  - { k: munus, n: "munus, neris, n.", hr: "dar", str: 637, oblici: [munus, muneris, munere, munera, munerum, muneribus] }
+  - { k: mysterium, n: "mysteria, orum, n.", hr: "tajna", str: 640, oblici: [mysterium, mysterii, mysterio, mysteria, mysteriorum, mysteriis] }
+  - { k: nomen, n: "nomen, inis, n.", hr: "ime", str: 657, oblici: [nomen, nominis, nomini, nomine, nomina, nominum, nominibus] }
+  - { k: novus, n: "novus, adj.", hr: "nov", str: 662, oblici: [novus, novi, novo, novum, nove, novorum, novis, novos, nova, novae, novam, novarum, novas] }
+  - { k: nox, n: "nox, ctis, f.", hr: "noć", str: 662, oblici: [nox, noctis, noctem, nocte, noctes] }
+  - { k: nubes, n: "nubes, is, f.", hr: "oblak", str: 662, oblici: [nubes, nubem, nube, nubibus, nubium] }
+  - { k: nunc, n: "nunc adv.", hr: "sada", str: 665, oblici: [nunc] }
+  - { k: oculus, n: "oculus, i, m.", hr: "oko", str: 679, oblici: [oculus, oculi, oculo, oculum, ocule, oculorum, oculis, oculos] }
+  - { k: omnipotens, n: "omni-potens, tis, adj.", hr: "svemogući", str: 684, oblici: [omnipotens, omnipotentis, omnipotenti, omnipotentem, omnipotente] }
+  - { k: omnis, n: "omnis, adj.", hr: "sav", str: 684, oblici: [omnis, omnes, omnia, omnem, omni, omnium, omnibus, omne] }
+  - { k: opus, n: "opus, eris, n.", hr: "djelo", str: 689, oblici: [opus, operis, opere, opera, operum, operibus] }
+  - { k: oro, n: "oro, 1.", hr: "moliti", str: 693, oblici: [oro, orate, orare, orabat, oravit, orabit, oremus, orantes, orans] }
+  - { k: ostendo, n: "ostendo, di, sum, 3.", hr: "pokazati", str: 694, oblici: [ostendo, ostendit, ostende, ostendam, ostendite, ostendere, ostendet, ostenderunt, ostendens] }
+  - { k: ovis, n: "ovis, is, f.", hr: "ovca", str: 695, oblici: [ovis, ovem, oves, ovium, ovibus] }
+  - { k: panis, n: "panis, is, m.", hr: "kruh", str: 700, oblici: [panis, panem, pane, panes, panibus] }
+  - { k: pastor, n: "pastor, oris, m.", hr: "pastir", str: 706, oblici: [pastor, pastoris, pastori, pastorem, pastore, pastores, pastorum, pastoribus] }
+  - { k: pater, n: "pater, tris, m.", hr: "otac", str: 707, oblici: [pater, patris, patri, patrem, patre, patres, patrum, patribus] }
+  - { k: pauper, n: "pauper, eris, adj.", hr: "siromašan", str: 709, oblici: [pauper, pauperes, pauperum, pauperibus, pauperem, pauperis] }
+  - { k: pax, n: "pax, acis, f.", hr: "mir", str: 710, oblici: [pax, pacis, pacem, pace] }
+  - { k: peccatum, n: "peccatum, i, n.", hr: "grijeh", tiskano: "grieh", str: 710, oblici: [peccatum, peccati, peccato, peccata, peccatorum, peccatis] }
+  - { k: pes, n: "pes, pedis, m.", hr: "noga", str: 733, oblici: [pes, pedem, pedes, pedum, pedibus] }
+  - { k: petra, n: "petra, ae, f.", hr: "stijena", tiskano: "stiena", str: 735, oblici: [petra, petram] }
+  - { k: plenus, n: "plenus, adj.", hr: "pun", str: 744, oblici: [plenus, pleni, pleno, plenum, plene, plenorum, plenis, plenos, plena, plenae, plenam, plenarum, plenas] }
+  - { k: populus, n: "populus, i, m.", hr: "narod", str: 750, oblici: [populus, populi, populo, populum, popule, populorum, populis, populos] }
+  - { k: porta, n: "porta, ae, f.", hr: "vrata", str: 751, oblici: [porta, portae, portam, portarum, portis, portas] }
+  - { k: porto, n: "porto, 1.", hr: "nositi", str: 751, oblici: [porto, portat, portabat, portare, portate, portabit, portans, portantes, portabant, portaverunt, portavit] }
+  - { k: potestas, n: "potestas, atis, f.", hr: "vlast", str: 755, oblici: [potestas, potestatis, potestati, potestatem, potestate, potestates, potestatum, potestatibus] }
+  - { k: praeceptum, n: "praeceptum, i, n.", hr: "zapovijed", tiskano: "zapovied", str: 757, oblici: [praeceptum, praecepti, praecepto, praecepta, praeceptorum, praeceptis] }
+  - { k: primus, n: "primus, adj.", hr: "prvi", str: 772, oblici: [primus, primi, primo, primum, prime, primorum, primis, primos, prima, primae, primam, primarum, primas] }
+  - { k: princeps, n: "princeps, cipis, adj. i subst.", hr: "poglavar", str: 772, oblici: [princeps, principis, principi, principem, principe, principes, principum, principibus] }
+  - { k: puer, n: "puer, eri, m.", hr: "dijete", tiskano: "diete", str: 796, oblici: [puer, pueri, puero, puerum, pueros, pueris] }
+  - { k: quaero, n: "quaero, sivi, situm, 3.", hr: "tražiti", str: 803, oblici: [quaero, quaerite, quaerit, quaeritis, quaerunt, quaerebant, quaerens, quaerentes, quaerebat, quaerere, quaeris] }
+  - { k: quaeso, n: "quaeso, — — 3.", hr: "moliti", str: 804, oblici: [quaeso, quaesumus] }
+  - { k: regno, n: "regno, 1.", hr: "kraljevati", str: 832, oblici: [regno, regnat, regnabit, regnavit, regnas, regnant, regnare] }
+  - { k: regnum, n: "regnum, i, n.", hr: "kraljevstvo", str: 833, oblici: [regnum, regni, regna, regnorum, regnis] }
+  - { k: respondeo, n: "respondeo, ndi, nsum, 2.", hr: "odgovoriti", str: 846, oblici: [respondeo, respondit, respondens, responderunt, respondentes, respondebat, respondere, respondebit] }
+  - { k: rex, n: "rex, regis, m.", hr: "kralj", str: 851, oblici: [rex, regis, regem, rege, regum, regibus] }
+  - { k: sacerdos, n: "sacerdos, dotis, m. i f.", hr: "svećenik", str: 859, oblici: [sacerdos, sacerdotis, sacerdoti, sacerdotem, sacerdote, sacerdotes, sacerdotum, sacerdotibus] }
+  - { k: sacrificium, n: "sacrificium, ii, n.", hr: "žrtva", str: 860, oblici: [sacrificium, sacrificii, sacrificio, sacrificia, sacrificiorum, sacrificiis] }
+  - { k: salus, n: "salus, utis, f.", hr: "spas", str: 864, oblici: [salus, salutis, saluti, salutem, salute] }
+  - { k: sanctus, n: "sanctus, adj.", hr: "svet", str: 865, oblici: [sanctus, sancti, sancto, sanctum, sancte, sanctorum, sanctis, sanctos, sancta, sanctae, sanctam, sanctarum, sanctas] }
+  - { k: sanguis, n: "sanguis, inis, m.", hr: "krv", str: 866, oblici: [sanguis, sanguinis, sanguinem, sanguine] }
+  - { k: sano, n: "sano, 1.", hr: "liječiti", tiskano: "liečiti", str: 866, oblici: [sano, sanat, sanavit, sanabat, sanare, sana, sanabo, sanabitur, sanatus, sanati, sanabantur, sanaret, sanatur, sanatum] }
+  - { k: sapientia, n: "sapientia, ae, f.", hr: "mudrost", str: 867, oblici: [sapientia, sapientiae, sapientiam, sapientiarum, sapientiis, sapientias] }
+  - { k: scio, n: "scio, 4.", hr: "znati", str: 873, oblici: [scio, scit, scitis, scimus, sciunt, sciebat, scis, scire, sciens, scientes, sciebant] }
+  - { k: sedeo, n: "sedeo, sedi, sessum, 2.", hr: "sjedjeti", str: 879, oblici: [sedeo, sedet, sedebat, sedit, sedens, sedentes, sedebit, sedere, sedebant, sedetis, sedebitis] }
+  - { k: sedes, n: "sedes, is, f.", hr: "sjedište", str: 879, oblici: [sedes, sedem, sedis, sede] }
+  - { k: semen, n: "semen, inis, n.", hr: "sjeme", str: 881, oblici: [semen, seminis, semini, semine, semina, seminum, seminibus] }
+  - { k: semper, n: "semper, adv.", hr: "uvijek", tiskano: "uviek", str: 882, oblici: [semper] }
+  - { k: septem, n: "septem, adj. num. card.", hr: "sedam", str: 886, oblici: [septem] }
+  - { k: sermo, n: "sermo, onis, m.", hr: "govor", str: 888, oblici: [sermo, sermonis, sermoni, sermonem, sermone, sermones, sermonum, sermonibus] }
+  - { k: servus, n: "servus", hr: "sluga", str: 891, oblici: [servus, servi, servo, servum, serve, servorum, servis, servos] }
+  - { k: signum, n: "signum, i, n.", hr: "znak", str: 895, oblici: [signum, signi, signo, signa, signorum, signis] }
+  - { k: sol, n: "sol, is", hr: "sunce", str: 902, oblici: [sol, solem] }
+  - { k: spes, n: "spes, ei, f.", hr: "nada", str: 912, oblici: [spes, spem, spei] }
+  - { k: spiritus, n: "spiritus, us, m.", hr: "duh", str: 913, oblici: [spiritus, spiritui, spiritum, spiritu, spirituum, spiritibus] }
+  - { k: stella, n: "stella, ae, f.", hr: "zvijezda", tiskano: "zviezda", str: 917, oblici: [stella, stellae, stellam, stellarum, stellis, stellas] }
+  - { k: sto, n: "sto, steti, statum, 1.", hr: "stajati", str: 920, oblici: [sto, stabat, stetit, stat, stans, stantes, stabant, stare, steterunt, state] }
+  - { k: surgo, n: "surgo, surrexi, surrectum, 3.", hr: "ustati", str: 947, oblici: [surgo, surge, surgens, surrexit, surgite, surgam, surgere, surgentes, surget, surrexerunt] }
+  - { k: templum, n: "templum, i, n.", hr: "hram", str: 961, oblici: [templum, templi, templo, templa, templorum, templis] }
+  - { k: tempus, n: "tempus, oris, n.", hr: "vrijeme", tiskano: "vrieme", str: 962, oblici: [tempus, temporis, tempore, tempora, temporum, temporibus] }
+  - { k: tenebrae, n: "tenebrae, arum, f.", hr: "tmina", str: 963, oblici: [tenebrae, tenebras, tenebris, tenebrarum] }
+  - { k: terra, n: "terra, ae, f.", hr: "zemlja", str: 967, oblici: [terra, terrae, terram, terrarum, terris, terras] }
+  - { k: testimonium, n: "testimonium, ii, n.", hr: "svjedočanstvo", str: 969, oblici: [testimonium, testimonii, testimonio, testimonia, testimoniorum, testimoniis] }
+  - { k: testis, n: "testis, is, comm.", hr: "svjedok", str: 969, oblici: [testis, testes, testem, testium] }
+  - { k: thesaurus, n: "thesaurus, i, m.", hr: "blago", str: 972, oblici: [thesaurus, thesauri, thesauro, thesaurum, thesaure, thesaurorum, thesauris, thesauros] }
+  - { k: timeo, n: "timeo, ui, — 2.", hr: "bojati se", str: 974, oblici: [timeo, timete, timent, timentibus, timebo, timere, timuerunt, timet, timebit, timentes, timuit, timeas] }
+  - { k: timor, n: "timor, oris, m.", hr: "strah", str: 974, oblici: [timor, timoris, timorem, timore] }
+  - { k: tres, n: "tres, n. tria", hr: "tri", str: 988, oblici: [tres, tria, tribus, trium] }
+  - { k: turba, n: "turba, ae, f.", hr: "mnoštvo", tiskano: "množtvo", str: 996, oblici: [turba, turbae, turbam, turbarum, turbis, turbas] }
+  - { k: ubique, n: "ubi-que, adv.", hr: "svagdje", str: 1001, oblici: [ubique] }
+  - { k: unus, n: "unus, adj.", hr: "jedan", str: 1006, oblici: [unus, una, unum, unius, uni, unam] }
+  - { k: venio, n: "venio, veni, ventum, 4.", hr: "doći", str: 1026, oblici: [venio, venit, veniet, venerunt, veni, venite, venire, veniat, veniunt, venient, veniens, venimus, venisset, venerit] }
+  - { k: ventus, n: "ventus, i, m.", hr: "vjetar", str: 1028, oblici: [ventus, venti, vento, ventum, vente, ventorum, ventis, ventos] }
+  - { k: verbum, n: "verbum, i, n.", hr: "riječ", tiskano: "rieč", str: 1029, oblici: [verbum, verbi, verbo, verba, verborum, verbis] }
+  - { k: veritas, n: "veritas, atis, f.", hr: "istina", str: 1031, oblici: [veritas, veritatis, veritati, veritatem, veritate] }
+  - { k: verus, n: "verus, adj.", hr: "istinit", str: 1034, oblici: [verus, veri, verorum, veris, veros, vera, verae, veram, verarum, veras] }
+  - { k: via, n: "via, ae, f.", hr: "put", str: 1038, oblici: [via, viae, viam, viarum, viis, vias] }
+  - { k: video, n: "video, vidi, visum, 2.", hr: "vidjeti", str: 1041, oblici: [video, videt, vidit, viderunt, videbunt, videte, vidi, vidimus, videre, videbit, vident, vidisset, videntes, videns, videbitis] }
+  - { k: vinum, n: "vinum, i, n.", hr: "vino", str: 1047, oblici: [vinum, vini, vino] }
+  - { k: vir, n: "vir, viri, m.", hr: "muž", str: 1048, oblici: [vir, viri, viro, virum, viros, virorum] }
+  - { k: virgo, n: "virgo, inis, f.", hr: "djevica", str: 1049, oblici: [virgo, virginis, virgini, virginem, virgine, virgines, virginum, virginibus] }
+  - { k: virtus, n: "virtus, utis, f.", hr: "vrlina", str: 1049, oblici: [virtus, virtutis, virtuti, virtutem, virtute, virtutes, virtutum, virtutibus] }
+  - { k: vita, n: "vita, ae, f.", hr: "život", str: 1052, oblici: [vita, vitae, vitam, vitarum, vitas] }
+  - { k: vivo, n: "vivo, vixi, victum, 3.", hr: "živjeti", str: 1053, oblici: [vivo, vivit, vivet, vivent, vivere, vivimus, vivunt, vivam, vivat] }
+  - { k: vivus, n: "vivus, adj.", hr: "živ", str: 1054, oblici: [vivus, vivi, vivum, vivorum, vivos, viva, vivae, vivarum, vivas] }
+  - { k: voco, n: "voco, 1.", hr: "zvati", str: 1055, oblici: [voco, vocavit, vocabitur, vocatus, vocabis, vocat, vocabunt, vocati, vocatur, vocare, vocaverunt] }
+  - { k: vox, n: "vox, vocis, f.", hr: "glas", str: 1060, oblici: [vox, vocis, vocem, voce, voces, vocibus] }
+izostavljeno:
+  - { k: angelus, razlog: "nema natuknice" }
+  - { k: apostolus, razlog: "nema natuknice" }
+  - { k: benedico, razlog: "samo uputnica na \"bene\"" }
+  - { k: benedictio, razlog: "nema natuknice" }
+  - { k: caro, razlog: "značenje \"meso\" ne odgovara uporabi u misi" }
+  - { k: desertum, razlog: "nema vlastite natuknice" }
+  - { k: ecclesia, razlog: "samo klasično značenje (narodna skupština)" }
+  - { k: hymnus, razlog: "nema natuknice (list 236, str. 468: iza Hymettus slijedi Hypaepa)" }
+  - { k: manduco, razlog: "natuknica bez hrvatskoga značenja" }
+  - { k: mortuus, razlog: "nema natuknice (između mortualia i morulus na str. 631 nema je; obrađeno unutar natuknice " }
+  - { k: offero, razlog: "tiskano značenje zastarjelo (nudjati)" }
+  - { k: oratio, razlog: "samo značenje \"govor\"" }
+  - { k: propheta, razlog: "nema natuknice (str. 787, list 395: iza pro-pexus odmah slijedi pro-pino)" }

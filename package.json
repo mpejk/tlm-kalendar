@@ -6,7 +6,7 @@
   "description": "Zagreb Traditional Latin Mass calendar and daily missal, 2026-2036 (1962 Missal)",
   "scripts": {
     "test": "npm run build && vitest run",
-    "build": "tsx scripts/croatian/build-manual.ts && tsx scripts/build/build.ts",
+    "build": "tsx scripts/croatian/build-manual.ts && tsx scripts/build/build.ts && tsx scripts/igra/build.ts",
     "deploy": "npm run build && git add -A && (git diff --cached --quiet || git commit -m \"Update site\") && git push origin main",
     "import": "tsx scripts/import/import-do.ts",
     "crawl": "tsx scripts/verify/crawl.ts file && tsx scripts/verify/crawl.ts http && tsx scripts/verify/startup.ts",

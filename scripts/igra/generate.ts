@@ -13,7 +13,7 @@ export interface Round {
   d: string; t: string; c: number; k: string; wd: number; s: string; f: string; ml?: string;
   g: 0 | 1; cr: 0 | 1;
   dan: string[];                       // three other days (wrong choices of game 1)
-  o: string[]; ol: string[];           // answers of game 3: 11+ and 8–10
+  o: string[][]; ol: string[][];       // game 3, 11+ and 8–10: [line, wrong line, wrong line, …] (ids; the wrong answers are those lines' answers)
   p: string[]; pl: Record<string, [string, string]>;   // parts of the Mass of this day (ids) and the day's own labels
   w: [string, string][];               // six words: lemma key, the form found in this Mass
   e: { s: string; a: string; x: string[]; ref: string } | null;   // Gospel sentence with ____ , the word, three wrong words
@@ -51,8 +51,13 @@ export function generate(D: Dist) {
     const rite = d.masses.some(m => m.kind === 'rite'); const palm = d.temporalId === 'Quad6-0'; const req = v.colour === 'b'; const easter = d.temporalId === 'Pasc0-0';
     const cond: Record<string, boolean> = { bezPristupnih: rite, bezMuke: palm, bezRekvijema: req, bezUskrsa: easter };
     const ok = (ordo.odgovori as any[]).filter(o => !(o.uvjet ?? []).some((u: string) => cond[u]));
-    const pick = (list: any[], n: number) => { const out: any[] = []; for (const o of shuffled(list, r)) { if (out.length < n && !out.some(x => x.laOdg === o.laOdg)) out.push(o); } return (ordo.odgovori as any[]).filter(o => out.includes(o)).map(o => o.id as string); };
-    const o = pick(ok, 5), ol = pick(ok.filter(x => x.lako), 4);
+    // each question: the line, then wrong answers taken from the other lines (texts that differ from the right one and from each other)
+    const all = ordo.odgovori as any[];
+    const pick = (list: any[], n: number, wrongN: number) => {
+      const out: any[] = []; for (const o of shuffled(list, r)) if (out.length < n && !out.some(x => x.laOdg === o.laOdg)) out.push(o);
+      return all.filter(o => out.includes(o)).map(o => { const ws: any[] = []; for (const x of shuffled(all, r)) if (ws.length < wrongN && x.laOdg !== o.laOdg && !ws.some(y => y.laOdg === x.laOdg)) ws.push(x); return [o.id, ...ws.map(x => x.id)] as string[]; });
+    };
+    const o = pick(ok, 5, 3), ol = pick(ok.filter(x => x.lako), 4, 2);
     // game 4
     const has: Record<string, boolean> = { gloria: v.gloria, credo: v.credo, sequentia: !!sectionOf(v, 'Sequentia'), bezPristupnih: !rite };
     const p: string[] = []; const pl: Round['pl'] = {};

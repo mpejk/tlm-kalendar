@@ -18,7 +18,7 @@ export default async function buildSite(dist: string) {
   fs.writeFileSync(path.join(dist, '.nojekyll'), '');
   // offline worker: the shell and the calendar files are cached at install, the formulary files in the background
   const walk = (d: string): string[] => fs.readdirSync(d, { withFileTypes: true }).flatMap(e => (e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)]));
-  const all = walk(dist).map(f => path.relative(dist, f).split(path.sep).join('/')).filter(f => f !== 'sw.js' && !f.startsWith('.') && !f.endsWith('.txt'));
+  const all = walk(dist).map(f => path.relative(dist, f).split(path.sep).join('/')).filter(f => f !== 'sw.js' && !f.startsWith('.') && !f.endsWith('.txt') && !f.startsWith('igra/'))   // the game (dist/igra) has its own worker;
   const hash = crypto.createHash('sha1'); for (const f of all.sort()) hash.update(f).update(fs.readFileSync(path.join(dist, f)));
   const version = hash.digest('hex').slice(0, 12);
   const core = all.filter(f => !f.startsWith('data/f/') && !f.startsWith('ics/'));
@@ -49,6 +49,7 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const u = new URL(e.request.url);
   if (e.request.method !== 'GET' || u.origin !== location.origin) return;
+  if (u.pathname.startsWith(new URL('igra/', location.href).pathname)) return;   // the children's game keeps its own cache
   e.respondWith(caches.open(V).then(async c => {
     const hit = await c.match(e.request, { ignoreSearch: true });
     if (hit) return hit;
@@ -57,6 +58,6 @@ self.addEventListener('fetch', e => {
   }));
 });
 `);
-  let bytes = 0; for (const f of walk(dist)) bytes += fs.statSync(f).size;
+  let bytes = 0; for (const f of walk(dist)) if (!path.relative(dist, f).startsWith('igra')) bytes += fs.statSync(f).size;
   console.log(JSON.stringify({ files: all.length + 1, megabytes: +(bytes / 1048576).toFixed(1), version }));
 }

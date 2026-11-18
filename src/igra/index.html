@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nedjeljni izazov · igra uz kalendar tradicionalne latinske mise</title>
+<meta name="description" content="Nedjeljni izazov: kratka igra za djecu prije nedjeljne mise. Boja, dan, dijelovi mise, odgovori, latinske riječi i evanđelje.">
+<meta name="theme-color" content="#7a1f1f">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script>/* the theme chosen in the calendar holds here too */
+(function () { try { var t = localStorage.getItem('tlm.theme'); if (t) document.documentElement.dataset.theme = t;
+  if (/^https?:$/.test(location.protocol)) { var f = document.createElement('link'); f.rel = 'preload'; f.as = 'font'; f.type = 'font/woff2'; f.crossOrigin = 'anonymous'; f.href = '../fonts/ebg-latin-400-normal.woff2'; document.head.appendChild(f); } } catch (e) {} })();</script>
+</head>
+<body>
+<a class="skip" href="#main">Preskoči na sadržaj</a>
+<header class="top">
+  <div class="brand"><a href="?" data-nav="pocetak"><span class="cross" aria-hidden="true"></span> Nedjeljni izazov</a><span class="sub">igra prije nedjeljne mise</span></div>
+  <nav class="views" aria-label="Izbornik">
+    <a href="?" data-nav="pocetak">Početak</a>
+    <a href="?v=album" data-nav="album">Album</a>
+    <a href="?v=roditelji" data-nav="roditelji">Za roditelje</a>
+    <a href="../index.html" class="kal">Kalendar</a>
+  </nav>
+</header>
+<main id="main" tabindex="-1"><p class="empty">Učitavanje…</p></main>
+<footer class="foot"><p>Uz <a href="../index.html">kalendar tradicionalne latinske mise</a> · Zagreb · Rimski misal 1962.</p></footer>
+<noscript><p class="empty">Za igru je potreban JavaScript.</p></noscript>
+<script src="app.js" defer></script>
+<script src="data/base.js" defer></script>
+</body>
+</html>
