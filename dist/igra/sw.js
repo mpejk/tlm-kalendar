@@ -1,5 +1,5 @@
 // Offline cache of the game (only when served over http or https)
-const V = 'igra-aae368ba120d';
+const V = 'igra-4116d361172c';
 const CORE = ["./","index.html","app.js","style.css","data/base.js","../icon.svg","../fonts/ebg-latin-400-italic.woff2","../fonts/ebg-latin-400-normal.woff2","../fonts/ebg-latin-600-normal.woff2","../fonts/ebg-latin-ext-400-italic.woff2","../fonts/ebg-latin-ext-400-normal.woff2","../fonts/ebg-latin-ext-600-normal.woff2"];
 const REST = ["data/r/2025.js","data/r/2026.js","data/r/2027.js","data/r/2028.js","data/r/2029.js","data/r/2030.js","data/r/2031.js","data/r/2032.js","data/r/2033.js","data/r/2034.js","data/r/2035.js","data/r/2036.js"];
 const fresh = u => new Request(u, { cache: 'no-cache' });

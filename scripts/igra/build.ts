@@ -17,7 +17,11 @@ export default async function buildIgra(dist = 'dist') {
   if (problems.length) { console.error(problems.join('\n')); throw new Error(`game: ${problems.length} problems in the round data`); }
   // labels of the proper parts: the calendar's own; a round stores a label only where its day differs (Lesson, Gradual + Tract …)
   const oznake: Record<string, [string, string]> = { Introitus: LABELS.Introitus, Oratio: LABELS.Oratio, Lectio: LABELS.Epistola, Graduale: LABELS.G, Sequentia: LABELS.Sequentia, Evangelium: LABELS.Evangelium, Offertorium: LABELS.Offertorium, Secreta: LABELS.Secreta, Communio: LABELS.Communio, Postcommunio: LABELS.Postcommunio };
-  const slim = (r: Round) => { const pl: Round['pl'] = {}; for (const [k, v] of Object.entries(r.pl)) if (!oznake[k] || oznake[k][0] !== v[0] || oznake[k][1] !== v[1]) pl[k] = v; const { pl: _, ...rest } = r; return Object.keys(pl).length ? { ...rest, pl } : rest; };
+  const slim = (r: Round) => { const pl: Round['pl'] = {}; for (const [k, v] of Object.entries(r.pl)) if (!oznake[k] || oznake[k][0] !== v[0] || oznake[k][1] !== v[1]) pl[k] = v; const { pl: _, ...rest } = r as any;
+    // labels of "dio" are those of the parts (pl or the common labels); the week's dates follow from the round's day
+    for (const [k, v] of Object.entries((r as any).dl as Record<string, [string, string]>)) { const want = pl[k] ?? oznake[k]; if (!want || want[0] !== v[0] || want[1] !== v[1]) pl[k] = v; }
+    rest.dl = Object.keys((r as any).dl); if (rest.tj) rest.tj = rest.tj.map((x: string[]) => [x[1], x[2]]);
+    return Object.keys(pl).length ? { ...rest, pl } : rest; };
   fs.writeFileSync(path.join(out, 'data/base.js'), `IGRA.base(${JSON.stringify({ ...base, oznake, built: D.BASE.built })});\n`);
   const byYear = new Map<number, Round[]>(); for (const r of rounds) byYear.set(litYear(r.d), [...(byYear.get(litYear(r.d)) ?? []), r]);
   let bytes = 0; for (const [y, rs] of byYear) { const js = `IGRA.r(${y},${JSON.stringify(rs.map(slim))});\n`; bytes += js.length; fs.writeFileSync(path.join(out, `data/r/${y}.js`), js); }

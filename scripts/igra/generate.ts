@@ -7,6 +7,7 @@ import { Day } from '../../src/engine/types';
 import { loadDist, zagrebDays, isRound, principal, massOf, sectionOf, hrOf, Dist } from './lib';
 import { massWords, plain } from './words';
 import { gospelBody, sentences } from './gospel-cand';
+import { extend, Extra, MAXLEVEL } from './rounds2';
 
 export interface Word { k: string; n: string; hr: string; str: number; tiskano?: string; nacrt?: boolean }
 export interface Round {
@@ -18,6 +19,7 @@ export interface Round {
   w: [string, string][];               // six words: lemma key, the form found in this Mass
   e: { s: string; a: string; x: string[]; ref: string } | null;   // Gospel sentence with ____ , the word, three wrong words
 }
+export type Round2 = Round & Extra;
 const BLANK = '_____';
 export const read = (f: string) => YAML.parse(fs.readFileSync(f, 'utf8'));
 /** small seeded generator (mulberry32) so that choices do not change between builds */
@@ -31,12 +33,15 @@ export const litYear = (iso: string) => { const y = +iso.slice(0, 4); return iso
 export function loadFixed() {
   const ordo = read('data/igra/red-mise.yaml'); const vest = read('data/igra/odijevanje.yaml'); const gos = read('data/igra/evandjelje.yaml') as Record<string, [string, string, string[]]>;
   const dict = read('data/igra/rjecnik.yaml') as { izvor: string; rijeci: (Word & { oblici: string[] })[] };
-  return { ordo, vest, gos, dict };
+  const po = fs.existsSync('data/igra/poredaj.yaml') ? read('data/igra/poredaj.yaml') as Record<string, [string, number] | null> : null;
+  const kalez = read('data/igra/kalez.yaml'); const oltar = read('data/igra/oltar.yaml');
+  return { ordo, vest, gos, dict, po, kalez, oltar };
 }
 
 export function generate(D: Dist) {
-  const { ordo, vest, gos, dict } = loadFixed();
-  const days = zagrebDays(D).filter(isRound);
+  const { ordo, vest, gos, dict, po, kalez, oltar } = loadFixed();
+  const allDays = zagrebDays(D); const days = allDays.filter(isRound);
+  let prevO = '', prevOl = '';
   const byForm = new Map<string, string[]>(); for (const w of dict.rijeci) for (const f of w.oblici) byForm.set(f, [...(byForm.get(f) ?? []), w.k]);
   const W = new Map(dict.rijeci.map(w => [w.k, w]));
   const titles = days.map(d => cleanTitle(d.title));
@@ -57,7 +62,11 @@ export function generate(D: Dist) {
       const out: any[] = []; for (const o of shuffled(list, r)) if (out.length < n && !out.some(x => x.laOdg === o.laOdg)) out.push(o);
       return all.filter(o => out.includes(o)).map(o => { const ws: any[] = []; for (const x of shuffled(all, r)) if (ws.length < wrongN && x.laOdg !== o.laOdg && !ws.some(y => y.laOdg === x.laOdg)) ws.push(x); return [o.id, ...ws.map(x => x.id)] as string[]; });
     };
-    const o = pick(ok, 5, 3), ol = pick(ok.filter(x => x.lako), 4, 2);
+    // never the same set of answers two rounds running
+    const setOf = (q: string[][]) => q.map(x => x[0]).sort().join(',');
+    let o = pick(ok, 5, 3); for (let n = 0; n < 20 && setOf(o) === prevO; n++) o = pick(ok, 5, 3);
+    let ol = pick(ok.filter(x => x.lako), 4, 2); for (let n = 0; n < 20 && setOf(ol) === prevOl; n++) ol = pick(ok.filter(x => x.lako), 4, 2);
+    prevO = setOf(o); prevOl = setOf(ol);
     // game 4
     const has: Record<string, boolean> = { gloria: v.gloria, credo: v.credo, sequentia: !!sectionOf(v, 'Sequentia'), bezPristupnih: !rite };
     const p: string[] = []; const pl: Round['pl'] = {};
@@ -93,6 +102,8 @@ export function generate(D: Dist) {
     return { d: d.date, t, c: d.cls, k: v.colour, wd: d.weekday, s: d.season, f: v.formulary, ...(ml ? { ml } : {}), g: v.gloria ? 1 : 0, cr: v.credo ? 1 : 0, dan, o, ol, p, pl, w, e };
   });
   for (const k of Object.keys(gos)) if (!usedGospel.has(k)) problems.push(`evandjelje.yaml: ${k} is not the Gospel of any round`);
+  const ext = extend(D, allDays, days, rounds, po ?? {}, ordo, po ? problems : []);
+  const rounds2: Round2[] = rounds.map((x, i) => ({ ...x, ...ext[i] }));
   const base = {
     from: days[0].date, to: days[days.length - 1].date, firstAlbum: 2026,
     boje: { w: 'bijela', r: 'crvena', v: 'ljubičasta', g: 'zelena', b: 'crna', p: 'ružičasta' },
@@ -100,7 +111,9 @@ export function generate(D: Dist) {
     odgovori: ordo.odgovori, dijelovi: ordo.dijelovi, izvorLa: ordo.izvorLa, izvorHr: ordo.izvorHr,
     rijeci: Object.fromEntries(dict.rijeci.map(w => [w.k, { n: w.n, hr: w.hr, str: w.str, ...(w.nacrt ? { nacrt: true } : {}) }])), rjecnikIzvor: dict.izvor,
     godine: [...new Set(rounds.map(r => litYear(r.d)))],
+    kalez: kalez.kalez, kalezIzvor: kalez.izvor, tjelesnik: kalez.tjelesnik, oltar: oltar.predmeti, mjesta: oltar.mjesta, oltarIzvor: oltar.izvor,
+    molitvaIzvor: vest.molitvaIzvor, maxLevel: MAXLEVEL,
   };
-  return { rounds, base, problems };
+  return { rounds: rounds2, base, problems };
 }
 if (process.argv[1]?.endsWith('generate.ts')) { const g = generate(loadDist('dist')); console.log(g.rounds.length, 'rounds;', g.problems.length, 'problems'); console.log(g.problems.slice(0, 40).join('\n')); console.log(JSON.stringify(g.rounds[1]).length, JSON.stringify(g.rounds[1])); }

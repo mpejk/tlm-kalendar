@@ -1,0 +1,118 @@
+# Game "Poredaj evanđelje": for each Gospel of the round days, a passage of 3 or 4 consecutive sentences of that day's Croatian
+# Gospel, which the child puts back in order. The passages were chosen by hand, by reading, so that the order is unambiguous
+# (a narrative where each sentence follows from the one before, a question and its answer, an action and its result, sentences
+# linked by "Tada", "A on", "Kad ...", "I reče im" ...); lists of sayings, parallel beatitudes and repeated formulas were avoided.
+# Sentences over 170 characters, under 25 characters and the heading "Slijedi sveto Evanđelje po ..." are not used.
+# The sentences themselves are NOT stored here: only the first words of the first sentence and the number of sentences. The build
+# takes them from the calendar's Croatian Gospel (dist/data), split as scripts/igra/poredaj-cand.ts prints them, and stops if
+# the first words are not found at the start of exactly one sentence.
+# Key: the formulary of the Gospel. Value: [first words of the first sentence, number of sentences], or null where no passage
+# of the Gospel allows an unambiguous order.
+Tempora/Pent24-0: ["Odmah poslije nevolje onih dana", 3]   # "Immediately after", then "I tada" the sign, then the tribes see the Son of Man coming
+Tempora/Adv1-0: ["I reče im usporedbu", 3]   # parable announced, then "Kad propupaju", then "Tako i vi" applies it
+Sancti/11-30: null   # left out on review: the passage contains a misprint of the corpus ("podu" for "pođu"), reported in IGRA2-IZVJESTAJ.md
+Tempora/Adv2-0: ["U ono vrijeme, kada je Ivan", 3]   # John's question, Jesus' answer, the answer's closing line with the closing quote
+Sancti/12-08: null   # the Gospel has only two sentences
+Tempora/Adv3-0: ["U ono vrijeme pošalju Židovi", 3]   # "Tko si ti?", "Ja nisam Krist", then "Onda što si, jesi li Ilija?"
+Tempora/Adv4-0: ["I on obiđe sav kraj", 3]   # John preaches, "Kao što je pisano" introduces Isaiah, then the quotation continues
+Sancti/12-21: ["I poslije osam dana", 3]   # eight days later, Jesus comes and says "Mir vama", "Zatim kaže Tomi"
+Sancti/12-25m3: null   # left out on review: the first two sentences could be read in either order
+Sancti/12-26: ["U ono vrijeme: reče Isus književnicima", 3]   # "I send prophets", "you will kill them", "Zato" their blood will come on you
+Tempora/Nat1-0: ["U ono vrijeme čudili su se", 3]   # parents marvel, Simeon blesses and speaks to Mary, "A tebi" continues his words
+Sancti/12-28r: null   # only two consecutive usable sentences (the others are over 170 characters)
+Sancti/01-01: null   # the Gospel has only one sentence
+Tempora/Nat2-0: null   # the Gospel has only one sentence
+Sancti/01-06: ["– Kad su oni čuli kralja", 3]   # the Magi leave, the star goes before them, "kad ugledaše zvijezdu" they rejoice
+Tempora/Epi1-0: ["Kad je Isusu bilo dvanaest", 4]   # go to Jerusalem, Jesus stays, a day's journey and searching, they return to look
+Sancti/01-13: ["U ono vrijeme: vidje Ivan", 3]   # John sees Jesus, "Ovo je onaj", then "Ja ga nisam poznavao, nego sam zato došao"
+Tempora/Epi2-0: ["U ono vrijeme bio je u Kani", 4]   # a wedding, Jesus invited, the wine runs out, Jesus answers his mother
+Tempora/Quadp1-0: ["Iziđe i oko jedanaestoga sata", 3]   # question "Zašto stojite", answer "Nitko nas nije unajmio", "Reče i njima"
+Tempora/Quadp2-0: ["Kad je to rekao, poviče", 3]   # he cries out, "Na to" the disciples ask, "On im odgovori"
+Sancti/02-02: ["– A u Jeruzalemu je živio", 4]   # Simeon introduced, waiting, the Spirit's promise, he comes to the temple
+Tempora/Quadp3-0: ["Isus se zaustavi, zapovjedi", 4]   # blind man brought, asked "Što hoćeš", "Progledaj", he sees at once
+Tempora/Quad1-0: ["U ono vrijeme: Duh odvede", 4]   # into the desert, fasting and hunger, the tempter's bread, Jesus' answer
+Tempora/Quad2-0: ["Dok je on još govorio", 4]   # cloud, voice from the cloud, "Kad su to učenici čuli" they fall, Jesus raises them
+Sancti/02-22: ["U ono vrijeme: Kad Isus dođe", 4]   # question, people's answers, "A vi?", Peter's confession
+Sancti/02-24: null   # left out on review: the invitation and "Uzmite moj jaram" could be swapped
+Tempora/Quad3-0: ["U ono vrijeme: Isus je izgonio", 3]   # demon cast out, the mute man speaks, "Ali neki rekoše" Beelzebub
+Tempora/Quad4-0: ["– Isus podigne oči", 3]   # question to Philip, "Ovo reče da bi ga kušao", Philip answers
+Tempora/Quad5-0: ["Židovi mu tada rekoše", 3]   # objection about Abraham, Jesus' answer, "Tada pograbe kamenje"
+Sancti/03-19: null   # only two consecutive usable sentences (the angel's words are over 170 characters)
+Tempora/Quad6-0r: ["A kad bi uveče, dođe", 4]   # Joseph comes, asks Pilate for the body, Pilate orders it, Joseph wraps it
+Tempora/Pasc0-0: ["U ono vrijeme: Marija Magdalena", 4]   # spices bought, they come at sunrise, "who will roll the stone?", it is rolled away
+Tempora/Pasc1-0: ["– Poslije osam dana bili", 3]   # eight days later, Jesus comes, "Zatim reče Tomi"
+Sancti/03-25: ["U ono vrijeme: Posla Bog", 3]   # angel sent, greeting, "Kad je ona to čula" she is troubled
+Tempora/Pasc2-0: ["U ono vrijeme: reče Isus farizejima", 3]   # "Ja sam dobri pastir", the good shepherd and the hireling, "Najamnik bježi" explained
+Tempora/Pasc3-0r: ["Pitali su: Što znači", 3]   # the disciples' question, "Ne znamo", then "Isus je znao da su ga htjeli pitati"
+Tempora/Pasc4-0: ["Ali vam kažem istinu", 3]   # the Comforter sent, "Kad on dođe" he convicts of sin, justice, judgement, "Zbog grijeha" explains
+Sancti/05-01r: null   # left out on review: order only moderately clear
+Tempora/Pasc5-0: ["Izišao sam od Oca", 3]   # came from the Father, "Sad opet" leaves, the disciples answer "Eto, sad otvoreno govoriš"
+Local/zg-05-04: ["U ono vrijeme reče Isus svojim", 3]   # vine and vinedresser, the Father prunes and cleans, "Vi ste već čisti"
+Tempora/Pasc5-4: null   # only two consecutive usable sentences (the others are over 170 characters)
+Tempora/Pasc6-0: ["Tjerat će vas iz zbornica", 3]   # put out of synagogues, "Dapače" even killed, "To će vam činiti" gives the reason
+Sancti/05-11r: ["Toma mu reče: Gospodine", 3]   # Thomas' question, "Ja sam put", "Nitko ne dolazi k Ocu nego po meni"
+Tempora/Pasc7-0: ["U ono vrijeme reče Isus svojim", 3]   # "Tko me ljubi", "I njega će moj Otac ljubiti", then the contrary "Tko mene ne ljubi"
+Tempora/Pent01-0r: ["U ono vrijeme reče Isus svojim", 3]   # all power given, "Pođite stoga i učite sve narode", "Krštavajte ih"
+Tempora/Pent01-4: ["Ovo je kruh koji je", 3]   # the bread from heaven, "Nije on kao mana" (they died), "Tko jede ovaj kruh, živjet će"
+Tempora/Pent02-0r: ["U ono vrijeme reče Isus farizejima", 3]   # a great supper, servant sent at supper time, "Ali se svi redom počnu ispričavati"
+Sancti/05-31: ["U ono vrijeme posla Bog", 3]   # angel sent, greeting, "Kad je ona to čula" she is troubled
+Tempora/Pent02-5: ["Vojnici dođu i prebiju", 3]   # legs of the two broken, "Ali" Jesus already dead and pierced, the witness
+Tempora/Pent03-0r: ["Zato im Isus reče ovu", 3]   # the lost sheep, "A kad je nađe" on his shoulders, "Kada pak dođe kući" the friends
+Tempora/Pent04-0: ["– Kad je prestao govoriti", 4]   # "Povezi na pučinu", "mučili smo se svu noć", "Ali, na tvoju riječ", the great catch
+Tempora/Pent05-0: ["Čuli ste da je rečeno", 3]   # "Ne ubij!", "Jer, tko ubije" judged, "A ja vam kažem"
+Sancti/06-24: ["Ali njegova majka reče", 4]   # "zvat će se Ivan", "Nitko se od tvojega roda", they ask the father, he writes "Ivan mu je ime"
+Commune/C5: null   # parallel sayings: the two "Blago ... slugama" and the sayings around them could be swapped
+Sancti/06-29: ["U ono vrijeme: Kad Isus dođe", 4]   # question, people's answers, "A vi?", Peter's confession
+Sancti/07-01: ["Vojnici dođu i prebiju", 3]   # legs of the two broken, "Ali" Jesus already dead and pierced, the witness
+Sancti/07-02: null   # Elizabeth's words (who am I, the child leapt, blessed are you) could be put in more than one order
+Tempora/Pent07-0: null   # left out on review: sayings that could be swapped
+Sancti/07-07: ["U ono vrijeme odredi Gospodin", 3]   # seventy-two sent, "Žetva je velika", "Zato molite gospodara žetve"
+Tempora/Pent08-0: ["I pozove k sebi dužnike", 3]   # "Koliko ti duguješ?", "Sto bačava ulja", "Reče mu: ... napiši: pedeset"
+Commune/C10: null   # the Gospel has only two sentences
+Tempora/Pent09-0: ["U ono vrijeme kad se Isus", 3]   # Jesus weeps over the city, "Ali je sada sakriveno", "Doći će dani"
+Tempora/Pent10-0: ["U ono vrijeme reče Isus onima", 3]   # two men go up to pray, one Pharisee one publican, "Farizej je ... molio"
+Sancti/07-26: ["Nadalje kraljevstvo je nebesko", 4]   # the net cast, "Kad se napuni" sorted, "Tako će biti na svršetku", "Izići će anđeli"
+Tempora/Pent11-0: ["I dovedu k njemu gluha", 3]   # deaf man brought, "Efeta!", "I odmah mu se otvore uši"
+Sancti/08-06: ["Dok je on još govorio", 4]   # cloud, voice from the cloud, "Kad su to učenici čuli" they fall, Jesus raises them
+Tempora/Pent12-0: ["A neki Samaritanac putujući", 4]   # the Samaritan comes, has pity and binds the wounds, inn, "Sutradan" two denarii
+Sancti/08-10: null   # parallel sayings ("Tko ljubi svoj život", "Tko meni služi" twice) could be swapped
+Sancti/08-15: ["Marija tada reče: Veliča", 3]   # Mary answers, "On je pogledao ... i gle!", "Odsad će me zvati blaženom"
+Sancti/08-16: null   # genealogy: the usable sentences are not consecutive (the others are over 170 characters)
+Tempora/Pent14-0: ["Gledajte kako rastu ljiljani", 3]   # lilies, "Pa ako Bog tako odijeva", "Ne brinite se dakle"
+Sancti/08-24: null   # only two consecutive usable sentences (the others are over 170 characters)
+Commune/C8: ["Prvak carinika, bogati Zahej", 4]   # wants to see Jesus, too short, "Zato" climbs the tree, Jesus sees him and calls
+Tempora/Pent15-0: ["Kad je Isus vidi", 4]   # pity for the widow, "Mladiću ... ustani!", "Tada mrtvi mladić sjedne", given to his mother
+Tempora/Pent16-0: ["Tada se Isus rukom", 3]   # Jesus heals, "Onda njima reče" the ox in the well, "Na to mu nisu mogli ništa odgovoriti"
+Sancti/09-08: null   # genealogy: the usable sentences are not consecutive (the others are over 170 characters)
+Tempora/Pent17-0: ["U ono vrijeme pristupe k Isusu", 4]   # question, the commandment, "Ovo je najveća i prva", "Druga je ovoj slična"
+Sancti/09-14: ["U ono vrijeme reče Isus židovskom", 3]   # judgement of the world, "kad budem podignut", "Ovo reče, da najavi kakvom će smrću"
+Sancti/09-15: ["U ono vrijeme: Stajale su", 4]   # standing at the cross, "Ženo, evo ti sina", "Zatim reče učeniku", "od onoga časa"
+Tempora/Pent18-0: ["A da znate da Sin", 3]   # "Ustani ... pođi svojoj kući", "I on ustade i pođe", "Kad su ljudi to vidjeli"
+Sancti/09-21: ["I kad je sjedio za stolom", 3]   # sinners at table, "Kad su to vidjeli farizeji" they ask, "Kad je to čuo Isus" he answers
+Tempora/Pent19-0: ["Tada reče svojim slugama", 4]   # unworthy guests, "Pođite zato na raskršća", the servants go out, the hall is filled
+Sancti/09-29: ["U ono vrijeme, pristupe učenici", 3]   # "tko je najveći?", Jesus sets a child before them, "Dakle, tko se ponizi kao ovo dijete"
+Tempora/Pent20-0: ["Kad se on vraćao kući", 4]   # servants meet him, he asks the hour, they answer, "Tad otac upozna"
+Sancti/10-07: ["U ono vrijeme: Posla Bog", 3]   # angel sent, greeting, "Kad je ona to čula" she is troubled
+Tempora/Pent21-0: ["I kad je počeo obračunavati", 4]   # debtor brought, cannot pay and is to be sold, begs, the master forgives
+Sancti/10-11: ["U ono vrijeme, kad su se vraćali", 3]   # the boy stays behind, a day's journey and searching, "Ali, kako ga ne nađu" they return
+Tempora/Pent22-0: ["Reci nam dakle, što ti", 3]   # the question about the tax, "Isus shvati njihovu zlobu", "Pokažite mi porezni novac"
+Sancti/10-18: ["U ono vrijeme odredi Gospodin", 3]   # seventy-two sent, "Žetva je velika", "Zato molite gospodara žetve"
+Tempora/Pent23-0: ["– Kad je Isus stigao u kuću", 3]   # "djevojka nije umrla, nego spava", "A ljudi se rugahu", "Ali Isus ... primi za ruku djevojku"
+Sancti/10-28: null   # left out on review: sayings that could be swapped
+Sancti/10-DU: ["U ono vrijeme: Upita Pilat", 3]   # Pilate's question, Jesus' counter-question, "Pilat odgovori: Zar sam ja Židov?"
+Sancti/11-01: ["U ono vrijeme, kad vidje Isus", 3]   # he goes up the mountain, "Tada otvori svoja usta i poče ih učiti", the next beatitude
+Sancti/11-02m1: null   # left out on review: sayings that could be swapped
+Tempora/PentEpi5-0: ["U ono vrijeme: Reče Isus narodu", 3]   # good seed sown, "Ali kad su ljudi zaspali" the enemy sows weeds, the weeds appear
+Sancti/11-09: ["Prvak carinika, bogati Zahej", 4]   # wants to see Jesus, too short, "Zato" climbs the tree, Jesus sees him and calls
+Tempora/PentEpi6-0: ["U ono vrijeme: Reče Isus narodu", 3]   # mustard seed sown, it grows into a tree, "I drugu usporedbu reče"
+Sancti/12-27: null   # left out on review: a child cannot tell that the last sentence closes the passage
+Tempora/Epi3-0: ["Kad je Isus ušao u Kafarnaum", 3]   # centurion asks, "Ja ću doći", "A stotnik odgovori: ... nisam dostojan"
+Tempora/Epi4-0: ["Tada njegovi učenici pristupe", 4]   # they wake him, "Što se strašite?", he calms the sea, the men marvel
+Tempora/Epi5-0: ["U ono vrijeme: Reče Isus narodu", 3]   # good seed sown, "Ali kad su ljudi zaspali" the enemy sows weeds, the weeds appear
+Sancti/04-25: ["U ono vrijeme odredi Gospodin", 3]   # seventy-two sent, "Žetva je velika", "Zato molite gospodara žetve"
+Tempora/Pent06-0: ["Ako ih pustim gladne", 3]   # they would faint, the disciples ask "Otkuda?", "Koliko hljebova imate?"
+Sancti/07-25: ["Odgovori mu: Zapovjedi da", 3]   # the mother's request, "Ne znate što ištete", "Možete li piti čašu"
+Sancti/08-22: ["U ono vrijeme: Stajale su", 4]   # standing at the cross, "Ženo, evo ti sina", "Zatim reče učeniku", "od onoga časa"
+Tempora/Pent13-0: ["Kad je ulazio u neko selo", 4]   # ten lepers meet him, cry out, "Idite, pokažite se", "I dok su išli, očiste se"
+Sancti/12-24s: null   # only two consecutive usable sentences (the angel's words are over 170 characters)
+Tempora/PentEpi4-0: ["Tada njegovi učenici pristupe", 4]   # they wake him, "Što se strašite?", he calms the sea, the men marvel

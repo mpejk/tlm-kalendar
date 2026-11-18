@@ -8,7 +8,7 @@
 // Anything unknown in a stored object is kept as it was, so that a later version's fields are not lost by an older page.
 
 export type Dob = 'a' | 'b' | 'c';
-export interface Profil { id: string; ime: string; dob: Dob; vel?: boolean }
+export interface Profil { id: string; ime: string; dob: Dob; vel?: boolean; min?: boolean }
 export interface Razina { l: number; ok: string[] }
 export interface Spremljeno {
   v: 2; profili: Profil[]; tko: string | null;

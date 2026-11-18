@@ -2,14 +2,14 @@
 import fs from 'node:fs'; import path from 'node:path';
 import { chromium } from 'playwright';
 import { loadIgra, ready, setProfiles, playRound } from './play-lib';
-const [date = '2026-11-29', dob = 'c', width = '390', theme = 'light'] = process.argv.slice(2);
+const [date = '2026-11-29', dob = 'c', width = '390', theme = 'light', lv = '1'] = process.argv.slice(2);
 const { BASE, all } = loadIgra(); const r = all.find(x => x.d === date)!;
 const out = '.cache/igra-shots'; fs.mkdirSync(out, { recursive: true });
 const b = await chromium.launch(); const ctx = await b.newContext({ viewport: { width: +width, height: 780 }, hasTouch: true, isMobile: +width < 700, colorScheme: theme as any, deviceScaleFactor: 1 });
 const page = await ctx.newPage(); page.on('pageerror', e => console.log('PAGE ERROR', e.message)); page.on('console', m => { if (m.type() === 'error') console.log('CONSOLE', m.text()); });
 const base = 'file://' + path.resolve('dist/igra/index.html');
-await page.goto(base + '?danas=' + date); await ready(page); await setProfiles(page, [{ ime: 'Ana', dob, vel: dob === 'a' }, { ime: 'Luka', dob: 'b' }]);
-await page.goto(base + '?danas=' + date); await ready(page); const tag = `${date}-${dob}-${width}-${theme}`;
+await page.goto(base + '?danas=' + date); await ready(page); const L = +lv; await setProfiles(page, [{ ime: 'Ana', dob, vel: dob === 'a' }, { ime: 'Luka', dob: 'b' }], 0, { p0: Object.fromEntries(['ruho', 'kalez', 'oltar', 'misa', 'odgovori'].map(g => [g, { l: L, ok: [] }])) });
+await page.goto(base + '?danas=' + date); await ready(page); const tag = `${date}-${dob}-${width}-${theme}-L${lv}`;
 await page.screenshot({ path: `${out}/${tag}-0-pocetak.png`, fullPage: true });
 await page.goto(base + `?d=${date}&danas=${date}`); await ready(page);
 let n = 1; await playRound(page, r, BASE, dob, { wrongFirst: true, drag: true, onGame: async (g, ph) => { await page.screenshot({ path: `${out}/${tag}-${n++}-${g}-${ph}.png`, fullPage: true }); } });
