@@ -398,7 +398,7 @@ async function viewSheet(): Promise<string> {
     if (g === 'rijeci') { const words = r.w.map(([k]) => k); const hrs = det(words, 2); parts.push(sec(g, `<p class="upute">Spoji riječ i značenje.</p><div class="spoji"><ul>${words.map(k => `<li lang="la">${esc(k)} <span class="tocka"></span></li>`).join('')}</ul><ul>${hrs.map(k => `<li><span class="tocka"></span> ${esc(BASE.rijeci[k].hr)}</li>`).join('')}</ul></div>`)); sol.push(`${n}. ${words.map(k => `${esc(k)} – ${esc(BASE.rijeci[k].hr)}`).join('; ')}`); continue; }
     const k0 = s![0];
     if (k0.t === 'red') { const items = det(k0.stavke, 1); parts.push(sec(g, `<p class="upute">Poredaj brojevima.</p><ul class="broji">${items.map(x => `<li><span class="kucica"></span> ${esc(x.hr ?? x.la ?? '')}</li>`).join('')}</ul>`)); sol.push(`${n}. ${k0.stavke.map((x, i) => `${i + 1}. ${esc(g === 'poredaj' ? (x.hr ?? '').split(' ').slice(0, 3).join(' ') + '…' : x.hr ?? x.la ?? '')}`).join(', ')}`); continue; }
-    if (g === 'tjedan') { parts.push(sec(g, `<p class="upute">Upiši boju mise svakoga dana.</p><ul class="broji">${s!.map(q => q.t === 'izbor' ? `<li>${esc(q.uvod!.dan!)}: <span class="crta kratka"></span></li>` : '').join('')}</ul>`)); sol.push(`${n}. ${s!.map(q => q.t === 'izbor' ? `${esc(q.uvod!.dan!.split(',')[0])} – ${BASE.boje[q.tocno]}` : '').join(', ')}`); continue; }
+    if (g === 'tjedan') { parts.push(sec(g, `<p class="upute">Upiši boju mise svakoga dana.</p><ul class="broji tjedan-list">${s!.map(q => q.t === 'izbor' ? `<li><span>${esc(q.uvod!.dan!)}</span> <span class="crta kratka"></span></li>` : '').join('')}</ul>`)); sol.push(`${n}. ${s!.map(q => q.t === 'izbor' ? `${esc(q.uvod!.dan!.split(',')[0])} – ${BASE.boje[q.tocno]}` : '').join(', ')}`); continue; }
     // questions with choices: each question, its choices, a box to tick
     const one = (q: Izbor) => { const u = q.uvod; const lead = u?.svecenik ? `<span lang="la">${esc(u.la!)}</span>` : u?.dan ? `${esc(u.dan)} · ${esc(u.hr!)}` : g === 'evandjelje' ? esc(u!.hr!).replace('_____', '<span class="crta kratka"></span>') : u ? esc(u.hr ?? u.la ?? '') : ''; return `<li>${lead ? `<span class="uv">${lead}</span> ` : ''}${s!.length > 1 && !lead ? `<span class="pit">${esc(q.pitanje)}</span>` : ''}<span class="ponuda">${q.izbori.map(x => `<span class="kv-izbor"><span class="kucica"></span>${esc(g === 'odgovori' ? x.la! : x.hr ?? x.la ?? '')}</span>`).join(' ')}</span></li>`; };
     const qs = s!.filter((q): q is Izbor => q.t === 'izbor');
@@ -408,13 +408,15 @@ async function viewSheet(): Promise<string> {
   return `<div class="list">
   <p class="noprint alati">${btn('ispis', 'Ispiši', '', 'btn glavni')} ${link({ v: 'igra', d: r.d }, 'Igraj', 'btn')} ${link({ v: 'pocetak' }, 'Početak', 'btn tiho')}</p>
   <header><h1>Nedjeljni izazov</h1><p class="dan"><strong>${esc(r.t)}</strong> · ${fmtDay(r.d)}${prof ? ` · ${DOB[dob]}` : ''}</p><p class="ime">Ime: <span class="crta"></span></p></header>
-  ${colour ? `<div class="dva">${colour}<div>${parts.slice(0, 1).join('')}</div></div>${parts.slice(1).join('')}` : parts.join('')}
+  <div class="igre">${colour}${parts.join('')}</div>
   <footer><p class="rjesenja"><strong>Rješenja:</strong> ${sol.join(' · ')}</p>
   <p class="izvor">Kalendar tradicionalne latinske mise, Zagreb · Rimski misal 1962.${games.includes('rijeci') ? ` · značenja riječi: ${esc(BASE.rjecnikIzvor)}` : ''}</p></footer></div>`;
 }
 
 // ---------- render and events
+let updateWaiting = false, reloading = false;
 async function render(): Promise<void> {
+  if (updateWaiting && !reloading && (!play || play.finished)) { reloading = true; location.reload(); return; }
   const m = main(); delete m.dataset.ready;
   document.querySelectorAll<HTMLAnchorElement>('.views a[data-nav]').forEach(a => { const on = a.dataset.nav === (st.v === 'igra' || st.v === 'list' ? '' : st.v); a.classList.toggle('on', on); if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); a.href = urlFor({ v: a.dataset.nav as State['v'], d: null, g: null }); });
   document.body.dataset.v = st.v;
@@ -446,7 +448,12 @@ function start() {
   window.addEventListener('popstate', () => { readUrl(); play = null; render(); });
   dragSetup();
   render();
-  if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) navigator.serviceWorker.register(here + 'sw.js').catch(() => { /* offline use is an extra */ });
+  if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
+    // a returning visitor gets the new version: when a new worker takes over, the page reloads once, but never in the middle of a round
+    const hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener('controllerchange', () => { if (!hadController || reloading) return; if (!play || play.finished) { reloading = true; location.reload(); } else updateWaiting = true; });
+    navigator.serviceWorker.register(here + 'sw.js').catch(() => { /* offline use is an extra */ });
+  }
 }
 
 // ---------- dragging a vestment onto the figure (touch, pen and mouse); a tap does the same without dragging

@@ -177,3 +177,11 @@ body.velika-slova .komad { font-size: 1rem; } body.velika-slova main button, bod
 body.velika-slova .predmet { text-transform: uppercase; }
 .dvoje.hr-prvo .hr { color: var(--ink); font-size: 1.25rem; } .dvoje.hr-prvo .la { color: var(--muted); font-size: 1rem; font-style: italic; }
 .komad.dugo span { font-size: .8rem; }
+/* the sheet: the games flow in two columns so that the whole round fits one A4 page */
+.list .igre { columns: 2 17rem; column-gap: 1.4rem; } .list .igre section { break-inside: avoid; margin-bottom: .3rem; }
+.list .s-misnica .bojanka { max-height: 62mm; }
+.list .tjedan-list li { display: flex; gap: .4rem; align-items: baseline; margin: .25rem 0; } .list .tjedan-list .crta { flex: 1; width: auto; }
+@media print {
+  html { font-size: 11pt; } .list h2 { font-size: 1.05rem; margin: .45rem 0 .1rem; } .list .pitanja li, .broji li { margin: .15rem 0; } .upute { font-size: .9rem; }
+  .list .igre { columns: 2; column-gap: 7mm; } .list header { padding-bottom: .15rem; } .list .ime { margin-top: .2rem; }
+}

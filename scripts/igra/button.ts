@@ -17,8 +17,8 @@ for (const width of [340, 390, 768, 1280]) for (const scheme of ['light', 'dark'
     const page = getComputedStyle(document.body).backgroundColor; const r = e.getBoundingClientRect(), pr = prev.getBoundingClientRect(), nr = nav.getBoundingClientRect();
     return { fg: s.color, bg: s.backgroundColor, page, border: s.borderTopWidth, fs: s.fontSize, prevFs: p.fontSize, name: e.getAttribute('aria-label'), text: e.textContent.trim(), href: e.getAttribute('href'), last: items[items.length - 1] === e, inNav: nav.matches('nav.views'),
       rightEnd: Math.round(nr.right - r.right), sameLine: Math.abs(r.top - pr.top) < 4, heightRatio: r.height / pr.height, doc: document.documentElement.scrollWidth, W: document.documentElement.clientWidth, fontPct: getComputedStyle(document.documentElement).fontSize }; })()`);
-  let reached = false; for (let i = 0; i < 30 && !reached; i++) { await page.keyboard.press('Tab'); reached = await page.evaluate(() => document.activeElement?.classList.contains('djeca') ?? false); }
   await page.screenshot({ path: `.cache/igra-shots/gumb-${width}-${scheme}${big ? '-160' : ''}.png`, clip: { x: 0, y: 0, width, height: big ? 420 : 300 } });
+  let reached = false; for (let i = 0; i < 30 && !reached; i++) { await page.keyboard.press('Tab'); reached = await page.evaluate(() => document.activeElement?.classList.contains('djeca') ?? false); }
   await page.emulateMedia({ media: 'print' }); const inPrint = await a.isVisible(); await page.emulateMedia({ media: 'screen' });
   await a.focus(); await page.keyboard.press('Enter'); await page.waitForFunction(() => location.pathname.includes('/igra/') && !!document.getElementById('main')?.dataset.ready); const back = await page.locator('.views a.kal').count();
   const page_ = rgb(m.page); const fg = over(rgb(m.fg), page_); const bg = over(rgb(m.bg), page_);

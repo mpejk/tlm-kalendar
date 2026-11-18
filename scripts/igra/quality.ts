@@ -5,12 +5,12 @@ import fs from 'node:fs'; import path from 'node:path';
 import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
 import { serve } from '../verify/serve';
-import { loadIgra, ready, setProfiles, playRound } from './play-lib';
+import { loadIgra, ready, setProfiles, playRound, coverage, setLevel } from './play-lib';
 
 const want = (s: string) => process.argv.length <= 2 || process.argv.includes(s);
 const file = 'data/verify/igra-quality.json'; const out: any = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : {};
 const { BASE, all } = loadIgra(); const srv = await serve(); const url = srv.url + 'igra/'; const date = '2027-03-28'; const r = all.find(x => x.d === date)!;
-const KIDS = [{ ime: 'Josip', dob: 'a', vel: true }, { ime: 'Marija', dob: 'b' }, { ime: 'Ivan', dob: 'c' }];
+const KIDS = [{ ime: 'Josip', dob: 'a', vel: true }, { ime: 'Marija', dob: 'b', min: true } as any, { ime: 'Ivan', dob: 'c' }];
 const browser = await chromium.launch({ args: ['--remote-debugging-port=9334'] }); let failed = false;
 try {
   if (want('axe')) {
@@ -22,10 +22,12 @@ try {
       await page.goto(url); await ready(page); await axe('first visit (form)');
       await setProfiles(page, KIDS);
       for (const [i, k] of KIDS.entries()) {
-        await page.evaluate(n => { const s = JSON.parse(localStorage.getItem('igra.v2')!); s.tko = 'p' + n; localStorage.setItem('igra.v2', JSON.stringify(s)); }, i);
-        await page.goto(url + `?d=${date}&danas=${date}`); await ready(page);
-        await playRound(page, r, BASE, k.dob, { touch: true, wrongFirst: true, onGame: async (g, ph) => { await axe(`${k.dob} ${g} ${ph}`); } });
-        await axe(`${k.dob} kraj`);
+        // every game and level in the light theme; in the dark theme the Easter round and the first rounds of the coverage
+        const plan = [{ r, level: 1 }, ...coverage(all, BASE, k.dob, k.dob === 'b')]; for (const { r: rr, level } of scheme === 'light' ? plan : plan.slice(0, 3)) {
+        await setLevel(page, i, level);
+        await page.goto(url + `?d=${rr.d}&danas=${rr.d}&brzo=1`); await ready(page);
+        await playRound(page, rr, BASE, k.dob, { touch: true, wrongFirst: true, onGame: async (g, ph) => { if (ph !== 'mid') await axe(`${k.dob} ${rr.d} ${g} L${level} ${ph}`); } });
+        await axe(`${k.dob} kraj`); }
         for (const v of ['', 'v=album', 'v=roditelji', `d=${date}&ispis=1`]) { await page.goto(url + `?${v}${v ? '&' : ''}danas=${date}`); await ready(page); await axe(`${k.dob} ${v || 'pocetak'}`); }
       }
       await page.locator('[data-act="brisi-sve"]').scrollIntoViewIfNeeded().catch(() => {}); await page.goto(url + '?v=roditelji'); await ready(page); await page.locator('[data-act="novi"]').tap(); await page.locator('[data-act="brisi-sve"]').tap(); await axe('roditelji: form and erase question');
