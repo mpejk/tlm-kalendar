@@ -1,0 +1,23 @@
+# Game "Složi kalež": the chalice prepared for Mass, piece by piece.
+# Order: Missale Romanum 1962, Ritus servandus in celebratione Missae, I. De praeparatione sacerdotis celebraturi, n. 1, printed
+# p. LIV (PDF p. 56 of the CMAA scan), read on the page image:
+#   "Deinde praeparat calicem …, super eius os ponit purificatorium mundum, et super illud patenam cum hostia integra, … et eam
+#    tegit parva palla linea, tum velo serico; super velo ponit bursam coloris paramentorum intus habentem corporale plicatum"
+# Only what the page states is shown: six steps, the burse with the corporal folded inside, the veil of silk, the burse in the
+# colour of the vestments.
+# Croatian names (hr) — Kniewald first, then the standard term with its source; where no source gives a Croatian name, the Latin
+# name is shown alone (hr: null):
+#   kalež, plitica s hostijom — Kniewald 1942, Red i čin sv. mise, p. 16 ("otkriva svećenik kalež, uzme zlatnu pliticu s hostijom")
+#   tjelesnik — Kniewald 1942, p. 17 ("Postavivši hostiju na tjelesnik")
+#   pala — Proleksis enciklopedija, "pala": "bijelo laneno platno kojim se pokriva misni kalež na oltaru" (proleksis.lzmk.hr/40317)
+#   purificatorium, velum, bursa — no Croatian name in Kniewald (1942, 1930) nor in Proleksis: Latin alone
+izvor: "Missale Romanum 1962, Ritus servandus in celebratione Missae, I, 1, str. LIV (PDF str. 56)"
+kalez:
+  - { id: calix,   la: "calix",          hr: "kalež",             hrIzvor: "Kniewald 1942., str. 16", rubrika: "praeparat calicem" }
+  - { id: purif,   la: "purificatorium", hr: null,                rubrika: "super eius os ponit purificatorium mundum" }
+  - { id: patena,  la: "patena cum hostia", hr: "plitica s hostijom", hrIzvor: "Kniewald 1942., str. 16", rubrika: "et super illud patenam cum hostia integra" }
+  - { id: palla,   la: "palla",          hr: "pala",              hrIzvor: "Proleksis enciklopedija, natuknica »pala«", rubrika: "et eam tegit parva palla linea" }
+  - { id: velum,   la: "velum",          hr: null,                rubrika: "tum velo serico" }
+  - { id: bursa,   la: "bursa",          hr: null,                rubrika: "super velo ponit bursam coloris paramentorum intus habentem corporale plicatum" }
+# The corporal inside the burse is named in the round's summary: tjelesnik (corporale), Kniewald 1942, p. 17.
+tjelesnik: { la: "corporale", hr: "tjelesnik", hrIzvor: "Kniewald 1942., str. 17" }

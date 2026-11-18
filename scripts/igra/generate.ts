@@ -50,9 +50,9 @@ export function generate(D: Dist) {
     // game 3
     const rite = d.masses.some(m => m.kind === 'rite'); const palm = d.temporalId === 'Quad6-0'; const req = v.colour === 'b'; const easter = d.temporalId === 'Pasc0-0';
     const cond: Record<string, boolean> = { bezPristupnih: rite, bezMuke: palm, bezRekvijema: req, bezUskrsa: easter };
-    const ok = (ordo.odgovori as any[]).filter(o => !(o.uvjet ?? []).some((u: string) => cond[u]));
+    const ok = (ordo.odgovori as any[]).filter(o => !o.dugo && !(o.uvjet ?? []).some((u: string) => cond[u]));
     // each question: the line, then wrong answers taken from the other lines (texts that differ from the right one and from each other)
-    const all = ordo.odgovori as any[];
+    const all = (ordo.odgovori as any[]).filter(o => !o.dugo);
     const pick = (list: any[], n: number, wrongN: number) => {
       const out: any[] = []; for (const o of shuffled(list, r)) if (out.length < n && !out.some(x => x.laOdg === o.laOdg)) out.push(o);
       return all.filter(o => out.includes(o)).map(o => { const ws: any[] = []; for (const x of shuffled(all, r)) if (ws.length < wrongN && x.laOdg !== o.laOdg && !ws.some(y => y.laOdg === x.laOdg)) ws.push(x); return [o.id, ...ws.map(x => x.id)] as string[]; });

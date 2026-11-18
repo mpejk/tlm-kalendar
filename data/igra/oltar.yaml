@@ -1,0 +1,35 @@
+# Game "Pripremi oltar": what is on the altar for Mass and where, as the Code of Rubrics states it.
+# Rubricae generales Missalis Romani (Code of Rubrics 1960), XI. De praeparatione altaris ad Missam, nn. 526-528, printed in the
+# Missale Romanum 1962 p. XXXVI (PDF p. 34), read on the page image:
+#   526 "Altare cooperiatur tribus tobaleis, rite benedictis, quarum una ita oblonga sit ut, ad latera, usque ad terram pertingat."
+#   527 "Super altare adsit in medio Crux satis magna cum Crucifixo, et candelabra quae iuxta qualitatem Missae requiruntur, cum
+#        candelis accensis, hinc et inde in utroque eius latere. Ponantur insuper sic dictae «tabellae secretarum», sed pro tempore
+#        Missae tantum; et, ad latus Epistolae, cussinus, seu legile, Missali supponendum."
+#   528 "Ad latus Epistolae, super mensa ad hoc praeparata, parentur ampullae vini et aquae cum pelvicula et manutergio, necnon parva
+#        campanula, et patina pro fidelium Communione."
+# The chalice and the burse at the beginning of Mass: Ritus servandus II, 2, p. LIV (PDF p. 56): the priest spreads the corporal
+# "in medio altaris, et super illud calicem velo coopertum collocat, bursam autem ad latus Evangelii".
+# Nothing from custom is shown (no flowers, no number of candles: n. 527 leaves it to the kind of Mass; the place of the altar
+# cards is not stated, so they are asked only as "on the altar").
+# mjesto: sredina (in medio), strane (hinc et inde, on each side), poslanica (ad latus Epistolae), evandjelje (ad latus Evangelii),
+#         oltar (on the altar, place not stated), stolic (on the table at the Epistle side, n. 528)
+# Croatian names: Kniewald 1942 where he has them; Proleksis enciklopedija for gostarica ("liturgijski predmeti": "gostarica,
+# vrčić za vodu i vino", proleksis.lzmk.hr/33903); otherwise the Latin alone (hr: null).
+izvor: "Rubricae generales Missalis (1960), nn. 526–528, Missale Romanum 1962, str. XXXVI (PDF str. 34); Ritus servandus II, 2, str. LIV"
+mjesta:
+  sredina:    { hr: "u sredini žrtvenika", hrIzvor: "Kniewald 1942., str. 17" , la: "in medio" }
+  strane:     { hr: "s obje strane raspela", la: "hinc et inde" }
+  poslanica:  { hr: "na strani Poslanice", hrIzvor: "Kniewald 1942., str. 17", la: "ad latus Epistolae" }
+  evandjelje: { hr: "na strani Evanđelja", la: "ad latus Evangelii" }
+  stolic:     { hr: "na stoliću sa strane Poslanice", la: "super mensa ad latus Epistolae" }
+predmeti:
+  - { id: stolnjaci, la: "tres tobaleae",        hr: "tri stolnjaka",  hrIzvor: "Kniewald 1942., str. 251", mjesto: oltar,      n: 526, broj: 3 }
+  - { id: raspelo,   la: "Crux cum Crucifixo",   hr: "raspelo",        hrIzvor: "Kniewald 1942., str. 263", mjesto: sredina,    n: 527 }
+  - { id: svijece,   la: "candelabra cum candelis accensis", hr: "svijećnjaci sa svijećama", hrIzvor: "Kniewald 1942. (svijećnjak, str. 525; svijeće)", mjesto: strane, n: 527 }
+  - { id: tabelle,   la: "tabellae secretarum",  hr: null,                                                mjesto: oltar,      n: 527 }
+  - { id: misal,     la: "Missale super cussino", hr: "misal",         hrIzvor: "Kniewald 1942., naslov: Rimski misal", mjesto: poslanica, n: 527 }
+  - { id: kalez,     la: "calix",                hr: "kalež",          hrIzvor: "Kniewald 1942., str. 16", mjesto: sredina,    n: "Ritus servandus II, 2" }
+  - { id: bursa,     la: "bursa",                hr: null,                                                mjesto: evandjelje, n: "Ritus servandus II, 2" }
+  - { id: gostarice, la: "ampullae vini et aquae", hr: "gostarice",    hrIzvor: "Proleksis enciklopedija, »liturgijski predmeti«", mjesto: stolic, n: 528 }
+  - { id: manutergium, la: "pelvicula et manutergium", hr: null,                                          mjesto: stolic,     n: 528 }
+  - { id: campanula, la: "parva campanula",      hr: null,                                                mjesto: stolic,     n: 528 }

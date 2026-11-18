@@ -5,11 +5,14 @@
 # Croatian names: Kniewald's Rimski misal (1942) does not name the vestments (searched: the Ordinary pp. 8-31 and the whole OCR
 # text), so the standard Croatian liturgical terms are used (hrIzvor: uobičajeni naziv).
 izvor: "Missale Romanum 1962, Praeparatio ad Missam, str. LXXIII (PDF str. 75)"
-hrIzvor: "uobičajeni hrvatski naziv (Kniewald 1942. ne imenuje misno ruho)"
+hrIzvor: "uobičajeni hrvatski nazivi (Kniewald 1942. ne imenuje misno ruho); naglavnik i naručnik potvrđuje Proleksis enciklopedija (»humerale«, »manipul«)"
+# molitva: the opening words of the prayer said at each vestment (same page, read on the page image; level 4 of the game, oldest
+# band). Kniewald 1942 does not print these prayers (searched in the whole text of 1942 and 1930), so they are shown in Latin alone.
+molitvaIzvor: "Missale Romanum 1962, Orationes dicendae cum sacerdos induitur sacerdotalibus paramentis, str. LXXIII (PDF str. 75)"
 ruho:
-  - { id: amikt,   la: "amictus",   rubrika: "Ad amictum, dum ponitur super caput",        hr: "naglavnik" }
-  - { id: alba,    la: "alba",      rubrika: "Ad albam, cum ea induitur",                  hr: "alba" }
-  - { id: pojas,   la: "cingulum",  rubrika: "Ad cingulum, dum se cingit",                 hr: "pojas" }
-  - { id: narucnik, la: "manipulus", rubrika: "Ad manipulum, dum imponitur bracchio sinistro", hr: "naručnik" }
-  - { id: stola,   la: "stola",     rubrika: "Ad stolam, dum imponitur collo",             hr: "štola" }
-  - { id: misnica, la: "casula",    rubrika: "Ad casulam, cum assumitur",                  hr: "misnica" }
+  - { id: amikt,   la: "amictus",   rubrika: "Ad amictum, dum ponitur super caput",        hr: "naglavnik", molitva: "Impóne, Dómine, cápiti meo gáleam salútis…" }
+  - { id: alba,    la: "alba",      rubrika: "Ad albam, cum ea induitur",                  hr: "alba", molitva: "Deálba me, Dómine, et munda cor meum…" }
+  - { id: pojas,   la: "cingulum",  rubrika: "Ad cingulum, dum se cingit",                 hr: "pojas", molitva: "Præcínge me, Dómine, cíngulo puritátis…" }
+  - { id: narucnik, la: "manipulus", rubrika: "Ad manipulum, dum imponitur bracchio sinistro", hr: "naručnik", molitva: "Mérear, Dómine, portáre manípulum fletus et dolóris…" }
+  - { id: stola,   la: "stola",     rubrika: "Ad stolam, dum imponitur collo",             hr: "štola", molitva: "Redde mihi, Dómine, stolam immortalitátis…" }
+  - { id: misnica, la: "casula",    rubrika: "Ad casulam, cum assumitur",                  hr: "misnica", molitva: "Dómine, qui dixísti: Iugum meum suáve est…" }
