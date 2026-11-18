@@ -22,7 +22,14 @@ Podebljano je igra stalnoga znanja.
 
 | Nedjelja | 6–7 godina | 8–10 godina | 11 i više |
 | --- | --- | --- | --- |
-TABLICA
+| 22. 11. 2026. Posljednja nedjelja po Duhovima | Boja i dan, **Obuci svećenika**, Boje tjedna | Boja i dan, **Obuci svećenika**, Boje tjedna, Koji je ovo dio? | Boja i dan, **Obuci svećenika**, Boje tjedna, Koji je ovo dio?, Poredaj evanđelje |
+| 29. 11. 2026. 1. NEDJELJA DOŠAŠĆA | Boja i dan, **Složi kalež**, Koliko još nedjelja? | Što se danas ne govori?, **Složi misu**, Poredaj evanđelje, Sveci tjedna | Što se danas ne govori?, **Složi misu**, Sveci tjedna, Riječi nedjelje, Dopuni evanđelje |
+| 6. 12. 2026. 2. NEDJELJA DOŠAŠĆA | Boja i dan, **Složi misu**, Koliko još nedjelja? | Koji je ovo dio?, **Pripremi oltar**, Što se danas ne govori?, Poredaj evanđelje | Što se danas ne govori?, **Pripremi oltar**, Poredaj evanđelje, Riječi nedjelje, Dopuni evanđelje |
+| 13. 12. 2026. 3. NEDJELJA DOŠAŠĆA | Boja i dan, **Složi kalež**, Koliko još nedjelja? | Koji je ovo dio?, **Obuci svećenika**, Što se danas ne govori?, Poredaj evanđelje | Boja i dan, **Obuci svećenika**, Što se danas ne govori?, Poredaj evanđelje, Dopuni evanđelje |
+| 20. 12. 2026. 4. NEDJELJA DOŠAŠĆA | Boja i dan, **Pripremi oltar**, Boje tjedna | Boja i dan, **Složi misu**, Boje tjedna, Sveci tjedna | Boje tjedna, **Složi misu**, Koji je ovo dio?, Sveci tjedna, Riječi nedjelje |
+| 27. 12. 2026. Nedjelja u božićnoj osmini | Boja i dan, **Složi misu**, Boje tjedna | Boja i dan, **Obuci svećenika**, Boje tjedna, Koji je ovo dio? | Boja i dan, **Obuci svećenika**, Boje tjedna, Koji je ovo dio?, Riječi nedjelje |
+| 3. 1. 2027. Presveto Ime Isusovo | Boja i dan, **Složi kalež**, Boje tjedna | Boja i dan, **Pripremi oltar**, Boje tjedna, Koji je ovo dio? | Boja i dan, **Pripremi oltar**, Boje tjedna, Koji je ovo dio?, Dopuni evanđelje |
+| 10. 1. 2027. Sveta Obitelj Isusa, Marije i Josipa | Boja i dan, **Pripremi oltar**, Boje tjedna | Boja i dan, **Obuci svećenika**, Koji je ovo dio?, Sveci tjedna | Boja i dan, **Obuci svećenika**, Koji je ovo dio?, Sveci tjedna, Dopuni evanđelje |
 
 ## Odakle je novi stalni sadržaj
 
@@ -39,7 +46,24 @@ Testovi s brojem stranice u `tests/igra.test.ts` (red kaleža, oltar, molitve, d
 
 ## Provjera u brojkama
 
-BROJKE
+- **Raznolikost (22. 11. 2026. – kraj 2036., 979 izazova):** u sve tri dobi nijedan izazov nema iste igre kao izazov prije njega (0 slučajeva), a igra stalnoga znanja nikad nije ista dva izazova zaredom ni dvije nedjelje zaredom. Najmanje pojavljivanja svake igre stalnoga znanja u jednoj punoj liturgijskoj godini (2026./27. – 2035./36., traženo najmanje 8):
+
+  | Dob | Obuci svećenika | Složi kalež | Pripremi oltar | Složi misu | Odgovori na misi |
+  | --- | --- | --- | --- | --- | --- |
+  | 6–7 | 22 | 22 | 22 | 23 | — |
+  | 8–10 | 18 | 18 | 17 | 18 | 18 |
+  | 11+ | 18 | 18 | 17 | 18 | 18 |
+
+  (Djelomične godine na rubovima imaju samo 1 izazov, 22. 11. 2026., odnosno 7 izazova u prosincu 2036.)
+- **Izazovi:** 979 izazova × 3 dobi × sve razine = 16 833 varijanti igara, 46 720 pitanja i slaganja, 171 439 ponuđenih odgovora: **0 pogrešaka**. Svaki izazov u granici (3/4/5 igara) s točno jednom igrom stalnoga znanja; svako pitanje ima točno jedan točan odgovor, krivi se razlikuju od točnoga i međusobno; nema praznog teksta ni »N.«. Tekstovi iz kalendara provjereni su prema kalendaru (rečenice evanđelja i njihov red, početci dijelova mise latinski i hrvatski, boje i naslovi tjedna, blagdani tjedna, broj nedjelja, što se ne govori). Isti skup odgovora nikad dva izazova zaredom. Učestalost igara (zbroj triju dobi): Boja i dan 2624, Boje tjedna 1885, Koji je ovo dio? 1034, Poredaj evanđelje 866, Sveci tjedna 709, Riječi nedjelje 491, Dopuni evanđelje 489, Koliko još nedjelja? 406, Što se danas ne govori? 303; Složi misu 639, Obuci svećenika 637, Složi kalež 636, Pripremi oltar 635, Odgovori na misi 390.
+- **Izvori:** testovi s brojem stranice za red kaleža (str. LIV), oltar (br. 526–528, str. XXXVI), molitve pri oblačenju (str. LXXIII) i dulje odgovore (Misal str. 216, Kniewald str. 8–10).
+- **Prijenos podataka:** 9 testova s podacima u obliku koji je bio objavljen (četvero djece, sličice i znakovi vježbe): sve se učita bez gubitka, stari zapis ostaje netaknut, pokvaren novi zapis vraća se na stari. U pregledniku (Chromium i WebKit): igra otvorena s tim podacima pokazuje četvero djece i njihove albume.
+- **Igranje dodirom:** Chromium i WebKit (profil iPhonea), širine 390 i 768 px: u svakom pregledniku **122 izazova, 516 igara, 0 pogrešaka**; 16 dana kroz sva liturgijska vremena i svaka igra u svakoj razini u sve tri dobi (59 kombinacija dob × igra × razina); 22 puta kalež ili ruho povučeni prstom. Razina je porasla nakon trećeg izazova bez pogreške (ne ranije), preživjela ponovno učitavanje, sljedeći izazov s kaležom bio je na razini 2, a izazov s pogreškom nije se brojao. Četiri profila i albumi na mjestu nakon ponovnog učitavanja; brisanje uklanja oba zapisa.
+- **Izgled:** 1908 zaslona po pregledniku (Chromium i WebKit) na 340 px, uz slova 100 %, 130 % i 160 %, svijetlo i tamno, svaka igra i razina i list za ispis: nema vodoravnog pomicanja; 18 142 dodirne površine, najmanja 44 px. Snimke svih novih igara i razina za sve tri dobi u svijetloj i tamnoj temi pregledane su; ispravljeno: crtež kaleža (purifikatorij, velum pokriva što je ispod, bursa leži na velumu), pitanje uz oltar (»Gdje to stoji na misi?«), duga latinska imena na uskom zaslonu i na listu.
+- **List za ispis:** 12 listova (4 dana × 3 dobi) ispisano u PDF, svaki na jednoj stranici A4.
+- **Kvaliteta:** axe 517 zaslona, 0 ozbiljnih prekršaja; 0 zahtjeva prema drugim stranicama. Lighthouse (mobitel): početna stranica 99 brzina / 100 pristupačnost, izazov 96 / 100. Bez mreže nakon jednog posjeta: 7 od 7 stranica, uključujući odigran izazov. S diska (`file://`): radi, bez zahtjeva prema mreži; stavka »Djeca« vodi u igru, »Kalendar« natrag.
+- **Kalendar:** `npm run check` prolazi u cijelosti (154 testa; pregled svih dana 2026.–2036. s diska i preko poslužitelja bez pogreške; provjere stranice 0 pogrešaka).
+- **Stavka »Djeca«:** 16 slučajeva (340, 390, 768 i 1280 px, svijetlo i tamno, slova 100 % i najveća 160 %): posljednja u izborniku i na desnom kraju, iste veličine slova kao susjedne stavke, obrub i blaga pozadina (ne puna boja), kontrast 5,59 (svijetlo) i 9,44 (tamno), dostupna tipkovnicom, vodi u igru, nema je u ispisu, nema vodoravnog pomicanja. Snimke pregledane: ništa se ne prelama loše; na uskim zaslonima stavka prelazi u sljedeći red, desno.
 
 ## Što je izostavljeno jer izvor to ne podupire
 
