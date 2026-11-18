@@ -35,6 +35,8 @@ Izravna poveznica na jedan izazov: https://mpejk.github.io/tlm-kalendar/igra/?d=
 - **Kvaliteta:** axe 94 zaslona, 0 ozbiljnih prekršaja. Lighthouse (mobitel): početna stranica 99 brzina / 100 pristupačnost, izazov 97 / 100. Bez mreže nakon jednog posjeta: 7 od 7 stranica, uključujući odigran cijeli izazov. S diska (`file://`): radi, bez ijednog zahtjeva prema mreži. Zahtjeva prema drugim stranicama: 0.
 - **Kalendar:** `npm run check` prolazi u cijelosti (139 testova, pregled svih dana 2026.–2036. bez pogrešaka, provjere stranice 0 pogrešaka). Gumb »Igra«: vidljiv na 340 i 1280 px u obje teme (kontrast 6,45 i 9,14), dostupan tipkovnicom, nema ga u ispisu.
 
+- **Nakon objave (18. 11. 2026., Chromium i WebKit s profilom iPhonea):** adresa igre se učitava i ista je inačica kao lokalno izgrađena; gumb »Igra« je na objavljenom kalendaru i otvara igru; izravna poveznica na izazov 29. 11. 2026. otvara se i izazov je odigran do sličice (6 igara); list za ispis se otvara; poveznica »Kalendar« vraća natrag; 0 zahtjeva prema drugim stranicama (`npx tsx scripts/igra/live.ts`).
+
 ## Značenja riječi u nacrtu
 
 Nema ih. Sva značenja su iz rječnika. Izostavljeno je 13 riječi kojih u rječniku nema ili imaju samo klasično značenje koje ne odgovara misi: angelus, apostolus, benedico, benedictio, caro, desertum, ecclesia, hymnus, manduco, mortuus, offero, oratio, propheta.

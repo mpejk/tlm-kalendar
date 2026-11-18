@@ -1,0 +1,32 @@
+{
+ "site": "https://mpejk.github.io/tlm-kalendar/",
+ "checked": "2026-11-18",
+ "engines": {
+  "chromium": {
+   "gameLoads": true,
+   "sameBuildAsLocal": true,
+   "buttonOnCalendar": true,
+   "buttonOpensGame": true,
+   "directRoundLink": true,
+   "gamesPlayed": 6,
+   "sticker": true,
+   "sheet": true,
+   "linkBack": true,
+   "requestsToOtherSites": [],
+   "errors": []
+  },
+  "webkit": {
+   "gameLoads": true,
+   "sameBuildAsLocal": true,
+   "buttonOnCalendar": true,
+   "buttonOpensGame": true,
+   "directRoundLink": true,
+   "gamesPlayed": 6,
+   "sticker": true,
+   "sheet": true,
+   "linkBack": true,
+   "requestsToOtherSites": [],
+   "errors": []
+  }
+ }
+}
